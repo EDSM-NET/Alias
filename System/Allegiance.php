@@ -14,13 +14,13 @@ class Allegiance extends Alias
     /**
      * List of names used in game
      */
-    static protected $name      = [
-         0  => 'None',
+    static protected $name  = [
+         0                      => 'None',
          
-         1  => 'Alliance',
-         2  => 'Empire',
-         3  => 'Federation',
-         4  => 'Independent',
+         1                      => 'Alliance',
+         2                      => 'Empire',
+         3                      => 'Federation',
+         4                      => 'Independent',
     ];
     
     /**
@@ -30,13 +30,13 @@ class Allegiance extends Alias
      *     => trim
      *     => strtolower
      */
-    static protected $alias     = [
-        'alliance'                          => 1,
-        'empire'                            => 2,
-        'federation'                        => 3,
-        'independent'                       => 4,
+    static protected $alias = [
+        'alliance'              => 1,
+        'empire'                => 2,
+        'federation'            => 3,
+        'independent'           => 4,
         
         // Bug on #19700/CM Draconis
-        'playerpilots'                      => 0,
+        'playerpilots'          => 0,
     ];
 }

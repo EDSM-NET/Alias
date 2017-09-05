@@ -1,4 +1,4 @@
-<?php
+    <?php
 /**
  * Elite: Dangerous Star Map
  *
@@ -14,21 +14,21 @@ class State extends Alias
     /**
      * List of names used in game
      */
-    static protected $name      = [
-         0  => 'None',
+    static protected $name  = [
+         0                      => 'None',
          
-         1  => 'Boom',
-         2  => 'Bust',
-         3  => 'Civil unrest',
-         4  => 'Civil war',
-         5  => 'Election',
-         6  => 'Expansion',
-         7  => 'Famine',
-         8  => 'Investment',
-         9  => 'Lockdown',
-        10  => 'Outbreak',
-        11  => 'Retreat',
-        12  => 'War',
+         1                      => 'Boom',
+         2                      => 'Bust',
+         3                      => 'Civil unrest',
+         4                      => 'Civil war',
+         5                      => 'Election',
+         6                      => 'Expansion',
+         7                      => 'Famine',
+         8                      => 'Investment',
+         9                      => 'Lockdown',
+        10                      => 'Outbreak',
+        11                      => 'Retreat',
+        12                      => 'War',
     ];
     
     /**
@@ -38,7 +38,7 @@ class State extends Alias
      *     => trim
      *     => strtolower
      */
-    static protected $alias     = [
+    static protected $alias = [
         'none'                  => 0,
     
         'boom'                  => 1,

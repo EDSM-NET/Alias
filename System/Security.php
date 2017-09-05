@@ -14,15 +14,15 @@ class Security extends Alias
     /**
      * List of names used in game
      */
-    static protected $name      = [
-         0  => 'None',
+    static protected $name  = [
+         0                      => 'None',
          
-         1  => 'Low',
-         2  => 'Medium',
-         3  => 'High',
+         1                      => 'Low',
+         2                      => 'Medium',
+         3                      => 'High',
     
-        10  => 'Anarchy',
-        11  => 'Lawless',
+        10                      => 'Anarchy',
+        11                      => 'Lawless',
     ];
     
     /**
@@ -35,12 +35,12 @@ class Security extends Alias
      *     => str_replace($system_security_)
      *     => str_replace($galaxy_map_info_state_)
      */
-    static protected $alias     = [
-        'low'           => 1,
-        'medium'        => 2,
-        'high'          => 3,
+    static protected $alias = [
+        'low'                   => 1,
+        'medium'                => 2,
+        'high'                  => 3,
         
-        'anarchy'       => 10,
-        'lawless'       => 11,
+        'anarchy'               => 10,
+        'lawless'               => 11,
     ];
 }
