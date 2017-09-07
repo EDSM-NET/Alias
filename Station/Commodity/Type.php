@@ -439,7 +439,7 @@ class Type extends Alias
         'delta phoenicis palms'                 => 108,
         'toxandji virocide'                     => 109,     'toxandjivirocide'              => 109,
         'anduliga fire works'                   => 110,
-        'hip organophosphates'                  => 111,     'h i p organophosphates'        => 113,
+        'hip organophosphates'                  => 111,     'h i p organophosphates'        => 111,     'hiporganophosphates'           => 111,
         'koro kung pellets'                     => 112,     'korro kung pellets'            => 112,
         'water'                                 => 113,
         'hydrogen peroxide'                     => 114,     'hydrogenperoxide'              => 114,
