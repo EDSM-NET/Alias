@@ -11,10 +11,12 @@ use         EDSM\Alias;
 
 class Type extends Alias
 {
+    use \EDSM\Alias\Body\Star\Scoopable;
+    
     /**
      * List of names used in game
      */
-    static protected $name  = [
+    static protected $name = [
         // Main sequence
           1     => 'O (Blue-White) Star',
           2     => 'B (Blue-White) Star',
@@ -159,7 +161,7 @@ class Type extends Alias
     /**
      * List of scoopable star
      */
-    static private $scoopable   = array(
+    static protected $scoopable = array(
         1,
         2,
         3, 301,
@@ -169,14 +171,4 @@ class Type extends Alias
         7, 701, 702,
         101, 102, 103, 104, 105,
     );
-    
-    static public function isScoopable($type)
-    {
-        if(in_array($type, self::$scoopable))
-        {
-            return true;
-        }
-        
-        return false;
-    }
 }
