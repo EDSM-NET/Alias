@@ -527,7 +527,7 @@ class Type extends Alias
         'utgaroar millennial eggs'              => 412,     'utgaroar millenial eggs'       => 412,
         'witchhaul kobe beef'                   => 413,
         'karsuki locusts'                       => 414,
-        'giant irukama snails'                  => 415,
+        'giant irukama snails'                  => 415,     'giantirukamasnails'            => 415,
         'baltah sine vacuum krill'              => 416,
         'ceti rabbits'                          => 417,
         'any na coffee'                         => 418,
