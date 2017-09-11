@@ -9,7 +9,7 @@
 namespace   Alias\Body\Ring;
 use         EDSM\Alias;
 
-class Class extends Alias
+class Type extends Alias
 {
     /**
      * List of names used in game
