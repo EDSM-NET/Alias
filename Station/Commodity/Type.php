@@ -538,7 +538,7 @@ class Type extends Alias
         'live hecate sea worms'                 => 423,
         'helvetitj pearls'                      => 424,
         'hip proto-squid'                       => 425,     'h i p41181 squid'              => 425,
-        'coquim spongiform victuals'            => 426,
+        'coquim spongiform victuals'            => 426,     'coquimspongiformvictuals'      => 426,
         'eden apples of aerial'                 => 427,     'aerial eden apple'             => 427,     'aerialedenapple'               => 427,
         'neritus berries'                       => 428,
         'ochoeng chillies'                      => 429,
@@ -599,7 +599,7 @@ class Type extends Alias
         'exhaust manifold'                      => 623,     'exhaustmanifold'               => 623,
         'reinforced mounting plate'             => 624,
         'heatsink interlink'                    => 625,
-        'magnetic emitter coil'                 => 626,
+        'magnetic emitter coil'                 => 626,     'magneticemittercoil'           => 626,
         'modular terminals'                     => 627,     'modularterminals'              => 627,
         
         'agricultural medicines'                => 701,     'agriculturalmedicines'         => 701,
@@ -708,7 +708,7 @@ class Type extends Alias
         'biowaste'                              => 1301,
         'chemical waste'                        => 1302,
         'scrap'                                 => 1303,
-        'toxic waste'                           => 1304,
+        'toxic waste'                           => 1304,    'toxicwaste'                    => 1304,
         
         'non lethal weapons'                    => 1401,    'nonlethalweapons'              => 1401,
         'personal weapons'                      => 1402,    'personalweapons'               => 1402,

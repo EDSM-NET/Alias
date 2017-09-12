@@ -1600,6 +1600,13 @@ class PaintJob extends Alias
             'orca_corporate1_corporate5'                    => 'Wayfarer Green',
             'orca_corporate1_corporate6'                    => 'Wayfarer Yellow',
             
+            'orca_corporate2_corporate2a'                   => 'Pathfinder Green',
+            'orca_corporate2_corporate2b'                   => 'Pathfinder Orange',
+            'orca_corporate2_corporate2c'                   => 'Pathfinder Red',
+            'orca_corporate2_corporate2d'                   => 'Pathfinder Yellow',
+            'orca_corporate2_corporate2e'                   => 'Pathfinder Blue',
+            'orca_corporate2_corporate2f'                   => 'Pathfinder Graphite',
+            
             'orca_flatcolour_blue'                          => null,
             'orca_flatcolour_green'                         => null,
             'orca_flatcolour_grey'                          => null,
