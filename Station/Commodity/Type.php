@@ -525,7 +525,7 @@ class Type extends Alias
         'hip 10175 bush meat'                   => 410,     'h i p10175 bush meat'          => 410,
         'albino quechua mammoth'                => 411,     'albinoquechuamammoth'          => 411,
         'utgaroar millennial eggs'              => 412,     'utgaroar millenial eggs'       => 412,
-        'witchhaul kobe beef'                   => 413,
+        'witchhaul kobe beef'                   => 413,     'witchhaulkobebeef'             => 413,
         'karsuki locusts'                       => 414,
         'giant irukama snails'                  => 415,     'giantirukamasnails'            => 415,
         'baltah sine vacuum krill'              => 416,

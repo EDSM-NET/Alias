@@ -31,7 +31,7 @@ class Type extends Alias
      */
     static protected $alias = [
         'icy'                       => 1,
-        'metallic'                  => 2,
+        'metallic'                  => 2,   'metalic'                   => 2,
         'metal rich'                => 3,   'metalrich'                 => 3,
         'rocky'                     => 4,
     ];
