@@ -744,7 +744,7 @@ class Type extends Alias
         'salvageable wreckage'                  => 1617,
         'encrypted data storage'                => 1618,    'encripteddatastorage'          => 1618,
         'personal effects'                      => 1619,    'personaleffects'               => 1619,
-        'commercial samples'                    => 1620,
+        'commercial samples'                    => 1620,    'comercialsamples'              => 1620,
         'tactical data'                         => 1621,
         'assault plans'                         => 1622,
         'encrypted correspondence'              => 1623,
