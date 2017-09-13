@@ -2329,7 +2329,7 @@ class PaintJob extends Alias
 
         // Vulture
         128049309 => array(
-            'vulture_bartecki_bartecki'                     => null,
+            'vulture_bartecki_bartecki'                     => 'Flash',
             
             'vulture_blackfriday_01'                        => 'Black Friday',
             
