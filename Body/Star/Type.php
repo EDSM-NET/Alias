@@ -161,7 +161,7 @@ class Type extends Alias
     /**
      * List of scoopable star
      */
-    static protected $scoopable = array(
+    static protected $scoopable = [
         1,
         2,
         3, 301,
@@ -170,5 +170,5 @@ class Type extends Alias
         6, 601,
         7, 701, 702,
         101, 102, 103, 104, 105,
-    );
+    ];
 }
