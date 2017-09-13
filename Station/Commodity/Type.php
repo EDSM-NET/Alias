@@ -11,6 +11,8 @@ use         EDSM\Alias;
 
 class Type extends Alias
 {
+    use \EDSM\Alias\Station\Commodity\Rare;
+    
     /**
      * List of names used in game
      */
@@ -816,5 +818,24 @@ class Type extends Alias
         'undergroundsupport'                    => 9936,
         'gromcounterintelligence'               => 9937,
         'gromwartrophies'                       => 9938,
+    ];
+    
+    /**
+     * List of rare commodity
+     */
+    static protected $rare  = [
+        108, 109, 110, 111, 112,
+        214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227,
+        318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333,
+        433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449,
+        506,
+        613, 614, 615,
+        708, 709, 710, 711, 712, 713, 714, 715, 716,
+        821,
+        914, 915,
+        1003,
+        1113, 1114,
+        1204, 1205, 1206, 1207, 1208, 1209, 1210,
+        1409, 1410,
     ];
 }
