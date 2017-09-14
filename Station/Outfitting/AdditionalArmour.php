@@ -11,7 +11,7 @@ use         EDSM\Alias;
 
 class AdditionalArmour extends Alias
 {
-    static protected $defaultName       = null;
+    static protected $defaultName       = 0;
     static protected $representation    = 'Additional Armour';
     
     /**
