@@ -15,7 +15,7 @@ class AdditionalArmour extends Alias
     static protected $representation    = 'Additional Armour';
     
     /**
-     * List of categories having additional armour
+     * List of categories
      */
     static protected $have          = [
         'Hull Reinforcement Package',

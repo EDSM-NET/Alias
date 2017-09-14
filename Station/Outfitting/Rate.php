@@ -16,7 +16,7 @@ class Rate extends Alias
     static protected $unit              = '%1$s l/s';
     
     /**
-     * List of categories having rate
+     * List of categories
      */
     static protected $have          = [
         'Fuel Scoop',

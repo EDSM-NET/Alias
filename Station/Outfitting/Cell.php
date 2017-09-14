@@ -15,7 +15,7 @@ class Cell extends Alias
     static protected $representation    = 'Cell(s)';
     
     /**
-     * List of categories having cell
+     * List of categories
      */
     static protected $have          = [
         'Shield Cell Bank',

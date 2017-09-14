@@ -15,7 +15,7 @@ class Count extends Alias
     static protected $representation    = 'Count';
     
     /**
-     * List of categories having count
+     * List of categories
      */
     static protected $have          = [
         'Hatch Breaker Limpet Controller',
