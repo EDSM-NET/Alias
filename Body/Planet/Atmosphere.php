@@ -54,13 +54,11 @@ class Atmosphere extends Alias
     ];
     
     /**
-     * List of aliases received from Frontier
+     * List of prefix received from Frontier
      * 
      * Every aliases are sanitized before matching
      *     => trim
      *     => strtolower
-     *     => str_replace( atmosphere)
-     *     => str_replace(ALL PREFIXES)
      */
     static protected $prefixAlias   = [
         'hot thick'     => 5,
