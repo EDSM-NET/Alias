@@ -11,8 +11,9 @@ use         EDSM\Alias;
 
 class Price extends Alias
 {
-    static protected $defaultName   = 0;
-    static protected $unit          = '%1$s cr';
+    static protected $defaultName       = 0;
+    static protected $representation    = 'Price';
+    static protected $unit              = '%1$s cr';
     
     /**
      * List of price by outfitting

@@ -15,7 +15,7 @@ class Bin extends Alias
     static protected $representation    = 'Bin(s)';
     
     /**
-     * List of categories having additional armour
+     * List of categories having bin
      */
     static protected $have          = [
         'Refinery',
