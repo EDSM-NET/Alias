@@ -11,7 +11,7 @@ use         EDSM\Alias;
 
 class BayFighters extends Alias
 {
-    static protected $defaultName       = 0;
+    static protected $defaultName       = null;
     static protected $representation    = 'Fighters/bay';
     
     /**
