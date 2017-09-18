@@ -197,11 +197,6 @@ class PaintJob extends Alias
             'anaconda_vibrant_yellow'                       => 'Vibrant Yellow',
             
             'anaconda_wireframe_01'                         => 'Wireframe',
-            'anaconda_wireframe_02'                         => null,
-            'anaconda_wireframe_03'                         => null,
-            'anaconda_wireframe_04'                         => null,
-            'anaconda_wireframe_05'                         => null,
-            'anaconda_wireframe_06'                         => null,
         ),
 
         // Asp Explorer
@@ -297,11 +292,6 @@ class PaintJob extends Alias
             'asp_vibrant_yellow'                            => 'Vibrant Yellow',
             
             'asp_wireframe_01'                              => 'Wireframe',
-            'asp_wireframe_02'                              => null,
-            'asp_wireframe_03'                              => null,
-            'asp_wireframe_04'                              => null,
-            'asp_wireframe_05'                              => null,
-            'asp_wireframe_06'                              => null,
         ),
 
         // Asp Scout
@@ -615,11 +605,6 @@ class PaintJob extends Alias
             'cobramkiii_vibrant_yellow'                     => 'Vibrant Yellow',
             
             'cobramkiii_wireframe_01'                       => 'Wireframe',
-            'cobramkiii_wireframe_02'                       => null,
-            'cobramkiii_wireframe_03'                       => null,
-            'cobramkiii_wireframe_04'                       => null,
-            'cobramkiii_wireframe_05'                       => null,
-            'cobramkiii_wireframe_06'                       => null,
             
             'cobramkiii_yogscast_01'                        => null,
         ),
@@ -754,11 +739,6 @@ class PaintJob extends Alias
             'cobramkiv_vibrant_yellow'                      => 'Vibrant Yellow',
             
             'cobramkiv_wireframe_01'                        => 'Wireframe',
-            'cobramkiv_wireframe_02'                        => null,
-            'cobramkiv_wireframe_03'                        => null,
-            'cobramkiv_wireframe_04'                        => null,
-            'cobramkiv_wireframe_05'                        => null,
-            'cobramkiv_wireframe_06'                        => null,
         ),
         
         // Dolphin
@@ -984,11 +964,6 @@ class PaintJob extends Alias
             'eagle_vibrant_yellow'                          => 'Vibrant Yellow',
             
             'eagle_wireframe_01'                            => 'Wireframe',
-            'eagle_wireframe_02'                            => null,
-            'eagle_wireframe_03'                            => null,
-            'eagle_wireframe_04'                            => null,
-            'eagle_wireframe_05'                            => null,
-            'eagle_wireframe_06'                            => null,
         ),
 
         // Federal Assault Ship
@@ -1245,11 +1220,6 @@ class PaintJob extends Alias
             'ferdelance_vibrant_yellow'                     => 'Vibrant Yellow',
             
             'ferdelance_wireframe_01'                       => 'Wireframe',
-            'ferdelance_wireframe_02'                       => null,
-            'ferdelance_wireframe_03'                       => null,
-            'ferdelance_wireframe_04'                       => null,
-            'ferdelance_wireframe_05'                       => null,
-            'ferdelance_wireframe_06'                       => null,
         ),
 
         // Hauler
@@ -1710,11 +1680,6 @@ class PaintJob extends Alias
             'python_vibrant_yellow'                         => 'Vibrant Yellow',
             
             'python_wireframe_01'                           => 'Wireframe',
-            'python_wireframe_02'                           => null,
-            'python_wireframe_03'                           => null,
-            'python_wireframe_04'                           => null,
-            'python_wireframe_05'                           => null,
-            'python_wireframe_06'                           => null,
         ),
 
         // Sidewinder
@@ -2217,11 +2182,6 @@ class PaintJob extends Alias
             'viper_vibrant_yellow'                          => 'Vibrant Yellow',
             
             'viper_wireframe_01'                            => 'Wireframe',
-            'viper_wireframe_02'                            => null,
-            'viper_wireframe_03'                            => null,
-            'viper_wireframe_04'                            => null,
-            'viper_wireframe_05'                            => null,
-            'viper_wireframe_06'                            => null,
         ),
 
         // Viper MkIV
@@ -2390,11 +2350,6 @@ class PaintJob extends Alias
             'vulture_vibrant_yellow'                        => 'Vibrant Yellow',
             
             'vulture_wireframe_01'                          => 'Wireframe',
-            'vulture_wireframe_02'                          => null,
-            'vulture_wireframe_03'                          => null,
-            'vulture_wireframe_04'                          => null,
-            'vulture_wireframe_05'                          => null,
-            'vulture_wireframe_06'                          => null,
         ),
     ];
 }
