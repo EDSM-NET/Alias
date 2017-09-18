@@ -569,7 +569,7 @@ class PaintJob extends Alias
             'cobramkiii_luminous_stripe_05'                 => 'Pulse Orange',
             'cobramkiii_luminous_stripe_06'                 => 'Pulse White',
             
-            'cobramkiii_onionhead1_01'                      => 'Onionhead',
+            'cobramkiii_onionhead1_01'                      => 'Onion Head',
             
             'cobramkiii_oxm_oxm'                            => null,
             
