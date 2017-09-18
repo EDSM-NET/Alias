@@ -173,9 +173,9 @@ class PaintJob extends Alias
             
             'anaconda_searchrescue_searchrescue'            => null,
             
-            'anaconda_squadron_black'                       => 'Squadron Black',
+            'anaconda_squadron_black'                       => 'Squadron Shadow',
             'anaconda_squadron_blue'                        => 'Squadron Blue',
-            'anaconda_squadron_gold'                        => 'Squadron Shadow',
+            'anaconda_squadron_gold'                        => 'Squadron Black',
             'anaconda_squadron_green'                       => 'Squadron Green',
             'anaconda_squadron_orange'                      => 'Squadron Orange',
             'anaconda_squadron_red'                         => 'Squadron Red',
@@ -261,9 +261,9 @@ class PaintJob extends Alias
             
             'asp_searchrescue_searchrescue'                 => null,
             
-            'asp_squadron_black'                            => 'Squadron Black',
+            'asp_squadron_black'                            => 'Squadron Shadow',
             'asp_squadron_blue'                             => 'Squadron Blue',
-            'asp_squadron_gold'                             => 'Squadron Shadow',
+            'asp_squadron_gold'                             => 'Squadron Black',
             'asp_squadron_green'                            => 'Squadron Green',
             'asp_squadron_orange'                           => 'Squadron Orange',
             'asp_squadron_red'                              => 'Squadron Red',
@@ -585,9 +585,9 @@ class PaintJob extends Alias
             
             'cobramkiii_pcgamer_pcgamer'                    => 'PC Gamer',
             
-            'cobramkiii_squadron_black'                     => 'Squadron Black',
+            'cobramkiii_squadron_black'                     => 'Squadron Shadow',
             'cobramkiii_squadron_blue'                      => 'Squadron Blue',
-            'cobramkiii_squadron_gold'                      => 'Squadron Shadow',
+            'cobramkiii_squadron_gold'                      => 'Squadron Black',
             'cobramkiii_squadron_green'                     => 'Squadron Green',
             'cobramkiii_squadron_orange'                    => 'Squadron Orange',
             'cobramkiii_squadron_red'                       => 'Squadron Red',
@@ -951,9 +951,9 @@ class PaintJob extends Alias
             'eagle_aerial_display_orange'                   => 'Slipstream Orange',
             'eagle_aerial_display_red'                      => 'Slipstream Red',
             
-            'eagle_squadron_black'                          => 'Squadron Black',
+            'eagle_squadron_black'                          => 'Squadron Shadow',
             'eagle_squadron_blue'                           => 'Squadron Blue',
-            'eagle_squadron_gold'                           => 'Squadron Shadow',
+            'eagle_squadron_gold'                           => 'Squadron Black',
             'eagle_squadron_green'                          => 'Squadron Green',
             'eagle_squadron_orange'                         => 'Squadron Orange',
             'eagle_squadron_red'                            => 'Squadron Red',
@@ -1688,9 +1688,9 @@ class PaintJob extends Alias
             
             'python_searchrescue_searchrescue'              => null,
             
-            'python_squadron_black'                         => 'Squadron Black',
+            'python_squadron_black'                         => 'Squadron Shadow',
             'python_squadron_blue'                          => 'Squadron Blue',
-            'python_squadron_gold'                          => 'Squadron Shadow',
+            'python_squadron_gold'                          => 'Squadron Black',
             'python_squadron_green'                         => 'Squadron Green',
             'python_squadron_orange'                        => 'Squadron Orange',
             'python_squadron_red'                           => 'Squadron Red',
@@ -1815,9 +1815,9 @@ class PaintJob extends Alias
             
             'sidewinder_specialeffect_01'                   => null,
             
-            'sidewinder_squadron_black'                     => 'Squadron Black',
+            'sidewinder_squadron_black'                     => 'Squadron Shadow',
             'sidewinder_squadron_blue'                      => 'Squadron Blue',
-            'sidewinder_squadron_gold'                      => 'Squadron Shadow',
+            'sidewinder_squadron_gold'                      => 'Squadron Black',
             'sidewinder_squadron_green'                     => 'Squadron Green',
             'sidewinder_squadron_orange'                    => 'Squadron Orange',
             'sidewinder_squadron_red'                       => 'Squadron Red',
@@ -2065,9 +2065,9 @@ class PaintJob extends Alias
             'type9_sidesections01_03'                       => null,
             'type9_sidesections01_04'                       => null,
             
-            'type9_squadron_black'                          => 'Squadron Black',
+            'type9_squadron_black'                          => 'Squadron Shadow',
             'type9_squadron_blue'                           => 'Squadron Blue',
-            'type9_squadron_gold'                           => 'Squadron Shadow',
+            'type9_squadron_gold'                           => 'Squadron Black',
             'type9_squadron_green'                          => 'Squadron Green',
             'type9_squadron_orange'                         => 'Squadron Orange',
             'type9_squadron_red'                            => 'Squadron Red',
@@ -2181,9 +2181,9 @@ class PaintJob extends Alias
             'viper_shockwave_05'                            => null,
             'viper_shockwave_06'                            => null,
             
-            'viper_squadron_black'                          => 'Squadron Black',
+            'viper_squadron_black'                          => 'Squadron Shadow',
             'viper_squadron_blue'                           => 'Squadron Blue',
-            'viper_squadron_gold'                           => 'Squadron Shadow',
+            'viper_squadron_gold'                           => 'Squadron Black',
             'viper_squadron_green'                          => 'Squadron Green',
             'viper_squadron_orange'                         => 'Squadron Orange',
             'viper_squadron_red'                            => 'Squadron Red',
@@ -2293,9 +2293,9 @@ class PaintJob extends Alias
             'viper_mkiv_shockwave_05'                       => null,
             'viper_mkiv_shockwave_06'                       => null,
             
-            'viper_mkiv_squadron_black'                     => 'Squadron Black',
+            'viper_mkiv_squadron_black'                     => 'Squadron Shadow',
             'viper_mkiv_squadron_blue'                      => 'Squadron Blue',
-            'viper_mkiv_squadron_gold'                      => 'Squadron Shadow',
+            'viper_mkiv_squadron_gold'                      => 'Squadron Black',
             'viper_mkiv_squadron_green'                     => 'Squadron Green',
             'viper_mkiv_squadron_orange'                    => 'Squadron Orange',
             'viper_mkiv_squadron_red'                       => 'Squadron Red',
