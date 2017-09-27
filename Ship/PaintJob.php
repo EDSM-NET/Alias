@@ -1654,6 +1654,8 @@ class PaintJob extends Alias
             'python_luminous_stripe_05'                     => 'Pulse Orange',
             'python_luminous_stripe_06'                     => 'Pulse White',
             
+            'python_lavecon_lavecon'                        => 'Lavecon',
+            
             'python_metallic_chrome'                        => 'Chrome',
             'python_metallic_gold'                          => 'Gold',
             'python_metallic2_gold'                         => 'Golden',
