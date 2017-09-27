@@ -21,6 +21,8 @@ class Allegiance extends Alias
          2                      => 'Empire',
          3                      => 'Federation',
          4                      => 'Independent',
+         
+         9                      => 'Pilots Federation',
     ];
     
     /**
@@ -35,6 +37,8 @@ class Allegiance extends Alias
         'empire'                => 2,
         'federation'            => 3,
         'independent'           => 4,
+        
+        'pilotsfederation'      => 9,
         
         // Bug on #19700/CM Draconis
         'playerpilots'          => 0,
