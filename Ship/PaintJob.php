@@ -752,6 +752,13 @@ class PaintJob extends Alias
             'dolphin_corporate1_corporate5'                 => 'Wayfarer Green',
             'dolphin_corporate1_corporate6'                 => 'Wayfarer Yellow',
             
+            'dolphin_corporatefleet_fleeta'                 => 'Excursion Blue',
+            'dolphin_corporatefleet_fleetb'                 => 'Excursion Orange',
+            'dolphin_corporatefleet_fleetc'                 => 'Excursion Green',
+            'dolphin_corporatefleet_fleetd'                 => 'Excursion Red',
+            'dolphin_corporatefleet_fleete'                 => 'Excursion Rust  ',
+            'dolphin_corporatefleet_fleetf'                 => 'Excursion Yellow',
+            
             'dolphin_metallic_chrome'                       => 'Chrome',
             'dolphin_metallic_gold'                         => 'Gold',
             'dolphin_metallic2_gold'                        => 'Golden',
@@ -1405,6 +1412,8 @@ class PaintJob extends Alias
             'cutter_faction1_04'                            => 'Pirate Faction Rose',
             'cutter_faction1_05'                            => 'Pirate Faction Blue',
             'cutter_faction1_06'                            => 'Pirate Faction Purple',
+            
+            'cutter_lavecon_lavecon'                        => 'Lavecon',
             
             'cutter_metallic_chrome'                        => 'Chrome',
             'cutter_metallic_gold'                          => 'Gold',
