@@ -19,6 +19,10 @@ class Service extends Alias
          2                      => 'Shipyard',
          3                      => 'Outfitting',
          4                      => 'Black Market',
+         
+        21                      => 'Restock',
+        22                      => 'Refuel',
+        23                      => 'Repair',
     ];
     
     /**
