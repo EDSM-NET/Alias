@@ -384,6 +384,8 @@ class Type extends Alias
         1654        => 'Damaged Escape Pod',
         1655        => 'Earth Relics',
         
+        1800        => 'Thargoid Cyclops Tissue Sample',
+        
         // Powerplay (99)
         9901        => 'Aisling Media Materials',
         9902        => 'Aisling Sealed Contracts',
@@ -783,6 +785,8 @@ class Type extends Alias
         'wreckagecomponents'                    => 1653,
         'damagedescapepod'                      => 1654,
         'earthrelics'                           => 1655,
+        
+        'thargoidtissuesampletype1'             => 1800,
         
         'aislingmediamaterials'                 => 9901,
         'aislingmediaresources'                 => 9902,
