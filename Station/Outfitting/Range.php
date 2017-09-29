@@ -116,9 +116,9 @@ class Range extends Alias
           3675  => 7.68,
         
         // Optional Internal > Discovery Scanner
-          4000  => 0,
           4001  => 500,
           4002  => 1000,
+          4003  => INF,
         
         // Optional Internal > Hatch Breaker Limpet Controller
           4601  => 1.5,
