@@ -99,6 +99,8 @@ class Material extends Alias
         78  => 'Thargoid Energy Cell',
         79  => 'Thargoid Technology Components',
         80  => 'Thargoid Organic Circuitry',
+        81  => 'Propulsion Elements',
+        82  => 'Wreckage Components',
     ];
     
     /**
@@ -189,6 +191,8 @@ class Material extends Alias
         'unknownenergycell'             => 78,
         'unknowntechnologycomponents'   => 79,
         'unknownorganiccircuitry'       => 80,
+        'tg_propulsionelement'          => 81,
+        'tg_wreckagecomponents'         => 82,
     ];
     
     /**
@@ -275,6 +279,8 @@ class Material extends Alias
         78  => 'Standard',
         79  => 'Rare',
         80  => 'Very rare',
+        //81  => '???',
+        //82  => '???',
     ];
     
     /**

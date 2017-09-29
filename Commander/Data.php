@@ -60,6 +60,8 @@ class Data extends Alias
         39  => 'Thargoid Residue Data',
         40  => 'Thargoid Structural Data',
         41  => 'Thargoid Material Composition Data',
+        42  => 'Ship Systems Data',
+        43  => 'Ship Flight Data',
     ];
     
     /**
@@ -111,6 +113,8 @@ class Data extends Alias
         'tg_residuedata'                    => 39,
         'tg_structuraldata'                 => 40,
         'tg_compositiondata'                => 41,
+        'tg_shipsystemsdata'                => 42,
+        'tg_shipflightdata'                 => 43,
     ];
     
     /**
@@ -158,5 +162,7 @@ class Data extends Alias
         39  => 'Rare',
         40  => 'Common',
         41  => 'Standard',
+        //42  => '???',
+        //43  => '???',
     ];
 }
