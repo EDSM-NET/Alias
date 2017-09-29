@@ -103,6 +103,7 @@ class Type extends Alias
          331        => 'Azure Milk',                        /**/
          332        => 'Onionhead Alpha Strain',            /**/
          333        => 'Onionhead Beta Strain',             /**/
+         334        => 'Harma Silver Sea Rum',
          
         // Foods (4)
          401        => 'Algae',
@@ -487,7 +488,7 @@ class Type extends Alias
         'basic narcotics'                       => 303,     'basicnarcotics'                => 303,
         'tobacco'                               => 304,
         'wine'                                  => 305,
-        'eranin pearl whiskey'                  => 306,     'eranin pearl whisky'           => 306,
+        'eranin pearl whiskey'                  => 306,     'eranin pearl whisky'           => 306,     'eraninpearlwhisky'             => 306,
         'lucan onion head'                      => 307,     'transgenic onion head'         => 307,     'transgeniconionhead'           => 307,
         'motrona experience jelly'              => 308,     'motronaexperiencejelly'        => 308,
         'onion head'                            => 309,
@@ -515,6 +516,7 @@ class Type extends Alias
         'azure milk'                            => 331,     'blue milk'                     => 331,     'bluemilk'                      => 331,
         'onionhead alpha strain'                => 332,     'onion head a'                  => 332,
         'onionhead beta strain'                 => 333,     'onion head b'                  => 333,
+        'harmasilversearum'                     => 334,
         
         'algae'                                 => 401,
         'animalmeat'                            => 402,
@@ -579,7 +581,7 @@ class Type extends Alias
         
         'atmospheric extractors'                => 601,     'atmospheric processors'        => 601,     'atmosphericextractors'         => 601,     'atmosphericprocessors'         => 601,
         'crop harvesters'                       => 602,     'cropharvesters'                => 602,
-        'marine supplies'                       => 603,     'marine equipment'              => 603,     'marinesupplies'                => 603,
+        'marine supplies'                       => 603,     'marine equipment'              => 603,     'marinesupplies'                => 603,     'marineequipment'               => 603,
         'heliostatic furnaces'                  => 604,     'microbial furnaces'            => 604,     'heliostaticfurnaces'           => 604,     'microbialfurnaces'             => 604,
         'mineral extractors'                    => 605,     'mineralextractors'             => 605,
         'power generators'                      => 606,     'powergenerators'               => 606,
@@ -736,7 +738,7 @@ class Type extends Alias
         'u s s cargo military plans'            => 1608,    'military plans'                => 1608,    'usscargomilitaryplans'         => 1608,    'militaryplans'                 => 1608,
         'u s s cargo ancient artefact'          => 1609,    'ancient artefact'              => 1609,    'usscargoancientartefact'       => 1609,
         'u s s cargo rare artwork'              => 1610,    'rare artwork'                  => 1610,    'usscargorareartwork'           => 1610,    'rareartwork'                   => 1610,
-        'u s s cargo experimental chemicals'    => 1611,    'experimental chemicals'        => 1611,    'usscargoexperimentalchemicals' => 1611,
+        'u s s cargo experimental chemicals'    => 1611,    'experimental chemicals'        => 1611,    'usscargoexperimentalchemicals' => 1611,    'experimentalchemicals'         => 1611,
         'u s s cargo rebel transmissions'       => 1612,    'rebel transmissions'           => 1612,    'usscargorebeltransmissions'    => 1612,    'rebeltransmissions'            => 1612,
         'u s s cargo prototype tech'            => 1613,    'prototype tech'                => 1613,    'usscargoprototypetech'         => 1613,    'prototypetech'                 => 1613,
         'u s s cargo technical blueprints'      => 1614,    'technical blueprints'          => 1614,    'usscargotechnicalblueprints'   => 1614,    'technicalblueprints'           => 1614,
