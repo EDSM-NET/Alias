@@ -101,6 +101,8 @@ class Material extends Alias
         80  => 'Thargoid Organic Circuitry',
         81  => 'Propulsion Elements',
         82  => 'Wreckage Components',
+        83  => 'Bio-Mechanical Conduits',
+        84  => 'Weapon Parts',
     ];
     
     /**
@@ -193,6 +195,8 @@ class Material extends Alias
         'unknownorganiccircuitry'       => 80,
         'tg_propulsionelement'          => 81,
         'tg_wreckagecomponents'         => 82,
+        'tg_biomechanicalconduits'      => 83,
+        'tg_weaponparts'                => 84,
     ];
     
     /**
@@ -281,6 +285,8 @@ class Material extends Alias
         80  => 'Very rare',
         //81  => '???',
         //82  => '???',
+        //83  => '???',
+        //84  => '???',
     ];
     
     /**
