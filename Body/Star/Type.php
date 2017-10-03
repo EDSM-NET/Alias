@@ -63,10 +63,25 @@ class Type extends Alias
          42     => 'S-type Star', // Check in game
         
         // White dwarfs
-         51     => 'D (White Dwarf) Star', // Check in game
+         51     => 'White Dwarf (D) Star',
+        501     => 'White Dwarf (DA) Star',
+        502     => 'White Dwarf (DAB) Star',
+        503     => 'White Dwarf (DAO) Star',
+        504     => 'White Dwarf (DAZ) Star',
+        505     => 'White Dwarf (DAV) Star',
+        506     => 'White Dwarf (DB) Star',
+        507     => 'White Dwarf (DBZ) Star',
+        508     => 'White Dwarf (DBV) Star',
+        509     => 'White Dwarf (DO) Star',
+        510     => 'White Dwarf (DOV) Star',
+        511     => 'White Dwarf (DQ) Star',
+        512     => 'White Dwarf (DC) Star',
+        513     => 'White Dwarf (DCV) Star',
+        514     => 'White Dwarf (DX) Star',
         
          91     => 'Neutron Star',
          92     => 'Black Hole', // Check in game
+         93     => 'Supermassive Black Hole', // Check in game
          
          94     => 'X', // Exotic?? // Check in game
         
@@ -130,26 +145,26 @@ class Type extends Alias
         
         // white dwarfs
         'd'                         => 51,
-        'da'                        => 51,
-        'dab'                       => 51,
-        'dao'                       => 51,
-        'daz'                       => 51,
-        'dav'                       => 51,
-        'db'                        => 51,
-        'dbz'                       => 51,
-        'dbv'                       => 51,
-        'do'                        => 51,
-        'dov'                       => 51,
-        'dq'                        => 51,
-        'dc'                        => 51,
-        'dcv'                       => 51,
-        'dx'                        => 51,
+        'da'                        => 501,
+        'dab'                       => 502,
+        'dao'                       => 503,
+        'daz'                       => 504,
+        'dav'                       => 505,
+        'db'                        => 506,
+        'dbz'                       => 507,
+        'dbv'                       => 508,
+        'do'                        => 509,
+        'dov'                       => 510,
+        'dq'                        => 511,
+        'dc'                        => 512,
+        'dcv'                       => 513,
+        'dx'                        => 514,
         
         // Others
         'n'                         => 91,
         
         'h'                         => 92,
-        'supermassiveblackhole'     => 92,
+        'supermassiveblackhole'     => 93,
         
         'x'                         => 94,
         
