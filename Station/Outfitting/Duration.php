@@ -27,6 +27,7 @@ class Duration extends Alias
         
         'Hatch Breaker Limpet Controller',
         'Collector Limpet Controller',
+        'Research Limpet Controller',
     ];
     
     /**
@@ -152,5 +153,8 @@ class Duration extends Alias
           5063  => 510,
           5064  => 420,
           5065  => 720,
+          
+        // Optional Internal > Research Limpet Controller
+          5701  => 300,
     ];
 }

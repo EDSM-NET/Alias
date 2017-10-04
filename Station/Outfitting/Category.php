@@ -118,6 +118,10 @@ class Category extends Alias
             'Shock Mine Launcher'               => [
                 1601,
             ],
+            'AX Missile Rack'                   => [
+                1652,
+                1660,
+            ],
          ],
         
         // Utility Mount
@@ -145,6 +149,9 @@ class Category extends Alias
             ],
             'Kill Warrant Scanner'              => [
                 2351, 2352, 2353, 2354, 2355,
+            ],
+            'Xeno Scanner'                      => [
+                2401,
             ],
         ],
         
@@ -342,6 +349,9 @@ class Category extends Alias
                 5621, 5622, 5623, 5624, 5625,
                 5641, 5642, 5643, 5644, 5645,
                 5661, 5662, 5663, 5664, 5665,
+            ],
+            'Research Limpet Controller'        => [
+                5701,
             ],
          ],
     ];

@@ -13,6 +13,7 @@ class Power extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Power';
+    static protected $unit              = '%1$s MW';
     
     /**
      * List of categories
@@ -42,6 +43,7 @@ class Power extends Alias
         'Cargo Scanner',
         'Frame Shift Wake Scanner',
         'Kill Warrant Scanner',
+        'Xeno Scanner',
         
         // Core Internal
         'Thrusters',
@@ -67,6 +69,7 @@ class Power extends Alias
         'Planetary Vehicle Hangar',
         'Fighter Hangar',
         'Repair Limpet Controller',
+        'Research Limpet Controller',
     ];
     
     /**
@@ -232,6 +235,9 @@ class Power extends Alias
           2353  => 0.8,
           2354  => 1.6,
           2355  => 3.2,
+          
+        // Utility Mount > Xeno Scanner
+          2401  => 0.2,
         
         // Core Internal > Thrusters
           3201  => 2,
@@ -843,5 +849,8 @@ class Power extends Alias
           5551  => 0.35,
         
           5561  => 0.35,
+          
+        // Optional Internal > Research Limpet Controller
+          5701  => 0.4,
     ];
 }

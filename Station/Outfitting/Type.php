@@ -350,6 +350,10 @@ class Type extends Alias
         
         // Weapon Hardpoint > Shock Mine Launcher
           1601  => 'Shock Mine Launcher (Fixed)',
+        
+        // Weapon Hardpoint > AX Missile Rack
+          1652  => 'AX Missile Rack (Fixed)',
+          1660  => 'AX Missile Rack (Turret)',
           
         // Utility Mount > Shield Booster
           2001  => 'Shield Booster',
@@ -390,6 +394,9 @@ class Type extends Alias
           2353  => 'Kill Warrant Scanner',
           2354  => 'Kill Warrant Scanner',
           2355  => 'Kill Warrant Scanner',
+          
+        // Utility Mount > Xeno Scanner
+          2401  => 'Xeno Scanner',
         
         // Core Internal > Fuel Tank
           3001  => 'Fuel Tank',
@@ -1149,6 +1156,9 @@ class Type extends Alias
           5663  => 'Repair Limpet Controller',
           5664  => 'Repair Limpet Controller',
           5665  => 'Repair Limpet Controller',
+          
+        // Optional Internal > Research Limpet Controller
+          5701  => 'Research Limpet Controller',
     ];
     
     /**
@@ -1497,6 +1507,11 @@ class Type extends Alias
         // Weapon Hardpoint > Shock Mine Launcher
         'hpt_minelauncher_fixed_small_impulse'          => 1601,
         
+        // Weapon Hardpoint > AX Missile Rack
+        'hpt_atdumbfiremissile_fixed_medium'            => 1652,
+        
+        'hpt_atdumbfiremissile_turret_medium'           => 1660,
+        
         // Utility Mount > Shield Booster
         'hpt_shieldbooster_size0_class1'                => 2001,
         'hpt_shieldbooster_size0_class2'                => 2002,
@@ -1536,6 +1551,9 @@ class Type extends Alias
         'hpt_crimescanner_size0_class3'                 => 2353,
         'hpt_crimescanner_size0_class4'                 => 2354,
         'hpt_crimescanner_size0_class5'                 => 2355,
+        
+        // Utility Mount > Xeno Scanner
+        'hpt_xenoscanner_basic_tiny'                    => 2401,
         
         // Core Internal > Fuel Tank
         'int_fueltank_size1_class3'                     => 3001,
@@ -2295,5 +2313,8 @@ class Type extends Alias
         'int_dronecontrol_repair_size7_class3'          => 5663,
         'int_dronecontrol_repair_size7_class4'          => 5664,
         'int_dronecontrol_repair_size7_class5'          => 5665,
+        
+        // Optional Internal > Research Limpet Controller
+        'int_dronecontrol_unkvesselresearch'            => 5701,
     ];
 }

@@ -364,6 +364,9 @@ class Mass extends Alias
           2353  => 1.3,
           2354  => 1.3,
           2355  => 1.3,
+          
+        // Utility Mount > Xeno Scanner
+          2401  => 1.3,
         
         // Core Internal > Fuel Tank
           3001  => 0,
@@ -972,5 +975,8 @@ class Mass extends Alias
           5551  => 40,
         
           5561  => 60,
+          
+        // Optional Internal > Research Limpet Controller
+          5701  => 1.3,
     ];
 }

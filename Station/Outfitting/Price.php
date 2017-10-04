@@ -325,6 +325,10 @@ class Price extends Alias
         
         // Weapon Hardpoint > Shock Mine Launcher
           1601  => 36400,
+        
+        // Weapon Hardpoint > AX Missile Rack
+          1652  => 540900,
+          1660  => 2022700,
           
         // Utility Mount > Shield Booster
           2001  => 10000,
@@ -365,6 +369,9 @@ class Price extends Alias
           2353  => 121900,
           2354  => 365700,
           2355  => 1097100,
+          
+        // Utility Mount > Xeno Scanner
+          2401  => 365698,
         
         // Core Internal > Fuel Tank
           3001  => 1000,
@@ -1099,5 +1106,8 @@ class Price extends Alias
           5551  => 1869350,
         
           5561  => 2369330,
+          
+        // Optional Internal > Research Limpet Controller
+          5701  => 1437374,
     ];
 }

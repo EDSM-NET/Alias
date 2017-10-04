@@ -354,6 +354,10 @@ class Rating extends Alias
         
         // Weapon Hardpoint > Shock Mine Launcher
           1601  => 'I',
+        
+        // Weapon Hardpoint > AX Missile Rack
+          1652  => 'B',
+          1660  => 'B',
           
         // Utility Mount > Shield Booster
           2001  => 'E',
@@ -394,6 +398,9 @@ class Rating extends Alias
           2353  => 'C',
           2354  => 'B',
           2355  => 'A',
+          
+        // Utility Mount > Xeno Scanner
+          2401  => 'E',
         
         // Core Internal > Fuel Tank
           3001  => 'C',
@@ -1153,5 +1160,8 @@ class Rating extends Alias
           5663  => 'C',
           5664  => 'B',
           5665  => 'A',
+          
+        // Optional Internal > Research Limpet Controller
+          5701  => 'E',
     ];
 }

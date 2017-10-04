@@ -353,6 +353,10 @@ class Classes extends Alias
         
         // Weapon Hardpoint > Shock Mine Launcher
           1601  => 1,
+        
+        // Weapon Hardpoint > AX Missile Rack
+          1652  => 2,
+          1660  => 2,
           
         // Utility Mount > Shield Booster
           2001  => 0,
@@ -393,6 +397,9 @@ class Classes extends Alias
           2353  => 0,
           2354  => 0,
           2355  => 0,
+          
+        // Utility Mount > Xeno Scanner
+          2401  => 0,
         
         // Core Internal > Fuel Tank
           3001  => 1,
@@ -1152,5 +1159,8 @@ class Classes extends Alias
           5663  => 7,
           5664  => 7,
           5665  => 7,
+          
+        // Optional Internal > Research Limpet Controller
+          5701  => 1,
     ];
 }
