@@ -354,6 +354,10 @@ class Type extends Alias
         // Weapon Hardpoint > AX Missile Rack
           1652  => 'AX Missile Rack (Fixed)',
           1660  => 'AX Missile Rack (Turret)',
+        
+        // Weapon Hardpoint > AX Multi-Cannon
+          1702  => 'AX Multi-Cannon (Fixed)',
+          1710  => 'AX Multi-Cannon (Turret)',
           
         // Utility Mount > Shield Booster
           2001  => 'Shield Booster',
@@ -1511,6 +1515,11 @@ class Type extends Alias
         'hpt_atdumbfiremissile_fixed_medium'            => 1652,
         
         'hpt_atdumbfiremissile_turret_medium'           => 1660,
+        
+        // Weapon Hardpoint > AX Multi-Cannon
+        'hpt_atmulticannon_fixed_medium'                => 1702,
+        
+        'hpt_atmulticannon_turret_medium'               => 1710,
         
         // Utility Mount > Shield Booster
         'hpt_shieldbooster_size0_class1'                => 2001,

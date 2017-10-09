@@ -358,6 +358,10 @@ class Rating extends Alias
         // Weapon Hardpoint > AX Missile Rack
           1652  => 'B',
           1660  => 'B',
+        
+        // Weapon Hardpoint > AX Multi-Cannon
+          1702  => 'E',
+          1710  => 'F',
           
         // Utility Mount > Shield Booster
           2001  => 'E',

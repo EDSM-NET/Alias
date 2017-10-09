@@ -122,6 +122,10 @@ class Category extends Alias
                 1652,
                 1660,
             ],
+            'AX Multi-Cannon'                   => [
+                1702,
+                1710,
+            ],
          ],
         
         // Utility Mount

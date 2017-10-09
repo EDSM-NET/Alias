@@ -357,6 +357,10 @@ class Classes extends Alias
         // Weapon Hardpoint > AX Missile Rack
           1652  => 2,
           1660  => 2,
+        
+        // Weapon Hardpoint > AX Multi-Cannon
+          1702  => 2,
+          1710  => 2,
           
         // Utility Mount > Shield Booster
           2001  => 0,
