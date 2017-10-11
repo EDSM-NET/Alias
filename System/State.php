@@ -1,4 +1,4 @@
-    <?php
+<?php
 /**
  * Elite: Dangerous Star Map
  *
