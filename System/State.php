@@ -5,7 +5,7 @@
  * @link        https://www.edsm.net/
  * @copyright   Copyright (c) 2015-2017 EDSM.
  */
- 
+
 namespace   Alias\System;
 use         EDSM\Alias;
 
