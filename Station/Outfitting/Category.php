@@ -126,6 +126,10 @@ class Category extends Alias
                 1702,
                 1710,
             ],
+            'Remote Release Flak Launcher'      => [
+                1752,
+                1760,
+            ],
          ],
         
         // Utility Mount

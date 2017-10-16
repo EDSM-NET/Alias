@@ -358,6 +358,10 @@ class Type extends Alias
         // Weapon Hardpoint > AX Multi-Cannon
           1702  => 'AX Multi-Cannon (Fixed)',
           1710  => 'AX Multi-Cannon (Turret)',
+        
+        // Weapon Hardpoint > Remote Release Flak Launcher
+          1752  => 'Remote Release Flak Launcher (Fixed)',
+          1760  => 'Remote Release Flak Launcher (Turret)',
           
         // Utility Mount > Shield Booster
           2001  => 'Shield Booster',
@@ -1520,6 +1524,11 @@ class Type extends Alias
         'hpt_atmulticannon_fixed_medium'                => 1702,
         
         'hpt_atmulticannon_turret_medium'               => 1710,
+        
+        // Weapon Hardpoint > Remote Release Flak Launcher
+        'hpt_flakmortar_fixed_medium'                   => 1752,
+        
+        'hpt_flakmortar_turret_medium'                  => 1760,
         
         // Utility Mount > Shield Booster
         'hpt_shieldbooster_size0_class1'                => 2001,

@@ -361,6 +361,10 @@ class Classes extends Alias
         // Weapon Hardpoint > AX Multi-Cannon
           1702  => 2,
           1710  => 2,
+        
+        // Weapon Hardpoint > Remote Release Flak Launcher
+          1752  => 2,
+          1760  => 2,
           
         // Utility Mount > Shield Booster
           2001  => 0,

@@ -362,6 +362,10 @@ class Rating extends Alias
         // Weapon Hardpoint > AX Multi-Cannon
           1702  => 'E',
           1710  => 'F',
+        
+        // Weapon Hardpoint > Remote Release Flak Launcher
+          1752  => 'B',
+          1760  => 'B',
           
         // Utility Mount > Shield Booster
           2001  => 'E',
