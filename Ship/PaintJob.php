@@ -152,6 +152,7 @@ class PaintJob extends Alias
             'anaconda_kickstartermc_kickstartermc'          => null,
             
             'anaconda_lavecon_lavecon'                      => 'Lavecon',
+            'anaconda_eliteexpo_eliteexpo'                  => 'Frontier Expo 2017',
             
             'anaconda_luminous_stripe_01'                   => 'Pulse Green',
             'anaconda_luminous_stripe_02'                   => 'Pulse Blue',
@@ -240,8 +241,8 @@ class PaintJob extends Alias
             'asp_flatcolour_yellow'                         => null,
             
             'asp_gamescom_gamescom'                         => 'Gamescom',
-            
             'asp_lavecon_lavecon'                           => 'Lavecon',
+            'asp_eliteexpo_eliteexpo'                       => 'Frontier Expo 2017',
             
             'asp_metallic_chrome'                           => 'Chrome',
             'asp_metallic_gold'                             => 'Gold',
@@ -321,7 +322,6 @@ class PaintJob extends Alias
             'asp_scout_flatcolour_yellow'                   => null,
             
             'asp_scout_gamescom_gamescom'                   => 'Gamescom',
-            
             'asp_scout_lavecon_lavecon'                     => 'Lavecon',
             
             'asp_scout_metallic_chrome'                     => 'Chrome',
@@ -388,6 +388,13 @@ class PaintJob extends Alias
             'belugaliner_default_52'                        => null,
             
             'belugaliner_default_defaultpaintjob'           => 'Default',
+            
+            'belugaliner_ember_yellow'                      => 'Ember Yellow',
+            'belugaliner_ember_white'                       => 'Ember White',
+            'belugaliner_ember_red'                         => 'Ember Red',
+            'belugaliner_ember_purple'                      => 'Ember Purple',
+            'belugaliner_ember_orange'                      => 'Ember Orange',
+            'belugaliner_ember_blue'                        => 'Ember Blue',
             
             'belugaliner_flatcolour_blue'                   => null,
             'belugaliner_flatcolour_green'                  => null,
@@ -1647,6 +1654,13 @@ class PaintJob extends Alias
             'python_flatcolour_white'                       => null,
             'python_flatcolour_yellow'                      => null,
             
+            'python_gradient2_01'                           => 'Predator Red',
+            'python_gradient2_02'                           => 'Predator Green',
+            'python_gradient2_03'                           => 'Predator Teal',
+            'python_gradient2_04'                           => 'Predator Rose',
+            'python_gradient2_05'                           => 'Predator Lime',
+            'python_gradient2_06'                           => 'Predator Blue',
+            
             'python_luminous_stripe_01'                     => 'Pulse Green',
             'python_luminous_stripe_02'                     => 'Pulse Blue',
             'python_luminous_stripe_03'                     => 'Pulse Purple',
@@ -1655,6 +1669,7 @@ class PaintJob extends Alias
             'python_luminous_stripe_06'                     => 'Pulse White',
             
             'python_lavecon_lavecon'                        => 'Lavecon',
+            'python_eliteexpo_eliteexpo'                    => 'Frontier Expo 2017',
             
             'python_metallic_chrome'                        => 'Chrome',
             'python_metallic_gold'                          => 'Gold',
@@ -2000,6 +2015,8 @@ class PaintJob extends Alias
             'type9_lightning_02'                            => null,
             'type9_lightning_03'                            => null,
             'type9_lightning_04'                            => null,
+            
+            'type9_lavecon_lavecon'                         => 'Lavecon',
             
             'type9_metallic_chrome'                         => 'Chrome',
             'type9_metallic_gold'                           => 'Gold',
