@@ -756,7 +756,7 @@ class Type extends Alias
         'tactical data'                         => 1621,    'tacticaldata'                  => 1621,
         'assault plans'                         => 1622,    'assaultplans'                  => 1622,
         'encrypted correspondence'              => 1623,    'encryptedcorrespondence'       => 1623,
-        'diplomatic bag'                        => 1624,
+        'diplomatic bag'                        => 1624,    'diplomaticbag'                 => 1624,
         'scientific research'                   => 1625,    'scientificresearch'            => 1625,
         'scientific samples'                    => 1626,    'scientificsamples'             => 1626,
         'political prisoner'                    => 1627,
