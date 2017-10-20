@@ -408,6 +408,9 @@ class Classes extends Alias
           
         // Utility Mount > Xeno Scanner
           2401  => 0,
+          
+        // Utility Mount > Shutdown Field Neutraliser
+          2451  => 0,
         
         // Core Internal > Fuel Tank
           3001  => 1,

@@ -161,6 +161,9 @@ class Category extends Alias
             'Xeno Scanner'                      => [
                 2401,
             ],
+            'Shutdown Field Neutraliser'        => [
+                2451,
+            ],
         ],
         
         // Core Internal

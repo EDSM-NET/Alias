@@ -372,6 +372,9 @@ class Price extends Alias
           
         // Utility Mount > Xeno Scanner
           2401  => 365698,
+          
+        // Utility Mount > Shutdown Field Neutraliser
+          2451  => null,
         
         // Core Internal > Fuel Tank
           3001  => 1000,

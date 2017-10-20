@@ -409,6 +409,9 @@ class Rating extends Alias
           
         // Utility Mount > Xeno Scanner
           2401  => 'E',
+          
+        // Utility Mount > Shutdown Field Neutraliser
+          2451  => 'F',
         
         // Core Internal > Fuel Tank
           3001  => 'C',

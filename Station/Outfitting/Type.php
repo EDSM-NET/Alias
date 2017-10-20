@@ -405,6 +405,9 @@ class Type extends Alias
           
         // Utility Mount > Xeno Scanner
           2401  => 'Xeno Scanner',
+          
+        // Utility Mount > Shutdown Field Neutraliser
+          2451  => 'Shutdown Field Neutraliser',
         
         // Core Internal > Fuel Tank
           3001  => 'Fuel Tank',
@@ -1572,6 +1575,9 @@ class Type extends Alias
         
         // Utility Mount > Xeno Scanner
         'hpt_xenoscanner_basic_tiny'                    => 2401,
+          
+        // Utility Mount > Shutdown Field Neutraliser
+        'hpt_antiunknownshutdown_tiny'                  => 2451,
         
         // Core Internal > Fuel Tank
         'int_fueltank_size1_class3'                     => 3001,
