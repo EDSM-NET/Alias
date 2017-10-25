@@ -23,6 +23,8 @@ class Service extends Alias
         21                      => 'Restock',
         22                      => 'Refuel',
         23                      => 'Repair',
+        
+        39                      => 'Interstellar Factors Contact',
     ];
     
     /**
