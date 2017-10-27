@@ -542,7 +542,7 @@ class PaintJob extends Alias
             
             'cobramkiii_lavecon_lavecon'                    => 'Lavecon',
             
-            'cobramkiii_medusa_aquamarine'                  => 'Medusa Community',
+            'cobramkiii_medusa_aquamarine'                  => 'Medusa',
             'cobramkiii_medusa_blackwhite'                  => null,
             'cobramkiii_medusa_brown'                       => null,
             'cobramkiii_medusa_green'                       => null,
@@ -575,6 +575,13 @@ class PaintJob extends Alias
             'cobramkiii_luminous_stripe_04'                 => 'Pulse Red',
             'cobramkiii_luminous_stripe_05'                 => 'Pulse Orange',
             'cobramkiii_luminous_stripe_06'                 => 'Pulse White',
+            
+            'cobramkiii_luminous_stripe_ver2_01'            => 'Fusion Green',
+            'cobramkiii_luminous_stripe_ver2_02'            => 'Fusion Blue',
+            'cobramkiii_luminous_stripe_ver2_03'            => 'Fusion Purple',
+            'cobramkiii_luminous_stripe_ver2_04'            => 'Fusion Red',
+            'cobramkiii_luminous_stripe_ver2_05'            => 'Fusion Orange',
+            'cobramkiii_luminous_stripe_ver2_06'            => 'Fusion White',
             
             'cobramkiii_onionhead1_01'                      => 'Onion Head',
             
@@ -1657,7 +1664,7 @@ class PaintJob extends Alias
             'python_gradient2_01'                           => 'Predator Red',
             'python_gradient2_02'                           => 'Predator Green',
             'python_gradient2_03'                           => 'Predator Teal',
-            'python_gradient2_04'                           => 'Predator Rose',
+            'python_gradient2_04'                           => 'Predator Crimson',
             'python_gradient2_05'                           => 'Predator Lime',
             'python_gradient2_06'                           => 'Predator Blue',
             
@@ -2100,6 +2107,13 @@ class PaintJob extends Alias
         // Viper MkIII
         128049273 => array(
             'viper_blackfriday_01'                          => 'Black Friday',
+            
+            'viper_corrosive_01'                            => 'Corroded 1',
+            'viper_corrosive_02'                            => 'Corroded 2',
+            'viper_corrosive_03'                            => 'Corroded 3',
+            'viper_corrosive_04'                            => 'Corroded 4',
+            'viper_corrosive_05'                            => 'Corroded 5',
+            'viper_corrosive_06'                            => 'Corroded 6',
             
             'viper_default_01'                              => 'Red Copperhead',
             'viper_default_02'                              => null,
