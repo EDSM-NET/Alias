@@ -561,7 +561,7 @@ class Type extends Alias
         'tanmark tranquil tea'                  => 436,     'tanmarktranquiltea'            => 436,
         'aepyornis egg'                         => 437,     'ceti aepyornis egg'            => 437,
         'haidne black brew'                     => 438,     'haidneblackbrew'               => 438,
-        'void extract coffee'                   => 439,     'l f t void extract coffee'     => 439,
+        'void extract coffee'                   => 439,     'l f t void extract coffee'     => 439,     'lftvoidextractcoffee'          => 439,
         'ltt hypersweet'                        => 440,     'l t t hyper sweet'             => 440,     'ltthypersweet'                 => 440,
         'mechucos high tea'                     => 441,     'mechucoshightea'               => 441,
         'mokojing beast feast'                  => 442,     'mokojingbeastfeast'            => 442,
@@ -727,7 +727,7 @@ class Type extends Alias
         'kamorin historic weapons'              => 1405,    'kamorinhistoricweapons'        => 1405,
         'landmines'                             => 1406,
         'borasetani pathogenetics'              => 1407,
-        'hip 118311 swarm'                      => 1408,
+        'hip 118311 swarm'                      => 1408,    'hip118311swarm'                => 1408,
         'holva duelling blades'                 => 1409,
         'gilya signature weapons'               => 1410,
         
