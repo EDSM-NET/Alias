@@ -152,7 +152,7 @@ class PaintJob extends Alias
             'anaconda_kickstartermc_kickstartermc'          => null,
             
             'anaconda_lavecon_lavecon'                      => 'Lavecon',
-            'anaconda_eliteexpo_eliteexpo'                  => 'Frontier Expo 2017',
+            'anaconda_eliteexpo_eliteexpo'                  => 'Frontier Expo',
             
             'anaconda_luminous_stripe_01'                   => 'Pulse Green',
             'anaconda_luminous_stripe_02'                   => 'Pulse Blue',
@@ -242,7 +242,7 @@ class PaintJob extends Alias
             
             'asp_gamescom_gamescom'                         => 'Gamescom',
             'asp_lavecon_lavecon'                           => 'Lavecon',
-            'asp_eliteexpo_eliteexpo'                       => 'Frontier Expo 2017',
+            'asp_eliteexpo_eliteexpo'                       => 'Frontier Expo',
             
             'asp_metallic_chrome'                           => 'Chrome',
             'asp_metallic_gold'                             => 'Gold',
@@ -1669,7 +1669,7 @@ class PaintJob extends Alias
             'python_luminous_stripe_06'                     => 'Pulse White',
             
             'python_lavecon_lavecon'                        => 'Lavecon',
-            'python_eliteexpo_eliteexpo'                    => 'Frontier Expo 2017',
+            'python_eliteexpo_eliteexpo'                    => 'Frontier Expo',
             
             'python_metallic_chrome'                        => 'Chrome',
             'python_metallic_gold'                          => 'Gold',
@@ -1804,7 +1804,7 @@ class PaintJob extends Alias
             'sidewinder_qa_03'                              => null,
             'sidewinder_qa_qa'                              => null,
             
-            'sidewinder_specialeffect_01'                   => null,
+            'sidewinder_specialeffect_01'                   => 'Special Effect',
             
             'sidewinder_squadron_black'                     => 'Squadron Shadow',
             'sidewinder_squadron_blue'                      => 'Squadron Blue',
