@@ -1429,6 +1429,13 @@ class PaintJob extends Alias
             
             'cutter_lavecon_lavecon'                        => 'Lavecon',
             
+            'cutter_luminous_stripe_ver2_01'                => 'Pulse Green',
+            'cutter_luminous_stripe_ver2_02'                => 'Pulse Blue',
+            'cutter_luminous_stripe_ver2_03'                => 'Pulse Purple',
+            'cutter_luminous_stripe_ver2_04'                => 'Pulse Red',
+            'cutter_luminous_stripe_ver2_05'                => 'Pulse Orange',
+            'cutter_luminous_stripe_ver2_06'                => 'Pulse White',
+            
             'cutter_metallic_chrome'                        => 'Chrome',
             'cutter_metallic_gold'                          => 'Gold',
             'cutter_metallic2_gold'                         => 'Golden',

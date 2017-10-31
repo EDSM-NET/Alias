@@ -759,7 +759,7 @@ class Type extends Alias
         'diplomatic bag'                        => 1624,    'diplomaticbag'                 => 1624,
         'scientific research'                   => 1625,    'scientificresearch'            => 1625,
         'scientific samples'                    => 1626,    'scientificsamples'             => 1626,
-        'political prisoner'                    => 1627,
+        'political prisoner'                    => 1627,    'politicalprisoner'             => 1627,
         'hostage'                               => 1628,
         'geological samples'                    => 1629,    'geologicalsamples'             => 1629,
         'unstable data core'                    => 1630,
