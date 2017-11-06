@@ -24,6 +24,8 @@ class Service extends Alias
         22                      => 'Refuel',
         23                      => 'Repair',
         
+        32                      => 'Universal Cartographics',
+        
         39                      => 'Interstellar Factors Contact',
     ];
     
