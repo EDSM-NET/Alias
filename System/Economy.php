@@ -42,9 +42,14 @@ class Economy extends Alias
         'none'                  => 0,
         
         'agri'                  => 1,
+        'agriculture'           => 1,
+        
         'colony'                => 2,
         'extraction'            => 3,
+        
         'hightech'              => 4,
+        'high tech'             => 4,
+        
         'industrial'            => 5,
         'military'              => 6,
         'refinery'              => 7,

@@ -55,7 +55,10 @@ class Government extends Alias
         'feudal'                => 8,
         'imperial'              => 9,
         'patronage'             => 10,
+        
         'prisoncolony'          => 11,
+        'prison colony'         => 11,
+        
         'theocracy'             => 12,
         
         'engineer'              => 99,
