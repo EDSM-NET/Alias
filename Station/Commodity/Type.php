@@ -388,6 +388,7 @@ class Type extends Alias
         
         1800        => 'Thargoid Cyclops Tissue Sample',
         1801        => 'Thargoid Heart',
+        1802        => 'Thargoid Basilics Tissue Sample', //TODO: In game name?
         
         // Powerplay (99)
         9901        => 'Aisling Media Materials',
@@ -519,8 +520,8 @@ class Type extends Alias
         'indi bourbon'                          => 329,     'indibourbon'                   => 329,
         'leestian evil juice'                   => 330,     'leestianeviljuice'             => 330,
         'azure milk'                            => 331,     'blue milk'                     => 331,     'bluemilk'                      => 331,
-        'onionhead alpha strain'                => 332,     'onion head a'                  => 332,
-        'onionhead beta strain'                 => 333,     'onion head b'                  => 333,
+        'onionhead alpha strain'                => 332,     'onion head a'                  => 332,     'onionheada'                    => 332,
+        'onionhead beta strain'                 => 333,     'onion head b'                  => 333,     'onionheadb'                    => 333,
         'harmasilversearum'                     => 334,
         
         'algae'                                 => 401,
@@ -559,7 +560,7 @@ class Type extends Alias
         'ethgreze tea buds'                     => 434,     'ethgrezeteabuds'               => 434,
         'ceremonial heike tea'                  => 435,     'ceremonialheiketea'            => 435,
         'tanmark tranquil tea'                  => 436,     'tanmarktranquiltea'            => 436,
-        'aepyornis egg'                         => 437,     'ceti aepyornis egg'            => 437,
+        'aepyornis egg'                         => 437,     'ceti aepyornis egg'            => 437,     'cetiaepyornisegg'              => 437,
         'haidne black brew'                     => 438,     'haidneblackbrew'               => 438,
         'void extract coffee'                   => 439,     'l f t void extract coffee'     => 439,     'lftvoidextractcoffee'          => 439,
         'ltt hypersweet'                        => 440,     'l t t hyper sweet'             => 440,     'ltthypersweet'                 => 440,
@@ -793,6 +794,7 @@ class Type extends Alias
         
         'thargoidtissuesampletype1'             => 1800,
         'thargoidheart'                         => 1801,
+        'thargoidtissuesampletype2'             => 1802,
         
         'aislingmediamaterials'                 => 9901,
         'aislingmediaresources'                 => 9902,
