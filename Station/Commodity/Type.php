@@ -727,7 +727,7 @@ class Type extends Alias
         'battle weapons'                        => 1404,    'battleweapons'                 => 1404,
         'kamorin historic weapons'              => 1405,    'kamorinhistoricweapons'        => 1405,
         'landmines'                             => 1406,
-        'borasetani pathogenetics'              => 1407,
+        'borasetani pathogenetics'              => 1407,    'borasetanipathogenetics'       => 1407,
         'hip 118311 swarm'                      => 1408,    'hip118311swarm'                => 1408,
         'holva duelling blades'                 => 1409,
         'gilya signature weapons'               => 1410,
@@ -736,7 +736,7 @@ class Type extends Alias
         
         'ai relics'                             => 1601,    'airelics'                      => 1601,
         'antiquities'                           => 1602,
-        'sap 8 core container'                  => 1603,
+        'sap 8 core container'                  => 1603,    'sap8corecontainer'             => 1603,
         'trinkets of hidden fortune'            => 1604,    'trinketsoffortune'             => 1604,
         'u s s cargo trade data'                => 1605,    'trade data'                    => 1605,    'usscargotradedata'             => 1605,    'tradedata'                     => 1605,
         'occupied cryoPod'                      => 1606,    'occupiedcryopod'               => 1606,
