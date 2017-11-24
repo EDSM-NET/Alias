@@ -730,6 +730,7 @@ class Type extends Alias
         // Optional Internal > Shield Generator
           4104  => 'Bi-Weave Shield Generator',
           4106  => 'Shield Generator',
+          4107  => 'Prismatic Shield Generator',
         
           4111  => 'Shield Generator',
           4112  => 'Shield Generator',
@@ -737,6 +738,7 @@ class Type extends Alias
           4114  => 'Bi-Weave Shield Generator',
           4115  => 'Shield Generator',
           4116  => 'Shield Generator',
+          4117  => 'Prismatic Shield Generator',
         
           4121  => 'Shield Generator',
           4122  => 'Shield Generator',
@@ -744,6 +746,7 @@ class Type extends Alias
           4124  => 'Bi-Weave Shield Generator',
           4125  => 'Shield Generator',
           4126  => 'Shield Generator',
+          4127  => 'Prismatic Shield Generator',
         
           4131  => 'Shield Generator',
           4132  => 'Shield Generator',
@@ -751,6 +754,7 @@ class Type extends Alias
           4134  => 'Bi-Weave Shield Generator',
           4135  => 'Shield Generator',
           4136  => 'Shield Generator',
+          4137  => 'Prismatic Shield Generator',
         
           4141  => 'Shield Generator',
           4142  => 'Shield Generator',
@@ -758,6 +762,7 @@ class Type extends Alias
           4144  => 'Bi-Weave Shield Generator',
           4145  => 'Shield Generator',
           4146  => 'Shield Generator',
+          4147  => 'Prismatic Shield Generator',
         
           4151  => 'Shield Generator',
           4152  => 'Shield Generator',
@@ -765,6 +770,7 @@ class Type extends Alias
           4154  => 'Bi-Weave Shield Generator',
           4155  => 'Shield Generator',
           4156  => 'Shield Generator',
+          4157  => 'Prismatic Shield Generator',
         
           4161  => 'Shield Generator',
           4162  => 'Shield Generator',
@@ -772,6 +778,7 @@ class Type extends Alias
           4164  => 'Bi-Weave Shield Generator',
           4165  => 'Shield Generator',
           4166  => 'Shield Generator',
+          4167  => 'Prismatic Shield Generator',
         
           4171  => 'Shield Generator',
           4172  => 'Shield Generator',
@@ -779,6 +786,7 @@ class Type extends Alias
           4174  => 'Bi-Weave Shield Generator',
           4175  => 'Shield Generator',
           4176  => 'Shield Generator',
+          4177  => 'Prismatic Shield Generator',
         
         // Optional Internal > Shield Cell Bank
           4201  => 'Shield Cell Bank',
@@ -1903,6 +1911,7 @@ class Type extends Alias
         // Optional Internal > Shield Generator
         'int_shieldgenerator_size1_class3_fast'         => 4104,
         'int_shieldgenerator_size1_class5'              => 4106,
+        'int_shieldgenerator_size1_class5_strong'       => 4107,
         
         'int_shieldgenerator_size2_class1'              => 4111,
         'int_shieldgenerator_size2_class2'              => 4112,
@@ -1910,6 +1919,7 @@ class Type extends Alias
         'int_shieldgenerator_size2_class3_fast'         => 4114,
         'int_shieldgenerator_size2_class4'              => 4115,
         'int_shieldgenerator_size2_class5'              => 4116,
+        'int_shieldgenerator_size2_class5_strong'       => 4117,
         
         'int_shieldgenerator_size3_class1'              => 4121,
         'int_shieldgenerator_size3_class2'              => 4122,
@@ -1917,6 +1927,7 @@ class Type extends Alias
         'int_shieldgenerator_size3_class3_fast'         => 4124,
         'int_shieldgenerator_size3_class4'              => 4125,
         'int_shieldgenerator_size3_class5'              => 4126,
+        'int_shieldgenerator_size3_class5_strong'       => 4127,
         
         'int_shieldgenerator_size4_class1'              => 4131,
         'int_shieldgenerator_size4_class2'              => 4132,
@@ -1924,6 +1935,7 @@ class Type extends Alias
         'int_shieldgenerator_size4_class3_fast'         => 4134,
         'int_shieldgenerator_size4_class4'              => 4135,
         'int_shieldgenerator_size4_class5'              => 4136,
+        'int_shieldgenerator_size4_class5_strong'       => 4137,
         
         'int_shieldgenerator_size5_class1'              => 4141,
         'int_shieldgenerator_size5_class2'              => 4142,
@@ -1931,6 +1943,7 @@ class Type extends Alias
         'int_shieldgenerator_size5_class3_fast'         => 4144,
         'int_shieldgenerator_size5_class4'              => 4145,
         'int_shieldgenerator_size5_class5'              => 4146,
+        'int_shieldgenerator_size5_class5_strong'       => 4147,
         
         'int_shieldgenerator_size6_class1'              => 4151,
         'int_shieldgenerator_size6_class2'              => 4152,
@@ -1938,6 +1951,7 @@ class Type extends Alias
         'int_shieldgenerator_size6_class3_fast'         => 4154,
         'int_shieldgenerator_size6_class4'              => 4155,
         'int_shieldgenerator_size6_class5'              => 4156,
+        'int_shieldgenerator_size6_class5_strong'       => 4157,
         
         'int_shieldgenerator_size7_class1'              => 4161,
         'int_shieldgenerator_size7_class2'              => 4162,
@@ -1945,6 +1959,7 @@ class Type extends Alias
         'int_shieldgenerator_size7_class3_fast'         => 4164,
         'int_shieldgenerator_size7_class4'              => 4165,
         'int_shieldgenerator_size7_class5'              => 4166,
+        'int_shieldgenerator_size7_class5_strong'       => 4167,
         
         'int_shieldgenerator_size8_class1'              => 4171,
         'int_shieldgenerator_size8_class2'              => 4172,
@@ -1952,6 +1967,7 @@ class Type extends Alias
         'int_shieldgenerator_size8_class3_fast'         => 4174,
         'int_shieldgenerator_size8_class4'              => 4175,
         'int_shieldgenerator_size8_class5'              => 4176,
+        'int_shieldgenerator_size8_class5_strong'       => 4177,
         
         // Optional Internal > Shield Cell Bank
         'int_shieldcellbank_size1_class1'               => 4201,

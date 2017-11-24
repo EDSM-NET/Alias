@@ -733,6 +733,7 @@ class Classes extends Alias
         // Optional Internal > Shield Generator
           4104  => 1,
           4106  => 1,
+          4107  => 1,
         
           4111  => 2,
           4112  => 2,
@@ -740,6 +741,7 @@ class Classes extends Alias
           4114  => 2,
           4115  => 2,
           4116  => 2,
+          4117  => 2,
         
           4121  => 3,
           4122  => 3,
@@ -747,6 +749,7 @@ class Classes extends Alias
           4124  => 3,
           4125  => 3,
           4126  => 3,
+          4127  => 3,
         
           4131  => 4,
           4132  => 4,
@@ -754,6 +757,7 @@ class Classes extends Alias
           4134  => 4,
           4135  => 4,
           4136  => 4,
+          4137  => 4,
         
           4141  => 5,
           4142  => 5,
@@ -761,6 +765,7 @@ class Classes extends Alias
           4144  => 5,
           4145  => 5,
           4146  => 5,
+          4147  => 5,
         
           4151  => 6,
           4152  => 6,
@@ -768,6 +773,7 @@ class Classes extends Alias
           4154  => 6,
           4155  => 6,
           4156  => 6,
+          4157  => 6,
         
           4161  => 7,
           4162  => 7,
@@ -775,6 +781,7 @@ class Classes extends Alias
           4164  => 7,
           4165  => 7,
           4166  => 7,
+          4167  => 7,
         
           4171  => 8,
           4172  => 8,
@@ -782,6 +789,7 @@ class Classes extends Alias
           4174  => 8,
           4175  => 8,
           4176  => 8,
+          4177  => 8,
         
         // Optional Internal > Shield Cell Bank
           4201  => 1,

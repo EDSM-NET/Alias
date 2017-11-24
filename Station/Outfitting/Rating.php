@@ -734,6 +734,7 @@ class Rating extends Alias
         // Optional Internal > Shield Generator
           4104  => 'C',
           4106  => 'A',
+          4107  => 'A',
         
           4111  => 'E',
           4112  => 'D',
@@ -741,6 +742,7 @@ class Rating extends Alias
           4114  => 'C',
           4115  => 'B',
           4116  => 'A',
+          4117  => 'A',
         
           4121  => 'E',
           4122  => 'D',
@@ -748,6 +750,7 @@ class Rating extends Alias
           4124  => 'C',
           4125  => 'B',
           4126  => 'A',
+          4127  => 'A',
         
           4131  => 'E',
           4132  => 'D',
@@ -755,6 +758,7 @@ class Rating extends Alias
           4134  => 'C',
           4135  => 'B',
           4136  => 'A',
+          4137  => 'A',
         
           4141  => 'E',
           4142  => 'D',
@@ -762,6 +766,7 @@ class Rating extends Alias
           4144  => 'C',
           4145  => 'B',
           4146  => 'A',
+          4147  => 'A',
         
           4151  => 'E',
           4152  => 'D',
@@ -769,6 +774,7 @@ class Rating extends Alias
           4154  => 'C',
           4155  => 'B',
           4156  => 'A',
+          4157  => 'A',
         
           4161  => 'E',
           4162  => 'D',
@@ -776,6 +782,7 @@ class Rating extends Alias
           4164  => 'C',
           4165  => 'B',
           4166  => 'A',
+          4167  => 'A',
         
           4171  => 'E',
           4172  => 'D',
@@ -783,6 +790,7 @@ class Rating extends Alias
           4174  => 'C',
           4175  => 'B',
           4176  => 'A',
+          4177  => 'A',
         
         // Optional Internal > Shield Cell Bank
           4201  => 'E',
