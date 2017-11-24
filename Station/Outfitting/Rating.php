@@ -366,6 +366,9 @@ class Rating extends Alias
         // Weapon Hardpoint > Remote Release Flak Launcher
           1752  => 'B',
           1760  => 'B',
+        
+        // Weapon Hardpoint > Pack-Hound Missile Rack
+          1802  => 'B',
           
         // Utility Mount > Shield Booster
           2001  => 'E',

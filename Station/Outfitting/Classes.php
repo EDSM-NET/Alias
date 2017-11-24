@@ -365,6 +365,9 @@ class Classes extends Alias
         // Weapon Hardpoint > Remote Release Flak Launcher
           1752  => 2,
           1760  => 2,
+        
+        // Weapon Hardpoint > Pack-Hound Missile Rack
+          1802  => 2,
           
         // Utility Mount > Shield Booster
           2001  => 0,

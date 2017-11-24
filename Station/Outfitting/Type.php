@@ -362,6 +362,9 @@ class Type extends Alias
         // Weapon Hardpoint > Remote Release Flak Launcher
           1752  => 'Remote Release Flak Launcher (Fixed)',
           1760  => 'Remote Release Flak Launcher (Turret)',
+        
+        // Weapon Hardpoint > Pack-Hound Missile Rack
+          1802  => 'Pack-Hound Missile Rack (Swarm, Fixed)',
           
         // Utility Mount > Shield Booster
           2001  => 'Shield Booster',
@@ -1532,6 +1535,9 @@ class Type extends Alias
         'hpt_flakmortar_fixed_medium'                   => 1752,
         
         'hpt_flakmortar_turret_medium'                  => 1760,
+        
+        // Weapon Hardpoint > Pack-Hound Missile Rack
+        'hpt_drunkmissilerack_fixed_medium'             => 1802,
         
         // Utility Mount > Shield Booster
         'hpt_shieldbooster_size0_class1'                => 2001,
