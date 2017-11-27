@@ -80,6 +80,7 @@ class PaintJob extends Alias
             'adder_flatcolour_yellow'                       => null,
             
             'adder_metallic_chrome'                         => 'Chrome',
+            'adder_metallic2_chrome'                        => 'Chromed',
             'adder_metallic_gold'                           => 'Gold',
             
             'adder_militaire_dark_green'                    => 'Military Dark Green',
@@ -88,6 +89,13 @@ class PaintJob extends Alias
             'adder_militaire_earth_yellow'                  => 'Military Earth Yellow',
             'adder_militaire_forest_green'                  => 'Military Marine Blue',
             'adder_militaire_sand'                          => 'Military Sand',
+            
+            'adder_militarystripe_blue'                     => 'Military Stripe Blue',
+            'adder_militarystripe_green'                    => 'Military Stripe Green',
+            'adder_militarystripe_orange'                   => 'Military Stripe Orange',
+            'adder_militarystripe_purple'                   => 'Military Stripe Purple',
+            'adder_militarystripe_red'                      => 'Military Stripe Red',
+            'adder_militarystripe_yellow'                   => 'Military Stripe Yellow',
             
             'adder_tactical_blue'                           => 'Tactical Cobalt',
             'adder_tactical_brown'                          => 'Tactical Khaki',
@@ -325,6 +333,7 @@ class PaintJob extends Alias
             'asp_scout_lavecon_lavecon'                     => 'Lavecon',
             
             'asp_scout_metallic_chrome'                     => 'Chrome',
+            'asp_scout_metallic2_chrome'                    => 'Chromed',
             'asp_scout_metallic_gold'                       => 'Gold',
             
             'asp_scout_militaire_dark_green'                => 'Military Dark Green',
@@ -719,6 +728,7 @@ class PaintJob extends Alias
             'cobramkiv_mercenary_04'                        => null,
             
             'cobramkiv_metallic_chrome'                     => 'Chrome',
+            'cobramkiv_metallic2_chrome'                    => 'Chromed',
             'cobramkiv_metallic_gold'                       => 'Gold',
             
             'cobramkiv_militaire_dark_green'                => 'Military Dark Green',
@@ -806,6 +816,7 @@ class PaintJob extends Alias
             'diamondbackxl_default_defaultpaintjob'         => 'Default',
             
             'diamondbackxl_metallic_chrome'                 => 'Chrome',
+            'diamondbackxl_metallic2_chrome'                => 'Chromed',
             'diamondbackxl_metallic_gold'                   => 'Gold',
             
             'diamondbackxl_militaire_dark_green'            => 'Military Dark Green',
@@ -931,6 +942,7 @@ class PaintJob extends Alias
             'eagle_lavecon_lavecon'                         => 'Lavecon',
             
             'eagle_metallic_chrome'                         => 'Chrome',
+            'eagle_metallic2_chrome'                        => 'Chromed',
             'eagle_metallic_gold'                           => 'Gold',
             'eagle_metallic2_gold'                          => 'Golden',
             
@@ -1049,6 +1061,7 @@ class PaintJob extends Alias
             'federation_corvette_default_defaultpaintjob'   => 'Default',
             
             'federation_corvette_metallic_chrome'           => 'Chrome',
+            'federation_corvette_metallic2_chrome'          => 'Chromed',
             'federation_corvette_metallic_gold'             => 'Gold',
             'federation_corvette_metallic2_gold'            => 'Golden',
             
@@ -1156,6 +1169,7 @@ class PaintJob extends Alias
             'federation_gunship_flatcolour_yellow'          => null,
             
             'federation_gunship_metallic_chrome'            => 'Chrome',
+            'federation_gunship_metallic2_chrome'           => 'Chromed',
             'federation_gunship_metallic_gold'              => 'Gold',
             'federation_gunship_metallic2_gold'             => 'Golden',
             
@@ -1165,6 +1179,13 @@ class PaintJob extends Alias
             'federation_gunship_militaire_earth_yellow'     => 'Military Earth Yellow',
             'federation_gunship_militaire_forest_green'     => 'Military Marine Blue',
             'federation_gunship_militaire_sand'             => 'Military Sand',
+            
+            'federation_gunship_militarystripe_blue'        => 'Military Stripe Blue',
+            'federation_gunship_militarystripe_green'       => 'Military Stripe Green',
+            'federation_gunship_militarystripe_orange'      => 'Military Stripe Orange',
+            'federation_gunship_militarystripe_purple'      => 'Military Stripe Purple',
+            'federation_gunship_militarystripe_red'         => 'Military Stripe Red',
+            'federation_gunship_militarystripe_yellow'      => 'Military Stripe Yellow',
             
             'federation_gunship_tactical_blue'              => 'Tactical Cobalt',
             'federation_gunship_tactical_brown'             => 'Tactical Khaki',
@@ -1437,6 +1458,7 @@ class PaintJob extends Alias
             'cutter_luminous_stripe_ver2_06'                => 'Pulse White',
             
             'cutter_metallic_chrome'                        => 'Chrome',
+            'cutter_metallic2_chrome'                       => 'Chromed',
             'cutter_metallic_gold'                          => 'Gold',
             'cutter_metallic2_gold'                         => 'Golden',
             
@@ -2041,6 +2063,13 @@ class PaintJob extends Alias
             'type9_militaire_earth_yellow'                  => 'Military Earth Yellow',
             'type9_militaire_forest_green'                  => 'Military Marine Blue',
             'type9_militaire_sand'                          => 'Military Sand',
+            
+            'type9_militarystripe_blue'                     => 'Military Stripe Blue',
+            'type9_militarystripe_green'                    => 'Military Stripe Green',
+            'type9_militarystripe_orange'                   => 'Military Stripe Orange',
+            'type9_militarystripe_purple'                   => 'Military Stripe Purple',
+            'type9_militarystripe_red'                      => 'Military Stripe Red',
+            'type9_militarystripe_yellow'                   => 'Military Stripe Yellow',
             
             'type9_rorschach_01'                            => null,
             'type9_rorschach_02'                            => null,
