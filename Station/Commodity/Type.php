@@ -605,7 +605,7 @@ class Type extends Alias
         'emergency power cells'                 => 618,     'emergencypowercells'           => 618,
         'power converter'                       => 619,     'powerconverter'                => 619,
         'power grid assembly'                   => 620,     'energy grid assembly'          => 620,     'powergridassembly'             => 620,
-        'power transfer conduits'               => 621,     'power transfer bus'            => 621,     'powertransferconduits'         => 621,
+        'power transfer conduits'               => 621,     'power transfer bus'            => 621,     'powertransferconduits'         => 621,     'powertransferbus'              => 621,
         'radiation baffle'                      => 622,     'radiationbaffle'               => 622,
         'exhaust manifold'                      => 623,     'exhaustmanifold'               => 623,
         'reinforced mounting plate'             => 624,     'reinforcedmountingplate'       => 624,
