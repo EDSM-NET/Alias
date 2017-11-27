@@ -22,7 +22,13 @@ class UssDrop extends Alias
         50                      => 'Distress call',
         60                      => 'Mission target',
         70                      => 'Non-Human signal source',
+        
         80                      => 'Degraded emissions detected',
+        85                      => 'High grade emissions detected',
+        
+        90                      => 'Weapons fire detected',
+        
+       100                      => 'Trading Beacon',
     ];
     
     /**
@@ -40,6 +46,13 @@ class UssDrop extends Alias
         'distresssignal'        => 50,
         'missiontarget'         => 60,
         'nonhuman'              => 70,
+        
         'salvage'               => 80,
+        'valuablesalvage'       => 82,
+        'veryvaluablesalvage'   => 85,
+        
+        'weaponsfire'           => 90,
+        
+        'tradingbeacon'         => 100,
     ];
 }
