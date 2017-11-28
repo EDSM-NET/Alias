@@ -248,6 +248,8 @@ class Rating extends Alias
           1009  => 'F',
           1010  => 'E',
           1011  => 'D',
+          
+          1021  => 'E',
         
         // Weapon Hardpoint > Pulse Laser
           1051  => 'F',

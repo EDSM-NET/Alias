@@ -246,6 +246,8 @@ class Type extends Alias
           1009  => 'Beam Laser (Turret)',
           1010  => 'Beam Laser (Turret)',
           1011  => 'Beam Laser (Turret)',
+          
+          1021  => 'Retributor Beam Laser (Fixed)',
         
         // Weapon Hardpoint > Pulse Laser
           1051  => 'Pulse Laser (Fixed)',
@@ -1422,6 +1424,8 @@ class Type extends Alias
         'hpt_beamlaser_turret_small'                    => 1009,
         'hpt_beamlaser_turret_medium'                   => 1010,
         'hpt_beamlaser_turret_large'                    => 1011,
+        
+        'hpt_beamlaser_fixed_small_heat'                => 1021,
         
         // Weapon Hardpoint > Pulse Laser
         'hpt_pulselaser_fixed_small'                    => 1051,

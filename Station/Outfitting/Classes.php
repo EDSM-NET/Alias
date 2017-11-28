@@ -248,6 +248,8 @@ class Classes extends Alias
           1009  => 1,
           1010  => 2,
           1011  => 3,
+          
+          1021  => 1,
         
         // Weapon Hardpoint > Pulse Laser
           1051  => 1,
