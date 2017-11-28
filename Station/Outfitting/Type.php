@@ -336,7 +336,7 @@ class Type extends Alias
           1405  => 'Missile Rack (Dumbfire, Fixed)',
           1406  => 'Missile Rack (Dumpfire, Fixed)',
           
-          1411  => 'Missile Rack (Dumpfire, Fixed)',
+          1411  => 'Missile Rack (Dumpfire, Fixed, Powerplay)',
         
         // Weapon Hardpoint > Mine Launcher
           1451  => 'Mine Launcher (Fixed)',
@@ -734,7 +734,7 @@ class Type extends Alias
         // Optional Internal > Shield Generator
           4104  => 'Bi-Weave Shield Generator',
           4106  => 'Shield Generator',
-          4107  => 'Prismatic Shield Generator',
+          4107  => 'Prismatic Shield Generator (Powerplay)',
         
           4111  => 'Shield Generator',
           4112  => 'Shield Generator',
@@ -742,7 +742,7 @@ class Type extends Alias
           4114  => 'Bi-Weave Shield Generator',
           4115  => 'Shield Generator',
           4116  => 'Shield Generator',
-          4117  => 'Prismatic Shield Generator',
+          4117  => 'Prismatic Shield Generator (Powerplay)',
         
           4121  => 'Shield Generator',
           4122  => 'Shield Generator',
@@ -750,7 +750,7 @@ class Type extends Alias
           4124  => 'Bi-Weave Shield Generator',
           4125  => 'Shield Generator',
           4126  => 'Shield Generator',
-          4127  => 'Prismatic Shield Generator',
+          4127  => 'Prismatic Shield Generator (Powerplay)',
         
           4131  => 'Shield Generator',
           4132  => 'Shield Generator',
@@ -758,7 +758,7 @@ class Type extends Alias
           4134  => 'Bi-Weave Shield Generator',
           4135  => 'Shield Generator',
           4136  => 'Shield Generator',
-          4137  => 'Prismatic Shield Generator',
+          4137  => 'Prismatic Shield Generator (Powerplay)',
         
           4141  => 'Shield Generator',
           4142  => 'Shield Generator',
@@ -766,7 +766,7 @@ class Type extends Alias
           4144  => 'Bi-Weave Shield Generator',
           4145  => 'Shield Generator',
           4146  => 'Shield Generator',
-          4147  => 'Prismatic Shield Generator',
+          4147  => 'Prismatic Shield Generator (Powerplay)',
         
           4151  => 'Shield Generator',
           4152  => 'Shield Generator',
@@ -774,7 +774,7 @@ class Type extends Alias
           4154  => 'Bi-Weave Shield Generator',
           4155  => 'Shield Generator',
           4156  => 'Shield Generator',
-          4157  => 'Prismatic Shield Generator',
+          4157  => 'Prismatic Shield Generator (Powerplay)',
         
           4161  => 'Shield Generator',
           4162  => 'Shield Generator',
@@ -782,7 +782,7 @@ class Type extends Alias
           4164  => 'Bi-Weave Shield Generator',
           4165  => 'Shield Generator',
           4166  => 'Shield Generator',
-          4167  => 'Prismatic Shield Generator',
+          4167  => 'Prismatic Shield Generator (Powerplay)',
         
           4171  => 'Shield Generator',
           4172  => 'Shield Generator',
@@ -790,7 +790,7 @@ class Type extends Alias
           4174  => 'Bi-Weave Shield Generator',
           4175  => 'Shield Generator',
           4176  => 'Shield Generator',
-          4177  => 'Prismatic Shield Generator',
+          4177  => 'Prismatic Shield Generator (Powerplay)',
         
         // Optional Internal > Shield Cell Bank
           4201  => 'Shield Cell Bank',
