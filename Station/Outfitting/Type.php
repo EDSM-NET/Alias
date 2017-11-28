@@ -335,6 +335,8 @@ class Type extends Alias
           1402  => 'Missile Rack (Seeker, Fixed)',
           1405  => 'Missile Rack (Dumbfire, Fixed)',
           1406  => 'Missile Rack (Dumpfire, Fixed)',
+          
+          1411  => 'Missile Rack (Dumpfire, Fixed)',
         
         // Weapon Hardpoint > Mine Launcher
           1451  => 'Mine Launcher (Fixed)',
@@ -1514,6 +1516,8 @@ class Type extends Alias
         
         'hpt_dumbfiremissilerack_fixed_small'           => 1405,
         'hpt_dumbfiremissilerack_fixed_medium'          => 1406,
+        
+        'hpt_dumbfiremissilerack_fixed_medium_lasso'    => 1411,
         
         // Weapon Hardpoint > Mine Launcher
         'hpt_minelauncher_fixed_small'                  => 1451,

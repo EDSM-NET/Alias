@@ -338,6 +338,8 @@ class Rating extends Alias
           
           1405  => 'B',
           1406  => 'B',
+          
+          1411  => 'B',
         
         // Weapon Hardpoint > Mine Launcher
           1451  => 'I',
