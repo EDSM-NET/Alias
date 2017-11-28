@@ -16,6 +16,10 @@ class Power extends Alias
      */
     static protected $name  = [
          1                      => 'Edmund Mahon',
+         2                      => 'Zachary Hudson',
+         3                      => 'Aisling Duval',
+         4                      => 'Yuri Grom',
+         5                      => 'Felicia Winters',
     ];
     
     /**
@@ -27,5 +31,9 @@ class Power extends Alias
      */
     static protected $alias = [
         'edmund mahon'          => 1,
+        'zachary hudson'        => 2,
+        'aisling duval'         => 3,
+        'yuri grom'             => 4,
+        'felicia winters'       => 5,
     ];
 }

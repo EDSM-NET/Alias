@@ -37,6 +37,8 @@ class UssDrop extends Alias
      * Every aliases are sanitized before matching
      *     => trim
      *     => strtolower
+     *     => str_replace(;)
+     *     => str_replace($uss_type_)
      */
     static protected $alias = [
         'aftermath'             => 10,
