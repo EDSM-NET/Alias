@@ -20,6 +20,7 @@ class Power extends Alias
          3                      => 'Aisling Duval',
          4                      => 'Yuri Grom',
          5                      => 'Felicia Winters',
+         6                      => 'Li Yong-Rui',
     ];
     
     /**
@@ -35,5 +36,6 @@ class Power extends Alias
         'aisling duval'         => 3,
         'yuri grom'             => 4,
         'felicia winters'       => 5,
+        'li yong-rui'           => 6,
     ];
 }
