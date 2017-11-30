@@ -57,8 +57,8 @@ class Type extends Alias
         'dockingmajor_blockingairlock'              => 12,
         'dockingminor_blockinglandingpad'           => 13,
         'dockingmajor_blockinglandingpad'           => 14,
-        'dockingminor_trespass'                     => 15,
-        'dockingmajor_trespass'                     => 16,
+        'dockingminor_trespass'                     => 15,  'dockingminortresspass'                     => 15,
+        'dockingmajor_trespass'                     => 16,  'dockingmajortresspass'                     => 16,
         'collidedatspeedinnofirezone'               => 17,
         'collidedatspeedinnofirezone_hulldamage'    => 18,
     ];
