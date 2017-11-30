@@ -24,6 +24,15 @@ class Engineer extends Alias
          7                              => 'Marco Qwent',
          8                              => 'Professor Palin',
          9                              => 'Didi Vatermann',
+        10                              => 'The Dweller',
+        11                              => 'Colonel Bris Dekker',
+        12                              => 'Elvira Martuuk',
+        13                              => 'Lori Jameson',
+        14                              => 'Juri Ishmaak',
+        15                              => 'Zacariah Nemo',
+        16                              => 'The Sarge',
+        17                              => 'Lei Cheung',
+        18                              => 'Ram Tah',
     ];
     
     /**
@@ -43,5 +52,14 @@ class Engineer extends Alias
         'marco qwent'                   => 7,
         'professor palin'               => 8,
         'didi vatermann'                => 9,
+        'the dweller'                   => 10,
+        'colonel bris dekker'           => 11,
+        'elvira martuuk'                => 12,
+        'lori jameson'                  => 13,
+        'juri ishmaak'                  => 14,
+        'zacariah nemo'                 => 15,
+        'the sarge'                     => 16,
+        'lei cheung'                    => 17,
+        'ram tah'                       => 18,
     ];
 }

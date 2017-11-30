@@ -27,6 +27,7 @@ class NPC extends Alias
         
         21                          => 'Imperial Navy Fighter',
         22                          => 'Alliance Defence Fighter',
+        23                          => 'System Defence Fighter',
     ];
     
     /**
@@ -39,17 +40,18 @@ class NPC extends Alias
      *     => str_replace($shipname_)
      */
     static protected $alias = [
-        'police_alliance'           => 1,
-        'police_independent'        => 2,
-        'police_federation'         => 3,
-        'police_empire'             => 4,
+        'police_alliance'               => 1,
+        'police_independent'            => 2,
+        'police_federation'             => 3,
+        'police_empire'                 => 4,
         
-        'military_federation'       => 11,
-        'military_independent'      => 12,
-        'military_alliance'         => 13,
-        'military_empire'           => 14,
+        'military_federation'           => 11,
+        'military_independent'          => 12,
+        'military_alliance'             => 13,
+        'military_empire'               => 14,
         
-        'militaryfighter_empire'    => 21,
-        'militaryfighter_alliance'  => 22,
+        'militaryfighter_empire'        => 21,
+        'militaryfighter_alliance'      => 22,
+        'militaryfighter_independent'   => 23,
     ];
 }

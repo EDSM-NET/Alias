@@ -33,6 +33,8 @@ class Type extends Alias
         16  => 'dockingmajor_trespass',
         17  => 'collidedatspeedinnofirezone',
         18  => 'collidedatspeedinnofirezone_hulldamage',
+        
+        50  => 'Passenger wanted',
     ];
     
     /**
@@ -53,13 +55,15 @@ class Type extends Alias
         'fireinstation'                             => 8,
         'dumpingdangerous'                          => 9,
         'dumpingnearstation'                        => 10,
-        'dockingminor_blockingairlock'              => 11,
-        'dockingmajor_blockingairlock'              => 12,
-        'dockingminor_blockinglandingpad'           => 13,
-        'dockingmajor_blockinglandingpad'           => 14,
-        'dockingminor_trespass'                     => 15,  'dockingminortresspass'                     => 15,
-        'dockingmajor_trespass'                     => 16,  'dockingmajortresspass'                     => 16,
+        'dockingminor_blockingairlock'              => 11,      'dockingminorblockingairlock'               => 11,
+        'dockingmajor_blockingairlock'              => 12,      'dockingmajorblockingairlock'               => 12,
+        'dockingminor_blockinglandingpad'           => 13,      'dockingminorblockinglandingpad'            => 13,
+        'dockingmajor_blockinglandingpad'           => 14,      'dockingmajorblockinglandingpad'            => 14,
+        'dockingminor_trespass'                     => 15,      'dockingminortresspass'                     => 15,
+        'dockingmajor_trespass'                     => 16,      'dockingmajortresspass'                     => 16,
         'collidedatspeedinnofirezone'               => 17,
         'collidedatspeedinnofirezone_hulldamage'    => 18,
+        
+        'passengerwanted'                           => 50,
     ];
 }
