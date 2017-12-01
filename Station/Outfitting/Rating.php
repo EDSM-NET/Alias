@@ -327,10 +327,14 @@ class Rating extends Alias
           1302  => 'C',
           1303  => 'B',
           1304  => 'A',
+          
+          1313  => 'B',
         
         // Weapon Hardpoint > Rail Gun
           1351  => 'D',
           1352  => 'B',
+          
+          1362  => 'B',
         
         // Weapon Hardpoint > Missile Rack
           1401  => 'B',

@@ -20,6 +20,18 @@ class Util extends Alias
            3                                => 'Emplacement',
            
         1001                                => 'Pirate Lord',
+        1002                                => 'Pirates',
+        1003                                => 'Sentry Skimmer',
+        1004                                => 'Deserter',
+        1005                                => 'Religious Leader',
+        1006                                => 'Prisoners',
+        1007                                => 'Civilians',
+        1008                                => 'Traders',
+        1009                                => 'Smugglers',
+        1010                                => 'Venerable General',
+        1011                                => 'Terrorist Leader',
+        1012                                => 'Politician',
+        1013                                => 'Deserters',
     ];
     
     /**
@@ -35,5 +47,17 @@ class Util extends Alias
         'settlement_target_turret'          => 3,
         
         'factiontag_piratelord'             => 1001,
+        'factiontag_pirate'                 => 1002,
+        'factiontag_skimmer'                => 1003,
+        'factiontag_deserterass'            => 1004,
+        'factiontag_religiousleader'        => 1005,
+        'factiontag_prisoner'               => 1006,
+        'factiontag_citizen'                => 1007,
+        'factiontag_trader'                 => 1008,
+        'factiontag_smuggler'               => 1009,
+        'factiontag_venerablegeneral'       => 1010,
+        'factiontag_terroristleader'        => 1011,
+        'factiontag_politician'             => 1012,
+        'factiontag_deserter'               => 1013,
     ];
 }

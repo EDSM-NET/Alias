@@ -23,6 +23,7 @@ class Power extends Alias
          6                      => 'Li Yong-Rui',
          7                      => 'Denton Patreus',
          8                      => 'A. Lavigny-Duval',
+         9                      => 'Pranav Antal',
     ];
     
     /**
@@ -41,5 +42,6 @@ class Power extends Alias
         'li yong-rui'           => 6,
         'denton patreus'        => 7,
         'a. lavigny-duval'      => 8,
+        'pranav antal'          => 9,
     ];
 }

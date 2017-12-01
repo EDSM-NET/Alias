@@ -325,10 +325,14 @@ class Type extends Alias
           1302  => 'Plasma Accelerator (Fixed)',
           1303  => 'Plasma Accelerator (Fixed)',
           1304  => 'Plasma Accelerator (Fixed)',
+          
+          1313  => 'Advanced Plasma Accelerator (Fixed, Powerplay)',
         
         // Weapon Hardpoint > Rail Gun
           1351  => 'Rail Gun (Fixed)',
           1352  => 'Rail Gun (Fixed)',
+          
+          1362  => 'Imperial Hammer Rail Gun (Fixed, Powerplay)',
         
         // Weapon Hardpoint > Missile Rack
           1401  => 'Missile Rack (Seeker, Fixed)',
@@ -1506,9 +1510,13 @@ class Type extends Alias
         'hpt_plasmaaccelerator_fixed_large'             => 1303,
         'hpt_plasmaaccelerator_fixed_huge'              => 1304,
         
+        'hpt_plasmaaccelerator_fixed_large_advanced'    => 1313,
+        
         // Weapon Hardpoint > Rail Gun
         'hpt_railgun_fixed_small'                       => 1351,
         'hpt_railgun_fixed_medium'                      => 1352,
+        
+        'hpt_railgun_fixed_medium_burst'                => 1362,
         
         // Weapon Hardpoint > Missile Rack
         'hpt_basicmissilerack_fixed_small'              => 1401,

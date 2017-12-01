@@ -327,10 +327,14 @@ class Classes extends Alias
           1302  => 2,
           1303  => 3,
           1304  => 4,
+          
+          1313  => 3,
         
         // Weapon Hardpoint > Rail Gun
           1351  => 1,
           1352  => 2,
+          
+          1362  => 2,
         
         // Weapon Hardpoint > Missile Rack
           1401  => 1,

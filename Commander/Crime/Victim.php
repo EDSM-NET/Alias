@@ -21,6 +21,7 @@ class Victim extends Alias
           4     => 'Defence Platform',
           5     => 'Defence Turret',
           6     => 'Defence Turret',
+          7     => 'Defence Platform',
          
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
@@ -52,6 +53,7 @@ class Victim extends Alias
         'poi_turretbunkera_fd'                  => 4,
         'poi_turretbasec'                       => 5,
         'poi_turretbaseb'                       => 6,
+        'poi_turretbunkera'                     => 7,
         
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,
