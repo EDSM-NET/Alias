@@ -33,6 +33,8 @@ class Engineer extends Alias
         16                              => 'The Sarge',
         17                              => 'Lei Cheung',
         18                              => 'Ram Tah',
+        19                              => 'Bill Turner',
+        20                              => 'Tiana Fortune',
     ];
     
     /**
@@ -61,5 +63,7 @@ class Engineer extends Alias
         'the sarge'                     => 16,
         'lei cheung'                    => 17,
         'ram tah'                       => 18,
+        'bill turner'                   => 19,
+        'tiana fortune'                 => 20,
     ];
 }

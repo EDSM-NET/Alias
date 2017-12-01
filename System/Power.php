@@ -21,6 +21,8 @@ class Power extends Alias
          4                      => 'Yuri Grom',
          5                      => 'Felicia Winters',
          6                      => 'Li Yong-Rui',
+         7                      => 'Denton Patreus',
+         8                      => 'A. Lavigny-Duval',
     ];
     
     /**
@@ -37,5 +39,7 @@ class Power extends Alias
         'yuri grom'             => 4,
         'felicia winters'       => 5,
         'li yong-rui'           => 6,
+        'denton patreus'        => 7,
+        'a. lavigny-duval'      => 8,
     ];
 }

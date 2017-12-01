@@ -19,10 +19,13 @@ class Victim extends Alias
           2     => 'Defence Turret',
           3     => 'Defence Turret',
           4     => 'Defence Platform',
+          5     => 'Defence Turret',
+          6     => 'Defence Turret',
          
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
         103     => 'Stinger',
+        104     => 'Goliath',
         
         201     => 'Imperial Navy Vessel',
         202     => 'System Defence Force',
@@ -31,6 +34,8 @@ class Victim extends Alias
         
         210     => 'Allied Police Forces',
         211     => 'System Authority Vessel',
+        212     => 'Federal Security Service',
+        213     => 'Internal Security Service',
     ];
     
     /**
@@ -45,10 +50,13 @@ class Victim extends Alias
         'poi_turretbasea'                       => 2,
         'poi_turretplatforma'                   => 3,
         'poi_turretbunkera_fd'                  => 4,
+        'poi_turretbasec'                       => 5,
+        'poi_turretbaseb'                       => 6,
         
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,
         'bombskimmerdrone'                      => 103,
+        'bossskimmer'                           => 104,
         
         'military_empire'                       => 201,
         'military_independent'                  => 202,
@@ -57,5 +65,7 @@ class Victim extends Alias
         
         'police_alliance'                       => 210,
         'police_independent'                    => 211,
+        'police_federation'                     => 212,
+        'police_empire'                         => 213,
     ];
 }
