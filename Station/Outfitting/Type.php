@@ -360,12 +360,16 @@ class Type extends Alias
           1601  => 'Shock Mine Launcher (Fixed)',
         
         // Weapon Hardpoint > AX Missile Rack
-          1652  => 'AX Missile Rack (Fixed)',
-          1660  => 'AX Missile Rack (Turret)',
+          1652  => 'AX Missile Rack (Dumpfire, Fixed)',
+          1653  => 'AX Missile Rack (Dumpfire, Fixed)',
+          1660  => 'AX Missile Rack (Dumpfire, Turret)',
+          1661  => 'AX Missile Rack (Dumpfire, Turret)',
         
         // Weapon Hardpoint > AX Multi-Cannon
           1702  => 'AX Multi-Cannon (Fixed)',
+          1703  => 'AX Multi-Cannon (Fixed)',
           1710  => 'AX Multi-Cannon (Turret)',
+          1711  => 'AX Multi-Cannon (Turret)',
         
         // Weapon Hardpoint > Remote Release Flak Launcher
           1752  => 'Remote Release Flak Launcher (Fixed)',
@@ -1547,13 +1551,17 @@ class Type extends Alias
         
         // Weapon Hardpoint > AX Missile Rack
         'hpt_atdumbfiremissile_fixed_medium'            => 1652,
+        'hpt_atdumbfiremissile_fixed_large'             => 1653,
         
         'hpt_atdumbfiremissile_turret_medium'           => 1660,
+        'hpt_atdumbfiremissile_turret_large'            => 1661,
         
         // Weapon Hardpoint > AX Multi-Cannon
         'hpt_atmulticannon_fixed_medium'                => 1702,
+        'hpt_atmulticannon_fixed_large'                 => 1703,
         
         'hpt_atmulticannon_turret_medium'               => 1710,
+        'hpt_atmulticannon_turret_large'                => 1711,
         
         // Weapon Hardpoint > Remote Release Flak Launcher
         'hpt_flakmortar_fixed_medium'                   => 1752,

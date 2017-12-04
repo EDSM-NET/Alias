@@ -364,11 +364,15 @@ class Classes extends Alias
         
         // Weapon Hardpoint > AX Missile Rack
           1652  => 2,
+          1653  => 3,
           1660  => 2,
+          1661  => 3,
         
         // Weapon Hardpoint > AX Multi-Cannon
           1702  => 2,
+          1703  => 3,
           1710  => 2,
+          1711  => 3,
         
         // Weapon Hardpoint > Remote Release Flak Launcher
           1752  => 2,

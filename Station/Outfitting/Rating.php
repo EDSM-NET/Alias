@@ -365,11 +365,15 @@ class Rating extends Alias
         
         // Weapon Hardpoint > AX Missile Rack
           1652  => 'B',
+          1653  => 'A',
           1660  => 'B',
+          1661  => 'A',
         
         // Weapon Hardpoint > AX Multi-Cannon
           1702  => 'E',
+          1703  => 'C',
           1710  => 'F',
+          1711  => 'E',
         
         // Weapon Hardpoint > Remote Release Flak Launcher
           1752  => 'B',
