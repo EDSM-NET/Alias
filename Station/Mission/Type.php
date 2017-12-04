@@ -159,6 +159,8 @@ class Type extends Alias
          
          901                                => 'Mine %commodityCount% units of %commodity%',
          902                                => 'Mining rush for %commodityCount% units of %commodity%',
+         903                                => 'Mining expansion support needs %commodityCount% units of %commodity%',
+         904                                => 'Extract %commodityCount% units of %commodity%',
           
         1001                                => 'Massacre the %targetFaction% %targetType%',
         1002                                => 'Massacre the %targetFaction% ships',
@@ -192,6 +194,7 @@ class Type extends Alias
         1151                                => 'Wetwork contract',
         
         1202                                => 'Smuggle %commodityCount% units of %commodity% to combat famine',
+        1203                                => 'Federal Navy covert transportation mission',
         
         1301                                => 'Interact with the %target% datalink',
         
@@ -401,6 +404,8 @@ class Type extends Alias
         
         'mission_mining'                                    => 901,
         'mission_mining_boom'                               => 902,
+        'mission_mining_expansion'                          => 903,
+        'mission_mining_extraction'                         => 904,
         
         'mission_massacre'                                  => 1001,
         'mission_massacre_conflict_war'                     => 1002,
@@ -435,6 +440,7 @@ class Type extends Alias
         'mission_assassinate_illegal_blops'                 => 1151,
         
         'mission_smuggle_famine'                            => 1202,
+        'mission_smuggle_rankfed'                           => 1203,
         
         'mission_hack'                                      => 1301,
         
