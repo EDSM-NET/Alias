@@ -24,6 +24,7 @@ class Power extends Alias
          7                      => 'Denton Patreus',
          8                      => 'A. Lavigny-Duval',
          9                      => 'Pranav Antal',
+        10                      => 'Archon Delaine',
     ];
     
     /**
@@ -43,5 +44,6 @@ class Power extends Alias
         'denton patreus'        => 7,
         'a. lavigny-duval'      => 8,
         'pranav antal'          => 9,
+        'archon delaine'        => 10,
     ];
 }
