@@ -155,6 +155,7 @@ class Type extends Alias
          801                                => 'Disable the %target% power grid',
          802                                => 'Power down the %target% power grid',
          803                                => 'Disable the %target% power grid',
+         804                                => 'Take out the %target% power grid',
          
          901                                => 'Mine %commodityCount% units of %commodity%',
          902                                => 'Mining rush for %commodityCount% units of %commodity%',
@@ -191,6 +192,10 @@ class Type extends Alias
         1151                                => 'Wetwork contract',
         
         1202                                => 'Smuggle %commodityCount% units of %commodity% to combat famine',
+        
+        1301                                => 'Interact with the %target% datalink',
+        
+        1401                                => 'Long distance expedition',
         
         2001                                => '%passengerName% seeks sightseeing adventure',
         2002                                => '%passengerName% seeks sightseeing adventure',
@@ -392,6 +397,7 @@ class Type extends Alias
         'mission_disable'                                   => 801,
         'mission_disable_hightech'                          => 802,
         'mission_disable_war'                               => 803,
+        'mission_disable_civilwar'                          => 804,
         
         'mission_mining'                                    => 901,
         'mission_mining_boom'                               => 902,
@@ -429,6 +435,10 @@ class Type extends Alias
         'mission_assassinate_illegal_blops'                 => 1151,
         
         'mission_smuggle_famine'                            => 1202,
+        
+        'mission_hack'                                      => 1301,
+        
+        'mission_longdistanceexpedition'                    => 1401,
         
         'mission_sightseeing'                               => 2001,
         'mission_sightseeing_criminal_civilunrest'          => 2002,
