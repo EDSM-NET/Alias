@@ -191,6 +191,8 @@ class Type extends Alias
         1107                                => 'Kill %targetType%: %target%',
         1108                                => 'Assassinate %targetType%: %target%',
         1109                                => 'Urgent kill order for %targetType%: %target%',
+        1110                                => 'Expansion support by killing %targetType%: %target%',
+        1111                                => 'Obliterate %targetType%: %target%',
         
         1151                                => 'Wetwork contract',
         1152                                => 'Wetwork Job',
@@ -199,12 +201,15 @@ class Type extends Alias
         1202                                => 'Smuggle %commodityCount% units of %commodity% to combat famine',
         1203                                => 'Federal Navy covert transportation mission',
         1204                                => 'Sneak in %commodityCount% units of %commodity%',
+        1205                                => 'Help our economy by smuggling %commodityCount% units of %commodity%',
         
         1301                                => 'Interact with the %target% datalink',
         1302                                => 'Establish a covert link with the %target% datalink',
+        1303                                => 'Infiltrate the %target% datalink',
         
         1401                                => 'Long distance expedition',
         1402                                => '%passengerName% wants to go to %expeditionDest% and collect data',
+        1403                                => '%passengerName% wants to go to %expeditionDest% and collect data',
         
         1501                                => 'Steal %commodityCount% units of %commodity%',
         1502                                => 'Federal navy acquisition contract',
@@ -260,6 +265,7 @@ class Type extends Alias
         3006                                => 'Assassinate %targetType%: %target%',
         3007                                => 'Assassinate %targetType%: %target%',
         3008                                => 'Deliver %commodityCount% units of %commodity%',
+        3009                                => 'Assassinate %targetType%: %target%',
     ];
     
     /**
@@ -446,6 +452,8 @@ class Type extends Alias
         'mission_assassinate_legal_feudal'                  => 1107,
         'mission_assassinate_legal_war'                     => 1108,
         'mission_assassinate_planetary'                     => 1109,
+        'mission_assassinate_planetary_expansion'           => 1110,
+        'mission_assassinate_legal_civilunrest'             => 1111,
         
         'mission_assassinate_illegal_blops'                 => 1151,
         'mission_assassinate_illegal_blops_industrial'      => 1152,
@@ -454,12 +462,15 @@ class Type extends Alias
         'mission_smuggle_famine'                            => 1202,
         'mission_smuggle_rankfed'                           => 1203,
         'mission_smuggle_boom'                              => 1204,
+        'mission_smuggle_bust'                              => 1205,
         
         'mission_hack'                                      => 1301,
         'mission_hack_civilwar'                             => 1302,
+        'mission_hack_war'                                  => 1303,
         
         //'mission_longdistanceexpedition'                    => 1401,
         'mission_longdistanceexpedition_explorer_boom'      => 1402,
+        'mission_longdistanceexpedition_explorer_expansion' => 1403,
         
         'mission_piracy'                                    => 1501,
         'mission_piracy_rankfed'                            => 1502,
@@ -515,5 +526,6 @@ class Type extends Alias
         'chain_salvagejustice'                              => 3006,
         'chain_seekingasylum'                               => 3007,
         'chain_miningtoorder'                               => 3008,
+        'chain_findthepiratelord'                           => 3009,
     ];
 }

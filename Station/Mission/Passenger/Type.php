@@ -26,6 +26,9 @@ class Type extends Alias
            9                    => 'Politicians',
           10                    => 'Security Workers',
           11                    => 'Medical Professionals',
+          
+          98                    => 'Soldiers',
+          99                    => 'Explorers',
     ];
     
     /**
@@ -47,5 +50,8 @@ class Type extends Alias
         'politician'            => 9,
         'security'              => 10,
         'medical'               => 11,
+        
+        'soldier'               => 98,
+        'explorer'              => 99,
     ];
 }

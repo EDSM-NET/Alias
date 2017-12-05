@@ -34,6 +34,7 @@ class Util extends Alias
         1012                                => 'Politician',
         1013                                => 'Deserters',
         1014                                => 'Passenger Liner',
+        1015                                => 'Military',
     ];
     
     /**
@@ -63,5 +64,6 @@ class Util extends Alias
         'factiontag_politician'             => 1012,
         'factiontag_deserter'               => 1013,
         'factiontag_passengerliner'         => 1014,
+        'factiontag_military'               => 1015,
     ];
 }
