@@ -19,6 +19,13 @@ class Type extends Alias
            2                    => 'Business Persons',
            3                    => 'Refugees',
            4                    => 'Tourists',
+           5                    => 'Aid Workers',
+           6                    => 'Rebels',
+           7                    => 'Scientists',
+           8                    => 'Protesters',
+           9                    => 'Politicians',
+          10                    => 'Security Workers',
+          11                    => 'Medical Professionals',
     ];
     
     /**
@@ -33,5 +40,12 @@ class Type extends Alias
         'business'              => 2,
         'refugee'               => 3,
         'tourist'               => 4,
+        'aidworker'             => 5,
+        'terrorist'             => 6,
+        'scientist'             => 7,
+        'protester'             => 8,
+        'politician'            => 9,
+        'security'              => 10,
+        'medical'               => 11,
     ];
 }

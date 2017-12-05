@@ -18,6 +18,7 @@ class Util extends Alias
            1                                => 'Settlement',
            2                                => 'Fuel Depot',
            3                                => 'Emplacement',
+           4                                => 'Skimmer Control',
            
         1001                                => 'Pirate Lord',
         1002                                => 'Pirates',
@@ -32,6 +33,7 @@ class Util extends Alias
         1011                                => 'Terrorist Leader',
         1012                                => 'Politician',
         1013                                => 'Deserters',
+        1014                                => 'Passenger Liner',
     ];
     
     /**
@@ -45,6 +47,7 @@ class Util extends Alias
         'settlement_target_building'        => 1,
         'settlement_target_fueldepot'       => 2,
         'settlement_target_turret'          => 3,
+        'settlement_target_skimmerdisabler' => 4,
         
         'factiontag_piratelord'             => 1001,
         'factiontag_pirate'                 => 1002,
@@ -59,5 +62,6 @@ class Util extends Alias
         'factiontag_terroristleader'        => 1011,
         'factiontag_politician'             => 1012,
         'factiontag_deserter'               => 1013,
+        'factiontag_passengerliner'         => 1014,
     ];
 }
