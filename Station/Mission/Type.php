@@ -218,6 +218,9 @@ class Type extends Alias
         
         1601                                => 'Alien items needed %commodityCount% units of %commodity%',
         
+        1702                                => 'Exploration Mentor - %commodity% salvage operation',
+        1703                                => 'Combat Mentor - Assassinate %targetType%: %target%',
+        
         2001                                => '%passengerName% seeks sightseeing adventure',
         2002                                => '%passengerName% seeks sightseeing adventure',
         2003                                => '%passengerName% seeks sightseeing adventure',
@@ -482,6 +485,9 @@ class Type extends Alias
         'mission_piracy_rankfed'                            => 1502,
         
         'mission_collect_palin'                             => 1601,
+        
+        'mission_welcome_salvage'                           => 1702,
+        'mission_welcome_assassinate'                       => 1703,
         
         'mission_sightseeing'                               => 2001,
         'mission_sightseeing_criminal_civilunrest'          => 2002,
