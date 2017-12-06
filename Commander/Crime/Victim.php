@@ -37,6 +37,8 @@ class Victim extends Alias
         211     => 'System Authority Vessel',
         212     => 'Federal Security Service',
         213     => 'Internal Security Service',
+        
+        301     => 'Wedding Barge',
     ];
     
     /**
@@ -69,5 +71,7 @@ class Victim extends Alias
         'police_independent'                    => 211,
         'police_federation'                     => 212,
         'police_empire'                         => 213,
+        
+        'passengerliner_wedding'                => 301,
     ];
 }
