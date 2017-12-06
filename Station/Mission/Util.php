@@ -35,6 +35,7 @@ class Util extends Alias
         1013                                => 'Deserters',
         1014                                => 'Passenger Liner',
         1015                                => 'Military',
+        1016                                => 'Goliath',
     ];
     
     /**
@@ -65,5 +66,6 @@ class Util extends Alias
         'factiontag_deserter'               => 1013,
         'factiontag_passengerliner'         => 1014,
         'factiontag_military'               => 1015,
+        'factiontag_bossskimmer'            => 1016,
     ];
 }

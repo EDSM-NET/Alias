@@ -94,6 +94,7 @@ class Type extends Alias
          
          301                                => 'Liberate %commodityCount% %commodity%',
          302                                => 'Liberate %commodityCount% %commodity%',
+         303                                => 'Election support by liberating %commodityCount% %commodity%',
          
          401                                => 'Donate %commodityCount% units of %commodity%',
          402                                => 'Find %commodityCount% units of %commodity%',
@@ -156,6 +157,7 @@ class Type extends Alias
          802                                => 'Power down the %target% power grid',
          803                                => 'Disable the %target% power grid',
          804                                => 'Take out the %target% power grid',
+         805                                => 'Take out the %target% power grid',
          
          901                                => 'Mine %commodityCount% units of %commodity%',
          902                                => 'Mining rush for %commodityCount% units of %commodity%',
@@ -213,6 +215,8 @@ class Type extends Alias
         
         1501                                => 'Steal %commodityCount% units of %commodity%',
         1502                                => 'Federal navy acquisition contract',
+        
+        1601                                => 'Alien items needed %commodityCount% units of %commodity%',
         
         2001                                => '%passengerName% seeks sightseeing adventure',
         2002                                => '%passengerName% seeks sightseeing adventure',
@@ -355,6 +359,7 @@ class Type extends Alias
         
         'mission_rescue'                                    => 301,
         'mission_rescue_planet'                             => 302,
+        'mission_rescue_elections'                          => 303,
         
         'mission_altruism'                                  => 401,
         'mission_altruism_outbreak'                         => 402,
@@ -417,6 +422,7 @@ class Type extends Alias
         'mission_disable_hightech'                          => 802,
         'mission_disable_war'                               => 803,
         'mission_disable_civilwar'                          => 804,
+        'mission_disable_civilunrest'                       => 805,
         
         'mission_mining'                                    => 901,
         'mission_mining_boom'                               => 902,
@@ -474,6 +480,8 @@ class Type extends Alias
         
         'mission_piracy'                                    => 1501,
         'mission_piracy_rankfed'                            => 1502,
+        
+        'mission_collect_palin'                             => 1601,
         
         'mission_sightseeing'                               => 2001,
         'mission_sightseeing_criminal_civilunrest'          => 2002,
