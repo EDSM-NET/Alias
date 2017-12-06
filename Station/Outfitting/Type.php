@@ -306,6 +306,8 @@ class Type extends Alias
           1209  => 'Fragment Cannon (Turret)',
           1210  => 'Fragment Cannon (Turret)',
           1211  => 'Fragment Cannon (Turret)',
+          
+          1215  => 'Pacifier Frag-Cannon (Fixed, Powerplay)',
         
         // Weapon Hardpoint > Multi-Cannon
           1251  => 'Multi-Cannon (Fixed)',
@@ -1494,6 +1496,8 @@ class Type extends Alias
         'hpt_slugshot_turret_small'                     => 1209,
         'hpt_slugshot_turret_medium'                    => 1210,
         'hpt_slugshot_turret_large'                     => 1211,
+        
+        'hpt_slugshot_fixed_large_range'                => 1215,
         
         // Weapon Hardpoint > Multi-Cannon
         'hpt_multicannon_fixed_small'                   => 1251,

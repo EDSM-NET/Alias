@@ -308,6 +308,8 @@ class Rating extends Alias
           1209  => 'E',
           1210  => 'D',
           1211  => 'C',
+          
+          1215  => 'C',
         
         // Weapon Hardpoint > Multi-Cannon
           1251  => 'F',
