@@ -15,7 +15,7 @@ class Name extends ProcGen
      * Link custom bodies name to their procgen counter part
      * Based on https://docs.google.com/spreadsheets/d/1kDtQYMeduzWghj1yXEsMY8isRccNhAr2XxYmaPIsB2o/edit#gid=711269421
      */
-    static private $alias      = [
+    static protected $alias      = [
          // Chi Herculis #3
          3           => [
             "Chi Herculis"                => "Chi Herculis",
