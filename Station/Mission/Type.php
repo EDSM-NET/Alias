@@ -95,6 +95,7 @@ class Type extends Alias
          301                                => 'Liberate %commodityCount% %commodity%',
          302                                => 'Liberate %commodityCount% %commodity%',
          303                                => 'Election support by liberating %commodityCount% %commodity%',
+         304                                => 'Calm civil unrest by liberating %commodityCount% %commodity%',
          
          401                                => 'Donate %commodityCount% units of %commodity%',
          402                                => 'Find %commodityCount% units of %commodity%',
@@ -172,7 +173,7 @@ class Type extends Alias
         1006                                => 'Mete out justice on the %targetFaction% %targetType%',
         1007                                => 'Massacre the %targetFaction% ships',
         1008                                => 'Put down the %targetFaction% ships',
-        1009                                => 'Engage and destroy the %targetFaction% ships',
+        1009                                => 'Engage and destroy the %targetFaction% %targetType%',
         
         1051                                => 'Corporate strike against the %targetFaction% %targetType%',
         1052                                => 'Clean out the %targetFaction% %targetType%',
@@ -209,12 +210,16 @@ class Type extends Alias
         1302                                => 'Establish a covert link with the %target% datalink',
         1303                                => 'Infiltrate the %target% datalink',
         
-        1401                                => 'Long distance expedition',
+        1401                                => '%passengerName% wants to go to %expeditionDest% and collect data',
         1402                                => '%passengerName% wants to go to %expeditionDest% and collect data',
         1403                                => '%passengerName% wants to go to %expeditionDest% and collect data',
         
         1501                                => 'Steal %commodityCount% units of %commodity%',
         1502                                => 'Federal navy acquisition contract',
+        1503                                => 'Liberate %commodityCount% units of %commodity%',
+        1504                                => 'Steal %commodityCount% units of %commodity%',
+        
+        1551                                => 'Covert acquisition contract available',
         
         1601                                => 'Alien items needed %commodityCount% units of %commodity%',
         
@@ -363,6 +368,7 @@ class Type extends Alias
         'mission_rescue'                                    => 301,
         'mission_rescue_planet'                             => 302,
         'mission_rescue_elections'                          => 303,
+        'mission_rescue_civilunrest'                        => 304,
         
         'mission_altruism'                                  => 401,
         'mission_altruism_outbreak'                         => 402,
@@ -440,7 +446,7 @@ class Type extends Alias
         'mission_massacre_legal_prisoncolony'               => 1006,
         //'mission_massacre_legal_bust'                       => 1007,
         //'mission_massacre_legal_civilunrest'                => 1008,
-        //'mission_massacre_legal_military'                   => 1009,
+        'mission_massacre_legal_military'                   => 1009,
         
         'mission_massacre_skimmer_corporation'              => 1051,
         'mission_massacre_skimmer_refinery'                 => 1052,
@@ -477,12 +483,16 @@ class Type extends Alias
         'mission_hack_civilwar'                             => 1302,
         'mission_hack_war'                                  => 1303,
         
-        //'mission_longdistanceexpedition'                    => 1401,
+        'mission_longdistanceexpedition'                    => 1401,
         'mission_longdistanceexpedition_explorer_boom'      => 1402,
         'mission_longdistanceexpedition_explorer_expansion' => 1403,
         
         'mission_piracy'                                    => 1501,
         'mission_piracy_rankfed'                            => 1502,
+        'mission_piracy_boom'                               => 1503,
+        'mission_piracy_anarchy'                            => 1504,
+        
+        'mission_piracy_blops'                              => 1551,
         
         'mission_collect_palin'                             => 1601,
         
