@@ -324,6 +324,8 @@ class Classes extends Alias
           
           1259  => 1,
           1260  => 2,
+          
+          1271  => 1,
         
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 2,

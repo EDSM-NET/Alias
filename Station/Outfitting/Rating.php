@@ -324,6 +324,8 @@ class Rating extends Alias
           
           1259  => 'G',
           1260  => 'F',
+          
+          1271  => 'F',
         
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 'C',

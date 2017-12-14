@@ -568,6 +568,7 @@ class PaintJob extends Alias
             'cobramkiii_mercenary_06'                       => null,
             
             'cobramkiii_metallic_chrome'                    => 'Chrome',
+            'cobramkiii_metallic2_chrome'                   => 'Chromed',
             'cobramkiii_metallic_gold'                      => 'Gold',
             'cobramkiii_metallic2_gold'                     => 'Golden',
             

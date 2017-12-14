@@ -197,6 +197,7 @@ class Type extends Alias
         1109                                => 'Urgent kill order for %targetType%: %target%',
         1110                                => 'Expansion support by killing %targetType%: %target%',
         1111                                => 'Obliterate %targetType%: %target%',
+        1112                                => 'Execute %targetType%: %target%',
         
         1151                                => 'Wetwork contract',
         1152                                => 'Wetwork Job',
@@ -474,6 +475,7 @@ class Type extends Alias
         'mission_assassinate_planetary'                     => 1109,
         'mission_assassinate_planetary_expansion'           => 1110,
         'mission_assassinate_legal_civilunrest'             => 1111,
+        'mission_assassinate_legal_penal'                   => 1112,
         
         'mission_assassinate_illegal_blops'                 => 1151,
         'mission_assassinate_illegal_blops_industrial'      => 1152,

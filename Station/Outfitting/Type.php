@@ -322,6 +322,8 @@ class Type extends Alias
           
           1259  => 'Multi-Cannon (Turret)',
           1260  => 'Multi-Cannon (Turret)',
+          
+          1271  => 'Enforcer Multi-Cannon (Fixed, Powerplay)',
         
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 'Plasma Accelerator (Fixed)',
@@ -1512,6 +1514,8 @@ class Type extends Alias
         
         'hpt_multicannon_turret_small'                  => 1259,
         'hpt_multicannon_turret_medium'                 => 1260,
+        
+        'hpt_multicannon_fixed_small_strong'            => 1271,
         
         // Weapon Hardpoint > Plasma Accelerator
         'hpt_plasmaaccelerator_fixed_medium'            => 1302,

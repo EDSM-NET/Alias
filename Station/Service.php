@@ -27,6 +27,7 @@ class Service extends Alias
         32                      => 'Universal Cartographics',
         
         39                      => 'Interstellar Factors Contact',
+        45                      => 'Search and Rescue',
     ];
     
     /**

@@ -388,7 +388,8 @@ class Type extends Alias
         
         1800        => 'Thargoid Cyclops Tissue Sample',
         1801        => 'Thargoid Heart',
-        1802        => 'Thargoid Basilics Tissue Sample', //TODO: In game name?
+        1802        => 'Thargoid Basilisk Tissue Sample', //TODO: In game name?
+        1803        => 'Thargoid Medusa Tissue Sample', //TODO: In game name?
         
         // Powerplay (99)
         9901        => 'Aisling Media Materials',
@@ -795,6 +796,7 @@ class Type extends Alias
         'thargoidtissuesampletype1'             => 1800,
         'thargoidheart'                         => 1801,
         'thargoidtissuesampletype2'             => 1802,
+        'thargoidtissuesampletype3'             => 1803,
         
         'aislingmediamaterials'                 => 9901,
         'aislingmediaresources'                 => 9902,
