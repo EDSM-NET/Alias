@@ -96,6 +96,7 @@ class Type extends Alias
          302                                => 'Liberate %commodityCount% %commodity%',
          303                                => 'Election support by liberating %commodityCount% %commodity%',
          304                                => 'Calm civil unrest by liberating %commodityCount% %commodity%',
+         305                                => 'Agricultural liberation of %commodityCount% %commodity%',
          
          401                                => 'Donate %commodityCount% units of %commodity%',
          402                                => 'Find %commodityCount% units of %commodity%',
@@ -200,11 +201,13 @@ class Type extends Alias
         1151                                => 'Wetwork contract',
         1152                                => 'Wetwork Job',
         1153                                => 'Political Statement',
+        1154                                => 'Contract Hit',
         
         1202                                => 'Smuggle %commodityCount% units of %commodity% to combat famine',
         1203                                => 'Federal Navy covert transportation mission',
         1204                                => 'Sneak in %commodityCount% units of %commodity%',
         1205                                => 'Help our economy by smuggling %commodityCount% units of %commodity%',
+        1206                                => 'Smuggle %commodityCount% units of %commodity% for the fun of it',
         
         1301                                => 'Interact with the %target% datalink',
         1302                                => 'Establish a covert link with the %target% datalink',
@@ -220,6 +223,7 @@ class Type extends Alias
         1504                                => 'Steal %commodityCount% units of %commodity%',
         
         1551                                => 'Covert acquisition contract available',
+        1552                                => 'Civil war acquisition contract',
         
         1601                                => 'Alien items needed %commodityCount% units of %commodity%',
         
@@ -369,6 +373,7 @@ class Type extends Alias
         'mission_rescue_planet'                             => 302,
         'mission_rescue_elections'                          => 303,
         'mission_rescue_civilunrest'                        => 304,
+        'mission_rescue_agricultural'                       => 305,
         
         'mission_altruism'                                  => 401,
         'mission_altruism_outbreak'                         => 402,
@@ -473,11 +478,13 @@ class Type extends Alias
         'mission_assassinate_illegal_blops'                 => 1151,
         'mission_assassinate_illegal_blops_industrial'      => 1152,
         'mission_assassinate_illegal_blops_election'        => 1153,
+        'mission_assassinate_illegal_blops_theocracy'       => 1154,
         
         'mission_smuggle_famine'                            => 1202,
         'mission_smuggle_rankfed'                           => 1203,
         'mission_smuggle_boom'                              => 1204,
         'mission_smuggle_bust'                              => 1205,
+        'mission_smuggle_anarchy'                           => 1206,
         
         'mission_hack'                                      => 1301,
         'mission_hack_civilwar'                             => 1302,
@@ -493,6 +500,7 @@ class Type extends Alias
         'mission_piracy_anarchy'                            => 1504,
         
         'mission_piracy_blops'                              => 1551,
+        'mission_piracy_blops_civilwar'                     => 1552,
         
         'mission_collect_palin'                             => 1601,
         

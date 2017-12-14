@@ -25,6 +25,7 @@ class Power extends Alias
          8                      => 'A. Lavigny-Duval',
          9                      => 'Pranav Antal',
         10                      => 'Archon Delaine',
+        11                      => 'Zemina Torval',
     ];
     
     /**
@@ -45,5 +46,6 @@ class Power extends Alias
         'a. lavigny-duval'      => 8,
         'pranav antal'          => 9,
         'archon delaine'        => 10,
+        'zemina torval'         => 11,
     ];
 }

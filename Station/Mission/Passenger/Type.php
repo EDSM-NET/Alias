@@ -28,6 +28,9 @@ class Type extends Alias
           11                    => 'Medical Professionals',
           12                    => 'Political Prisoners',
           
+          // Those one I did not find the localised part, so it's a guess
+          95                    => 'Minor celebrities',
+          96                    => 'Heads of State',
           97                    => 'Criminals',
           98                    => 'Soldiers',
           99                    => 'Explorers',
@@ -54,6 +57,8 @@ class Type extends Alias
         'medical'               => 11,
         'politicalprisoner'     => 12,
         
+        'minorcelebrity'        => 95,
+        'headofstate'           => 96,
         'criminal'              => 97,
         'soldier'               => 98,
         'explorer'              => 99,

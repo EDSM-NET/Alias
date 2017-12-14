@@ -1815,6 +1815,7 @@ class PaintJob extends Alias
             'sidewinder_mercenary_04'                       => null,
             
             'sidewinder_metallic_chrome'                    => 'Chrome',
+            'sidewinder_metallic2_chrome'                   => 'Chromed',
             'sidewinder_metallic_gold'                      => 'Gold',
             'sidewinder_metallic2_gold'                     => 'Golden',
             
@@ -2393,6 +2394,7 @@ class PaintJob extends Alias
             'vulture_lavecon_lavecon'                       => 'Lavecon',
             
             'vulture_metallic_chrome'                       => 'Chrome',
+            'vulture_metallic2_chrome'                      => 'Chromed',
             'vulture_metallic_gold'                         => 'Gold',
             
             'vulture_militaire_dark_green'                  => 'Military Dark Green',
