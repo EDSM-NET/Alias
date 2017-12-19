@@ -1231,6 +1231,7 @@ class PaintJob extends Alias
             'ferdelance_lavecon_lavecon'                    => 'Lavecon',
             
             'ferdelance_metallic_chrome'                    => 'Chrome',
+            'ferdelance_metallic2_chrome'                   => 'Chromed',
             'ferdelance_metallic_gold'                      => 'Gold',
             'ferdelance_metallic2_gold'                     => 'Golden',
             
@@ -1296,6 +1297,7 @@ class PaintJob extends Alias
             'hauler_flatcolour_yellow'                      => null,
             
             'hauler_metallic_chrome'                        => 'Chrome',
+            'hauler_metallic2_chrome'                       => 'Chromed',
             'hauler_metallic_gold'                          => 'Gold',
             
             'hauler_militaire_dark_green'                   => 'Military Dark Green',

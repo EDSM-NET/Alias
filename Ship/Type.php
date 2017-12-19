@@ -43,6 +43,7 @@ class Type extends Alias
         128049285   => 'Type-6 Transporter',
         128049297   => 'Type-7 Transporter',
         128049333   => 'Type-9 Heavy',
+        128785619   => 'Type-10 Defender',
         128049273   => 'Viper MkIII',
         128672255   => 'Viper MkIV',
         128049309   => 'Vulture',
@@ -160,6 +161,9 @@ class Type extends Alias
         // Type-9 Heavy
         'type9'                             => 128049333,
         'type 9 heavy'                      => 128049333,
+        
+        // Type-10 Defender
+        'type9_military'                    => 128785619,
         
         // Viper MkIII
         'viper'                             => 128049273,

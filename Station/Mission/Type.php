@@ -213,6 +213,7 @@ class Type extends Alias
         1301                                => 'Interact with the %target% datalink',
         1302                                => 'Establish a covert link with the %target% datalink',
         1303                                => 'Infiltrate the %target% datalink',
+        1304                                => 'Tap into the %target% datalink',
         
         1401                                => '%passengerName% wants to go to %expeditionDest% and collect data',
         1402                                => '%passengerName% wants to go to %expeditionDest% and collect data',
@@ -230,6 +231,9 @@ class Type extends Alias
         
         1702                                => 'Exploration Mentor - %commodity% salvage operation',
         1703                                => 'Combat Mentor - Assassinate %targetType%: %target%',
+        
+        1802                                => 'Salvage %commodityCount% units of %commodity% from %destinationStation%',
+        1803                                => '%passengerCount% %passengerType% looking to get off the starport',
         
         2001                                => '%passengerName% seeks sightseeing adventure',
         2002                                => '%passengerName% seeks sightseeing adventure',
@@ -491,6 +495,7 @@ class Type extends Alias
         'mission_hack'                                      => 1301,
         'mission_hack_civilwar'                             => 1302,
         'mission_hack_war'                                  => 1303,
+        'mission_hack_civilunrest'                          => 1304,
         
         'mission_longdistanceexpedition'                    => 1401,
         'mission_longdistanceexpedition_explorer_boom'      => 1402,
@@ -508,6 +513,9 @@ class Type extends Alias
         
         'mission_welcome_salvage'                           => 1702,
         'mission_welcome_assassinate'                       => 1703,
+        
+        'mission_ds_collect'                                => 1802,
+        'mission_ds_passengerbulk'                          => 1803,
         
         'mission_sightseeing'                               => 2001,
         'mission_sightseeing_criminal_civilunrest'          => 2002,
