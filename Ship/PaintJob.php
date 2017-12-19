@@ -170,6 +170,7 @@ class PaintJob extends Alias
             'anaconda_luminous_stripe_06'                   => 'Pulse White',
             
             'anaconda_metallic_chrome'                      => 'Chrome',
+            'anaconda_metallic2_chrome'                     => 'Chromed',
             'anaconda_metallic_gold'                        => 'Gold',
             'anaconda_metallic2_gold'                       => 'Golden',
             
@@ -819,6 +820,7 @@ class PaintJob extends Alias
             'diamondbackxl_metallic_chrome'                 => 'Chrome',
             'diamondbackxl_metallic2_chrome'                => 'Chromed',
             'diamondbackxl_metallic_gold'                   => 'Gold',
+            'diamondbackxl_metallic2_gold'                  => 'Golden',
             
             'diamondbackxl_militaire_dark_green'            => 'Military Dark Green',
             'diamondbackxl_militaire_desert_sand'           => 'Military Desert Sand',
@@ -1588,6 +1590,7 @@ class PaintJob extends Alias
             'independant_trader_flatcolour_yellow'          => null,
             
             'independant_trader_metallic_chrome'            => 'Chrome',
+            'independant_trader_metallic2_chrome'           => 'Chromed',
             'independant_trader_metallic_gold'              => 'Gold',
             
             'independant_trader_militaire_dark_green'       => 'Military Dark Green',
@@ -1908,6 +1911,7 @@ class PaintJob extends Alias
             
             'type6_metallic_chrome'                         => 'Chrome',
             'type6_metallic_gold'                           => 'Gold',
+            'type6_metallic2_gold'                          => 'Golden',
             
             'type6_militaire_dark_green'                    => 'Military Dark Green',
             'type6_militaire_desert_sand'                   => 'Military Desert Sand',
@@ -2320,6 +2324,7 @@ class PaintJob extends Alias
             
             'viper_mkiv_metallic_chrome'                    => 'Chrome',
             'viper_mkiv_metallic_gold'                      => 'Gold',
+            'viper_mkiv_metallic2_gold'                     => 'Golden',
             
             'viper_mkiv_militaire_dark_green'               => 'Military Dark Green',
             'viper_mkiv_militaire_desert_sand'              => 'Military Desert Sand',
@@ -2399,6 +2404,7 @@ class PaintJob extends Alias
             'vulture_metallic_chrome'                       => 'Chrome',
             'vulture_metallic2_chrome'                      => 'Chromed',
             'vulture_metallic_gold'                         => 'Gold',
+            'vulture_metallic2_gold'                        => 'Golden',
             
             'vulture_militaire_dark_green'                  => 'Military Dark Green',
             'vulture_militaire_desert_sand'                 => 'Military Desert Sand',
