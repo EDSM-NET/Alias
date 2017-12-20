@@ -3,7 +3,7 @@
  * Elite: Dangerous Star Map
  *
  * @link        https://www.edsm.net/
- * @copyright   Copyright (c) 2015-2017 EDSM.
+ * @copyright   Copyright (c] 2015-2017 EDSM.
  */
  
 namespace   Alias\Ship;
@@ -45,6 +45,7 @@ class PaintJob extends Alias
         128049285 => 'type6_default_defaultpaintjob',
         128049297 => 'type7_default_defaultpaintjob',
         128049333 => 'type9_default_defaultpaintjob',
+        128785619 => 'type9_military_default_defaultpaintjob',
         128049273 => 'viper_default_defaultpaintjob',
         128672255 => 'viper_mkiv_default_defaultpaintjob',
         128049309 => 'vulture_default_defaultpaintjob',
@@ -55,7 +56,7 @@ class PaintJob extends Alias
      */
     static protected $alias  = [
         // Adder
-        128049267 => array(
+        128049267 => [
             'adder_blackfriday_01'                          => 'Black Friday',
             
             'adder_default_01'                              => null,
@@ -110,11 +111,11 @@ class PaintJob extends Alias
             'adder_vibrant_purple'                          => 'Vibrant Purple',
             'adder_vibrant_red'                             => 'Vibrant Red',
             'adder_vibrant_yellow'                          => 'Vibrant Yellow',
-        ),
+        ],
 
 
         // Anaconda
-        128049363 => array(
+        128049363 => [
             'anaconda_blackfriday_01'                       => 'Black Friday',
             
             'anaconda_corrosive_01'                         => 'Corroded 1',
@@ -207,10 +208,10 @@ class PaintJob extends Alias
             'anaconda_vibrant_yellow'                       => 'Vibrant Yellow',
             
             'anaconda_wireframe_01'                         => 'Wireframe',
-        ),
+        ],
 
         // Asp Explorer
-        128049303 => array(
+        128049303 => [
             'asp_blackfriday_01'                            => 'Black Friday',
             
             'asp_corrosive_01'                              => 'Corroded 1',
@@ -302,10 +303,10 @@ class PaintJob extends Alias
             'asp_vibrant_yellow'                            => 'Vibrant Yellow',
             
             'asp_wireframe_01'                              => 'Wireframe',
-        ),
+        ],
 
         // Asp Scout
-        128672276 => array(
+        128672276 => [
             'asp_scout_blackfriday_01'                      => 'Black Friday',
             
             'asp_scout_default_01'                          => null,
@@ -371,10 +372,10 @@ class PaintJob extends Alias
             'asp_scout_vibrant_purple'                      => 'Vibrant Purple',
             'asp_scout_vibrant_red'                         => 'Vibrant Red',
             'asp_scout_vibrant_yellow'                      => 'Vibrant Yellow',
-        ),
+        ],
 
         // Beluga Liner
-        128049345 => array(
+        128049345 => [
             'belugaliner_blackfriday_01'                    => 'Black Friday',
             
             'belugaliner_corporate1_corporate1'             => 'United Blue',
@@ -438,10 +439,10 @@ class PaintJob extends Alias
             'belugaliner_vibrant_purple'                    => 'Vibrant Purple',
             'belugaliner_vibrant_red'                       => 'Vibrant Red',
             'belugaliner_vibrant_yellow'                    => 'Vibrant Yellow',
-        ),
+        ],
 
         // Cobra MkIII
-        128049279 => array(
+        128049279 => [
             'cobramkiii_blackfriday_01'                     => 'Black Friday',
             
             'cobramkiii_camo1_01'                           => null,
@@ -632,10 +633,10 @@ class PaintJob extends Alias
             'cobramkiii_wireframe_01'                       => 'Wireframe',
             
             'cobramkiii_yogscast_01'                        => null,
-        ),
+        ],
 
         // Cobra MkIV
-        128672262 => array(
+        128672262 => [
             'cobramkiv_blackfriday_01'                      => 'Black Friday',
             
             'cobramkiv_camo1_01'                            => null,
@@ -765,10 +766,10 @@ class PaintJob extends Alias
             'cobramkiv_vibrant_yellow'                      => 'Vibrant Yellow',
             
             'cobramkiv_wireframe_01'                        => 'Wireframe',
-        ),
+        ],
         
         // Dolphin
-        128049291 => array(
+        128049291 => [
             'dolphin_default_defaultpaintjob'               => 'Default',
             
             'dolphin_corporate1_corporate1'                 => 'Wayfarer Blue',
@@ -809,10 +810,10 @@ class PaintJob extends Alias
             'dolphin_vibrant_purple'                        => 'Vibrant Purple',
             'dolphin_vibrant_red'                           => 'Vibrant Red',
             'dolphin_vibrant_yellow'                        => 'Vibrant Yellow',
-        ),
+        ],
 
         // Diamondback Explorer
-        128671831 => array(
+        128671831 => [
             'diamondbackxl_blackfriday_01'                  => 'Black Friday',
             
             'diamondbackxl_default_defaultpaintjob'         => 'Default',
@@ -849,10 +850,10 @@ class PaintJob extends Alias
             'diamondbackxl_vibrant_purple'                  => 'Vibrant Purple',
             'diamondbackxl_vibrant_red'                     => 'Vibrant Red',
             'diamondbackxl_vibrant_yellow'                  => 'Vibrant Yellow',
-        ),
+        ],
 
         // Diamondback Scout
-        128671217 => array(
+        128671217 => [
             'diamondback_blackfriday_01'                    => 'Black Friday',
             
             'diamondback_default_defaultpaintjob'           => 'Default',
@@ -889,10 +890,10 @@ class PaintJob extends Alias
             'diamondback_vibrant_purple'                    => 'Vibrant Purple',
             'diamondback_vibrant_red'                       => 'Vibrant Red',
             'diamondback_vibrant_yellow'                    => 'Vibrant Yellow',
-        ),
+        ],
 
         // Eagle
-        128049255 => array(
+        128049255 => [
             'eagle_blackfriday_01'                          => 'Black Friday',
             
             'eagle_camo_01'                                 => 'Jungle Camo',
@@ -1000,10 +1001,10 @@ class PaintJob extends Alias
             'eagle_vibrant_yellow'                          => 'Vibrant Yellow',
             
             'eagle_wireframe_01'                            => 'Wireframe',
-        ),
+        ],
 
         // Federal Assault Ship
-        128672145 => array(
+        128672145 => [
             'feddropship_mkii_blackfriday_01'               => 'Black Friday',
             
             'feddropship_mkii_default_defaultpaintjob'      => 'Default',
@@ -1055,10 +1056,10 @@ class PaintJob extends Alias
             'feddropship_mkii_war_red'                      => 'Dazzle Red',
             'feddropship_mkii_war_white'                    => 'Dazzle White',
             'feddropship_mkii_war_yellow'                   => 'Dazzle Yellow',
-        ),
+        ],
 
         // Federal Corvette
-        128049369 => array(
+        128049369 => [
             'federation_corvette_blackfriday_01'            => 'Black Friday',
             
             'federation_corvette_default_defaultpaintjob'   => 'Default',
@@ -1102,10 +1103,10 @@ class PaintJob extends Alias
             'federation_corvette_vibrant_purple'            => 'Vibrant Purple',
             'federation_corvette_vibrant_red'               => 'Vibrant Red',
             'federation_corvette_vibrant_yellow'            => 'Vibrant Yellow',
-        ),
+        ],
 
         // Federal Dropship
-        128049321 => array(
+        128049321 => [
             'feddropship_blackfriday_01'                    => 'Black Friday',
             
             'feddropship_default_defaultpaintjob'           => 'Default',
@@ -1148,10 +1149,10 @@ class PaintJob extends Alias
             'feddropship_vibrant_purple'                    => 'Vibrant Purple',
             'feddropship_vibrant_red'                       => 'Vibrant Red',
             'feddropship_vibrant_yellow'                    => 'Vibrant Yellow',
-        ),
+        ],
 
         // Federal Gunship
-        128672152 => array(
+        128672152 => [
             'federation_gunship_blackfriday_01'             => 'Black Friday',
             
             'federation_gunship_default_defaultpaintjob'    => 'Default',
@@ -1203,10 +1204,10 @@ class PaintJob extends Alias
             'federation_gunship_vibrant_purple'             => 'Vibrant Purple',
             'federation_gunship_vibrant_red'                => 'Vibrant Red',
             'federation_gunship_vibrant_yellow'             => 'Vibrant Yellow',
-        ),
+        ],
 
         // Fer-de-Lance
-        128049351 => array(
+        128049351 => [
             'ferdelance_blackfriday_01'                     => 'Black Friday',
             
             'ferdelance_default_01'                         => null,
@@ -1266,10 +1267,10 @@ class PaintJob extends Alias
             'ferdelance_vibrant_yellow'                     => 'Vibrant Yellow',
             
             'ferdelance_wireframe_01'                       => 'Wireframe',
-        ),
+        ],
 
         // Hauler
-        128049261 => array(
+        128049261 => [
             'hauler_blackfriday_01'                         => 'Black Friday',
             
             'hauler_default_01'                             => null,
@@ -1330,10 +1331,10 @@ class PaintJob extends Alias
             'hauler_wings_01'                               => null,
             'hauler_wings_02'                               => null,
             'hauler_wings_03'                               => null,
-        ),
+        ],
 
         // Imperial Clipper
-        128049315 => array(
+        128049315 => [
             'empiretrader_blackfriday_01'                   => 'Black Friday',
             
             'empiretrader_default_defaultpaintjob'          => 'Default',
@@ -1383,10 +1384,10 @@ class PaintJob extends Alias
             'empiretrader_war_red'                          => 'Dazzle Red',
             'empiretrader_war_white'                        => 'Dazzle White',
             'empiretrader_war_yellow'                       => 'Dazzle Yellow',
-        ),
+        ],
 
         // Imperial Courier
-        128671223 => array(
+        128671223 => [
             'empire_courier_blackfriday_01'                 => 'Black Friday',
             
             'empire_courier_default_defaultpaintjob'        => 'Default',
@@ -1431,10 +1432,10 @@ class PaintJob extends Alias
             'empire_courier_vibrant_purple'                 => 'Vibrant Purple',
             'empire_courier_vibrant_red'                    => 'Vibrant Red',
             'empire_courier_vibrant_yellow'                 => 'Vibrant Yellow',
-        ),
+        ],
 
         // Imperial Cutter
-        128049375 => array(
+        128049375 => [
             'cutter_blackfriday_01'                         => 'Black Friday',
             
             'cutter_camo_01'                                => null,
@@ -1487,10 +1488,10 @@ class PaintJob extends Alias
             'cutter_vibrant_purple'                         => 'Vibrant Purple',
             'cutter_vibrant_red'                            => 'Vibrant Red',
             'cutter_vibrant_yellow'                         => 'Vibrant Yellow',
-        ),
+        ],
 
         // Imperial Eagle
-        128672138 => array(
+        128672138 => [
             'empire_eagle_blackfriday_01'                   => 'Black Friday',
             
             'empire_eagle_camo_01'                          => null,
@@ -1573,10 +1574,10 @@ class PaintJob extends Alias
             'empire_eagle_vibrant_purple'                   => 'Vibrant Purple',
             'empire_eagle_vibrant_red'                      => 'Vibrant Red',
             'empire_eagle_vibrant_yellow'                   => 'Vibrant Yellow',
-        ),
+        ],
 
         // Keelback
-        128672269 => array(
+        128672269 => [
             'independant_trader_blackfriday_01'             => 'Black Friday',
             
             'independant_trader_default_defaultpaintjob'    => 'Default',
@@ -1613,10 +1614,10 @@ class PaintJob extends Alias
             'independant_trader_vibrant_purple'             => 'Vibrant Purple',
             'independant_trader_vibrant_red'                => 'Vibrant Red',
             'independant_trader_vibrant_yellow'             => 'Vibrant Yellow',
-        ),
+        ],
 
         // Orca
-        128049327 => array(
+        128049327 => [
             'orca_blackfriday_01'                           => 'Black Friday',
             
             'orca_default_defaultpaintjob'                  => 'Default',
@@ -1666,10 +1667,10 @@ class PaintJob extends Alias
             'orca_vibrant_purple'                           => 'Vibrant Purple',
             'orca_vibrant_red'                              => 'Vibrant Red',
             'orca_vibrant_yellow'                           => 'Vibrant Yellow',
-        ),
+        ],
 
         // Python
-        128049339 => array(
+        128049339 => [
             'python_blackfriday_01'                         => 'Black Friday',
             
             'python_corrosive_01'                           => 'Corroded 1',
@@ -1748,10 +1749,10 @@ class PaintJob extends Alias
             'python_vibrant_yellow'                         => 'Vibrant Yellow',
             
             'python_wireframe_01'                           => 'Wireframe',
-        ),
+        ],
 
         // Sidewinder
-        128049249 => array(
+        128049249 => [
             'sidewinder_alpha_01'                           => null,
             
             'sidewinder_blackfriday_01'                     => 'Black Friday',
@@ -1886,10 +1887,10 @@ class PaintJob extends Alias
             'sidewinder_vibrant_purple'                     => 'Vibrant Purple',
             'sidewinder_vibrant_red'                        => 'Vibrant Red',
             'sidewinder_vibrant_yellow'                     => 'Vibrant Yellow',
-        ),
+        ],
 
         // Type-6 Transporter
-        128049285 => array(
+        128049285 => [
             'type6_blackfriday_01'                          => 'Black Friday',
             
             'type6_default_defaultpaintjob'                 => 'Default',
@@ -1940,10 +1941,10 @@ class PaintJob extends Alias
             'type6_vibrant_purple'                          => 'Vibrant Purple',
             'type6_vibrant_red'                             => 'Vibrant Red',
             'type6_vibrant_yellow'                          => 'Vibrant Yellow',
-        ),
+        ],
 
         // Type-7 Transporter
-        128049297 => array(
+        128049297 => [
             'type7_blackfriday_01'                          => 'Black Friday',
             
             'type7_default_defaultpaintjob'                 => 'Default',
@@ -1979,10 +1980,10 @@ class PaintJob extends Alias
             'type7_vibrant_purple'                          => 'Vibrant Purple',
             'type7_vibrant_red'                             => 'Vibrant Red',
             'type7_vibrant_yellow'                          => 'Vibrant Yellow',
-        ),
+        ],
 
         // Type-9 Heavy
-        128049333 => array(
+        128049333 => [
             'type9_blackfriday_01'                          => 'Black Friday',
             
             'type9_camoblocky_01'                           => null,
@@ -2146,10 +2147,15 @@ class PaintJob extends Alias
             'type9_vibrant_purple'                          => 'Vibrant Purple',
             'type9_vibrant_red'                             => 'Vibrant Red',
             'type9_vibrant_yellow'                          => 'Vibrant Yellow',
-        ),
+        ],
+        
+        // Type-10 Defender
+        128785619 => [
+            'type9_military_default_defaultpaintjob'        => 'Default',
+        ],
 
         // Viper MkIII
-        128049273 => array(
+        128049273 => [
             'viper_blackfriday_01'                          => 'Black Friday',
             
             'viper_corrosive_01'                            => 'Corroded 1',
@@ -2268,10 +2274,10 @@ class PaintJob extends Alias
             'viper_vibrant_yellow'                          => 'Vibrant Yellow',
             
             'viper_wireframe_01'                            => 'Wireframe',
-        ),
+        ],
 
         // Viper MkIV
-        128672255 => array(
+        128672255 => [
             'viper_mkiv_blackfriday_01'                     => 'Black Friday',
             
             'viper_mkiv_default_01'                         => null,
@@ -2372,10 +2378,10 @@ class PaintJob extends Alias
             'viper_mkiv_vibrant_purple'                     => 'Vibrant Purple',
             'viper_mkiv_vibrant_red'                        => 'Vibrant Red',
             'viper_mkiv_vibrant_yellow'                     => 'Vibrant Yellow',
-        ),
+        ],
 
         // Vulture
-        128049309 => array(
+        128049309 => [
             'vulture_bartecki_bartecki'                     => 'Flash',
             
             'vulture_blackfriday_01'                        => 'Black Friday',
@@ -2439,6 +2445,6 @@ class PaintJob extends Alias
             'vulture_vibrant_yellow'                        => 'Vibrant Yellow',
             
             'vulture_wireframe_01'                          => 'Wireframe',
-        ),
+        ],
     ];
 }

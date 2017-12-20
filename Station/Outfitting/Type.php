@@ -231,6 +231,13 @@ class Type extends Alias
            303  => 'Military Grade Composite',
            304  => 'Mirrored Surface Composite',
            305  => 'Reactive Surface Composite',
+             
+        // Bulkhead > Type-10 Defender
+           311  => 'Lightweight Alloy',
+           312  => 'Reinforced Alloy',
+           313  => 'Military Grade Composite',
+           314  => 'Mirrored Surface Composite',
+           315  => 'Reactive Surface Composite',
         
         // Weapon Hardpoint > Beam Laser
           1001  => 'Beam Laser (Fixed)',
@@ -1423,6 +1430,13 @@ class Type extends Alias
         'vulture_armour_grade3'                         => 303,
         'vulture_armour_mirrored'                       => 304,
         'vulture_armour_reactive'                       => 305,
+        
+        // Bulkhead > Type-10 Defender
+        'type9_military_armour_grade1'                  => 311,
+        'type9_military_armour_grade2'                  => 312,
+        'type9_military_armour_grade3'                  => 313,
+        'type9_military_armour_mirrored'                => 314,
+        'type9_military_armour_reactive'                => 315,
         
         // Weapon Hardpoint > Beam Laser
         'hpt_beamlaser_fixed_small'                     => 1001,

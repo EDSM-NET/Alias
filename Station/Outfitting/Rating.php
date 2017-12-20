@@ -234,6 +234,13 @@ class Rating extends Alias
            304  => 'I',
            305  => 'I',
         
+        // Bulkhead > Type-10 Defender
+           311  => 'I',
+           312  => 'I',
+           313  => 'I',
+           314  => 'I',
+           315  => 'I',
+        
         // Weapon Hardpoint > Beam Laser
           1001  => 'E',
           1002  => 'D',

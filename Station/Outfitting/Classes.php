@@ -234,6 +234,13 @@ class Classes extends Alias
            304  => 1,
            305  => 1,
         
+        // Bulkhead > Type-10 Defender
+           311  => 1,
+           312  => 1,
+           313  => 1,
+           314  => 1,
+           315  => 1,
+        
         // Weapon Hardpoint > Beam Laser
           1001  => 1,
           1002  => 2,
