@@ -172,8 +172,8 @@ class Type extends Alias
         1004                                => 'Imperial navy strike contract',
         1005                                => 'Federal navy strike contract',
         1006                                => 'Mete out justice on the %targetFaction% %targetType%',
-        1007                                => 'Massacre the %targetFaction% ships',
-        1008                                => 'Put down the %targetFaction% ships',
+        1007                                => 'Massacre the %targetFaction% %targetType%',
+        1008                                => 'Put down the %targetFaction% %targetType%',
         1009                                => 'Engage and destroy the %targetFaction% %targetType%',
         
         1051                                => 'Corporate strike against the %targetFaction% %targetType%',
@@ -209,6 +209,8 @@ class Type extends Alias
         1204                                => 'Sneak in %commodityCount% units of %commodity%',
         1205                                => 'Help our economy by smuggling %commodityCount% units of %commodity%',
         1206                                => 'Smuggle %commodityCount% units of %commodity% for the fun of it',
+        
+        1252                                => 'Covert transportation opportunity',
         
         1301                                => 'Interact with the %target% datalink',
         1302                                => 'Establish a covert link with the %target% datalink',
@@ -454,8 +456,8 @@ class Type extends Alias
         'mission_massacre_rankemp'                          => 1004,
         'mission_massacre_rankfed'                          => 1005,
         'mission_massacre_legal_prisoncolony'               => 1006,
-        //'mission_massacre_legal_bust'                       => 1007,
-        //'mission_massacre_legal_civilunrest'                => 1008,
+        'mission_massacre_legal_bust'                       => 1007,
+        'mission_massacre_legal_civilunrest'                => 1008,
         'mission_massacre_legal_military'                   => 1009,
         
         'mission_massacre_skimmer_corporation'              => 1051,
@@ -491,6 +493,8 @@ class Type extends Alias
         'mission_smuggle_boom'                              => 1204,
         'mission_smuggle_bust'                              => 1205,
         'mission_smuggle_anarchy'                           => 1206,
+        
+        'mission_smuggle_blops_extraction'                  => 1252,
         
         'mission_hack'                                      => 1301,
         'mission_hack_civilwar'                             => 1302,

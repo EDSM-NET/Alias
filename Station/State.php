@@ -16,6 +16,7 @@ class State extends Alias
      */
     static protected $name  = [
         1                       => 'Damaged',
+        2                       => 'Under repairs',
     ];
     
     /**
@@ -27,5 +28,6 @@ class State extends Alias
      */
     static protected $alias = [
         'damaged'               => 1,
+        'underrepairs'          => 2,
     ];
 }
