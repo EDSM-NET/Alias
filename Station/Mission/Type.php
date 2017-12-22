@@ -204,11 +204,13 @@ class Type extends Alias
         1153                                => 'Political Statement',
         1154                                => 'Contract Hit',
         
+        1201                                => 'Smuggle %commodityCount% units of %commodity%',
         1202                                => 'Smuggle %commodityCount% units of %commodity% to combat famine',
         1203                                => 'Federal Navy covert transportation mission',
         1204                                => 'Sneak in %commodityCount% units of %commodity%',
         1205                                => 'Help our economy by smuggling %commodityCount% units of %commodity%',
         1206                                => 'Smuggle %commodityCount% units of %commodity% for the fun of it',
+        1207                                => 'Support security by smuggling %commodityCount% units of %commodity%',
         
         1252                                => 'Covert transportation opportunity',
         
@@ -488,11 +490,13 @@ class Type extends Alias
         'mission_assassinate_illegal_blops_election'        => 1153,
         'mission_assassinate_illegal_blops_theocracy'       => 1154,
         
+        'mission_smuggle'                                   => 1201,
         'mission_smuggle_famine'                            => 1202,
         'mission_smuggle_rankfed'                           => 1203,
         'mission_smuggle_boom'                              => 1204,
         'mission_smuggle_bust'                              => 1205,
         'mission_smuggle_anarchy'                           => 1206,
+        'mission_smuggle_lockdown'                          => 1207,
         
         'mission_smuggle_blops_extraction'                  => 1252,
         
