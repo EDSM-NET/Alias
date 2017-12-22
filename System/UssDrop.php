@@ -24,6 +24,7 @@ class UssDrop extends Alias
         70                      => 'Non-Human signal source',
         
         80                      => 'Degraded emissions detected',
+        82                      => 'Encoded emissions detected',
         85                      => 'High grade emissions detected',
         
         90                      => 'Weapons fire detected',
