@@ -208,6 +208,7 @@ class PaintJob extends Alias
             'anaconda_vibrant_yellow'                       => 'Vibrant Yellow',
             
             'anaconda_wireframe_01'                         => 'Wireframe',
+            'anaconda_gold_wireframe_01'                    => 'Wireframe Gold',
         ],
 
         // Asp Explorer
@@ -255,6 +256,7 @@ class PaintJob extends Alias
             'asp_eliteexpo_eliteexpo'                       => 'Frontier Expo',
             
             'asp_metallic_chrome'                           => 'Chrome',
+            'asp_metallic2_chrome'                          => 'Chromed',
             'asp_metallic_gold'                             => 'Gold',
             'asp_metallic2_gold'                            => 'Golden',
             
@@ -303,6 +305,7 @@ class PaintJob extends Alias
             'asp_vibrant_yellow'                            => 'Vibrant Yellow',
             
             'asp_wireframe_01'                              => 'Wireframe',
+            'asp_gold_wireframe_01'                         => 'Wireframe Gold',
         ],
 
         // Asp Scout
@@ -631,6 +634,7 @@ class PaintJob extends Alias
             'cobramkiii_vibrant_yellow'                     => 'Vibrant Yellow',
             
             'cobramkiii_wireframe_01'                       => 'Wireframe',
+            'cobramkiii_gold_wireframe_01'                  => 'Wireframe Gold',
             
             'cobramkiii_yogscast_01'                        => null,
         ],
@@ -1715,6 +1719,7 @@ class PaintJob extends Alias
             'python_eliteexpo_eliteexpo'                    => 'Frontier Expo',
             
             'python_metallic_chrome'                        => 'Chrome',
+            'python_metallic2_chrome'                       => 'Chromed',
             'python_metallic_gold'                          => 'Gold',
             'python_metallic2_gold'                         => 'Golden',
             
@@ -1749,6 +1754,7 @@ class PaintJob extends Alias
             'python_vibrant_yellow'                         => 'Vibrant Yellow',
             
             'python_wireframe_01'                           => 'Wireframe',
+            'python_gold_wireframe_01'                      => 'Wireframe Gold',
         ],
 
         // Sidewinder
@@ -1887,6 +1893,8 @@ class PaintJob extends Alias
             'sidewinder_vibrant_purple'                     => 'Vibrant Purple',
             'sidewinder_vibrant_red'                        => 'Vibrant Red',
             'sidewinder_vibrant_yellow'                     => 'Vibrant Yellow',
+            
+            'sidewinder_gold_wireframe_01'                  => 'Wireframe Gold',
         ],
 
         // Type-6 Transporter
@@ -2152,6 +2160,29 @@ class PaintJob extends Alias
         // Type-10 Defender
         128785619 => [
             'type9_military_default_defaultpaintjob'        => 'Default',
+            
+            'type9_military_metallic2_chrome'               => 'Chromed',
+            
+            'type9_military_militaire_dark_green'           => 'Military Dark Green',
+            'type9_military_militaire_desert_sand'          => 'Military Desert Sand',
+            'type9_military_militaire_earth_red'            => 'Military Earth Red',
+            'type9_military_militaire_earth_yellow'         => 'Military Earth Yellow',
+            'type9_military_militaire_forest_green'         => 'Military Marine Blue',
+            'type9_military_militaire_sand'                 => 'Military Sand',
+            
+            'type9_military_tactical_blue'                  => 'Tactical Cobalt',
+            'type9_military_tactical_brown'                 => 'Tactical Khaki',
+            'type9_military_tactical_green'                 => 'Tactical Olive',
+            'type9_military_tactical_grey'                  => 'Tactical Graphite',
+            'type9_military_tactical_red'                   => 'Tactical Crimson',
+            'type9_military_tactical_white'                 => 'Tactical Ice',
+            
+            'type9_military_vibrant_blue'                   => 'Vibrant Blue',
+            'type9_military_vibrant_green'                  => 'Vibrant Green',
+            'type9_military_vibrant_orange'                 => 'Vibrant Orange',
+            'type9_military_vibrant_purple'                 => 'Vibrant Purple',
+            'type9_military_vibrant_red'                    => 'Vibrant Red',
+            'type9_military_vibrant_yellow'                 => 'Vibrant Yellow',
         ],
 
         // Viper MkIII

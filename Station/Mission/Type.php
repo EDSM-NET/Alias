@@ -161,6 +161,8 @@ class Type extends Alias
          804                                => 'Take out the %target% power grid',
          805                                => 'Take out the %target% power grid',
          
+         851                                => 'Discreet Power Failure Required',
+         
          901                                => 'Mine %commodityCount% units of %commodity%',
          902                                => 'Mining rush for %commodityCount% units of %commodity%',
          903                                => 'Mining expansion support needs %commodityCount% units of %commodity%',
@@ -185,6 +187,7 @@ class Type extends Alias
         1076                                => 'Spec ops contract',
         1077                                => 'Covert elections combat operation',
         1078                                => 'Covert economic combat operation',
+        1079                                => 'Covert civil unrest combat operation',
         
         1101                                => 'Assassinate %targetType%: %target%',
         1102                                => 'Federal navy strike contract authorised',
@@ -213,6 +216,7 @@ class Type extends Alias
         1207                                => 'Support security by smuggling %commodityCount% units of %commodity%',
         
         1252                                => 'Covert transportation opportunity',
+        1253                                => 'Famine covert transportation mission',
         
         1301                                => 'Interact with the %target% datalink',
         1302                                => 'Establish a covert link with the %target% datalink',
@@ -447,6 +451,8 @@ class Type extends Alias
         'mission_disable_civilwar'                          => 804,
         'mission_disable_civilunrest'                       => 805,
         
+        'mission_disable_blops'                             => 851,
+        
         'mission_mining'                                    => 901,
         'mission_mining_boom'                               => 902,
         'mission_mining_expansion'                          => 903,
@@ -471,6 +477,7 @@ class Type extends Alias
         'mission_massacre_illegal_blops'                    => 1076,
         'mission_massacre_illegal_blops_elections'          => 1077,
         'mission_massacre_illegal_blops_bust'               => 1078,
+        'mission_massacre_illegal_blops_civilunrest'        => 1079,
         
         'mission_assassinate'                               => 1101,
         'mission_assassinate_rankfed'                       => 1102,
@@ -499,6 +506,7 @@ class Type extends Alias
         'mission_smuggle_lockdown'                          => 1207,
         
         'mission_smuggle_blops_extraction'                  => 1252,
+        'mission_smuggle_blops_famine'                      => 1253,
         
         'mission_hack'                                      => 1301,
         'mission_hack_civilwar'                             => 1302,
