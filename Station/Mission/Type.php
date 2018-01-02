@@ -97,6 +97,7 @@ class Type extends Alias
          303                                => 'Election support by liberating %commodityCount% %commodity%',
          304                                => 'Calm civil unrest by liberating %commodityCount% %commodity%',
          305                                => 'Agricultural liberation of %commodityCount% %commodity%',
+         306                                => 'Outbreak support by liberating %commodityCount% %commodity%',
          
          401                                => 'Donate %commodityCount% units of %commodity%',
          402                                => 'Find %commodityCount% units of %commodity%',
@@ -201,6 +202,7 @@ class Type extends Alias
         1110                                => 'Expansion support by killing %targetType%: %target%',
         1111                                => 'Obliterate %targetType%: %target%',
         1112                                => 'Execute %targetType%: %target%',
+        1113                                => 'Remove %targetType%: %target%',
         
         1151                                => 'Wetwork contract',
         1152                                => 'Wetwork Job',
@@ -234,14 +236,19 @@ class Type extends Alias
         
         1551                                => 'Covert acquisition contract available',
         1552                                => 'Civil war acquisition contract',
+        1553                                => 'Covert item acquisition',
         
         1601                                => 'Alien items needed %commodityCount% units of %commodity%',
         
         1702                                => 'Exploration Mentor - %commodity% salvage operation',
         1703                                => 'Combat Mentor - Assassinate %targetType%: %target%',
+        1704                                => 'Trade Mentor - Collect Mission', // ??
+        1705                                => 'Combat Mentor - Massacre the %targetFaction% %targetType%',
         
         1802                                => 'Salvage %commodityCount% units of %commodity% from %destinationStation%',
         1803                                => '%passengerCount% %passengerType% looking to get off the starport',
+        
+        1903                                => '%passengerCount% %passengerType% seeking transport out of the system',
         
         2001                                => '%passengerName% seeks sightseeing adventure',
         2002                                => '%passengerName% seeks sightseeing adventure',
@@ -387,6 +394,7 @@ class Type extends Alias
         'mission_rescue_elections'                          => 303,
         'mission_rescue_civilunrest'                        => 304,
         'mission_rescue_agricultural'                       => 305,
+        'mission_rescue_outbreak'                           => 306,
         
         'mission_altruism'                                  => 401,
         'mission_altruism_outbreak'                         => 402,
@@ -491,6 +499,7 @@ class Type extends Alias
         'mission_assassinate_planetary_expansion'           => 1110,
         'mission_assassinate_legal_civilunrest'             => 1111,
         'mission_assassinate_legal_penal'                   => 1112,
+        'mission_assassinate_legal_communism'               => 1113,
         
         'mission_assassinate_illegal_blops'                 => 1151,
         'mission_assassinate_illegal_blops_industrial'      => 1152,
@@ -524,14 +533,19 @@ class Type extends Alias
         
         'mission_piracy_blops'                              => 1551,
         'mission_piracy_blops_civilwar'                     => 1552,
+        'mission_piracy_blops_bust'                         => 1553,
         
         'mission_collect_palin'                             => 1601,
         
         'mission_welcome_salvage'                           => 1702,
         'mission_welcome_assassinate'                       => 1703,
+        'mission_welcome_collect'                           => 1704,
+        'mission_welcome_massacre_legal'                    => 1705,
         
         'mission_ds_collect'                                => 1802,
         'mission_ds_passengerbulk'                          => 1803,
+        
+        'mission_rs_passengerbulk'                          => 1903,
         
         'mission_sightseeing'                               => 2001,
         'mission_sightseeing_criminal_civilunrest'          => 2002,

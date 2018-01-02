@@ -37,6 +37,8 @@ class Util extends Alias
         1014                                    => 'Passenger Liner',
         1015                                    => 'Military',
         1016                                    => 'Goliath',
+        1017                                    => 'Prison Convict',
+        1018                                    => 'Activists',
     ];
     
     /**
@@ -69,5 +71,7 @@ class Util extends Alias
         'factiontag_passengerliner'             => 1014,
         'factiontag_military'                   => 1015,
         'factiontag_bossskimmer'                => 1016,
+        'factiontag_prisonconvict'              => 1017,
+        'factiontag_activist'                   => 1018,
     ];
 }
