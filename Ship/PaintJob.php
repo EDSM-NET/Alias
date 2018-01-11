@@ -1028,6 +1028,13 @@ class PaintJob extends Alias
             'feddropship_mkii_flatcolour_white'             => null,
             'feddropship_mkii_flatcolour_yellow'            => null,
             
+            'feddropship_mkii_gradient2_01'                 => 'Predator Red',
+            'feddropship_mkii_gradient2_02'                 => 'Predator Green',
+            'feddropship_mkii_gradient2_03'                 => 'Predator Teal',
+            'feddropship_mkii_gradient2_04'                 => 'Predator Crimson',
+            'feddropship_mkii_gradient2_05'                 => 'Predator Lime',
+            'feddropship_mkii_gradient2_06'                 => 'Predator Blue',
+            
             'feddropship_mkii_metallic_chrome'              => 'Chrome',
             'feddropship_mkii_metallic_gold'                => 'Gold',
             
@@ -1130,6 +1137,13 @@ class PaintJob extends Alias
             'feddropship_flatcolour_white'                  => null,
             'feddropship_flatcolour_yellow'                 => null,
             
+            'feddropship_gradient2_01'                      => 'Predator Red',
+            'feddropship_gradient2_02'                      => 'Predator Green',
+            'feddropship_gradient2_03'                      => 'Predator Teal',
+            'feddropship_gradient2_04'                      => 'Predator Crimson',
+            'feddropship_gradient2_05'                      => 'Predator Lime',
+            'feddropship_gradient2_06'                      => 'Predator Blue',
+            
             'feddropship_metallic_chrome'                   => 'Chrome',
             'feddropship_metallic_gold'                     => 'Gold',
             
@@ -1175,6 +1189,13 @@ class PaintJob extends Alias
             'federation_gunship_flatcolour_red'             => null,
             'federation_gunship_flatcolour_white'           => null,
             'federation_gunship_flatcolour_yellow'          => null,
+            
+            'federation_gunship_gradient2_01'               => 'Predator Red',
+            'federation_gunship_gradient2_02'               => 'Predator Green',
+            'federation_gunship_gradient2_03'               => 'Predator Teal',
+            'federation_gunship_gradient2_04'               => 'Predator Crimson',
+            'federation_gunship_gradient2_05'               => 'Predator Lime',
+            'federation_gunship_gradient2_06'               => 'Predator Blue',
             
             'federation_gunship_metallic_chrome'            => 'Chrome',
             'federation_gunship_metallic2_chrome'           => 'Chromed',
@@ -1624,8 +1645,6 @@ class PaintJob extends Alias
         128049327 => [
             'orca_blackfriday_01'                           => 'Black Friday',
             
-            'orca_default_defaultpaintjob'                  => 'Default',
-            
             'orca_corporate1_corporate1'                    => 'Wayfarer Blue',
             'orca_corporate1_corporate2'                    => 'Wayfarer Red',
             'orca_corporate1_corporate3'                    => 'Wayfarer Orange',
@@ -1639,6 +1658,15 @@ class PaintJob extends Alias
             'orca_corporate2_corporate2d'                   => 'Pathfinder Yellow',
             'orca_corporate2_corporate2e'                   => 'Pathfinder Blue',
             'orca_corporate2_corporate2f'                   => 'Pathfinder Graphite',
+            
+            'orca_default_defaultpaintjob'                  => 'Default',
+            
+            'orca_ember_yellow'                             => 'Ember Yellow',
+            'orca_ember_white'                              => 'Ember White',
+            'orca_ember_red'                                => 'Ember Red',
+            'orca_ember_purple'                             => 'Ember Purple',
+            'orca_ember_orange'                             => 'Ember Orange',
+            'orca_ember_blue'                               => 'Ember Blue',
             
             'orca_flatcolour_blue'                          => null,
             'orca_flatcolour_green'                         => null,
