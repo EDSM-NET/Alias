@@ -254,7 +254,7 @@ class Type extends Alias
           1010  => 'Beam Laser (Turret)',
           1011  => 'Beam Laser (Turret)',
           
-          1021  => 'Retributor Beam Laser (Fixed)',
+          1021  => 'Retributor Beam Laser (Fixed, Powerplay)',
         
         // Weapon Hardpoint > Pulse Laser
           1051  => 'Pulse Laser (Fixed)',
@@ -285,6 +285,8 @@ class Type extends Alias
           1109  => 'Burst Laser (Turret)',
           1110  => 'Burst Laser (Turret)',
           1111  => 'Burst Laser (Turret)',
+          
+          1121  => 'Cytoscrambler Burst Laser (Fixed, Powerplay)',
         
         // Weapon Hardpoint > Cannon
           1151  => 'Cannon (Fixed)',
@@ -1484,6 +1486,8 @@ class Type extends Alias
         'hpt_pulselaserburst_turret_small'              => 1109,
         'hpt_pulselaserburst_turret_medium'             => 1110,
         'hpt_pulselaserburst_turret_large'              => 1111,
+        
+        'hpt_pulselaserburst_fixed_small_scatter'       => 1121,
         
         // Weapon Hardpoint > Cannon
         'hpt_cannon_fixed_small'                        => 1151,

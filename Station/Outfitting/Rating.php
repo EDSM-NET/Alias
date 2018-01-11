@@ -287,6 +287,8 @@ class Rating extends Alias
           1109  => 'G',
           1110  => 'F',
           1111  => 'E',
+          
+          1121  => 'F',
         
         // Weapon Hardpoint > Cannon
           1151  => 'D',

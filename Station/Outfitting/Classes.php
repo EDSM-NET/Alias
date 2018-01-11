@@ -287,6 +287,8 @@ class Classes extends Alias
           1109  => 1,
           1110  => 2,
           1111  => 3,
+          
+          1121  => 1,
         
         // Weapon Hardpoint > Cannon
           1151  => 1,
