@@ -40,6 +40,7 @@ class Util extends Alias
         1017                                    => 'Prison Convict',
         1018                                    => 'Activists',
         1019                                    => 'Informant',
+        1020                                    => 'Medical ships',
     ];
     
     /**
@@ -75,5 +76,6 @@ class Util extends Alias
         'factiontag_prisonconvict'              => 1017,
         'factiontag_activist'                   => 1018,
         'factiontag_informant'                  => 1019,
+        'factiontag_medical'                    => 1020,
     ];
 }
