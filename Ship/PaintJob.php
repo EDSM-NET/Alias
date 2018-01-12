@@ -2424,6 +2424,13 @@ class PaintJob extends Alias
             'viper_mkiv_stripe2_51'                         => null,
             'viper_mkiv_stripe2_52'                         => null,
             
+            'viper_mkiv_synth_blue'                         => 'Synth Blue',
+            'viper_mkiv_synth_lime'                         => 'Synth Lime',
+            'viper_mkiv_synth_orange'                       => 'Synth Orange',
+            'viper_mkiv_synth_red'                          => 'Synth Red',
+            'viper_mkiv_synth_rose'                         => 'Synth Rose',
+            'viper_mkiv_synth_white'                        => 'Synth White',
+            
             'viper_mkiv_tactical_blue'                      => 'Tactical Cobalt',
             'viper_mkiv_tactical_brown'                     => 'Tactical Khaki',
             'viper_mkiv_tactical_green'                     => 'Tactical Olive',
