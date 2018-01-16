@@ -379,7 +379,7 @@ class PaintJob extends Alias
 
         // Beluga Liner
         128049345 => [
-            'belugaliner_blackfriday_01'                    => 'Black Friday',
+            'belugaliner_blackfriday_01'                    => 'Midnight Black',
             
             'belugaliner_corporate1_corporate1'             => 'United Blue',
             'belugaliner_corporate1_corporate2'             => 'United Red',

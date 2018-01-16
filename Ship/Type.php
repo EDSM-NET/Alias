@@ -164,6 +164,7 @@ class Type extends Alias
         
         // Type-10 Defender
         'type9_military'                    => 128785619,
+        'type 10 defender'                  => 128785619,
         
         // Viper MkIII
         'viper'                             => 128049273,

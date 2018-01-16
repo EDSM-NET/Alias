@@ -1209,5 +1209,14 @@ class Classes extends Alias
           
         // Optional Internal > Research Limpet Controller
           5701  => 1,
+        
+        // Optional Internal > Decontamination Limpet Controller
+          5801  => 1,
+        
+          5821  => 3,
+        
+          5841  => 5,
+        
+          5861  => 7,
     ];
 }

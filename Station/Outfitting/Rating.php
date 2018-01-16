@@ -1210,5 +1210,14 @@ class Rating extends Alias
           
         // Optional Internal > Research Limpet Controller
           5701  => 'E',
+        
+        // Optional Internal > Decontamination Limpet Controller
+          5801  => 'E',
+        
+          5821  => 'E',
+        
+          5841  => 'E',
+        
+          5861  => 'E',
     ];
 }

@@ -377,6 +377,12 @@ class Category extends Alias
             'Research Limpet Controller'        => [
                 5701,
             ],
+            'Decontamination Limpet Controller' => [
+                5801,
+                5821,
+                5841,
+                5861,
+            ],
          ],
     ];
 }
