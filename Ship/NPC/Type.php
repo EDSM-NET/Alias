@@ -6,10 +6,10 @@
  * @copyright   Copyright (c) 2015-2017 EDSM.
  */
  
-namespace   Alias\Ship;
+namespace   Alias\Ship\NPC;
 use         EDSM\Alias;
 
-class NPC extends Alias
+class Type extends Alias
 {
     /**
      * List of names used in game

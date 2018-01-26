@@ -87,9 +87,6 @@ class Type extends Alias
         'cobramkiv'                         => 128672262,
         'cobra mk. iv'                      => 128672262,
         
-        // Dolphin
-        'dolphin'                           => 128049291,
-        
         // Diamondback Explorer
         'diamondbackxl'                     => 128671831,
         'diamondback explorer'              => 128671831,
@@ -97,6 +94,9 @@ class Type extends Alias
         // Diamondback Scout
         'diamondback'                       => 128671217,
         'diamondback scout'                 => 128671217,
+        
+        // Dolphin
+        'dolphin'                           => 128049291,
         
         // Eagle
         'eagle'                             => 128049255,
