@@ -16,6 +16,7 @@ class Type extends Alias
      */
     static protected $name  = [
         128049267   => 'Adder',
+        128816574   => 'Alliance Chieftain',
         128049363   => 'Anaconda',
         128049303   => 'Asp Explorer',
         128672276   => 'Asp Scout',
@@ -59,6 +60,9 @@ class Type extends Alias
     static protected $alias = [
         // Adder
         'adder'                             => 128049267,
+        
+        // Alliance Chieftain
+        'typex'                             => 128816574,
         
         // Anaconda
         'anaconda'                          => 128049363,
