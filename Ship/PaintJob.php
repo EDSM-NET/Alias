@@ -484,6 +484,7 @@ class PaintJob extends Alias
             'cobramkiii_default_defaultpaintjob'            => 'Default',
             
             'cobramkiii_egx_egx'                            => 'EGX',
+            'cobramkiii_yogscast_01'                        => 'Yogcast',
             
             'cobramkiii_faction1_01'                        => 'Pirate Faction Red',
             'cobramkiii_faction1_02'                        => 'Pirate Faction Orange',
@@ -1078,6 +1079,13 @@ class PaintJob extends Alias
         128049369 => [
             'federation_corvette_blackfriday_01'            => 'Black Friday',
             
+            'federation_corvette_corrosive_01'              => 'Corroded 1',
+            'federation_corvette_corrosive_02'              => 'Corroded 2',
+            'federation_corvette_corrosive_03'              => 'Corroded 3',
+            'federation_corvette_corrosive_04'              => 'Corroded 4',
+            'federation_corvette_corrosive_05'              => 'Corroded 5',
+            'federation_corvette_corrosive_06'              => 'Corroded 6',
+            
             'federation_corvette_default_defaultpaintjob'   => 'Default',
             
             'federation_corvette_metallic_chrome'           => 'Chrome',
@@ -1474,6 +1482,13 @@ class PaintJob extends Alias
             'cutter_camo_04'                                => null,
             'cutter_camo_05'                                => null,
             'cutter_camo_06'                                => null,
+            
+            'cutter_corrosive_01'                           => 'Corroded 1',
+            'cutter_corrosive_02'                           => 'Corroded 2',
+            'cutter_corrosive_03'                           => 'Corroded 3',
+            'cutter_corrosive_04'                           => 'Corroded 4',
+            'cutter_corrosive_05'                           => 'Corroded 5',
+            'cutter_corrosive_06'                           => 'Corroded 6',
             
             'cutter_default_defaultpaintjob'                => 'Default',
             
@@ -2477,6 +2492,13 @@ class PaintJob extends Alias
             'vulture_gamescom_gamescom'                     => 'Gamescom',
             
             'vulture_lavecon_lavecon'                       => 'Lavecon',
+            
+            'vulture_luminous_stripe_ver2_01'               => 'Pulse Green',
+            'vulture_luminous_stripe_ver2_02'               => 'Pulse Blue',
+            'vulture_luminous_stripe_ver2_03'               => 'Pulse Purple',
+            'vulture_luminous_stripe_ver2_04'               => 'Pulse Red',
+            'vulture_luminous_stripe_ver2_05'               => 'Pulse Orange',
+            'vulture_luminous_stripe_ver2_06'               => 'Pulse White',
             
             'vulture_metallic_chrome'                       => 'Chrome',
             'vulture_metallic2_chrome'                      => 'Chromed',
