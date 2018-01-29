@@ -101,6 +101,7 @@ class Type extends Alias
          306                                => 'Outbreak support by liberating %commodityCount% %commodity%',
          307                                => 'Economic liberation of %commodityCount% %commodity%',
          308                                => 'Famine support by liberating %commodityCount% %commodity%',
+         309                                => 'Cooperative liberation of %commodityCount% %commodity%',
          
          401                                => 'Donate %commodityCount% units of %commodity%',
          402                                => 'Find %commodityCount% units of %commodity%',
@@ -171,6 +172,7 @@ class Type extends Alias
          902                                => 'Mining rush for %commodityCount% units of %commodity%',
          903                                => 'Mining expansion support needs %commodityCount% units of %commodity%',
          904                                => 'Extract %commodityCount% units of %commodity%',
+         905                                => 'Blast out %commodityCount% units of %commodity%',
           
         1001                                => 'Massacre the %targetFaction% %targetType%',
         1002                                => 'Massacre the %targetFaction% ships',
@@ -193,6 +195,7 @@ class Type extends Alias
         1078                                => 'Covert economic combat operation',
         1079                                => 'Covert civil unrest combat operation',
         1080                                => 'Covert outbreak combat operation',
+        1081                                => 'Covert famine combat operation',
         
         1101                                => 'Assassinate %targetType%: %target%',
         1102                                => 'Federal navy strike contract authorised',
@@ -212,11 +215,13 @@ class Type extends Alias
         1152                                => 'Wetwork Job',
         1153                                => 'Political Statement',
         1154                                => 'Contract Hit',
+        1155                                => 'Extrajudicial Termination Order',
         
         1181                                => 'Remove %targetType%: %target%',
         1182                                => 'Destroy the ruthless %targetType%: %target%',
         1183                                => 'Surface hunt for %targetType%: %target%',
         1184                                => 'Explain the danger of the void to %targetType%: %target%',
+        1185                                => 'Take down %targetType%: %target%',
         
         1201                                => 'Smuggle %commodityCount% units of %commodity%',
         1202                                => 'Smuggle %commodityCount% units of %commodity% to combat famine',
@@ -230,6 +235,7 @@ class Type extends Alias
         1252                                => 'Covert transportation opportunity',
         1253                                => 'Famine covert transportation mission',
         1254                                => 'Counter-insurgency illegal transportation opportunity',
+        1255                                => 'Civil war illegal transportation contract',
         
         1301                                => 'Interact with the %target% datalink',
         1302                                => 'Establish a covert link with the %target% datalink',
@@ -250,6 +256,7 @@ class Type extends Alias
         1552                                => 'Civil war acquisition contract',
         1553                                => 'Covert item acquisition',
         1554                                => 'Covert economic acquisition',
+        1555                                => 'Famine acquisition contract',
         
         1601                                => 'Alien items needed %commodityCount% units of %commodity%',
         
@@ -258,6 +265,8 @@ class Type extends Alias
         1704                                => 'Trade Mentor - Collect Mission', // ??
         1705                                => 'Combat Mentor - Massacre the %targetFaction% %targetType%',
         1706                                => 'Planetary Mentor - Disable the %target% power grid',
+        1707                                => 'Planetary Mentor - Liberate %commodityCount% %commodity%',
+        1708                                => 'Trade Mentor - Mine %commodityCount% units of %commodity%',
         
         1802                                => 'Salvage %commodityCount% units of %commodity% from %destinationStation%',
         1803                                => '%passengerCount% %passengerType% looking to get off the starport',
@@ -413,6 +422,7 @@ class Type extends Alias
         'mission_rescue_outbreak'                           => 306,
         'mission_rescue_bust'                               => 307,
         'mission_rescue_famine'                             => 308,
+        'mission_rescue_cooperative'                        => 309,
         
         'mission_altruism'                                  => 401,
         'mission_altruism_outbreak'                         => 402,
@@ -483,6 +493,7 @@ class Type extends Alias
         'mission_mining_boom'                               => 902,
         'mission_mining_expansion'                          => 903,
         'mission_mining_extraction'                         => 904,
+        'mission_mining_bust'                               => 905,
         
         'mission_massacre'                                  => 1001,
         'mission_massacre_conflict_war'                     => 1002,
@@ -505,6 +516,7 @@ class Type extends Alias
         'mission_massacre_illegal_blops_bust'               => 1078,
         'mission_massacre_illegal_blops_civilunrest'        => 1079,
         'mission_massacre_illegal_blops_outbreak'           => 1080,
+        'mission_massacre_illegal_blops_famine'             => 1081,
         
         'mission_assassinate'                               => 1101,
         'mission_assassinate_rankfed'                       => 1102,
@@ -524,11 +536,13 @@ class Type extends Alias
         'mission_assassinate_illegal_blops_industrial'      => 1152,
         'mission_assassinate_illegal_blops_election'        => 1153,
         'mission_assassinate_illegal_blops_theocracy'       => 1154,
+        'mission_assassinate_illegal_blops_famine'          => 1155,
         
         'mission_assassinate_illegal_founder_hightech'      => 1181,
         'mission_assassinate_illegal_founder_war'           => 1182,
         'mission_assassinate_illegal_planetary'             => 1183,
         'mission_assassinate_illegal_civilunrest'           => 1184,
+        'mission_assassinate_illegal_outbreak'              => 1185,
         
         'mission_smuggle'                                   => 1201,
         'mission_smuggle_famine'                            => 1202,
@@ -542,6 +556,7 @@ class Type extends Alias
         'mission_smuggle_blops_extraction'                  => 1252,
         'mission_smuggle_blops_famine'                      => 1253,
         'mission_smuggle_blops_civilunrest'                 => 1254,
+        'mission_smuggle_blops_civilwar'                    => 1255,
         
         'mission_hack'                                      => 1301,
         'mission_hack_civilwar'                             => 1302,
@@ -562,6 +577,7 @@ class Type extends Alias
         'mission_piracy_blops_civilwar'                     => 1552,
         'mission_piracy_blops_bust'                         => 1553,
         'mission_piracy_blops_boom'                         => 1554,
+        'mission_piracy_blops_famine'                       => 1555,
         
         'mission_collect_palin'                             => 1601,
         
@@ -570,6 +586,8 @@ class Type extends Alias
         'mission_welcome_collect'                           => 1704,
         'mission_welcome_massacre_legal'                    => 1705,
         'mission_welcome_disable'                           => 1706,
+        'mission_welcome_rescue'                            => 1707,
+        'mission_welcome_mining'                            => 1708,
         
         'mission_ds_collect'                                => 1802,
         'mission_ds_passengerbulk'                          => 1803,
