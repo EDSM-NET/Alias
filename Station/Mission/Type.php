@@ -230,12 +230,14 @@ class Type extends Alias
         1205                                => 'Help our economy by smuggling %commodityCount% units of %commodity%',
         1206                                => 'Smuggle %commodityCount% units of %commodity% for the fun of it',
         1207                                => 'Support security by smuggling %commodityCount% units of %commodity%',
+        1208                                => 'Smuggle %commodityCount% units of %commodity% to support outbreak operations',
         
         1251                                => 'Special transport contract opportunity',
         1252                                => 'Covert transportation opportunity',
         1253                                => 'Famine covert transportation mission',
         1254                                => 'Counter-insurgency illegal transportation opportunity',
         1255                                => 'Civil war illegal transportation contract',
+        1256                                => 'Wartime illegal transportation contract',
         
         1301                                => 'Interact with the %target% datalink',
         1302                                => 'Establish a covert link with the %target% datalink',
@@ -551,12 +553,14 @@ class Type extends Alias
         'mission_smuggle_bust'                              => 1205,
         'mission_smuggle_anarchy'                           => 1206,
         'mission_smuggle_lockdown'                          => 1207,
+        'mission_smuggle_outbreak'                          => 1208,
         
         'mission_smuggle_blops'                             => 1251,
         'mission_smuggle_blops_extraction'                  => 1252,
         'mission_smuggle_blops_famine'                      => 1253,
         'mission_smuggle_blops_civilunrest'                 => 1254,
         'mission_smuggle_blops_civilwar'                    => 1255,
+        'mission_smuggle_blops_war'                         => 1256,
         
         'mission_hack'                                      => 1301,
         'mission_hack_civilwar'                             => 1302,

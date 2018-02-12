@@ -21,10 +21,13 @@ class Role extends Alias
         40  => 'Fleet Mechanic',
         50  => 'Tour Guide',
         60  => 'POI Scout',
-        70  => 'Astrophotographer',
+        70  => 'Photographer',
         80  => 'Fighter Escort',
         90  => 'Geologist',
         100 => 'Scientist',
+        110 => 'Miner',
+        120 => 'Medicorp',
+        130 => 'Fleet Logistics',
              
         999 => 'Media',
     ];

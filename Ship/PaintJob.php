@@ -484,7 +484,7 @@ class PaintJob extends Alias
             'cobramkiii_default_defaultpaintjob'            => 'Default',
             
             'cobramkiii_egx_egx'                            => 'EGX',
-            'cobramkiii_yogscast_01'                        => 'Yogcast',
+            'cobramkiii_yogscast_01'                        => 'Yogscast',
             
             'cobramkiii_faction1_01'                        => 'Pirate Faction Red',
             'cobramkiii_faction1_02'                        => 'Pirate Faction Orange',
@@ -641,8 +641,6 @@ class PaintJob extends Alias
             
             'cobramkiii_wireframe_01'                       => 'Wireframe',
             'cobramkiii_gold_wireframe_01'                  => 'Wireframe Gold',
-            
-            'cobramkiii_yogscast_01'                        => null,
         ],
 
         // Cobra MkIV
@@ -1706,6 +1704,13 @@ class PaintJob extends Alias
             'orca_militaire_forest_green'                   => 'Military Marine Blue',
             'orca_militaire_sand'                           => 'Military Sand',
             
+            'orca_geometric_blue'                           => 'Prestige Blue',
+            'orca_geometric_green'                          => 'Prestige Green',
+            'orca_geometric_orange'                         => 'Prestige Orange',
+            'orca_geometric_purple'                         => 'Prestige Purple',
+            'orca_geometric_red'                            => 'Prestige Red',
+            'orca_geometric_yellow'                         => 'Prestige Yellow',
+            
             'orca_tactical_blue'                            => 'Tactical Cobalt',
             'orca_tactical_brown'                           => 'Tactical Khaki',
             'orca_tactical_green'                           => 'Tactical Olive',
@@ -2218,6 +2223,13 @@ class PaintJob extends Alias
             'type9_military_militaire_forest_green'         => 'Military Marine Blue',
             'type9_military_militaire_sand'                 => 'Military Sand',
             
+            'type9_military_squadron_black'                 => 'Squadron Shadow',
+            'type9_military_squadron_blue'                  => 'Squadron Blue',
+            'type9_military_squadron_gold'                  => 'Squadron Black',
+            'type9_military_squadron_green'                 => 'Squadron Green',
+            'type9_military_squadron_orange'                => 'Squadron Orange',
+            'type9_military_squadron_red'                   => 'Squadron Red',
+            
             'type9_military_tactical_blue'                  => 'Tactical Cobalt',
             'type9_military_tactical_brown'                 => 'Tactical Khaki',
             'type9_military_tactical_green'                 => 'Tactical Olive',
@@ -2300,6 +2312,7 @@ class PaintJob extends Alias
             'viper_mercenary_04'                            => null,
             
             'viper_metallic_chrome'                         => 'Chrome',
+            'viper_metallic2_chrome'                        => 'Chromed',
             'viper_metallic_gold'                           => 'Gold',
             'viper_metallic2_gold'                          => 'Golden',
             
