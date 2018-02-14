@@ -272,6 +272,8 @@ class Rating extends Alias
           1059  => 'G',
           1060  => 'F',
           1061  => 'F',
+          
+          1072  => 'E',
         
         // Weapon Hardpoint > Burst Laser
           1101  => 'F',
@@ -368,6 +370,8 @@ class Rating extends Alias
           
           1509  => 'D',
           1510  => 'D',
+          
+          1521  => 'D',
         
         // Weapon Hardpoint > Torpedo Pylon
           1551  => 'I',

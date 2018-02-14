@@ -272,6 +272,8 @@ class Classes extends Alias
           1059  => 1,
           1060  => 2,
           1061  => 3,
+          
+          1072  => 2,
         
         // Weapon Hardpoint > Burst Laser
           1101  => 1,
@@ -367,6 +369,8 @@ class Classes extends Alias
           
           1509  => 1,
           1510  => 2,
+          
+          1521  => 1,
         
         // Weapon Hardpoint > Torpedo Pylon
           1551  => 1,

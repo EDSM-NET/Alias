@@ -77,6 +77,8 @@ class Category extends Alias
                 1051, 1052, 1053, 1054,
                 1055, 1056, 1057, 1058,
                 1059, 1060, 1061,
+                
+                1072,
             ],
             'Burst Laser'                       => [
                 1101, 1102, 1103, 1104,
@@ -124,6 +126,8 @@ class Category extends Alias
             'Mining Laser'                      => [
                 1501, 1502,
                 1509, 1510,
+                
+                1521,
             ],
             'Torpedo Pylon'                     => [
                 1551, 1552,

@@ -270,6 +270,8 @@ class Type extends Alias
           1059  => 'Pulse Laser (Turret)',
           1060  => 'Pulse Laser (Turret)',
           1061  => 'Pulse Laser (Turret)',
+          
+          1072  => 'Pulse Laser Disruptor (Fixed, Powerplay)',
         
         // Weapon Hardpoint > Burst Laser
           1101  => 'Burst Laser (Fixed)',
@@ -364,6 +366,8 @@ class Type extends Alias
           1502  => 'Mining Laser (Fixed)',
           1509  => 'Mining Laser (Turret)',
           1510  => 'Mining Laser (Turret)',
+          
+          1521  => 'Mining Lance (Fixed, Powerplay)',
         
         // Weapon Hardpoint > Torpedo Pylon
           1551  => 'Torpedo Pylon (Seeker, Fixed)',
@@ -1481,6 +1485,8 @@ class Type extends Alias
         'hpt_pulselaser_turret_medium'                  => 1060,
         'hpt_pulselaser_turret_large'                   => 1061,
         
+        'hpt_pulselaser_fixed_medium_disruptor'         => 1072,
+        
         // Weapon Hardpoint > Burst Laser
         'hpt_pulselaserburst_fixed_small'               => 1101,
         'hpt_pulselaserburst_fixed_medium'              => 1102,
@@ -1576,6 +1582,8 @@ class Type extends Alias
         
         'hpt_mininglaser_turret_small'                  => 1509,
         'hpt_mininglaser_turret_medium'                 => 1510,
+        
+        'hpt_mininglaser_fixed_small_advanced'          => 1521,
         
         // Weapon Hardpoint > Torpedo Pylon
         'hpt_advancedtorppylon_fixed_small'             => 1551,

@@ -104,6 +104,7 @@ class Type extends Alias
          332        => 'Onionhead Alpha Strain',            /**/
          333        => 'Onionhead Beta Strain',             /**/
          334        => 'Harma Silver Sea Rum',
+         335        => 'Crom Silver Fesh',
          
         // Foods (4)
          401        => 'Algae',
@@ -155,6 +156,7 @@ class Type extends Alias
          447        => 'Orrerian Vicious Brew',             /**/
          448        => 'Uszaian Tree Grub',                 /**/
          449        => 'Diso Ma Corn',                      /**/
+         450        => 'Baked Greebles',
          
         // Industrial Materials (5)
          501        => 'Polymers',
@@ -389,8 +391,9 @@ class Type extends Alias
         
         1800        => 'Thargoid Cyclops Tissue Sample',
         1801        => 'Thargoid Heart',
-        1802        => 'Thargoid Basilisk Tissue Sample', //TODO: In game name?
-        1803        => 'Thargoid Medusa Tissue Sample', //TODO: In game name?
+        1802        => 'Thargoid Basilisk Tissue Sample',
+        1803        => 'Thargoid Medusa Tissue Sample',
+        1804        => 'ThargoidScoutTissueSample',
         
         // Powerplay (99)
         9901        => 'Aisling Media Materials',
@@ -525,6 +528,7 @@ class Type extends Alias
         'onionhead alpha strain'                => 332,     'onion head a'                  => 332,     'onionheada'                    => 332,
         'onionhead beta strain'                 => 333,     'onion head b'                  => 333,     'onionheadb'                    => 333,
         'harmasilversearum'                     => 334,
+        'animaleffigies'                        => 335,
         
         'algae'                                 => 401,
         'animalmeat'                            => 402,
@@ -550,7 +554,7 @@ class Type extends Alias
         'esuseku caviar'                        => 422,     'esusekucaviar'                 => 422,
         'live hecate sea worms'                 => 423,     'livehecateseaworms'            => 423,
         'helvetitj pearls'                      => 424,     'helvetitjpearls'               => 424,
-        'hip proto-squid'                       => 425,     'h i p41181 squid'              => 425,
+        'hip proto-squid'                       => 425,     'h i p41181 squid'              => 425,     'hip41181squid'                 => 425,
         'coquim spongiform victuals'            => 426,     'coquimspongiformvictuals'      => 426,
         'eden apples of aerial'                 => 427,     'aerial eden apple'             => 427,     'aerialedenapple'               => 427,
         'neritus berries'                       => 428,     'neritusberries'                => 428,
@@ -568,13 +572,14 @@ class Type extends Alias
         'ltt hypersweet'                        => 440,     'l t t hyper sweet'             => 440,     'ltthypersweet'                 => 440,
         'mechucos high tea'                     => 441,     'mechucoshightea'               => 441,
         'mokojing beast feast'                  => 442,     'mokojingbeastfeast'            => 442,
-        'mukusubii chitin-os'                   => 443,     'mukusubii chitin os'           => 443,
+        'mukusubii chitin-os'                   => 443,     'mukusubii chitin os'           => 443,     'mukusubiichitinos'             => 443,
         'mulachi giant fungus'                  => 444,     'mulachigiantfungus'            => 444,
         'wheemete wheat cakes'                  => 445,     'wheemetewheatcakes'            => 445,
         'arouca conventual sweets'              => 446,     'aroucaconventualsweets'        => 446,
         'orrerian vicious brew'                 => 447,     'orrerianviciousbrew'           => 447,
         'uszaian tree grub'                     => 448,     'uszaiantreegrub'               => 448,
         'diso ma corn'                          => 449,     'disomacorn'                    => 449,
+        'bakedgreebles'                         => 450,
         
         'polymers'                              => 501,
         'semiconductors'                        => 502,
