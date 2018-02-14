@@ -103,6 +103,9 @@ class Material extends Alias
         82  => 'Wreckage Components',
         83  => 'Bio-Mechanical Conduits',
         84  => 'Weapon Parts',
+        85  => 'Rhenium',
+        86  => 'Lead',
+        87  => 'Boron',
     ];
     
     /**
@@ -201,6 +204,12 @@ class Material extends Alias
     
     /**
      * List of grades used in game
+     * 
+     * 1    => Very common
+     * 2    => Common
+     * 3    => Standard
+     * 4    => Rare
+     * 5    => Very rare
      */
     static protected $grade     = [
          1  => 'Very rare',
@@ -283,10 +292,13 @@ class Material extends Alias
         78  => 'Standard',
         79  => 'Rare',
         80  => 'Very rare',
-        //81  => '???',
-        //82  => '???',
-        //83  => '???',
-        //84  => '???',
+        81  => 'Very rare',
+        82  => 'Standard',
+        83  => 'Standard',
+        84  => 'Rare',
+        85  => 'Very common',
+        86  => 'Very common',
+        87  => 'Standard',
     ];
     
     /**

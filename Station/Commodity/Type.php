@@ -385,6 +385,7 @@ class Type extends Alias
         1655        => 'Earth Relics',
         1656        => 'Ancient Artifact',
         1657        => 'Antique Jewellery',
+        1658        => 'Data Core',
         
         1800        => 'Thargoid Cyclops Tissue Sample',
         1801        => 'Thargoid Heart',
@@ -792,6 +793,7 @@ class Type extends Alias
         'earthrelics'                           => 1655,
         'ancientartefact'                       => 1656,
         'antiquejewellery'                      => 1657,
+        'datacore'                              => 1658,
         
         'thargoidtissuesampletype1'             => 1800,
         'thargoidheart'                         => 1801,
