@@ -22,7 +22,8 @@ class Victim extends Alias
           5     => 'Defence Turret',
           6     => 'Defence Turret',
           7     => 'Defence Platform',
-         
+          8     => 'Generator',
+        
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
         103     => 'Stinger',
@@ -38,7 +39,12 @@ class Victim extends Alias
         212     => 'Federal Security Service',
         213     => 'Internal Security Service',
         
+        221     => 'Federal Navy Fighter',
+        
         301     => 'Wedding Barge',
+        302     => 'Cruise Ship',
+        
+        401     => 'Search And Rescue Patrol',
     ];
     
     /**
@@ -56,6 +62,7 @@ class Victim extends Alias
         'poi_turretbasec'                       => 5,
         'poi_turretbaseb'                       => 6,
         'poi_turretbunkera'                     => 7,
+        'poi_portablegenerator'                 => 8,
         
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,
@@ -72,6 +79,11 @@ class Victim extends Alias
         'police_federation'                     => 212,
         'police_empire'                         => 213,
         
+        'militaryfighter_federation'            => 221,
+        
         'passengerliner_wedding'                => 301,
+        'passengerliner_cruise'                 => 302,
+        
+        'searchandrescue'                       => 401,
     ];
 }

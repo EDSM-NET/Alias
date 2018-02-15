@@ -28,6 +28,7 @@ class Type extends Alias
         21                          => 'Imperial Navy Fighter',
         22                          => 'Alliance Defence Fighter',
         23                          => 'System Defence Fighter',
+        24                          => 'Federal Navy Fighter',
     ];
     
     /**
@@ -53,5 +54,6 @@ class Type extends Alias
         'militaryfighter_empire'        => 21,
         'militaryfighter_alliance'      => 22,
         'militaryfighter_independent'   => 23,
+        'militaryfighter_federation'    => 24,
     ];
 }

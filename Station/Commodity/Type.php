@@ -242,6 +242,7 @@ class Type extends Alias
          821        => 'Sothis Crystalline Gold',           /**/
          822        => 'Praseodymium',
          823        => 'Samarium',
+         824        => 'Platinum Alloy',
          
         // Minerals (9)
          901        => 'Bauxite',
