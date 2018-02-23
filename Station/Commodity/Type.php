@@ -662,6 +662,7 @@ class Type extends Alias
         'sothis crystalline gold'               => 821,     'sothiscrystallinegold'         => 821,
         'praseodymium'                          => 822,
         'samarium'                              => 823,
+        'platinumaloy'                          => 824,
         
         'bauxite'                               => 901,
         'bertrandite'                           => 902,
