@@ -739,7 +739,7 @@ class Type extends Alias
         'borasetani pathogenetics'              => 1407,    'borasetanipathogenetics'       => 1407,
         'hip 118311 swarm'                      => 1408,    'hip118311swarm'                => 1408,
         'holva duelling blades'                 => 1409,    'holvaduellingblades'           => 1409,
-        'gilya signature weapons'               => 1410,
+        'gilya signature weapons'               => 1410,    'gilyasignatureweapons'         => 1410,
         
         'drones'                                => 1501,    'limpet'                        => 1501,
         
