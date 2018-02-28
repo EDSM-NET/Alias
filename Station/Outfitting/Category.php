@@ -388,6 +388,12 @@ class Category extends Alias
                 5841,
                 5861,
             ],
+            'Recon Limpet Controller' => [
+                5901,
+                5921,
+                5941,
+                5961,
+            ],
          ],
     ];
 }

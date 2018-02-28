@@ -1226,6 +1226,15 @@ class Type extends Alias
           5841  => 'Decontamination Limpet Controller',
           
           5861  => 'Decontamination Limpet Controller',
+        
+        // Optional Internal > Recon Limpet Controller
+          5901  => 'Recon Limpet Controller',
+          
+          5921  => 'Recon Limpet Controller',
+          
+          5941  => 'Recon Limpet Controller',
+          
+          5961  => 'Recon Limpet Controller',
     ];
     
     /**
@@ -2452,5 +2461,14 @@ class Type extends Alias
         'int_dronecontrol_decontamination_size5_class1' => 5841,
         
         'int_dronecontrol_decontamination_size7_class1' => 5861,
+        
+        // Optional Internal > Recon Limpet Controller
+        'int_dronecontrol_recon_size1_class1'           => 5901,
+        
+        'int_dronecontrol_recon_size3_class1'           => 5921,
+        
+        'int_dronecontrol_recon_size5_class1'           => 5941,
+        
+        'int_dronecontrol_recon_size7_class1'           => 5961,
     ];
 }

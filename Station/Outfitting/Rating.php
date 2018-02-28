@@ -1230,5 +1230,14 @@ class Rating extends Alias
           5841  => 'E',
         
           5861  => 'E',
+        
+        // Optional Internal > Recon Limpet Controller
+          5901  => 'E',
+        
+          5921  => 'E',
+        
+          5941  => 'E',
+        
+          5961  => 'E',
     ];
 }

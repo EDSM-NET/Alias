@@ -1229,5 +1229,14 @@ class Classes extends Alias
           5841  => 5,
         
           5861  => 7,
+        
+        // Optional Internal > Recon Limpet Controller
+          5901  => 1,
+        
+          5921  => 3,
+        
+          5941  => 5,
+        
+          5961  => 7,
     ];
 }
