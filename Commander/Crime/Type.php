@@ -34,6 +34,8 @@ class Type extends Alias
         17  => 'collidedatspeedinnofirezone',
         18  => 'collidedatspeedinnofirezone_hulldamage',
         
+        30  => 'recklessWeaponsDischarge',
+        
         50  => 'Passenger wanted',
     ];
     
@@ -63,6 +65,8 @@ class Type extends Alias
         'dockingmajor_trespass'                     => 16,      'dockingmajortresspass'                     => 16,
         'collidedatspeedinnofirezone'               => 17,
         'collidedatspeedinnofirezone_hulldamage'    => 18,
+        
+        'recklessWeaponsDischarge'                  => 30,
         
         'passengerwanted'                           => 50,
     ];

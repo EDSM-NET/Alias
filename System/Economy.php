@@ -27,6 +27,7 @@ class Economy extends Alias
          8                      => 'Service',
          9                      => 'Terraforming',
         10                      => 'Tourism',
+        11                      => 'Prison',
         
         97                      => 'Repair',
         98                      => 'Rescue',
@@ -60,6 +61,7 @@ class Economy extends Alias
         'service'               => 8,
         'terraforming'          => 9,
         'tourism'               => 10,
+        'prison'                => 11,
         
         'repair'                => 97,
         'rescue'                => 98,

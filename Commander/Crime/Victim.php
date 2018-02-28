@@ -23,6 +23,8 @@ class Victim extends Alias
           6     => 'Defence Turret',
           7     => 'Defence Platform',
           8     => 'Generator',
+          9     => 'Data Link',
+         10     => 'Data Point',
         
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
@@ -63,6 +65,8 @@ class Victim extends Alias
         'poi_turretbaseb'                       => 6,
         'poi_turretbunkera'                     => 7,
         'poi_portablegenerator'                 => 8,
+        'poi_datalink'                          => 9,
+        'poi_datapoint'                         => 10,
         
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,
