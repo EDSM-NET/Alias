@@ -29,6 +29,7 @@ class Government extends Alias
         10                      => 'Patronage',
         11                      => 'Prison colony',
         12                      => 'Theocracy',
+        13                      => 'Prison',
         
         99                      => 'Workshop (Engineer)',
     ];
@@ -60,6 +61,7 @@ class Government extends Alias
         'prison colony'         => 11,
         
         'theocracy'             => 12,
+        'prison'                => 13,
         
         'engineer'              => 99,
     ];
