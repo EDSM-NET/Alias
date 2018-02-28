@@ -62,6 +62,9 @@ class Data extends Alias
         41  => 'Thargoid Material Composition Data',
         42  => 'Ship Systems Data',
         43  => 'Ship Flight Data',
+        44  => 'Guardian Weapon Blueprint Segment',
+        45  => 'Guardian Module Blueprint Segment',
+        46  => 'Guardian Vessel Blueprint Segment',
     ];
     
     /**
@@ -115,10 +118,19 @@ class Data extends Alias
         'tg_compositiondata'                => 41,
         'tg_shipsystemsdata'                => 42,
         'tg_shipflightdata'                 => 43,
+        'guardian_weaponblueprint'          => 44,
+        'guardian_moduleblueprint'          => 45,
+        'guardian_vesselblueprint'          => 46,
     ];
     
     /**
      * List of grades used in game
+     * 
+     * 1    => Very common
+     * 2    => Common
+     * 3    => Standard
+     * 4    => Rare
+     * 5    => Very rare
      */
     static protected $grade     = [
          1  => 'Rare',
@@ -162,7 +174,10 @@ class Data extends Alias
         39  => 'Rare',
         40  => 'Common',
         41  => 'Standard',
-        //42  => '???',
-        //43  => '???',
+        42  => 'Standard',
+        43  => 'Rare',
+        //44  => '???',
+        //45  => '???',
+        //46  => '???',
     ];
 }
