@@ -15,7 +15,7 @@ class Service extends Alias
      * List of names used in game
      */
     static protected $name  = [
-         1                      => 'Market',
+         1                      => 'Commodities',
          2                      => 'Shipyard',
          3                      => 'Outfitting',
          4                      => 'Black Market',
@@ -24,10 +24,18 @@ class Service extends Alias
         22                      => 'Refuel',
         23                      => 'Repair',
         
+        31                      => 'Contacts',
         32                      => 'Universal Cartographics',
+        
+        34                      => 'Missions',
+        35                      => 'Crew Lounge',
+        36                      => 'Tuning',
         
         39                      => 'Interstellar Factors Contact',
         45                      => 'Search and Rescue',
+        
+        70                      => 'Technology Brocker',
+        71                      => 'Material Trader',
     ];
     
     /**
@@ -65,5 +73,8 @@ class Service extends Alias
         'ondockmission'         => 43,
         'powerplay'             => 44,
         'searchandrescue'       => 45,
+        
+        'techbroker'            => 70,
+        'materialtrader'        => 71,
     ];
 }
