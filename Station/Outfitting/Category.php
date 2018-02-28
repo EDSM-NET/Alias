@@ -261,7 +261,7 @@ class Category extends Alias
             ],
             'Cargo Rack'                        => [
                 4021, 4022, 4023, 4024, 4025, 4026, 4027, 4028,
-                4031, 4032,
+                4031, 4032, 4033, 4034,
             ],
             'Standard Docking Computer'         => [
                 4051,

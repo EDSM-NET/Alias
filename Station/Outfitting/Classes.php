@@ -762,6 +762,8 @@ class Classes extends Alias
           
           4031  => 1,
           4032  => 1,
+          4033  => 2,
+          4034  => 4,
         
         // Optional Internal > Standard Docking Computer
           4051  => 1,

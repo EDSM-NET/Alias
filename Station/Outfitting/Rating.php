@@ -763,6 +763,8 @@ class Rating extends Alias
           
           4031  => 'F',
           4032  => 'E',
+          4033  => 'E',
+          4034  => 'E',
         
         // Optional Internal > Standard Docking Computer
           4051  => 'E',

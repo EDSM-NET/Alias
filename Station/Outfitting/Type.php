@@ -759,6 +759,8 @@ class Type extends Alias
           
           4031  => 'Corrosion Resistant Cargo Rack',
           4032  => 'Corrosion Resistant Cargo Rack',
+          4033  => 'Corrosion Resistant Cargo Rack',
+          4034  => 'Corrosion Resistant Cargo Rack',
         
         // Optional Internal > Standard Docking Computer
           4051  => 'Standard Docking Computer',
@@ -1994,6 +1996,8 @@ class Type extends Alias
         
         'int_corrosionproofcargorack_size1_class2'      => 4031,
         'int_corrosionproofcargorack_size1_class1'      => 4032,
+        'int_corrosionproofcargorack_size2_class1'      => 4033,
+        'int_corrosionproofcargorack_size4_class1'      => 4034,
         
         // Optional Internal > Standard Docking Computer
         'int_dockingcomputer_standard'                  => 4051,
