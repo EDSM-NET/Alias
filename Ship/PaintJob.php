@@ -18,11 +18,11 @@ class PaintJob extends Alias
      */
     static protected $defaults = [
         128049267   => 'adder_default_defaultpaintjob',
+        128816574   => 'typex_default_defaultpaintjob',
         128049363   => 'anaconda_default_defaultpaintjob',
         128049303   => 'asp_default_defaultpaintjob',
         128672276   => 'asp_scout_default_defaultpaintjob',
         128049345   => 'belugaliner_default_defaultpaintjob',
-        128816574   => 'typex_default_defaultpaintjob',
         128049279   => 'cobramkiii_default_defaultpaintjob',
         128672262   => 'cobramkiv_default_defaultpaintjob',
         128049291   => 'dolphin_default_defaultpaintjob',
@@ -117,6 +117,27 @@ class PaintJob extends Alias
         // Alliance Chieftain
         128816574 => [
             'typex_default_defaultpaintjob'                 => 'Default',
+            
+            'typex_military_militaire_dark_green'           => 'Military Dark Green',
+            'typex_military_militaire_desert_sand'          => 'Military Desert Sand',
+            'typex_military_militaire_earth_red'            => 'Military Earth Red',
+            'typex_military_militaire_earth_yellow'         => 'Military Earth Yellow',
+            'typex_military_militaire_forest_green'         => 'Military Marine Blue',
+            'typex_military_militaire_sand'                 => 'Military Sand',
+            
+            'typex_military_tactical_blue'                  => 'Tactical Cobalt',
+            'typex_military_tactical_brown'                 => 'Tactical Khaki',
+            'typex_military_tactical_green'                 => 'Tactical Olive',
+            'typex_military_tactical_grey'                  => 'Tactical Graphite',
+            'typex_military_tactical_red'                   => 'Tactical Crimson',
+            'typex_military_tactical_white'                 => 'Tactical Ice',
+            
+            'typex_military_vibrant_blue'                   => 'Vibrant Blue',
+            'typex_military_vibrant_green'                  => 'Vibrant Green',
+            'typex_military_vibrant_orange'                 => 'Vibrant Orange',
+            'typex_military_vibrant_purple'                 => 'Vibrant Purple',
+            'typex_military_vibrant_red'                    => 'Vibrant Red',
+            'typex_military_vibrant_yellow'                 => 'Vibrant Yellow',
         ],
 
         // Anaconda
@@ -1077,6 +1098,13 @@ class PaintJob extends Alias
         128049369 => [
             'federation_corvette_blackfriday_01'            => 'Black Friday',
             
+            'federation_corvette_colourgeo_blue'            => 'Icarus Blue',
+            'federation_corvette_colourgeo_green'           => 'Icarus Green',
+            'federation_corvette_colourgeo_grey'            => 'Icarus Grey',
+            'federation_corvette_colourgeo_orange'          => 'Icarus Orange',
+            'federation_corvette_colourgeo_red'             => 'Icarus Red',
+            'federation_corvette_colourgeo_yellow'          => 'Icarus Yellow',
+            
             'federation_corvette_corrosive_01'              => 'Corroded 1',
             'federation_corvette_corrosive_02'              => 'Corroded 2',
             'federation_corvette_corrosive_03'              => 'Corroded 3',
@@ -1496,6 +1524,13 @@ class PaintJob extends Alias
             'cutter_faction1_04'                            => 'Pirate Faction Rose',
             'cutter_faction1_05'                            => 'Pirate Faction Blue',
             'cutter_faction1_06'                            => 'Pirate Faction Purple',
+            
+            'cutter_fullmetal_brass'                        => 'Galvanized Brass',
+            'cutter_fullmetal_bronze'                       => 'Galvanized Bronze',
+            'cutter_fullmetal_cobalt'                       => 'Galvanized Cobalt',
+            'cutter_fullmetal_copper'                       => 'Galvanized Copper',
+            'cutter_fullmetal_malachite'                    => 'Galvanized Malachite',
+            'cutter_fullmetal_paladium'                     => 'Galvanized Paladium',
             
             'cutter_lavecon_lavecon'                        => 'Lavecon',
             
@@ -2215,6 +2250,7 @@ class PaintJob extends Alias
             'type9_military_default_defaultpaintjob'        => 'Default',
             
             'type9_military_metallic2_chrome'               => 'Chromed',
+            'type9_military_metallic2_gold'                 => 'Golden',
             
             'type9_military_militaire_dark_green'           => 'Military Dark Green',
             'type9_military_militaire_desert_sand'          => 'Military Desert Sand',
@@ -2524,6 +2560,13 @@ class PaintJob extends Alias
             'vulture_militaire_earth_yellow'                => 'Military Earth Yellow',
             'vulture_militaire_forest_green'                => 'Military Marine Blue',
             'vulture_militaire_sand'                        => 'Military Sand',
+            
+            'vulture_militarystripe_blue'                   => 'Military Stripe Blue',
+            'vulture_militarystripe_green'                  => 'Military Stripe Green',
+            'vulture_militarystripe_orange'                 => 'Military Stripe Orange',
+            'vulture_militarystripe_purple'                 => 'Military Stripe Purple',
+            'vulture_militarystripe_red'                    => 'Military Stripe Red',
+            'vulture_militarystripe_yellow'                 => 'Military Stripe Yellow',
             
             'vulture_pax_east_pax_east'                     => 'PAX East',
             'vulture_pax_south_pax_south'                   => 'PAX South',
