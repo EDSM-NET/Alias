@@ -238,6 +238,13 @@ class Type extends Alias
            313  => 'Military Grade Composite',
            314  => 'Mirrored Surface Composite',
            315  => 'Reactive Surface Composite',
+             
+        // Bulkhead > Alliance Chieftain
+           321  => 'Lightweight Alloy',
+           322  => 'Reinforced Alloy',
+           323  => 'Military Grade Composite',
+           324  => 'Mirrored Surface Composite',
+           325  => 'Reactive Surface Composite',
         
         // Weapon Hardpoint > Beam Laser
           1001  => 'Beam Laser (Fixed)',
@@ -1452,6 +1459,13 @@ class Type extends Alias
         'type9_military_armour_grade3'                  => 313,
         'type9_military_armour_mirrored'                => 314,
         'type9_military_armour_reactive'                => 315,
+        
+        // Bulkhead > Alliance Chieftain
+        'typex_armour_grade1'                           => 321,
+        'typex_armour_grade2'                           => 322,
+        'typex_armour_grade3'                           => 323,
+        'typex_armour_mirrored'                         => 324,
+        'typex_armour_reactive'                         => 325,
         
         // Weapon Hardpoint > Beam Laser
         'hpt_beamlaser_fixed_small'                     => 1001,

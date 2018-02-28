@@ -241,6 +241,13 @@ class Classes extends Alias
            314  => 1,
            315  => 1,
         
+        // Bulkhead > Alliance Chieftain
+           321  => 1,
+           322  => 1,
+           323  => 1,
+           324  => 1,
+           325  => 1,
+        
         // Weapon Hardpoint > Beam Laser
           1001  => 1,
           1002  => 2,

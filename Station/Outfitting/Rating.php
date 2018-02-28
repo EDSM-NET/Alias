@@ -241,6 +241,13 @@ class Rating extends Alias
            314  => 'I',
            315  => 'I',
         
+        // Bulkhead > Alliance Chieftain
+           321  => 'I',
+           322  => 'I',
+           323  => 'I',
+           324  => 'I',
+           325  => 'I',
+        
         // Weapon Hardpoint > Beam Laser
           1001  => 'E',
           1002  => 'D',

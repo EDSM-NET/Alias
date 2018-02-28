@@ -31,6 +31,7 @@ class Category extends Alias
         // Bulkhead
          1      =>  [
             128049267   => [1, 2, 3, 4, 5],                // Adder
+            128816574   => [321, 322, 323, 324, 325],      // Alliance Chieftain
             128049363   => [11, 12, 13, 14, 15],           // Anaconda
             128049303   => [21, 22, 23, 24, 25],           // Asp Explorer
             128672276   => [31, 32, 33, 34, 35],           // Asp Scout
