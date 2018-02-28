@@ -66,7 +66,7 @@ class Type extends Alias
         'collidedatspeedinnofirezone'               => 17,
         'collidedatspeedinnofirezone_hulldamage'    => 18,
         
-        'recklessWeaponsDischarge'                  => 30,
+        'recklessweaponsdischarge'                  => 30,
         
         'passengerwanted'                           => 50,
     ];

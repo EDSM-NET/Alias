@@ -389,6 +389,11 @@ class Type extends Alias
         1656        => 'Ancient Artifact',
         1657        => 'Antique Jewellery',
         1658        => 'Data Core',
+        1659        => 'Gene Bank',
+        1660        => 'Fossil Remnants',
+        1661        => 'Mysterious Idol',
+        1662        => 'Space Pioneer Relics',
+        1663        => 'Time Capsule',
         
         1800        => 'Thargoid Cyclops Tissue Sample',
         1801        => 'Thargoid Heart',
@@ -801,6 +806,11 @@ class Type extends Alias
         'ancientartefact'                       => 1656,
         'antiquejewellery'                      => 1657,
         'datacore'                              => 1658,
+        'genebank'                              => 1659,
+        'fossilremnants'                        => 1660,
+        'mysteriousidol'                        => 1661,
+        'spacepioneerrelics'                    => 1662,
+        'timecapsule'                           => 1663,
         
         'thargoidtissuesampletype1'             => 1800,
         'thargoidheart'                         => 1801,
