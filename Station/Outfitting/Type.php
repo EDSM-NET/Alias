@@ -469,42 +469,56 @@ class Type extends Alias
           3103  => 'Power Plant',
           3104  => 'Power Plant',
           3105  => 'Power Plant',
+          
+          3109  => 'Guardian Hybrid Power Plant',
         
           3111  => 'Power Plant',
           3112  => 'Power Plant',
           3113  => 'Power Plant',
           3114  => 'Power Plant',
           3115  => 'Power Plant',
+          
+          3119  => 'Guardian Hybrid Power Plant',
         
           3121  => 'Power Plant',
           3122  => 'Power Plant',
           3123  => 'Power Plant',
           3124  => 'Power Plant',
           3125  => 'Power Plant',
+          
+          3129  => 'Guardian Hybrid Power Plant',
         
           3131  => 'Power Plant',
           3132  => 'Power Plant',
           3133  => 'Power Plant',
           3134  => 'Power Plant',
           3135  => 'Power Plant',
+          
+          3139  => 'Guardian Hybrid Power Plant',
         
           3141  => 'Power Plant',
           3142  => 'Power Plant',
           3143  => 'Power Plant',
           3144  => 'Power Plant',
           3145  => 'Power Plant',
+          
+          3149  => 'Guardian Hybrid Power Plant',
         
           3151  => 'Power Plant',
           3152  => 'Power Plant',
           3153  => 'Power Plant',
           3154  => 'Power Plant',
           3155  => 'Power Plant',
+          
+          3159  => 'Guardian Hybrid Power Plant',
         
           3161  => 'Power Plant',
           3162  => 'Power Plant',
           3163  => 'Power Plant',
           3164  => 'Power Plant',
           3165  => 'Power Plant',
+          
+          3169  => 'Guardian Hybrid Power Plant',
         
         // Core Internal > Thrusters
           3201  => 'Thrusters',
@@ -1712,11 +1726,15 @@ class Type extends Alias
         'int_powerplant_size2_class4'                   => 3104,
         'int_powerplant_size2_class5'                   => 3105,
         
+        'int_guardianpowerplant_size2'                  => 3109,
+        
         'int_powerplant_size3_class1'                   => 3111,
         'int_powerplant_size3_class2'                   => 3112,
         'int_powerplant_size3_class3'                   => 3113,
         'int_powerplant_size3_class4'                   => 3114,
         'int_powerplant_size3_class5'                   => 3115,
+        
+        'int_guardianpowerplant_size3'                  => 3119,
         
         'int_powerplant_size4_class1'                   => 3121,
         'int_powerplant_size4_class2'                   => 3122,
@@ -1724,11 +1742,15 @@ class Type extends Alias
         'int_powerplant_size4_class4'                   => 3124,
         'int_powerplant_size4_class5'                   => 3125,
         
+        'int_guardianpowerplant_size4'                  => 3129,
+        
         'int_powerplant_size5_class1'                   => 3131,
         'int_powerplant_size5_class2'                   => 3132,
         'int_powerplant_size5_class3'                   => 3133,
         'int_powerplant_size5_class4'                   => 3134,
         'int_powerplant_size5_class5'                   => 3135,
+        
+        'int_guardianpowerplant_size5'                  => 3139,
         
         'int_powerplant_size6_class1'                   => 3141,
         'int_powerplant_size6_class2'                   => 3142,
@@ -1736,17 +1758,23 @@ class Type extends Alias
         'int_powerplant_size6_class4'                   => 3144,
         'int_powerplant_size6_class5'                   => 3145,
         
+        'int_guardianpowerplant_size6'                  => 3149,
+        
         'int_powerplant_size7_class1'                   => 3151,
         'int_powerplant_size7_class2'                   => 3152,
         'int_powerplant_size7_class3'                   => 3153,
         'int_powerplant_size7_class4'                   => 3154,
         'int_powerplant_size7_class5'                   => 3155,
         
+        'int_guardianpowerplant_size7'                  => 3159,
+        
         'int_powerplant_size8_class1'                   => 3161,
         'int_powerplant_size8_class2'                   => 3162,
         'int_powerplant_size8_class3'                   => 3163,
         'int_powerplant_size8_class4'                   => 3164,
         'int_powerplant_size8_class5'                   => 3165,
+        
+        'int_guardianpowerplant_size8'                  => 3169,
         
         // Core Internal > Thrusters
         'int_engine_size2_class1'                       => 3201,
