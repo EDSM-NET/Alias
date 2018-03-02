@@ -262,6 +262,8 @@ class Type extends Alias
           1011  => 'Beam Laser (Turret)',
           
           1021  => 'Retributor Beam Laser (Fixed, Powerplay)',
+          
+          1032  => 'Gauss Cannon (Fixed, Guardian)',
         
         // Weapon Hardpoint > Pulse Laser
           1051  => 'Pulse Laser (Fixed)',
@@ -349,6 +351,9 @@ class Type extends Alias
           1304  => 'Plasma Accelerator (Fixed)',
           
           1313  => 'Advanced Plasma Accelerator (Fixed, Powerplay)',
+          
+          1322  => 'Plasma Charger (Turret, Guardian)',
+          1323  => 'Plasma Charger (Fixed, Guardian)',
         
         // Weapon Hardpoint > Rail Gun
           1351  => 'Rail Gun (Fixed)',
@@ -1495,6 +1500,8 @@ class Type extends Alias
         
         'hpt_beamlaser_fixed_small_heat'                => 1021,
         
+        'hpt_guardian_gausscannon_fixed_medium'         => 1032,
+        
         // Weapon Hardpoint > Pulse Laser
         'hpt_pulselaser_fixed_small'                    => 1051,
         'hpt_pulselaser_fixed_medium'                   => 1052,
@@ -1581,6 +1588,9 @@ class Type extends Alias
         'hpt_plasmaaccelerator_fixed_huge'              => 1304,
         
         'hpt_plasmaaccelerator_fixed_large_advanced'    => 1313,
+        
+        'hpt_guardian_plasmalauncher_turret_medium'     => 1322,
+        'hpt_guardian_plasmalauncher_fixed_medium'      => 1323,
         
         // Weapon Hardpoint > Rail Gun
         'hpt_railgun_fixed_small'                       => 1351,

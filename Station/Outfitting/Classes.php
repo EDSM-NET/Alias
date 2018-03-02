@@ -264,6 +264,8 @@ class Classes extends Alias
           1011  => 3,
           
           1021  => 1,
+          
+          1032  => 2,
         
         // Weapon Hardpoint > Pulse Laser
           1051  => 1,
@@ -351,6 +353,9 @@ class Classes extends Alias
           1304  => 4,
           
           1313  => 3,
+          
+          1322  => 2,
+          1323  => 2,
         
         // Weapon Hardpoint > Rail Gun
           1351  => 1,

@@ -42,6 +42,7 @@ class Victim extends Alias
         213     => 'Internal Security Service',
         
         221     => 'Federal Navy Fighter',
+        222     => 'System Defence Fighter',
         
         301     => 'Wedding Barge',
         302     => 'Cruise Ship',
@@ -84,6 +85,7 @@ class Victim extends Alias
         'police_empire'                         => 213,
         
         'militaryfighter_federation'            => 221,
+        'militaryfighter_independent'           => 222,
         
         'passengerliner_wedding'                => 301,
         'passengerliner_cruise'                 => 302,

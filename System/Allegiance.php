@@ -22,6 +22,7 @@ class Allegiance extends Alias
          3                      => 'Federation',
          4                      => 'Independent',
          
+         8                      => 'Guardian',
          9                      => 'Pilots Federation',
     ];
     
@@ -38,6 +39,7 @@ class Allegiance extends Alias
         'federation'            => 3,
         'independent'           => 4,
         
+        'guardian'              => 8,
         'pilotsfederation'      => 9,
         
         // Bug on #19700/CM Draconis

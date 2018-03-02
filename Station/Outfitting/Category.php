@@ -73,6 +73,8 @@ class Category extends Alias
                 1009, 1010, 1011,
                 
                 1021,
+                
+                1032,
             ],
             'Pulse Laser'                       => [
                 1051, 1052, 1053, 1054,
@@ -109,6 +111,10 @@ class Category extends Alias
             ],
             'Plasma Accelerator'                => [
                 1302, 1303, 1304,
+                
+                1313,
+                
+                1322, 1323,
             ],
             'Rail Gun'                          => [
                 1351, 1352,
@@ -147,6 +153,9 @@ class Category extends Alias
             'Remote Release Flak Launcher'      => [
                 1752,
                 1760,
+            ],
+            'Pack-Hound Missile Rack'           => [
+                1802,
             ],
          ],
         

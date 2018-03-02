@@ -264,6 +264,8 @@ class Rating extends Alias
           1011  => 'D',
           
           1021  => 'E',
+          
+          1032  => 'B',
         
         // Weapon Hardpoint > Pulse Laser
           1051  => 'F',
@@ -351,6 +353,9 @@ class Rating extends Alias
           1304  => 'A',
           
           1313  => 'B',
+          
+          1322  => 'E',
+          1323  => 'B',
         
         // Weapon Hardpoint > Rail Gun
           1351  => 'D',
