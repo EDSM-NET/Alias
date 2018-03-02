@@ -13,7 +13,16 @@ class Data extends Alias
 {
     use \EDSM\Alias\Commander\Data;
     
-    static protected $max       = 500;
+    /**
+     * List of limits per grade
+     */
+    static protected $max       = [
+        1                           => 100,
+        2                           => 150,
+        3                           => 200,
+        4                           => 250,
+        5                           => 300,
+    ];
     
     /**
      * List of names used in game
@@ -125,57 +134,62 @@ class Data extends Alias
     
     /**
      * List of grades used in game
-     * 
-     * 1    => Very common
-     * 2    => Common
-     * 3    => Standard
-     * 4    => Rare
-     * 5    => Very rare
+     */
+    static protected $gradeName  = [
+         1  => 'Very common',
+         2  => 'Common',
+         3  => 'Standard',
+         4  => 'Rare',
+         5  => 'Very rare',
+    ];
+    
+    /**
+     * List of grades per data
      */
     static protected $grade     = [
-         1  => 'Rare',
-         2  => 'Very rare',
-         3  => 'Very rare',
-         4  => 'Very common',
-         5  => 'Common',
-         6  => 'Very common',
-         7  => 'Rare',
-         8  => 'Standard',
-         9  => 'Very rare',
-        10  => 'Standard',
-        11  => 'Very rare',
-        12  => 'Rare',
-        13  => 'Very common',
-        14  => 'Rare',
-        15  => 'Rare',
-        16  => 'Very common',
-        17  => 'Common',
-        18  => 'Common',
-        19  => 'Common',
-        20  => 'Very rare',
-        21  => 'Standard',
-        22  => 'Standard',
-        23  => 'Common',
-        24  => 'Rare',
-        25  => 'Very rare',
-        26  => 'Very common',
-        27  => 'Very rare',
-        28  => 'Rare',
-        29  => 'Very common',
-        30  => 'Standard',
-        31  => 'Common',
-        32  => 'Standard',
-        33  => 'Common',
-        34  => 'Very common',
-        35  => 'Standard',
-        36  => 'Very common',
-        37  => 'Rare',
-        38  => 'Very rare',
-        39  => 'Rare',
-        40  => 'Common',
-        41  => 'Standard',
-        42  => 'Standard',
-        43  => 'Rare',
+         1  => 4,
+         2  => 5,
+         3  => 5,
+         4  => 1,
+         5  => 2,
+         6  => 1,
+         7  => 4,
+         8  => 3,
+         9  => 5,
+        10  => 3,
+        11  => 5,
+        12  => 4,
+        13  => 1,
+        14  => 4,
+        15  => 4,
+        16  => 1,
+        17  => 2,
+        18  => 2,
+        19  => 2,
+        20  => 5,
+        21  => 3,
+        22  => 3,
+        23  => 2,
+        24  => 4,
+        25  => 5,
+        26  => 1,
+        27  => 5,
+        28  => 4,
+        29  => 1,
+        30  => 3,
+        31  => 2,
+        32  => 3,
+        33  => 2,
+        34  => 1,
+        35  => 3,
+        36  => 1,
+        37  => 4,
+        38  => 5,
+        39  => 4,
+        40  => 2,
+        41  => 3,
+        42  => 3,
+        43  => 4,
         //44  => '???',
         //45  => '???',
         //46  => '???',
