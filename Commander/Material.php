@@ -17,11 +17,11 @@ class Material extends Alias
      * List of limits per grade
      */
     static protected $max       = [
-        1                           => 100,
-        2                           => 150,
+        1                           => 300,
+        2                           => 250,
         3                           => 200,
-        4                           => 250,
-        5                           => 300,
+        4                           => 150,
+        5                           => 100,
     ];
     
     /**
