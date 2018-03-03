@@ -16,7 +16,7 @@ class Material extends Alias
     /**
      * List of limits per grade
      */
-    static protected $max       = [
+    static protected $max           = [
         1                           => 300,
         2                           => 250,
         3                           => 200,
@@ -239,11 +239,11 @@ class Material extends Alias
      * List of grades per data
      */
     static protected $grade     = [
-         1  => 5,
+         1  => 4,
          2  => 3,
          3  => 1,
          4  => 5,
-         5  => 4,
+         5  => 3,
          6  => 1,
          7  => 3,
          8  => 4,
@@ -289,7 +289,7 @@ class Material extends Alias
         48  => 5,
         49  => 3,
         50  => 1,
-        51  => 5,
+        51  => 4,
         52  => 4,
         53  => 3,
         54  => 4,
@@ -297,17 +297,17 @@ class Material extends Alias
         56  => 4,
         57  => 5,
         58  => 4,
-        59  => 5,
+        59  => 4,
         60  => 1,
-        61  => 3,
+        61  => 4,
         62  => 2,
         63  => 3,
         64  => 1,
-        65  => 5,
-        66  => 5,
+        65  => 4,
+        66  => 4,
         67  => 4,
         68  => 1,
-        69  => 4,
+        69  => 3,
         70  => 3,
         71  => 5,
         72  => 2,
