@@ -34,7 +34,7 @@ class Service extends Alias
         39                      => 'Interstellar Factors Contact',
         45                      => 'Search and Rescue',
         
-        70                      => 'Technology Brocker',
+        70                      => 'Technology Broker',
         71                      => 'Material Trader',
     ];
     
