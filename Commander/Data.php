@@ -25,6 +25,11 @@ class Data extends Alias
     ];
     
     /**
+     * List of limits override
+     */
+    static protected $maxOverride   = [];
+    
+    /**
      * List of names used in game
      */
     static protected $name      = [

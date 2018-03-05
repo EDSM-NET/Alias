@@ -17,11 +17,18 @@ class Material extends Alias
      * List of limits per grade
      */
     static protected $max           = [
-        1                           => 300,
-        2                           => 250,
-        3                           => 200,
-        4                           => 150,
-        5                           => 100,
+        1                               => 300,
+        2                               => 250,
+        3                               => 200,
+        4                               => 150,
+        5                               => 100,
+    ];
+    
+    /**
+     * List of limits override
+     */
+    static protected $maxOverride   = [
+        76                              => 250,
     ];
     
     /**
@@ -106,7 +113,7 @@ class Material extends Alias
         76  => 'Zirconium',
         77  => 'Thargoid Carapace',
         78  => 'Thargoid Energy Cell',
-        79  => 'Thargoid Technology Components',
+        79  => 'Thargoid Technological Components',
         80  => 'Thargoid Organic Circuitry',
         81  => 'Propulsion Elements',
         82  => 'Wreckage Components',
@@ -240,7 +247,7 @@ class Material extends Alias
      */
     static protected $grade     = [
          1  => 4,
-         2  => 3,
+         2  => 2,
          3  => 1,
          4  => 5,
          5  => 3,
@@ -315,7 +322,7 @@ class Material extends Alias
         74  => 4,
         75  => 2,
         76  => 3,
-        77  => 5,
+        77  => 2,
         78  => 3,
         79  => 4,
         80  => 5,

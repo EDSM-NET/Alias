@@ -22,6 +22,8 @@ class Allegiance extends Alias
          3                      => 'Federation',
          4                      => 'Independent',
          
+        // Should be hidden from search and showing, but that is how the game implement site that have be found
+         7                      => 'Thargoid',
          8                      => 'Guardian',
          9                      => 'Pilots Federation',
     ];
@@ -39,6 +41,7 @@ class Allegiance extends Alias
         'federation'            => 3,
         'independent'           => 4,
         
+        'thargoid'              => 7,
         'guardian'              => 8,
         'pilotsfederation'      => 9,
         
