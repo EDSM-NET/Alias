@@ -46,7 +46,7 @@ class Synthesis extends Alias
     ];
     
     /**
-     * List of names used in game
+     * List of recipes used in game
      * 
      * Material Id => Count
      */

@@ -399,7 +399,7 @@ class Type extends Alias
         1801        => 'Thargoid Heart',
         1802        => 'Thargoid Basilisk Tissue Sample',
         1803        => 'Thargoid Medusa Tissue Sample',
-        1804        => 'ThargoidScoutTissueSample',
+        1804        => 'Thargoid Scout Tissue Sample',
         
         // Powerplay (99)
         9901        => 'Aisling Media Materials',
@@ -816,6 +816,7 @@ class Type extends Alias
         'thargoidheart'                         => 1801,
         'thargoidtissuesampletype2'             => 1802,
         'thargoidtissuesampletype3'             => 1803,
+        'thargoidscouttissuesample'             => 1804,
         
         'aislingmediamaterials'                 => 9901,
         'aislingmediaresources'                 => 9902,
