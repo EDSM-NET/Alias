@@ -15,6 +15,7 @@ class Type extends Alias
      * List of names used in game
      */
     static protected $name  = [
+        // Courier Missions
            1                                => 'Courier job available',
            2                                => 'Engineer Invitation Contract',
            3                                => 'Federal Navy courier job available',
@@ -115,7 +116,8 @@ class Type extends Alias
          453                                => 'Donate %donation% Cr to prevent a medical emergency',
          454                                => 'Provide %donation% Cr to tackle civil unrest',
          455                                => 'Please provide %donation% Cr to help stop the famine',
-         
+        
+        // Delivery Missions
          501                                => 'Deliver %commodityCount% units of %commodity%',
          502                                => 'Help the cooperative by delivering %commodityCount% units of %commodity%',
          503                                => 'Agricultural supply run: %commodityCount% units of %commodity%',
@@ -131,6 +133,10 @@ class Type extends Alias
          513                                => 'Imperial navy supply run',
          514                                => 'Sensitive supply operation',
          
+       10501                                => 'Deliver %commodityCount% units of %commodity%',
+       10503                                => 'Agricultural supply run: %commodityCount% units of %commodity%',
+       10504                                => 'Boom time delivery of %commodityCount% units of %commodity%',
+         
          601                                => 'Source and return %commodityCount% units of %commodity%',
          602                                => 'Industry needs %commodityCount% units of %commodity%',
          603                                => 'Supply %commodityCount% units of %commodity%',
@@ -140,6 +146,9 @@ class Type extends Alias
          607                                => 'We need %commodityCount% units of %commodity%',
          608                                => 'Source and return %commodityCount% units of %commodity%',
          609                                => 'The Federal Navy requires %commodityCount% units of %commodity%',
+         
+       10602                                => 'Industry needs %commodityCount% units of %commodity%',
+       10606                                => 'Outbreak aid needed %commodityCount% units of %commodity%',
          
          701                                => '%commodity% salvage operation',
          702                                => 'Wartime %commodity% salvage operation',
@@ -173,7 +182,8 @@ class Type extends Alias
          903                                => 'Mining expansion support needs %commodityCount% units of %commodity%',
          904                                => 'Extract %commodityCount% units of %commodity%',
          905                                => 'Blast out %commodityCount% units of %commodity%',
-          
+        
+        // Massacre Missions
         1001                                => 'Massacre the %targetFaction% %targetType%',
         1002                                => 'Massacre the %targetFaction% ships',
         1003                                => 'Massacre the %targetFaction% ships',
@@ -183,6 +193,9 @@ class Type extends Alias
         1007                                => 'Massacre the %targetFaction% %targetType%',
         1008                                => 'Put down the %targetFaction% %targetType%',
         1009                                => 'Engage and destroy the %targetFaction% %targetType%',
+        
+      101001                                => 'Massacre the %targetFaction% %targetType%',
+      101002                                => 'Massacre the %targetFaction% ships',
         
         1051                                => 'Corporate strike against the %targetFaction% %targetType%',
         1052                                => 'Clean out the %targetFaction% %targetType%',
@@ -197,6 +210,7 @@ class Type extends Alias
         1080                                => 'Covert outbreak combat operation',
         1081                                => 'Covert famine combat operation',
         
+        // Assassinate Missions
         1101                                => 'Assassinate %targetType%: %target%',
         1102                                => 'Federal navy strike contract authorised',
         1103                                => 'Imperial naval strike contract authorised',
@@ -210,6 +224,10 @@ class Type extends Alias
         1111                                => 'Obliterate %targetType%: %target%',
         1112                                => 'Execute %targetType%: %target%',
         1113                                => 'Remove %targetType%: %target%',
+        
+      101101                                => 'Assassinate %targetType%: %target%',
+      101105                                => 'Assassinate %targetType%: %target%',
+      101106                                => 'Take down %targetType%: %target%',
         
         1151                                => 'Wetwork contract',
         1152                                => 'Wetwork Job',
@@ -239,20 +257,25 @@ class Type extends Alias
         1255                                => 'Civil war illegal transportation contract',
         1256                                => 'Wartime illegal transportation contract',
         
+        // Hack Missions
         1301                                => 'Interact with the %target% datalink',
         1302                                => 'Establish a covert link with the %target% datalink',
         1303                                => 'Infiltrate the %target% datalink',
         1304                                => 'Tap into the %target% datalink',
         
+        1352                                => 'Tactical data acquisition',
+        
         1401                                => '%passengerName% wants to go to %expeditionDest% and collect data',
         1402                                => '%passengerName% wants to go to %expeditionDest% and collect data',
         1403                                => '%passengerName% wants to go to %expeditionDest% and collect data',
         
+        // Piracy Missions
         1501                                => 'Steal %commodityCount% units of %commodity%',
         1502                                => 'Federal navy acquisition contract',
         1503                                => 'Liberate %commodityCount% units of %commodity%',
         1504                                => 'Steal %commodityCount% units of %commodity%',
         1505                                => 'Deprive their owners of %commodityCount% units of %commodity%',
+        1506                                => 'Filch %commodityCount% units of %commodity%',
         
         1551                                => 'Covert acquisition contract available',
         1552                                => 'Civil war acquisition contract',
@@ -454,6 +477,10 @@ class Type extends Alias
         'mission_delivery_rankemp'                          => 513,
         'mission_delivery_founder'                          => 514,
         
+        'mission_deliverywing'                              => 10501,
+        'mission_deliverywing_agriculture'                  => 10503,
+        'mission_deliverywing_boom'                         => 10504,
+        
         'mission_collect'                                   => 601,
         'mission_collect_industrial'                        => 602,
         'mission_collect_civilwar'                          => 603,
@@ -463,6 +490,9 @@ class Type extends Alias
         'mission_collect_civilunrest'                       => 607,
         'mission_collect_rankemp'                           => 608,
         'mission_collect_rankfed'                           => 609,
+        
+        'mission_collectwing_industrial'                    => 10602,
+        'mission_collectwing_outbreak'                      => 10606,
         
         'mission_salvage'                                   => 701,
         'mission_salvage_war'                               => 702,
@@ -507,6 +537,9 @@ class Type extends Alias
         'mission_massacre_legal_civilunrest'                => 1008,
         'mission_massacre_legal_military'                   => 1009,
         
+        'mission_massacrewing'                              => 101001,
+        'mission_massacrewing_conflict_war'                 => 101002,
+        
         'mission_massacre_skimmer_corporation'              => 1051,
         'mission_massacre_skimmer_refinery'                 => 1052,
         'mission_massacre_skimmer_expansion'                => 1053,
@@ -533,6 +566,10 @@ class Type extends Alias
         'mission_assassinate_legal_civilunrest'             => 1111,
         'mission_assassinate_legal_penal'                   => 1112,
         'mission_assassinate_legal_communism'               => 1113,
+        
+        'mission_assassinatewing'                           => 101101,
+        'mission_assassinatewing_legal_civilwar'            => 101105,
+        'mission_assassinatewing_legal_corporate'           => 101106,
         
         'mission_assassinate_illegal_blops'                 => 1151,
         'mission_assassinate_illegal_blops_industrial'      => 1152,
@@ -567,6 +604,8 @@ class Type extends Alias
         'mission_hack_war'                                  => 1303,
         'mission_hack_civilunrest'                          => 1304,
         
+        'mission_hack_blops_civilwar'                       => 1352,
+        
         'mission_longdistanceexpedition'                    => 1401,
         'mission_longdistanceexpedition_explorer_boom'      => 1402,
         'mission_longdistanceexpedition_explorer_expansion' => 1403,
@@ -576,6 +615,7 @@ class Type extends Alias
         'mission_piracy_boom'                               => 1503,
         'mission_piracy_anarchy'                            => 1504,
         'mission_piracy_civilwar'                           => 1505,
+        'mission_piracy_war'                                => 1506,
         
         'mission_piracy_blops'                              => 1551,
         'mission_piracy_blops_civilwar'                     => 1552,
