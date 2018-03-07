@@ -55,10 +55,12 @@ class TechnologyBroker extends Alias
         'hpt_plasmashockcannon_turret_medium'               => 11,
         
         'int_guardianpowerplant_size2'                      => 12,
+        'int_guardianpowerplant_size3'                      => 12,
         
-        'corrosionproofcargorack_size4_class1'              => 18,
+        'int_corrosionproofcargorack_size4_class1'          => 18,
         
-        'int_metaalloyhullreinforcement_size1_class1'       => 21,  
+        'int_metaalloyhullreinforcement_size1_class1'       => 21,
+        'int_metaalloyhullreinforcement_size1_class2'       => 21,
     ];
     
     /**
