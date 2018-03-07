@@ -11,6 +11,8 @@ use         EDSM\Alias;
 
 class Power extends Alias
 {
+    use \EDSM\Alias\System\Power;
+    
     /**
      * List of names used in game
      */
@@ -47,5 +49,22 @@ class Power extends Alias
         'pranav antal'          => 9,
         'archon delaine'        => 10,
         'zemina torval'         => 11,
+    ];
+    
+    /**
+     * List of colors
+     */
+    static protected $color = [
+         1                      => '#00ff00',
+         2                      => '#ff0000',
+         3                      => '#0099ff',
+         //4                      => '???',
+         5                      => '#ff7f00',
+         6                      => '#bfff00',
+         7                      => '#00ffff',
+         8                      => '#7f00ff',
+         9                      => '#ffff00',
+        10                      => '#7fff00',
+        11                      => '#0040ff',
     ];
 }
