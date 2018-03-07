@@ -70,7 +70,7 @@ class TechnologyBroker extends Alias
         // Guardian Gauss Cannon [Fixed]
          1  => [
              'd44'  => 4,               // Guardian Weapon Blueprint Segment * 4
-                92  => 36,              // Guardian Power Cell              * 36
+                90  => 36,              // Guardian Power Cell              * 36
                 88  => 42,              // Guardian Technology Component    * 42
                 38  => 30,              // Manganese                        * 30
             'c626'  => 10,              // Magnetic Emitter Coil            * 10
