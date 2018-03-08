@@ -28,7 +28,7 @@ class Material extends Alias
      * List of limits override
      */
     static protected $maxOverride   = [
-        76                              => 250,
+        
     ];
     
     /**
@@ -287,10 +287,10 @@ class Material extends Alias
         39  => 3,
         40  => 2,
         41  => 1,
-        42  => 4,
+        42  => 3,
         43  => 5,
         44  => 5,
-        45  => 4,
+        45  => 3,
         46  => 1,
         47  => 3,
         48  => 5,
@@ -321,7 +321,7 @@ class Material extends Alias
         73  => 1,
         74  => 4,
         75  => 2,
-        76  => 3,
+        76  => 2,
         77  => 2,
         78  => 3,
         79  => 4,
