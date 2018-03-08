@@ -69,6 +69,93 @@ class Engineer extends Alias
         'tiana fortune'                 => 20,
     ];
     
+    /**
+     * List of specialisations used in game
+     */
+    static protected $specialisation = [
+         1                              => [
+            'Power plants',
+            'Power distributors',
+        ],
+         2                              => [
+            'Missiles',
+            'Mines',
+         ],
+         3                              => [
+            'Pulse lasers',
+            'Burst lasers',
+        ],
+         4                              => [
+            'Multi-cannons',
+            'Fragmentation cannons',
+        ],
+         5                              => [
+            'Hull reinforcement',
+            'Armour',
+        ],
+         6                              => [
+            'Frame shift drives',
+            'Engines and thrusters',
+        ],
+         7                              => [
+            'Power plants',
+            'Power distributors',
+        ],
+         8                              => [
+            'Engines and thrusters',
+            'Frame shift drives',
+        ],
+         9                              => [
+            'Shield boosters',
+            'Shield generators', 
+        ],
+        10                              => [
+            'Power distributors',
+            'Pulse lasers',
+        ],
+        11                              => [
+            'FSD interdictors',
+            'Frame shift drives',
+        ],
+        12                              => [
+            'Frame shift drives',
+            'Shield generators',
+        ],
+        13                              => [
+            'Utilities',
+            'Scanners',
+        ],
+        14                              => [
+            'Mines and Missiles',
+            'Scanners',
+        ],
+        15                              => [
+            'Fragmentation cannons',
+            'Multi-cannons',
+        ],
+        16                              => [
+            'Limpets',
+            'Cannons',
+        ],
+        17                              => [
+            'Shield generators',
+            'Shield boosters',
+        ],
+        18                              => [
+            'Defences',
+            'Limpets',
+        ],
+        19                              => [
+            'Plasma accelerators',
+            'Utilities',
+        ],
+        20                              => [
+            'Limpets',
+            'Scanners',
+        ],
+    ];
+    
+    
     
     /**
      * Table with parent => children
@@ -97,7 +184,7 @@ class Engineer extends Alias
             'children'  => [
                 [
                     'parent'    => 7,   // Marco Qwent
-                    'column'    => 8,
+                    'block'     => true,
                     'children'  => [
                         [
                             'parent'    => 8,   // Professor Palin
@@ -109,7 +196,6 @@ class Engineer extends Alias
                 ],
                 [
                     'parent'    => 15,  // Zacariah Nemo
-                    'column'    => 4,
                 ],
             ],
         ],
