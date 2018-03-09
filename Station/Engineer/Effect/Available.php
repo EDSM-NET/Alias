@@ -16,23 +16,71 @@ class Available extends Alias
      */
     static protected $name  = [
         // HARDPOINT - Beam Laser
-        101     => [                    // Efficient
-            
+        101     => [    // Efficient
+            7,              // Concordant Sequence
+            20,             // Double Braced
+            31,             // Flow Control
+            51,             // Oversized
+            61,             // Regeneration Sequence
+            72,             // Stripped Down
+            79,             // Thermal Conduit
+            80,             // Thermal Shock
+            84,             // Thermal Vent
         ],
-        102     => [                    // Lightweight
-            
+        102     => [    // Lightweight
+            7,              // Concordant Sequence
+            20,             // Double Braced
+            31,             // Flow Control
+            51,             // Oversized
+            61,             // Regeneration Sequence
+            72,             // Stripped Down
+            79,             // Thermal Conduit
+            80,             // Thermal Shock
+            84,             // Thermal Vent
         ],
-        103     => [                    // Long range
-            
+        103     => [    // Long range
+            7,              // Concordant Sequence
+            20,             // Double Braced
+            31,             // Flow Control
+            51,             // Oversized
+            61,             // Regeneration Sequence
+            72,             // Stripped Down
+            79,             // Thermal Conduit
+            80,             // Thermal Shock
+            84,             // Thermal Vent
         ],
-        104     => [                    // Overcharged
-            
+        104     => [    // Overcharged
+            7,              // Concordant Sequence
+            20,             // Double Braced
+            31,             // Flow Control
+            51,             // Oversized
+            61,             // Regeneration Sequence
+            72,             // Stripped Down
+            79,             // Thermal Conduit
+            80,             // Thermal Shock
+            84,             // Thermal Vent
         ],
-        105     => [                    // Short range
-            
+        105     => [    // Short range
+            7,              // Concordant Sequence
+            20,             // Double Braced
+            31,             // Flow Control
+            51,             // Oversized
+            61,             // Regeneration Sequence
+            72,             // Stripped Down
+            79,             // Thermal Conduit
+            80,             // Thermal Shock
+            84,             // Thermal Vent
         ],
-        106     => [                    // Sturdy
-            
+        106     => [    // Sturdy
+            7,              // Concordant Sequence
+            20,             // Double Braced
+            31,             // Flow Control
+            51,             // Oversized
+            61,             // Regeneration Sequence
+            72,             // Stripped Down
+            79,             // Thermal Conduit
+            80,             // Thermal Shock
+            84,             // Thermal Vent
         ],
         
         // HARDPOINT - Burst Laser
@@ -402,9 +450,7 @@ class Available extends Alias
         ],
         
         // OPTIONAL INTERNAL - Detailed Surface Scanner
-        20301   => [                    // Fast scan
-            
-        ],
+        20301   => null,                // Fast scan
         20302   => [                    // Long range
             
         ],

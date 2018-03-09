@@ -17,46 +17,181 @@ class Modifier extends Alias
     static protected $name  = [
         // HARDPOINT - Beam Laser
         101     => [                    // Efficient
-            1       => null,
-            2       => null,
-            3       => null,
-            4       => null,
-            5       => null,
+            1       => [
+                ['Damage', '+8%', 'text-info'],
+                ['Thermal load', '-38%', 'text-info'],
+            ],
+            2       => [
+                ['Damage', '+12%', 'text-info'],
+                ['Power draw', '-12%', 'text-info'],
+                ['Distributor draw', '-15%', 'text-info'],
+                ['Thermal load', '-43%', 'text-info'],
+            ],
+            3       => [
+                ['Damage', '+16%', 'text-info'],
+                ['Power draw', '-24%', 'text-info'],
+                ['Distributor draw', '-25%', 'text-info'],
+                ['Thermal load', '-48%', 'text-info'],
+            ],
+            4       => [
+                ['Damage', '+20%', 'text-info'],
+                ['Power draw', '-36%', 'text-info'],
+                ['Distributor draw', '-35%', 'text-info'],
+                ['Thermal load', '-53%', 'text-info'],
+            ],
+            5       => [
+                ['Damage', '+24%', 'text-info'],
+                ['Power draw', '-48%', 'text-info'],
+                ['Distributor draw', '-45%', 'text-info'],
+                ['Thermal load', '-60%', 'text-info'],
+            ],
         ],
         102     => [                    // Lightweight
-            1       => null,
-            2       => null,
-            3       => null,
-            4       => null,
-            5       => null,
+            1       => [
+                ['Integrity', '-20%', 'text-danger'],
+                ['Mass', '-30%', 'text-info'],
+            ],
+            2       => [
+                ['Power draw', '-10%', 'text-info'],
+                ['Integrity', '-30%', 'text-danger'],
+                ['Distributor draw', '-20%', 'text-info'],
+                ['Mass', '-45%', 'text-info'],
+            ],
+            3       => [
+                ['Power draw', '-20%', 'text-info'],
+                ['Integrity', '-40%', 'text-danger'],
+                ['Distributor draw', '-25%', 'text-info'],
+                ['Mass', '-60%', 'text-info'],
+            ],
+            4       => [
+                ['Power draw', '-30%', 'text-info'],
+                ['Integrity', '-50%', 'text-danger'],
+                ['Distributor draw', '-30%', 'text-info'],
+                ['Mass', '-75%', 'text-info'],
+            ],
+            5       => [
+                ['Power draw', '-40%', 'text-info'],
+                ['Integrity', '-60%', 'text-danger'],
+                ['Distributor draw', '-35%', 'text-info'],
+                ['Mass', '-90%', 'text-info'],
+            ],
         ],
         103     => [                    // Long range
-            1       => null,
-            2       => null,
-            3       => null,
-            4       => null,
-            5       => null,
+            1       => [
+                ['Power draw', '+3%', 'text-danger'],
+                ['Maximum range', '+20%', 'text-info'],
+                ['Damage falloff start', '+20%', 'text-info'],
+                ['Mass', '+10%', 'text-danger'],
+            ],
+            2       => [
+                ['Power draw', '+6%', 'text-danger'],
+                ['Maximum range', '+40%', 'text-info'],
+                ['Damage falloff start', '+40%', 'text-info'],
+                ['Mass', '+15%', 'text-danger'],
+            ],
+            3       => [
+                ['Power draw', '+9%', 'text-danger'],
+                ['Maximum range', '+60%', 'text-info'],
+                ['Damage falloff start', '+60%', 'text-info'],
+                ['Mass', '+20%', 'text-danger'],
+            ],
+            4       => [
+                ['Power draw', '+12%', 'text-danger'],
+                ['Maximum range', '+80%', 'text-info'],
+                ['Damage falloff start', '+80%', 'text-info'],
+                ['Mass', '+25%', 'text-danger'],
+            ],
+            5       => [
+                ['Power draw', '+15%', 'text-danger'],
+                ['Maximum range', '+100%', 'text-info'],
+                ['Damage falloff start', '+100%', 'text-info'],
+                ['Mass', '+30%', 'text-danger'],
+            ],
         ],
         104     => [                    // Overcharged
-            1       => null,
-            2       => null,
-            3       => null,
-            4       => null,
-            5       => null,
+            1       => [
+                ['Damage', '+30%', 'text-info'],
+                ['Distributor draw', '+15%', 'text-danger'],
+                ['Thermal load', '+3%', 'text-danger'],
+            ],
+            2       => [
+                ['Damage', '+40%', 'text-info'],
+                ['Distributor draw', '+20%', 'text-danger'],
+                ['Thermal load', '+6%', 'text-danger'],
+            ],
+            3       => [
+                ['Damage', '+50%', 'text-info'],
+                ['Distributor draw', '+25%', 'text-danger'],
+                ['Thermal load', '+9%', 'text-danger'],
+            ],
+            4       => [
+                ['Damage', '+60%', 'text-info'],
+                ['Distributor draw', '+30%', 'text-danger'],
+                ['Thermal load', '+12%', 'text-danger'],
+            ],
+            5       => [
+                ['Damage', '+70%', 'text-info'],
+                ['Distributor draw', '+35%', 'text-danger'],
+                ['Thermal load', '+15%', 'text-danger'],
+            ],
         ],
         105     => [                    // Short range
-            1       => null,
-            2       => null,
-            3       => null,
-            4       => null,
-            5       => null,
+            1       => [
+                ['Damage', '+27%', 'text-info'],
+                ['Maximum range', '-10%', 'text-danger'],
+            ],
+            2       => [
+                ['Damage', '+39%', 'text-info'],
+                ['Maximum range', '-20%', 'text-danger'],
+                ['Thermal load', '+10%', 'text-danger'],
+            ],
+            3       => [
+                ['Damage', '+51%', 'text-info'],
+                ['Maximum range', '-30%', 'text-danger'],
+                ['Thermal load', '+20%', 'text-danger'],
+            ],
+            4       => [
+                ['Damage', '+63%', 'text-info'],
+                ['Maximum range', '-40%', 'text-danger'],
+                ['Thermal load', '+30%', 'text-danger'],
+            ],
+            5       => [
+                ['Damage', '+75%', 'text-info'],
+                ['Maximum range', '-50%', 'text-danger'],
+                ['Thermal load', '+40%', 'text-danger'],
+            ],
         ],
         106     => [                    // Sturdy
-            1       => null,
-            2       => null,
-            3       => null,
-            4       => null,
-            5       => null,
+            1       => [
+                ['Integrityy', '+100%', 'text-info'],
+                ['Thermal load', '-10%', 'text-info'],
+                ['Armour piercing', '+20%', 'text-info'],
+                ['Mass', '+20%', 'text-danger'],
+            ],
+            2       => [
+                ['Integrityy', '+150%', 'text-info'],
+                ['Thermal load', '-15%', 'text-info'],
+                ['Armour piercing', '+30%', 'text-info'],
+                ['Mass', '+40%', 'text-danger'],
+            ],
+            3       => [
+                ['Integrityy', '+200%', 'text-info'],
+                ['Thermal load', '-20%', 'text-info'],
+                ['Armour piercing', '+40%', 'text-info'],
+                ['Mass', '+60%', 'text-danger'],
+            ],
+            4       => [
+                ['Integrityy', '+250%', 'text-info'],
+                ['Thermal load', '-25%', 'text-info'],
+                ['Armour piercing', '+50%', 'text-info'],
+                ['Mass', '+80%', 'text-danger'],
+            ],
+            5       => [
+                ['Integrityy', '+300%', 'text-info'],
+                ['Thermal load', '-30%', 'text-info'],
+                ['Armour piercing', '+60%', 'text-info'],
+                ['Mass', '+100%', 'text-danger'],
+            ],
         ],
         
         // HARDPOINT - Burst Laser
@@ -860,15 +995,25 @@ class Modifier extends Alias
         // OPTIONAL INTERNAL - Detailed Surface Scanner
         20301   => [                    // Fast scan
             1       => [
-                50  => 1,               // Phosphorus               * 1
+                ['Scan rate', '+20%', 'text-info'],
+                ['Mass', '+20%', 'text-danger'],
             ],
             2       => [
-                50  => 1,               // Phosphorus               * 1
-                23  => 1,               // Flawed Focus Crystals    * 1
+                ['Scan rate', '+35%', 'text-info'],
+                ['Mass', '+40%', 'text-danger'],
             ],
-            3       => null,
-            4       => null,
-            5       => null,
+            3       => [
+                ['Scan rate', '+50%', 'text-info'],
+                ['Mass', '+60%', 'text-danger'],
+            ],
+            4       => [
+                ['Scan rate', '+65%', 'text-info'],
+                ['Mass', '+80%', 'text-danger'],
+            ],
+            5       => [
+                ['Scan rate', '+80%', 'text-info'],
+                ['Mass', '+100%', 'text-danger'],
+            ],
         ],
         20302   => [                    // Long range
             1       => null,

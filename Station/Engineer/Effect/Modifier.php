@@ -9,22 +9,27 @@
 namespace   Alias\Station\Engineer\Effect;
 use         EDSM\Alias;
 
-class Recipe extends Alias
+class Modifier extends Alias
 {
     /**
-     * List of experimental effects recipes
+     * List of experimental effects modifiers
      */
     static protected $name  = [
-          1     => null,             // Angled Plating
-          2     => null,             // Angled Plating
+          1     => [    // Angled Plating
+                ['Hull Boost', '-3%', 'text-danger'],
+                ['Kinetic Resistance', '+8%', 'text-info'],
+            ],
+          2     => [    // Angled Plating
+                ['Hull Boost', '-5%', 'text-danger'],
+                ['Kinetic Resistance', '+2%', 'text-info'],
+            ],
           3     => null,             // Auto Loader
           4     => null,             // Blast Block
           5     => null,             // Boss Cells
           6     => null,             // Cluster Capacitors
           7     => [    // Concordant Sequence
-                24  => 5,               // Focus Crystals                   * 5
-             'd20'  => 3,               // Modified Embedded Firmware       * 3
-                76  => 1,               // Zirconium                        * 1
+                ['Wing shield regeneration increased', null, 'text-info'],
+                ['Thermal load', '+50%', 'text-danger'],
             ],
           8     => null,             // Corrosive Shell
           9     => null,             // Dazzle Shell
@@ -39,9 +44,7 @@ class Recipe extends Alias
          18     => null,             // Double Braced
          19     => null,             // Double Braced
          20     => [    // Double Braced
-                41  => 5,               // Mechanical Scrap                 * 5
-                12  => 5,               // Compact Composites               * 5
-                72  => 3,               // Vanadium                         * 3
+                ['Integrity', '+15%', 'text-info'],
             ],
          21     => null,             // Double Braced
          22     => null,             // Drag Drives
@@ -54,9 +57,7 @@ class Recipe extends Alias
          29     => null,             // Flow Control
          30     => null,             // Flow Control
          31     => [    // Flow Control
-                41  => 5,               // Mechanical Scrap                 * 5
-                34  => 3,               // Hybrid Capacitors                * 3
-              'd20' => 1,               // Modified Embedded Firmware       * 1
+                ['Power draw', '-10%', 'text-info'],
             ],
          32     => null,             // Flow Control
          33     => null,             // Force Block
@@ -78,9 +79,8 @@ class Recipe extends Alias
          49     => null,             // Multi-weave
          50     => null,             // Overload Munitions
          51     => [    // Oversized
-                41  => 5,               // Mechanical Scrap                 * 5
-                39  => 3,               // Mechanical Components            * 3
-                59  => 1,               // Ruthenium                        * 1
+                ['Power draw', '+5%', 'text-danger'],
+                ['Damage', '+3%', 'text-info'],
             ],
          52     => null,             // Penetrator Munitions
          53     => null,             // Penetrator Payload
@@ -92,9 +92,8 @@ class Recipe extends Alias
          59     => null,             // Reflective Plating
          60     => null,             // Reflective Plating
          61     => [    // Regeneration Sequence
-                58  => 3,               // Refined Focus Crystals           * 3
-                63  => 4,               // Shielding Sensors                * 4
-              'd27' => 1,               // Peculiar Shield Frequency Data   * 1
+                ['Target wing shields regenerated', null, 'text-info'],
+                ['Damage', '-10%', 'text-danger'],
             ],
          62     => null,             // Reverberating Cascade
          63     => null,             // Scramble Spectrum
@@ -108,9 +107,7 @@ class Recipe extends Alias
          70     => null,             // Stripped Down
          71     => null,             // Stripped Down
          72     => [    // Stripped Down
-                60  => 5,               // Salvaged Alloys                  * 5
-                 6  => 5,               // Carbon                           * 5
-                69  => 1,               // Tin                              * 1
+                ['Mass', '-10%', 'text-info'],
             ],
          73     => null,             // Super Capacitors
          74     => null,             // Super Conduits
@@ -119,23 +116,17 @@ class Recipe extends Alias
          77     => null,             // Target Lock Breaker
          78     => null,             // Thermal Cascade
          79     => [    // Thermal Conduit
-                29  => 5,               // Heat Dispersion Plate            * 5
-                64  => 5,               // Sulphur                          * 5
-                67  => 5,               // Tempered Alloys                  * 5
+                ['Damage increases with heat level', null, 'text-info'],
             ],
          80     => [    // Thermal Shock
-                23  => 5,               // Flawed Focus Crystals            * 5
-                31  => 3,               // Heat Resistant Ceramics          * 3
-                15  => 3,               // Conductive Components            * 3
-                70  => 3,               // Tungsten                         * 3
+                ['Target heat increased', null, 'text-info'],
+                ['Damage', '-10%', 'text-danger'],
             ],
          81     => null,             // Thermal Spread
          82     => null,             // Thermal Spread
          83     => null,             // Thermal Spread
          84     => [    // Thermal Vent
-                23  => 5,               // Flawed Focus Crystals            * 5
-                16  => 3,               // Conductive Polymers              * 3
-                53  => 3,               // Precipitated Alloys              * 3
+                ['Heat reduced when striking a target', null, 'text-info'],
             ],
          85     => null,             // Thermo Block
          86     => null,             // Thermo Block
