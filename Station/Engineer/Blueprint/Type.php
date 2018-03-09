@@ -258,6 +258,6 @@ class Type extends Alias
         40102   => 'Heavy duty',
         40103   => 'Kinetic resistant',
         40104   => 'Lightweight',
-        40105   => 'Thermal resist',
+        40105   => 'Thermal resistant',
     ];
 }
