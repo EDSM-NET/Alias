@@ -232,11 +232,11 @@ class Available extends Alias
         // Didi Vatermann
          9      => [
             // UTILITY MOUNT - Shield Booster
-            10801   => [1, 2, 3, 4,  ],         // Blast resistant
-            10802   => [1, 2, 3, 4,  ],         // Heavy duty
-            10803   => [1, 2, 3, 4,  ],         // Kinetic resistant
-            10804   => [1, 2, 3, 4,  ],         // Resistance augmented
-            10805   => [1, 2, 3, 4,  ],         // Thermal resistant
+            10801   => [1, 2, 3, 4, 5],         // Blast resistant
+            10802   => [1, 2, 3, 4, 5],         // Heavy duty
+            10803   => [1, 2, 3, 4, 5],         // Kinetic resistant
+            10804   => [1, 2, 3, 4, 5],         // Resistance augmented
+            10805   => [1, 2, 3, 4, 5],         // Thermal resistant
             
             // OPTIONAL INTERNAL - Shield Generator
             21201   => [1, 2, 3,     ],         // Enhanced low power

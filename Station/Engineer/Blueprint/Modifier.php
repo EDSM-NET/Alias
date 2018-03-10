@@ -16,7 +16,7 @@ class Modifier extends Alias
      */
     static protected $name  = [
         // HARDPOINT - Beam Laser
-        101     => [                    // Efficient
+        101     => [    // Efficient
             1       => [
                 ['Damage', '+8%', 'text-info'],
                 ['Thermal load', '-38%', 'text-info'],
@@ -46,7 +46,7 @@ class Modifier extends Alias
                 ['Thermal load', '-60%', 'text-info'],
             ],
         ],
-        102     => [                    // Lightweight
+        102     => [    // Lightweight
             1       => [
                 ['Integrity', '-20%', 'text-danger'],
                 ['Mass', '-30%', 'text-info'],
@@ -76,7 +76,7 @@ class Modifier extends Alias
                 ['Mass', '-90%', 'text-info'],
             ],
         ],
-        103     => [                    // Long range
+        103     => [    // Long range
             1       => [
                 ['Power draw', '+3%', 'text-danger'],
                 ['Maximum range', '+20%', 'text-info'],
@@ -108,7 +108,7 @@ class Modifier extends Alias
                 ['Mass', '+30%', 'text-danger'],
             ],
         ],
-        104     => [                    // Overcharged
+        104     => [    // Overcharged
             1       => [
                 ['Damage', '+30%', 'text-info'],
                 ['Distributor draw', '+15%', 'text-danger'],
@@ -135,7 +135,7 @@ class Modifier extends Alias
                 ['Thermal load', '+15%', 'text-danger'],
             ],
         ],
-        105     => [                    // Short range
+        105     => [    // Short range
             1       => [
                 ['Damage', '+27%', 'text-info'],
                 ['Maximum range', '-10%', 'text-danger'],
@@ -161,33 +161,33 @@ class Modifier extends Alias
                 ['Thermal load', '+40%', 'text-danger'],
             ],
         ],
-        106     => [                    // Sturdy
+        106     => [    // Sturdy
             1       => [
-                ['Integrityy', '+100%', 'text-info'],
+                ['Integrity', '+100%', 'text-info'],
                 ['Thermal load', '-10%', 'text-info'],
                 ['Armour piercing', '+20%', 'text-info'],
                 ['Mass', '+20%', 'text-danger'],
             ],
             2       => [
-                ['Integrityy', '+150%', 'text-info'],
+                ['Integrity', '+150%', 'text-info'],
                 ['Thermal load', '-15%', 'text-info'],
                 ['Armour piercing', '+30%', 'text-info'],
                 ['Mass', '+40%', 'text-danger'],
             ],
             3       => [
-                ['Integrityy', '+200%', 'text-info'],
+                ['Integrity', '+200%', 'text-info'],
                 ['Thermal load', '-20%', 'text-info'],
                 ['Armour piercing', '+40%', 'text-info'],
                 ['Mass', '+60%', 'text-danger'],
             ],
             4       => [
-                ['Integrityy', '+250%', 'text-info'],
+                ['Integrity', '+250%', 'text-info'],
                 ['Thermal load', '-25%', 'text-info'],
                 ['Armour piercing', '+50%', 'text-info'],
                 ['Mass', '+80%', 'text-danger'],
             ],
             5       => [
-                ['Integrityy', '+300%', 'text-info'],
+                ['Integrity', '+300%', 'text-info'],
                 ['Thermal load', '-30%', 'text-info'],
                 ['Armour piercing', '+60%', 'text-info'],
                 ['Mass', '+100%', 'text-danger'],
@@ -195,7 +195,7 @@ class Modifier extends Alias
         ],
         
         // HARDPOINT - Burst Laser
-        201     => [                    // Efficient
+        201     => [    // Efficient
             1       => null,
             2       => null,
             3       => null,
