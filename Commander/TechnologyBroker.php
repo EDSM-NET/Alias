@@ -73,6 +73,7 @@ class TechnologyBroker extends Alias
         'int_metaalloyhullreinforcement_size4_class1'       => 21,
         'int_metaalloyhullreinforcement_size4_class2'       => 21,
         'int_metaalloyhullreinforcement_size5_class1'       => 21,
+        'int_metaalloyhullreinforcement_size5_class2'       => 21,
     ];
     
     /**
