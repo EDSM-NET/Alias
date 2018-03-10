@@ -15,20 +15,58 @@ class Recipe extends Alias
      * List of experimental effects recipes
      */
     static protected $name  = [
-          1     => null,             // Angled Plating
-          2     => null,             // Angled Plating
-          3     => null,             // Auto Loader
-          4     => null,             // Blast Block
-          5     => null,             // Boss Cells
-          6     => null,             // Cluster Capacitors
+          1     => [    // Angled Plating
+                12  => 5,               // Compact Composites               * 5
+                33  => 3,               // High Density Composites          * 3
+                76  => 3,               // Zirconium                        * 3
+            ],
+          2     => [    // Angled Plating
+                67  => 5,               // Tempered Alloys                  * 5
+                76  => 3,               // Zirconium                        * 3
+                 6  => 5,               // Carbon                           * 5
+                33  => 3,               // High Density Composites          * 3
+            ],
+          3     => [    // Auto Loader
+                40  => 4,               // Mechanical Equipment             * 4
+                39  => 3,               // Mechanical Components            * 3
+                33  => 3,               // High Density Composites          * 3
+            ],
+          4     => [    // Blast Block
+              'd17' => 5,               // Inconsistent Shield Soak Analysis * 5
+                31  => 3,               // Heat Resistant Ceramics          * 3
+                29  => 3,               // Heat Dispersion Plate            * 3
+                61  => 2,               // Selenium                         * 2
+            ],
+          5     => [    // Boss Cells
+                10  => 5,               // Chemical Storage Units           * 5
+                11  => 3,               // Chromium                         * 3
+                52  => 1,               // Polymer Capacitors               * 1
+            ],
+          6     => [    // Blast Block
+                50  => 5,               // Phosphorus                       * 5
+                31  => 3,               // Heat Resistant Ceramics          * 3
+                 5  => 1,               // Cadmium                          * 1
+            ],
           7     => [    // Concordant Sequence
                 24  => 5,               // Focus Crystals                   * 5
              'd20'  => 3,               // Modified Embedded Firmware       * 3
                 76  => 1,               // Zirconium                        * 1
             ],
-          8     => null,             // Corrosive Shell
-          9     => null,             // Dazzle Shell
-         10     => null,             // Deep Charge
+          8     => [    // Corrosive Shell
+                10  => 5,               // Chemical Storage Units           * 5
+                53  => 4,               // Precipitated Alloys              * 4
+                 2  => 3,               // Arsenic                          * 3
+            ],
+          9     => [    // Dazzle Shell
+                41  => 5,               // Mechanical Scrap                 * 5
+                38  => 4,               // Manganese                        * 4
+                34  => 5,               // Hybrid Capacitors                * 5
+            ],
+         10     => [    // Deep Charge
+               'd6' => 5,               // Atypical Disrupted Wake Echoes   * 5
+                25  => 3,               // Galvanising Alloys               * 3
+              'd15' => 1,               // Eccentric Hyperspace Trajectories * 1
+            ],
          11     => null,             // Deep Plating
          12     => null,             // Deep Plating
          13     => null,             // Dispersal Field
@@ -129,15 +167,36 @@ class Recipe extends Alias
                 15  => 3,               // Conductive Components            * 3
                 70  => 3,               // Tungsten                         * 3
             ],
-         81     => null,             // Thermal Spread
-         82     => null,             // Thermal Spread
-         83     => null,             // Thermal Spread
+         81     => [    // Thermal Spread
+                37  => 5,               // Iron                             * 5
+                34  => 3,               // Hybrid Capacitors                * 3
+                32  => 1,               // Heat Vanes                       * 1
+            ],
+         82     => [    // Thermal Spread
+                37  => 5,               // Iron                             * 5
+                25  => 3,               // Galvanising Alloys               * 3
+                32  => 1,               // Heat Vanes                       * 1
+                27  => 3,               // Grid Resistors                   * 3
+            ],
+         83     => [    // Thermal Spread
+                27  => 5,               // Grid Resistors                   * 5
+                72  => 3,               // Vanadium                         * 3
+                32  => 1,               // Heat Vanes                       * 1
+            ],
          84     => [    // Thermal Vent
                 23  => 5,               // Flawed Focus Crystals            * 5
                 16  => 3,               // Conductive Polymers              * 3
                 53  => 3,               // Precipitated Alloys              * 3
             ],
-         85     => null,             // Thermo Block
-         86     => null,             // Thermo Block
+         85     => [    // Thermo Block
+                73  => 5,               // Worn Shield Emitters             * 5
+                23  => 3,               // Flawed Focus Crystals            * 3
+                32  => 1,               // Heat Vanes                       * 1
+            ],
+         86     => [    // Thermo Block
+               'd4' => 5,               // Anomalous Bulk Scan Data         * 5
+                14  => 3,               // Conductive Ceramics              * 3
+                32  => 3,               // Heat Vanes                       * 3
+            ],
     ];
 }
