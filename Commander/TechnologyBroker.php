@@ -45,10 +45,10 @@ class TechnologyBroker extends Alias
         'hpt_guardian_plasmalauncher_fixed_medium'          => 2,
         'hpt_guardian_plasmalauncher_turret_medium'         => 3,
         
-        'causticmissile_fixed_medium'                       => 6,
+        'hpt_causticmissile_fixed_medium'                   => 6,
         
-        'flechettelauncher_fixed_medium'                    => 7,
-        'flechettelauncher_turret_medium'                   => 8,
+        'hpt_flechettelauncher_fixed_medium'                => 7,
+        'hpt_flechettelauncher_turret_medium'               => 8,
         
         'hpt_plasmashockcannon_fixed_medium'                => 9,
         'hpt_plasmashockcannon_gimbal_medium'               => 10,
@@ -57,12 +57,22 @@ class TechnologyBroker extends Alias
         'int_guardianpowerplant_size2'                      => 12,
         'int_guardianpowerplant_size3'                      => 12,
         'int_guardianpowerplant_size4'                      => 12,
+        'int_guardianpowerplant_size5'                      => 12,
+        'int_guardianpowerplant_size6'                      => 12,
+        'int_guardianpowerplant_size7'                      => 12,
+        'int_guardianpowerplant_size8'                      => 12,
         
         'int_corrosionproofcargorack_size4_class1'          => 18,
         
         'int_metaalloyhullreinforcement_size1_class1'       => 21,
         'int_metaalloyhullreinforcement_size1_class2'       => 21,
         'int_metaalloyhullreinforcement_size2_class1'       => 21,
+        'int_metaalloyhullreinforcement_size2_class2'       => 21,
+        'int_metaalloyhullreinforcement_size3_class1'       => 21,
+        'int_metaalloyhullreinforcement_size3_class2'       => 21,
+        'int_metaalloyhullreinforcement_size4_class1'       => 21,
+        'int_metaalloyhullreinforcement_size4_class2'       => 21,
+        'int_metaalloyhullreinforcement_size5_class1'       => 21,
     ];
     
     /**
