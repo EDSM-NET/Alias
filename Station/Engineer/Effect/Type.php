@@ -74,7 +74,7 @@ class Type extends Alias
          57     => 'Radiant Canister',              // Mine Launchers
          58     => 'Recycling Cell',                // Shield Cell Banks
          59     => 'Reflective Plating',            // Armours
-         60     => 'Reflective Plating',            //Hull/Module Reinforcements
+         60     => 'Reflective Plating',            // Hull/Module Reinforcements
          61     => 'Regeneration Sequence',         // Beam Lasers
          62     => 'Reverberating Cascade',         // Torpedo Pylons, Mine Launchers
          63     => 'Scramble Spectrum',             // Pulse Lasers, Burst Lasers
