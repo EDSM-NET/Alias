@@ -59,7 +59,7 @@ class Category extends Alias
         305     => 'CORE INTERNAL - Sensors',
         306     => 'CORE INTERNAL - Thrusters',
         
-        401     => 'ARMOUR',
+        401     => 'ARMOUR - Armour',
     ];
     
     /**

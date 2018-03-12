@@ -16,248 +16,248 @@ class Type extends Alias
      */
     static protected $name  = [
         // HARDPOINT - Beam Laser
-        101     => 'Efficient',
-        102     => 'Lightweight',
-        103     => 'Long range',
-        104     => 'Overcharged',
-        105     => 'Short range',
-        106     => 'Sturdy',
+        101     => 'Efficient Weapon',
+        102     => 'Light Weight Mount',
+        103     => 'Long-Range Weapon',
+        104     => 'Overcharged Weapon',
+        105     => 'Short-Range Blaster',
+        106     => 'Sturdy Mount',
         
         // HARDPOINT - Burst Laser
-        201     => 'Efficient',
-        202     => 'Focused',
-        203     => 'Lightweight',
-        204     => 'Long range',
-        205     => 'Overcharged',
-        206     => 'Rapid fire',
-        207     => 'Short range',
-        208     => 'Sturdy',
+        201     => 'Efficient Weapon',
+        202     => 'Focused Weapon',
+        203     => 'Light Weight Mount',
+        204     => 'Long-Range Weapon',
+        205     => 'Overcharged Weapon',
+        206     => 'Rapid Fire Modification',
+        207     => 'Short-Range Blaster',
+        208     => 'Sturdy Mount',
         
         // HARDPOINT - Cannon
-        301     => 'Efficient',
-        302     => 'High capacity',
-        303     => 'Lightweight',
-        304     => 'Long range',
-        305     => 'Overcharged',
-        306     => 'Rapid fire',
-        307     => 'Short range',
-        308     => 'Sturdy',
+        301     => 'Efficient Weapon',
+        302     => 'High Capacity Magazine',
+        303     => 'Light Weight Mount',
+        304     => 'Long-Range Weapon',
+        305     => 'Overcharged Weapon',
+        306     => 'Rapid Fire Modification',
+        307     => 'Short-Range Blaster',
+        308     => 'Sturdy Mount',
         
         // HARDPOINT - Fragment Cannon
-        401     => 'Double shot',
-        402     => 'Efficient',
-        403     => 'High capacity',
-        404     => 'Lightweight',
-        405     => 'Overcharged',
-        406     => 'Rapid fire',
-        407     => 'Sturdy',
+        401     => 'Double Shot',
+        402     => 'Efficient Weapon',
+        403     => 'High Capacity Magazine',
+        404     => 'Light Weight Mount',
+        405     => 'Overcharged Weapon',
+        406     => 'Rapid Fire Modification',
+        407     => 'Sturdy Mount',
         
         // HARDPOINT - Mine Launcher
-        501     => 'High capacity',
-        502     => 'Lightweight',
-        503     => 'Rapid fire',
-        504     => 'Sturdy',
+        501     => 'High Capacity Magazine',
+        502     => 'Light Weight Mount',
+        503     => 'Rapid Fire Modification',
+        504     => 'Sturdy Mount',
         
         // HARDPOINT - Missile Rack
-        601     => 'High capacity',
-        602     => 'Lightweight',
-        603     => 'Rapid fire',
-        604     => 'Sturdy',
+        601     => 'High Capacity Magazine',
+        602     => 'Light Weight Mount',
+        603     => 'Rapid Fire Modification',
+        604     => 'Sturdy Mount',
         
         // HARDPOINT - Multi-cannon
-        701     => 'Efficient',
-        702     => 'High capacity',
-        703     => 'Lightweight',
-        704     => 'Long range',
-        705     => 'Overcharged',
-        706     => 'Rapid fire',
-        707     => 'Short range',
-        708     => 'Sturdy',
+        701     => 'Efficient Weapon',
+        702     => 'High Capacity Magazine',
+        703     => 'Light Weight Mount',
+        704     => 'Long-Range Weapon',
+        705     => 'Overcharged Weapon',
+        706     => 'Rapid Fire Modification',
+        707     => 'Short-Range Blaster',
+        708     => 'Sturdy Mount',
 
         // HARDPOINT - Plasma Accelerator
-        801     => 'Efficient',
-        802     => 'Focused',
-        803     => 'Lightweight',
-        804     => 'Long range',
-        805     => 'Overcharged',
-        806     => 'Rapid fire',
-        807     => 'Short range',
-        808     => 'Sturdy',
+        801     => 'Efficient Weapon',
+        802     => 'Focused Weapon',
+        803     => 'Light Weight Mount',
+        804     => 'Long-Range Weapon',
+        805     => 'Overcharged Weapon',
+        806     => 'Rapid Fire Modification',
+        807     => 'Short-Range Blaster',
+        808     => 'Sturdy Mount',
 
         // HARDPOINT - Pulse Laser
-        901     => 'Efficient',
-        902     => 'Focused',
-        903     => 'Lightweight',
-        904     => 'Long range',
-        905     => 'Overcharged',
-        906     => 'Rapid fire',
-        907     => 'Short range',
-        908     => 'Sturdy',
+        901     => 'Efficient Weapon',
+        902     => 'Focused Weapon',
+        903     => 'Light Weight Mount',
+        904     => 'Long-Range Weapon',
+        905     => 'Overcharged Weapon',
+        906     => 'Rapid Fire Modification',
+        907     => 'Short-Range Blaster',
+        908     => 'Sturdy Mount',
         
         // HARDPOINT - Rail Gun
-        1001    => 'High capacity',
-        1002    => 'Lightweight',
-        1003    => 'Long range',
-        1004    => 'Short range',
-        1005    => 'Sturdy',
+        1001    => 'High Capacity Magazine',
+        1002    => 'Light Weight Mount',
+        1003    => 'Long-Range Weapon',
+        1004    => 'Short-Range Blaster',
+        1005    => 'Sturdy Mount',
 
         // HARDPOINT - Seeker Missile Rack
-        1101    => 'High capacity',
-        1102    => 'Lightweight',
-        1103    => 'Rapid fire',
-        1104    => 'Sturdy',
+        1101    => 'High Capacity Magazine',
+        1102    => 'Light Weight Mount',
+        1103    => 'Rapid Fire Modification',
+        1104    => 'Sturdy Mount',
 
         // HARDPOINT - Torpedo Pylon
-        1201    => 'Lightweight',
-        1202    => 'Sturdy',
+        1201    => 'Light Weight Mount',
+        1202    => 'Sturdy Mount',
         
         // UTILITY MOUNT - Chaff Launcher
-        10101   => 'Ammo capacity',
-        10102   => 'Lightweight',
-        10103   => 'Reinforced',
-        10104   => 'Shielded',
+        10101   => 'Ammo Capacity',
+        10102   => 'Misc Lightweight',
+        10103   => 'Misc Reinforced',
+        10104   => 'Misc Shielded',
         
         // UTILITY MOUNT - Electronic Countermeasure
-        10201   => 'Lightweight',
-        10202   => 'Reinforced',
-        10203   => 'Shielded',
+        10201   => 'Misc Lightweight',
+        10202   => 'Misc Reinforced',
+        10203   => 'Misc Shielded',
         
         // UTILITY MOUNT - Frame Shift Wake Scanner
-        10301   => 'Fast scan',
-        10302   => 'Lightweight',
-        10303   => 'Long range',
-        10304   => 'Reinforced',
-        10305   => 'Shielded',
-        10306   => 'Wide angle',
+        10301   => 'Fast Scanner',
+        10302   => 'Misc Lightweight',
+        10303   => 'Long-Range Scanner',
+        10304   => 'Misc Reinforced',
+        10305   => 'Misc Shielded',
+        10306   => 'Wide Angle Scanner',
         
         // UTILITY MOUNT - Heat Sink Launcher
-        10401   => 'Ammo capacity',
-        10402   => 'Lightweight',
-        10403   => 'Reinforced',
-        10404   => 'Shielded',
+        10401   => 'Ammo Capacity',
+        10402   => 'Misc Lightweight',
+        10403   => 'Misc Reinforced',
+        10404   => 'Misc Shielded',
         
         // UTILITY MOUNT - Kill Warrant Scanner
-        10501   => 'Fast scan',
-        10502   => 'Lightweight',
-        10503   => 'Long range',
-        10504   => 'Reinforced',
-        10505   => 'Shielded',
-        10506   => 'Wide angle',
+        10501   => 'Fast Scanner',
+        10502   => 'Misc Lightweight',
+        10503   => 'Long-Range Scanner',
+        10504   => 'Misc Reinforced',
+        10505   => 'Misc Shielded',
+        10506   => 'Wide Angle Scanner',
         
         // UTILITY MOUNT - Manifest Scanner
-        10601   => 'Fast scan',
-        10602   => 'Lightweight',
-        10603   => 'Long range',
-        10604   => 'Reinforced',
-        10605   => 'Shielded',
-        10606   => 'Wide angle',
+        10601   => 'Fast Scanner',
+        10602   => 'Misc Lightweight',
+        10603   => 'Long-Range Scanner',
+        10604   => 'Misc Reinforced',
+        10605   => 'Misc Shielded',
+        10606   => 'Wide Angle Scanner',
         
         // UTILITY MOUNT - Point Defence
-        10701   => 'Ammo capacity',
-        10702   => 'Lightweight',
-        10703   => 'Reinforced',
-        10704   => 'Shielded',
+        10701   => 'Ammo Capacity',
+        10702   => 'Misc Lightweight',
+        10703   => 'Misc Reinforced',
+        10704   => 'Misc Shielded',
         
         // UTILITY MOUNT - Shield Booster
-        10801   => 'Blast resistant',
-        10802   => 'Heavy duty',
-        10803   => 'Kinetic resistant',
-        10804   => 'Resistance augmented',
-        10805   => 'Thermal resistant',
+        10801   => 'Blast Resistant',
+        10802   => 'Heavy Duty',
+        10803   => 'Kinetic Resistant',
+        10804   => 'Resistance Augmented',
+        10805   => 'Thermal Resistant',
         
         // OPTIONAL INTERNAL - Auto Field-Maintenance Unit
-        20101   => 'Shielded',
+        20101   => 'Misc Shielded',
         
         // OPTIONAL INTERNAL - Collector Limpet Controller
-        20201   => 'Lightweight',
-        20202   => 'Reinforced',
-        20203   => 'Shielded',
+        20201   => 'Misc Lightweight',
+        20202   => 'Misc Reinforced',
+        20203   => 'Misc Shielded',
         
         // OPTIONAL INTERNAL - Detailed Surface Scanner
-        20301   => 'Fast scan',
-        20302   => 'Long range',
-        20303   => 'Wide angle',
+        20301   => 'Fast Scanner',
+        20302   => 'Long-Range Scanner',
+        20303   => 'Wide Angle Scanner',
         
         // OPTIONAL INTERNAL - Frame Shift Drive Interdictor
-        20401   => 'Expanded capture arc',
-        20402   => 'Long range',
+        20401   => 'Expanded FSD Interdictor Capture Arc',
+        20402   => 'Longer Range FSD Interdictor',
 
         // OPTIONAL INTERNAL - Fuel Scoop
-        20501   => 'Shielded',
+        20501   => 'Misc Shielded',
                 
         // OPTIONAL INTERNAL - Fuel Transfer Limpet Controller
-        20601   => 'Lightweight',
-        20602   => 'Reinforced',
-        20603   => 'Shielded',
+        20601   => 'Misc Lightweight',
+        20602   => 'Misc Reinforced',
+        20603   => 'Misc Shielded',
         
         // OPTIONAL INTERNAL - Hatch Breaker Limpet Controller
-        20701   => 'Lightweight',
-        20702   => 'Reinforced',
-        20703   => 'Shielded',
+        20701   => 'Misc Lightweight',
+        20702   => 'Misc Reinforced',
+        20703   => 'Misc Shielded',
         
         // OPTIONAL INTERNAL - Hull Reinforcement Package
-        20801   => 'Blast resistant',
-        20802   => 'Heavy duty',
-        20803   => 'Kinetic resistant',
+        20801   => 'Blast Resistant',
+        20802   => 'Heavy Duty',
+        20803   => 'Kinetic Resistant',
         20804   => 'Lightweight',
-        20805   => 'Thermal resistant',
+        20805   => 'Thermal Resistant',
         
         // OPTIONAL INTERNAL - Prospector Limpet Controller
-        20901   => 'Lightweight',
-        20902   => 'Reinforced',
-        20903   => 'Shielded',
+        20901   => 'Misc Lightweight',
+        20902   => 'Misc Reinforced',
+        20903   => 'Misc Shielded',
         
         // OPTIONAL INTERNAL - Refinery
-        21001   => 'Shielded',
+        21001   => 'Misc Shielded',
         
         // OPTIONAL INTERNAL - Shield Cell Bank
-        21101   => 'Rapid charge',
+        21101   => 'Rapid Charge',
         21102   => 'Specialised',
         
         // OPTIONAL INTERNAL - Shield Generator
-        21201   => 'Enhanced low power',
-        21202   => 'Kinetic resistant',
+        21201   => 'Enhanced, Low Power',
+        21202   => 'Kinetic Resistant',
         21203   => 'Reinforced',
-        21204   => 'Thermal resistant',
+        21204   => 'Thermal Resistant',
         
         // CORE INTERNAL - Frame Shift Drive
-        30101   => 'Faster boot sequence',
-        30102   => 'Increased range',
-        30103   => 'Shielded',
+        30101   => 'Faster FSD Boot Sequence',
+        30102   => 'Increased FSD Range',
+        30103   => 'Shielded FSD',
         
         // CORE INTERNAL - Life Support
-        30201   => 'Lightweight',
-        30202   => 'Reinforced',
-        30203   => 'Shielded',
+        30201   => 'Misc Lightweight',
+        30202   => 'Misc Reinforced',
+        30203   => 'Misc Shielded',
         
         // CORE INTERNAL - Power Distributor
-        30301   => 'Charge enhanced',
-        30302   => 'Engine focused',
-        30303   => 'High charge capacity',
+        30301   => 'Charge Enhanced',
+        30302   => 'Engine Focused',
+        30303   => 'High Charge Capacity',
         30304   => 'Shielded',
-        30305   => 'System focused',
-        30306   => 'Weapon focused',
+        30305   => 'System Focused',
+        30306   => 'Weapon Focused',
         
         // CORE INTERNAL - Power Plant
         30401   => 'Armoured',
-        30402   => 'Low emissions',
+        30402   => 'Low Emissions',
         30403   => 'Overcharged',
         
         // CORE INTERNAL - Sensors
-        30501   => 'Lightweight',
-        30502   => 'Long range',
-        30503   => 'Wide angle',
+        30501   => 'Light Weight Scanner',
+        30502   => 'Long-Range Scanner',
+        30503   => 'Wide Angle Scanner',
         
         // CORE INTERNAL - Thrusters
-        30601   => 'Clean',
-        30602   => 'Dirty',
-        30603   => 'Reinforced',
+        30601   => 'Clean Drive Tuning',
+        30602   => 'Dirty Drive Tuning',
+        30603   => 'Drive Strengthening',
         
         // ARMOUR
-        40101   => 'Blast resistant',
-        40102   => 'Heavy duty',
-        40103   => 'Kinetic resistant',
+        40101   => 'Blast Resistant',
+        40102   => 'Heavy Duty',
+        40103   => 'Kinetic Resistant',
         40104   => 'Lightweight',
-        40105   => 'Thermal resistant',
+        40105   => 'Thermal Resistant',
     ];
 }

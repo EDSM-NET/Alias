@@ -23,32 +23,86 @@ class Modifier extends Alias
                 ['Hull Boost', '-5%', 'text-danger'],
                 ['Kinetic Resistance', '+2%', 'text-info'],
             ],
-          3     => null,             // Auto Loader
-          4     => null,             // Blast Block
-          5     => null,             // Boss Cells
-          6     => null,             // Cluster Capacitors
+          3     => [    // Auto Loader
+                ['Auto reload while firing', null, 'text-info'],
+            ],
+          4     => [    // Blast Block
+                ['Optimal strength', '-1%', 'text-danger'],
+                ['Explosive resistance', '+2%', 'text-info'],
+            ],
+          5     => [    // Boss Cells
+                ['Spin up time', '+20%', 'text-danger'],
+                ['Shield reinforcement', '+5%', 'text-info'],
+            ],
+          6     => [    // Cluster Capacitors
+                ['Weapons capacity', '+8%', 'text-info'],
+                ['Weapons recharge', '-2%', 'text-danger'],
+                ['Engines capacity', '+8%', 'text-info'],
+                ['Engines recharge', '-2%', 'text-danger'],
+                ['Systems capacity', '+8%', 'text-info'],
+                ['Systems recharge', '-2%', 'text-danger'],
+            ],
           7     => [    // Concordant Sequence
                 ['Wing shield regeneration increased', null, 'text-info'],
                 ['Thermal load', '+50%', 'text-danger'],
             ],
-          8     => null,             // Corrosive Shell
-          9     => null,             // Dazzle Shell
-         10     => null,             // Deep Charge
-         11     => null,             // Deep Plating
-         12     => null,             // Deep Plating
-         13     => null,             // Dispersal Field
-         14     => null,             // Double Braced
-         15     => null,             // Double Braced
-         16     => null,             // Double Braced
-         17     => null,             // Double Braced
-         18     => null,             // Double Braced
-         19     => null,             // Double Braced
+          8     => [    // Corrosive Shell
+                ['Target armor hardness reduced', null, 'text-info'],
+                ['Ammo capacity', '-20%', 'text-danger'],
+            ],
+          9     => [    // Dazzle Shell
+                ['Target sensor acuity reduced', null, 'text-info'],
+            ],
+         10     => [    // Deep Charge
+                ['Power draw', '+5%', 'text-danger'],
+                ['Maximum fuel per jump', '+10%', 'text-info'],
+            ],
+         11     => [    // Deep Plating
+                ['Hull boost', '+8%', 'text-info'],
+                ['Kinetic resistance', '-3%', 'text-danger'],
+                ['Thermal resistance', '-3%', 'text-danger'],
+                ['Explosive resistance', '-3%', 'text-danger'],
+            ],
+         12     => [    // Deep Plating
+                ['Hull reinforcement', '+10%', 'text-info'],
+                ['Kinetic resistance', '-2%', 'text-danger'],
+                ['Thermal resistance', '-2%', 'text-danger'],
+                ['Explosive resistance', '-2%', 'text-danger'],
+            ],
+         13     => [    // Dispersal Field
+                ['Target gimbal/turret tracking reduced', null, 'text-info'],
+            ],
+         14     => [    // Double Braced
+                ['Integrity', '+15%', 'text-info'],
+            ],
+         15     => [    // Double Braced
+                ['Integrity', '+15%', 'text-info'],
+            ],
+         16     => [    // Double Braced
+                ['Integrity', '+25%', 'text-info'],
+            ],
+         17     => [    // Double Braced
+                ['Integrity', '+15%', 'text-info'],
+            ],
+         18     => [    // Double Braced
+                ['Integrity', '+15%', 'text-info'],
+            ],
+         19     => [    // Double Braced
+                ['Integrity', '+15%', 'text-info'],
+            ],
          20     => [    // Double Braced
                 ['Integrity', '+15%', 'text-info'],
             ],
-         21     => null,             // Double Braced
-         22     => null,             // Drag Drives
-         23     => null,             // Drag Munitions
+         21     => [    // Double Braced
+                ['Integrity', '+15%', 'text-info'],
+            ],
+         22     => [    // Drag Drives
+                ['Optimal multiplier', '+4%', 'text-info'],
+                ['Thermal load', '+10%', 'text-danger'],
+            ],
+         23     => [    // Drag Munitions
+                ['Target speed reduced', null, 'text-info'],
+            ],
          24     => null,             // Drive Distributors
          25     => null,             // Emissive Munitions
          26     => null,             // Fast Charge
@@ -67,7 +121,11 @@ class Modifier extends Alias
          37     => null,             // Hi-Cap
          38     => null,             // High Yield Shell
          39     => null,             // Incendiary Rounds
-         40     => null,             // Inertial Impact
+         40     => [    // Inertial Impact
+                ['Damage partially kinetic', null, 'text-info'],
+                ['Damage', '+50%', 'text-info'],
+                ['Jitter', '+0.03', 'text-danger'],
+            ],
          41     => null,             // Ion Disruption
          42     => null,             // Layered Plating
          43     => null,             // Layered Plating
@@ -75,7 +133,10 @@ class Modifier extends Alias
          45     => null,             // Mass Lock Munition
          46     => null,             // Mass Manager
          47     => null,             // Monstered
-         48     => null,             // Multi-servos
+         48     => [    // Multi-servos
+                ['Power draw', '+5%', 'text-danger'],
+                ['Rate fo fire', '+3%', 'text-info'],
+            ],
          49     => null,             // Multi-weave
          50     => null,             // Overload Munitions
          51     => [    // Oversized
@@ -84,7 +145,10 @@ class Modifier extends Alias
             ],
          52     => null,             // Penetrator Munitions
          53     => null,             // Penetrator Payload
-         54     => null,             // Phasing Sequence
+         54     => [    // Phasing Sequence
+                ['Part of damage through shields', null, 'text-info'],
+                ['Damage', '-10%', 'text-danger'],
+            ],
          55     => null,             // Plasma Slug
          56     => null,             // Plasma Slug
          57     => null,             // Radiant Canister
@@ -96,7 +160,10 @@ class Modifier extends Alias
                 ['Damage', '-10%', 'text-danger'],
             ],
          62     => null,             // Reverberating Cascade
-         63     => null,             // Scramble Spectrum
+         63     => [    // Scramble Spectrum
+                ['Target modules malfunctions', null, 'text-info'],
+                ['Rate of fire', '-10%', 'text-danger'],
+            ],
          64     => null,             // Screening Shell
          65     => null,             // Shift-lock Canister
          66     => null,             // Smart Rounds

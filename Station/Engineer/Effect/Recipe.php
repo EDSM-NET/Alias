@@ -67,23 +67,72 @@ class Recipe extends Alias
                 25  => 3,               // Galvanising Alloys               * 3
               'd15' => 1,               // Eccentric Hyperspace Trajectories * 1
             ],
-         11     => null,             // Deep Plating
-         12     => null,             // Deep Plating
-         13     => null,             // Dispersal Field
-         14     => null,             // Double Braced
-         15     => null,             // Double Braced
-         16     => null,             // Double Braced
-         17     => null,             // Double Braced
-         18     => null,             // Double Braced
-         19     => null,             // Double Braced
+         11     => [    // Deep Plating
+                12  => 5,               // Compact Composites               * 5
+                40  => 3,               // Mechanical Equipment             * 3
+                45  => 2,               // Molybdenum                       * 2
+            ],
+         12     => [    // Deep Plating
+                12  => 5,               // Compact Composites               * 5
+                45  => 3,               // Molybdenum                       * 3
+                59  => 2,               // Ruthenium                        * 2
+            ],
+         13     => [    // Dispersal Field
+                15  => 5,               // Conductive Components            * 5
+                34  => 5,               // Hybrid Capacitors                * 5
+              'd18' => 5,               // Irregular Emission Data          * 5
+                73  => 5,               // Worn Shield Emitters             * 5
+            ],
+         14     => [    // Double Braced
+                73  => 5,               // Worn Shield Emitters             * 5
+                23  => 3,               // Flawed Focus Crystals            * 3
+                17  => 1,               // Configurable Components          * 1
+            ],
+         15     => [    // Double Braced
+                37  => 5,               // Iron                             * 5
+                34  => 3,               // Hybrid Capacitors                * 3
+                54  => 1,               // Proprietary Composites           * 1
+            ],
+         16     => [    // Double Braced
+               'd6' => 5,               // Atypical Disrupted Wake Echoes   * 5
+                26  => 3,               // Galvanising Alloys               * 3
+                17  => 1,               // Configurable Components          * 1
+            ],
+         17     => [    // Double Braced
+                27  => 5,               // Grid Resistors                   * 5
+                72  => 3,               // Vanadium                         * 3
+                54  => 1,               // Proprietary Composites           * 1
+            ],
+         18     => [    // Double Braced
+                50  => 5,               // Phosphorus                       * 5
+                31  => 3,               // Heat Resistant Ceramics          * 3
+                54  => 1,               // Proprietary Composites           * 1
+            ],
+         19     => [    // Double Braced
+                10  => 5,               // Chemical Storage Units           * 5
+                11  => 3,               // Chromium                         * 3
+                74  => 1,               // Yttrium                          * 1
+            ],
          20     => [    // Double Braced
                 41  => 5,               // Mechanical Scrap                 * 5
                 12  => 5,               // Compact Composites               * 5
                 72  => 3,               // Vanadium                         * 3
             ],
-         21     => null,             // Double Braced
-         22     => null,             // Drag Drives
-         23     => null,             // Drag Munitions
+         21     => [    // Double Braced
+              'd13' => 5,               // Distorted Shield Cycle Recordings * 5
+                26  => 3,               // Galvanising Alloys               * 3
+                62  => 3,               // Shield Emitters                  * 3
+            ],
+         22     => [    // Drag Drives
+                37  => 5,               // Iron                             * 5
+                34  => 3,               // Hybrid Capacitors                * 3
+              'd28' => 1,               // Security Firmware Patch          * 1
+            ],
+         23     => [    // Drag Munitions
+                 6  => 5,               // Carbon                           * 5
+                27  => 5,               // Grid Resistors                   * 5
+                45  => 2,               // Molybdenum                       * 2
+            ],
          24     => null,             // Drive Distributors
          25     => null,             // Emissive Munitions
          26     => null,             // Fast Charge
