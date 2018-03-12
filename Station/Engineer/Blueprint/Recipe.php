@@ -3692,7 +3692,7 @@ class Recipe extends Alias
                 52  => 1,       // Polymer Capacitors                       * 1
                 66  => 1,       // Tellurium                                * 1
             ],
-        ]
+        ],
         
         // CORE INTERNAL - Power Plant
         30401   => [    // Armoured Power Plant
