@@ -42,6 +42,9 @@ class Material extends Alias
         23      => 'Yttrium',
         24      => 'Zinc',
         25      => 'Zirconium',
+        26      => 'Rhenium',
+        26      => 'Lead',
+        26      => 'Boron',
     ];
     
     /**
@@ -77,6 +80,9 @@ class Material extends Alias
         'yttrium'           => 23,
         'zinc'              => 24,
         'zirconium'         => 25,
+        'rhenium'           => 26,
+        'lead'              => 27,
+        'boron'             => 28,
     ];
     
     /**
@@ -108,6 +114,9 @@ class Material extends Alias
         23      => 'Y',
         24      => 'Zn',
         25      => 'Zr',
+        26      => 'Re',
+        27      => 'Pb',
+        28      => 'B',
     );
     
     /**
@@ -139,5 +148,8 @@ class Material extends Alias
         23      => 'Very Rare',
         24      => 'Common',
         25      => 'Common',
+        26      => 'Very Common',
+        27      => 'Very Common',
+        28      => 'Common',
     );
 }
