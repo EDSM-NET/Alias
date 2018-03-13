@@ -169,33 +169,33 @@ class Modifier extends Alias
          66     => null,             // Smart Rounds
          67     => null,             // Stripped Down
          68     => null,             // Stripped Down
-         68     => null,             // Stripped Down
          69     => null,             // Stripped Down
          70     => null,             // Stripped Down
          71     => null,             // Stripped Down
-         72     => [    // Stripped Down
+         72     => null,             // Stripped Down
+         73     => [    // Stripped Down
                 ['Mass', '-10%', 'text-info'],
             ],
-         73     => null,             // Super Capacitors
-         74     => null,             // Super Conduits
-         75     => null,             // Super Penetrator
+         74     => null,             // Super Capacitors
+         75     => null,             // Super Conduits
          76     => null,             // Super Penetrator
-         77     => null,             // Target Lock Breaker
-         78     => null,             // Thermal Cascade
-         79     => [    // Thermal Conduit
+         77     => null,             // Super Penetrator
+         78     => null,             // Target Lock Breaker
+         79     => null,             // Thermal Cascade
+         80     => [    // Thermal Conduit
                 ['Damage increases with heat level', null, 'text-info'],
             ],
-         80     => [    // Thermal Shock
+         81     => [    // Thermal Shock
                 ['Target heat increased', null, 'text-info'],
                 ['Damage', '-10%', 'text-danger'],
             ],
-         81     => null,             // Thermal Spread
          82     => null,             // Thermal Spread
          83     => null,             // Thermal Spread
-         84     => [    // Thermal Vent
+         84     => null,             // Thermal Spread
+         85     => [    // Thermal Vent
                 ['Heat reduced when striking a target', null, 'text-info'],
             ],
-         85     => null,             // Thermo Block
          86     => null,             // Thermo Block
+         87     => null,             // Thermo Block
     ];
 }

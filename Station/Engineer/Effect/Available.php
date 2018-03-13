@@ -22,10 +22,10 @@ class Available extends Alias
             31,             // Flow Control
             51,             // Oversized
             61,             // Regeneration Sequence
-            72,             // Stripped Down
-            79,             // Thermal Conduit
-            80,             // Thermal Shock
-            84,             // Thermal Vent
+            73,             // Stripped Down
+            80,             // Thermal Conduit
+            81,             // Thermal Shock
+            85,             // Thermal Vent
         ],
         102     => [    // Lightweight
             7,              // Concordant Sequence
@@ -33,10 +33,10 @@ class Available extends Alias
             31,             // Flow Control
             51,             // Oversized
             61,             // Regeneration Sequence
-            72,             // Stripped Down
-            79,             // Thermal Conduit
-            80,             // Thermal Shock
-            84,             // Thermal Vent
+            73,             // Stripped Down
+            80,             // Thermal Conduit
+            81,             // Thermal Shock
+            85,             // Thermal Vent
         ],
         103     => [    // Long range
             7,              // Concordant Sequence
@@ -44,10 +44,10 @@ class Available extends Alias
             31,             // Flow Control
             51,             // Oversized
             61,             // Regeneration Sequence
-            72,             // Stripped Down
-            79,             // Thermal Conduit
-            80,             // Thermal Shock
-            84,             // Thermal Vent
+            73,             // Stripped Down
+            80,             // Thermal Conduit
+            81,             // Thermal Shock
+            85,             // Thermal Vent
         ],
         104     => [    // Overcharged
             7,              // Concordant Sequence
@@ -55,10 +55,10 @@ class Available extends Alias
             31,             // Flow Control
             51,             // Oversized
             61,             // Regeneration Sequence
-            72,             // Stripped Down
-            79,             // Thermal Conduit
-            80,             // Thermal Shock
-            84,             // Thermal Vent
+            73,             // Stripped Down
+            80,             // Thermal Conduit
+            81,             // Thermal Shock
+            85,             // Thermal Vent
         ],
         105     => [    // Short range
             7,              // Concordant Sequence
@@ -66,10 +66,10 @@ class Available extends Alias
             31,             // Flow Control
             51,             // Oversized
             61,             // Regeneration Sequence
-            72,             // Stripped Down
-            79,             // Thermal Conduit
-            80,             // Thermal Shock
-            84,             // Thermal Vent
+            73,             // Stripped Down
+            80,             // Thermal Conduit
+            81,             // Thermal Shock
+            85,             // Thermal Vent
         ],
         106     => [    // Sturdy
             7,              // Concordant Sequence
@@ -77,10 +77,10 @@ class Available extends Alias
             31,             // Flow Control
             51,             // Oversized
             61,             // Regeneration Sequence
-            72,             // Stripped Down
-            79,             // Thermal Conduit
-            80,             // Thermal Shock
-            84,             // Thermal Vent
+            73,             // Stripped Down
+            80,             // Thermal Conduit
+            81,             // Thermal Shock
+            85,             // Thermal Vent
         ],
         
         // HARDPOINT - Burst Laser
@@ -93,8 +93,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         202     => [    // Focused
             7,              // Concordant Sequence
@@ -105,8 +105,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         203     => [    // Lightweight
             7,              // Concordant Sequence
@@ -117,8 +117,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         204     => [    // Long range
             7,              // Concordant Sequence
@@ -129,8 +129,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         205     => [    // Overcharged
             7,              // Concordant Sequence
@@ -141,8 +141,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         206     => [    // Rapid fire
             7,              // Concordant Sequence
@@ -153,8 +153,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         207     => [    // Short range
             7,              // Concordant Sequence
@@ -165,8 +165,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         208     => [    // Sturdy
             7,              // Concordant Sequence
@@ -177,8 +177,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         
         // HARDPOINT - Cannon
@@ -192,8 +192,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            78,             // Thermal Cascade
+            73,             // Stripped Down
+            79,             // Thermal Cascade
         ],
         302     => [    // High capacity
             3,              // Auto Loader
@@ -205,8 +205,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            78,             // Thermal Cascade
+            73,             // Stripped Down
+            79,             // Thermal Cascade
         ],
         303     => [    // Lightweight
             3,              // Auto Loader
@@ -218,8 +218,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            78,             // Thermal Cascade
+            73,             // Stripped Down
+            79,             // Thermal Cascade
         ],
         304     => [    // Long range
             3,              // Auto Loader
@@ -231,8 +231,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            78,             // Thermal Cascade
+            73,             // Stripped Down
+            79,             // Thermal Cascade
         ],
         305     => [    // Overcharged
             3,              // Auto Loader
@@ -244,8 +244,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            78,             // Thermal Cascade
+            73,             // Stripped Down
+            79,             // Thermal Cascade
         ],
         306     => [    // Rapid fire
             3,              // Auto Loader
@@ -257,8 +257,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            78,             // Thermal Cascade
+            73,             // Stripped Down
+            79,             // Thermal Cascade
         ],
         307     => [    // Short range
             3,              // Auto Loader
@@ -270,8 +270,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            78,             // Thermal Cascade
+            73,             // Stripped Down
+            79,             // Thermal Cascade
         ],
         308     => [    // Sturdy
             3,              // Auto Loader
@@ -283,8 +283,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            78,             // Thermal Cascade
+            73,             // Stripped Down
+            79,             // Thermal Cascade
         ],
         
         // HARDPOINT - Fragment Cannon
@@ -298,7 +298,7 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             64,             // Screening Shell
-            72,             // Stripped Down
+            73,             // Stripped Down
         ],
         402     => [    // Efficient
             8,              // Corrosive Shell
@@ -310,7 +310,7 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             64,             // Screening Shell
-            72,             // Stripped Down
+            73,             // Stripped Down
         ],
         403     => [    // High capacity
             8,              // Corrosive Shell
@@ -322,7 +322,7 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             64,             // Screening Shell
-            72,             // Stripped Down
+            73,             // Stripped Down
         ],
         404     => [    // Lightweight
             8,              // Corrosive Shell
@@ -334,7 +334,7 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             64,             // Screening Shell
-            72,             // Stripped Down
+            73,             // Stripped Down
         ],
         405     => [    // Overcharged
             8,              // Corrosive Shell
@@ -346,7 +346,7 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             64,             // Screening Shell
-            72,             // Stripped Down
+            73,             // Stripped Down
         ],
         406     => [    // Rapid fire
             8,              // Corrosive Shell
@@ -358,7 +358,7 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             64,             // Screening Shell
-            72,             // Stripped Down
+            73,             // Stripped Down
         ],
         407     => [    // Sturdy
             8,              // Corrosive Shell
@@ -370,7 +370,7 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             64,             // Screening Shell
-            72,             // Stripped Down
+            73,             // Stripped Down
         ],
         
         // HARDPOINT - Mine Launcher
@@ -384,7 +384,7 @@ class Available extends Alias
             57,             // Radiant Canister
             62,             // Reverberating Cascade
             65,             // Shift-lock Canister
-            72,             // Stripped Down
+            73,             // Stripped Down
         ],
         502     => [    // Lightweight
             20,             // Double Braced
@@ -396,7 +396,7 @@ class Available extends Alias
             57,             // Radiant Canister
             62,             // Reverberating Cascade
             65,             // Shift-lock Canister
-            72,             // Stripped Down
+            73,             // Stripped Down
         ],
         503     => [    // Rapid fire
             20,             // Double Braced
@@ -408,7 +408,7 @@ class Available extends Alias
             57,             // Radiant Canister
             62,             // Reverberating Cascade
             65,             // Shift-lock Canister
-            72,             // Stripped Down
+            73,             // Stripped Down
         ],
         504     => [    // Sturdy
             20,             // Double Braced
@@ -420,7 +420,7 @@ class Available extends Alias
             57,             // Radiant Canister
             62,             // Reverberating Cascade
             65,             // Shift-lock Canister
-            72,             // Stripped Down
+            73,             // Stripped Down
         ],
         
         // HARDPOINT - Missile Rack
@@ -429,28 +429,28 @@ class Available extends Alias
             36,             // FSD Interrupt
             50,             // Overload Munitions
             52,             // Penetrator Munitions
-            78,             // Thermal Cascade
+            79,             // Thermal Cascade
         ],
         602     => [    // Lightweight
             25,             // Emissive Munitions
             36,             // FSD Interrupt
             50,             // Overload Munitions
             52,             // Penetrator Munitions
-            78,             // Thermal Cascade
+            79,             // Thermal Cascade
         ],
         603     => [    // Rapid fire
             25,             // Emissive Munitions
             36,             // FSD Interrupt
             50,             // Overload Munitions
             52,             // Penetrator Munitions
-            78,             // Thermal Cascade
+            79,             // Thermal Cascade
         ],
         604     => [    // Sturdy
             25,             // Emissive Munitions
             36,             // FSD Interrupt
             50,             // Overload Munitions
             52,             // Penetrator Munitions
-            78,             // Thermal Cascade
+            79,             // Thermal Cascade
         ],
         
         // HARDPOINT - Multi-cannon
@@ -464,8 +464,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         702     => [    // High capacity
             3,              // Auto Loader
@@ -477,8 +477,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         703     => [    // Lightweight
             3,              // Auto Loader
@@ -490,8 +490,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         704     => [    // Long range
             3,              // Auto Loader
@@ -503,8 +503,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         705     => [    // Overcharged
             3,              // Auto Loader
@@ -516,8 +516,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         706     => [    // Rapid fire
             3,              // Auto Loader
@@ -529,8 +529,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         707     => [    // Short range
             3,              // Auto Loader
@@ -542,8 +542,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         708     => [    // Sturdy
             3,              // Auto Loader
@@ -555,8 +555,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             66,             // Smart Rounds
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
 
         // HARDPOINT - Plasma Accelerator
@@ -569,9 +569,9 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             55,             // Plasma Slug
-            72,             // Stripped Down
-            77,             // Target Lock Breaker
-            79,             // Thermal Conduit
+            73,             // Stripped Down
+            78,             // Target Lock Breaker
+            80,             // Thermal Conduit
         ],
         802     => [    // Focused
             9,              // Dazzle Shell
@@ -582,9 +582,9 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             55,             // Plasma Slug
-            72,             // Stripped Down
-            77,             // Target Lock Breaker
-            79,             // Thermal Conduit
+            73,             // Stripped Down
+            78,             // Target Lock Breaker
+            80,             // Thermal Conduit
         ],
         803     => [    // Lightweight
             9,              // Dazzle Shell
@@ -595,9 +595,9 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             55,             // Plasma Slug
-            72,             // Stripped Down
-            77,             // Target Lock Breaker
-            79,             // Thermal Conduit
+            73,             // Stripped Down
+            78,             // Target Lock Breaker
+            80,             // Thermal Conduit
         ],
         804     => [    // Long range
             9,              // Dazzle Shell
@@ -608,9 +608,9 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             55,             // Plasma Slug
-            72,             // Stripped Down
-            77,             // Target Lock Breaker
-            79,             // Thermal Conduit
+            73,             // Stripped Down
+            78,             // Target Lock Breaker
+            80,             // Thermal Conduit
         ],
         805     => [    // Overcharged
             9,              // Dazzle Shell
@@ -621,9 +621,9 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             55,             // Plasma Slug
-            72,             // Stripped Down
-            77,             // Target Lock Breaker
-            79,             // Thermal Conduit
+            73,             // Stripped Down
+            78,             // Target Lock Breaker
+            80,             // Thermal Conduit
         ],
         806     => [    // Rapid fire
             9,              // Dazzle Shell
@@ -634,9 +634,9 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             55,             // Plasma Slug
-            72,             // Stripped Down
-            77,             // Target Lock Breaker
-            79,             // Thermal Conduit
+            73,             // Stripped Down
+            78,             // Target Lock Breaker
+            80,             // Thermal Conduit
         ],
         807     => [    // Short range
             9,              // Dazzle Shell
@@ -647,9 +647,9 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             55,             // Plasma Slug
-            72,             // Stripped Down
-            77,             // Target Lock Breaker
-            79,             // Thermal Conduit
+            73,             // Stripped Down
+            78,             // Target Lock Breaker
+            80,             // Thermal Conduit
         ],
         808     => [    // Sturdy
             9,              // Dazzle Shell
@@ -660,9 +660,9 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             55,             // Plasma Slug
-            72,             // Stripped Down
-            77,             // Target Lock Breaker
-            79,             // Thermal Conduit
+            73,             // Stripped Down
+            78,             // Target Lock Breaker
+            80,             // Thermal Conduit
         ],
 
         // HARDPOINT - Pulse Laser
@@ -675,8 +675,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         902     => [    // Focused
             7,              // Concordant Sequence
@@ -687,8 +687,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         903     => [    // Lightweight
             7,              // Concordant Sequence
@@ -699,8 +699,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         904     => [    // Long range
             7,              // Concordant Sequence
@@ -711,8 +711,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         905     => [    // Overcharged
             7,              // Concordant Sequence
@@ -723,8 +723,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         906     => [    // Rapid fire
             7,              // Concordant Sequence
@@ -735,8 +735,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         907     => [    // Short range
             7,              // Concordant Sequence
@@ -747,8 +747,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         908     => [    // Sturdy
             7,              // Concordant Sequence
@@ -759,8 +759,8 @@ class Available extends Alias
             51,             // Oversized
             54,             // Phasing Sequence
             63,             // Scramble Spectrum
-            72,             // Stripped Down
-            80,             // Thermal Shock
+            73,             // Stripped Down
+            81,             // Thermal Shock
         ],
         
         // HARDPOINT - Rail Gun
@@ -771,8 +771,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             56,             // Plasma Slug
-            72,             // Stripped Down
-            75,             // Super Penetrator
+            73,             // Stripped Down
+            76,             // Super Penetrator
         ],
         1002    => [    // Lightweight
             20,             // Double Braced
@@ -781,8 +781,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             56,             // Plasma Slug
-            72,             // Stripped Down
-            75,             // Super Penetrator
+            73,             // Stripped Down
+            76,             // Super Penetrator
         ],
         1003    => [    // Long range
             20,             // Double Braced
@@ -791,8 +791,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             56,             // Plasma Slug
-            72,             // Stripped Down
-            75,             // Super Penetrator
+            73,             // Stripped Down
+            76,             // Super Penetrator
         ],
         1004    => [    // Short range
             20,             // Double Braced
@@ -801,8 +801,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             56,             // Plasma Slug
-            72,             // Stripped Down
-            75,             // Super Penetrator
+            73,             // Stripped Down
+            76,             // Super Penetrator
         ],
         1005    => [    // Sturdy
             20,             // Double Braced
@@ -811,8 +811,8 @@ class Available extends Alias
             48,             // Multi-servos
             51,             // Oversized
             56,             // Plasma Slug
-            72,             // Stripped Down
-            75,             // Super Penetrator
+            73,             // Stripped Down
+            76,             // Super Penetrator
         ],
 
         // HARDPOINT - Seeker Missile Rack
@@ -820,25 +820,25 @@ class Available extends Alias
             23,             // Drag Munitions
             25,             // Emissive Munitions
             50,             // Overload Munitions
-            78,             // Thermal Cascade
+            79,             // Thermal Cascade
         ],
         1102    => [    // Lightweight
             23,             // Drag Munitions
             25,             // Emissive Munitions
             50,             // Overload Munitions
-            78,             // Thermal Cascade
+            79,             // Thermal Cascade
         ],
         1103    => [    // Rapid fire
             23,             // Drag Munitions
             25,             // Emissive Munitions
             50,             // Overload Munitions
-            78,             // Thermal Cascade
+            79,             // Thermal Cascade
         ],
         1104    => [    // Sturdy
             23,             // Drag Munitions
             25,             // Emissive Munitions
             50,             // Overload Munitions
-            78,             // Thermal Cascade
+            79,             // Thermal Cascade
         ],
 
         // HARDPOINT - Torpedo Pylon
@@ -849,7 +849,7 @@ class Available extends Alias
             51,             // Oversized
             53,             // Penetrator Payload
             62,             // Reverberating Cascade
-            72,             // Stripped Down
+            73,             // Stripped Down
         ],
         1202    => [    // Sturdy
             20,             // Double Braced
@@ -858,7 +858,7 @@ class Available extends Alias
             51,             // Oversized
             53,             // Penetrator Payload
             62,             // Reverberating Cascade
-            72,             // Stripped Down
+            73,             // Stripped Down
         ],
         
         // UTILITY MOUNT - Chaff Launcher
@@ -914,40 +914,40 @@ class Available extends Alias
             21,             // Double Braced
             32,             // Flow Control
             34,             // Force Block
-            73,             // Super Capacitors
-            86,             // Thermo Block
+            74,             // Super Capacitors
+            87,             // Thermo Block
         ],
         10802   => [    // Heavy duty
             4,              // Blast Block
             21,             // Double Braced
             32,             // Flow Control
             34,             // Force Block
-            73,             // Super Capacitors
-            86,             // Thermo Block
+            74,             // Super Capacitors
+            87,             // Thermo Block
         ],
         10803   => [    // Kinetic resistant
             4,              // Blast Block
             21,             // Double Braced
             32,             // Flow Control
             34,             // Force Block
-            73,             // Super Capacitors
-            86,             // Thermo Block
+            74,             // Super Capacitors
+            87,             // Thermo Block
         ],
         10804   => [    // Resistance augmented
             4,              // Blast Block
             21,             // Double Braced
             32,             // Flow Control
             34,             // Force Block
-            73,             // Super Capacitors
-            86,             // Thermo Block
+            74,             // Super Capacitors
+            87,             // Thermo Block
         ],
         10805   => [    // Thermal resistant
             4,              // Blast Block
             21,             // Double Braced
             32,             // Flow Control
             34,             // Force Block
-            73,             // Super Capacitors
-            86,             // Thermo Block
+            74,             // Super Capacitors
+            87,             // Thermo Block
         ],
         
         // OPTIONAL INTERNAL - Auto Field-Maintenance Unit
@@ -1026,14 +1026,14 @@ class Available extends Alias
             19,             // Double Braced
             30,             // Flow Control
             58,             // Recycling Cell
-            71,             // Stripped Down
+            72,             // Stripped Down
         ],
         21102   => [    // Specialised
             5,              // Boss Cells
             19,             // Double Braced
             30,             // Flow Control
             58,             // Recycling Cell
-            71,             // Stripped Down
+            72,             // Stripped Down
         ],
         
         // OPTIONAL INTERNAL - Shield Generator
@@ -1045,7 +1045,7 @@ class Available extends Alias
             44,             // Lo-draw
             49,             // Multi-weave
             67,             // Stripped Down
-            85,             // Thermo Block
+            86,             // Thermo Block
         ],
         21202   => [    // Kinetic resistant
             14,             // Double Braced
@@ -1055,7 +1055,7 @@ class Available extends Alias
             44,             // Lo-draw
             49,             // Multi-weave
             67,             // Stripped Down
-            85,             // Thermo Block
+            86,             // Thermo Block
         ],
         21203   => [    // Reinforced
             14,             // Double Braced
@@ -1065,7 +1065,7 @@ class Available extends Alias
             44,             // Lo-draw
             49,             // Multi-weave
             67,             // Stripped Down
-            85,             // Thermo Block
+            86,             // Thermo Block
         ],
         21204   => [    // Thermal resistant
             14,             // Double Braced
@@ -1075,7 +1075,7 @@ class Available extends Alias
             44,             // Lo-draw
             49,             // Multi-weave
             67,             // Stripped Down
-            85,             // Thermo Block
+            86,             // Thermo Block
         ],
         
         // CORE INTERNAL - Frame Shift Drive
@@ -1083,22 +1083,22 @@ class Available extends Alias
             10,             // Deep Charge
             16,             // Double Braced
             46,             // Mass Manager
-            68,             // Stripped Down
-            82,             // Thermal Spread
+            69,             // Stripped Down
+            83,             // Thermal Spread
         ],
         30102   => [    // Increased range
             10,             // Deep Charge
             16,             // Double Braced
             46,             // Mass Manager
-            68,             // Stripped Down
-            82,             // Thermal Spread
+            69,             // Stripped Down
+            83,             // Thermal Spread
         ],
         30103   => [    // Shielded
             10,             // Deep Charge
             16,             // Double Braced
             46,             // Mass Manager
-            68,             // Stripped Down
-            82,             // Thermal Spread
+            69,             // Stripped Down
+            83,             // Thermal Spread
         ],
         
         // CORE INTERNAL - Life Support
@@ -1111,63 +1111,63 @@ class Available extends Alias
             6,              // Cluster Capacitors
             18,             // Double Braced
             29,             // Flow Control
-            70,             // Stripped Down
-            74,             // Super Conduits
+            71,             // Stripped Down
+            75,             // Super Conduits
         ],
         30302   => [    // Engine focused
             6,              // Cluster Capacitors
             18,             // Double Braced
             29,             // Flow Control
-            70,             // Stripped Down
-            74,             // Super Conduits
+            71,             // Stripped Down
+            75,             // Super Conduits
         ],
         30303   => [    // High charge capacity
             6,              // Cluster Capacitors
             18,             // Double Braced
             29,             // Flow Control
-            70,             // Stripped Down
-            74,             // Super Conduits
+            71,             // Stripped Down
+            75,             // Super Conduits
         ],
         30304   => [    // Shielded
             6,              // Cluster Capacitors
             18,             // Double Braced
             29,             // Flow Control
-            70,             // Stripped Down
-            74,             // Super Conduits
+            71,             // Stripped Down
+            75,             // Super Conduits
         ],
         30305   => [    // System focused
             6,              // Cluster Capacitors
             18,             // Double Braced
             29,             // Flow Control
-            70,             // Stripped Down
-            74,             // Super Conduits
+            71,             // Stripped Down
+            75,             // Super Conduits
         ],
         30306   => [    // Weapon focused
             6,              // Cluster Capacitors
             18,             // Double Braced
             29,             // Flow Control
-            70,             // Stripped Down
-            74,             // Super Conduits
+            71,             // Stripped Down
+            75,             // Super Conduits
         ],
         
         // CORE INTERNAL - Power Plant
         30401   => [    // Armoured
             17,             // Double Braced
             47,             // Monstered
-            69,             // Stripped Down
-            83,             // Thermal Spread
+            70,             // Stripped Down
+            84,             // Thermal Spread
         ],
         30402   => [    // Low emissions
             17,             // Double Braced
             47,             // Monstered
-            69,             // Stripped Down
-            83,             // Thermal Spread
+            70,             // Stripped Down
+            84,             // Thermal Spread
         ],
         30403   => [    // Overcharged
             17,             // Double Braced
             47,             // Monstered
-            69,             // Stripped Down
-            83,             // Thermal Spread
+            70,             // Stripped Down
+            84,             // Thermal Spread
         ],
         
         // CORE INTERNAL - Sensors
@@ -1181,21 +1181,21 @@ class Available extends Alias
             22,             // Drag Drives
             24,             // Drive Distributors
             68,             // Stripped Down
-            81,             // Thermal Spread
+            82,             // Thermal Spread
         ],
         30602   => [    // Dirty
             15,             // Double Braced
             22,             // Drag Drives
             24,             // Drive Distributors
             68,             // Stripped Down
-            81,             // Thermal Spread
+            82,             // Thermal Spread
         ],
         30603   => [    // Reinforced
             15,             // Double Braced
             22,             // Drag Drives
             24,             // Drive Distributors
             68,             // Stripped Down
-            81,             // Thermal Spread
+            82,             // Thermal Spread
         ],
         
         // ARMOUR
