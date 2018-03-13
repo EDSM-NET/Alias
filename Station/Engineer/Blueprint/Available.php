@@ -108,23 +108,23 @@ class Available extends Alias
         // Tod 'The Blaster' McQuinn
          4      => [
             // HARDPOINT - Cannon
-            301     => [1, 2, 3, 4, 5],         // Efficient
-            302     => [1, 2, 3, 4, 5],         // High capacity
-            303     => [1, 2, 3, 4, 5],         // Lightweight
-            304     => [1, 2, 3, 4, 5],         // Long range
-            305     => [1, 2, 3, 4, 5],         // Overcharged
-            306     => [1, 2, 3, 4, 5],         // Rapid fire
-            307     => [1, 2, 3, 4, 5],         // Short range
-            308     => [1, 2, 3, 4, 5],         // Sturdy
+            301     => [1, 2,        ],         // Efficient
+            302     => [1, 2,        ],         // High capacity
+            303     => [1, 2,        ],         // Lightweight
+            304     => [1, 2,        ],         // Long range
+            305     => [1, 2,        ],         // Overcharged
+            306     => [1, 2,        ],         // Rapid fire
+            307     => [1, 2,        ],         // Short range
+            308     => [1, 2,        ],         // Sturdy
             
             // HARDPOINT - Fragment Cannon
-            401     => [1, 2, 3, 4, 5],         // Double shot
-            402     => [1, 2, 3, 4, 5],         // Efficient
-            403     => [1, 2, 3, 4, 5],         // High capacity
-            404     => [1, 2, 3, 4, 5],         // Lightweight
-            405     => [1, 2, 3, 4, 5],         // Overcharged
-            406     => [1, 2, 3, 4, 5],         // Rapid fire
-            407     => [1, 2, 3, 4, 5],         // Sturdy
+            401     => [1, 2, 3,     ],         // Double shot
+            402     => [1, 2, 3,     ],         // Efficient
+            403     => [1, 2, 3,     ],         // High capacity
+            404     => [1, 2, 3,     ],         // Lightweight
+            405     => [1, 2, 3,     ],         // Overcharged
+            406     => [1, 2, 3,     ],         // Rapid fire
+            407     => [1, 2, 3,     ],         // Sturdy
             
             // HARDPOINT - Multi-cannon
             701     => [1, 2, 3, 4, 5],         // Efficient
@@ -224,9 +224,9 @@ class Available extends Alias
             30103   => [1, 2, 3,     ],         // Shielded
             
             // CORE INTERNAL - Thrusters
-            30601   => [1, 2, 3, 4,  ],         // Clean
-            30602   => [1, 2, 3, 4,  ],         // Dirty
-            30603   => [1, 2, 3, 4,  ],         // Reinforced
+            30601   => [1, 2, 3, 4, 5],         // Clean
+            30602   => [1, 2, 3, 4, 5],         // Dirty
+            30603   => [1, 2, 3, 4, 5],         // Reinforced
         ],
         
         // Didi Vatermann
