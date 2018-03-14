@@ -43,8 +43,8 @@ class Material extends Alias
         24      => 'Zinc',
         25      => 'Zirconium',
         26      => 'Rhenium',
-        26      => 'Lead',
-        26      => 'Boron',
+        27      => 'Lead',
+        28      => 'Boron',
     ];
     
     /**
