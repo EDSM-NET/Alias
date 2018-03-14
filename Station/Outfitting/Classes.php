@@ -1259,5 +1259,16 @@ class Classes extends Alias
           5941  => 5,
         
           5961  => 7,
+        
+        // Opyional Internal > Meta Alloy Hull Reinforcement
+          6002  => 1,
+        
+          6012  => 2,
+        
+          6022  => 3,
+        
+          6032  => 4,
+        
+          6042  => 5,
     ];
 }
