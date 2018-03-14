@@ -407,6 +407,10 @@ class Classes extends Alias
           1752  => 2,
           1760  => 2,
         
+        // Weapon Hardpoint > Remote Release Flechette Launcher
+          1772  => 2,
+          1780  => 2,
+        
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 2,
           

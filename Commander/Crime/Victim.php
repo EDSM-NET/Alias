@@ -26,6 +26,9 @@ class Victim extends Alias
           9     => 'Data Link',
          10     => 'Data Point',
         
+         51     => 'Defence System Generator',
+         52     => 'Hackable Data Transmitter',
+        
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
         103     => 'Stinger',
@@ -43,6 +46,7 @@ class Victim extends Alias
         
         221     => 'Federal Navy Fighter',
         222     => 'System Defence Fighter',
+        223     => 'Imperial Navy Fighter',
         
         301     => 'Wedding Barge',
         302     => 'Cruise Ship',
@@ -69,6 +73,9 @@ class Victim extends Alias
         'poi_datalink'                          => 9,
         'poi_datapoint'                         => 10,
         
+        'mega_generator_small'                  => 51,
+        'mega_data01'                           => 52,
+        
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,
         'bombskimmerdrone'                      => 103,
@@ -86,6 +93,7 @@ class Victim extends Alias
         
         'militaryfighter_federation'            => 221,
         'militaryfighter_independent'           => 222,
+        'militaryfighter_empire'                => 223,
         
         'passengerliner_wedding'                => 301,
         'passengerliner_cruise'                 => 302,

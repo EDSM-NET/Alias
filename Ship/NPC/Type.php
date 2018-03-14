@@ -29,6 +29,9 @@ class Type extends Alias
         22                          => 'Alliance Defence Fighter',
         23                          => 'System Defence Fighter',
         24                          => 'Federal Navy Fighter',
+        
+        31                          => 'System ATR',
+        32                          => 'Federal ATR',
     ];
     
     /**
@@ -55,5 +58,8 @@ class Type extends Alias
         'militaryfighter_alliance'      => 22,
         'militaryfighter_independent'   => 23,
         'militaryfighter_federation'    => 24,
+        
+        'atr_independent'               => 31,
+        'atr_federation'                => 32,
     ];
 }

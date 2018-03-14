@@ -408,6 +408,10 @@ class Rating extends Alias
           1752  => 'B',
           1760  => 'B',
         
+        // Weapon Hardpoint > Remote Release Flechette Launcher
+          1772  => 'B',
+          1780  => 'B',
+        
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 'B',
           

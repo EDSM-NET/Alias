@@ -192,6 +192,7 @@ class Type extends Alias
          803                                => 'Disable the %target% power grid',
          804                                => 'Take out the %target% power grid',
          805                                => 'Take out the %target% power grid',
+         806                                => 'Obliterate the %target% main flux power grid',
          
          851                                => 'Discreet Power Failure Required',
          
@@ -252,9 +253,18 @@ class Type extends Alias
         1113                                => 'Remove %targetType%: %target%',
         
       101101                                => 'Assassinate %targetType%: %target%',
+      101102                                => 'Federal navy strike contract authorised',
+      101103                                => 'Imperial naval strike contract authorised',
+      101104                                => 'Engage and destroy %targetType%: %target%',
       101105                                => 'Assassinate %targetType%: %target%',
       101106                                => 'Take down %targetType%: %target%',
+      101107                                => 'Kill %targetType%: %target%',
       101108                                => 'Assassinate %targetType%: %target%',
+      101109                                => 'Urgent kill order for %targetType%: %target%',
+      101110                                => 'Expansion support by killing %targetType%: %target%',
+      101111                                => 'Obliterate %targetType%: %target%',
+      101112                                => 'Execute %targetType%: %target%',
+      101113                                => 'Remove %targetType%: %target%',
         
         1151                                => 'Wetwork contract',
         1152                                => 'Wetwork Job',
@@ -283,6 +293,7 @@ class Type extends Alias
         1254                                => 'Counter-insurgency illegal transportation opportunity',
         1255                                => 'Civil war illegal transportation contract',
         1256                                => 'Wartime illegal transportation contract',
+        1258                                => 'Outbreak covert transportation mission',
         
         // Hack Missions
         1301                                => 'Interact with the %target% datalink',
@@ -292,6 +303,7 @@ class Type extends Alias
         1305                                => 'Plug into the %target% datalink',
         
         1352                                => 'Tactical data acquisition',
+        1355                                => 'Expansion data retrieval',
         
         1401                                => '%passengerName% wants to go to %expeditionDest% and collect data',
         1402                                => '%passengerName% wants to go to %expeditionDest% and collect data',
@@ -321,6 +333,7 @@ class Type extends Alias
         1706                                => 'Planetary Mentor - Disable the %target% power grid',
         1707                                => 'Planetary Mentor - Liberate %commodityCount% %commodity%',
         1708                                => 'Trade Mentor - Mine %commodityCount% units of %commodity%',
+        1709                                => 'Planetary Mentor - Hack the %target% datalink',
         
         1802                                => 'Salvage %commodityCount% units of %commodity% from %destinationStation%',
         1803                                => '%passengerCount% %passengerType% looking to get off the starport',
@@ -515,6 +528,7 @@ class Type extends Alias
         'mission_deliverywing_civilunrest'                  => 10506,
         'mission_deliverywing_confederacy'                  => 10507,
         'mission_deliverywing_war'                          => 10508,
+        'mission_deliverywing_civilwar'                     => 10509,
         'mission_deliverywing_outbreak'                     => 10510,
         'mission_deliverywing_famine'                       => 10511,
         'mission_deliverywing_rankfed'                      => 10512,
@@ -565,6 +579,7 @@ class Type extends Alias
         'mission_disable_war'                               => 803,
         'mission_disable_civilwar'                          => 804,
         'mission_disable_civilunrest'                       => 805,
+        'mission_disable_expansion'                         => 806,
         
         'mission_disable_blops'                             => 851,
         
@@ -622,9 +637,18 @@ class Type extends Alias
         'mission_assassinate_legal_communism'               => 1113,
         
         'mission_assassinatewing'                           => 101101,
+        'mission_assassinatewing_rankfed'                   => 101102,
+        'mission_assassinatewing_rankemp'                   => 101103,
+        'mission_assassinatewing_legal_bust'                => 101104,
         'mission_assassinatewing_legal_civilwar'            => 101105,
         'mission_assassinatewing_legal_corporate'           => 101106,
+        'mission_assassinatewing_legal_feudal'              => 101107,
         'mission_assassinatewing_legal_war'                 => 101108,
+        'mission_assassinatewing_planetary'                 => 101109,
+        'mission_assassinatewing_planetary_expansion'       => 101110,
+        'mission_assassinatewing_legal_civilunrest'         => 101111,
+        'mission_assassinatewing_legal_penal'               => 101112,
+        'mission_assassinatewing_legal_communism'           => 101113,
         
         'mission_assassinate_illegal_blops'                 => 1151,
         'mission_assassinate_illegal_blops_industrial'      => 1152,
@@ -653,6 +677,7 @@ class Type extends Alias
         'mission_smuggle_blops_civilunrest'                 => 1254,
         'mission_smuggle_blops_civilwar'                    => 1255,
         'mission_smuggle_blops_war'                         => 1256,
+        'mission_smuggle_blops_outbreak'                    => 1258,
         
         'mission_hack'                                      => 1301,
         'mission_hack_civilwar'                             => 1302,
@@ -661,6 +686,7 @@ class Type extends Alias
         'mission_hack_expansion'                            => 1305,
         
         'mission_hack_blops_civilwar'                       => 1352,
+        'mission_hack_blops_expansion'                      => 1355,
         
         'mission_longdistanceexpedition'                    => 1401,
         'mission_longdistanceexpedition_explorer_boom'      => 1402,
@@ -689,6 +715,7 @@ class Type extends Alias
         'mission_welcome_disable'                           => 1706,
         'mission_welcome_rescue'                            => 1707,
         'mission_welcome_mining'                            => 1708,
+        'mission_welcome_hack'                              => 1709,
         
         'mission_ds_collect'                                => 1802,
         'mission_ds_passengerbulk'                          => 1803,

@@ -404,6 +404,10 @@ class Type extends Alias
           1752  => 'Remote Release Flak Launcher (Fixed)',
           1760  => 'Remote Release Flak Launcher (Turret)',
         
+        // Weapon Hardpoint > Remote Release Flechette Launcher
+          1772  => 'Remote Release Flechette Launcher (Fixed)',
+          1780  => 'Remote Release Flechette Launcher (Turret)',
+        
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 'Pack-Hound Missile Rack (Swarm, Fixed)',
           
@@ -1670,6 +1674,11 @@ class Type extends Alias
         'hpt_flakmortar_fixed_medium'                   => 1752,
         
         'hpt_flakmortar_turret_medium'                  => 1760,
+        
+        // Weapon Hardpoint > Remote Release Flechette Launcher
+        'hpt_flechettelauncher_fixed_medium'            => 1772,
+        
+        'hpt_flechettelauncher_turret_medium'           => 1780,
         
         // Weapon Hardpoint > Pack-Hound Missile Rack
         'hpt_drunkmissilerack_fixed_medium'             => 1802,
