@@ -414,6 +414,10 @@ class Rating extends Alias
         
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 'B',
+        
+        // Weapon Hardpoint > Shock Cannon
+          1852  => 'D',
+          1856  => 'D',
           
         // Utility Mount > Shield Booster
           2001  => 'E',

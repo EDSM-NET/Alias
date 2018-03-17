@@ -157,6 +157,10 @@ class Category extends Alias
             'Pack-Hound Missile Rack'           => [
                 1802,
             ],
+            'Shock Cannon'                      => [
+                1852,
+                1856,
+            ]
          ],
         
         // Utility Mount

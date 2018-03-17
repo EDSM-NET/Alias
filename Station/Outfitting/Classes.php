@@ -413,6 +413,10 @@ class Classes extends Alias
         
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 2,
+        
+        // Weapon Hardpoint > Shock Cannon
+          1852  => 2
+          1856  => 2,
           
         // Utility Mount > Shield Booster
           2001  => 0,

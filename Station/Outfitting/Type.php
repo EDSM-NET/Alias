@@ -410,6 +410,10 @@ class Type extends Alias
         
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 'Pack-Hound Missile Rack (Swarm, Fixed)',
+        
+        // Weapon Hardpoint > Shock Cannon
+          1852  => 'Shock Cannon (Fixed)',
+          1856  => 'Shock Cannon (Gimbal)',
           
         // Utility Mount > Shield Booster
           2001  => 'Shield Booster',
@@ -1687,6 +1691,11 @@ class Type extends Alias
         
         // Weapon Hardpoint > Pack-Hound Missile Rack
         'hpt_drunkmissilerack_fixed_medium'             => 1802,
+        
+        // Weapon Hardpoint > Shock Cannon
+        'hpt_plasmashockcannon_fixed_medium'            => 1852,
+        
+        'hpt_plasmashockcannon_gimbal_medium'           => 1856,
         
         // Utility Mount > Shield Booster
         'hpt_shieldbooster_size0_class1'                => 2001,
