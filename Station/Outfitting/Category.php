@@ -160,7 +160,10 @@ class Category extends Alias
             'Shock Cannon'                      => [
                 1852,
                 1856,
-            ]
+            ],
+            'Enzyme Missile Rack'               => [
+                1872,
+            ],
          ],
         
         // Utility Mount

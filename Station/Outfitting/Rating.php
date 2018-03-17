@@ -418,6 +418,9 @@ class Rating extends Alias
         // Weapon Hardpoint > Shock Cannon
           1852  => 'D',
           1856  => 'D',
+        
+        // Weapon Hardpoint > Enzyme Missile Rack
+          1872  => 'B',
           
         // Utility Mount > Shield Booster
           2001  => 'E',

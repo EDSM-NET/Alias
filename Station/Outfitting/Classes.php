@@ -415,8 +415,11 @@ class Classes extends Alias
           1802  => 2,
         
         // Weapon Hardpoint > Shock Cannon
-          1852  => 2
+          1852  => 2,
           1856  => 2,
+        
+        // Weapon Hardpoint > Enzyme Missile Rack
+          1872  => 2,
           
         // Utility Mount > Shield Booster
           2001  => 0,
