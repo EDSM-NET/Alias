@@ -455,6 +455,13 @@ class PaintJob extends Alias
             'belugaliner_militaire_forest_green'            => 'Military Marine Blue',
             'belugaliner_militaire_sand'                    => 'Military Sand',
             
+            'belugaliner_geometric_blue'                    => 'Prestige Blue',
+            'belugaliner_geometric_green'                   => 'Prestige Green',
+            'belugaliner_geometric_orange'                  => 'Prestige Orange',
+            'belugaliner_geometric_purple'                  => 'Prestige Purple',
+            'belugaliner_geometric_red'                     => 'Prestige Red',
+            'belugaliner_geometric_yellow'                  => 'Prestige Yellow',
+            
             'belugaliner_tactical_blue'                     => 'Tactical Cobalt',
             'belugaliner_tactical_brown'                    => 'Tactical Khaki',
             'belugaliner_tactical_green'                    => 'Tactical Olive',

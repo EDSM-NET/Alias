@@ -143,12 +143,12 @@ class Category extends Alias
                 1601,
             ],
             'AX Missile Rack'                   => [
-                1652,
-                1660,
+                1652, 1653,
+                1660, 1661,
             ],
             'AX Multi-Cannon'                   => [
-                1702,
-                1710,
+                1702, 1703,
+                1710, 1711,
             ],
             'Remote Release Flak Launcher'      => [
                 1752,

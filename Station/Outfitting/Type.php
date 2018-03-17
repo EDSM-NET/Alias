@@ -1262,14 +1262,19 @@ class Type extends Alias
           5961  => 'Recon Limpet Controller',
         
         // Opyional Internal > Meta Alloy Hull Reinforcement
+          6001  => 'Meta Alloy Hull Reinforcement',
           6002  => 'Meta Alloy Hull Reinforcement',
         
+          6011  => 'Meta Alloy Hull Reinforcement',
           6012  => 'Meta Alloy Hull Reinforcement',
         
+          6021  => 'Meta Alloy Hull Reinforcement',
           6022  => 'Meta Alloy Hull Reinforcement',
         
+          6031  => 'Meta Alloy Hull Reinforcement',
           6032  => 'Meta Alloy Hull Reinforcement',
         
+          6041  => 'Meta Alloy Hull Reinforcement',
           6042  => 'Meta Alloy Hull Reinforcement',
     ];
     
@@ -2533,15 +2538,20 @@ class Type extends Alias
         
         'int_dronecontrol_recon_size7_class1'           => 5961,
         
-        // Opyional Internal > Meta Alloy Hull Reinforcement
+        // Optional Internal > Meta Alloy Hull Reinforcement
+        'int_metaalloyhullreinforcement_size1_class1'   => 6001,
         'int_metaalloyhullreinforcement_size1_class2'   => 6002,
         
+        'int_metaalloyhullreinforcement_size2_class1'   => 6011,
         'int_metaalloyhullreinforcement_size2_class2'   => 6012,
         
+        'int_metaalloyhullreinforcement_size3_class1'   => 6021,
         'int_metaalloyhullreinforcement_size3_class2'   => 6022,
         
+        'int_metaalloyhullreinforcement_size4_class1'   => 6031,
         'int_metaalloyhullreinforcement_size4_class2'   => 6032,
         
+        'int_metaalloyhullreinforcement_size5_class1'   => 6041,
         'int_metaalloyhullreinforcement_size5_class2'   => 6042,
     ];
 }

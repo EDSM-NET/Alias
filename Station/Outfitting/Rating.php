@@ -1266,14 +1266,19 @@ class Rating extends Alias
           5961  => 'E',
         
         // Opyional Internal > Meta Alloy Hull Reinforcement
+          6001  => 'E',
           6002  => 'D',
         
+          6011  => 'E',
           6012  => 'D',
         
+          6021  => 'E',
           6022  => 'D',
         
+          6031  => 'E',
           6032  => 'D',
         
+          6041  => 'E',
           6042  => 'D',
     ];
 }

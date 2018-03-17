@@ -293,6 +293,7 @@ class Type extends Alias
         1254                                => 'Counter-insurgency illegal transportation opportunity',
         1255                                => 'Civil war illegal transportation contract',
         1256                                => 'Wartime illegal transportation contract',
+        1257                                => 'Locked down smuggling operation',
         1258                                => 'Outbreak covert transportation mission',
         
         // Hack Missions
@@ -302,6 +303,7 @@ class Type extends Alias
         1304                                => 'Tap into the %target% datalink',
         1305                                => 'Plug into the %target% datalink',
         
+        1351                                => 'Covert data retrieval assignment',
         1352                                => 'Tactical data acquisition',
         1355                                => 'Expansion data retrieval',
         
@@ -677,6 +679,7 @@ class Type extends Alias
         'mission_smuggle_blops_civilunrest'                 => 1254,
         'mission_smuggle_blops_civilwar'                    => 1255,
         'mission_smuggle_blops_war'                         => 1256,
+        'mission_smuggle_blops_lockdown'                    => 1257,
         'mission_smuggle_blops_outbreak'                    => 1258,
         
         'mission_hack'                                      => 1301,
@@ -685,6 +688,7 @@ class Type extends Alias
         'mission_hack_civilunrest'                          => 1304,
         'mission_hack_expansion'                            => 1305,
         
+        'mission_hack_blops'                                => 1351,
         'mission_hack_blops_civilwar'                       => 1352,
         'mission_hack_blops_expansion'                      => 1355,
         
