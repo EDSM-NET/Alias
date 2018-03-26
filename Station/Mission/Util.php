@@ -21,6 +21,8 @@ class Util extends Alias
            4                                    => 'Skimmer Control',
            5                                    => 'Comms Array',
            
+         500                                    => 'Thargoid Scout',
+           
         1001                                    => 'Pirate Lord',
         1002                                    => 'Pirates',
         1003                                    => 'Sentry Skimmer',
@@ -57,6 +59,8 @@ class Util extends Alias
         'settlement_target_turret'              => 3,
         'settlement_target_skimmerdisabler'     => 4,
         'settlement_target_radar'               => 5,
+        
+        'factiontag_scout'                      => 500,
         
         'factiontag_piratelord'                 => 1001,
         'factiontag_pirate'                     => 1002,

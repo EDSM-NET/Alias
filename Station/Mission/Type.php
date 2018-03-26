@@ -187,6 +187,7 @@ class Type extends Alias
          
          781                                => 'Salvage %commodityCount% %commodity%',
          
+        // Disable Missions
          801                                => 'Disable the %target% power grid',
          802                                => 'Power down the %target% power grid',
          803                                => 'Disable the %target% power grid',
@@ -195,6 +196,7 @@ class Type extends Alias
          806                                => 'Obliterate the %target% main flux power grid',
          
          851                                => 'Discreet Power Failure Required',
+         854                                => 'Black operations surface engagement',
          
          901                                => 'Mine %commodityCount% units of %commodity%',
          902                                => 'Mining rush for %commodityCount% units of %commodity%',
@@ -212,6 +214,7 @@ class Type extends Alias
         1007                                => 'Massacre the %targetFaction% %targetType%',
         1008                                => 'Put down the %targetFaction% %targetType%',
         1009                                => 'Engage and destroy the %targetFaction% %targetType%',
+        1010                                => 'Destroy the %targetType% threat',
         
       101001                                => 'Massacre the %targetFaction% %targetType%',
       101002                                => 'Massacre the %targetFaction% ships',
@@ -305,6 +308,7 @@ class Type extends Alias
         
         1351                                => 'Covert data retrieval assignment',
         1352                                => 'Tactical data acquisition',
+        1354                                => 'Agitator data contract',
         1355                                => 'Expansion data retrieval',
         
         1401                                => '%passengerName% wants to go to %expeditionDest% and collect data',
@@ -584,6 +588,7 @@ class Type extends Alias
         'mission_disable_expansion'                         => 806,
         
         'mission_disable_blops'                             => 851,
+        'mission_disable_blops_civilwar'                    => 854,
         
         'mission_mining'                                    => 901,
         'mission_mining_boom'                               => 902,
@@ -600,6 +605,7 @@ class Type extends Alias
         'mission_massacre_legal_bust'                       => 1007,
         'mission_massacre_legal_civilunrest'                => 1008,
         'mission_massacre_legal_military'                   => 1009,
+        'mission_massacrethargoid'                          => 1010,
         
         'mission_massacrewing'                              => 101001,
         'mission_massacrewing_conflict_war'                 => 101002,
@@ -690,6 +696,7 @@ class Type extends Alias
         
         'mission_hack_blops'                                => 1351,
         'mission_hack_blops_civilwar'                       => 1352,
+        'mission_hack_blops_civilunrest'                    => 1354,
         'mission_hack_blops_expansion'                      => 1355,
         
         'mission_longdistanceexpedition'                    => 1401,

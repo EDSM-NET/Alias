@@ -28,6 +28,11 @@ class Victim extends Alias
         
          51     => 'Defence System Generator',
          52     => 'Hackable Data Transmitter',
+         53     => 'Hackable Comms Array',
+         54     => 'Cargo Bay',
+         55     => 'Cargo Bay',
+         56     => 'Automated Defence Turret',
+         57     => 'Defence System Generator',
         
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
@@ -75,6 +80,11 @@ class Victim extends Alias
         
         'mega_generator_small'                  => 51,
         'mega_data01'                           => 52,
+        'mega_commsarray'                       => 53,
+        'mega_cargobay'                         => 54,
+        'mega_cargobay_recessed'                => 55,
+        'mega_turretplatformb'                  => 56,
+        'mega_generator_large'                  => 57,
         
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,

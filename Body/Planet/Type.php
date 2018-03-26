@@ -41,7 +41,7 @@ class Type extends Alias
         75      => 'Class V gas giant',
         
         81      => 'Helium-rich gas giant',
-        82      => 'Helium gas giant', // Check in game
+        82      => 'Helium gas giant',
     ];
     
     /**
