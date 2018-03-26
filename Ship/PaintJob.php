@@ -60,10 +60,6 @@ class PaintJob extends Alias
         128049267 => [
             'adder_blackfriday_01'                          => 'Black Friday',
             
-            'adder_default_01'                              => null,
-            'adder_default_02'                              => null,
-            'adder_default_03'                              => null,
-            
             'adder_default_defaultpaintjob'                 => 'Default',
             
             'adder_faction1_01'                             => 'Pirate Faction Red',
@@ -72,14 +68,6 @@ class PaintJob extends Alias
             'adder_faction1_04'                             => 'Pirate Faction Rose',
             'adder_faction1_05'                             => 'Pirate Faction Blue',
             'adder_faction1_06'                             => 'Pirate Faction Purple',
-            
-            'adder_flatcolour_blue'                         => null,
-            'adder_flatcolour_green'                        => null,
-            'adder_flatcolour_grey'                         => null,
-            'adder_flatcolour_orange'                       => null,
-            'adder_flatcolour_red'                          => null,
-            'adder_flatcolour_white'                        => null,
-            'adder_flatcolour_yellow'                       => null,
             
             'adder_metallic_chrome'                         => 'Chrome',
             'adder_metallic2_chrome'                        => 'Chromed',
@@ -158,12 +146,6 @@ class PaintJob extends Alias
             'anaconda_camo_05'                              => 'Camo 5',
             'anaconda_camo_06'                              => 'Camo 6',
             
-            'anaconda_default_01'                           => null,
-            'anaconda_default_02'                           => null,
-            'anaconda_default_03'                           => null,
-            'anaconda_default_04'                           => null,
-            'anaconda_default_05'                           => null,
-            
             'anaconda_default_defaultpaintjob'              => 'Default',
             
             'anaconda_faction1_01'                          => 'Pirate Faction Red',
@@ -172,19 +154,6 @@ class PaintJob extends Alias
             'anaconda_faction1_04'                          => 'Pirate Faction Rose',
             'anaconda_faction1_05'                          => 'Pirate Faction Blue',
             'anaconda_faction1_06'                          => 'Pirate Faction Purple',
-            
-            'anaconda_flatcolour_blue'                      => null,
-            'anaconda_flatcolour_green'                     => null,
-            'anaconda_flatcolour_grey'                      => null,
-            'anaconda_flatcolour_orange'                    => null,
-            'anaconda_flatcolour_red'                       => null,
-            'anaconda_flatcolour_white'                     => null,
-            'anaconda_flatcolour_yellow'                    => null,
-            
-            'anaconda_kickstarterbw_kickstarterbw'          => null,
-            'anaconda_kickstarterhb_kickstarterhb'          => null,
-            'anaconda_kickstarterlm_kickstarterlm'          => null,
-            'anaconda_kickstartermc_kickstartermc'          => null,
             
             'anaconda_lavecon_lavecon'                      => 'Lavecon',
             'anaconda_eliteexpo_eliteexpo'                  => 'Frontier Expo',
@@ -248,7 +217,6 @@ class PaintJob extends Alias
             'asp_corrosive_05'                              => 'Corroded 5',
             'asp_corrosive_06'                              => 'Corroded 6',
             
-            'asp_default_01'                                => null,
             'asp_default_02'                                => 'Black Apollo',
             'asp_default_03'                                => 'White Apollo',
             'asp_default_04'                                => 'Green Apollo',
@@ -269,14 +237,6 @@ class PaintJob extends Alias
             'asp_festive_silver'                            => 'Festive Black',
             'asp_festive_white'                             => 'Festive White',
             
-            'asp_flatcolour_blue'                           => null,
-            'asp_flatcolour_green'                          => null,
-            'asp_flatcolour_grey'                           => null,
-            'asp_flatcolour_orange'                         => null,
-            'asp_flatcolour_red'                            => null,
-            'asp_flatcolour_white'                          => null,
-            'asp_flatcolour_yellow'                         => null,
-            
             'asp_gamescom_gamescom'                         => 'Gamescom',
             'asp_lavecon_lavecon'                           => 'Lavecon',
             'asp_eliteexpo_eliteexpo'                       => 'Frontier Expo',
@@ -293,8 +253,6 @@ class PaintJob extends Alias
             'asp_militaire_forest_green'                    => 'Military Marine Blue',
             'asp_militaire_sand'                            => 'Military Sand',
             
-            'asp_searchrescue_searchrescue'                 => null,
-            
             'asp_squadron_black'                            => 'Squadron Shadow',
             'asp_squadron_blue'                             => 'Squadron Blue',
             'asp_squadron_gold'                             => 'Squadron Black',
@@ -302,7 +260,6 @@ class PaintJob extends Alias
             'asp_squadron_orange'                           => 'Squadron Orange',
             'asp_squadron_red'                              => 'Squadron Red',
             
-            'asp_stripe1_01'                                => null,
             'asp_stripe1_02'                                => 'Red Pharaoh',
             'asp_stripe1_03'                                => 'Gold Pharaoh',
             'asp_stripe1_04'                                => 'White Pharaoh',
@@ -338,11 +295,6 @@ class PaintJob extends Alias
         128672276 => [
             'asp_scout_blackfriday_01'                      => 'Black Friday',
             
-            'asp_scout_default_01'                          => null,
-            'asp_scout_default_02'                          => null,
-            'asp_scout_default_03'                          => null,
-            'asp_scout_default_04'                          => null,
-            
             'asp_scout_default_defaultpaintjob'             => 'Default',
             
             'asp_scout_faction1_01'                         => 'Pirate Faction Red',
@@ -351,14 +303,6 @@ class PaintJob extends Alias
             'asp_scout_faction1_04'                         => 'Pirate Faction Rose',
             'asp_scout_faction1_05'                         => 'Pirate Faction Blue',
             'asp_scout_faction1_06'                         => 'Pirate Faction Purple',
-            
-            'asp_scout_flatcolour_blue'                     => null,
-            'asp_scout_flatcolour_green'                    => null,
-            'asp_scout_flatcolour_grey'                     => null,
-            'asp_scout_flatcolour_orange'                   => null,
-            'asp_scout_flatcolour_red'                      => null,
-            'asp_scout_flatcolour_white'                    => null,
-            'asp_scout_flatcolour_yellow'                   => null,
             
             'asp_scout_gamescom_gamescom'                   => 'Gamescom',
             'asp_scout_lavecon_lavecon'                     => 'Lavecon',
@@ -373,13 +317,6 @@ class PaintJob extends Alias
             'asp_scout_militaire_earth_yellow'              => 'Military Earth Yellow',
             'asp_scout_militaire_forest_green'              => 'Military Marine Blue',
             'asp_scout_militaire_sand'                      => 'Military Sand',
-            
-            'asp_scout_searchrescue_searchrescue'           => null,
-            
-            'asp_scout_stripe1_01'                          => null,
-            'asp_scout_stripe1_02'                          => null,
-            'asp_scout_stripe1_03'                          => null,
-            'asp_scout_stripe1_04'                          => null,
             
             'asp_scout_synth_blue'                          => 'Synth Blue',
             'asp_scout_synth_lime'                          => 'Synth Lime',
@@ -421,12 +358,6 @@ class PaintJob extends Alias
             'belugaliner_corporatefleet_fleete'             => 'Expedition Rust',
             'belugaliner_corporatefleet_fleetf'             => 'Expedition Grey',
             
-            'belugaliner_default_01'                        => null,
-            'belugaliner_default_02'                        => null,
-            'belugaliner_default_03'                        => null,
-            'belugaliner_default_51'                        => null,
-            'belugaliner_default_52'                        => null,
-            
             'belugaliner_default_defaultpaintjob'           => 'Default',
             
             'belugaliner_ember_yellow'                      => 'Ember Yellow',
@@ -435,14 +366,6 @@ class PaintJob extends Alias
             'belugaliner_ember_purple'                      => 'Ember Purple',
             'belugaliner_ember_orange'                      => 'Ember Orange',
             'belugaliner_ember_blue'                        => 'Ember Blue',
-            
-            'belugaliner_flatcolour_blue'                   => null,
-            'belugaliner_flatcolour_green'                  => null,
-            'belugaliner_flatcolour_grey'                   => null,
-            'belugaliner_flatcolour_orange'                 => null,
-            'belugaliner_flatcolour_red'                    => null,
-            'belugaliner_flatcolour_white'                  => null,
-            'belugaliner_flatcolour_yellow'                 => null,
             
             'belugaliner_metallic_chrome'                   => 'Chrome',
             'belugaliner_metallic_gold'                     => 'Gold',
@@ -481,19 +404,8 @@ class PaintJob extends Alias
         128049279 => [
             'cobramkiii_blackfriday_01'                     => 'Black Friday',
             
-            'cobramkiii_camo1_01'                           => null,
-            'cobramkiii_camo1_02'                           => null,
-            'cobramkiii_camo1_03'                           => null,
-            'cobramkiii_camo1_04'                           => null,
-            'cobramkiii_camo1_05'                           => null,
-            'cobramkiii_camo1_06'                           => null,
-            
             'cobramkiii_camo2_01'                           => 'Urban Camo',
-            'cobramkiii_camo2_02'                           => null,
             'cobramkiii_camo2_03'                           => 'Polar Camo',
-            'cobramkiii_camo2_04'                           => null,
-            'cobramkiii_camo2_05'                           => null,
-            'cobramkiii_camo2_06'                           => null,
             
             'cobramkiii_community_community'                => 'Community',
             
@@ -503,11 +415,6 @@ class PaintJob extends Alias
             'cobramkiii_corrosive_04'                       => 'Corroded 4',
             'cobramkiii_corrosive_05'                       => 'Corroded 5',
             'cobramkiii_corrosive_06'                       => 'Corroded 6',
-            
-            'cobramkiii_default_01'                         => null,
-            'cobramkiii_default_02'                         => null,
-            'cobramkiii_default_03'                         => null,
-            'cobramkiii_default_52'                         => null,
             
             'cobramkiii_default_defaultpaintjob'            => 'Default',
             
@@ -520,7 +427,6 @@ class PaintJob extends Alias
             'cobramkiii_faction1_04'                        => 'Pirate Faction Rose',
             'cobramkiii_faction1_05'                        => 'Pirate Faction Blue',
             'cobramkiii_faction1_06'                        => 'Pirate Faction Purple',
-            'cobramkiii_faction1_onionhead1'                => null,
             
             'cobramkiii_festive_blue'                       => 'Festive Blue',
             'cobramkiii_festive_green'                      => 'Festive Green',
@@ -550,14 +456,6 @@ class PaintJob extends Alias
             'cobramkiii_flag_uk_01'                         => 'Union Jack Flag',
             'cobramkiii_flag_usa_01'                        => 'Stars & Stripes Flag',
             
-            'cobramkiii_flatcolour_blue'                    => null,
-            'cobramkiii_flatcolour_green'                   => null,
-            'cobramkiii_flatcolour_grey'                    => null,
-            'cobramkiii_flatcolour_orange'                  => null,
-            'cobramkiii_flatcolour_red'                     => null,
-            'cobramkiii_flatcolour_white'                   => null,
-            'cobramkiii_flatcolour_yellow'                  => null,
-            
             'cobramkiii_gamescom_gamescom'                  => 'Gamescom',
             
             'cobramkiii_gradient1_01'                       => 'Hunter Rust',
@@ -579,32 +477,13 @@ class PaintJob extends Alias
             'cobramkiii_horizons_polar'                     => 'Horizons Polar',
             
             'cobramkiii_hotrod_01'                          => 'Red Ignition',
-            'cobramkiii_hotrod_02'                          => null,
             'cobramkiii_hotrod_03'                          => 'Orange Ignition',
-            'cobramkiii_hotrod_04'                          => null,
-            'cobramkiii_hotrod_05'                          => null,
-            'cobramkiii_hotrod_06'                          => null,
-            
-            'cobramkiii_kickstartermc_kickstartermc'        => null,
-            'cobramkiii_kickstartersu_kickstartersu'        => null,
             
             'cobramkiii_lavecon_lavecon'                    => 'Lavecon',
             
             'cobramkiii_medusa_aquamarine'                  => 'Medusa',
-            'cobramkiii_medusa_blackwhite'                  => null,
-            'cobramkiii_medusa_brown'                       => null,
-            'cobramkiii_medusa_green'                       => null,
-            'cobramkiii_medusa_red'                         => null,
-            'cobramkiii_medusa_yellow'                      => null,
             
             'cobramkiii_merc'                               => 'Mercenary',
-            
-            'cobramkiii_mercenary_01'                       => null,
-            'cobramkiii_mercenary_02'                       => null,
-            'cobramkiii_mercenary_03'                       => null,
-            'cobramkiii_mercenary_04'                       => null,
-            'cobramkiii_mercenary_05'                       => null,
-            'cobramkiii_mercenary_06'                       => null,
             
             'cobramkiii_metallic_chrome'                    => 'Chrome',
             'cobramkiii_metallic2_chrome'                   => 'Chromed',
@@ -634,8 +513,6 @@ class PaintJob extends Alias
             
             'cobramkiii_onionhead1_01'                      => 'Onion Head',
             
-            'cobramkiii_oxm_oxm'                            => null,
-            
             'cobramkiii_pcgamer_pcgamer'                    => 'PC Gamer',
             
             'cobramkiii_squadron_black'                     => 'Squadron Shadow',
@@ -645,11 +522,9 @@ class PaintJob extends Alias
             'cobramkiii_squadron_orange'                    => 'Squadron Orange',
             'cobramkiii_squadron_red'                       => 'Squadron Red',
             
-            'cobramkiii_stripe1_01'                         => null,
             'cobramkiii_stripe1_02'                         => 'Orange Rattler',
             'cobramkiii_stripe1_03'                         => 'Blue Rattler',
             
-            'cobramkiii_stripe2_01'                         => null,
             'cobramkiii_stripe2_02'                         => 'Yellow Serpent',
             'cobramkiii_stripe2_03'                         => 'Red Serpent',
             
@@ -675,26 +550,6 @@ class PaintJob extends Alias
         128672262 => [
             'cobramkiv_blackfriday_01'                      => 'Black Friday',
             
-            'cobramkiv_camo1_01'                            => null,
-            'cobramkiv_camo1_02'                            => null,
-            'cobramkiv_camo1_03'                            => null,
-            'cobramkiv_camo1_04'                            => null,
-            'cobramkiv_camo1_05'                            => null,
-            'cobramkiv_camo1_06'                            => null,
-            
-            'cobramkiv_camo2_01'                            => null,
-            'cobramkiv_camo2_02'                            => null,
-            'cobramkiv_camo2_03'                            => null,
-            'cobramkiv_camo2_04'                            => null,
-            'cobramkiv_camo2_05'                            => null,
-            'cobramkiv_camo2_06'                            => null,
-            
-            'cobramkiv_default_01'                          => null,
-            'cobramkiv_default_02'                          => null,
-            'cobramkiv_default_03'                          => null,
-            'cobramkiv_default_51'                          => null,
-            'cobramkiv_default_52'                          => null,
-            
             'cobramkiv_default_defaultpaintjob'             => 'Default',
             
             'cobramkiv_faction1_01'                         => 'Pirate Faction Red',
@@ -703,7 +558,6 @@ class PaintJob extends Alias
             'cobramkiv_faction1_04'                         => 'Pirate Faction Rose',
             'cobramkiv_faction1_05'                         => 'Pirate Faction Blue',
             'cobramkiv_faction1_06'                         => 'Pirate Faction Purple',
-            'cobramkiv_faction1_onionhead1'                 => null,
             
             'cobramkiv_flag_australia_01'                   => 'Australia Flag',
             'cobramkiv_flag_austria_01'                     => 'Austria Flag',
@@ -725,14 +579,6 @@ class PaintJob extends Alias
             'cobramkiv_flag_uk_01'                          => 'Union Jack Flag',
             'cobramkiv_flag_usa_01'                         => 'Stars & Stripes Flag',
             
-            'cobramkiv_flatcolour_blue'                     => null,
-            'cobramkiv_flatcolour_green'                    => null,
-            'cobramkiv_flatcolour_grey'                     => null,
-            'cobramkiv_flatcolour_orange'                   => null,
-            'cobramkiv_flatcolour_red'                      => null,
-            'cobramkiv_flatcolour_white'                    => null,
-            'cobramkiv_flatcolour_yellow'                   => null,
-            
             'cobramkiv_gamescom_gamescom'                   => 'Gamescom',
             
             'cobramkiv_gradient1_01'                        => 'Hunter Rust',
@@ -753,18 +599,7 @@ class PaintJob extends Alias
             'cobramkiv_horizons_lunar'                      => 'Horizons Lunar',
             'cobramkiv_horizons_polar'                      => 'Horizons Polar',
             
-            'cobramkiv_hotrod_01'                           => null,
-            'cobramkiv_hotrod_02'                           => null,
-            'cobramkiv_hotrod_03'                           => null,
-            
             'cobramkiv_lavecon_lavecon'                     => 'Lavecon',
-            
-            'cobramkiv_madcatz_01'                          => null,
-            
-            'cobramkiv_mercenary_01'                        => null,
-            'cobramkiv_mercenary_02'                        => null,
-            'cobramkiv_mercenary_03'                        => null,
-            'cobramkiv_mercenary_04'                        => null,
             
             'cobramkiv_metallic_chrome'                     => 'Chrome',
             'cobramkiv_metallic2_chrome'                    => 'Chromed',
@@ -776,16 +611,6 @@ class PaintJob extends Alias
             'cobramkiv_militaire_earth_yellow'              => 'Military Earth Yellow',
             'cobramkiv_militaire_forest_green'              => 'Military Marine Blue',
             'cobramkiv_militaire_sand'                      => 'Military Sand',
-            
-            'cobramkiv_onionhead1_01'                       => null,
-            
-            'cobramkiv_stripe1_01'                          => null,
-            'cobramkiv_stripe1_02'                          => null,
-            'cobramkiv_stripe1_03'                          => null,
-            
-            'cobramkiv_stripe2_01'                          => null,
-            'cobramkiv_stripe2_02'                          => null,
-            'cobramkiv_stripe2_03'                          => null,
             
             'cobramkiv_tactical_blue'                       => 'Tactical Cobalt',
             'cobramkiv_tactical_brown'                      => 'Tactical Khaki',
@@ -866,13 +691,6 @@ class PaintJob extends Alias
             'diamondbackxl_militaire_forest_green'          => 'Military Marine Blue',
             'diamondbackxl_militaire_sand'                  => 'Military Sand',
             
-            'diamondbackxl_recon_blue'                      => null,
-            'diamondbackxl_recon_green'                     => null,
-            'diamondbackxl_recon_orange'                    => null,
-            'diamondbackxl_recon_red'                       => null,
-            'diamondbackxl_recon_white'                     => null,
-            'diamondbackxl_recon_yellow'                    => null,
-            
             'diamondbackxl_tactical_blue'                   => 'Tactical Cobalt',
             'diamondbackxl_tactical_brown'                  => 'Tactical Khaki',
             'diamondbackxl_tactical_green'                  => 'Tactical Olive',
@@ -911,8 +729,6 @@ class PaintJob extends Alias
             'diamondback_militaire_forest_green'            => 'Military Marine Blue',
             'diamondback_militaire_sand'                    => 'Military Sand',
             
-            'diamondback_searchrescue_searchrescue'         => null,
-            
             'diamondback_tactical_blue'                     => 'Tactical Cobalt',
             'diamondback_tactical_brown'                    => 'Tactical Khaki',
             'diamondback_tactical_green'                    => 'Tactical Olive',
@@ -936,29 +752,13 @@ class PaintJob extends Alias
             'eagle_camo_02'                                 => 'Polar Camo',
             'eagle_camo_03'                                 => 'Urban Camo',
             
-            'eagle_cascade_blue'                            => null,
-            'eagle_cascade_green'                           => null,
-            'eagle_cascade_grey'                            => null,
-            'eagle_cascade_orange'                          => null,
-            'eagle_cascade_red'                             => null,
-            'eagle_cascade_white'                           => null,
-            'eagle_cascade_yellow'                          => null,
-            
             'eagle_crimson'                                 => 'Crimson Eagle',
-            
-            'eagle_default_01'                              => null,
-            'eagle_default_02'                              => null,
-            'eagle_default_03'                              => null,
-            'eagle_default_04'                              => null,
             
             'eagle_default_defaultpaintjob'                 => 'Default',
             
             'eagle_doublestripe_01'                         => 'Red Rail',
             'eagle_doublestripe_02'                         => 'White Rail',
             'eagle_doublestripe_03'                         => 'Orange Rail',
-            'eagle_doublestripe_51'                         => null,
-            'eagle_doublestripe_52'                         => null,
-            'eagle_doublestripe_53'                         => null,
             
             'eagle_faction1_01'                             => 'Pirate Faction Red',
             'eagle_faction1_02'                             => 'Pirate Faction Orange',
@@ -967,16 +767,7 @@ class PaintJob extends Alias
             'eagle_faction1_05'                             => 'Pirate Faction Blue',
             'eagle_faction1_06'                             => 'Pirate Faction Purple',
             
-            'eagle_flatcolour_blue'                         => null,
-            'eagle_flatcolour_green'                        => null,
-            'eagle_flatcolour_grey'                         => null,
-            'eagle_flatcolour_orange'                       => null,
-            'eagle_flatcolour_red'                          => null,
-            'eagle_flatcolour_white'                        => null,
-            'eagle_flatcolour_yellow'                       => null,
-            
             'eagle_hotrod_01'                               => 'Red Ignition',
-            'eagle_hotrod_02'                               => null,
             'eagle_hotrod_03'                               => 'Orange Ignition',
             
             'eagle_lavecon_lavecon'                         => 'Lavecon',
@@ -1014,9 +805,6 @@ class PaintJob extends Alias
             'eagle_stripe1_01'                              => 'Red Streak',
             'eagle_stripe1_02'                              => 'Blue Streak',
             'eagle_stripe1_03'                              => 'Green Streak',
-            'eagle_stripe1_blue'                            => null,
-            'eagle_stripe1_green'                           => null,
-            'eagle_stripe1_red'                             => null,
             
             'eagle_tactical_blue'                           => 'Tactical Cobalt',
             'eagle_tactical_brown'                          => 'Tactical Khaki',
@@ -1052,14 +840,6 @@ class PaintJob extends Alias
             'feddropship_mkii_faction1_05'                  => 'Pirate Faction Blue',
             'feddropship_mkii_faction1_06'                  => 'Pirate Faction Purple',
             
-            'feddropship_mkii_flatcolour_blue'              => null,
-            'feddropship_mkii_flatcolour_green'             => null,
-            'feddropship_mkii_flatcolour_grey'              => null,
-            'feddropship_mkii_flatcolour_orange'            => null,
-            'feddropship_mkii_flatcolour_red'               => null,
-            'feddropship_mkii_flatcolour_white'             => null,
-            'feddropship_mkii_flatcolour_yellow'            => null,
-            
             'feddropship_mkii_gradient2_01'                 => 'Predator Red',
             'feddropship_mkii_gradient2_02'                 => 'Predator Green',
             'feddropship_mkii_gradient2_03'                 => 'Predator Teal',
@@ -1076,8 +856,6 @@ class PaintJob extends Alias
             'feddropship_mkii_militaire_earth_yellow'       => 'Military Earth Yellow',
             'feddropship_mkii_militaire_forest_green'       => 'Military Marine Blue',
             'feddropship_mkii_militaire_sand'               => 'Military Sand',
-            
-            'feddropship_mkii_sudeep_sudeep'                => null,
             
             'feddropship_mkii_tactical_blue'                => 'Tactical Cobalt',
             'feddropship_mkii_tactical_brown'               => 'Tactical Khaki',
@@ -1175,14 +953,6 @@ class PaintJob extends Alias
             'feddropship_faction1_05'                       => 'Pirate Faction Blue',
             'feddropship_faction1_06'                       => 'Pirate Faction Purple',
             
-            'feddropship_flatcolour_blue'                   => null,
-            'feddropship_flatcolour_green'                  => null,
-            'feddropship_flatcolour_grey'                   => null,
-            'feddropship_flatcolour_orange'                 => null,
-            'feddropship_flatcolour_red'                    => null,
-            'feddropship_flatcolour_white'                  => null,
-            'feddropship_flatcolour_yellow'                 => null,
-            
             'feddropship_gradient2_01'                      => 'Predator Red',
             'feddropship_gradient2_02'                      => 'Predator Green',
             'feddropship_gradient2_03'                      => 'Predator Teal',
@@ -1227,14 +997,6 @@ class PaintJob extends Alias
             'federation_gunship_faction1_04'                => 'Pirate Faction Rose',
             'federation_gunship_faction1_05'                => 'Pirate Faction Blue',
             'federation_gunship_faction1_06'                => 'Pirate Faction Purple',
-            
-            'federation_gunship_flatcolour_blue'            => null,
-            'federation_gunship_flatcolour_green'           => null,
-            'federation_gunship_flatcolour_grey'            => null,
-            'federation_gunship_flatcolour_orange'          => null,
-            'federation_gunship_flatcolour_red'             => null,
-            'federation_gunship_flatcolour_white'           => null,
-            'federation_gunship_flatcolour_yellow'          => null,
             
             'federation_gunship_gradient2_01'               => 'Predator Red',
             'federation_gunship_gradient2_02'               => 'Predator Green',
@@ -1281,10 +1043,6 @@ class PaintJob extends Alias
         128049351 => [
             'ferdelance_blackfriday_01'                     => 'Black Friday',
             
-            'ferdelance_default_01'                         => null,
-            'ferdelance_default_02'                         => null,
-            'ferdelance_default_03'                         => null,
-            
             'ferdelance_default_defaultpaintjob'            => 'Default',
             
             'ferdelance_faction1_01'                        => 'Pirate Faction Red',
@@ -1293,14 +1051,6 @@ class PaintJob extends Alias
             'ferdelance_faction1_04'                        => 'Pirate Faction Rose',
             'ferdelance_faction1_05'                        => 'Pirate Faction Blue',
             'ferdelance_faction1_06'                        => 'Pirate Faction Purple',
-            
-            'ferdelance_flatcolour_blue'                    => null,
-            'ferdelance_flatcolour_green'                   => null,
-            'ferdelance_flatcolour_grey'                    => null,
-            'ferdelance_flatcolour_orange'                  => null,
-            'ferdelance_flatcolour_red'                     => null,
-            'ferdelance_flatcolour_white'                   => null,
-            'ferdelance_flatcolour_yellow'                  => null,
             
             'ferdelance_lavecon_lavecon'                    => 'Lavecon',
             
@@ -1344,11 +1094,6 @@ class PaintJob extends Alias
         128049261 => [
             'hauler_blackfriday_01'                         => 'Black Friday',
             
-            'hauler_default_01'                             => null,
-            'hauler_default_02'                             => null,
-            'hauler_default_03'                             => null,
-            'hauler_default_51'                             => null,
-            
             'hauler_default_defaultpaintjob'                => 'Default',
             
             'hauler_doublestripe_01'                        => 'Blue Terrain',
@@ -1361,14 +1106,6 @@ class PaintJob extends Alias
             'hauler_faction1_04'                            => 'Pirate Faction Rose',
             'hauler_faction1_05'                            => 'Pirate Faction Blue',
             'hauler_faction1_06'                            => 'Pirate Faction Purple',
-            
-            'hauler_flatcolour_blue'                        => null,
-            'hauler_flatcolour_green'                       => null,
-            'hauler_flatcolour_grey'                        => null,
-            'hauler_flatcolour_orange'                      => null,
-            'hauler_flatcolour_red'                         => null,
-            'hauler_flatcolour_white'                       => null,
-            'hauler_flatcolour_yellow'                      => null,
             
             'hauler_metallic_chrome'                        => 'Chrome',
             'hauler_metallic2_chrome'                       => 'Chromed',
@@ -1398,10 +1135,6 @@ class PaintJob extends Alias
             'hauler_vibrant_purple'                         => 'Vibrant Purple',
             'hauler_vibrant_red'                            => 'Vibrant Red',
             'hauler_vibrant_yellow'                         => 'Vibrant Yellow',
-            
-            'hauler_wings_01'                               => null,
-            'hauler_wings_02'                               => null,
-            'hauler_wings_03'                               => null,
         ],
 
         // Imperial Clipper
@@ -1416,14 +1149,6 @@ class PaintJob extends Alias
             'empiretrader_faction1_04'                      => 'Pirate Faction Rose',
             'empiretrader_faction1_05'                      => 'Pirate Faction Blue',
             'empiretrader_faction1_06'                      => 'Pirate Faction Purple',
-            
-            'empiretrader_flatcolour_blue'                  => null,
-            'empiretrader_flatcolour_green'                 => null,
-            'empiretrader_flatcolour_grey'                  => null,
-            'empiretrader_flatcolour_orange'                => null,
-            'empiretrader_flatcolour_red'                   => null,
-            'empiretrader_flatcolour_white'                 => null,
-            'empiretrader_flatcolour_yellow'                => null,
             
             'empiretrader_metallic_chrome'                  => 'Chrome',
             'empiretrader_metallic_gold'                    => 'Gold',
@@ -1470,8 +1195,6 @@ class PaintJob extends Alias
             'empire_courier_faction1_05'                    => 'Pirate Faction Blue',
             'empire_courier_faction1_06'                    => 'Pirate Faction Purple',
             
-            'empire_courier_furrycat_furrycat'              => null,
-            
             'empire_courier_metallic_chrome'                => 'Chrome',
             'empire_courier_metallic_gold'                  => 'Gold',
             'empire_courier_metallic2_gold'                 => 'Golden',
@@ -1508,13 +1231,6 @@ class PaintJob extends Alias
         // Imperial Cutter
         128049375 => [
             'cutter_blackfriday_01'                         => 'Black Friday',
-            
-            'cutter_camo_01'                                => null,
-            'cutter_camo_02'                                => null,
-            'cutter_camo_03'                                => null,
-            'cutter_camo_04'                                => null,
-            'cutter_camo_05'                                => null,
-            'cutter_camo_06'                                => null,
             
             'cutter_corrosive_01'                           => 'Corroded 1',
             'cutter_corrosive_02'                           => 'Corroded 2',
@@ -1579,25 +1295,7 @@ class PaintJob extends Alias
         128672138 => [
             'empire_eagle_blackfriday_01'                   => 'Black Friday',
             
-            'empire_eagle_camo_01'                          => null,
-            'empire_eagle_camo_02'                          => null,
-            'empire_eagle_camo_03'                          => null,
-            
-            'empire_eagle_crimson'                          => null,
-            
-            'empire_eagle_default_01'                       => null,
-            'empire_eagle_default_02'                       => null,
-            'empire_eagle_default_03'                       => null,
-            'empire_eagle_default_04'                       => null,
-            
             'empire_eagle_default_defaultpaintjob'          => 'Default',
-            
-            'empire_eagle_doublestripe_01'                  => null,
-            'empire_eagle_doublestripe_02'                  => null,
-            'empire_eagle_doublestripe_03'                  => null,
-            'empire_eagle_doublestripe_51'                  => null,
-            'empire_eagle_doublestripe_52'                  => null,
-            'empire_eagle_doublestripe_53'                  => null,
             
             'empire_eagle_faction1_01'                      => 'Pirate Faction Red',
             'empire_eagle_faction1_02'                      => 'Pirate Faction Orange',
@@ -1605,18 +1303,6 @@ class PaintJob extends Alias
             'empire_eagle_faction1_04'                      => 'Pirate Faction Rose',
             'empire_eagle_faction1_05'                      => 'Pirate Faction Blue',
             'empire_eagle_faction1_06'                      => 'Pirate Faction Purple',
-            
-            'empire_eagle_flatcolour_blue'                  => null,
-            'empire_eagle_flatcolour_green'                 => null,
-            'empire_eagle_flatcolour_grey'                  => null,
-            'empire_eagle_flatcolour_orange'                => null,
-            'empire_eagle_flatcolour_red'                   => null,
-            'empire_eagle_flatcolour_white'                 => null,
-            'empire_eagle_flatcolour_yellow'                => null,
-            
-            'empire_eagle_hotrod_01'                        => null,
-            'empire_eagle_hotrod_02'                        => null,
-            'empire_eagle_hotrod_03'                        => null,
             
             'empire_eagle_metallic_chrome'                  => 'Chrome',
             'empire_eagle_metallic_gold'                    => 'Gold',
@@ -1635,23 +1321,12 @@ class PaintJob extends Alias
             'empire_eagle_aerial_display_orange'            => 'Slipstream Orange',
             'empire_eagle_aerial_display_red'               => 'Slipstream Red',
             
-            'empire_eagle_stripe1_01'                       => null,
-            'empire_eagle_stripe1_02'                       => null,
-            'empire_eagle_stripe1_03'                       => null,
-            'empire_eagle_stripe1_blue'                     => null,
-            'empire_eagle_stripe1_green'                    => null,
-            'empire_eagle_stripe1_red'                      => null,
-            
             'empire_eagle_tactical_blue'                    => 'Tactical Cobalt',
             'empire_eagle_tactical_brown'                   => 'Tactical Khaki',
             'empire_eagle_tactical_green'                   => 'Tactical Olive',
             'empire_eagle_tactical_grey'                    => 'Tactical Graphite',
             'empire_eagle_tactical_red'                     => 'Tactical Crimson',
             'empire_eagle_tactical_white'                   => 'Tactical Ice',
-            
-            'empire_eagle_thirds_01'                        => null,
-            'empire_eagle_thirds_02'                        => null,
-            'empire_eagle_thirds_03'                        => null,
             
             'empire_eagle_vibrant_blue'                     => 'Vibrant Blue',
             'empire_eagle_vibrant_green'                    => 'Vibrant Green',
@@ -1666,14 +1341,6 @@ class PaintJob extends Alias
             'independant_trader_blackfriday_01'             => 'Black Friday',
             
             'independant_trader_default_defaultpaintjob'    => 'Default',
-            
-            'independant_trader_flatcolour_blue'            => null,
-            'independant_trader_flatcolour_green'           => null,
-            'independant_trader_flatcolour_grey'            => null,
-            'independant_trader_flatcolour_orange'          => null,
-            'independant_trader_flatcolour_red'             => null,
-            'independant_trader_flatcolour_white'           => null,
-            'independant_trader_flatcolour_yellow'          => null,
             
             'independant_trader_metallic_chrome'            => 'Chrome',
             'independant_trader_metallic2_chrome'           => 'Chromed',
@@ -1728,14 +1395,6 @@ class PaintJob extends Alias
             'orca_ember_orange'                             => 'Ember Orange',
             'orca_ember_blue'                               => 'Ember Blue',
             
-            'orca_flatcolour_blue'                          => null,
-            'orca_flatcolour_green'                         => null,
-            'orca_flatcolour_grey'                          => null,
-            'orca_flatcolour_orange'                        => null,
-            'orca_flatcolour_red'                           => null,
-            'orca_flatcolour_white'                         => null,
-            'orca_flatcolour_yellow'                        => null,
-            
             'orca_metallic_chrome'                          => 'Chrome',
             'orca_metallic_gold'                            => 'Gold',
             
@@ -1788,14 +1447,6 @@ class PaintJob extends Alias
             'python_faction1_05'                            => 'Pirate Faction Blue',
             'python_faction1_06'                            => 'Pirate Faction Purple',
             
-            'python_flatcolour_blue'                        => null,
-            'python_flatcolour_green'                       => null,
-            'python_flatcolour_grey'                        => null,
-            'python_flatcolour_orange'                      => null,
-            'python_flatcolour_red'                         => null,
-            'python_flatcolour_white'                       => null,
-            'python_flatcolour_yellow'                      => null,
-            
             'python_gradient2_01'                           => 'Predator Red',
             'python_gradient2_02'                           => 'Predator Green',
             'python_gradient2_03'                           => 'Predator Teal',
@@ -1825,8 +1476,6 @@ class PaintJob extends Alias
             'python_militaire_forest_green'                 => 'Militray Marine Blue',
             'python_militaire_sand'                         => 'Military Sand',
             
-            'python_searchrescue_searchrescue'              => null,
-            
             'python_squadron_black'                         => 'Squadron Shadow',
             'python_squadron_blue'                          => 'Squadron Blue',
             'python_squadron_gold'                          => 'Squadron Black',
@@ -1854,34 +1503,19 @@ class PaintJob extends Alias
 
         // Sidewinder
         128049249 => [
-            'sidewinder_alpha_01'                           => null,
-            
             'sidewinder_blackfriday_01'                     => 'Black Friday',
             
             'sidewinder_camo_01'                            => 'Urban Camo',
             'sidewinder_camo_02'                            => 'Polar Camo',
             'sidewinder_camo_03'                            => 'Jungle Camo',
-            'sidewinder_camo_green'                         => null,
             
-            'sidewinder_default_01'                         => null,
             'sidewinder_default_02'                         => 'Blue Colorado',
             'sidewinder_default_03'                         => 'Green Colorado',
             'sidewinder_default_04'                         => 'Red Colorado',
-            'sidewinder_default_05'                         => null,
-            'sidewinder_default_06'                         => null,
-            'sidewinder_default_07'                         => null,
-            'sidewinder_default_08'                         => null,
-            'sidewinder_default_09'                         => null,
-            'sidewinder_default_10'                         => null,
             
             'sidewinder_default_defaultpaintjob'            => 'Default',
             
-            'sidewinder_doublestripe_01'                    => null,
-            'sidewinder_doublestripe_02'                    => null,
-            'sidewinder_doublestripe_03'                    => null,
-            'sidewinder_doublestripe_04'                    => null,
             'sidewinder_doublestripe_05'                    => 'Red Sonoran',
-            'sidewinder_doublestripe_06'                    => null,
             'sidewinder_doublestripe_07'                    => 'Green Sonoran',
             'sidewinder_doublestripe_08'                    => 'Blue Sonoran',
             
@@ -1899,28 +1533,10 @@ class PaintJob extends Alias
             'sidewinder_festive_silver'                     => 'Festive Black',
             'sidewinder_festive_white'                      => 'Festive White',
             
-            'sidewinder_flatcolour_blue'                    => null,
-            'sidewinder_flatcolour_green'                   => null,
-            'sidewinder_flatcolour_grey'                    => null,
-            'sidewinder_flatcolour_orange'                  => null,
-            'sidewinder_flatcolour_red'                     => null,
-            'sidewinder_flatcolour_white'                   => null,
-            'sidewinder_flatcolour_yellow'                  => null,
-            
-            'sidewinder_gradient1_01'                       => null,
-            'sidewinder_gradient1_02'                       => null,
-            'sidewinder_gradient1_03'                       => null,
-            
             'sidewinder_hotrod_01'                          => 'Red Ignition',
-            'sidewinder_hotrod_02'                          => null,
             'sidewinder_hotrod_03'                          => 'Orange Ignition',
             
             'sidewinder_merc'                               => 'Mercenary',
-            
-            'sidewinder_mercenary_01'                       => null,
-            'sidewinder_mercenary_02'                       => null,
-            'sidewinder_mercenary_03'                       => null,
-            'sidewinder_mercenary_04'                       => null,
             
             'sidewinder_metallic_chrome'                    => 'Chrome',
             'sidewinder_metallic2_chrome'                   => 'Chromed',
@@ -1938,17 +1554,6 @@ class PaintJob extends Alias
             'sidewinder_pax_south_pax_south'                => 'PAX South',
             'sidewinder_paxprime_paxprime'                  => 'PAX Prime',
             
-            'sidewinder_qa'                                 => null,
-            'sidewinder_qa2'                                => null,
-            'sidewinder_qa2_01'                             => null,
-            'sidewinder_qa2_02'                             => null,
-            'sidewinder_qa2_03'                             => null,
-            'sidewinder_qa2_qa2'                            => null,
-            'sidewinder_qa_01'                              => null,
-            'sidewinder_qa_02'                              => null,
-            'sidewinder_qa_03'                              => null,
-            'sidewinder_qa_qa'                              => null,
-            
             'sidewinder_specialeffect_01'                   => 'Special Effect',
             
             'sidewinder_squadron_black'                     => 'Squadron Shadow',
@@ -1958,15 +1563,6 @@ class PaintJob extends Alias
             'sidewinder_squadron_orange'                    => 'Squadron Orange',
             'sidewinder_squadron_red'                       => 'Squadron Red',
             
-            'sidewinder_stripe1_01'                         => null,
-            'sidewinder_stripe1_02'                         => null,
-            'sidewinder_stripe1_03'                         => null,
-            'sidewinder_stripe1_04'                         => null,
-            'sidewinder_stripe1_05'                         => null,
-            'sidewinder_stripe1_06'                         => null,
-            'sidewinder_stripe1_07'                         => null,
-            'sidewinder_stripe1_red'                        => null,
-            
             'sidewinder_tactical_blue'                      => 'Tactical Cobalt',
             'sidewinder_tactical_brown'                     => 'Tactical Khaki',
             'sidewinder_tactical_green'                     => 'Tactical Olive',
@@ -1975,10 +1571,6 @@ class PaintJob extends Alias
             'sidewinder_tactical_white'                     => 'Tactical Ice',
             
             'sidewinder_thirds_01'                          => 'Red Mojave',
-            'sidewinder_thirds_02'                          => null,
-            'sidewinder_thirds_03'                          => null,
-            'sidewinder_thirds_04'                          => null,
-            'sidewinder_thirds_05'                          => null,
             'sidewinder_thirds_06'                          => 'Blue Mojave',
             'sidewinder_thirds_07'                          => 'Orange Mojave',
             
@@ -1997,14 +1589,6 @@ class PaintJob extends Alias
             'type6_blackfriday_01'                          => 'Black Friday',
             
             'type6_default_defaultpaintjob'                 => 'Default',
-            
-            'type6_flatcolour_blue'                         => null,
-            'type6_flatcolour_green'                        => null,
-            'type6_flatcolour_grey'                         => null,
-            'type6_flatcolour_orange'                       => null,
-            'type6_flatcolour_red'                          => null,
-            'type6_flatcolour_white'                        => null,
-            'type6_flatcolour_yellow'                       => null,
             
             'type6_foss_bluegrey'                           => 'Turbulence Blue Grey',
             'type6_foss_blueyellow'                         => 'Turbulence Blue Yellow',
@@ -2031,13 +1615,6 @@ class PaintJob extends Alias
             'type6_tactical_red'                            => 'Tactical Crimson',
             'type6_tactical_white'                          => 'Tactical Ice',
             
-            'type6_tiger_bengal'                            => null,
-            'type6_tiger_black'                             => null,
-            'type6_tiger_desert'                            => null,
-            'type6_tiger_javan'                             => null,
-            'type6_tiger_slate'                             => null,
-            'type6_tiger_white'                             => null,
-            
             'type6_vibrant_blue'                            => 'Vibrant Blue',
             'type6_vibrant_green'                           => 'Vibrant Green',
             'type6_vibrant_orange'                          => 'Vibrant Orange',
@@ -2051,14 +1628,6 @@ class PaintJob extends Alias
             'type7_blackfriday_01'                          => 'Black Friday',
             
             'type7_default_defaultpaintjob'                 => 'Default',
-            
-            'type7_flatcolour_blue'                         => null,
-            'type7_flatcolour_green'                        => null,
-            'type7_flatcolour_grey'                         => null,
-            'type7_flatcolour_orange'                       => null,
-            'type7_flatcolour_red'                          => null,
-            'type7_flatcolour_white'                        => null,
-            'type7_flatcolour_yellow'                       => null,
             
             'type7_metallic_chrome'                         => 'Chrome',
             'type7_metallic_gold'                           => 'Gold',
@@ -2089,80 +1658,7 @@ class PaintJob extends Alias
         128049333 => [
             'type9_blackfriday_01'                          => 'Black Friday',
             
-            'type9_camoblocky_01'                           => null,
-            'type9_camoblocky_02'                           => null,
-            'type9_camoblocky_03'                           => null,
-            'type9_camoblocky_04'                           => null,
-            
-            'type9_camojagged_01'                           => null,
-            'type9_camojagged_02'                           => null,
-            'type9_camojagged_03'                           => null,
-            'type9_camojagged_04'                           => null,
-            
-            'type9_camolightning_01'                        => null,
-            'type9_camolightning_02'                        => null,
-            'type9_camolightning_03'                        => null,
-            'type9_camolightning_04'                        => null,
-            
-            'type9_camorough_01'                            => null,
-            'type9_camorough_02'                            => null,
-            'type9_camorough_03'                            => null,
-            'type9_camorough_04'                            => null,
-            
-            'type9_camostripes_01'                          => null,
-            'type9_camostripes_02'                          => null,
-            'type9_camostripes_03'                          => null,
-            'type9_camostripes_04'                          => null,
-            
-            'type9_camowobble_01'                           => null,
-            'type9_camowobble_02'                           => null,
-            'type9_camowobble_03'                           => null,
-            'type9_camowobble_04'                           => null,
-            
-            'type9_cow_01'                                  => null,
-            'type9_cow_02'                                  => null,
-            'type9_cow_03'                                  => null,
-            'type9_cow_04'                                  => null,
-            
-            'type9_default_01'                              => null,
-            'type9_default_02'                              => null,
-            'type9_default_03'                              => null,
-            'type9_default_04'                              => null,
-            
             'type9_default_defaultpaintjob'                 => 'Default',
-            
-            'type9_edgelines01_01'                          => null,
-            'type9_edgelines01_02'                          => null,
-            'type9_edgelines01_03'                          => null,
-            'type9_edgelines01_04'                          => null,
-            
-            'type9_flames01_01'                             => null,
-            'type9_flames01_02'                             => null,
-            'type9_flames01_03'                             => null,
-            'type9_flames01_04'                             => null,
-            
-            'type9_flames02_01'                             => null,
-            'type9_flames02_02'                             => null,
-            'type9_flames02_03'                             => null,
-            'type9_flames02_04'                             => null,
-            
-            'type9_flatcolour_blue'                         => null,
-            'type9_flatcolour_green'                        => null,
-            'type9_flatcolour_grey'                         => null,
-            'type9_flatcolour_orange'                       => null,
-            'type9_flatcolour_red'                          => null,
-            'type9_flatcolour_white'                        => null,
-            'type9_flatcolour_yellow'                       => null,
-            
-            'type9_hazardstripes01_01'                      => null,
-            'type9_hazardstripes01_02'                      => null,
-            'type9_hazardstripes01_03'                      => null,
-            'type9_hazardstripes01_04'                      => null,
-            
-            'type9_lightning_01'                            => null,
-            'type9_lightning_02'                            => null,
-            'type9_lightning_03'                            => null,
-            'type9_lightning_04'                            => null,
             
             'type9_lavecon_lavecon'                         => 'Lavecon',
             
@@ -2183,36 +1679,6 @@ class PaintJob extends Alias
             'type9_militarystripe_red'                      => 'Military Stripe Red',
             'type9_militarystripe_yellow'                   => 'Military Stripe Yellow',
             
-            'type9_rorschach_01'                            => null,
-            'type9_rorschach_02'                            => null,
-            'type9_rorschach_03'                            => null,
-            'type9_rorschach_04'                            => null,
-            
-            'type9_scratched01_01'                          => null,
-            'type9_scratched01_02'                          => null,
-            'type9_scratched01_03'                          => null,
-            'type9_scratched01_04'                          => null,
-            
-            'type9_sections01_01'                           => null,
-            'type9_sections01_02'                           => null,
-            'type9_sections01_03'                           => null,
-            'type9_sections01_04'                           => null,
-            
-            'type9_sections02_01'                           => null,
-            'type9_sections02_02'                           => null,
-            'type9_sections02_03'                           => null,
-            'type9_sections02_04'                           => null,
-            
-            'type9_sections03_01'                           => null,
-            'type9_sections03_02'                           => null,
-            'type9_sections03_03'                           => null,
-            'type9_sections03_04'                           => null,
-            
-            'type9_sidesections01_01'                       => null,
-            'type9_sidesections01_02'                       => null,
-            'type9_sidesections01_03'                       => null,
-            'type9_sidesections01_04'                       => null,
-            
             'type9_squadron_black'                          => 'Squadron Shadow',
             'type9_squadron_blue'                           => 'Squadron Blue',
             'type9_squadron_gold'                           => 'Squadron Black',
@@ -2220,29 +1686,12 @@ class PaintJob extends Alias
             'type9_squadron_orange'                         => 'Squadron Orange',
             'type9_squadron_red'                            => 'Squadron Red',
             
-            'type9_stripe01_01'                             => null,
-            'type9_stripe01_02'                             => null,
-            'type9_stripe01_03'                             => null,
-            'type9_stripe01_04'                             => null,
-            'type9_stripe01_05'                             => null,
-            
-            'type9_stripe02_01'                             => null,
-            'type9_stripe02_02'                             => null,
-            'type9_stripe02_03'                             => null,
-            'type9_stripe02_04'                             => null,
-            'type9_stripe02_05'                             => null,
-            
             'type9_tactical_blue'                           => 'Tactical Cobalt',
             'type9_tactical_brown'                          => 'Tactical Khaki',
             'type9_tactical_green'                          => 'Tactical Olive',
             'type9_tactical_grey'                           => 'Tactical Graphite',
             'type9_tactical_red'                            => 'Tactical Crimson',
             'type9_tactical_white'                          => 'Tactical Ice',
-            
-            'type9_thinlines01_01'                          => null,
-            'type9_thinlines01_02'                          => null,
-            'type9_thinlines01_03'                          => null,
-            'type9_thinlines01_04'                          => null,
             
             'type9_vibrant_blue'                            => 'Vibrant Blue',
             'type9_vibrant_green'                           => 'Vibrant Green',
@@ -2300,10 +1749,7 @@ class PaintJob extends Alias
             'viper_corrosive_06'                            => 'Corroded 6',
             
             'viper_default_01'                              => 'Red Copperhead',
-            'viper_default_02'                              => null,
             'viper_default_03'                              => 'Orange Copperhead',
-            'viper_default_04'                              => null,
-            'viper_default_05'                              => null,
             
             'viper_default_defaultpaintjob'                 => 'Default',
             
@@ -2335,24 +1781,7 @@ class PaintJob extends Alias
             'viper_flag_uk_01'                              => 'Union Jack Flag',
             'viper_flag_usa_01'                             => 'Stars & Stripes Flag',
             
-            'viper_flatcolour_blue'                         => null,
-            'viper_flatcolour_green'                        => null,
-            'viper_flatcolour_grey'                         => null,
-            'viper_flatcolour_orange'                       => null,
-            'viper_flatcolour_red'                          => null,
-            'viper_flatcolour_white'                        => null,
-            'viper_flatcolour_yellow'                       => null,
-            
-            'viper_kickstartermc'                           => null,
-            'viper_kickstartermcv2'                         => null,
-            'viper_kickstartermcv2_kickstartermcv2'         => null,
-            
             'viper_merc'                                    => 'Mercenary',
-            
-            'viper_mercenary_01'                            => null,
-            'viper_mercenary_02'                            => null,
-            'viper_mercenary_03'                            => null,
-            'viper_mercenary_04'                            => null,
             
             'viper_metallic_chrome'                         => 'Chrome',
             'viper_metallic2_chrome'                        => 'Chromed',
@@ -2366,13 +1795,6 @@ class PaintJob extends Alias
             'viper_militaire_forest_green'                  => 'Military Marine Blue',
             'viper_militaire_sand'                          => 'Military Sand',
             
-            'viper_shockwave_01'                            => null,
-            'viper_shockwave_02'                            => null,
-            'viper_shockwave_03'                            => null,
-            'viper_shockwave_04'                            => null,
-            'viper_shockwave_05'                            => null,
-            'viper_shockwave_06'                            => null,
-            
             'viper_squadron_black'                          => 'Squadron Shadow',
             'viper_squadron_blue'                           => 'Squadron Blue',
             'viper_squadron_gold'                           => 'Squadron Black',
@@ -2380,19 +1802,11 @@ class PaintJob extends Alias
             'viper_squadron_orange'                         => 'Squadron Orange',
             'viper_squadron_red'                            => 'Squadron Red',
             
-            'viper_stefanos_01'                             => null,
-            
             'viper_stripe1_01'                              => 'Grey Ridgenose',
             'viper_stripe1_02'                              => 'Green Ridgenose',
-            'viper_stripe1_03'                              => null,
-            'viper_stripe1_04'                              => null,
             
-            'viper_stripe2_01'                              => null,
             'viper_stripe2_02'                              => 'Blue Sidestripe',
-            'viper_stripe2_03'                              => null,
             'viper_stripe2_04'                              => 'Shadow Sidestripe',
-            'viper_stripe2_51'                              => null,
-            'viper_stripe2_52'                              => null,
             
             'viper_tactical_blue'                           => 'Tactical Cobalt',
             'viper_tactical_brown'                          => 'Tactical Khaki',
@@ -2414,12 +1828,6 @@ class PaintJob extends Alias
         // Viper MkIV
         128672255 => [
             'viper_mkiv_blackfriday_01'                     => 'Black Friday',
-            
-            'viper_mkiv_default_01'                         => null,
-            'viper_mkiv_default_02'                         => null,
-            'viper_mkiv_default_03'                         => null,
-            'viper_mkiv_default_04'                         => null,
-            'viper_mkiv_default_05'                         => null,
             
             'viper_mkiv_default_defaultpaintjob'            => 'Default',
             
@@ -2450,19 +1858,6 @@ class PaintJob extends Alias
             'viper_mkiv_flag_uk_01'                         => 'Union Jack Flag',
             'viper_mkiv_flag_usa_01'                        => 'Stars & Stripes Flag',
             
-            'viper_mkiv_flatcolour_blue'                    => null,
-            'viper_mkiv_flatcolour_green'                   => null,
-            'viper_mkiv_flatcolour_grey'                    => null,
-            'viper_mkiv_flatcolour_orange'                  => null,
-            'viper_mkiv_flatcolour_red'                     => null,
-            'viper_mkiv_flatcolour_white'                   => null,
-            'viper_mkiv_flatcolour_yellow'                  => null,
-            
-            'viper_mkiv_mercenary_01'                       => null,
-            'viper_mkiv_mercenary_02'                       => null,
-            'viper_mkiv_mercenary_03'                       => null,
-            'viper_mkiv_mercenary_04'                       => null,
-            
             'viper_mkiv_metallic_chrome'                    => 'Chrome',
             'viper_mkiv_metallic_gold'                      => 'Gold',
             'viper_mkiv_metallic2_gold'                     => 'Golden',
@@ -2474,31 +1869,12 @@ class PaintJob extends Alias
             'viper_mkiv_militaire_forest_green'             => 'Military Marine Blue',
             'viper_mkiv_militaire_sand'                     => 'Military Sand',
             
-            'viper_mkiv_shockwave_01'                       => null,
-            'viper_mkiv_shockwave_02'                       => null,
-            'viper_mkiv_shockwave_03'                       => null,
-            'viper_mkiv_shockwave_04'                       => null,
-            'viper_mkiv_shockwave_05'                       => null,
-            'viper_mkiv_shockwave_06'                       => null,
-            
             'viper_mkiv_squadron_black'                     => 'Squadron Shadow',
             'viper_mkiv_squadron_blue'                      => 'Squadron Blue',
             'viper_mkiv_squadron_gold'                      => 'Squadron Black',
             'viper_mkiv_squadron_green'                     => 'Squadron Green',
             'viper_mkiv_squadron_orange'                    => 'Squadron Orange',
             'viper_mkiv_squadron_red'                       => 'Squadron Red',
-            
-            'viper_mkiv_stripe1_01'                         => null,
-            'viper_mkiv_stripe1_02'                         => null,
-            'viper_mkiv_stripe1_03'                         => null,
-            'viper_mkiv_stripe1_04'                         => null,
-            
-            'viper_mkiv_stripe2_01'                         => null,
-            'viper_mkiv_stripe2_02'                         => null,
-            'viper_mkiv_stripe2_03'                         => null,
-            'viper_mkiv_stripe2_04'                         => null,
-            'viper_mkiv_stripe2_51'                         => null,
-            'viper_mkiv_stripe2_52'                         => null,
             
             'viper_mkiv_synth_blue'                         => 'Synth Blue',
             'viper_mkiv_synth_lime'                         => 'Synth Lime',
@@ -2536,14 +1912,6 @@ class PaintJob extends Alias
             'vulture_faction1_04'                           => 'Pirate Faction Rose',
             'vulture_faction1_05'                           => 'Pirate Faction Blue',
             'vulture_faction1_06'                           => 'Pirate Faction Purple',
-            
-            'vulture_flatcolour_blue'                       => null,
-            'vulture_flatcolour_green'                      => null,
-            'vulture_flatcolour_grey'                       => null,
-            'vulture_flatcolour_orange'                     => null,
-            'vulture_flatcolour_red'                        => null,
-            'vulture_flatcolour_white'                      => null,
-            'vulture_flatcolour_yellow'                     => null,
             
             'vulture_gamescom_gamescom'                     => 'Gamescom',
             
