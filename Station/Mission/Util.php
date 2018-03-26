@@ -22,7 +22,10 @@ class Util extends Alias
            5                                    => 'Comms Array',
            
          500                                    => 'Thargoid Scout',
-           
+         501                                    => 'Thargoid Interceptor',
+         502                                    => 'Thargoid Cyclops',
+         503                                    => 'Thargoid Basilisk',
+        
         1001                                    => 'Pirate Lord',
         1002                                    => 'Pirates',
         1003                                    => 'Sentry Skimmer',
@@ -61,6 +64,9 @@ class Util extends Alias
         'settlement_target_radar'               => 5,
         
         'factiontag_scout'                      => 500,
+        'factiontag_interceptor'                => 501,
+        'factiontag_cyclops'                    => 502,
+        'factiontag_basilisk'                   => 503,
         
         'factiontag_piratelord'                 => 1001,
         'factiontag_pirate'                     => 1002,

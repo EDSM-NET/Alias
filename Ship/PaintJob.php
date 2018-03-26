@@ -1255,6 +1255,13 @@ class PaintJob extends Alias
             'cutter_fullmetal_malachite'                    => 'Galvanized Malachite',
             'cutter_fullmetal_paladium'                     => 'Galvanized Paladium',
             
+            'cutter_gradient2_blue'                         => 'Predator Blue',
+            'cutter_gradient2_crimson'                      => 'Predator Crimson',
+            'cutter_gradient2_green'                        => 'Predator Green',
+            'cutter_gradient2_lime'                         => 'Predator Lime',
+            'cutter_gradient2_red'                          => 'Predator Red',
+            'cutter_gradient2_teal'                         => 'Predator Teal',
+            
             'cutter_lavecon_lavecon'                        => 'Lavecon',
             
             'cutter_luminous_stripe_ver2_01'                => 'Pulse White',

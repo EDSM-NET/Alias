@@ -274,13 +274,16 @@ class Type extends Alias
         1153                                => 'Political Statement',
         1154                                => 'Contract Hit',
         1155                                => 'Extrajudicial Termination Order',
+        1156                                => 'Biohazard Target',
         
         1181                                => 'Remove %targetType%: %target%',
         1182                                => 'Destroy the ruthless %targetType%: %target%',
         1183                                => 'Surface hunt for %targetType%: %target%',
         1184                                => 'Explain the danger of the void to %targetType%: %target%',
         1185                                => 'Take down %targetType%: %target%',
+        1194                                => 'Take out P%targetType%: %target%',
         
+        // Smuggle Missions
         1201                                => 'Smuggle %commodityCount% units of %commodity%',
         1202                                => 'Smuggle %commodityCount% units of %commodity% to combat famine',
         1203                                => 'Federal Navy covert transportation mission',
@@ -289,6 +292,7 @@ class Type extends Alias
         1206                                => 'Smuggle %commodityCount% units of %commodity% for the fun of it',
         1207                                => 'Support security by smuggling %commodityCount% units of %commodity%',
         1208                                => 'Smuggle %commodityCount% units of %commodity% to support outbreak operations',
+        1209                                => 'Imperial Navy covert transportation mission',
         
         1251                                => 'Special transport contract opportunity',
         1252                                => 'Covert transportation opportunity',
@@ -322,6 +326,8 @@ class Type extends Alias
         1504                                => 'Steal %commodityCount% units of %commodity%',
         1505                                => 'Deprive their owners of %commodityCount% units of %commodity%',
         1506                                => 'Filch %commodityCount% units of %commodity%',
+        1507                                => 'Requisition %commodityCount% units of %commodity%',
+        1508                                => 'Quickly appropriate %commodityCount% units of %commodity%',
         
         1551                                => 'Covert acquisition contract available',
         1552                                => 'Civil war acquisition contract',
@@ -400,6 +406,10 @@ class Type extends Alias
         3008                                => 'Deliver %commodityCount% units of %commodity%',
         3009                                => 'Assassinate %targetType%: %target%',
         3010                                => 'Transport %passengerName%',
+        3011                                => 'Assassinate %targetType%: %target%',
+        3012                                => 'Liberate %commodityCount% %commodity%',
+        3013                                => 'Liberate %commodityCount% %commodity%',
+        3014                                => 'Assassinate %targetType%: %target%',
     ];
     
     /**
@@ -663,12 +673,14 @@ class Type extends Alias
         'mission_assassinate_illegal_blops_election'        => 1153,
         'mission_assassinate_illegal_blops_theocracy'       => 1154,
         'mission_assassinate_illegal_blops_famine'          => 1155,
+        'mission_assassinate_illegal_blops_outbreak'        => 1156,
         
         'mission_assassinate_illegal_founder_hightech'      => 1181,
         'mission_assassinate_illegal_founder_war'           => 1182,
         'mission_assassinate_illegal_planetary'             => 1183,
         'mission_assassinate_illegal_civilunrest'           => 1184,
         'mission_assassinate_illegal_outbreak'              => 1185,
+        'mission_assassinate_illegal_lockdown'              => 1194,
         
         'mission_smuggle'                                   => 1201,
         'mission_smuggle_famine'                            => 1202,
@@ -678,6 +690,7 @@ class Type extends Alias
         'mission_smuggle_anarchy'                           => 1206,
         'mission_smuggle_lockdown'                          => 1207,
         'mission_smuggle_outbreak'                          => 1208,
+        'mission_smuggle_rankemp'                           => 1209,
         
         'mission_smuggle_blops'                             => 1251,
         'mission_smuggle_blops_extraction'                  => 1252,
@@ -709,6 +722,8 @@ class Type extends Alias
         'mission_piracy_anarchy'                            => 1504,
         'mission_piracy_civilwar'                           => 1505,
         'mission_piracy_war'                                => 1506,
+        'mission_piracy_outbreak'                           => 1507,
+        'mission_piracy_bust'                               => 1508,
         
         'mission_piracy_blops'                              => 1551,
         'mission_piracy_blops_civilwar'                     => 1552,
@@ -787,5 +802,9 @@ class Type extends Alias
         'chain_miningtoorder'                               => 3008,
         'chain_findthepiratelord'                           => 3009,
         'chain_safetravelling'                              => 3010,
+        'chain_salvagejustice_personaleffects'              => 3011,
+        'chain_rescuethewares'                              => 3012,
+        'chain_rescuefromthetwins'                          => 3013,
+        'chain_rampantleadership'                           => 3014,
     ];
 }

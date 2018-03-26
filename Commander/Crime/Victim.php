@@ -33,6 +33,7 @@ class Victim extends Alias
          55     => 'Cargo Bay',
          56     => 'Automated Defence Turret',
          57     => 'Defence System Generator',
+         58     => 'Automated Defence Turret',
         
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
@@ -85,6 +86,7 @@ class Victim extends Alias
         'mega_cargobay_recessed'                => 55,
         'mega_turretplatformb'                  => 56,
         'mega_generator_large'                  => 57,
+        'mega_defences_name'                    => 58,
         
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,
