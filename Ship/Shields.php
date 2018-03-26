@@ -12,7 +12,7 @@ use         EDSM\Alias;
 class Shields extends Alias
 {
     static protected $defaultName       = null;
-    static protected $unit              = '%1$s ly';
+    static protected $unit              = '%1$s MJ';
     
     /**
      * Boost speed by ship
