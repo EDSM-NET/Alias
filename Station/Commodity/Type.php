@@ -66,7 +66,7 @@ class Type extends Alias
          229        => 'Ultra-Compact Processor Prototypes',
          230        => 'Personal Gifts',
          231        => "Shan's Charis Orchid",
-         232        => 'Ophiuchi Exino Artefacts',
+         232        => 'Ophiuch Exino Artefacts',
          233        => 'Bucky Ball Beer Mats',
          
         // Legal Drugs (3)
@@ -75,7 +75,7 @@ class Type extends Alias
          303        => 'Narcotics',
          304        => 'Tobacco',
          305        => 'Wine',
-         306        => 'Eranin Pearl Whiskey',
+         306        => 'Eranin Pearl Whisky',
          307        => 'Lucan Onion Head',
          308        => 'Motrona Experience Jelly',
          309        => 'Onion Head',

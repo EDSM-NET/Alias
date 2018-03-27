@@ -11,7 +11,7 @@ use         EDSM\Alias;
 
 class Mass extends Alias
 {
-    static protected $defaultName       = 0;
+    static protected $defaultName       = null;
     static protected $representation    = 'Mass';
     static protected $unit              = '%1$s t';
     
@@ -20,186 +20,217 @@ class Mass extends Alias
      */
     static protected $name  = [
         // Bulkhead > Adder
+             1  => 0,
              2  => 3,
              3  => 5,
              4  => 5,
              5  => 5,
         
         // Bulkhead > Anaconda
+            11  => 0,
             12  => 30,
             13  => 60,
             14  => 60,
             15  => 60,
         
         // Bulkhead > Asp Explorer
+            21  => 0,
             22  => 21,
             23  => 42,
             24  => 42,
             25  => 42,
         
         // Bulkhead > Asp Scout
+            31  => 0,
             32  => 21,
             33  => 42,
             34  => 42,
             35  => 42,
         
         // Bulkhead > Beluga Liner
+            41  => 0,
             42  => 83,
             43  => 165,
             44  => 165,
             45  => 165,
         
         // Bulkhead > Cobra MkIII
+            51  => 0,
             52  => 14,
             53  => 27,
             54  => 27,
             55  => 27,
         
         // Bulkhead > Cobra MkIV
+            61  => 0,
             62  => 14,
             63  => 27,
             64  => 27,
             65  => 27,
         
         // Bulkhead > Diamondback Explorer
+            71  => 0,
             72  => 23,
             73  => 47,
             74  => 47,
             75  => 47,
         
         // Bulkhead > Diamondback Scout
+            81  => 0,
             82  => 13,
             83  => 26,
             84  => 26,
             85  => 26,
         
         // Bulkhead > Dolphin
+            91  => 0,
             92  => 32,
             93  => 63,
             94  => 63,
             95  => 63,
         
         // Bulkhead > Eagle
+           101  => 0,
            102  => 4,
            103  => 8,
            104  => 8,
            105  => 8,
         
         // Bulkhead > Federal Assault Ship
+           111  => 0,
            112  => 44,
            113  => 87,
            114  => 87,
            115  => 87,
         
         // Bulkhead > Federal Corvette
+           121  => 0,
            122  => 30,
            123  => 60,
            124  => 60,
            125  => 60,
         
         // Bulkhead > Federal Dropship
+           131  => 0,
            132  => 44,
            133  => 87,
            134  => 87,
            135  => 87,
         
         // Bulkhead > Federal Gunship
+           141  => 0,
            142  => 44,
            143  => 87,
            144  => 87,
            145  => 87,
         
         // Bulkhead > Fer-de-Lance
+           151  => 0,
            152  => 19,
            153  => 38,
            154  => 38,
            155  => 38,
         
         // Bulkhead > Hauler
+           161  => 0,
            162  => 1,
            163  => 2,
            164  => 2,
            165  => 2,
         
         // Bulkhead > Imperial Clipper
+           171  => 0,
            172  => 30,
            173  => 60,
            174  => 60,
            175  => 60,
         
         // Bulkhead > Imperial Courrier
+           181  => 0,
            182  => 4,
            183  => 8,
            184  => 8,
            185  => 8,
         
         // Bulkhead > Imperial Cutter
+           191  => 0,
            192  => 30,
            193  => 60,
            194  => 60,
            195  => 60,
         
         // Bulkhead > Imperial Eagle
+           201  => 0,
            202  => 4,
            203  => 8,
            204  => 8,
            205  => 8,
         
         // Bulkhead > Keelback
+           211  => 0,
            212  => 12,
            213  => 23,
            214  => 23,
            215  => 23,
         
         // Bulkhead > Orca
+           221  => 0,
            222  => 21,
            223  => 87,
            224  => 87,
            225  => 87,
         
         // Bulkhead > Python
+           231  => 0,
            232  => 26,
            233  => 53,
            234  => 53,
            235  => 53,
         
         // Bulkhead > Sidewinder
+           241  => 0,
            242  => 2,
            243  => 4,
            244  => 4,
            245  => 4,
         
         // Bulkhead > Type-6 Transporter
+           251  => 0,
            252  => 12,
            253  => 23,
            254  => 23,
            255  => 23,
         
         // Bulkhead > Type-7 Transporter
+           261  => 0,
            262  => 32,
            263  => 63,
            264  => 63,
            265  => 63,
         
         // Bulkhead > Type-9 Heavy
+           271  => 0,
            272  => 75,
            273  => 150,
            274  => 150,
            275  => 150,
         
         // Bulkhead > Viper MkIII
+           281  => 0,
            282  => 5,
            283  => 9,
            284  => 9,
            285  => 9,
         
         // Bulkhead > Viper MkIV
+           291  => 0,
            292  => 5,
            293  => 9,
            294  => 9,
            295  => 9,
         
         // Bulkhead > Vulture
+           301  => 0,
            302  => 17,
            303  => 35,
            304  => 35,

@@ -32,6 +32,11 @@ class Type extends Alias
         
         31                          => 'System ATR',
         32                          => 'Federal ATR',
+        33                          => 'Imperial ATR',
+        
+        41                          => 'Wedding Barge',
+        
+        51                          => 'Search And Rescue Patrol',
     ];
     
     /**
@@ -61,5 +66,10 @@ class Type extends Alias
         
         'atr_independent'               => 31,
         'atr_federation'                => 32,
+        'atr_empire'                    => 33,
+        
+        'passengerliner_wedding'        => 41,
+        
+        'searchandrescue'               => 51,
     ];
 }

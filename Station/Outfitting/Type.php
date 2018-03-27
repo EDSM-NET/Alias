@@ -414,6 +414,7 @@ class Type extends Alias
         // Weapon Hardpoint > Shock Cannon
           1852  => 'Shock Cannon (Fixed)',
           1856  => 'Shock Cannon (Gimbal)',
+          1860  => 'Shock Cannon (Turret)',
         
         // Weapon Hardpoint > Enzyme Missile Rack
           1872  => 'Enzyme Missile Rack (Fixed)',
@@ -1699,6 +1700,8 @@ class Type extends Alias
         'hpt_plasmashockcannon_fixed_medium'            => 1852,
         
         'hpt_plasmashockcannon_gimbal_medium'           => 1856,
+        
+        'hpt_plasmashockcannon_turret_medium'           => 1860,
         
         // Weapon Hardpoint > Enzyme Missile Rack
         'hpt_causticmissile_fixed_medium'               => 1872,

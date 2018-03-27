@@ -196,6 +196,7 @@ class Type extends Alias
          806                                => 'Obliterate the %target% main flux power grid',
          
          851                                => 'Discreet Power Failure Required',
+         853                                => 'Covert assault contract',
          854                                => 'Black operations surface engagement',
          
          901                                => 'Mine %commodityCount% units of %commodity%',
@@ -312,8 +313,10 @@ class Type extends Alias
         
         1351                                => 'Covert data retrieval assignment',
         1352                                => 'Tactical data acquisition',
+        1353                                => 'Strategic data hack operation',
         1354                                => 'Agitator data contract',
         1355                                => 'Expansion data retrieval',
+        1356                                => 'Security data extraction',
         
         1401                                => '%passengerName% wants to go to %expeditionDest% and collect data',
         1402                                => '%passengerName% wants to go to %expeditionDest% and collect data',
@@ -328,6 +331,7 @@ class Type extends Alias
         1506                                => 'Filch %commodityCount% units of %commodity%',
         1507                                => 'Requisition %commodityCount% units of %commodity%',
         1508                                => 'Quickly appropriate %commodityCount% units of %commodity%',
+        1509                                => 'Pilfer %commodityCount% units of %commodity%',
         
         1551                                => 'Covert acquisition contract available',
         1552                                => 'Civil war acquisition contract',
@@ -410,6 +414,7 @@ class Type extends Alias
         3012                                => 'Liberate %commodityCount% %commodity%',
         3013                                => 'Liberate %commodityCount% %commodity%',
         3014                                => 'Assassinate %targetType%: %target%',
+        3015                                => 'Deliver %commodityCount% units of %commodity%',
     ];
     
     /**
@@ -598,6 +603,7 @@ class Type extends Alias
         'mission_disable_expansion'                         => 806,
         
         'mission_disable_blops'                             => 851,
+        'mission_disable_blops_war'                         => 853,
         'mission_disable_blops_civilwar'                    => 854,
         
         'mission_mining'                                    => 901,
@@ -709,8 +715,10 @@ class Type extends Alias
         
         'mission_hack_blops'                                => 1351,
         'mission_hack_blops_civilwar'                       => 1352,
+        'mission_hack_blops_war'                            => 1353,
         'mission_hack_blops_civilunrest'                    => 1354,
         'mission_hack_blops_expansion'                      => 1355,
+        'mission_hack_blops_lockdown'                       => 1356,
         
         'mission_longdistanceexpedition'                    => 1401,
         'mission_longdistanceexpedition_explorer_boom'      => 1402,
@@ -724,6 +732,7 @@ class Type extends Alias
         'mission_piracy_war'                                => 1506,
         'mission_piracy_outbreak'                           => 1507,
         'mission_piracy_bust'                               => 1508,
+        'mission_piracy_famine'                             => 1509,
         
         'mission_piracy_blops'                              => 1551,
         'mission_piracy_blops_civilwar'                     => 1552,
@@ -806,5 +815,6 @@ class Type extends Alias
         'chain_rescuethewares'                              => 3012,
         'chain_rescuefromthetwins'                          => 3013,
         'chain_rampantleadership'                           => 3014,
+        'chain_clearingthepath'                             => 3015,
     ];
 }

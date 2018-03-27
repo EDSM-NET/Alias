@@ -160,6 +160,7 @@ class Category extends Alias
             'Shock Cannon'                      => [
                 1852,
                 1856,
+                1860,
             ],
             'Enzyme Missile Rack'               => [
                 1872,

@@ -34,6 +34,7 @@ class Victim extends Alias
          56     => 'Automated Defence Turret',
          57     => 'Defence System Generator',
          58     => 'Automated Defence Turret',
+         59     => 'Defence System Generator',
         
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
@@ -54,6 +55,10 @@ class Victim extends Alias
         222     => 'System Defence Fighter',
         223     => 'Imperial Navy Fighter',
         
+        231     => 'Federal ATR',
+        232     => 'System ATR',
+        233     => 'Imperial ATR',
+        
         301     => 'Wedding Barge',
         302     => 'Cruise Ship',
         
@@ -66,6 +71,9 @@ class Victim extends Alias
      * Every aliases are sanitized before matching
      *     => trim
      *     => strtolower
+     *     => str_replace(;)
+     *     => str_replace($shipname_)
+     *     => str_replace(_name)
      */
     static protected $alias = [
         'poi_generator'                         => 1,
@@ -86,7 +94,8 @@ class Victim extends Alias
         'mega_cargobay_recessed'                => 55,
         'mega_turretplatformb'                  => 56,
         'mega_generator_large'                  => 57,
-        'mega_defences_name'                    => 58,
+        'mega_defences'                         => 58,
+        'mega_generator'                        => 59,
         
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,
@@ -106,6 +115,10 @@ class Victim extends Alias
         'militaryfighter_federation'            => 221,
         'militaryfighter_independent'           => 222,
         'militaryfighter_empire'                => 223,
+        
+        'atr_federation'                        => 231,
+        'atr_independent'                       => 232,
+        'atr_empire'                            => 233,
         
         'passengerliner_wedding'                => 301,
         'passengerliner_cruise'                 => 302,
