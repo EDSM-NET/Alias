@@ -28,7 +28,8 @@ class Material extends Alias
      * List of limits override
      */
     static protected $maxOverride   = [
-        
+        1                               => 150,
+        51                              => 150,
     ];
     
     /**
@@ -246,7 +247,7 @@ class Material extends Alias
      * List of grades per data
      */
     static protected $grade     = [
-         1  => 4,
+         1  => 5,
          2  => 2,
          3  => 1,
          4  => 5,
@@ -296,7 +297,7 @@ class Material extends Alias
         48  => 5,
         49  => 3,
         50  => 1,
-        51  => 4,
+        51  => 5,
         52  => 4,
         53  => 3,
         54  => 4,

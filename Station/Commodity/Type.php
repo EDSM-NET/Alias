@@ -394,6 +394,8 @@ class Type extends Alias
         1661        => 'Mysterious Idol',
         1662        => 'Space Pioneer Relics',
         1663        => 'Time Capsule',
+        1664        => 'Fertiliser',
+        1665        => 'Insectoid Livestock',
         
         1800        => 'Thargoid Cyclops Tissue Sample',
         1801        => 'Thargoid Heart',
@@ -811,6 +813,8 @@ class Type extends Alias
         'mysteriousidol'                        => 1661,
         'spacepioneerrelics'                    => 1662,
         'timecapsule'                           => 1663,
+        'fertiliser'                            => 1664,
+        'insectoidmeat'                         => 1665,    'insectoidlivestock'            => 1665,
         
         'thargoidtissuesampletype1'             => 1800,
         'thargoidheart'                         => 1801,
