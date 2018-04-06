@@ -22,6 +22,8 @@ class TechnologyBroker extends Alias
          1  => 'Guardian Gauss Cannon [Fixed]',
          2  => 'Guardian Plasma Charger [Fixed]',
          3  => 'Guardian Plasma Charger [Turreted]',
+         4  => 'Guardian Shard Cannon [Fixed]',
+         5  => 'Guardian Shard Cannon [Turreted]',
          6  => 'Enzyme Missile Rack [Fixed]',
          7  => 'Remote Release Flechette Launcher [Fixed]',
          8  => 'Remote Release Flechette Launcher [Turreted]',
@@ -29,6 +31,8 @@ class TechnologyBroker extends Alias
         10  => 'Shock Cannon [Gimballed]',
         11  => 'Shock Cannon [Turreted]',
         12  => 'Guardian Power Plant',
+        13  => 'Guardian Power Distributor',
+        14  => 'Guardian FSD Booster',
         18  => 'Corrosion Resistant Cargo Rack',
         21  => 'Meta Alloy Hull Reinforcement',
     ];
@@ -44,6 +48,8 @@ class TechnologyBroker extends Alias
         'hpt_guardian_gausscannon_fixed_medium'             => 1,
         'hpt_guardian_plasmalauncher_fixed_medium'          => 2,
         'hpt_guardian_plasmalauncher_turret_medium'         => 3,
+        'hpt_guardian_shardcannon_fixed_medium'             => 4,
+        'hpt_guardian_shardcannon_turret_medium'            => 5,
         
         'hpt_causticmissile_fixed_medium'                   => 6,
         
@@ -61,6 +67,21 @@ class TechnologyBroker extends Alias
         'int_guardianpowerplant_size6'                      => 12,
         'int_guardianpowerplant_size7'                      => 12,
         'int_guardianpowerplant_size8'                      => 12,
+        
+        'int_guardianpowerdistributor_size1'                => 13,
+        'int_guardianpowerdistributor_size2'                => 13,
+        'int_guardianpowerdistributor_size3'                => 13,
+        'int_guardianpowerdistributor_size4'                => 13,
+        'int_guardianpowerdistributor_size5'                => 13,
+        'int_guardianpowerdistributor_size6'                => 13,
+        'int_guardianpowerdistributor_size7'                => 13,
+        'int_guardianpowerdistributor_size8'                => 13,
+        
+        'int_guardianfsdbooster_size1'                      => 14,
+        'int_guardianfsdbooster_size2'                      => 14,
+        'int_guardianfsdbooster_size3'                      => 14,
+        'int_guardianfsdbooster_size4'                      => 14,
+        'int_guardianfsdbooster_size5'                      => 14,
         
         'int_corrosionproofcargorack_size4_class1'          => 18,
         
@@ -107,6 +128,24 @@ class TechnologyBroker extends Alias
                 92  => 39,              // Guardian Sentinel Weapon Parts   * 39
                 11  => 33,              // Chromium                         * 33
             'c616'  => 10,              // Articulation Motors              * 10
+        ],
+        
+        // Guardian Shard Cannon [Fixed]
+         4  => [
+                88  => 36,              // Guardian Technology Component    * 36
+             'd44'  => 8,               // Guardian Weapon Blueprint Segment * 8
+                91  => 40,              // Guardian Sentinel Wreckage Components * 40
+                 6  => 35,              // Carbon                           * 35
+            'c621'  => 12,              // Power Transfer Bus               * 12
+        ],
+        
+        // Guardian Shard Cannon [Turreted]
+         5  => [
+                91  => 28,              // Guardian Sentinel Wreckage Components * 28
+                88  => 40,              // Guardian Technology Component    * 40
+             'd44'  => 10,              // Guardian Weapon Blueprint Segment * 10
+                 6  => 30,              // Carbon                           * 30
+            'c1117' => 12,              // Micro Controllers                * 12
         ],
         
         // Enzyme Missile Rack [Fixed]
@@ -170,6 +209,24 @@ class TechnologyBroker extends Alias
              'd25'  => 42,              // Pattern Epsilon Obelisk Data     * 42
                 31  => 30,              // Heat Resistant Ceramics          * 30
             'c620'  => 10,              // Energy Grid Assembly             * 10
+        ],
+        
+        // Guardian Power Distributor
+        13  => [
+             'd45'  => 4,               // Guardian Module Blueprint Segment * 4
+             'd22'  => 27,              // Pattern Alpha Obelisk Data       * 27
+                90  => 45,              // Guardian Power Cell              * 45
+                49  => 36,              // Phase Alloys                     * 36
+            'c625'  => 6,               // Heatsink Interlink               * 6
+        ],
+        
+        // Guardian FSD Booster
+        14  => [
+             'd45'  => 8,               // Guardian Module Blueprint Segment * 8
+                90  => 42,              // Guardian Power Cell              * 42
+                88  => 42,              // Guardian Technology Component    * 42
+                24  => 24,              // Focus Crystals                   * 24
+            'c617'  => 8,               // HN Shock Mount                   * 8
         ],
         
         // Corrosion Resistant Cargo Rack
