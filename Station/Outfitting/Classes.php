@@ -773,6 +773,17 @@ class Classes extends Alias
         // Core Internal > Planetary Approach Suite
           3701  => 1,
         
+        // Core Internal > Frame Shift Drive Booster
+          3801  => 1,
+        
+          3811  => 2,
+        
+          3821  => 3,
+        
+          3831  => 4,
+        
+          3841  => 5,
+        
         // Optional Internal > Discovery Scanner
           4001  => 1,
           4002  => 1,

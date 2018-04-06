@@ -54,6 +54,7 @@ class Victim extends Alias
         221     => 'Federal Navy Fighter',
         222     => 'System Defence Fighter',
         223     => 'Imperial Navy Fighter',
+        224     => 'Alliance Defence Fighter',
         
         231     => 'Federal ATR',
         232     => 'System ATR',
@@ -115,6 +116,7 @@ class Victim extends Alias
         'militaryfighter_federation'            => 221,
         'militaryfighter_independent'           => 222,
         'militaryfighter_empire'                => 223,
+        'militaryfighter_alliance'              => 224,
         
         'atr_federation'                        => 231,
         'atr_independent'                       => 232,

@@ -266,6 +266,13 @@ class Category extends Alias
             'Planetary Approach Suite'          => [
                 3701,
             ],
+            'Frame Shift Drive Booster'         => [
+                3801,
+                3811,
+                3821,
+                3831,
+                3841,
+            ],
         ],
         
         // Optional Internal

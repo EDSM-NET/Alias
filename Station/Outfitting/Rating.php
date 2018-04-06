@@ -774,6 +774,17 @@ class Rating extends Alias
         // Core Internal > Planetary Approach Suite
           3701  => 'I',
         
+        // Core Internal > Frame Shift Drive Booster
+          3801  => 'H',
+        
+          3811  => 'H',
+        
+          3821  => 'H',
+        
+          3831  => 'H',
+        
+          3841  => 'H',
+        
         // Optional Internal > Discovery Scanner
           4001  => 'E',
           4002  => 'D',
