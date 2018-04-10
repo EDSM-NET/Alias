@@ -418,6 +418,10 @@ class Type extends Alias
         
         // Weapon Hardpoint > Enzyme Missile Rack
           1872  => 'Enzyme Missile Rack (Fixed)',
+        
+        // Weapon Hardpoint > Shard Cannon
+          1922  => 'Shard Cannon (Fixed, Guardian)',
+          1930  => 'Shard Cannon (Turret, Guardian)',
           
         // Utility Mount > Shield Booster
           2001  => 'Shield Booster',
@@ -482,7 +486,7 @@ class Type extends Alias
           3104  => 'Power Plant',
           3105  => 'Power Plant',
           
-          3109  => 'Guardian Hybrid Power Plant',
+          3109  => 'Hybrid Power Plant (Guardian)',
         
           3111  => 'Power Plant',
           3112  => 'Power Plant',
@@ -490,7 +494,7 @@ class Type extends Alias
           3114  => 'Power Plant',
           3115  => 'Power Plant',
           
-          3119  => 'Guardian Hybrid Power Plant',
+          3119  => 'Hybrid Power Plant (Guardian)',
         
           3121  => 'Power Plant',
           3122  => 'Power Plant',
@@ -498,7 +502,7 @@ class Type extends Alias
           3124  => 'Power Plant',
           3125  => 'Power Plant',
           
-          3129  => 'Guardian Hybrid Power Plant',
+          3129  => 'Hybrid Power Plant (Guardian)',
         
           3131  => 'Power Plant',
           3132  => 'Power Plant',
@@ -506,7 +510,7 @@ class Type extends Alias
           3134  => 'Power Plant',
           3135  => 'Power Plant',
           
-          3139  => 'Guardian Hybrid Power Plant',
+          3139  => 'Hybrid Power Plant (Guardian)',
         
           3141  => 'Power Plant',
           3142  => 'Power Plant',
@@ -514,7 +518,7 @@ class Type extends Alias
           3144  => 'Power Plant',
           3145  => 'Power Plant',
           
-          3149  => 'Guardian Hybrid Power Plant',
+          3149  => 'Hybrid Power Plant (Guardian)',
         
           3151  => 'Power Plant',
           3152  => 'Power Plant',
@@ -522,7 +526,7 @@ class Type extends Alias
           3154  => 'Power Plant',
           3155  => 'Power Plant',
           
-          3159  => 'Guardian Hybrid Power Plant',
+          3159  => 'Hybrid Power Plant (Guardian)',
         
           3161  => 'Power Plant',
           3162  => 'Power Plant',
@@ -530,7 +534,7 @@ class Type extends Alias
           3164  => 'Power Plant',
           3165  => 'Power Plant',
           
-          3169  => 'Guardian Hybrid Power Plant',
+          3169  => 'Hybrid Power Plant (Guardian)',
         
         // Core Internal > Thrusters
           3201  => 'Thrusters',
@@ -675,48 +679,64 @@ class Type extends Alias
           3503  => 'Power Distributor',
           3504  => 'Power Distributor',
           3505  => 'Power Distributor',
+          
+          3509  => 'Hybrid Power Distributor (Guardian)',
         
           3511  => 'Power Distributor',
           3512  => 'Power Distributor',
           3513  => 'Power Distributor',
           3514  => 'Power Distributor',
           3515  => 'Power Distributor',
+          
+          3519  => 'Hybrid Power Distributor (Guardian)',
         
           3521  => 'Power Distributor',
           3522  => 'Power Distributor',
           3523  => 'Power Distributor',
           3524  => 'Power Distributor',
           3525  => 'Power Distributor',
+          
+          3529  => 'Hybrid Power Distributor (Guardian)',
         
           3531  => 'Power Distributor',
           3532  => 'Power Distributor',
           3533  => 'Power Distributor',
           3534  => 'Power Distributor',
           3535  => 'Power Distributor',
+          
+          3539  => 'Hybrid Power Distributor (Guardian)',
         
           3541  => 'Power Distributor',
           3542  => 'Power Distributor',
           3543  => 'Power Distributor',
           3544  => 'Power Distributor',
           3545  => 'Power Distributor',
+          
+          3549  => 'Hybrid Power Distributor (Guardian)',
         
           3551  => 'Power Distributor',
           3552  => 'Power Distributor',
           3553  => 'Power Distributor',
           3554  => 'Power Distributor',
           3555  => 'Power Distributor',
+          
+          3559  => 'Hybrid Power Distributor (Guardian)',
         
           3561  => 'Power Distributor',
           3562  => 'Power Distributor',
           3563  => 'Power Distributor',
           3564  => 'Power Distributor',
           3565  => 'Power Distributor',
+          
+          3569  => 'Hybrid Power Distributor (Guardian)',
         
           3571  => 'Power Distributor',
           3572  => 'Power Distributor',
           3573  => 'Power Distributor',
           3574  => 'Power Distributor',
           3575  => 'Power Distributor',
+          
+          3579  => 'Hybrid Power Distributor (Guardian)',
         
         // Core Internal > Sensors
           3601  => 'Sensors',
@@ -771,15 +791,15 @@ class Type extends Alias
           3701  => 'Planetary Approach Suite',
         
         // Core Internal > Frame Shift Drive Booster
-          3801  => 'Guardian FSD Booster',
+          3801  => 'FSD Booster (Guardian)',
         
-          3811  => 'Guardian FSD Booster',
+          3811  => 'FSD Booster (Guardian)',
         
-          3821  => 'Guardian FSD Booster',
+          3821  => 'FSD Booster (Guardian)',
         
-          3831  => 'Guardian FSD Booster',
+          3831  => 'FSD Booster (Guardian)',
         
-          3841  => 'Guardian FSD Booster',
+          3841  => 'FSD Booster (Guardian)',
         
         // Optional Internal > Discovery Scanner
           4001  => 'Basic Discovery Scanner',
@@ -1717,6 +1737,12 @@ class Type extends Alias
         // Weapon Hardpoint > Enzyme Missile Rack
         'hpt_causticmissile_fixed_medium'               => 1872,
         
+        // Weapon Hardpoint > Shard Cannon
+        'hpt_guardian_shardcannon_fixed_medium'         => 1922,
+        'hpt_guardian_shardcannon_turret_medium'        => 1930,
+          
+          
+        
         // Utility Mount > Shield Booster
         'hpt_shieldbooster_size0_class1'                => 2001,
         'hpt_shieldbooster_size0_class2'                => 2002,
@@ -1974,11 +2000,15 @@ class Type extends Alias
         'int_powerdistributor_size1_class4'             => 3504,
         'int_powerdistributor_size1_class5'             => 3505,
         
+        'int_guardianpowerdistributor_size1'            => 3509,
+        
         'int_powerdistributor_size2_class1'             => 3511,
         'int_powerdistributor_size2_class2'             => 3512,
         'int_powerdistributor_size2_class3'             => 3513,
         'int_powerdistributor_size2_class4'             => 3514,
         'int_powerdistributor_size2_class5'             => 3515,
+        
+        'int_guardianpowerdistributor_size2'            => 3519,
         
         'int_powerdistributor_size3_class1'             => 3521,
         'int_powerdistributor_size3_class2'             => 3522,
@@ -1986,11 +2016,15 @@ class Type extends Alias
         'int_powerdistributor_size3_class4'             => 3524,
         'int_powerdistributor_size3_class5'             => 3525,
         
+        'int_guardianpowerdistributor_size3'            => 3529,
+        
         'int_powerdistributor_size4_class1'             => 3531,
         'int_powerdistributor_size4_class2'             => 3532,
         'int_powerdistributor_size4_class3'             => 3533,
         'int_powerdistributor_size4_class4'             => 3534,
         'int_powerdistributor_size4_class5'             => 3535,
+        
+        'int_guardianpowerdistributor_size4'            => 3539,
         
         'int_powerdistributor_size5_class1'             => 3541,
         'int_powerdistributor_size5_class2'             => 3542,
@@ -1998,11 +2032,15 @@ class Type extends Alias
         'int_powerdistributor_size5_class4'             => 3544,
         'int_powerdistributor_size5_class5'             => 3545,
         
+        'int_guardianpowerdistributor_size5'            => 3549,
+        
         'int_powerdistributor_size6_class1'             => 3551,
         'int_powerdistributor_size6_class2'             => 3552,
         'int_powerdistributor_size6_class3'             => 3553,
         'int_powerdistributor_size6_class4'             => 3554,
         'int_powerdistributor_size6_class5'             => 3555,
+        
+        'int_guardianpowerdistributor_size6'            => 3559,
         
         'int_powerdistributor_size7_class1'             => 3561,
         'int_powerdistributor_size7_class2'             => 3562,
@@ -2010,11 +2048,15 @@ class Type extends Alias
         'int_powerdistributor_size7_class4'             => 3564,
         'int_powerdistributor_size7_class5'             => 3565,
         
+        'int_guardianpowerdistributor_size7'            => 3569,
+        
         'int_powerdistributor_size8_class1'             => 3571,
         'int_powerdistributor_size8_class2'             => 3572,
         'int_powerdistributor_size8_class3'             => 3573,
         'int_powerdistributor_size8_class4'             => 3574,
         'int_powerdistributor_size8_class5'             => 3575,
+        
+        'int_guardianpowerdistributor_size8'            => 3579,
         
         // Core Internal > Sensors
         'int_sensors_size1_class1'                      => 3601,
