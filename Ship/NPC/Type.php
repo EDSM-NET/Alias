@@ -33,6 +33,7 @@ class Type extends Alias
         31                          => 'System ATR',
         32                          => 'Federal ATR',
         33                          => 'Imperial ATR',
+        34                          => 'Allied ATR',
         
         41                          => 'Wedding Barge',
         
@@ -67,6 +68,7 @@ class Type extends Alias
         'atr_independent'               => 31,
         'atr_federation'                => 32,
         'atr_empire'                    => 33,
+        'atr_alliance'                  => 34,
         
         'passengerliner_wedding'        => 41,
         

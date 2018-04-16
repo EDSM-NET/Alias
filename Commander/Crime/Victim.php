@@ -35,11 +35,13 @@ class Victim extends Alias
          57     => 'Defence System Generator',
          58     => 'Automated Defence Turret',
          59     => 'Defence System Generator',
+         60     => 'Defence System Turret',
         
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
         103     => 'Stinger',
         104     => 'Goliath',
+        105     => 'Guardian Sentinel',
         
         201     => 'Imperial Navy Vessel',
         202     => 'System Defence Force',
@@ -59,6 +61,7 @@ class Victim extends Alias
         231     => 'Federal ATR',
         232     => 'System ATR',
         233     => 'Imperial ATR',
+        234     => 'Allied ATR',
         
         301     => 'Wedding Barge',
         302     => 'Cruise Ship',
@@ -97,11 +100,13 @@ class Victim extends Alias
         'mega_generator_large'                  => 57,
         'mega_defences'                         => 58,
         'mega_generator'                        => 59,
+        'mega_turretbunkera'                    => 60,
         
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,
         'bombskimmerdrone'                      => 103,
         'bossskimmer'                           => 104,
+        'guardian_sentinel'                     => 105,
         
         'military_empire'                       => 201,
         'military_independent'                  => 202,
@@ -121,6 +126,7 @@ class Victim extends Alias
         'atr_federation'                        => 231,
         'atr_independent'                       => 232,
         'atr_empire'                            => 233,
+        'atr_alliance'                          => 234,
         
         'passengerliner_wedding'                => 301,
         'passengerliner_cruise'                 => 302,

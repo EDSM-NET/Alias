@@ -276,6 +276,7 @@ class Type extends Alias
         1154                                => 'Contract Hit',
         1155                                => 'Extrajudicial Termination Order',
         1156                                => 'Biohazard Target',
+        1161                                => 'Firebrand Op',
         
         1181                                => 'Remove %targetType%: %target%',
         1182                                => 'Destroy the ruthless %targetType%: %target%',
@@ -350,6 +351,7 @@ class Type extends Alias
         1707                                => 'Planetary Mentor - Liberate %commodityCount% %commodity%',
         1708                                => 'Trade Mentor - Mine %commodityCount% units of %commodity%',
         1709                                => 'Planetary Mentor - Hack the %target% datalink',
+        1710                                => 'Exploration Mentor - %passengerName% seeks sightseeing adventure',
         
         1802                                => 'Salvage %commodityCount% units of %commodity% from %destinationStation%',
         1803                                => '%passengerCount% %passengerType% looking to get off the starport',
@@ -415,6 +417,7 @@ class Type extends Alias
         3013                                => 'Liberate %commodityCount% %commodity%',
         3014                                => 'Assassinate %targetType%: %target%',
         3015                                => 'Deliver %commodityCount% units of %commodity%',
+        3016                                => 'Transport %passengerName%',
     ];
     
     /**
@@ -680,6 +683,7 @@ class Type extends Alias
         'mission_assassinate_illegal_blops_theocracy'       => 1154,
         'mission_assassinate_illegal_blops_famine'          => 1155,
         'mission_assassinate_illegal_blops_outbreak'        => 1156,
+        'mission_assassinate_illegal_blops_civilunrest'     => 1161,
         
         'mission_assassinate_illegal_founder_hightech'      => 1181,
         'mission_assassinate_illegal_founder_war'           => 1182,
@@ -751,6 +755,7 @@ class Type extends Alias
         'mission_welcome_rescue'                            => 1707,
         'mission_welcome_mining'                            => 1708,
         'mission_welcome_hack'                              => 1709,
+        'mission_welcome_sightseeing'                       => 1710,
         
         'mission_ds_collect'                                => 1802,
         'mission_ds_passengerbulk'                          => 1803,
@@ -816,5 +821,6 @@ class Type extends Alias
         'chain_rescuefromthetwins'                          => 3013,
         'chain_rampantleadership'                           => 3014,
         'chain_clearingthepath'                             => 3015,
+        'chain_securingmyposition'                          => 3016,
     ];
 }
