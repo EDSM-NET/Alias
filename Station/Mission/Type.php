@@ -276,6 +276,7 @@ class Type extends Alias
         1154                                => 'Contract Hit',
         1155                                => 'Extrajudicial Termination Order',
         1156                                => 'Biohazard Target',
+        1157                                => 'Wetwork contract',
         1161                                => 'Firebrand Op',
         
         1181                                => 'Remove %targetType%: %target%',
@@ -340,6 +341,7 @@ class Type extends Alias
         1554                                => 'Covert economic acquisition',
         1555                                => 'Famine acquisition contract',
         1556                                => 'War acquisition contract',
+        1557                                => 'Outbreak acquisition contract',
         
         1601                                => 'Alien items needed %commodityCount% units of %commodity%',
         
@@ -683,6 +685,7 @@ class Type extends Alias
         'mission_assassinate_illegal_blops_theocracy'       => 1154,
         'mission_assassinate_illegal_blops_famine'          => 1155,
         'mission_assassinate_illegal_blops_outbreak'        => 1156,
+        'mission_assassinate_illegal_blops_bust'            => 1157,
         'mission_assassinate_illegal_blops_civilunrest'     => 1161,
         
         'mission_assassinate_illegal_founder_hightech'      => 1181,
@@ -744,6 +747,7 @@ class Type extends Alias
         'mission_piracy_blops_boom'                         => 1554,
         'mission_piracy_blops_famine'                       => 1555,
         'mission_piracy_blops_war'                          => 1556,
+        'mission_piracy_blops_outbreak'                     => 1557,
         
         'mission_collect_palin'                             => 1601,
         
