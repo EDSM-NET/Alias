@@ -48,24 +48,63 @@ class Engineer extends Alias
      */
     static protected $alias     = [
         'hera tani'                     => 1,
+        300090                          => 1,
+        
         'liz ryder'                     => 2,
+        300080                          => 2,
+        
         'broo tarquin'                  => 3,
+        300030                          => 3,
+        
         'tod \'the blaster\' mcquinn'   => 4,
+        300260                          => 4,
+        
         'selene jean'                   => 5,
+        300210                          => 5,
+        
         'felicity farseer'              => 6,
+        300100                          => 6,
+        
         'marco qwent'                   => 7,
+        300200                          => 7,
+        
         'professor palin'               => 8,
+        300220                          => 8,
+        
         'didi vatermann'                => 9,
+        300000                          => 9,
+        
         'the dweller'                   => 10,
+        300180                          => 10,
+        
         'colonel bris dekker'           => 11,
+        300140                          => 11,
+        
         'elvira martuuk'                => 12,
+        300160                          => 12,
+        
         'lori jameson'                  => 13,
+        300230                          => 13,
+        
         'juri ishmaak'                  => 14,
+        300250                          => 14,
+        
         'zacariah nemo'                 => 15,
+        300050                          => 15,
+        
         'the sarge'                     => 16,
+        300040                          => 16,
+        
         'lei cheung'                    => 17,
+        300120                          => 17,
+        
         'ram tah'                       => 18,
+        300110                          => 18,
+        
         'bill turner'                   => 19,
+        300010                          => 19,
+        
         'tiana fortune'                 => 20,
+        300270                          => 20,
     ];
 }
