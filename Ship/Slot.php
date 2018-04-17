@@ -33,6 +33,7 @@ class Slot extends Alias
         'mediumhardpoint2'          => 102,
         'mediumhardpoint3'          => 103,
         'mediumhardpoint4'          => 104,
+        'mediumhardpoint5'          => 105,
         
         'smallhardpoint1'           => 151,
         'smallhardpoint2'           => 152,
