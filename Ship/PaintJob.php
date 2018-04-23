@@ -896,8 +896,8 @@ class PaintJob extends Alias
             
             'federation_corvette_colourgeo2_blue'           => 'Prestige Blue',
             'federation_corvette_colourgeo2_green'          => 'Prestige Green',
-            'federation_corvette_colourgeo2_grey'           => 'Prestige Grey',
             'federation_corvette_colourgeo2_orange'         => 'Prestige Orange',
+            'federation_corvette_colourgeo2_purple'         => 'Prestige Purple',
             'federation_corvette_colourgeo2_red'            => 'Prestige Red',
             'federation_corvette_colourgeo2_yellow'         => 'Prestige Yellow',
             
