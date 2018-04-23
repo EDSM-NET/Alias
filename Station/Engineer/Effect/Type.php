@@ -138,8 +138,8 @@ class Type extends Alias
         'special_engine_haulage'                    => 24,
         'special_emissive_munitions'                => 25,
         'special_shield_regenerative'               => 26,
-        
-        
+        'special_feedback_cascade_cooled'           => 27,
+        'special_feedback_cascade'                  => 28,
         'special_powerdistributor_efficient'        => 29,
         'special_shieldcell_efficient'              => 30,
         'special_weapon_efficient'                  => 31,
@@ -187,8 +187,8 @@ class Type extends Alias
         'special_weapon_lightweight'                => 73,
         'special_shieldbooster_chunky'              => 74,
         'special_powerdistributor_fast'             => 75,
-        
-        
+        'special_super_penetrator_cooled'           => 76,
+        'special_super_penetrator'                  => 77,
         'special_lock_breaker'                      => 78,
         'special_thermal_cascade'                   => 79,
         'special_thermal_conduit'                   => 80,
