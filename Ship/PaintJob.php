@@ -177,6 +177,8 @@ class PaintJob extends Alias
             'anaconda_militaire_forest_green'               => 'Military Marine Blue',
             'anaconda_militaire_sand'                       => 'Military Sand',
             
+            'anaconda_pax_east_pax_east'                    => 'PAX East',
+            
             'anaconda_searchrescue_searchrescue'            => null,
             
             'anaconda_squadron_black'                       => 'Squadron Shadow',
@@ -252,6 +254,8 @@ class PaintJob extends Alias
             'asp_militaire_earth_yellow'                    => 'Military Earth Yellow',
             'asp_militaire_forest_green'                    => 'Military Marine Blue',
             'asp_militaire_sand'                            => 'Military Sand',
+            
+            'asp_pax_east_pax_east'                         => 'PAX East',
             
             'asp_squadron_black'                            => 'Squadron Shadow',
             'asp_squadron_blue'                             => 'Squadron Blue',
@@ -890,6 +894,13 @@ class PaintJob extends Alias
             'federation_corvette_colourgeo_red'             => 'Icarus Red',
             'federation_corvette_colourgeo_yellow'          => 'Icarus Yellow',
             
+            'federation_corvette_colourgeo2_blue'           => 'Prestige Blue',
+            'federation_corvette_colourgeo2_green'          => 'Prestige Green',
+            'federation_corvette_colourgeo2_grey'           => 'Prestige Grey',
+            'federation_corvette_colourgeo2_orange'         => 'Prestige Orange',
+            'federation_corvette_colourgeo2_red'            => 'Prestige Red',
+            'federation_corvette_colourgeo2_yellow'         => 'Prestige Yellow',
+            
             'federation_corvette_corrosive_01'              => 'Corroded 1',
             'federation_corvette_corrosive_02'              => 'Corroded 2',
             'federation_corvette_corrosive_03'              => 'Corroded 3',
@@ -1065,6 +1076,13 @@ class PaintJob extends Alias
             'ferdelance_militaire_earth_yellow'             => 'Military Earth Yellow',
             'ferdelance_militaire_forest_green'             => 'Military Marine Blue',
             'ferdelance_militaire_sand'                     => 'Military Sand',
+            
+            'ferdelance_razormetal_brass'                   => 'Razor Brass',
+            'ferdelance_razormetal_bronze'                  => 'Razor Bronze',
+            'ferdelance_razormetal_cobalt'                  => 'Razor Cobalt',
+            'ferdelance_razormetal_copper'                  => 'Razor Copper',
+            'ferdelance_razormetal_gold'                    => 'Razor Gold',
+            'ferdelance_razormetal_silver'                  => 'Razor Silver',
             
             'ferdelance_synth_blue'                         => 'Synth Blue',
             'ferdelance_synth_lime'                         => 'Synth Lime',
@@ -1482,6 +1500,15 @@ class PaintJob extends Alias
             'python_militaire_earth_yellow'                 => 'Military Earth Yellow',
             'python_militaire_forest_green'                 => 'Militray Marine Blue',
             'python_militaire_sand'                         => 'Military Sand',
+            
+            'python_militarystripe_blue'                    => 'Military Stripe Blue',
+            'python_militarystripe_green'                   => 'Military Stripe Green',
+            'python_militarystripe_orange'                  => 'Military Stripe Orange',
+            'python_militarystripe_purple'                  => 'Military Stripe Purple',
+            'python_militarystripe_red'                     => 'Military Stripe Red',
+            'python_militarystripe_yellow'                  => 'Military Stripe Yellow',
+            
+            'python_pax_east_pax_east'                      => 'PAX East',
             
             'python_squadron_black'                         => 'Squadron Shadow',
             'python_squadron_blue'                          => 'Squadron Blue',
