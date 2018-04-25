@@ -1300,7 +1300,7 @@ class Type extends Alias
           
           5961  => 'Recon Limpet Controller',
         
-        // Opyional Internal > Meta Alloy Hull Reinforcement
+        // Optional Internal > Meta Alloy Hull Reinforcement
           6001  => 'Meta Alloy Hull Reinforcement',
           6002  => 'Meta Alloy Hull Reinforcement',
         
@@ -1315,6 +1315,11 @@ class Type extends Alias
         
           6041  => 'Meta Alloy Hull Reinforcement',
           6042  => 'Meta Alloy Hull Reinforcement',
+        
+        
+        // Cargo bay door (No category, not sellable, only for ship module list)
+          9990  => 'modularcargobaydoor',
+          9991  => 'modularcargobaydoorfdl',
     ];
     
     /**
@@ -2635,5 +2640,10 @@ class Type extends Alias
         
         'int_metaalloyhullreinforcement_size5_class1'   => 6041,
         'int_metaalloyhullreinforcement_size5_class2'   => 6042,
+        
+        
+        // Cargo bay door (No category, not sellable, only for ship module list)
+        'modularcargobaydoor'                           => 9990,
+        'modularcargobaydoorfdl'                        => 9991,
     ];
 }

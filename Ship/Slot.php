@@ -60,6 +60,7 @@ class Slot extends Alias
         
          651    => 'Fuel store',
         
+         701    => 'planetaryapproachsuite',
         
         1008    => 'Internal compartment',
         
@@ -127,6 +128,8 @@ class Slot extends Alias
         2103    => 'slot11_size3',
         
         2302    => 'slot13_size2',
+        
+        9990    => 'cargohatch',
     ];
     
     /**
@@ -185,6 +188,7 @@ class Slot extends Alias
         
         'fueltank'                  => 651,
         
+        'planetaryapproachsuite'    => 701,
         
         'slot00_size8'              => 1008,
         
@@ -252,5 +256,9 @@ class Slot extends Alias
         'slot11_size3'              => 2103,
         
         'slot13_size2'              => 2302,
+        
+        
+        
+        'cargohatch'                => 9990,
     ];
 }

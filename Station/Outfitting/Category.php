@@ -416,11 +416,19 @@ class Category extends Alias
                 5841,
                 5861,
             ],
-            'Recon Limpet Controller' => [
+            'Recon Limpet Controller'           => [
                 5901,
                 5921,
                 5941,
                 5961,
+            ],
+            
+            'Meta Alloy Hull Reinforcement'     => [
+                6001, 6002,
+                6011, 6012,
+                6021, 6022,
+                6031, 6032,
+                6041, 6042,
             ],
          ],
     ];
