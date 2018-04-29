@@ -810,6 +810,8 @@ class Type extends Alias
           4011  => 'Detailed Surface Scanner',
         
         // Optional Internal > Cargo Rack
+          4020  => 'Cargo Rack', // Not in category
+          
           4021  => 'Cargo Rack',
           4022  => 'Cargo Rack',
           4023  => 'Cargo Rack',
@@ -2135,6 +2137,8 @@ class Type extends Alias
         'int_detailedsurfacescanner_tiny'               => 4011,
         
         // Optional Internal > Cargo Rack
+        'int_cargorack_size2_class1_free'               => 4020, // Not in category
+        
         'int_cargorack_size1_class1'                    => 4021,
         'int_cargorack_size2_class1'                    => 4022,
         'int_cargorack_size3_class1'                    => 4023,
