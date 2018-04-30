@@ -266,6 +266,8 @@ class Type extends Alias
      * 
      * FDev ID are used here to link the LoadOut event,
      * as different blueprints have the exact same name
+     * 
+     * 5 first are FDId, 6 is the alias name, used to replicate the LoadOut events
      */
     static protected $alias = [
         // HARDPOINT - Beam Laser
@@ -512,5 +514,255 @@ class Type extends Alias
         128673645       => 40103,       128673646       => 40103,       128673647       => 40103,       128673648       => 40103,       128673649       => 40103,
         128673630       => 40104,       128673631       => 40104,       128673632       => 40104,       128673633       => 40104,       128673634       => 40104,
         128673650       => 40105,       128673651       => 40105,       128673652       => 40105,       128673653       => 40105,       128673654       => 40105,
+    ];
+    
+    /**
+     * List of blueprint names on the LoadOut event
+     */
+    static protected $nameLoadout  = [
+        // HARDPOINT - Beam Laser
+        101     => 'weapon_efficient',
+        102     => 'weapon_lightweight',
+        103     => 'weapon_longrange',
+        104     => 'weapon_overcharged',
+        105     => 'weapon_shortrange',
+        106     => 'weapon_sturdy',
+        
+        // HARDPOINT - Burst Laser
+        201     => 'weapon_efficient',
+        202     => 'weapon_focused',
+        203     => 'weapon_lightweight',
+        204     => 'weapon_longrange',
+        205     => 'weapon_overcharged',
+        206     => 'weapon_rapidfire',
+        207     => 'weapon_shortrange',
+        208     => 'weapon_sturdy',
+        
+        // HARDPOINT - Cannon
+        301     => 'weapon_efficient',
+        302     => 'weapon_highcapacity',
+        303     => 'weapon_lightweight',
+        304     => 'weapon_longrange',
+        305     => 'weapon_overcharged',
+        306     => 'weapon_rapidfire',
+        307     => 'weapon_shortrange',
+        308     => 'weapon_sturdy',
+        
+        // HARDPOINT - Fragment Cannon
+        401     => 'weapon_doubleshot',
+        402     => 'weapon_efficient',
+        403     => 'weapon_highcapacity',
+        404     => 'weapon_lightweight',
+        405     => 'weapon_overcharged',
+        406     => 'weapon_rapidfire',
+        407     => 'weapon_sturdy',
+        
+        // HARDPOINT - Mine Launcher
+        501     => 'weapon_highcapacity',
+        502     => 'weapon_lightweight',
+        503     => 'weapon_rapidfire',
+        504     => 'weapon_sturdy',
+        
+        // HARDPOINT - Missile Rack
+        601     => 'weapon_highcapacity',
+        602     => 'weapon_lightweight',
+        603     => 'weapon_rapidfire',
+        604     => 'weapon_sturdy',
+        
+        // HARDPOINT - Multi-cannon
+        701     => 'weapon_efficient',
+        702     => 'weapon_highcapacity',
+        703     => 'weapon_lightweight',
+        704     => 'weapon_longrange',
+        705     => 'weapon_overcharged',
+        706     => 'weapon_rapidfire',
+        707     => 'weapon_shortrange',
+        708     => 'weapon_sturdy',
+
+        // HARDPOINT - Plasma Accelerator
+        801     => 'weapon_efficient',
+        802     => 'weapon_focused',
+        803     => 'weapon_lightweight',
+        804     => 'weapon_longrange',
+        805     => 'weapon_overcharged',
+        806     => 'weapon_rapidfire',
+        807     => 'weapon_shortrange',
+        808     => 'weapon_sturdy',
+
+        // HARDPOINT - Pulse Laser
+        901     => 'weapon_efficient',
+        902     => 'weapon_focused',
+        903     => 'weapon_lightweight',
+        904     => 'weapon_longrange',
+        905     => 'weapon_overcharged',
+        906     => 'weapon_rapidfire',
+        907     => 'weapon_shortrange',
+        908     => 'weapon_sturdy',
+        
+        // HARDPOINT - Rail Gun
+        1001    => 'weapon_highcapacity',
+        1002    => 'weapon_lightweight',
+        1003    => 'weapon_longrange',
+        1004    => 'weapon_shortrange',
+        1005    => 'weapon_sturdy',
+
+        // HARDPOINT - Seeker Missile Rack
+        1101    => 'weapon_highcapacity',
+        1102    => 'weapon_lightweight',
+        1103    => 'weapon_rapidfire',
+        1104    => 'weapon_sturdy',
+
+        // HARDPOINT - Torpedo Pylon
+        1201    => 'weapon_lightweight',
+        1202    => 'weapon_sturdy',
+        
+        // UTILITY MOUNT - Chaff Launcher
+        10101   => 'misc_chaffcapacity',
+        10102   => 'misc_lightweight',
+        10103   => 'misc_reinforced',
+        10104   => 'misc_shielded',
+        
+        // UTILITY MOUNT - Electronic Countermeasure
+        10201   => 'misc_lightweight',
+        10202   => 'misc_reinforced',
+        10203   => 'misc_shielded',
+        
+        // UTILITY MOUNT - Frame Shift Wake Scanner
+        10301   => 'sensor_fastscan',
+        10302   => 'misc_lightweight',
+        10303   => 'sensor_longrange',
+        10304   => 'misc_reinforced',
+        10305   => 'misc_shielded',
+        10306   => 'sensor_wideangle',
+        
+        // UTILITY MOUNT - Heat Sink Launcher
+        10401   => 'misc_heatsinkcapacity',
+        10402   => 'misc_lightweight',
+        10403   => 'misc_reinforced',
+        10404   => 'misc_shielded',
+        
+        // UTILITY MOUNT - Kill Warrant Scanner
+        10501   => 'sensor_fastscan',
+        10502   => 'misc_lightweight',
+        10503   => 'sensor_longrange',
+        10504   => 'misc_reinforced',
+        10505   => 'misc_shielded',
+        10506   => 'sensor_wideangle',
+        
+        // UTILITY MOUNT - Manifest Scanner
+        10601   => 'sensor_fastscan',
+        10602   => 'misc_lightweight',
+        10603   => 'sensor_longrange',
+        10604   => 'misc_reinforced',
+        10605   => 'misc_shielded',
+        10606   => 'sensor_wideangle',
+        
+        // UTILITY MOUNT - Point Defence
+        10701   => 'misc_pointdefensecapacity',
+        10702   => 'misc_lightweight',
+        10703   => 'misc_reinforced',
+        10704   => 'misc_shielded',
+        
+        // UTILITY MOUNT - Shield Booster
+        10801   => 'shieldbooster_explosive',
+        10802   => 'shieldbooster_heavyduty',
+        10803   => 'shieldbooster_kinetic',
+        10804   => 'shieldbooster_resistive',
+        10805   => 'shieldbooster_thermic',
+        
+        // OPTIONAL INTERNAL - Auto Field-Maintenance Unit
+        20101   => 'misc_shielded',
+        
+        // OPTIONAL INTERNAL - Collector Limpet Controller
+        20201   => 'misc_lightweight',
+        20202   => 'misc_reinforced',
+        20203   => 'misc_shielded',
+        
+        // OPTIONAL INTERNAL - Detailed Surface Scanner
+        20301   => 'sensor_fastscan',
+        20302   => 'sensor_longrange',
+        20303   => 'sensor_wideangle',
+        
+        // OPTIONAL INTERNAL - Frame Shift Drive Interdictor
+        20401   => 'fsdinterdictor_expanded',
+        20402   => 'fsdinterdictor_longrange',
+
+        // OPTIONAL INTERNAL - Fuel Scoop
+        20501   => 'misc_shielded',
+                
+        // OPTIONAL INTERNAL - Fuel Transfer Limpet Controller
+        20601   => 'misc_lightweight',
+        20602   => 'misc_reinforced',
+        20603   => 'misc_shielded',
+        
+        // OPTIONAL INTERNAL - Hatch Breaker Limpet Controller
+        20701   => 'misc_lightweight',
+        20702   => 'misc_reinforced',
+        20703   => 'misc_shielded',
+        
+        // OPTIONAL INTERNAL - Hull Reinforcement Package
+        20801   => 'hullreinforcement_explosive',
+        20802   => 'hullreinforcement_heavyduty',
+        20803   => 'hullreinforcement_kinetic',
+        20804   => 'hullreinforcement_advanced',
+        20805   => 'hullreinforcement_thermic',
+        
+        // OPTIONAL INTERNAL - Prospector Limpet Controller
+        20901   => 'misc_lightweight',
+        20902   => 'misc_reinforced',
+        20903   => 'misc_shielded',
+        
+        // OPTIONAL INTERNAL - Refinery
+        21001   => 'misc_shielded',
+        
+        // OPTIONAL INTERNAL - Shield Cell Bank
+        21101   => 'shieldcellbank_rapid',
+        21102   => 'shieldcellbank_specialised',
+        
+        // OPTIONAL INTERNAL - Shield Generator
+        21201   => 'shieldgenerator_optimised',
+        21202   => 'shieldgenerator_kinetic',
+        21203   => 'shieldgenerator_reinforced',
+        21204   => 'shieldgenerator_thermic',
+        
+        // CORE INTERNAL - Frame Shift Drive
+        30101   => 'fsd_fastboot',
+        30102   => 'fsd_longrange',
+        30103   => 'fsd_shielded',
+        
+        // CORE INTERNAL - Life Support
+        30201   => 'misc_lightweight',
+        30202   => 'misc_reinforced',
+        30203   => 'misc_shielded',
+        
+        // CORE INTERNAL - Power Distributor
+        30301   => 'powerdistributor_highfrequency',
+        30302   => 'powerdistributor_priorityengines',
+        30303   => 'powerdistributor_highcapacity',
+        30304   => 'powerdistributor_shielded',
+        30305   => 'powerdistributor_prioritysystems',
+        30306   => 'powerdistributor_priorityweapons',
+        
+        // CORE INTERNAL - Power Plant
+        30401   => 'powerplant_armoured',
+        30402   => 'powerplant_stealth',
+        30403   => 'powerplant_boosted',
+        
+        // CORE INTERNAL - Sensors
+        30501   => 'sensor_lightweight',
+        30502   => 'sensor_longrange',
+        30503   => 'sensor_wideangle',
+        
+        // CORE INTERNAL - Thrusters
+        30601   => 'engine_tuned',
+        30602   => 'engine_dirty',
+        30603   => 'engine_reinforced',
+        
+        // ARMOUR
+        40101   => 'armour_explosive',
+        40102   => 'armour_heavyduty',
+        40103   => 'armour_kinetic',
+        40104   => 'armour_advanced',
+        40105   => 'armour_thermic',
     ];
 }
