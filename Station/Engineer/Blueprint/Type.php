@@ -266,8 +266,6 @@ class Type extends Alias
      * 
      * FDev ID are used here to link the LoadOut event,
      * as different blueprints have the exact same name
-     * 
-     * 5 first are FDId, 6 is the alias name, used to replicate the LoadOut events
      */
     static protected $alias = [
         // HARDPOINT - Beam Laser
