@@ -470,6 +470,8 @@ class Type extends Alias
           2451  => 'Shutdown Field Neutraliser',
         
         // Core Internal > Fuel Tank
+          3000  => 'Fuel Tank', // Not in category
+          
           3001  => 'Fuel Tank',
           3002  => 'Fuel Tank',
           3003  => 'Fuel Tank',
@@ -1797,6 +1799,7 @@ class Type extends Alias
         'hpt_antiunknownshutdown_tiny'                  => 2451,
         
         // Core Internal > Fuel Tank
+        'int_fueltank_size1_class3_free'                => 3000, // Not in category
         'int_fueltank_size1_class3'                     => 3001,
         'int_fueltank_size2_class3'                     => 3002,
         'int_fueltank_size3_class3'                     => 3003,

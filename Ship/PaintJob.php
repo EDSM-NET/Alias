@@ -255,6 +255,13 @@ class PaintJob extends Alias
             'asp_militaire_forest_green'                    => 'Military Marine Blue',
             'asp_militaire_sand'                            => 'Military Sand',
             
+            'asp_militarystripe_blue'                       => 'Military Stripe Blue',
+            'asp_militarystripe_green'                      => 'Military Stripe Green',
+            'asp_militarystripe_orange'                     => 'Military Stripe Orange',
+            'asp_militarystripe_purple'                     => 'Military Stripe Purple',
+            'asp_militarystripe_red'                        => 'Military Stripe Red',
+            'asp_militarystripe_yellow'                     => 'Military Stripe Yellow',
+            
             'asp_pax_east_pax_east'                         => 'PAX East',
             
             'asp_squadron_black'                            => 'Squadron Shadow',
@@ -942,6 +949,13 @@ class PaintJob extends Alias
             'federation_corvette_tactical_grey'             => 'Tactical Graphite',
             'federation_corvette_tactical_red'              => 'Tactical Crimson',
             'federation_corvette_tactical_white'            => 'Tactical Ice',
+            
+            'federation_corvette_trims_blackmagenta'        => 'Precision Black',
+            'federation_corvette_trims_yellowblack'         => 'Precision Yellow',
+            'federation_corvette_trims_greyorange'          => 'Precision Graphite', // Not sure between Graphite and Grey?
+            'federation_corvette_trims_greygreen'           => 'Precision Grey',
+            'federation_corvette_trims_blueorange'          => 'Precision Blue',
+            'federation_corvette_trims_greengrey'           => 'Precision Green',
             
             'federation_corvette_vibrant_blue'              => 'Vibrant Blue',
             'federation_corvette_vibrant_green'             => 'Vibrant Green',
@@ -1937,6 +1951,13 @@ class PaintJob extends Alias
             'vulture_bartecki_bartecki'                     => 'Flash',
             
             'vulture_blackfriday_01'                        => 'Black Friday',
+            
+            'vulture_corrosive_01'                          => 'Corroded 1',
+            'vulture_corrosive_02'                          => 'Corroded 2',
+            'vulture_corrosive_03'                          => 'Corroded 3',
+            'vulture_corrosive_04'                          => 'Corroded 4',
+            'vulture_corrosive_05'                          => 'Corroded 5',
+            'vulture_corrosive_06'                          => 'Corroded 6',
             
             'vulture_default_defaultpaintjob'               => 'Default',
             
