@@ -951,11 +951,11 @@ class PaintJob extends Alias
             'federation_corvette_tactical_white'            => 'Tactical Ice',
             
             'federation_corvette_trims_blackmagenta'        => 'Precision Black',
-            'federation_corvette_trims_yellowblack'         => 'Precision Yellow',
-            'federation_corvette_trims_greyorange'          => 'Precision Graphite', // Not sure between Graphite and Grey?
-            'federation_corvette_trims_greygreen'           => 'Precision Grey',
             'federation_corvette_trims_blueorange'          => 'Precision Blue',
+            'federation_corvette_trims_greyorange'          => 'Precision Graphite',
             'federation_corvette_trims_greengrey'           => 'Precision Green',
+            'federation_corvette_trims_greygreen'           => 'Precision Grey',
+            'federation_corvette_trims_yellowblack'         => 'Precision Yellow',
             
             'federation_corvette_vibrant_blue'              => 'Vibrant Blue',
             'federation_corvette_vibrant_green'             => 'Vibrant Green',

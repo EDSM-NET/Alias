@@ -396,6 +396,8 @@ class Type extends Alias
         1663        => 'Time Capsule',
         1664        => 'Fertiliser',
         1665        => 'Insectoid Livestock',
+        1666        => 'Prohibited Research Materials',
+        1667        => 'Antimatter Containment Unit',
         
         1800        => 'Thargoid Cyclops Tissue Sample',
         1801        => 'Thargoid Heart',
@@ -815,6 +817,8 @@ class Type extends Alias
         'timecapsule'                           => 1663,
         'fertiliser'                            => 1664,
         'insectoidmeat'                         => 1665,    'insectoidlivestock'            => 1665,
+        'prohibitedresearchmaterials'           => 1666,
+        'antimattercontainmentunit'             => 1667,
         
         'thargoidtissuesampletype1'             => 1800,
         'thargoidheart'                         => 1801,

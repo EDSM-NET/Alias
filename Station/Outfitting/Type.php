@@ -266,6 +266,7 @@ class Type extends Alias
           1032  => 'Gauss Cannon (Fixed, Guardian)',
         
         // Weapon Hardpoint > Pulse Laser
+          1050  => 'Pulse Laser (Fixed, Free)', // Not in category
           1051  => 'Pulse Laser (Fixed)',
           1052  => 'Pulse Laser (Fixed)',
           1053  => 'Pulse Laser (Fixed)',
@@ -470,8 +471,7 @@ class Type extends Alias
           2451  => 'Shutdown Field Neutraliser',
         
         // Core Internal > Fuel Tank
-          3000  => 'Fuel Tank', // Not in category
-          
+          3000  => 'Fuel Tank (Free)', // Not in category
           3001  => 'Fuel Tank',
           3002  => 'Fuel Tank',
           3003  => 'Fuel Tank',
@@ -482,6 +482,7 @@ class Type extends Alias
           3008  => 'Fuel Tank',
         
         // Core Internal > Power Plant
+          3100  => 'Power Plant (Free)', // Not in category
           3101  => 'Power Plant',
           3102  => 'Power Plant',
           3103  => 'Power Plant',
@@ -539,6 +540,7 @@ class Type extends Alias
           3169  => 'Hybrid Power Plant (Guardian)',
         
         // Core Internal > Thrusters
+          3200  => 'Thrusters (Free)', // Not in category
           3201  => 'Thrusters',
           3202  => 'Thrusters',
           3203  => 'Thrusters',
@@ -584,6 +586,7 @@ class Type extends Alias
           3265  => 'Thrusters',
         
         // Core Internal > Frame Shift Drive
+          3300  => 'Frame Shift Drive (Free)', // Not in category
           3301  => 'Frame Shift Drive',
           3302  => 'Frame Shift Drive',
           3303  => 'Frame Shift Drive',
@@ -627,6 +630,7 @@ class Type extends Alias
           3365  => 'Frame Shift Drive',
         
         // Core Internal > Life Support
+          3400  => 'Life Support (Free)', // Not in category
           3401  => 'Life Support',
           3402  => 'Life Support',
           3403  => 'Life Support',
@@ -676,6 +680,7 @@ class Type extends Alias
           3475  => 'Life Support',
         
         // Core Internal > Power Distributor
+          3500  => 'Power Distributor (Free)', // Not in category
           3501  => 'Power Distributor',
           3502  => 'Power Distributor',
           3503  => 'Power Distributor',
@@ -741,6 +746,7 @@ class Type extends Alias
           3579  => 'Hybrid Power Distributor (Guardian)',
         
         // Core Internal > Sensors
+          3600  => 'Sensors (Free)', // Not in category
           3601  => 'Sensors',
           3602  => 'Sensors',
           3603  => 'Sensors',
@@ -804,6 +810,7 @@ class Type extends Alias
           3841  => 'FSD Booster (Guardian)',
         
         // Optional Internal > Discovery Scanner
+          4000  => 'Basic Discovery Scanner (Free)',
           4001  => 'Basic Discovery Scanner',
           4002  => 'Intermediate Discovery Scanner',
           4003  => 'Advanced Discovery Scanner',
@@ -812,8 +819,7 @@ class Type extends Alias
           4011  => 'Detailed Surface Scanner',
         
         // Optional Internal > Cargo Rack
-          4020  => 'Cargo Rack', // Not in category
-          
+          4020  => 'Cargo Rack (Free)', // Not in category
           4021  => 'Cargo Rack',
           4022  => 'Cargo Rack',
           4023  => 'Cargo Rack',
@@ -835,7 +841,8 @@ class Type extends Alias
           4104  => 'Bi-Weave Shield Generator',
           4106  => 'Shield Generator',
           4107  => 'Prismatic Shield Generator (Powerplay)',
-        
+          
+          4110  => 'Shield Generator (Free)', // Not in category
           4111  => 'Shield Generator',
           4112  => 'Shield Generator',
           4113  => 'Shield Generator',
@@ -1585,6 +1592,7 @@ class Type extends Alias
         'hpt_guardian_gausscannon_fixed_medium'         => 1032,
         
         // Weapon Hardpoint > Pulse Laser
+        'hpt_pulselaser_fixed_smallfree'                => 1050, // Not in category
         'hpt_pulselaser_fixed_small'                    => 1051,
         'hpt_pulselaser_fixed_medium'                   => 1052,
         'hpt_pulselaser_fixed_large'                    => 1053,
@@ -1810,6 +1818,7 @@ class Type extends Alias
         'int_fueltank_size8_class3'                     => 3008,
         
         // Core Internal > Power Plant
+        'int_powerplant_size2_class1_free'              => 3100, // Not in category
         'int_powerplant_size2_class1'                   => 3101,
         'int_powerplant_size2_class2'                   => 3102,
         'int_powerplant_size2_class3'                   => 3103,
@@ -1867,6 +1876,7 @@ class Type extends Alias
         'int_guardianpowerplant_size8'                  => 3169,
         
         // Core Internal > Thrusters
+        'int_engine_size2_class1_free'                  => 3200, // Not in category
         'int_engine_size2_class1'                       => 3201,
         'int_engine_size2_class2'                       => 3202,
         'int_engine_size2_class3'                       => 3203,
@@ -1912,6 +1922,7 @@ class Type extends Alias
         'int_engine_size8_class5'                       => 3265,
         
         // Core Internal > Frame Shift Drive
+        'int_hyperdrive_size2_class1_free'              => 3300, // Not in category
         'int_hyperdrive_size2_class1'                   => 3301,
         'int_hyperdrive_size2_class2'                   => 3302,
         'int_hyperdrive_size2_class3'                   => 3303,
@@ -1955,6 +1966,7 @@ class Type extends Alias
         'int_hyperdrive_size8_class5'                   => 3365,
         
         // Core Internal > Life Support
+        'int_lifesupport_size1_class1_free'             => 3400, // Not in category
         'int_lifesupport_size1_class1'                  => 3401,
         'int_lifesupport_size1_class2'                  => 3402,
         'int_lifesupport_size1_class3'                  => 3403,
@@ -2004,6 +2016,7 @@ class Type extends Alias
         'int_lifesupport_size8_class5'                  => 3475,
         
         // Core Internal > Power Distributor
+        'int_powerdistributor_size1_class1_free'        => 3500, // Not in category
         'int_powerdistributor_size1_class1'             => 3501,
         'int_powerdistributor_size1_class2'             => 3502,
         'int_powerdistributor_size1_class3'             => 3503,
@@ -2069,6 +2082,7 @@ class Type extends Alias
         'int_guardianpowerdistributor_size8'            => 3579,
         
         // Core Internal > Sensors
+        'int_sensors_size1_class1_free'                 => 3600, // Not in category
         'int_sensors_size1_class1'                      => 3601,
         'int_sensors_size1_class2'                      => 3602,
         'int_sensors_size1_class3'                      => 3603,
@@ -2132,6 +2146,7 @@ class Type extends Alias
         'int_guardianfsdbooster_size5'                  => 3841,
         
         // Optional Internal > Discovery Scanner
+        'int_stellarbodydiscoveryscanner_standard_free' => 4000, // Not in category
         'int_stellarbodydiscoveryscanner_standard'      => 4001,
         'int_stellarbodydiscoveryscanner_intermediate'  => 4002,
         'int_stellarbodydiscoveryscanner_advanced'      => 4003,
@@ -2164,6 +2179,7 @@ class Type extends Alias
         'int_shieldgenerator_size1_class5'              => 4106,
         'int_shieldgenerator_size1_class5_strong'       => 4107,
         
+        'int_shieldgenerator_size2_class1_free'         => 4110, // Not in category
         'int_shieldgenerator_size2_class1'              => 4111,
         'int_shieldgenerator_size2_class2'              => 4112,
         'int_shieldgenerator_size2_class3'              => 4113,
