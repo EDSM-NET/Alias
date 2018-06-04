@@ -15,7 +15,7 @@ class CargoCapacity extends Alias
     static protected $unit              = '%1$s t';
     
     /**
-     * Boost speed by ship
+     * Cargo capacity by ship
      */
     static protected $name  = [
         // Adder

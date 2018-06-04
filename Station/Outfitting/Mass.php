@@ -813,6 +813,16 @@ class Mass extends Alias
           4274  => 256,
           4275  => 160,
         
+        // Optional Internal > Fuel Scoop
+          4301  => 0,   4302  => 0,     4303  => 0,     4304  => 0,     4305  => 0,
+          4311  => 0,   4312  => 0,     4313  => 0,     4314  => 0,     4315  => 0,
+          4321  => 0,   4322  => 0,     4323  => 0,     4324  => 0,     4325  => 0,
+          4331  => 0,   4332  => 0,     4333  => 0,     4334  => 0,     4335  => 0,
+          4341  => 0,   4342  => 0,     4343  => 0,     4344  => 0,     4345  => 0,
+          4351  => 0,   4352  => 0,     4353  => 0,     4354  => 0,     4355  => 0,
+          4361  => 0,   4362  => 0,     4363  => 0,     4364  => 0,     4365  => 0,
+          4371  => 0,   4372  => 0,     4373  => 0,     4374  => 0,     4375  => 0,
+        
         // Optional Internal > Frame Shift Drive Interdictor
           4501  => 1.3,
           4502  => 0.5,
@@ -1009,5 +1019,10 @@ class Mass extends Alias
           
         // Optional Internal > Research Limpet Controller
           5701  => 1.3,
+        
+        
+        // Cargo bay door (No category, not sellable, only for ship module list)
+          9990  => 0,
+          9991  => 0,
     ];
 }

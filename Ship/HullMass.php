@@ -21,7 +21,7 @@ class HullMass extends Alias
         128049267               => 35,
         
         // Alliance Chieftain
-        128816574               => null,
+        128816574               => 400,
         
         // Anaconda
         128049363               => 400,
@@ -42,7 +42,7 @@ class HullMass extends Alias
         128672262               => 180,
         
         // Diamondback Explorer
-        128671831               => 35,
+        128671831               => 260,
         
         // Diamondback Scout
         128671217               => 298,

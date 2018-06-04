@@ -1329,8 +1329,8 @@ class Type extends Alias
         
         
         // Cargo bay door (No category, not sellable, only for ship module list)
-          9990  => 'modularcargobaydoor',
-          9991  => 'modularcargobaydoorfdl',
+          9990  => 'Cargo hatch',
+          9991  => 'Cargo hatch',
     ];
     
     /**

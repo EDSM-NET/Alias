@@ -25,6 +25,7 @@ class PaintJob extends Alias
         128049345   => 'belugaliner_default_defaultpaintjob',
         128049279   => 'cobramkiii_default_defaultpaintjob',
         128672262   => 'cobramkiv_default_defaultpaintjob',
+        128816588   => 'typex_3_default_defaultpaintjob',
         128049291   => 'dolphin_default_defaultpaintjob',
         128671831   => 'diamondbackxl_default_defaultpaintjob',
         128671217   => 'diamondback_default_defaultpaintjob',
@@ -106,6 +107,13 @@ class PaintJob extends Alias
         128816574 => [
             'typex_default_defaultpaintjob'                 => 'Default',
             
+            'typex_luminous_stripe_01'                      => 'Pulse Green',
+            'typex_luminous_stripe_02'                      => 'Pulse Blue',
+            'typex_luminous_stripe_03'                      => 'Pulse Purple',
+            'typex_luminous_stripe_04'                      => 'Pulse Red',
+            'typex_luminous_stripe_05'                      => 'Pulse Orange',
+            'typex_luminous_stripe_06'                      => 'Pulse White',
+            
             'typex_military_militaire_dark_green'           => 'Military Dark Green',
             'typex_military_militaire_desert_sand'          => 'Military Desert Sand',
             'typex_military_militaire_earth_red'            => 'Military Earth Red',
@@ -165,6 +173,13 @@ class PaintJob extends Alias
             'anaconda_luminous_stripe_05'                   => 'Pulse Orange',
             'anaconda_luminous_stripe_06'                   => 'Pulse White',
             
+            'anaconda_pulse2_green'                         => 'Fusion Green',
+            'anaconda_pulse2_blue'                          => 'Fusion Blue',
+            'anaconda_pulse2_purple'                        => 'Fusion Purple',
+            'anaconda_pulse2_red'                           => 'Fusion Red',
+            'anaconda_pulse2_orange'                        => 'Fusion Orange',
+            'anaconda_pulse2_white'                         => 'Fusion White',
+            
             'anaconda_metallic_chrome'                      => 'Chrome',
             'anaconda_metallic2_chrome'                     => 'Chromed',
             'anaconda_metallic_gold'                        => 'Gold',
@@ -203,6 +218,13 @@ class PaintJob extends Alias
             'anaconda_vibrant_purple'                       => 'Vibrant Purple',
             'anaconda_vibrant_red'                          => 'Vibrant Red',
             'anaconda_vibrant_yellow'                       => 'Vibrant Yellow',
+            
+            'anaconda_war_blue'                             => 'Dazzle Blue',
+            'anaconda_war_green'                            => 'Dazzle Green',
+            'anaconda_war_orange'                           => 'Dazzle Orange',
+            'anaconda_war_red'                              => 'Dazzle Red',
+            'anaconda_war_white'                            => 'Dazzle White',
+            'anaconda_war_yellow'                           => 'Dazzle Yellow',
             
             'anaconda_wireframe_01'                         => 'Wireframe',
             'anaconda_gold_wireframe_01'                    => 'Wireframe Gold',
@@ -640,6 +662,11 @@ class PaintJob extends Alias
             'cobramkiv_wireframe_01'                        => 'Wireframe',
         ],
         
+        // Challenger
+        128816588   => [
+            'typex_3_default_defaultpaintjob'               => 'Default',
+        ],
+        
         // Dolphin
         128049291 => [
             'dolphin_default_defaultpaintjob'               => 'Default',
@@ -668,6 +695,13 @@ class PaintJob extends Alias
             'dolphin_militaire_earth_yellow'                => 'Military Earth Yellow',
             'dolphin_militaire_forest_green'                => 'Military Marine Blue',
             'dolphin_militaire_sand'                        => 'Military Sand',
+            
+            'dolphin_geometric_blue'                        => 'Prestige Blue',
+            'dolphin_geometric_green'                       => 'Prestige Green',
+            'dolphin_geometric_orange'                      => 'Prestige Orange',
+            'dolphin_geometric_purple'                      => 'Prestige Purple',
+            'dolphin_geometric_red'                         => 'Prestige Red',
+            'dolphin_geometric_yellow'                      => 'Prestige Yellow',
             
             'dolphin_tactical_blue'                         => 'Tactical Cobalt',
             'dolphin_tactical_brown'                        => 'Tactical Khaki',
@@ -1752,6 +1786,13 @@ class PaintJob extends Alias
         // Type-10 Defender
         128785619 => [
             'type9_military_default_defaultpaintjob'        => 'Default',
+            
+            'type9_military_fullmetal_brass'                => 'Galvanized Brass',
+            'type9_military_fullmetal_bronze'               => 'Galvanized Bronze',
+            'type9_military_fullmetal_cobalt'               => 'Galvanized Cobalt',
+            'type9_military_fullmetal_copper'               => 'Galvanized Copper',
+            'type9_military_fullmetal_malachite'            => 'Galvanized Malachite',
+            'type9_military_fullmetal_paladium'             => 'Galvanized Paladium',
             
             'type9_military_metallic2_chrome'               => 'Chromed',
             'type9_military_metallic2_gold'                 => 'Golden',

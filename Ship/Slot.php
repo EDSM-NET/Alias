@@ -129,7 +129,7 @@ class Slot extends Alias
         
         2302    => 'slot13_size2',
         
-        9990    => 'cargohatch',
+        9990    => 'Cargo hatch',
     ];
     
     /**

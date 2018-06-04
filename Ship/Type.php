@@ -21,6 +21,7 @@ class Type extends Alias
         128049303   => 'Asp Explorer',
         128672276   => 'Asp Scout',
         128049345   => 'Beluga Liner',
+        128816588   => 'Challenger',
         128049279   => 'Cobra MkIII',
         128672262   => 'Cobra MkIV',
         128671831   => 'Diamondback Explorer',
@@ -78,6 +79,9 @@ class Type extends Alias
         // Beluga Liner
         'beluga liner'                      => 128049345,
         'belugaliner'                       => 128049345,
+        
+        // Challenger
+        'typex_3'                           => 128816588,
         
         // Cobra MkIII
         'cobra mk. iii'                     => 128049279,
