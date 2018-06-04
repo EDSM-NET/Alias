@@ -198,6 +198,9 @@ class Type extends Alias
          851                                => 'Discreet Power Failure Required',
          853                                => 'Covert assault contract',
          854                                => 'Black operations surface engagement',
+         855                                => 'Covert action against %target% at %targetStationName%',
+         856                                => 'Disable %target% at %targetStationName%',
+         857                                => 'Take down %target% at %targetStationName%',
          
          901                                => 'Mine %commodityCount% units of %commodity%',
          902                                => 'Mining rush for %commodityCount% units of %commodity%',
@@ -610,6 +613,9 @@ class Type extends Alias
         'mission_disable_blops'                             => 851,
         'mission_disable_blops_war'                         => 853,
         'mission_disable_blops_civilwar'                    => 854,
+        'mission_disable_blops_civilunrest'                 => 855,
+        'mission_disable_blops_expansion'                   => 856,
+        'mission_disable_blops_lockdown'                    => 857,
         
         'mission_mining'                                    => 901,
         'mission_mining_boom'                               => 902,
