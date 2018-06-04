@@ -437,6 +437,8 @@ class PaintJob extends Alias
         128049279 => [
             'cobramkiii_blackfriday_01'                     => 'Black Friday',
             
+            'cobramkiii_camo1_02'                           => 'Sabotage Purple',
+            
             'cobramkiii_camo2_01'                           => 'Urban Camo',
             'cobramkiii_camo2_03'                           => 'Polar Camo',
             
@@ -460,6 +462,8 @@ class PaintJob extends Alias
             'cobramkiii_faction1_04'                        => 'Pirate Faction Rose',
             'cobramkiii_faction1_05'                        => 'Pirate Faction Blue',
             'cobramkiii_faction1_06'                        => 'Pirate Faction Purple',
+            
+            'cobramkiii_faction1_onionhead1'                => 'Onionhead',
             
             'cobramkiii_festive_blue'                       => 'Festive Blue',
             'cobramkiii_festive_green'                      => 'Festive Green',
@@ -518,6 +522,7 @@ class PaintJob extends Alias
             
             'cobramkiii_merc'                               => 'Mercenary',
             
+            'cobramkiii_default_52'                         => 'cobramkiii_metallic_chrome', // REDIRECT
             'cobramkiii_metallic_chrome'                    => 'Chrome',
             'cobramkiii_metallic2_chrome'                   => 'Chromed',
             'cobramkiii_metallic_gold'                      => 'Gold',
@@ -902,6 +907,8 @@ class PaintJob extends Alias
             'feddropship_mkii_militaire_forest_green'       => 'Military Marine Blue',
             'feddropship_mkii_militaire_sand'               => 'Military Sand',
             
+            'feddropship_mkii_sudeep_sudeep'                => 'Sudeep',
+            
             'feddropship_mkii_tactical_blue'                => 'Tactical Cobalt',
             'feddropship_mkii_tactical_brown'               => 'Tactical Khaki',
             'feddropship_mkii_tactical_green'               => 'Tactical Olive',
@@ -1261,6 +1268,8 @@ class PaintJob extends Alias
             'empire_courier_faction1_05'                    => 'Pirate Faction Blue',
             'empire_courier_faction1_06'                    => 'Pirate Faction Purple',
             
+            'empire_courier_furrycat_furrycat'              => 'FurryCat',
+            
             'empire_courier_metallic_chrome'                => 'Chrome',
             'empire_courier_metallic_gold'                  => 'Gold',
             'empire_courier_metallic2_gold'                 => 'Golden',
@@ -1304,6 +1313,8 @@ class PaintJob extends Alias
             'cutter_corrosive_04'                           => 'Corroded 4',
             'cutter_corrosive_05'                           => 'Corroded 5',
             'cutter_corrosive_06'                           => 'Corroded 6',
+            
+            'cutter_darwin_01'                              => 'Special Effect',
             
             'cutter_default_defaultpaintjob'                => 'Default',
             
@@ -1366,7 +1377,7 @@ class PaintJob extends Alias
 
         // Imperial Eagle
         128672138 => [
-            'empire_eagle_blackfriday_01'                   => 'Black Friday',
+            'empire_eagle_blackfriday_01'                   => 'Midnight Black',
             
             'empire_eagle_default_defaultpaintjob'          => 'Default',
             
@@ -1740,6 +1751,8 @@ class PaintJob extends Alias
         128049333 => [
             'type9_blackfriday_01'                          => 'Black Friday',
             
+            'type9_cow_01'                                  => 'Bovine',
+            
             'type9_default_defaultpaintjob'                 => 'Default',
             
             'type9_lavecon_lavecon'                         => 'Lavecon',
@@ -1872,8 +1885,10 @@ class PaintJob extends Alias
             
             'viper_merc'                                    => 'Mercenary',
             
+            'viper_stripe2_52'                              => 'viper_metallic_chrome', // REDIRECT
             'viper_metallic_chrome'                         => 'Chrome',
             'viper_metallic2_chrome'                        => 'Chromed',
+            'viper_stripe2_51'                              => 'viper_metallic_gold', // REDIRECT
             'viper_metallic_gold'                           => 'Gold',
             'viper_metallic2_gold'                          => 'Golden',
             
@@ -1890,6 +1905,8 @@ class PaintJob extends Alias
             'viper_squadron_green'                          => 'Squadron Green',
             'viper_squadron_orange'                         => 'Squadron Orange',
             'viper_squadron_red'                            => 'Squadron Red',
+            
+            'viper_stefanos_01'                             => 'BlackJack',
             
             'viper_stripe1_01'                              => 'Grey Ridgenose',
             'viper_stripe1_02'                              => 'Green Ridgenose',
