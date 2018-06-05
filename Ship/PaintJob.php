@@ -590,13 +590,16 @@ class PaintJob extends Alias
             
             'cobramkiv_default_defaultpaintjob'             => 'Default',
             
+            /*
             'cobramkiv_faction1_01'                         => 'Pirate Faction Red',
             'cobramkiv_faction1_02'                         => 'Pirate Faction Orange',
             'cobramkiv_faction1_03'                         => 'Pirate Faction Green',
             'cobramkiv_faction1_04'                         => 'Pirate Faction Rose',
             'cobramkiv_faction1_05'                         => 'Pirate Faction Blue',
             'cobramkiv_faction1_06'                         => 'Pirate Faction Purple',
+            */
             
+            /*
             'cobramkiv_flag_australia_01'                   => 'Australia Flag',
             'cobramkiv_flag_austria_01'                     => 'Austria Flag',
             'cobramkiv_flag_belgium_01'                     => 'Belgium Flag',
@@ -616,6 +619,7 @@ class PaintJob extends Alias
             'cobramkiv_flag_switzerland_01'                 => 'Switzerland Flag',
             'cobramkiv_flag_uk_01'                          => 'Union Jack Flag',
             'cobramkiv_flag_usa_01'                         => 'Stars & Stripes Flag',
+            */
             
             'cobramkiv_gamescom_gamescom'                   => 'Gamescom',
             
@@ -643,26 +647,32 @@ class PaintJob extends Alias
             'cobramkiv_metallic2_chrome'                    => 'Chromed',
             'cobramkiv_metallic_gold'                       => 'Gold',
             
+            /*
             'cobramkiv_militaire_dark_green'                => 'Military Dark Green',
             'cobramkiv_militaire_desert_sand'               => 'Military Desert Sand',
             'cobramkiv_militaire_earth_red'                 => 'Military Earth Red',
             'cobramkiv_militaire_earth_yellow'              => 'Military Earth Yellow',
             'cobramkiv_militaire_forest_green'              => 'Military Marine Blue',
             'cobramkiv_militaire_sand'                      => 'Military Sand',
+            */
             
+            /*
             'cobramkiv_tactical_blue'                       => 'Tactical Cobalt',
             'cobramkiv_tactical_brown'                      => 'Tactical Khaki',
             'cobramkiv_tactical_green'                      => 'Tactical Olive',
             'cobramkiv_tactical_grey'                       => 'Tactical Graphite',
             'cobramkiv_tactical_red'                        => 'Tactical Crimson',
             'cobramkiv_tactical_white'                      => 'Tactical Ice',
+            */
             
+            /*
             'cobramkiv_vibrant_blue'                        => 'Vibrant Blue',
             'cobramkiv_vibrant_green'                       => 'Vibrant Green',
             'cobramkiv_vibrant_orange'                      => 'Vibrant Orange',
             'cobramkiv_vibrant_purple'                      => 'Vibrant Purple',
             'cobramkiv_vibrant_red'                         => 'Vibrant Red',
             'cobramkiv_vibrant_yellow'                      => 'Vibrant Yellow',
+            */
             
             'cobramkiv_wireframe_01'                        => 'Wireframe',
         ],
@@ -762,12 +772,14 @@ class PaintJob extends Alias
             
             'diamondback_default_defaultpaintjob'           => 'Default',
             
+            /*
             'diamondback_faction1_01'                       => 'Pirate Faction Red',
             'diamondback_faction1_02'                       => 'Pirate Faction Orange',
             'diamondback_faction1_03'                       => 'Pirate Faction Green',
             'diamondback_faction1_04'                       => 'Pirate Faction Rose',
             'diamondback_faction1_05'                       => 'Pirate Faction Blue',
             'diamondback_faction1_06'                       => 'Pirate Faction Purple',
+            */
             
             'diamondback_metallic_chrome'                   => 'Chrome',
             'diamondback_metallic_gold'                     => 'Gold',
@@ -1216,12 +1228,14 @@ class PaintJob extends Alias
             
             'empiretrader_default_defaultpaintjob'          => 'Default',
             
+            /*
             'empiretrader_faction1_01'                      => 'Pirate Faction Red',
             'empiretrader_faction1_02'                      => 'Pirate Faction Orange',
             'empiretrader_faction1_03'                      => 'Pirate Faction Green',
             'empiretrader_faction1_04'                      => 'Pirate Faction Rose',
             'empiretrader_faction1_05'                      => 'Pirate Faction Blue',
             'empiretrader_faction1_06'                      => 'Pirate Faction Purple',
+            */
             
             'empiretrader_metallic_chrome'                  => 'Chrome',
             'empiretrader_metallic_gold'                    => 'Gold',
@@ -1261,12 +1275,14 @@ class PaintJob extends Alias
             
             'empire_courier_default_defaultpaintjob'        => 'Default',
             
+            /*
             'empire_courier_faction1_01'                    => 'Pirate Faction Red',
             'empire_courier_faction1_02'                    => 'Pirate Faction Orange',
             'empire_courier_faction1_03'                    => 'Pirate Faction Green',
             'empire_courier_faction1_04'                    => 'Pirate Faction Rose',
             'empire_courier_faction1_05'                    => 'Pirate Faction Blue',
             'empire_courier_faction1_06'                    => 'Pirate Faction Purple',
+            */
             
             'empire_courier_furrycat_furrycat'              => 'FurryCat',
             
@@ -1318,12 +1334,14 @@ class PaintJob extends Alias
             
             'cutter_default_defaultpaintjob'                => 'Default',
             
+            /*
             'cutter_faction1_01'                            => 'Pirate Faction Red',
             'cutter_faction1_02'                            => 'Pirate Faction Orange',
             'cutter_faction1_03'                            => 'Pirate Faction Green',
             'cutter_faction1_04'                            => 'Pirate Faction Rose',
             'cutter_faction1_05'                            => 'Pirate Faction Blue',
             'cutter_faction1_06'                            => 'Pirate Faction Purple',
+            */
             
             'cutter_fullmetal_brass'                        => 'Galvanized Brass',
             'cutter_fullmetal_bronze'                       => 'Galvanized Bronze',
@@ -1381,12 +1399,14 @@ class PaintJob extends Alias
             
             'empire_eagle_default_defaultpaintjob'          => 'Default',
             
+            /*
             'empire_eagle_faction1_01'                      => 'Pirate Faction Red',
             'empire_eagle_faction1_02'                      => 'Pirate Faction Orange',
             'empire_eagle_faction1_03'                      => 'Pirate Faction Green',
             'empire_eagle_faction1_04'                      => 'Pirate Faction Rose',
             'empire_eagle_faction1_05'                      => 'Pirate Faction Blue',
             'empire_eagle_faction1_06'                      => 'Pirate Faction Purple',
+            */
             
             'empire_eagle_metallic_chrome'                  => 'Chrome',
             'empire_eagle_metallic_gold'                    => 'Gold',
@@ -1525,11 +1545,13 @@ class PaintJob extends Alias
             'python_default_defaultpaintjob'                => 'Default',
             
             'python_faction1_01'                            => 'Pirate Faction Red',
+            /*
             'python_faction1_02'                            => 'Pirate Faction Orange',
             'python_faction1_03'                            => 'Pirate Faction Green',
             'python_faction1_04'                            => 'Pirate Faction Rose',
             'python_faction1_05'                            => 'Pirate Faction Blue',
             'python_faction1_06'                            => 'Pirate Faction Purple',
+            */
             
             'python_gradient2_01'                           => 'Predator Red',
             'python_gradient2_02'                           => 'Predator Green',
@@ -1613,11 +1635,13 @@ class PaintJob extends Alias
             'sidewinder_doublestripe_08'                    => 'Blue Sonoran',
             
             'sidewinder_faction1_01'                        => 'Pirate Faction Red',
+            /*
             'sidewinder_faction1_02'                        => 'Pirate Faction Orange',
             'sidewinder_faction1_03'                        => 'Pirate Faction Green',
             'sidewinder_faction1_04'                        => 'Pirate Faction Rose',
             'sidewinder_faction1_05'                        => 'Pirate Faction Blue',
             'sidewinder_faction1_06'                        => 'Pirate Faction Purple',
+            */
             
             'sidewinder_festive_blue'                       => 'Festive Blue',
             'sidewinder_festive_green'                      => 'Festive Green',
@@ -1899,12 +1923,14 @@ class PaintJob extends Alias
             'viper_militaire_forest_green'                  => 'Military Marine Blue',
             'viper_militaire_sand'                          => 'Military Sand',
             
+            /*
             'viper_squadron_black'                          => 'Squadron Shadow',
             'viper_squadron_blue'                           => 'Squadron Blue',
             'viper_squadron_gold'                           => 'Squadron Black',
             'viper_squadron_green'                          => 'Squadron Green',
             'viper_squadron_orange'                         => 'Squadron Orange',
             'viper_squadron_red'                            => 'Squadron Red',
+            */
             
             'viper_stefanos_01'                             => 'BlackJack',
             
@@ -1937,13 +1963,16 @@ class PaintJob extends Alias
             
             'viper_mkiv_default_defaultpaintjob'            => 'Default',
             
+            /*
             'viper_mkiv_faction1_01'                        => 'Pirate Faction Red',
             'viper_mkiv_faction1_02'                        => 'Pirate Faction Orange',
             'viper_mkiv_faction1_03'                        => 'Pirate Faction Green',
             'viper_mkiv_faction1_04'                        => 'Pirate Faction Rose',
             'viper_mkiv_faction1_05'                        => 'Pirate Faction Blue',
             'viper_mkiv_faction1_06'                        => 'Pirate Faction Purple',
+            */
             
+            /*
             'viper_mkiv_flag_australia_01'                  => 'Australia Flag',
             'viper_mkiv_flag_austria_01'                    => 'Austria Flag',
             'viper_mkiv_flag_belgium_01'                    => 'Belgium Flag',
@@ -1963,6 +1992,7 @@ class PaintJob extends Alias
             'viper_mkiv_flag_switzerland_01'                => 'Switzerland Flag',
             'viper_mkiv_flag_uk_01'                         => 'Union Jack Flag',
             'viper_mkiv_flag_usa_01'                        => 'Stars & Stripes Flag',
+            */
             
             'viper_mkiv_metallic_chrome'                    => 'Chrome',
             'viper_mkiv_metallic_gold'                      => 'Gold',
@@ -2019,12 +2049,14 @@ class PaintJob extends Alias
             
             'vulture_default_defaultpaintjob'               => 'Default',
             
+            /*
             'vulture_faction1_01'                           => 'Pirate Faction Red',
             'vulture_faction1_02'                           => 'Pirate Faction Orange',
             'vulture_faction1_03'                           => 'Pirate Faction Green',
             'vulture_faction1_04'                           => 'Pirate Faction Rose',
             'vulture_faction1_05'                           => 'Pirate Faction Blue',
             'vulture_faction1_06'                           => 'Pirate Faction Purple',
+            */
             
             'vulture_gamescom_gamescom'                     => 'Gamescom',
             
