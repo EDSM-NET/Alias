@@ -9,20 +9,20 @@
 namespace   Alias\Ship;
 use         EDSM\Alias;
 
-class TopSpeed extends Alias
+class BaseSpeed extends Alias
 {
     static protected $defaultName       = null;
     static protected $unit              = '%1$s m/s';
     
     /**
-     * Top speed by ship
+     * Base speed by ship
      */
     static protected $name  = [
         // Adder
         128049267               => 220,
         
         // Alliance Chieftain
-        128816574               => null,
+        128816574               => 230,
         
         // Anaconda
         128049363               => 183,
