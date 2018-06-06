@@ -235,6 +235,16 @@ class Mass extends Alias
            303  => 35,
            304  => 35,
            305  => 35,
+             
+        // Bulkhead > Type-10 Defender
+           311  => 0,
+           312  => 75,
+           313  => 150,
+             
+        // Bulkhead > Alliance Chieftain
+           321  => 0,
+           322  => 40,
+           323  => 78,
         
         // Weapon Hardpoint > Beam Laser
           1001  => 2,
@@ -250,6 +260,8 @@ class Mass extends Alias
           1009  => 2,
           1010  => 4,
           1011  => 8,
+          
+          1032  => 4,
         
         // Weapon Hardpoint > Pulse Laser
           1051  => 2,
@@ -327,6 +339,9 @@ class Mass extends Alias
           1302  => 4,
           1303  => 8,
           1304  => 16,
+          
+          1322  => 4,
+          1323  => 4,
         
         // Weapon Hardpoint > Rail Gun
           1351  => 2,
@@ -355,6 +370,10 @@ class Mass extends Alias
         
         // Weapon Hardpoint > Shock Mine Launcher
           1601  => 2,
+        
+        // Weapon Hardpoint > Remote Release Flak Launcher
+          1752  => 4,
+          1760  => 4,
           
         // Utility Mount > Shield Booster
           2001  => 0.5,
@@ -398,6 +417,9 @@ class Mass extends Alias
           
         // Utility Mount > Xeno Scanner
           2401  => 1.3,
+          
+        // Utility Mount > Shutdown Field Neutraliser
+          2451  => 1.3,
         
         // Core Internal > Fuel Tank
           3001  => 0,
@@ -1019,6 +1041,15 @@ class Mass extends Alias
           
         // Optional Internal > Research Limpet Controller
           5701  => 1.3,
+        
+        // Optional Internal > Decontamination Limpet Controller
+          5801  => 1.3,
+          
+          5821  => 2,
+          
+          5841  => 20,
+          
+          5861  => 128,
         
         
         // Cargo bay door (No category, not sellable, only for ship module list)
