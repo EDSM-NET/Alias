@@ -26,9 +26,9 @@ class PaintJob extends Alias
         128049279   => 'cobramkiii_default_defaultpaintjob',
         128672262   => 'cobramkiv_default_defaultpaintjob',
         128816588   => 'typex_3_default_defaultpaintjob',
-        128049291   => 'dolphin_default_defaultpaintjob',
         128671831   => 'diamondbackxl_default_defaultpaintjob',
         128671217   => 'diamondback_default_defaultpaintjob',
+        128049291   => 'dolphin_default_defaultpaintjob',
         128049255   => 'eagle_default_defaultpaintjob',
         128672145   => 'feddropship_mkii_default_defaultpaintjob',
         128049369   => 'federation_corvette_default_defaultpaintjob',
@@ -72,7 +72,7 @@ class PaintJob extends Alias
             
             'adder_metallic_chrome'                         => 'Chrome',
             'adder_metallic2_chrome'                        => 'Chromed',
-            'adder_metallic_gold'                           => 'Gold',
+            //'adder_metallic_gold'                           => 'Gold',
             
             'adder_militaire_dark_green'                    => 'Military Dark Green',
             'adder_militaire_desert_sand'                   => 'Military Desert Sand',
@@ -180,7 +180,7 @@ class PaintJob extends Alias
             'anaconda_pulse2_orange'                        => 'Fusion Orange',
             'anaconda_pulse2_white'                         => 'Fusion White',
             
-            'anaconda_metallic_chrome'                      => 'Chrome',
+            //'anaconda_metallic_chrome'                      => 'Chrome',
             'anaconda_metallic2_chrome'                     => 'Chromed',
             'anaconda_metallic_gold'                        => 'Gold',
             'anaconda_metallic2_gold'                       => 'Golden',
@@ -265,7 +265,7 @@ class PaintJob extends Alias
             'asp_lavecon_lavecon'                           => 'Lavecon',
             'asp_eliteexpo_eliteexpo'                       => 'Frontier Expo',
             
-            'asp_metallic_chrome'                           => 'Chrome',
+            //'asp_metallic_chrome'                           => 'Chrome',
             'asp_metallic2_chrome'                          => 'Chromed',
             'asp_metallic_gold'                             => 'Gold',
             'asp_metallic2_gold'                            => 'Golden',
@@ -337,12 +337,12 @@ class PaintJob extends Alias
             'asp_scout_faction1_05'                         => 'Pirate Faction Blue',
             'asp_scout_faction1_06'                         => 'Pirate Faction Purple',
             
-            'asp_scout_gamescom_gamescom'                   => 'Gamescom',
-            'asp_scout_lavecon_lavecon'                     => 'Lavecon',
+            //'asp_scout_gamescom_gamescom'                   => 'Gamescom',
+            //'asp_scout_lavecon_lavecon'                     => 'Lavecon',
             
             'asp_scout_metallic_chrome'                     => 'Chrome',
             'asp_scout_metallic2_chrome'                    => 'Chromed',
-            'asp_scout_metallic_gold'                       => 'Gold',
+            //'asp_scout_metallic_gold'                       => 'Gold',
             
             'asp_scout_militaire_dark_green'                => 'Military Dark Green',
             'asp_scout_militaire_desert_sand'               => 'Military Desert Sand',
@@ -400,8 +400,8 @@ class PaintJob extends Alias
             'belugaliner_ember_orange'                      => 'Ember Orange',
             'belugaliner_ember_blue'                        => 'Ember Blue',
             
-            'belugaliner_metallic_chrome'                   => 'Chrome',
-            'belugaliner_metallic_gold'                     => 'Gold',
+            //'belugaliner_metallic_chrome'                   => 'Chrome',
+            //'belugaliner_metallic_gold'                     => 'Gold',
             'belugaliner_metallic2_gold'                    => 'Golden',
             
             'belugaliner_militaire_dark_green'              => 'Military Dark Green',
@@ -525,7 +525,7 @@ class PaintJob extends Alias
             'cobramkiii_default_52'                         => 'cobramkiii_metallic_chrome', // REDIRECT
             'cobramkiii_metallic_chrome'                    => 'Chrome',
             'cobramkiii_metallic2_chrome'                   => 'Chromed',
-            'cobramkiii_metallic_gold'                      => 'Gold',
+            //'cobramkiii_metallic_gold'                      => 'Gold',
             'cobramkiii_metallic2_gold'                     => 'Golden',
             
             'cobramkiii_militaire_dark_green'               => 'Military Dark Green',
@@ -621,7 +621,7 @@ class PaintJob extends Alias
             'cobramkiv_flag_usa_01'                         => 'Stars & Stripes Flag',
             */
             
-            'cobramkiv_gamescom_gamescom'                   => 'Gamescom',
+            //'cobramkiv_gamescom_gamescom'                   => 'Gamescom',
             
             'cobramkiv_gradient1_01'                        => 'Hunter Rust',
             'cobramkiv_gradient1_02'                        => 'Hunter Graphite',
@@ -645,7 +645,7 @@ class PaintJob extends Alias
             
             'cobramkiv_metallic_chrome'                     => 'Chrome',
             'cobramkiv_metallic2_chrome'                    => 'Chromed',
-            'cobramkiv_metallic_gold'                       => 'Gold',
+            //'cobramkiv_metallic_gold'                       => 'Gold',
             
             /*
             'cobramkiv_militaire_dark_green'                => 'Military Dark Green',
@@ -674,63 +674,12 @@ class PaintJob extends Alias
             'cobramkiv_vibrant_yellow'                      => 'Vibrant Yellow',
             */
             
-            'cobramkiv_wireframe_01'                        => 'Wireframe',
+            //'cobramkiv_wireframe_01'                        => 'Wireframe',
         ],
         
         // Challenger
         128816588   => [
             'typex_3_default_defaultpaintjob'               => 'Default',
-        ],
-        
-        // Dolphin
-        128049291 => [
-            'dolphin_default_defaultpaintjob'               => 'Default',
-            
-            'dolphin_corporate1_corporate1'                 => 'Wayfarer Blue',
-            'dolphin_corporate1_corporate2'                 => 'Wayfarer Red',
-            'dolphin_corporate1_corporate3'                 => 'Wayfarer Orange',
-            'dolphin_corporate1_corporate4'                 => 'Wayfarer Purple',
-            'dolphin_corporate1_corporate5'                 => 'Wayfarer Green',
-            'dolphin_corporate1_corporate6'                 => 'Wayfarer Yellow',
-            
-            'dolphin_corporatefleet_fleeta'                 => 'Excursion Blue',
-            'dolphin_corporatefleet_fleetb'                 => 'Excursion Orange',
-            'dolphin_corporatefleet_fleetc'                 => 'Excursion Green',
-            'dolphin_corporatefleet_fleetd'                 => 'Excursion Red',
-            'dolphin_corporatefleet_fleete'                 => 'Excursion Rust  ',
-            'dolphin_corporatefleet_fleetf'                 => 'Excursion Yellow',
-            
-            'dolphin_metallic_chrome'                       => 'Chrome',
-            'dolphin_metallic_gold'                         => 'Gold',
-            'dolphin_metallic2_gold'                        => 'Golden',
-            
-            'dolphin_militaire_dark_green'                  => 'Military Dark Green',
-            'dolphin_militaire_desert_sand'                 => 'Military Desert Sand',
-            'dolphin_militaire_earth_red'                   => 'Military Earth Red',
-            'dolphin_militaire_earth_yellow'                => 'Military Earth Yellow',
-            'dolphin_militaire_forest_green'                => 'Military Marine Blue',
-            'dolphin_militaire_sand'                        => 'Military Sand',
-            
-            'dolphin_geometric_blue'                        => 'Prestige Blue',
-            'dolphin_geometric_green'                       => 'Prestige Green',
-            'dolphin_geometric_orange'                      => 'Prestige Orange',
-            'dolphin_geometric_purple'                      => 'Prestige Purple',
-            'dolphin_geometric_red'                         => 'Prestige Red',
-            'dolphin_geometric_yellow'                      => 'Prestige Yellow',
-            
-            'dolphin_tactical_blue'                         => 'Tactical Cobalt',
-            'dolphin_tactical_brown'                        => 'Tactical Khaki',
-            'dolphin_tactical_green'                        => 'Tactical Olive',
-            'dolphin_tactical_grey'                         => 'Tactical Graphite',
-            'dolphin_tactical_red'                          => 'Tactical Crimson',
-            'dolphin_tactical_white'                        => 'Tactical Ice',
-            
-            'dolphin_vibrant_blue'                          => 'Vibrant Blue',
-            'dolphin_vibrant_green'                         => 'Vibrant Green',
-            'dolphin_vibrant_orange'                        => 'Vibrant Orange',
-            'dolphin_vibrant_purple'                        => 'Vibrant Purple',
-            'dolphin_vibrant_red'                           => 'Vibrant Red',
-            'dolphin_vibrant_yellow'                        => 'Vibrant Yellow',
         ],
 
         // Diamondback Explorer
@@ -741,7 +690,7 @@ class PaintJob extends Alias
             
             'diamondbackxl_metallic_chrome'                 => 'Chrome',
             'diamondbackxl_metallic2_chrome'                => 'Chromed',
-            'diamondbackxl_metallic_gold'                   => 'Gold',
+            //'diamondbackxl_metallic_gold'                   => 'Gold',
             'diamondbackxl_metallic2_gold'                  => 'Golden',
             
             'diamondbackxl_militaire_dark_green'            => 'Military Dark Green',
@@ -781,8 +730,8 @@ class PaintJob extends Alias
             'diamondback_faction1_06'                       => 'Pirate Faction Purple',
             */
             
-            'diamondback_metallic_chrome'                   => 'Chrome',
-            'diamondback_metallic_gold'                     => 'Gold',
+            //'diamondback_metallic_chrome'                   => 'Chrome',
+            //'diamondback_metallic_gold'                     => 'Gold',
             
             'diamondback_militaire_dark_green'              => 'Military Dark Green',
             'diamondback_militaire_desert_sand'             => 'Military Desert Sand',
@@ -804,6 +753,57 @@ class PaintJob extends Alias
             'diamondback_vibrant_purple'                    => 'Vibrant Purple',
             'diamondback_vibrant_red'                       => 'Vibrant Red',
             'diamondback_vibrant_yellow'                    => 'Vibrant Yellow',
+        ],
+        
+        // Dolphin
+        128049291 => [
+            'dolphin_default_defaultpaintjob'               => 'Default',
+            
+            'dolphin_corporate1_corporate1'                 => 'Wayfarer Blue',
+            'dolphin_corporate1_corporate2'                 => 'Wayfarer Red',
+            'dolphin_corporate1_corporate3'                 => 'Wayfarer Orange',
+            'dolphin_corporate1_corporate4'                 => 'Wayfarer Purple',
+            'dolphin_corporate1_corporate5'                 => 'Wayfarer Green',
+            'dolphin_corporate1_corporate6'                 => 'Wayfarer Yellow',
+            
+            'dolphin_corporatefleet_fleeta'                 => 'Excursion Blue',
+            'dolphin_corporatefleet_fleetb'                 => 'Excursion Orange',
+            'dolphin_corporatefleet_fleetc'                 => 'Excursion Green',
+            'dolphin_corporatefleet_fleetd'                 => 'Excursion Red',
+            'dolphin_corporatefleet_fleete'                 => 'Excursion Rust  ',
+            'dolphin_corporatefleet_fleetf'                 => 'Excursion Yellow',
+            
+            //'dolphin_metallic_chrome'                       => 'Chrome',
+            //'dolphin_metallic_gold'                         => 'Gold',
+            'dolphin_metallic2_gold'                        => 'Golden',
+            
+            'dolphin_militaire_dark_green'                  => 'Military Dark Green',
+            'dolphin_militaire_desert_sand'                 => 'Military Desert Sand',
+            'dolphin_militaire_earth_red'                   => 'Military Earth Red',
+            'dolphin_militaire_earth_yellow'                => 'Military Earth Yellow',
+            'dolphin_militaire_forest_green'                => 'Military Marine Blue',
+            'dolphin_militaire_sand'                        => 'Military Sand',
+            
+            'dolphin_geometric_blue'                        => 'Prestige Blue',
+            'dolphin_geometric_green'                       => 'Prestige Green',
+            'dolphin_geometric_orange'                      => 'Prestige Orange',
+            'dolphin_geometric_purple'                      => 'Prestige Purple',
+            'dolphin_geometric_red'                         => 'Prestige Red',
+            'dolphin_geometric_yellow'                      => 'Prestige Yellow',
+            
+            'dolphin_tactical_blue'                         => 'Tactical Cobalt',
+            'dolphin_tactical_brown'                        => 'Tactical Khaki',
+            'dolphin_tactical_green'                        => 'Tactical Olive',
+            'dolphin_tactical_grey'                         => 'Tactical Graphite',
+            'dolphin_tactical_red'                          => 'Tactical Crimson',
+            'dolphin_tactical_white'                        => 'Tactical Ice',
+            
+            'dolphin_vibrant_blue'                          => 'Vibrant Blue',
+            'dolphin_vibrant_green'                         => 'Vibrant Green',
+            'dolphin_vibrant_orange'                        => 'Vibrant Orange',
+            'dolphin_vibrant_purple'                        => 'Vibrant Purple',
+            'dolphin_vibrant_red'                           => 'Vibrant Red',
+            'dolphin_vibrant_yellow'                        => 'Vibrant Yellow',
         ],
 
         // Eagle
@@ -836,7 +836,7 @@ class PaintJob extends Alias
             
             'eagle_metallic_chrome'                         => 'Chrome',
             'eagle_metallic2_chrome'                        => 'Chromed',
-            'eagle_metallic_gold'                           => 'Gold',
+            //'eagle_metallic_gold'                           => 'Gold',
             'eagle_metallic2_gold'                          => 'Golden',
             
             'eagle_militaire_dark_green'                    => 'Military Dark Green',
@@ -848,7 +848,7 @@ class PaintJob extends Alias
             
             'eagle_pax_east_pax_east'                       => 'PAX East',
             'eagle_pax_south_pax_south'                     => 'PAX South',
-            'eagle_paxprime_paxprime'                       => 'PAX Prime',
+            //'eagle_paxprime_paxprime'                       => 'PAX Prime',
             
             'eagle_aerial_display_green'                    => 'Slipstream Green',
             'eagle_aerial_display_blue'                     => 'Slipstream Blue',
@@ -886,7 +886,7 @@ class PaintJob extends Alias
             'eagle_vibrant_red'                             => 'Vibrant Red',
             'eagle_vibrant_yellow'                          => 'Vibrant Yellow',
             
-            'eagle_wireframe_01'                            => 'Wireframe',
+            //'eagle_wireframe_01'                            => 'Wireframe',
         ],
 
         // Federal Assault Ship
@@ -909,8 +909,8 @@ class PaintJob extends Alias
             'feddropship_mkii_gradient2_05'                 => 'Predator Lime',
             'feddropship_mkii_gradient2_06'                 => 'Predator Blue',
             
-            'feddropship_mkii_metallic_chrome'              => 'Chrome',
-            'feddropship_mkii_metallic_gold'                => 'Gold',
+            //'feddropship_mkii_metallic_chrome'              => 'Chrome',
+            //'feddropship_mkii_metallic_gold'                => 'Gold',
             
             'feddropship_mkii_militaire_dark_green'         => 'Military Dark Green',
             'feddropship_mkii_militaire_desert_sand'        => 'Military Desert Sand',
@@ -972,7 +972,7 @@ class PaintJob extends Alias
             
             'federation_corvette_metallic_chrome'           => 'Chrome',
             'federation_corvette_metallic2_chrome'          => 'Chromed',
-            'federation_corvette_metallic_gold'             => 'Gold',
+            //'federation_corvette_metallic_gold'             => 'Gold',
             'federation_corvette_metallic2_gold'            => 'Golden',
             
             'federation_corvette_militaire_dark_green'      => 'Military Dark Green',
@@ -1038,8 +1038,8 @@ class PaintJob extends Alias
             'feddropship_gradient2_05'                      => 'Predator Lime',
             'feddropship_gradient2_06'                      => 'Predator Blue',
             
-            'feddropship_metallic_chrome'                   => 'Chrome',
-            'feddropship_metallic_gold'                     => 'Gold',
+            //'feddropship_metallic_chrome'                   => 'Chrome',
+            //'feddropship_metallic_gold'                     => 'Gold',
             
             'feddropship_militaire_dark_green'              => 'Military Dark Green',
             'feddropship_militaire_desert_sand'             => 'Military Desert Sand',
@@ -1085,7 +1085,7 @@ class PaintJob extends Alias
             
             'federation_gunship_metallic_chrome'            => 'Chrome',
             'federation_gunship_metallic2_chrome'           => 'Chromed',
-            'federation_gunship_metallic_gold'              => 'Gold',
+            //'federation_gunship_metallic_gold'              => 'Gold',
             'federation_gunship_metallic2_gold'             => 'Golden',
             
             'federation_gunship_militaire_dark_green'       => 'Military Dark Green',
@@ -1132,7 +1132,7 @@ class PaintJob extends Alias
             
             'ferdelance_lavecon_lavecon'                    => 'Lavecon',
             
-            'ferdelance_metallic_chrome'                    => 'Chrome',
+            //'ferdelance_metallic_chrome'                    => 'Chrome',
             'ferdelance_metallic2_chrome'                   => 'Chromed',
             'ferdelance_metallic_gold'                      => 'Gold',
             'ferdelance_metallic2_gold'                     => 'Golden',
@@ -1194,7 +1194,7 @@ class PaintJob extends Alias
             
             'hauler_metallic_chrome'                        => 'Chrome',
             'hauler_metallic2_chrome'                       => 'Chromed',
-            'hauler_metallic_gold'                          => 'Gold',
+            //'hauler_metallic_gold'                          => 'Gold',
             
             'hauler_militaire_dark_green'                   => 'Military Dark Green',
             'hauler_militaire_desert_sand'                  => 'Military Desert Sand',
@@ -1237,8 +1237,8 @@ class PaintJob extends Alias
             'empiretrader_faction1_06'                      => 'Pirate Faction Purple',
             */
             
-            'empiretrader_metallic_chrome'                  => 'Chrome',
-            'empiretrader_metallic_gold'                    => 'Gold',
+            //'empiretrader_metallic_chrome'                  => 'Chrome',
+            //'empiretrader_metallic_gold'                    => 'Gold',
             
             'empiretrader_militaire_dark_green'             => 'Military Dark Green',
             'empiretrader_militaire_desert_sand'            => 'Military Desert Sand',
@@ -1286,8 +1286,8 @@ class PaintJob extends Alias
             
             'empire_courier_furrycat_furrycat'              => 'FurryCat',
             
-            'empire_courier_metallic_chrome'                => 'Chrome',
-            'empire_courier_metallic_gold'                  => 'Gold',
+            //'empire_courier_metallic_chrome'                => 'Chrome',
+            //'empire_courier_metallic_gold'                  => 'Gold',
             'empire_courier_metallic2_gold'                 => 'Golden',
             
             'empire_courier_militaire_dark_green'           => 'Military Dark Green',
@@ -1368,7 +1368,7 @@ class PaintJob extends Alias
             
             'cutter_metallic_chrome'                        => 'Chrome',
             'cutter_metallic2_chrome'                       => 'Chromed',
-            'cutter_metallic_gold'                          => 'Gold',
+            //'cutter_metallic_gold'                          => 'Gold',
             'cutter_metallic2_gold'                         => 'Golden',
             
             'cutter_militaire_dark_green'                   => 'Military Dark Green',
@@ -1408,8 +1408,8 @@ class PaintJob extends Alias
             'empire_eagle_faction1_06'                      => 'Pirate Faction Purple',
             */
             
-            'empire_eagle_metallic_chrome'                  => 'Chrome',
-            'empire_eagle_metallic_gold'                    => 'Gold',
+            //'empire_eagle_metallic_chrome'                  => 'Chrome',
+            //'empire_eagle_metallic_gold'                    => 'Gold',
             
             'empire_eagle_militaire_dark_green'             => 'Military Dark Green',
             'empire_eagle_militaire_desert_sand'            => 'Military Desert Sand',
@@ -1446,9 +1446,9 @@ class PaintJob extends Alias
             
             'independant_trader_default_defaultpaintjob'    => 'Default',
             
-            'independant_trader_metallic_chrome'            => 'Chrome',
+            //'independant_trader_metallic_chrome'            => 'Chrome',
             'independant_trader_metallic2_chrome'           => 'Chromed',
-            'independant_trader_metallic_gold'              => 'Gold',
+            //'independant_trader_metallic_gold'              => 'Gold',
             
             'independant_trader_militaire_dark_green'       => 'Military Dark Green',
             'independant_trader_militaire_desert_sand'      => 'Military Desert Sand',
@@ -1499,8 +1499,8 @@ class PaintJob extends Alias
             'orca_ember_orange'                             => 'Ember Orange',
             'orca_ember_blue'                               => 'Ember Blue',
             
-            'orca_metallic_chrome'                          => 'Chrome',
-            'orca_metallic_gold'                            => 'Gold',
+            //'orca_metallic_chrome'                          => 'Chrome',
+            //'orca_metallic_gold'                            => 'Gold',
             
             'orca_militaire_dark_green'                     => 'Military Dark Green',
             'orca_militaire_desert_sand'                    => 'Military Desert Sand',
@@ -1570,9 +1570,9 @@ class PaintJob extends Alias
             'python_lavecon_lavecon'                        => 'Lavecon',
             'python_eliteexpo_eliteexpo'                    => 'Frontier Expo',
             
-            'python_metallic_chrome'                        => 'Chrome',
+            //'python_metallic_chrome'                        => 'Chrome',
             'python_metallic2_chrome'                       => 'Chromed',
-            'python_metallic_gold'                          => 'Gold',
+            //'python_metallic_gold'                          => 'Gold',
             'python_metallic2_gold'                         => 'Golden',
             
             'python_militaire_dark_green'                   => 'Military Dark Green',
@@ -1669,7 +1669,7 @@ class PaintJob extends Alias
             
             'sidewinder_pax_east_pax_east'                  => 'PAX East',
             'sidewinder_pax_south_pax_south'                => 'PAX South',
-            'sidewinder_paxprime_paxprime'                  => 'PAX Prime',
+            //'sidewinder_paxprime_paxprime'                  => 'PAX Prime',
             
             'sidewinder_specialeffect_01'                   => 'Special Effect',
             
@@ -1714,8 +1714,8 @@ class PaintJob extends Alias
             'type6_foss_whitered'                           => 'Turbulence White Red',
             'type6_foss_yellowblack'                        => 'Turbulence Yellow Black',
             
-            'type6_metallic_chrome'                         => 'Chrome',
-            'type6_metallic_gold'                           => 'Gold',
+            //'type6_metallic_chrome'                         => 'Chrome',
+            //'type6_metallic_gold'                           => 'Gold',
             'type6_metallic2_gold'                          => 'Golden',
             
             'type6_militaire_dark_green'                    => 'Military Dark Green',
@@ -1746,8 +1746,8 @@ class PaintJob extends Alias
             
             'type7_default_defaultpaintjob'                 => 'Default',
             
-            'type7_metallic_chrome'                         => 'Chrome',
-            'type7_metallic_gold'                           => 'Gold',
+            //'type7_metallic_chrome'                         => 'Chrome',
+            //'type7_metallic_gold'                           => 'Gold',
             
             'type7_militaire_dark_green'                    => 'Military Dark Green',
             'type7_militaire_desert_sand'                   => 'Military Desert Sand',
@@ -1781,8 +1781,8 @@ class PaintJob extends Alias
             
             'type9_lavecon_lavecon'                         => 'Lavecon',
             
-            'type9_metallic_chrome'                         => 'Chrome',
-            'type9_metallic_gold'                           => 'Gold',
+            //'type9_metallic_chrome'                         => 'Chrome',
+            //'type9_metallic_gold'                           => 'Gold',
             
             'type9_militaire_dark_green'                    => 'Military Dark Green',
             'type9_militaire_desert_sand'                   => 'Military Desert Sand',
@@ -1994,8 +1994,8 @@ class PaintJob extends Alias
             'viper_mkiv_flag_usa_01'                        => 'Stars & Stripes Flag',
             */
             
-            'viper_mkiv_metallic_chrome'                    => 'Chrome',
-            'viper_mkiv_metallic_gold'                      => 'Gold',
+            //'viper_mkiv_metallic_chrome'                    => 'Chrome',
+            //'viper_mkiv_metallic_gold'                      => 'Gold',
             'viper_mkiv_metallic2_gold'                     => 'Golden',
             
             'viper_mkiv_militaire_dark_green'               => 'Military Dark Green',
@@ -2071,7 +2071,7 @@ class PaintJob extends Alias
             
             'vulture_metallic_chrome'                       => 'Chrome',
             'vulture_metallic2_chrome'                      => 'Chromed',
-            'vulture_metallic_gold'                         => 'Gold',
+            //'vulture_metallic_gold'                         => 'Gold',
             'vulture_metallic2_gold'                        => 'Golden',
             
             'vulture_militaire_dark_green'                  => 'Military Dark Green',
@@ -2113,7 +2113,7 @@ class PaintJob extends Alias
             'vulture_vibrant_red'                           => 'Vibrant Red',
             'vulture_vibrant_yellow'                        => 'Vibrant Yellow',
             
-            'vulture_wireframe_01'                          => 'Wireframe',
+            //'vulture_wireframe_01'                          => 'Wireframe',
         ],
     ];
 }

@@ -19,6 +19,7 @@ class OptMass extends Alias
      */
     static protected $have          = [
         'Thrusters',
+        'Frame Shift Drive',
     ];
     
     /**
