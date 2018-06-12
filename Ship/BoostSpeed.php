@@ -43,7 +43,7 @@ class BoostSpeed extends Alias
         128672262               => 402,
         
         // Diamondback Explorer
-        128671831               => 321,
+        128671831               => 340,
         
         // Diamondback Scout
         128671217               => 316,

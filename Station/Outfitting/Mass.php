@@ -324,6 +324,8 @@ class Mass extends Alias
           1209  => 2,
           1210  => 4,
           1211  => 8,
+          
+          1215  => 8,
         
         // Weapon Hardpoint > Multi-Cannon
           1251  => 2,
@@ -350,6 +352,8 @@ class Mass extends Alias
         // Weapon Hardpoint > Rail Gun
           1351  => 2,
           1352  => 4,
+          
+          1362  => 4,
         
         // Weapon Hardpoint > Missile Rack
           1401  => 2,
@@ -390,6 +394,9 @@ class Mass extends Alias
         // Weapon Hardpoint > Remote Release Flak Launcher
           1752  => 4,
           1760  => 4,
+        
+        // Weapon Hardpoint > Pack-Hound Missile Rack
+          1802  => 4,
           
         // Utility Mount > Shield Booster
           2001  => 0.5,
