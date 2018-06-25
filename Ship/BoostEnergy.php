@@ -12,7 +12,7 @@ use         EDSM\Alias;
 class BoostEnergy extends Alias
 {
     static protected $defaultName       = null;
-    static protected $unit              = '%1$s m/s';
+    static protected $unit              = '%1$s MJ';
     
     /**
      * Boost energy by ship

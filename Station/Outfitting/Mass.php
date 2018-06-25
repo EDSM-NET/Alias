@@ -346,6 +346,8 @@ class Mass extends Alias
           1303  => 8,
           1304  => 16,
           
+          1313  => 8,
+          
           1322  => 4,
           1323  => 4,
         
@@ -360,6 +362,8 @@ class Mass extends Alias
           1402  => 4,
           1405  => 2,
           1406  => 4,
+          
+          1411  => 4,
         
         // Weapon Hardpoint > Mine Launcher
           1451  => 2,
@@ -371,6 +375,8 @@ class Mass extends Alias
           
           1509  => 2,
           1510  => 2,
+          
+          1521  => 2,
         
         // Weapon Hardpoint > Torpedo Pylon
           1551  => 2,
@@ -395,8 +401,17 @@ class Mass extends Alias
           1752  => 4,
           1760  => 4,
         
+        // Weapon Hardpoint > Remote Release Flechette Launcher
+          1772  => 4,
+          1780  => 4,
+        
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 4,
+        
+        // Weapon Hardpoint > Shock Cannon
+          1852  => 4,
+          1856  => 4,
+          1860  => 4,
           
         // Utility Mount > Shield Booster
           2001  => 0.5,
@@ -1158,6 +1173,15 @@ class Mass extends Alias
           5841  => 20,
           
           5861  => 128,
+        
+        // Optional Internal > Recon Limpet Controller
+          5901  => 1.3,
+          
+          5921  => 2,
+          
+          5941  => 20,
+          
+          5961  => 128,
         
         // Optional Internal > Meta Alloy Hull Reinforcement
           6001  => 2,

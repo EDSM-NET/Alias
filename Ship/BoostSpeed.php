@@ -87,6 +87,9 @@ class BoostSpeed extends Alias
         // Keelback
         128672269               => 303,
         
+        // Krait MkII
+        128816567               => 330,
+        
         // Orca
         128049327               => 384,
         

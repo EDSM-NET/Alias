@@ -87,6 +87,9 @@ class BaseSpeed extends Alias
         // Keelback
         128672269               => 202,
         
+        // Krait MkII
+        128816567               => 150,
+        
         // Orca
         128049327               => 303,
         

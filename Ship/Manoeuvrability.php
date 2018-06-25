@@ -21,7 +21,7 @@ class Manoeuvrability extends Alias
         128049267               => 4,
         
         // Alliance Chieftain
-        128816574               => null,
+        128816574               => 4,
         
         // Anaconda
         128049363               => 1,

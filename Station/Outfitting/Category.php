@@ -115,6 +115,7 @@ class Category extends Alias
                 1313,
                 
                 1322, 1323,
+                1330, 1331,
             ],
             'Rail Gun'                          => [
                 1351, 1352,
@@ -154,20 +155,24 @@ class Category extends Alias
                 1752,
                 1760,
             ],
+            'Remote Release Flechette Launcher' => [
+                1772,
+                1780,
+            ],
             'Pack-Hound Missile Rack'           => [
                 1802,
             ],
             'Shock Cannon'                      => [
-                1852,
-                1856,
-                1860,
+                1852, 1853,
+                1856, 1857,
+                1860, 1861,
             ],
             'Enzyme Missile Rack'               => [
                 1872,
             ],
             'Shard Cannon'                      => [
-                1922,
-                1930,
+                1922, 1923,
+                1930, 1931,
             ],
          ],
         

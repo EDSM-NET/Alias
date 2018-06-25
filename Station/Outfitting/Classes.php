@@ -355,7 +355,10 @@ class Classes extends Alias
           1313  => 3,
           
           1322  => 2,
-          1323  => 2,
+          1323  => 2, //TODO: Update on release
+          
+          1330  => 2,
+          1331  => 2, //TODO: Update on release
         
         // Weapon Hardpoint > Rail Gun
           1351  => 1,
@@ -416,15 +419,20 @@ class Classes extends Alias
         
         // Weapon Hardpoint > Shock Cannon
           1852  => 2,
+          1853  => 2, //TODO: Update on release
           1856  => 2,
+          1857  => 2, //TODO: Update on release
           1860  => 2,
+          1861  => 2, //TODO: Update on release
         
         // Weapon Hardpoint > Enzyme Missile Rack
           1872  => 2,
         
         // Weapon Hardpoint > Shard Cannon
           1922  => 2,
+          1923  => 2, //TODO: Update on release
           1930  => 2,
+          1931  => 2, //TODO: Update on release
           
         // Utility Mount > Shield Booster
           2001  => 0,

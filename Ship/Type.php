@@ -16,12 +16,12 @@ class Type extends Alias
      */
     static protected $name  = [
         128049267   => 'Adder',
+        128816588   => 'Alliance Challenger',
         128816574   => 'Alliance Chieftain',
         128049363   => 'Anaconda',
         128049303   => 'Asp Explorer',
         128672276   => 'Asp Scout',
         128049345   => 'Beluga Liner',
-        128816588   => 'Challenger',
         128049279   => 'Cobra MkIII',
         128672262   => 'Cobra MkIV',
         128671831   => 'Diamondback Explorer',
@@ -39,6 +39,7 @@ class Type extends Alias
         128049375   => 'Imperial Cutter',
         128672138   => 'Imperial Eagle',
         128672269   => 'Keelback',
+        //128816567   => 'Krait MkII', //TODO: Update on release
         128049327   => 'Orca',
         128049339   => 'Python',
         128049249   => 'Sidewinder',
@@ -62,6 +63,9 @@ class Type extends Alias
         // Adder
         'adder'                             => 128049267,
         
+        // Alliance Challenger
+        'typex_3'                           => 128816588,
+        
         // Alliance Chieftain
         'typex'                             => 128816574,
         
@@ -79,9 +83,6 @@ class Type extends Alias
         // Beluga Liner
         'beluga liner'                      => 128049345,
         'belugaliner'                       => 128049345,
-        
-        // Challenger
-        'typex_3'                           => 128816588,
         
         // Cobra MkIII
         'cobra mk. iii'                     => 128049279,
@@ -147,6 +148,9 @@ class Type extends Alias
         // Keelback
         'keelback'                          => 128672269,
         'independant_trader'                => 128672269,
+        
+        // Krait MkII
+        //'krait_mkii'                        => 128816567, //TODO: Update on release
         
         // Orca
         'orca'                              => 128049327,

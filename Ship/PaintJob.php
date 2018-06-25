@@ -18,6 +18,7 @@ class PaintJob extends Alias
      */
     static protected $defaults = [
         128049267   => 'adder_default_defaultpaintjob',
+        128816588   => 'typex_3_default_defaultpaintjob',
         128816574   => 'typex_default_defaultpaintjob',
         128049363   => 'anaconda_default_defaultpaintjob',
         128049303   => 'asp_default_defaultpaintjob',
@@ -25,7 +26,6 @@ class PaintJob extends Alias
         128049345   => 'belugaliner_default_defaultpaintjob',
         128049279   => 'cobramkiii_default_defaultpaintjob',
         128672262   => 'cobramkiv_default_defaultpaintjob',
-        128816588   => 'typex_3_default_defaultpaintjob',
         128671831   => 'diamondbackxl_default_defaultpaintjob',
         128671217   => 'diamondback_default_defaultpaintjob',
         128049291   => 'dolphin_default_defaultpaintjob',
@@ -41,6 +41,7 @@ class PaintJob extends Alias
         128049375   => 'cutter_default_defaultpaintjob',
         128672138   => 'empire_eagle_default_defaultpaintjob',
         128672269   => 'independant_trader_default_defaultpaintjob',
+        128816567   => 'krait_mkii_default_defaultpaintjob',
         128049327   => 'orca_default_defaultpaintjob',
         128049339   => 'python_default_defaultpaintjob',
         128049249   => 'sidewinder_default_defaultpaintjob',
@@ -102,10 +103,17 @@ class PaintJob extends Alias
             'adder_vibrant_red'                             => 'Vibrant Red',
             'adder_vibrant_yellow'                          => 'Vibrant Yellow',
         ],
+        
+        // Alliance Challenger
+        128816588   => [
+            'typex_3_default_defaultpaintjob'               => 'Default',
+        ],
 
         // Alliance Chieftain
         128816574 => [
             'typex_default_defaultpaintjob'                 => 'Default',
+            
+            'typex_lavecon_lavecon'                         => 'Lavecon',
             
             'typex_luminous_stripe_01'                      => 'Pulse Green',
             'typex_luminous_stripe_02'                      => 'Pulse Blue',
@@ -676,11 +684,6 @@ class PaintJob extends Alias
             
             //'cobramkiv_wireframe_01'                        => 'Wireframe',
         ],
-        
-        // Challenger
-        128816588   => [
-            'typex_3_default_defaultpaintjob'               => 'Default',
-        ],
 
         // Diamondback Explorer
         128671831 => [
@@ -988,6 +991,13 @@ class PaintJob extends Alias
             'federation_corvette_predator_crimson'          => 'Predator Rose',
             'federation_corvette_predator_lime'             => 'Predator Lime',
             'federation_corvette_predator_blue'             => 'Predator Blue',
+            
+            'federation_corvette_razormetal_brass'          => 'Razor Brass',
+            'federation_corvette_razormetal_bronze'         => 'Razor Bronze',
+            'federation_corvette_razormetal_cobalt'         => 'Razor Cobalt',
+            'federation_corvette_razormetal_copper'         => 'Razor Copper',
+            'federation_corvette_razormetal_gold'           => 'Razor Gold',
+            'federation_corvette_razormetal_silver'         => 'Razor Silver',
             
             'federation_corvette_synth_blue'                => 'Synth Blue',
             'federation_corvette_synth_lime'                => 'Synth Lime',
@@ -1471,6 +1481,13 @@ class PaintJob extends Alias
             'independant_trader_vibrant_red'                => 'Vibrant Red',
             'independant_trader_vibrant_yellow'             => 'Vibrant Yellow',
         ],
+        
+        // Krait MkII
+        /*
+        128816567   => [
+            'krait_mkii_default_defaultpaintjob'            => 'Default',
+        ],
+        */ //TODO: Update on release
 
         // Orca
         128049327 => [
@@ -1831,6 +1848,8 @@ class PaintJob extends Alias
             'type9_military_fullmetal_malachite'            => 'Galvanized Malachite',
             'type9_military_fullmetal_paladium'             => 'Galvanized Paladium',
             
+            'type9_military_lavecon_lavecon'                => 'Lavecon',
+            
             'type9_military_metallic2_chrome'               => 'Chromed',
             'type9_military_metallic2_gold'                 => 'Golden',
             
@@ -1922,6 +1941,13 @@ class PaintJob extends Alias
             'viper_militaire_earth_yellow'                  => 'Military Earth Yellow',
             'viper_militaire_forest_green'                  => 'Military Marine Blue',
             'viper_militaire_sand'                          => 'Military Sand',
+            
+            'viper_razormetal_brass'                        => 'Razor Brass',
+            'viper_razormetal_bronze'                       => 'Razor Bronze',
+            'viper_razormetal_cobalt'                       => 'Razor Cobalt',
+            'viper_razormetal_copper'                       => 'Razor Copper',
+            'viper_razormetal_gold'                         => 'Razor Gold',
+            'viper_razormetal_silver'                       => 'Razor Silver',
             
             /*
             'viper_squadron_black'                          => 'Squadron Shadow',
@@ -2057,6 +2083,13 @@ class PaintJob extends Alias
             'vulture_faction1_05'                           => 'Pirate Faction Blue',
             'vulture_faction1_06'                           => 'Pirate Faction Purple',
             */
+            
+            'vulture_fullmetal_brass'                       => 'Galvanized Brass',
+            'vulture_fullmetal_bronze'                      => 'Galvanized Bronze',
+            'vulture_fullmetal_cobalt'                      => 'Galvanized Cobalt',
+            'vulture_fullmetal_copper'                      => 'Galvanized Copper',
+            'vulture_fullmetal_malachite'                   => 'Galvanized Malachite',
+            'vulture_fullmetal_paladium'                    => 'Galvanized Paladium',
             
             'vulture_gamescom_gamescom'                     => 'Gamescom',
             

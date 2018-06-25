@@ -87,6 +87,9 @@ class Shields extends Alias
         // Keelback
         128672269               => 99,
         
+        // Krait MkII
+        128816567               => 220,
+        
         // Orca
         128049327               => 114,
         

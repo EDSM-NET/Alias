@@ -354,8 +354,11 @@ class Rating extends Alias
           
           1313  => 'B',
           
-          1322  => 'E',
-          1323  => 'B',
+          1322  => 'B',
+          1323  => 'B', //TODO: Update on release
+          
+          1330  => 'E',
+          1331  => 'E', //TODO: Update on release
         
         // Weapon Hardpoint > Rail Gun
           1351  => 'D',
@@ -417,15 +420,20 @@ class Rating extends Alias
         
         // Weapon Hardpoint > Shock Cannon
           1852  => 'D',
+          1853  => 'D', //TODO: Update on release
           1856  => 'D',
+          1857  => 'D', //TODO: Update on release
           1860  => 'D',
+          1861  => 'D', //TODO: Update on release
         
         // Weapon Hardpoint > Enzyme Missile Rack
           1872  => 'B',
         
         // Weapon Hardpoint > Shard Cannon
           1922  => 'A',
+          1923  => 'A', //TODO: Update on release
           1930  => 'A',
+          1931  => 'A', //TODO: Update on release
           
         // Utility Mount > Shield Booster
           2001  => 'E',

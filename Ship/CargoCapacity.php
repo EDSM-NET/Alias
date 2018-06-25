@@ -22,7 +22,7 @@ class CargoCapacity extends Alias
         128049267               => 6,
         
         // Alliance Chieftain
-        128816574               => null,
+        128816574               => 40,
         
         // Anaconda
         128049363               => 114,

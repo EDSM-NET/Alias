@@ -86,6 +86,9 @@ class HullMass extends Alias
         // Keelback
         128672269               => 180,
         
+        // Krait MkII
+        128816567               => 320,
+        
         // Orca
         128049327               => 580,
         

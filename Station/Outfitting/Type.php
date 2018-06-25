@@ -245,6 +245,20 @@ class Type extends Alias
            323  => 'Military Grade Composite',
            324  => 'Mirrored Surface Composite',
            325  => 'Reactive Surface Composite',
+             
+        // Bulkhead > Alliance Challenger
+           331  => 'Lightweight Alloy',
+           332  => 'Reinforced Alloy',
+           333  => 'Military Grade Composite',
+           334  => 'Mirrored Surface Composite',
+           335  => 'Reactive Surface Composite',
+             
+        // Bulkhead > Krait MkII
+           341  => 'Lightweight Alloy',
+           342  => 'Reinforced Alloy',
+           343  => 'Military Grade Composite',
+           344  => 'Mirrored Surface Composite',
+           345  => 'Reactive Surface Composite',
         
         // Weapon Hardpoint > Beam Laser
           1001  => 'Beam Laser (Fixed)',
@@ -353,8 +367,11 @@ class Type extends Alias
           
           1313  => 'Advanced Plasma Accelerator (Fixed, Powerplay)',
           
-          1322  => 'Plasma Charger (Turret, Guardian)',
+          1322  => 'Plasma Charger (Fixed, Guardian)',
           1323  => 'Plasma Charger (Fixed, Guardian)',
+          
+          1330  => 'Plasma Charger (Turret, Guardian)',
+          1331  => 'Plasma Charger (Turret, Guardian)',                              
         
         // Weapon Hardpoint > Rail Gun
           1351  => 'Rail Gun (Fixed)',
@@ -368,7 +385,7 @@ class Type extends Alias
           1405  => 'Missile Rack (Dumbfire, Fixed)',
           1406  => 'Missile Rack (Dumpfire, Fixed)',
           
-          1411  => 'Missile Rack (Dumpfire, Fixed, Powerplay)',
+          1411  => 'Rocket Propelled FSD Disruptor (Dumpfire, Fixed, Powerplay)',
         
         // Weapon Hardpoint > Mine Launcher
           1451  => 'Mine Launcher (Fixed)',
@@ -414,15 +431,20 @@ class Type extends Alias
         
         // Weapon Hardpoint > Shock Cannon
           1852  => 'Shock Cannon (Fixed)',
+          1853  => 'Shock Cannon (Fixed)',
           1856  => 'Shock Cannon (Gimbal)',
+          1857  => 'Shock Cannon (Gimbal)',
           1860  => 'Shock Cannon (Turret)',
+          1861  => 'Shock Cannon (Turret)',
         
         // Weapon Hardpoint > Enzyme Missile Rack
           1872  => 'Enzyme Missile Rack (Fixed)',
         
         // Weapon Hardpoint > Shard Cannon
           1922  => 'Shard Cannon (Fixed, Guardian)',
+          1923  => 'Shard Cannon (Fixed, Guardian)',
           1930  => 'Shard Cannon (Turret, Guardian)',
+          1931  => 'Shard Cannon (Turret, Guardian)',
           
         // Utility Mount > Shield Booster
           2001  => 'Shield Booster',
@@ -1571,6 +1593,20 @@ class Type extends Alias
         'typex_armour_grade3'                           => 323,
         'typex_armour_mirrored'                         => 324,
         'typex_armour_reactive'                         => 325,
+             
+        // Bulkhead > Alliance Challenger
+        'typex_3_armour_grade1'                         => 331,
+        'typex_3_armour_grade2'                         => 332,
+        'typex_3_armour_grade3'                         => 333,
+        'typex_3_armour_mirrored'                       => 334,
+        'typex_3_armour_reactive'                       => 335,
+             
+        // Bulkhead > Krait MkII
+        'krait_mkii_armour_grade1'                      => 341,
+        'krait_mkii_armour_grade2'                      => 342,
+        'krait_mkii_armour_grade3'                      => 343,
+        'krait_mkii_armour_mirrored'                    => 344,
+        'krait_mkii_armour_reactive'                    => 345,
         
         // Weapon Hardpoint > Beam Laser
         'hpt_beamlaser_fixed_small'                     => 1001,
@@ -1679,8 +1715,12 @@ class Type extends Alias
         
         'hpt_plasmaaccelerator_fixed_large_advanced'    => 1313,
         
-        'hpt_guardian_plasmalauncher_turret_medium'     => 1322,
-        'hpt_guardian_plasmalauncher_fixed_medium'      => 1323,
+        'hpt_guardian_plasmalauncher_fixed_medium'      => 1322,
+        'hpt_guardian_plasmalauncher_fixed_large'       => 1323,
+        
+        'hpt_guardian_plasmalauncher_turret_medium'     => 1330,
+        'hpt_guardian_plasmalauncher_turret_large'      => 1331,
+        
         
         // Weapon Hardpoint > Rail Gun
         'hpt_railgun_fixed_small'                       => 1351,
@@ -1746,17 +1786,22 @@ class Type extends Alias
         
         // Weapon Hardpoint > Shock Cannon
         'hpt_plasmashockcannon_fixed_medium'            => 1852,
+        'hpt_plasmashockcannon_fixed_large'             => 1853,
         
         'hpt_plasmashockcannon_gimbal_medium'           => 1856,
+        'hpt_plasmashockcannon_gimbal_large'            => 1857,
         
         'hpt_plasmashockcannon_turret_medium'           => 1860,
+        'hpt_plasmashockcannon_turret_large'            => 1861,
         
         // Weapon Hardpoint > Enzyme Missile Rack
         'hpt_causticmissile_fixed_medium'               => 1872,
         
         // Weapon Hardpoint > Shard Cannon
         'hpt_guardian_shardcannon_fixed_medium'         => 1922,
+        'hpt_guardian_shardcannon_fixed_large'          => 1923,
         'hpt_guardian_shardcannon_turret_medium'        => 1930,
+        'hpt_guardian_shardcannon_turret_large'         => 1931,
           
           
         

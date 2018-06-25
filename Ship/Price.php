@@ -87,6 +87,9 @@ class Price extends Alias
         // Keelback
         128672269               => 3048000,
         
+        // Krait MkII
+        128816567               => null,
+        
         // Orca
         128049327               => 48539887,
         

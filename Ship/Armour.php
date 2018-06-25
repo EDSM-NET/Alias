@@ -86,6 +86,9 @@ class Armour extends Alias
         // Keelback
         128672269               => 243,
         
+        // Krait MkII
+        128816567               => 220,
+        
         // Orca
         128049327               => 396,
         
