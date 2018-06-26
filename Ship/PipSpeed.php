@@ -21,7 +21,7 @@ class PipSpeed extends Alias
         128049267               => 0.13625,
         
         // Alliance Chieftain
-        128816574               => 0.03875,
+        128816574               => 0.085,
         
         // Anaconda
         128049363               => 0.13875,

@@ -39,7 +39,7 @@ class Type extends Alias
         128049375   => 'Imperial Cutter',
         128672138   => 'Imperial Eagle',
         128672269   => 'Keelback',
-        //128816567   => 'Krait MkII', //TODO: Update on release
+        128816567   => 'Krait MkII',
         128049327   => 'Orca',
         128049339   => 'Python',
         128049249   => 'Sidewinder',
@@ -150,7 +150,7 @@ class Type extends Alias
         'independant_trader'                => 128672269,
         
         // Krait MkII
-        //'krait_mkii'                        => 128816567, //TODO: Update on release
+        'krait_mkii'                        => 128816567,
         
         // Orca
         'orca'                              => 128049327,

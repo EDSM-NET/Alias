@@ -49,5 +49,7 @@ class Capacity extends Alias
           
           4031  => 2,
           4032  => 1,
+          4033  => 4,
+          4034  => 16,
     ];
 }
