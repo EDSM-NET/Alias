@@ -32,10 +32,8 @@ class Volcanism extends Alias
          21     => 'Ammonia Magma',
          31     => 'Methane Magma',
          41     => 'Nitrogen Magma',
-         44     => 'Rocky Magma',
-         51     => 'Silicate Magma',
+         51     => 'Rocky Magma',
          61     => 'Metallic Magma',
-         
          71     => 'Water Geysers',
          81     => 'Carbon Dioxide Geysers',
          91     => 'Ammonia Geysers',
@@ -72,7 +70,8 @@ class Volcanism extends Alias
         'ammonia magma'                         => 21,
         'methane magma'                         => 31,
         'nitrogen magma'                        => 41,
-        'rocky magma'                           => 44,
+        
+        'rocky magma'                           => 51,
         'silicate magma'                        => 51,
         
         'metallic magma'                        => 61,
