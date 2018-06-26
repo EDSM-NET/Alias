@@ -11,6 +11,7 @@ use         EDSM\Alias;
 
 class Type extends Alias
 {
+    use \EDSM\Alias\Body\Star\Symbol;
     use \EDSM\Alias\Body\Star\Scoopable;
     
     /**
@@ -28,6 +29,7 @@ class Type extends Alias
           401   => 'F (White super giant) Star',
           
           5     => 'G (White-Yellow) Star',
+          5001  => 'G (White-Yellow super giant) Star', // Not returned by the game so estimated based on F (White super giant) Star temperature between 5200 and 6000
           
           6     => 'K (Yellow-Orange) Star',
           601   => 'K (Yellow-Orange giant) Star',
@@ -172,6 +174,84 @@ class Type extends Alias
         'nebula'                    => 112,
         'stellarremnantnebula'      => 113,
     ];
+    
+    /**
+     * List of symbols for stars
+     */
+    static protected $symbols = array(
+        // Main sequence
+          1     => 'O',
+          2     => 'B',
+          
+          3     => 'A',
+          301   => 'A',
+          
+          4     => 'F',
+          401   => 'F',
+          
+          5     => 'G',
+          5001  => 'G',
+          
+          6     => 'K',
+          601   => 'K',
+          
+          7     => 'M',
+          701   => 'M',
+          702   => 'M',
+          
+          8     => 'L',
+          9     => 'T',
+         10     => 'Y',
+        
+        // Proto stars
+         11     => 'TTS',
+         12     => 'AeBe',
+        
+        // Wolf-Rayet
+         21     => 'W',
+         22     => 'WN',
+         23     => 'WNC',
+         24     => 'WC',
+         25     => 'WO',
+        
+        // Carbon stars
+         31     => 'CS',
+         32     => 'C',
+         33     => 'CN',
+         34     => 'CJ',
+         35     => 'CH',
+         36     => 'CHd',
+        
+         41     => 'MS',
+         42     => 'S',
+        
+        // White dwarfs
+         51     => 'D',
+        501     => 'DA',
+        502     => 'DAB',
+        503     => 'DAO',
+        504     => 'DAZ',
+        505     => 'DAV',
+        506     => 'DB',
+        507     => 'DBZ',
+        508     => 'DBV',
+        509     => 'DO',
+        510     => 'DOV',
+        511     => 'DQ',
+        512     => 'DC',
+        513     => 'DCV',
+        514     => 'DX',
+        
+         91     => 'N',
+         92     => 'H',
+         93     => 'H',
+         
+         94     => 'X', // Exotic?? // Check in game
+        
+        111     => 'RoguePlanet', // Check in game
+        112     => 'Nebula', // Check in game
+        113     => 'StellarRemnantNebula', // Check in game
+    );
     
     /**
      * List of scoopable star
