@@ -19,7 +19,10 @@ class BoostEnergy extends Alias
      */
     static protected $name  = [
         // Adder
-        128049267               => 9,
+        128049267               => 8,
+        
+        // Alliance Challenger
+        128816588               => 19,
         
         // Alliance Chieftain
         128816574               => 19,
@@ -34,7 +37,7 @@ class BoostEnergy extends Alias
         128672276               => 13,
         
         // Beluga Liner
-        128049345               => 17,
+        128049345               => 19,
         
         // Cobra MkIII
         128049279               => 10,
@@ -86,6 +89,9 @@ class BoostEnergy extends Alias
         
         // Keelback
         128672269               => 10,
+        
+        // Krait MkII
+        128816567               => 13,
         
         // Orca
         128049327               => 16,

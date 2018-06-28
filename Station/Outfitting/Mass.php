@@ -310,6 +310,8 @@ class Mass extends Alias
           1109  => 2,
           1110  => 4,
           1111  => 8,
+          
+          1121  => 2,
         
         // Weapon Hardpoint > Cannon
           1151  => 2,
@@ -1212,6 +1214,38 @@ class Mass extends Alias
         
           6041  => 32,
           6042  => 16,
+        
+        // Optional Internal > Guardian Hull Reinforcement
+          6101  => 2,
+          6102  => 1,
+        
+          6111  => 4,
+          6112  => 2,
+        
+          6121  => 8,
+          6122  => 4,
+        
+          6131  => 16,
+          6132  => 8,
+        
+          6141  => 32,
+          6142  => 16,
+        
+        // Optional Internal > Guardian Hull Reinforcement
+          6201  => 2,
+          6202  => 1,
+        
+          6211  => 4,
+          6212  => 2,
+        
+          6221  => 8,
+          6222  => 4,
+        
+          6231  => 16,
+          6232  => 8,
+        
+          6241  => 32,
+          6242  => 16,
         
         
         // Cargo bay door (No category, not sellable, only for ship module list)

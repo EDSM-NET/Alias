@@ -1327,5 +1327,37 @@ class Rating extends Alias
         
           6041  => 'E',
           6042  => 'D',
+        
+        // Optional Internal > Guardian Hull Reinforcement
+          6101  => 'E',
+          6102  => 'D',
+        
+          6111  => 'E',
+          6112  => 'D',
+        
+          6121  => 'E',
+          6122  => 'D',
+        
+          6131  => 'E',
+          6132  => 'D',
+        
+          6141  => 'E',
+          6142  => 'D',
+        
+        // Optional Internal > Guardian Shield Reinforcement
+          6201  => 'E',
+          6202  => 'D',
+        
+          6211  => 'E',
+          6212  => 'D',
+        
+          6221  => 'E',
+          6222  => 'D',
+        
+          6231  => 'E',
+          6232  => 'D',
+        
+          6241  => 'E',
+          6242  => 'D',
     ];
 }

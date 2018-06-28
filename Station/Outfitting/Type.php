@@ -1349,6 +1349,38 @@ class Type extends Alias
           6041  => 'Meta Alloy Hull Reinforcement',
           6042  => 'Meta Alloy Hull Reinforcement',
         
+        // Optional Internal > Guardian Hull Reinforcement
+          6101  => 'Guardian Hull Reinforcement',
+          6102  => 'Guardian Hull Reinforcement',
+        
+          6111  => 'Guardian Hull Reinforcement',
+          6112  => 'Guardian Hull Reinforcement',
+        
+          6121  => 'Guardian Hull Reinforcement',
+          6122  => 'Guardian Hull Reinforcement',
+        
+          6131  => 'Guardian Hull Reinforcement',
+          6132  => 'Guardian Hull Reinforcement',
+        
+          6141  => 'Guardian Hull Reinforcement',
+          6142  => 'Guardian Hull Reinforcement',
+        
+        // Optional Internal > Guardian Shield Reinforcement
+          6201  => 'Guardian Shield Reinforcement',
+          6202  => 'Guardian Shield Reinforcement',
+        
+          6211  => 'Guardian Shield Reinforcement',
+          6212  => 'Guardian Shield Reinforcement',
+        
+          6221  => 'Guardian Shield Reinforcement',
+          6222  => 'Guardian Shield Reinforcement',
+        
+          6231  => 'Guardian Shield Reinforcement',
+          6232  => 'Guardian Shield Reinforcement',
+        
+          6241  => 'Guardian Shield Reinforcement',
+          6242  => 'Guardian Shield Reinforcement',
+        
         
         // Cargo bay door (No category, not sellable, only for ship module list)
           9990  => 'Cargo hatch',
@@ -2708,6 +2740,39 @@ class Type extends Alias
         
         'int_metaalloyhullreinforcement_size5_class1'   => 6041,
         'int_metaalloyhullreinforcement_size5_class2'   => 6042,
+        
+        // Optional Internal > Guardian Hull Reinforcement
+        'int_guardianhullreinforcement_size1_class1'    => 6101,
+        'int_guardianhullreinforcement_size1_class2'    => 6102,
+        
+        'int_guardianhullreinforcement_size2_class1'    => 6111,
+        'int_guardianhullreinforcement_size2_class2'    => 6112,
+        
+        'int_guardianhullreinforcement_size3_class1'    => 6121,
+        'int_guardianhullreinforcement_size3_class2'    => 6122,
+        
+        'int_guardianhullreinforcement_size4_class1'    => 6131,
+        'int_guardianhullreinforcement_size4_class2'    => 6132,
+        
+        'int_guardianhullreinforcement_size5_class1'    => 6141,
+        'int_guardianhullreinforcement_size5_class2'    => 6142,
+        
+        // Optional Internal > Guardian Shield Reinforcement
+        'int_guardianshieldreinforcement_size1_class1'  => 6201,
+        'int_guardianshieldreinforcement_size1_class2'  => 6202,
+        
+        'int_guardianshieldreinforcement_size2_class1'  => 6211,
+        'int_guardianshieldreinforcement_size2_class2'  => 6212,
+        
+        'int_guardianshieldreinforcement_size3_class1'  => 6221,
+        'int_guardianshieldreinforcement_size3_class2'  => 6222,
+        
+        'int_guardianshieldreinforcement_size4_class1'  => 6231,
+        'int_guardianshieldreinforcement_size4_class2'  => 6232,
+        
+        'int_guardianshieldreinforcement_size5_class1'  => 6241,
+        'int_guardianshieldreinforcement_size5_class2'  => 6242,
+
         
         
         // Cargo bay door (No category, not sellable, only for ship module list)
