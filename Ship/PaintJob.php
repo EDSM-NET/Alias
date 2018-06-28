@@ -1483,12 +1483,10 @@ class PaintJob extends Alias
         ],
         
         // Krait MkII
-        /*
         128816567   => [
             'krait_mkii_default_defaultpaintjob'            => 'Default',
         ],
-        */ //TODO: Update on release
-
+        
         // Orca
         128049327 => [
             'orca_blackfriday_01'                           => 'Black Friday',
