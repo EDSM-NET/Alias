@@ -249,6 +249,20 @@ class Mass extends Alias
            323  => 78,
            324  => 78,
            325  => 78,
+             
+        // Bulkhead > Alliance Challenger
+           331  => 0,
+           332  => 40,
+           333  => 78,
+           334  => 78,
+           335  => 78,
+             
+        // Bulkhead > Krait MkII
+           341  => 0,
+           342  => 36,
+           343  => 67,
+           344  => 67,
+           345  => 67,
         
         // Weapon Hardpoint > Beam Laser
           1001  => 2,
