@@ -419,20 +419,20 @@ class Classes extends Alias
         
         // Weapon Hardpoint > Shock Cannon
           1852  => 2,
-          1853  => 2, //TODO: Update on release
+          1853  => 3,
           1856  => 2,
-          1857  => 2, //TODO: Update on release
+          1857  => 3,
           1860  => 2,
-          1861  => 2, //TODO: Update on release
+          1861  => 3,
         
         // Weapon Hardpoint > Enzyme Missile Rack
           1872  => 2,
         
         // Weapon Hardpoint > Shard Cannon
           1922  => 2,
-          1923  => 2, //TODO: Update on release
+          1923  => 3,
           1930  => 2,
-          1931  => 2, //TODO: Update on release
+          1931  => 3,
           
         // Utility Mount > Shield Booster
           2001  => 0,
@@ -1358,5 +1358,21 @@ class Classes extends Alias
         
           6241  => 5,
           6242  => 5,
+        
+        // Optional Internal > Guardian Module Reinforcement
+          6301  => 1,
+          6302  => 1,
+        
+          6311  => 2,
+          6312  => 2,
+        
+          6321  => 3,
+          6322  => 3,
+        
+          6331  => 4,
+          6332  => 4,
+        
+          6341  => 5,
+          6342  => 5,
     ];
 }

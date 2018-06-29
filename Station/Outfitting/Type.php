@@ -1381,6 +1381,22 @@ class Type extends Alias
           6241  => 'Guardian Shield Reinforcement',
           6242  => 'Guardian Shield Reinforcement',
         
+        // Optional Internal > Guardian Module Reinforcement
+          6301  => 'Guardian Module Reinforcement',
+          6302  => 'Guardian Module Reinforcement',
+        
+          6311  => 'Guardian Module Reinforcement',
+          6312  => 'Guardian Module Reinforcement',
+        
+          6321  => 'Guardian Module Reinforcement',
+          6322  => 'Guardian Module Reinforcement',
+        
+          6331  => 'Guardian Module Reinforcement',
+          6332  => 'Guardian Module Reinforcement',
+        
+          6341  => 'Guardian Module Reinforcement',
+          6342  => 'Guardian Module Reinforcement',
+        
         
         // Cargo bay door (No category, not sellable, only for ship module list)
           9990  => 'Cargo hatch',
@@ -2772,6 +2788,22 @@ class Type extends Alias
         
         'int_guardianshieldreinforcement_size5_class1'  => 6241,
         'int_guardianshieldreinforcement_size5_class2'  => 6242,
+        
+        // Optional Internal > Guardian Module Reinforcement
+        'int_guardianmodulereinforcement_size1_class1'  => 6301,
+        'int_guardianmodulereinforcement_size1_class2'  => 6302,
+        
+        'int_guardianmodulereinforcement_size2_class1'  => 6311,
+        'int_guardianmodulereinforcement_size2_class2'  => 6312,
+        
+        'int_guardianmodulereinforcement_size3_class1'  => 6321,
+        'int_guardianmodulereinforcement_size3_class2'  => 6322,
+        
+        'int_guardianmodulereinforcement_size4_class1'  => 6331,
+        'int_guardianmodulereinforcement_size4_class2'  => 6332,
+        
+        'int_guardianmodulereinforcement_size5_class1'  => 6341,
+        'int_guardianmodulereinforcement_size5_class2'  => 6342,
 
         
         

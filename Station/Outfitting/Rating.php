@@ -420,20 +420,20 @@ class Rating extends Alias
         
         // Weapon Hardpoint > Shock Cannon
           1852  => 'D',
-          1853  => 'D', //TODO: Update on release
+          1853  => 'D',
           1856  => 'D',
-          1857  => 'D', //TODO: Update on release
+          1857  => 'D',
           1860  => 'D',
-          1861  => 'D', //TODO: Update on release
+          1861  => 'D',
         
         // Weapon Hardpoint > Enzyme Missile Rack
           1872  => 'B',
         
         // Weapon Hardpoint > Shard Cannon
           1922  => 'A',
-          1923  => 'A', //TODO: Update on release
+          1923  => 'A',
           1930  => 'A',
-          1931  => 'A', //TODO: Update on release
+          1931  => 'A',
           
         // Utility Mount > Shield Booster
           2001  => 'E',
@@ -1359,5 +1359,21 @@ class Rating extends Alias
         
           6241  => 'E',
           6242  => 'D',
+        
+        // Optional Internal > Guardian Module Reinforcement
+          6301  => 'E',
+          6302  => 'D',
+        
+          6311  => 'E',
+          6312  => 'D',
+        
+          6321  => 'E',
+          6322  => 'D',
+        
+          6331  => 'E',
+          6332  => 'D',
+        
+          6341  => 'E',
+          6342  => 'D',
     ];
 }

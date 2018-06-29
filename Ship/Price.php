@@ -21,8 +21,11 @@ class Price extends Alias
         // Adder
         128049267               => 87808,
         
+        // Alliance Challenger
+        128816588               => 30472252,
+        
         // Alliance Chieftain
-        128816574               => null,
+        128816574               => 19382250,
         
         // Anaconda
         128049363               => 146969451,
@@ -88,7 +91,7 @@ class Price extends Alias
         128672269               => 3048000,
         
         // Krait MkII
-        128816567               => null,
+        128816567               => 45814205,
         
         // Orca
         128049327               => 48539887,

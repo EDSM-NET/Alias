@@ -107,6 +107,27 @@ class PaintJob extends Alias
         // Alliance Challenger
         128816588   => [
             'typex_3_default_defaultpaintjob'               => 'Default',
+            
+            'typex_3_military_militaire_dark_green'         => 'Military Dark Green',
+            'typex_3_military_militaire_desert_sand'        => 'Military Desert Sand',
+            'typex_3_military_militaire_earth_red'          => 'Military Earth Red',
+            'typex_3_military_militaire_earth_yellow'       => 'Military Earth Yellow',
+            'typex_3_military_militaire_forest_green'       => 'Military Marine Blue',
+            'typex_3_military_militaire_sand'               => 'Military Sand',
+            
+            'typex_3_military_tactical_blue'                => 'Tactical Cobalt',
+            'typex_3_military_tactical_brown'               => 'Tactical Khaki',
+            'typex_3_military_tactical_green'               => 'Tactical Olive',
+            'typex_3_military_tactical_grey'                => 'Tactical Graphite',
+            'typex_3_military_tactical_red'                 => 'Tactical Crimson',
+            'typex_3_military_tactical_white'               => 'Tactical Ice',
+            
+            'typex_3_military_vibrant_blue'                 => 'Vibrant Blue',
+            'typex_3_military_vibrant_green'                => 'Vibrant Green',
+            'typex_3_military_vibrant_orange'               => 'Vibrant Orange',
+            'typex_3_military_vibrant_purple'               => 'Vibrant Purple',
+            'typex_3_military_vibrant_red'                  => 'Vibrant Red',
+            'typex_3_military_vibrant_yellow'               => 'Vibrant Yellow',
         ],
 
         // Alliance Chieftain
@@ -1485,6 +1506,27 @@ class PaintJob extends Alias
         // Krait MkII
         128816567   => [
             'krait_mkii_default_defaultpaintjob'            => 'Default',
+            
+            'krait_mkii_militaire_dark_green'               => 'Military Dark Green',
+            'krait_mkii_militaire_desert_sand'              => 'Military Desert Sand',
+            'krait_mkii_militaire_earth_red'                => 'Military Earth Red',
+            'krait_mkii_militaire_earth_yellow'             => 'Military Earth Yellow',
+            'krait_mkii_militaire_forest_green'             => 'Military Marine Blue',
+            'krait_mkii_militaire_sand'                     => 'Military Sand',
+            
+            'krait_mkii_tactical_blue'                      => 'Tactical Cobalt',
+            'krait_mkii_tactical_brown'                     => 'Tactical Khaki',
+            'krait_mkii_tactical_green'                     => 'Tactical Olive',
+            'krait_mkii_tactical_grey'                      => 'Tactical Graphite',
+            'krait_mkii_tactical_red'                       => 'Tactical Crimson',
+            'krait_mkii_tactical_white'                     => 'Tactical Ice',
+            
+            'krait_mkii_vibrant_blue'                       => 'Vibrant Blue',
+            'krait_mkii_vibrant_green'                      => 'Vibrant Green',
+            'krait_mkii_vibrant_orange'                     => 'Vibrant Orange',
+            'krait_mkii_vibrant_purple'                     => 'Vibrant Purple',
+            'krait_mkii_vibrant_red'                        => 'Vibrant Red',
+            'krait_mkii_vibrant_yellow'                     => 'Vibrant Yellow',
         ],
         
         // Orca
@@ -1556,6 +1598,13 @@ class PaintJob extends Alias
             'python_corrosive_04'                           => 'Corroded 4',
             'python_corrosive_05'                           => 'Corroded 5',
             'python_corrosive_06'                           => 'Corroded 6',
+            
+            'python_lowlighteffect_01_01'                   => 'Crypsis Blue',
+            'python_lowlighteffect_01_02'                   => 'Crypsis Pink',
+            'python_lowlighteffect_01_03'                   => 'Crypsis Green',
+            'python_lowlighteffect_01_04'                   => 'Crypsis Yellow',
+            'python_lowlighteffect_01_05'                   => 'Crypsis Purple',
+            'python_lowlighteffect_01_06'                   => 'Crypsis White',
             
             'python_default_defaultpaintjob'                => 'Default',
             

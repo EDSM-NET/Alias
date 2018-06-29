@@ -1247,6 +1247,22 @@ class Mass extends Alias
           6241  => 32,
           6242  => 16,
         
+        // Optional Internal > Guardian Module Reinforcement
+          6301  => 2,
+          6302  => 1,
+        
+          6311  => 4,
+          6312  => 2,
+        
+          6321  => 8,
+          6322  => 4,
+        
+          6331  => 16,
+          6332  => 8,
+        
+          6341  => 32,
+          6342  => 16,
+        
         
         // Cargo bay door (No category, not sellable, only for ship module list)
           9990  => 0,
