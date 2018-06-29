@@ -27,7 +27,13 @@ class Data extends Alias
     /**
      * List of limits override
      */
-    static protected $maxOverride   = [];
+    static protected $maxOverride   = [
+        22  => 150, // Pattern Alpha Obelisk Data
+        23  => 150, // Pattern Beta Obelisk Data
+        24  => 150, // Pattern Delta Obelisk Data
+        25  => 150, // Pattern Epsilon Obelisk Data
+        26  => 150, // Pattern Gamma Obelisk Data
+    ];
     
     /**
      * List of names used in game
