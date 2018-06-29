@@ -1397,7 +1397,6 @@ class Type extends Alias
           6341  => 'Guardian Module Reinforcement',
           6342  => 'Guardian Module Reinforcement',
         
-        
         // Cargo bay door (No category, not sellable, only for ship module list)
           9990  => 'Cargo hatch',
           9991  => 'Cargo hatch',
