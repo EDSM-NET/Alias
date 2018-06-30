@@ -127,6 +127,10 @@ class Power extends Alias
           1009  => 0.57,
           1010  => 0.93,
           1011  => 1.51,
+          
+          1021  => 0.69,
+          
+          1032  => 2.61,
         
         // Weapon Hardpoint > Pulse Laser
           1051  => 0.39,
@@ -275,6 +279,9 @@ class Power extends Alias
           
         // Utility Mount > Xeno Scanner
           2401  => 0.2,
+          
+        // Utility Mount > Shutdown Field Neutraliser
+          2451  => 0.2,
         
         // Core Internal > Fuel Tank
           3001  => 0,   3002  => 0,     3003  => 0,     3004  => 0,     3005  => 0,     3006  => 0,     3007  => 0,     3008  => 0,
@@ -545,6 +552,7 @@ class Power extends Alias
         // Optional Internal > Shield Generator
           4104  => 1.2,
           4106  => 1.68,
+          4107  => 2.52,
         
           4111  => 0.9,
           4112  => 1.2,
@@ -552,6 +560,7 @@ class Power extends Alias
           4114  => 1.5,
           4115  => 1.8,
           4116  => 2.5,
+          4417  => 3.15,
         
           4121  => 1.08,
           4122  => 1.44,
@@ -559,6 +568,7 @@ class Power extends Alias
           4124  => 1.8,
           4125  => 2.16,
           4126  => 2.52,
+          4127  => 3.78,
         
           4131  => 1.32,
           4132  => 1.76,
@@ -566,6 +576,7 @@ class Power extends Alias
           4134  => 2.2,
           4135  => 2.64,
           4136  => 3.08,
+          4137  => 4.62,
         
           4141  => 1.56,
           4142  => 2.08,
@@ -573,6 +584,7 @@ class Power extends Alias
           4144  => 2.6,
           4145  => 3.12,
           4146  => 3.64,
+          4147  => 5.46,
         
           4151  => 1.86,
           4152  => 2.48,
@@ -580,6 +592,7 @@ class Power extends Alias
           4154  => 3.1,
           4155  => 3.72,
           4156  => 4.34,
+          4157  => 6.51,
         
           4161  => 2.1,
           4162  => 2.8,
@@ -587,6 +600,7 @@ class Power extends Alias
           4164  => 3.5,
           4165  => 4.2,
           4166  => 4.9,
+          4167  => 7.35,
         
           4171  => 2.4,
           4172  => 3.2,
@@ -594,6 +608,7 @@ class Power extends Alias
           4174  => 4,
           4175  => 4.8,
           4176  => 5.6,
+          4177  => 8.4,
         
         // Optional Internal > Shield Cell Bank
           4201  => 0.41,
@@ -906,6 +921,13 @@ class Power extends Alias
           5264  => 0.97,
           5265  => 0.83,
         
+        // Optional Internal > Passenger Cabin
+          5311  => 0,
+          5321  => 0,   5322  => 0,
+          5331  => 0,   5332  => 0,     5333  => 0,
+          5341  => 0,   5342  => 0,     5343  => 0,     5344  => 0,
+          5351  => 0,   5352  => 0,     5353  => 0,     5354  => 0,
+        
         // Optional Internal > Planetary Vehicle Hangar
           5411  => 0.25,
           5412  => 0.75,
@@ -925,6 +947,22 @@ class Power extends Alias
           
         // Optional Internal > Research Limpet Controller
           5701  => 0.4,
+        
+        // Optional Internal > Guardian Shield Reinforcement
+          6201  => 0.35,
+          6202  => 0.46,
+        
+          6211  => 0.56,
+          6212  => 0.67,
+        
+          6221  => 0.74,
+          6222  => 0.84,
+        
+          6231  => 0.95,
+          6232  => 1.05,
+        
+          6241  => 1.16,
+          6242  => 1.26,
         
         // Cargo bay door (No category, not sellable, only for ship module list)
           9990  => 0.6,
