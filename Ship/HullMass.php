@@ -36,10 +36,10 @@ class HullMass extends Alias
         128049345               => 1100,
         
         // Cobra MkIII
-        128049279               => 35,
+        128049279               => 180,
         
         // Cobra MkIV
-        128672262               => 180,
+        128672262               => 210,
         
         // Diamondback Explorer
         128671831               => 260,

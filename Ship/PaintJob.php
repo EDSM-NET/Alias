@@ -1507,6 +1507,8 @@ class PaintJob extends Alias
         128816567   => [
             'krait_mkii_default_defaultpaintjob'            => 'Default',
             
+            'krait_mkii_frontierspecial_frontierspecial'    => 'Frontier Special',
+            
             'krait_mkii_militaire_dark_green'               => 'Military Dark Green',
             'krait_mkii_militaire_desert_sand'              => 'Military Desert Sand',
             'krait_mkii_militaire_earth_red'                => 'Military Earth Red',

@@ -169,7 +169,7 @@ class TechnologyBroker extends Alias
         // Guardian Plasma Charger [Fixed, Medium]
          2  => [
              'd44'  => 1,               // Guardian Weapon Blueprint Segment        * 1
-                89  => 18,              // Guardian Power Conduit                   * 18
+                89  => 19,              // Guardian Power Conduit                   * 19
                 92  => 16,              // Guardian Sentinel Weapon Parts           * 16
                 11  => 14,              // Chromium                                 * 14
             'c509'  => 8,               // Micro-Weave Cooling Hoses                * 8
@@ -387,7 +387,7 @@ class TechnologyBroker extends Alias
         // Guardian Plasma Charger [Turreted, Large]
         31  => [
              'd44'  => 2,               // Guardian Weapon Blueprint Segment        * 2
-                89  => 20,              // Guardian Power Conduit                   * 20
+                89  => 26,              // Guardian Power Conduit                   * 26
                 92  => 24,              // Guardian Sentinel Weapon Parts           * 24
                 11  => 26,              // Chromium                                 * 26
             'c616'  => 10,              // Articulation Motors                      * 10
