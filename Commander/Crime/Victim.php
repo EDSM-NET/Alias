@@ -36,6 +36,10 @@ class Victim extends Alias
          58     => 'Automated Defence Turret',
          59     => 'Defence System Generator',
          60     => 'Defence System Turret',
+         61     => 'Hackable Maintenance Hatch',
+         62     => 'Storage Containers',
+         63     => 'Maintenance Hatch',
+         64     => 'Power Conduit',
         
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
@@ -101,6 +105,10 @@ class Victim extends Alias
         'mega_defences'                         => 58,
         'mega_generator'                        => 59,
         'mega_turretbunkera'                    => 60,
+        'mega_animating_door'                   => 61,
+        'mega_destructible_largesixcanisters'   => 62,
+        'mega_destructible_hatch'               => 63,
+        'mega_destructible_pipea'               => 64,
         
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,
