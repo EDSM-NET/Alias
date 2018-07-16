@@ -183,6 +183,13 @@ class PaintJob extends Alias
             'anaconda_camo_05'                              => 'Camo 5',
             'anaconda_camo_06'                              => 'Camo 6',
             
+            'anaconda_lowlighteffect_01_01'                 => 'Crypsis Blue',
+            'anaconda_lowlighteffect_01_02'                 => 'Crypsis Pink',
+            'anaconda_lowlighteffect_01_03'                 => 'Crypsis Green',
+            'anaconda_lowlighteffect_01_04'                 => 'Crypsis Yellow',
+            'anaconda_lowlighteffect_01_05'                 => 'Crypsis Purple',
+            'anaconda_lowlighteffect_01_06'                 => 'Crypsis White',
+            
             'anaconda_default_defaultpaintjob'              => 'Default',
             
             'anaconda_faction1_01'                          => 'Pirate Faction Red',
@@ -1509,12 +1516,12 @@ class PaintJob extends Alias
             
             'krait_mkii_frontierspecial_frontierspecial'    => 'Frontier Special',
             
-            'krait_mkii_gradient2_01'                       => 'Predator Red',
-            'krait_mkii_gradient2_02'                       => 'Predator Green',
-            'krait_mkii_gradient2_03'                       => 'Predator Teal',
-            'krait_mkii_gradient2_04'                       => 'Predator Rose',
-            'krait_mkii_gradient2_05'                       => 'Predator Lime',
-            'krait_mkii_gradient2_06'                       => 'Predator Blue',
+            'krait_mkii_gradient2_teal'                     => 'Predator Teal',
+            'krait_mkii_gradient2_red'                      => 'Predator Red',
+            'krait_mkii_gradient2_lime'                     => 'Predator Lime',
+            'krait_mkii_gradient2_green'                    => 'Predator Green',
+            'krait_mkii_gradient2_crimson'                  => 'Predator Crimson',
+            'krait_mkii_gradient2_blue'                     => 'Predator Blue',
             
             'krait_mkii_militaire_dark_green'               => 'Military Dark Green',
             'krait_mkii_militaire_desert_sand'              => 'Military Desert Sand',
