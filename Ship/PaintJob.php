@@ -1509,6 +1509,13 @@ class PaintJob extends Alias
             
             'krait_mkii_frontierspecial_frontierspecial'    => 'Frontier Special',
             
+            'krait_mkii_gradient2_01'                       => 'Predator Red',
+            'krait_mkii_gradient2_02'                       => 'Predator Green',
+            'krait_mkii_gradient2_03'                       => 'Predator Teal',
+            'krait_mkii_gradient2_04'                       => 'Predator Rose',
+            'krait_mkii_gradient2_05'                       => 'Predator Lime',
+            'krait_mkii_gradient2_06'                       => 'Predator Blue',
+            
             'krait_mkii_militaire_dark_green'               => 'Military Dark Green',
             'krait_mkii_militaire_desert_sand'              => 'Military Desert Sand',
             'krait_mkii_militaire_earth_red'                => 'Military Earth Red',

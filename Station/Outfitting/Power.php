@@ -33,6 +33,8 @@ class Power extends Alias
         'Mining Laser',
         'Torpedo Pylon',
         'Shock Mine Launcher',
+        'Pack-Hound Missile Rack',
+        'Shard Cannon',
         
         // Utility Mount
         'Shield Booster',
@@ -245,6 +247,11 @@ class Power extends Alias
         
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 1.2,
+        
+        // Weapon Hardpoint > Shard Cannon
+          1922  => 1.21,
+          1923  => 1.68,
+          1930  => 1.16,
           
         // Utility Mount > Shield Booster
           2001  => 0.2,

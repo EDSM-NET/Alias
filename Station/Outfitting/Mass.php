@@ -428,6 +428,12 @@ class Mass extends Alias
           1852  => 4,
           1856  => 4,
           1860  => 4,
+        
+        // Weapon Hardpoint > Shard Cannon
+          1922  => 4,
+          1923  => 8,
+          1930  => 4,
+          1931  => 8,
           
         // Utility Mount > Shield Booster
           2001  => 0.5,

@@ -729,7 +729,7 @@ class Type extends Alias
         'rapa bao snake skins'                  => 1206,    'rapabaosnakeskins'             => 1206,
         'vanayequi ceratomorpha fur'            => 1207,    'vanayequi rhino fur'           => 1207,    'vanayequirhinofur'             => 1207,    'vanayequiceratomorphafur'      => 1207,
         'banki amphibious leather'              => 1208,    'bankiamphibiousleather'        => 1208,
-        'tiegfries synth silk'                  => 1209,
+        'tiegfries synth silk'                  => 1209,    'tiegfriessynthsilk'            => 1209,
         'chameleon cloth'                       => 1210,    'chameleoncloth'                => 1210,
         'conductive fabrics'                    => 1211,    'conductivefabrics'             => 1211,
         'military grade fabrics'                => 1212,    'militarygradefabrics'          => 1212,
