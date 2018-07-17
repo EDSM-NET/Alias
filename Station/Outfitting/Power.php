@@ -33,6 +33,9 @@ class Power extends Alias
         'Mining Laser',
         'Torpedo Pylon',
         'Shock Mine Launcher',
+        'AX Missile Rack',
+        'Remote Release Flak Launcher',
+        'Remote Release Flechette Launcher',
         'Pack-Hound Missile Rack',
         'Shard Cannon',
         
@@ -46,6 +49,7 @@ class Power extends Alias
         'Frame Shift Wake Scanner',
         'Kill Warrant Scanner',
         'Xeno Scanner',
+        'Shutdown Field Neutraliser',
         
         // Core Internal
         'Thrusters',
@@ -53,7 +57,7 @@ class Power extends Alias
         'Life Support',
         'Power Distributor',
         'Sensors',
-        'Planetary Approach Suite',
+        'Frame Shift Drive Booster',
         
         // Optional Internal
         'Detailed Surface Scanner',
@@ -72,6 +76,10 @@ class Power extends Alias
         'Fighter Hangar',
         'Repair Limpet Controller',
         'Research Limpet Controller',
+        'Decontamination Limpet Controller',
+        'Guardian Hull Reinforcement',
+        'Guardian Shield Reinforcement',
+        'Guardian Module Reinforcement',
     ];
     
     /**
@@ -214,6 +222,11 @@ class Power extends Alias
           1304  => 2.63,
           
           1313  => 1.97,
+          
+          1322  => 2.13,
+          1323  => 3.1,
+          
+          1330  => 2.01,
         
         // Weapon Hardpoint > Rail Gun
           1351  => 1.15,
@@ -244,6 +257,20 @@ class Power extends Alias
         
         // Weapon Hardpoint > Shock Mine Launcher
           1601  => 0.4,
+        
+        // Weapon Hardpoint > AX Missile Rack
+          1652  => 1.2,
+          1653  => 1.62,
+          1660  => 1.2,
+          1661  => 1.75,
+        
+        // Weapon Hardpoint > Remote Release Flak Launcher
+          1752  => 1.2,
+          1760  => 1.2,
+        
+        // Weapon Hardpoint > Remote Release Flechette Launcher
+          1772  => 1.2,
+          1780  => 1.2,
         
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 1.2,
@@ -1005,6 +1032,31 @@ class Power extends Alias
         // Optional Internal > Research Limpet Controller
           5701  => 0.4,
         
+        // Optional Internal > Decontamination Limpet Controller
+          5801  => 0.18,
+          
+          5821  => 0.2,
+          
+          5841  => 0.5,
+          
+          5861  => 0.97,
+        
+        // Optional Internal > Guardian Hull Reinforcement
+          6101  => 0.45,
+          6102  => 0.56,
+        
+          6111  => 0.68,
+          6112  => 0.79,
+        
+          6121  => 0.9,
+          6122  => 1.01,
+        
+          6131  => 1.13,
+          6132  => 1.24,
+        
+          6141  => 1.35,
+          6142  => 1.46,
+        
         // Optional Internal > Guardian Shield Reinforcement
           6201  => 0.35,
           6202  => 0.46,
@@ -1020,6 +1072,22 @@ class Power extends Alias
         
           6241  => 1.16,
           6242  => 1.26,
+        
+        // Optional Internal > Guardian Module Reinforcement
+          6301  => 0.27,
+          6302  => 0.34,
+        
+          6311  => 0.41,
+          6312  => 0.47,
+        
+          6321  => 0.54,
+          6322  => 0.61,
+        
+          6331  => 0.68,
+          6332  => 0.74,
+        
+          6341  => 0.81,
+          6342  => 0.88,
         
         // Cargo bay door (No category, not sellable, only for ship module list)
           9990  => 0.6,

@@ -437,6 +437,30 @@ class Category extends Alias
                 6031, 6032,
                 6041, 6042,
             ],
+            
+            'Guardian Hull Reinforcement'       => [
+                6101, 6102,
+                6111, 6112,
+                6121, 6122,
+                6131, 6132,
+                6141, 6142,
+            ],
+            
+            'Guardian Shield Reinforcement'     => [
+                6201, 6202,
+                6211, 6212,
+                6221, 6222,
+                6231, 6232,
+                6241, 6242,
+            ],
+            
+            'Guardian Module Reinforcement'     => [
+                6301, 6302,
+                6311, 6312,
+                6321, 6322,
+                6331, 6332,
+                6341, 6342,
+            ],
          ],
     ];
 }

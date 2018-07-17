@@ -356,6 +356,8 @@ class Mass extends Alias
           
           1259  => 2,
           1260  => 4,
+          
+          1271  => 2,
         
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 4,

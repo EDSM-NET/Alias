@@ -20,6 +20,9 @@ class HullMass extends Alias
         // Adder
         128049267               => 35,
         
+        // Alliance Challenger
+        128816588               => 450,
+        
         // Alliance Chieftain
         128816574               => 400,
         

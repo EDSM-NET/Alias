@@ -371,7 +371,7 @@ class Type extends Alias
           1323  => 'Plasma Charger (Fixed, Guardian)',
           
           1330  => 'Plasma Charger (Turret, Guardian)',
-          1331  => 'Plasma Charger (Turret, Guardian)',                              
+          1331  => 'Plasma Charger (Turret, Guardian)',
         
         // Weapon Hardpoint > Rail Gun
           1351  => 'Rail Gun (Fixed)',
