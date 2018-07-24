@@ -41,6 +41,7 @@ class Victim extends Alias
          63     => 'Maintenance Hatch',
          64     => 'Power Conduit',
          65     => 'Internal Piping',
+         66     => 'Storage Container',
         
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
@@ -111,6 +112,7 @@ class Victim extends Alias
         'mega_destructible_hatch'               => 63,
         'mega_destructible_pipea'               => 64,
         'mega_destructible_tunnelstrut'         => 65,
+        'mega_destructible_canistera'           => 66,
         
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,

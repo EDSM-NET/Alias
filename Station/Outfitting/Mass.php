@@ -368,6 +368,9 @@ class Mass extends Alias
           
           1322  => 4,
           1323  => 4,
+          
+          1330  => 8,
+          1331  => 8,
         
         // Weapon Hardpoint > Rail Gun
           1351  => 2,
@@ -428,8 +431,13 @@ class Mass extends Alias
         
         // Weapon Hardpoint > Shock Cannon
           1852  => 4,
+          1853  => 8,
+          
           1856  => 4,
+          1857  => 8,
+          
           1860  => 4,
+          1861  => 8,
         
         // Weapon Hardpoint > Shard Cannon
           1922  => 4,

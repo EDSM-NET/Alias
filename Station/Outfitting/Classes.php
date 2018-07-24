@@ -420,8 +420,10 @@ class Classes extends Alias
         // Weapon Hardpoint > Shock Cannon
           1852  => 2,
           1853  => 3,
+          
           1856  => 2,
           1857  => 3,
+          
           1860  => 2,
           1861  => 3,
         

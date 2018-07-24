@@ -34,9 +34,11 @@ class Power extends Alias
         'Torpedo Pylon',
         'Shock Mine Launcher',
         'AX Missile Rack',
+        'AX Multi-Cannon',
         'Remote Release Flak Launcher',
         'Remote Release Flechette Launcher',
         'Pack-Hound Missile Rack',
+        'Shock Cannon',
         'Shard Cannon',
         
         // Utility Mount
@@ -215,6 +217,8 @@ class Power extends Alias
           
           1259  => 0.26,
           1260  => 0.5,
+          
+          1271  => 0.28,
         
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 1.43,
@@ -239,6 +243,8 @@ class Power extends Alias
           1402  => 1.2,
           1405  => 0.4,
           1406  => 1.2,
+          
+          1411  => 1.2,
         
         // Weapon Hardpoint > Mine Launcher
           1451  => 0.4,
@@ -250,6 +256,8 @@ class Power extends Alias
           
           1509  => 0.5,
           1510  => 0.75,
+          
+          1521  => 0.7,
         
         // Weapon Hardpoint > Torpedo Pylon
           1551  => 0.4,
@@ -264,6 +272,12 @@ class Power extends Alias
           1660  => 1.2,
           1661  => 1.75,
         
+        // Weapon Hardpoint > AX Multi-Cannon
+          1702  => 0.46,
+          1703  => 0.64,
+          1710  => 0.46,
+          1711  => 0.64,
+        
         // Weapon Hardpoint > Remote Release Flak Launcher
           1752  => 1.2,
           1760  => 1.2,
@@ -274,6 +288,16 @@ class Power extends Alias
         
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 1.2,
+        
+        // Weapon Hardpoint > Shock Cannon
+          1852  => 0.57,
+          1853  => 0.89,
+          
+          1856  => 0.61,
+          1857  => 0.89,
+          
+          1860  => 0.5,
+          1861  => 0.64,
         
         // Weapon Hardpoint > Shard Cannon
           1922  => 1.21,
@@ -1040,6 +1064,13 @@ class Power extends Alias
           5841  => 0.5,
           
           5861  => 0.97,
+        
+        // Optional Internal > Meta Alloy Hull Reinforcement
+          6001  => 0,   6002  => 0,
+          6011  => 0,   6012  => 0,
+          6021  => 0,   6022  => 0,
+          6031  => 0,   6032  => 0,
+          6041  => 0,   6042  => 0,
         
         // Optional Internal > Guardian Hull Reinforcement
           6101  => 0.45,
