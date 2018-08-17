@@ -1184,12 +1184,12 @@ class PaintJob extends Alias
             'ferdelance_faction1_05'                        => 'Pirate Faction Blue',
             'ferdelance_faction1_06'                        => 'Pirate Faction Purple',
             
-            'ferdelance_gradient2_01'                       => 'Predator Red',
-            'ferdelance_gradient2_02'                       => 'Predator Green',
-            'ferdelance_gradient2_03'                       => 'Predator Teal',
-            'ferdelance_gradient2_04'                       => 'Predator Crimson',
-            'ferdelance_gradient2_05'                       => 'Predator Lime',
-            'ferdelance_gradient2_06'                       => 'Predator Blue',
+            'ferdelance_gradient2_teal'                     => 'Predator Teal',
+            'ferdelance_gradient2_red'                      => 'Predator Red',
+            'ferdelance_gradient2_lime'                     => 'Predator Lime',
+            'ferdelance_gradient2_green'                    => 'Predator Green',
+            'ferdelance_gradient2_crimson'                  => 'Predator Crimson',
+            'ferdelance_gradient2_blue'                     => 'Predator Blue',
             
             'ferdelance_lavecon_lavecon'                    => 'Lavecon',
             
