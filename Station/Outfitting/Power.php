@@ -79,6 +79,7 @@ class Power extends Alias
         'Repair Limpet Controller',
         'Research Limpet Controller',
         'Decontamination Limpet Controller',
+        'Recon Limpet Controller',
         'Guardian Hull Reinforcement',
         'Guardian Shield Reinforcement',
         'Guardian Module Reinforcement',
@@ -173,6 +174,8 @@ class Power extends Alias
           1109  => 0.6,
           1110  => 0.98,
           1111  => 1.57,
+          
+          1121  => 0.8,
         
         // Weapon Hardpoint > Cannon
           1151  => 0.34,
@@ -1064,6 +1067,15 @@ class Power extends Alias
           5841  => 0.5,
           
           5861  => 0.97,
+        
+        // Optional Internal > Recon Limpet Controller
+          5901  => 0.18,
+          
+          5921  => 0.2,
+          
+          5941  => 0.5,
+          
+          5961  => 0.97,
         
         // Optional Internal > Meta Alloy Hull Reinforcement
           6001  => 0,   6002  => 0,

@@ -279,6 +279,8 @@ class Mass extends Alias
           1010  => 4,
           1011  => 8,
           
+          1021  => 2,
+          
           1032  => 4,
         
         // Weapon Hardpoint > Pulse Laser
@@ -492,6 +494,7 @@ class Mass extends Alias
           2451  => 1.3,
         
         // Core Internal > Fuel Tank
+          3000  => 0,
           3001  => 0,   3002  => 0,     3003  => 0,     3004  => 0,     3005  => 0,     3006  => 0,     3007  => 0,     3008  => 0,
         
         // Core Internal > Power Plant

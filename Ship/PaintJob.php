@@ -122,6 +122,13 @@ class PaintJob extends Alias
             'typex_3_military_tactical_red'                 => 'Tactical Crimson',
             'typex_3_military_tactical_white'               => 'Tactical Ice',
             
+            'typex_3_trims_blackmagenta'                    => 'Precision Black',
+            'typex_3_trims_blueorange'                      => 'Precision Blue',
+            'typex_3_trims_greyorange'                      => 'Precision Graphite',
+            'typex_3_trims_greengrey'                       => 'Precision Green',
+            'typex_3_trims_greygreen'                       => 'Precision Grey',
+            'typex_3_trims_yellowblack'                     => 'Precision Yellow',
+            
             'typex_3_military_vibrant_blue'                 => 'Vibrant Blue',
             'typex_3_military_vibrant_green'                => 'Vibrant Green',
             'typex_3_military_vibrant_orange'               => 'Vibrant Orange',
@@ -135,6 +142,14 @@ class PaintJob extends Alias
             'typex_default_defaultpaintjob'                 => 'Default',
             
             'typex_lavecon_lavecon'                         => 'Lavecon',
+            
+            'typex_horus1_01'                               => 'Green Apollo',
+            'typex_horus1_02'                               => 'Black Apollo',
+            'typex_horus1_03'                               => 'White Apollo',
+            
+            'typex_horus2_01'                               => 'White Pharaoh',
+            'typex_horus2_02'                               => 'Red Pharaoh',
+            'typex_horus2_03'                               => 'Gold Pharaoh',
             
             'typex_luminous_stripe_01'                      => 'Pulse Green',
             'typex_luminous_stripe_02'                      => 'Pulse Blue',
@@ -555,8 +570,9 @@ class PaintJob extends Alias
             'cobramkiii_lavecon_lavecon'                    => 'Lavecon',
             
             'cobramkiii_medusa_aquamarine'                  => 'Medusa',
-            
             'cobramkiii_merc'                               => 'Mercenary',
+            
+            'cobramkiii_pcgn_01'                            => 'PCGN',
             
             'cobramkiii_default_52'                         => 'cobramkiii_metallic_chrome', // REDIRECT
             'cobramkiii_metallic_chrome'                    => 'Chrome',
@@ -1168,6 +1184,13 @@ class PaintJob extends Alias
             'ferdelance_faction1_05'                        => 'Pirate Faction Blue',
             'ferdelance_faction1_06'                        => 'Pirate Faction Purple',
             
+            'ferdelance_gradient2_01'                       => 'Predator Red',
+            'ferdelance_gradient2_02'                       => 'Predator Green',
+            'ferdelance_gradient2_03'                       => 'Predator Teal',
+            'ferdelance_gradient2_04'                       => 'Predator Crimson',
+            'ferdelance_gradient2_05'                       => 'Predator Lime',
+            'ferdelance_gradient2_06'                       => 'Predator Blue',
+            
             'ferdelance_lavecon_lavecon'                    => 'Lavecon',
             
             //'ferdelance_metallic_chrome'                    => 'Chrome',
@@ -1514,6 +1537,13 @@ class PaintJob extends Alias
         128816567   => [
             'krait_mkii_default_defaultpaintjob'            => 'Default',
             
+            'krait_mkii_corrosive_01'                       => 'Corroded 1',
+            'krait_mkii_corrosive_02'                       => 'Corroded 2',
+            'krait_mkii_corrosive_03'                       => 'Corroded 3',
+            'krait_mkii_corrosive_04'                       => 'Corroded 4',
+            'krait_mkii_corrosive_05'                       => 'Corroded 5',
+            'krait_mkii_corrosive_06'                       => 'Corroded 6',
+            
             'krait_mkii_frontierspecial_frontierspecial'    => 'Frontier Special',
             
             'krait_mkii_gradient2_teal'                     => 'Predator Teal',
@@ -1522,6 +1552,14 @@ class PaintJob extends Alias
             'krait_mkii_gradient2_green'                    => 'Predator Green',
             'krait_mkii_gradient2_crimson'                  => 'Predator Crimson',
             'krait_mkii_gradient2_blue'                     => 'Predator Blue',
+            
+            'krait_mkii_horus1_01'                          => 'Green Apollo',
+            'krait_mkii_horus1_02'                          => 'Black Apollo',
+            'krait_mkii_horus1_03'                          => 'White Apollo',
+            
+            'krait_mkii_horus2_01'                          => 'White Pharaoh',
+            'krait_mkii_horus2_02'                          => 'Red Pharaoh',
+            'krait_mkii_horus2_03'                          => 'Gold Pharaoh',
             
             'krait_mkii_militaire_dark_green'               => 'Military Dark Green',
             'krait_mkii_militaire_desert_sand'              => 'Military Desert Sand',
@@ -1536,6 +1574,13 @@ class PaintJob extends Alias
             'krait_mkii_tactical_grey'                      => 'Tactical Graphite',
             'krait_mkii_tactical_red'                       => 'Tactical Crimson',
             'krait_mkii_tactical_white'                     => 'Tactical Ice',
+            
+            'krait_mkii_trims_blackmagenta'                 => 'Precision Black',
+            'krait_mkii_trims_blueorange'                   => 'Precision Blue',
+            'krait_mkii_trims_greyorange'                   => 'Precision Graphite',
+            'krait_mkii_trims_greengrey'                    => 'Precision Green',
+            'krait_mkii_trims_greygreen'                    => 'Precision Grey',
+            'krait_mkii_trims_yellowblack'                  => 'Precision Yellow',
             
             'krait_mkii_vibrant_blue'                       => 'Vibrant Blue',
             'krait_mkii_vibrant_green'                      => 'Vibrant Green',

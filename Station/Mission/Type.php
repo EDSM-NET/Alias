@@ -287,7 +287,9 @@ class Type extends Alias
         1183                                => 'Surface hunt for %targetType%: %target%',
         1184                                => 'Explain the danger of the void to %targetType%: %target%',
         1185                                => 'Take down %targetType%: %target%',
-        1194                                => 'Take out P%targetType%: %target%',
+        1186                                => 'Remove troublemaker %targetType%: %target%',
+        1187                                => 'Counter-insurgency hit against %targetType%: %target%',
+        1194                                => 'Take out %targetType%: %target%',
         
         // Smuggle Missions
         1201                                => 'Smuggle %commodityCount% units of %commodity%',
@@ -699,6 +701,8 @@ class Type extends Alias
         'mission_assassinate_illegal_planetary'             => 1183,
         'mission_assassinate_illegal_civilunrest'           => 1184,
         'mission_assassinate_illegal_outbreak'              => 1185,
+        'mission_assassinate_illegal_founder_civilwar'      => 1186,
+        'mission_assassinate_illegal_planetary_civilunrest' => 1187,
         'mission_assassinate_illegal_lockdown'              => 1194,
         
         'mission_smuggle'                                   => 1201,
