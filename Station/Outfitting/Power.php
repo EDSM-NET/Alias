@@ -59,7 +59,7 @@ class Power extends Alias
         'Life Support',
         'Power Distributor',
         'Sensors',
-        'Frame Shift Drive Booster',
+        'Guardian FSD Booster',
         
         // Optional Internal
         'Detailed Surface Scanner',
@@ -610,7 +610,7 @@ class Power extends Alias
         // Core Internal > Planetary Approach Suite
           3701  => 0,
         
-        // Core Internal > Frame Shift Drive Booster
+        // Core Internal > Guardian FSD Booster
           3801  => 0.75,
         
           3811  => 0.98,

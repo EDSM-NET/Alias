@@ -804,7 +804,7 @@ class Rating extends Alias
         // Core Internal > Planetary Approach Suite
           3701  => 'I',
         
-        // Core Internal > Frame Shift Drive Booster
+        // Core Internal > Guardian FSD Booster
           3801  => 'H',
         
           3811  => 'H',

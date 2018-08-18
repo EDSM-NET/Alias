@@ -803,7 +803,7 @@ class Classes extends Alias
         // Core Internal > Planetary Approach Suite
           3701  => 1,
         
-        // Core Internal > Frame Shift Drive Booster
+        // Core Internal > Guardian FSD Booster
           3801  => 1,
         
           3811  => 2,

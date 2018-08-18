@@ -820,16 +820,16 @@ class Type extends Alias
         // Core Internal > Planetary Approach Suite
           3701  => 'Planetary Approach Suite',
         
-        // Core Internal > Frame Shift Drive Booster
-          3801  => 'FSD Booster (Guardian)',
+        // Core Internal > Guardian FSD Booster
+          3801  => 'Guardian FSD Booster',
         
-          3811  => 'FSD Booster (Guardian)',
+          3811  => 'Guardian FSD Booster',
         
-          3821  => 'FSD Booster (Guardian)',
+          3821  => 'Guardian FSD Booster',
         
-          3831  => 'FSD Booster (Guardian)',
+          3831  => 'Guardian FSD Booster',
         
-          3841  => 'FSD Booster (Guardian)',
+          3841  => 'Guardian FSD Booster',
         
         // Optional Internal > Discovery Scanner
           4000  => 'Basic Discovery Scanner (Free)',
@@ -2226,7 +2226,7 @@ class Type extends Alias
         // Core Internal > Planetary Approach Suite
         'int_planetapproachsuite'                       => 3701,
         
-        // Core Internal > Frame Shift Drive Booster
+        // Core Internal > Guardian FSD Booster
         'int_guardianfsdbooster_size1'                  => 3801,
         
         'int_guardianfsdbooster_size2'                  => 3811,
