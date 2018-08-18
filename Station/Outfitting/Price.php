@@ -698,6 +698,17 @@ class Price extends Alias
         // Core Internal > Planetary Approach Suite
           3701  => 500,
         
+        // Core Internal > Guardian FSD Booster
+          3801  => 394896,
+        
+          3811  => 790257,
+        
+          3821  => 1579920,
+        
+          3831  => 3163887,
+        
+          3841  => 6321023,
+        
         // Optional Internal > Discovery Scanner
           4001  => 1000,
           4002  => 505000,
