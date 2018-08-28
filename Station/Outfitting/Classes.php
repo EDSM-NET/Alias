@@ -248,6 +248,27 @@ class Classes extends Alias
            324  => 1,
            325  => 1,
         
+        // Bulkhead > Alliance Challenger
+           331  => 1,
+           332  => 1,
+           333  => 1,
+           334  => 1,
+           335  => 1,
+        
+        // Bulkhead > Krait MkII
+           341  => 1,
+           342  => 1,
+           343  => 1,
+           344  => 1,
+           345  => 1,
+        
+        // Bulkhead > Alliance Crusader
+           351  => 1,
+           352  => 1,
+           353  => 1,
+           354  => 1,
+           355  => 1,
+        
         // Weapon Hardpoint > Beam Laser
           1001  => 1,
           1002  => 2,
@@ -265,6 +286,7 @@ class Classes extends Alias
           
           1021  => 1,
           
+          1331  => 1, //TODO: Check on release
           1032  => 2,
         
         // Weapon Hardpoint > Pulse Laser
@@ -344,6 +366,7 @@ class Classes extends Alias
           
           1259  => 1,
           1260  => 2,
+          1261  => 3, //TODO: Check on release
           
           1271  => 1,
         
@@ -354,9 +377,11 @@ class Classes extends Alias
           
           1313  => 3,
           
+          1321  => 2, //TODO: Check on release
           1322  => 2,
           1323  => 2, //TODO: Update on release
           
+          1329  => 2, //TODO: Check on release
           1330  => 2,
           1331  => 2, //TODO: Update on release
         
@@ -369,8 +394,11 @@ class Classes extends Alias
         // Weapon Hardpoint > Missile Rack
           1401  => 1,
           1402  => 2,
+          1403  => 3, //TODO: Check on release
+          
           1405  => 1,
           1406  => 2,
+          1407  => 3, //TODO: Check on release
           
           1411  => 2,
         
@@ -390,6 +418,7 @@ class Classes extends Alias
         // Weapon Hardpoint > Torpedo Pylon
           1551  => 1,
           1552  => 2,
+          1553  => 3, //TODO: Check on release
         
         // Weapon Hardpoint > Shock Mine Launcher
           1601  => 1,
@@ -418,12 +447,15 @@ class Classes extends Alias
           1802  => 2,
         
         // Weapon Hardpoint > Shock Cannon
+          1851  => 1, //TODO: Check on release
           1852  => 2,
           1853  => 3,
           
+          1855  => 1, //TODO: Check on release
           1856  => 2,
           1857  => 3,
           
+          1859  => 1, //TODO: Check on release
           1860  => 2,
           1861  => 3,
         
@@ -431,8 +463,11 @@ class Classes extends Alias
           1872  => 2,
         
         // Weapon Hardpoint > Shard Cannon
+          1921  => 1, //TODO: Check on release
           1922  => 2,
           1923  => 3,
+          
+          1929  => 1, //TODO: Check on release
           1930  => 2,
           1931  => 3,
           

@@ -398,12 +398,15 @@ class Type extends Alias
         1665        => 'Insectoid Livestock',
         1666        => 'Prohibited Research Materials',
         1667        => 'Antimatter Containment Unit',
+        1668        => 'Ancient Key',
         
         1800        => 'Thargoid Cyclops Tissue Sample',
         1801        => 'Thargoid Heart',
         1802        => 'Thargoid Basilisk Tissue Sample',
         1803        => 'Thargoid Medusa Tissue Sample',
         1804        => 'Thargoid Scout Tissue Sample',
+        1805        => 'Thargoid Hydra Tissue Sample',
+
         
         // Powerplay (99)
         9901        => 'Aisling Media Materials',
@@ -819,12 +822,14 @@ class Type extends Alias
         'insectoidmeat'                         => 1665,    'insectoidlivestock'            => 1665,
         'prohibitedresearchmaterials'           => 1666,
         'antimattercontainmentunit'             => 1667,
+        'ancientkey'                            => 1668,
         
         'thargoidtissuesampletype1'             => 1800,
         'thargoidheart'                         => 1801,
         'thargoidtissuesampletype2'             => 1802,
         'thargoidtissuesampletype3'             => 1803,
         'thargoidscouttissuesample'             => 1804,
+        'thargoidtissuesampletype4'             => 1805,
         
         'aislingmediamaterials'                 => 9901,
         'aislingmediaresources'                 => 9902,

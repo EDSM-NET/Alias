@@ -27,6 +27,9 @@ class TopSpeed extends Alias
         // Alliance Chieftain
         128816574               => 230,
         
+        // Alliance Crusader
+        128816581               => 180,
+        
         // Anaconda
         128049363               => 180,
         

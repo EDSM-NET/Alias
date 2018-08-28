@@ -19,7 +19,7 @@ class TechnologyBroker extends Alias
      * List of names used in game
      */
     static protected $name      = [
-         1  => 'Guardian Gauss Cannon [Fixed]',
+         1  => 'Guardian Gauss Cannon [Fixed, Medium]',
          2  => 'Guardian Plasma Charger [Fixed, Medium]',
          3  => 'Guardian Plasma Charger [Turreted, Medium]',
          4  => 'Guardian Shard Cannon [Fixed, Medium]',
@@ -38,6 +38,9 @@ class TechnologyBroker extends Alias
         17  => 'Guardian FSD Booster',
         18  => 'Corrosion Resistant Cargo Rack',
         21  => 'Meta Alloy Hull Reinforcement',
+        22  => 'Guardian Hybrid Fighter',
+        23  => 'Guardian Hybrid Fighter',
+        24  => 'Guardian Hybrid Fighter',
         25  => 'Shock Cannon [Fixed, Large]',
         26  => 'Shock Cannon [Gimballed, Large]',
         27  => 'Shock Cannon [Turreted, Large]',
@@ -45,6 +48,14 @@ class TechnologyBroker extends Alias
         29  => 'Guardian Shard Cannon [Turreted, Large]',
         30  => 'Guardian Plasma Charger [Fixed, Large]',
         31  => 'Guardian Plasma Charger [Turreted, Large]',
+        34  => 'Shock Cannon [Fixed, Small]',
+        35  => 'Shock Cannon [Gimballed, Small]',
+        36  => 'Shock Cannon [Turreted, Small]',
+        37  => 'Guardian Plasma Charger [Fixed, Small]',
+        38  => 'Guardian Plasma Charger [Turreted, Small]',
+        39  => 'Guardian Shard Cannon [Fixed, Small]',
+        40  => 'Guardian Shard Cannon [Turreted, Small]',
+        41  => 'Guardian Gauss Cannon [Fixed, Small]',
     ];
     
     /**
@@ -142,6 +153,10 @@ class TechnologyBroker extends Alias
         'int_metaalloyhullreinforcement_size5_class1'       => 21,
         'int_metaalloyhullreinforcement_size5_class2'       => 21,
         
+        'gdn_hybrid_fighter_v1'                             => 22,
+        'gdn_hybrid_fighter_v2'                             => 23,
+        'gdn_hybrid_fighter_v3'                             => 24,
+        
         'hpt_plasmashockcannon_fixed_large'                 => 25,
         'hpt_plasmashockcannon_gimbal_large'                => 26,
         'hpt_plasmashockcannon_turret_large'                => 27,
@@ -149,6 +164,14 @@ class TechnologyBroker extends Alias
         'hpt_guardian_shardcannon_turret_large'             => 29,
         'hpt_guardian_plasmalauncher_fixed_large'           => 30,
         'hpt_guardian_plasmalauncher_turret_large'          => 31,
+        'hpt_plasmashockcannon_fixed_small'                 => 34,
+        'hpt_plasmashockcannon_gimbal_small'                => 35,
+        'hpt_plasmashockcannon_turret_small'                => 36,
+        'hpt_guardian_plasmalauncher_fixed_small'           => 37,
+        'hpt_guardian_plasmalauncher_turret_small'          => 38,
+        'hpt_guardian_shardcannon_fixed_small'              => 39,
+        'hpt_guardian_shardcannon_turret_small'             => 40,
+        'hpt_guardian_gausscannon_fixed_small'              => 41,
     ];
     
     /**
@@ -330,6 +353,33 @@ class TechnologyBroker extends Alias
             
         ],
         
+        // Guardian Hybrid Fighter
+        22  => [
+             'd46'  => 1,               // Guardian Module Blueprint Segment        * 1
+                90  => 25,              // Guardian Power Cell                      * 25
+             'd25'  => 26,              // Pattern Epsilon Obelisk Data             * 26
+             'd23'  => 18,              // Pattern Beta Obelisk Data                * 18
+                88  => 25,              // Guardian Technology Component            * 25
+        ],
+        
+        // Guardian Hybrid Fighter
+        23  => [
+             'd46'  => 1,               // Guardian Module Blueprint Segment        * 1
+                90  => 25,              // Guardian Power Cell                      * 25
+             'd25'  => 26,              // Pattern Epsilon Obelisk Data             * 26
+             'd23'  => 18,              // Pattern Beta Obelisk Data                * 18
+                88  => 25,              // Guardian Technology Component            * 25
+        ],
+        
+        // Guardian Hybrid Fighter
+        24  => [
+             'd46'  => 1,               // Guardian Module Blueprint Segment        * 1
+                90  => 25,              // Guardian Power Cell                      * 25
+             'd25'  => 26,              // Pattern Epsilon Obelisk Data             * 26
+             'd23'  => 18,              // Pattern Beta Obelisk Data                * 18
+                88  => 25,              // Guardian Technology Component            * 25
+        ],
+        
         // Shock Cannon [Fixed, Large]
         25  => [
                 72  => 28,              // Vanadium                                 * 28
@@ -391,6 +441,73 @@ class TechnologyBroker extends Alias
                 92  => 24,              // Guardian Sentinel Weapon Parts           * 24
                 11  => 26,              // Chromium                                 * 26
             'c616'  => 10,              // Articulation Motors                      * 10
+        ],
+        
+        // Shock Cannon [Fixed, Small]
+        34  => [
+                72  => 8,               // Vanadium                                 * 8
+                70  => 10,              // Tungsten                                 * 10
+                85  => 8,               // Rhenium                                  * 8
+                65  => 12,              // Technetium                               * 12
+             'c619' => 4,               // Power Converter                          * 4
+        ],
+        
+        // Shock Cannon [Gimballed, Small]
+        35  => [
+                72  => 10,              // Vanadium                                 * 10
+                70  => 11,              // Tungsten                                 * 11
+                85  => 8,               // Rhenium                                  * 8
+                65  => 10,              // Technetium                               * 10
+             'c621' => 4,               // Power Transfer Bus                       * 4
+        ],
+        
+        // Shock Cannon [Turreted, Small]
+        36  => [
+                72  => 8,               // Vanadium                                 * 8
+                70  => 12,              // Tungsten                                 * 12
+                85  => 10,              // Rhenium                                  * 10
+                65  => 10,              // Technetium                               * 10
+            'c1118' => 4,               // Ion Distributor                          * 4
+        ],
+        
+        // Guardian Plasma Charger [Fixed, Small]
+        37  => [
+             'd44'  => 1,               // Guardian Weapon Blueprint Segment        * 1
+                90  => 12,              // Guardian Power Cell                      * 12
+                92  => 12,              // Guardian Sentinel Weapon Parts           * 12
+                88  => 15,              // Guardian Technology Component            * 15
+        ],
+        
+        // Guardian Plasma Charger [Turreted, Small]
+        38  => [
+             'd44'  => 1,               // Guardian Weapon Blueprint Segment        * 1
+                90  => 12,              // Guardian Power Cell                      * 12
+                88  => 12,              // Guardian Technology Component            * 12
+                92  => 15,              // Guardian Sentinel Weapon Parts           * 15
+        ],
+        
+        // Guardian Shard Cannon [Fixed, Small]
+        39  => [
+             'd44'  => 1,               // Guardian Weapon Blueprint Segment        * 1
+                89  => 12,              // Guardian Power Conduit                   * 12
+                88  => 12,              // Guardian Technology Component            * 12
+                92  => 15,              // Guardian Sentinel Weapon Parts           * 15
+        ],
+        
+        // Guardian Shard Cannon [Turreted, Small]
+        40  => [
+             'd44'  => 1,               // Guardian Weapon Blueprint Segment        * 1
+                89  => 12,              // Guardian Power Conduit                   * 12
+                88  => 15,              // Guardian Technology Component            * 15
+                92  => 12,              // Guardian Sentinel Weapon Parts           * 12
+        ],
+        
+        // Guardian Gauss Cannon [Fixed, Small]
+        41  => [
+             'd44'  => 1,               // Guardian Weapon Blueprint Segment        * 1
+                89  => 12,              // Guardian Power Conduit                   * 12
+                91  => 12,              // Guardian Sentinel Wreckage Components    * 12
+                92  => 12,              // Guardian Sentinel Weapon Parts           * 12
         ],
     ];
 }

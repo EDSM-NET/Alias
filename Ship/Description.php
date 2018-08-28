@@ -26,6 +26,9 @@ class Description extends Alias
         // Alliance Chieftain
         128816574               => "The Alliance Chieftain has been designed not only to dish out punishment, but to avoid it. Manufactured by Lakon Spaceways, the Chieftain is more manoeuvrable than ships of similar size and weight, and its combat profile means it can more than hold its own in a fight. The ship also boasts three internal military compartments, allowing the pilot to equip a shield cell bank, hull reinforcements and module reinforcements.\n\nThis ship requires at least a medium sized landing pad to dock.",
         
+        // Alliance Crusader
+        128816581               => "A modified version of the Alliance Chieftain, the Alliance Crusader’s main point of distinction is its fighter bay. The Crusader also offers three internal military compartments and space for up to two crew members, making it ideally suited to combat situations.\n\nThis ship requires at least a medium sized landing pad to dock.",
+        
         // Anaconda
         128049363               => "The Anaconda is the pride of Faulcon deLacy’s shipyards. The design was first manufactured in 2856 by RimLiner Galactic. After numerous mergers the template was eventually owned by Faulcon deLacy, who have made only minor changes to the classic design. The Anaconda is a versatile craft that can transport large cargos as well as pack a decent punch. Some smaller navies use the Anaconda in light cruiser and frigate roles. The Anaconda can also be upgraded with a docking bay allowing small fighters up to Sidewinder-size to be carried and launched, however most are only capable of supporting short-range fighters.\n\nThis ship requires a large sized landing pad to dock.",
         

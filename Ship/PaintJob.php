@@ -20,6 +20,7 @@ class PaintJob extends Alias
         128049267   => 'adder_default_defaultpaintjob',
         128816588   => 'typex_3_default_defaultpaintjob',
         128816574   => 'typex_default_defaultpaintjob',
+        128816581   => 'typex_2_default_defaultpaintjob',
         128049363   => 'anaconda_default_defaultpaintjob',
         128049303   => 'asp_default_defaultpaintjob',
         128672276   => 'asp_scout_default_defaultpaintjob',
@@ -179,6 +180,11 @@ class PaintJob extends Alias
             'typex_military_vibrant_red'                    => 'Vibrant Red',
             'typex_military_vibrant_yellow'                 => 'Vibrant Yellow',
         ],
+        
+        // Alliance Crusader
+        128816581 => [
+            'typex_2_default_defaultpaintjob'               => 'Default',
+        ],
 
         // Anaconda
         128049363 => [
@@ -214,6 +220,7 @@ class PaintJob extends Alias
             'anaconda_faction1_05'                          => 'Pirate Faction Blue',
             'anaconda_faction1_06'                          => 'Pirate Faction Purple',
             
+            'anaconda_gamescom_01'                          => 'Gamescon',
             'anaconda_lavecon_lavecon'                      => 'Lavecon',
             'anaconda_eliteexpo_eliteexpo'                  => 'Frontier Expo',
             

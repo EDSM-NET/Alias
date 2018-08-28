@@ -26,6 +26,9 @@ class HullMass extends Alias
         // Alliance Chieftain
         128816574               => 400,
         
+        // Alliance Crusader
+        128816581               => 500,
+        
         // Anaconda
         128049363               => 400,
         

@@ -441,6 +441,9 @@ class Mass extends Alias
           1860  => 4,
           1861  => 8,
         
+        // Weapon Hardpoint > Enzyme Missile Rack
+          1872  => 4,
+        
         // Weapon Hardpoint > Shard Cannon
           1922  => 4,
           1923  => 8,

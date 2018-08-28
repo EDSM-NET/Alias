@@ -243,6 +243,7 @@ class Type extends Alias
         1079                                => 'Covert civil unrest combat operation',
         1080                                => 'Covert outbreak combat operation',
         1081                                => 'Covert famine combat operation',
+        1082                                => 'Quell %targetFaction%',
         
         // Assassinate Missions
         1101                                => 'Assassinate %targetType%: %target%',
@@ -425,6 +426,7 @@ class Type extends Alias
         3014                                => 'Assassinate %targetType%: %target%',
         3015                                => 'Deliver %commodityCount% units of %commodity%',
         3016                                => 'Transport %passengerName%',
+        3017                                => 'Assassinate %targetType%: %target%',
     ];
     
     /**
@@ -658,6 +660,7 @@ class Type extends Alias
         'mission_massacre_illegal_blops_civilunrest'        => 1079,
         'mission_massacre_illegal_blops_outbreak'           => 1080,
         'mission_massacre_illegal_blops_famine'             => 1081,
+        'mission_massacre_illegal_civilunrest'              => 1082,
         
         'mission_assassinate'                               => 1101,
         'mission_assassinate_rankfed'                       => 1102,
@@ -836,5 +839,6 @@ class Type extends Alias
         'chain_rampantleadership'                           => 3014,
         'chain_clearingthepath'                             => 3015,
         'chain_securingmyposition'                          => 3016,
+        'chain_drawthegeneralout'                           => 3017,
     ];
 }

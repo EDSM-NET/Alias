@@ -27,6 +27,9 @@ class BoostSpeed extends Alias
         // Alliance Chieftain
         128816574               => 330,
         
+        // Alliance Crusader
+        128816581               => 300,
+        
         // Anaconda
         128049363               => 240,
         

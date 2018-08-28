@@ -18,6 +18,7 @@ class Type extends Alias
         128049267   => 'Adder',
         128816588   => 'Alliance Challenger',
         128816574   => 'Alliance Chieftain',
+        128816581   => 'Alliance Crusader',
         128049363   => 'Anaconda',
         128049303   => 'Asp Explorer',
         128672276   => 'Asp Scout',
@@ -68,6 +69,9 @@ class Type extends Alias
         
         // Alliance Chieftain
         'typex'                             => 128816574,
+        
+        // Alliance Crusader
+        'typex_2'                           => 128816581,
         
         // Anaconda
         'anaconda'                          => 128049363,

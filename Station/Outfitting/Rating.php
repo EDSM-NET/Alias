@@ -248,6 +248,27 @@ class Rating extends Alias
            324  => 'I',
            325  => 'I',
         
+        // Bulkhead > Alliance Challenger
+           331  => 'I',
+           332  => 'I',
+           333  => 'I',
+           334  => 'I',
+           335  => 'I',
+        
+        // Bulkhead > Krait MkII
+           341  => 'I',
+           342  => 'I',
+           343  => 'I',
+           344  => 'I',
+           345  => 'I',
+        
+        // Bulkhead > Alliance Crusader
+           351  => 'I',
+           352  => 'I',
+           353  => 'I',
+           354  => 'I',
+           355  => 'I',
+        
         // Weapon Hardpoint > Beam Laser
           1001  => 'E',
           1002  => 'D',
@@ -265,6 +286,7 @@ class Rating extends Alias
           
           1021  => 'E',
           
+          1331  => 'C', //TODO: Check on release
           1032  => 'B',
         
         // Weapon Hardpoint > Pulse Laser
@@ -344,6 +366,7 @@ class Rating extends Alias
           
           1259  => 'G',
           1260  => 'F',
+          1261  => 'E', //TODO: Check on release
           
           1271  => 'F',
         
@@ -354,9 +377,11 @@ class Rating extends Alias
           
           1313  => 'B',
           
+          1321  => 'E', //TODO: Check on release
           1322  => 'B',
           1323  => 'C',
           
+          1329  => 'E', //TODO: Check on release
           1330  => 'E',
           1331  => 'E',
         
@@ -369,9 +394,11 @@ class Rating extends Alias
         // Weapon Hardpoint > Missile Rack
           1401  => 'B',
           1402  => 'B',
+          1403  => 'B', //TODO: Check on release
           
           1405  => 'B',
           1406  => 'B',
+          1407  => 'B', //TODO: Check on release
           
           1411  => 'B',
         
@@ -391,6 +418,7 @@ class Rating extends Alias
         // Weapon Hardpoint > Torpedo Pylon
           1551  => 'I',
           1552  => 'I',
+          1553  => 'I', //TODO: Check on release
         
         // Weapon Hardpoint > Shock Mine Launcher
           1601  => 'I',
@@ -419,12 +447,15 @@ class Rating extends Alias
           1802  => 'B',
         
         // Weapon Hardpoint > Shock Cannon
+          1851  => 'E', //TODO: Check on release
           1852  => 'D',
           1853  => 'C',
           
+          1855  => 'E', //TODO: Check on release
           1856  => 'D',
           1857  => 'C',
           
+          1859  => 'E', //TODO: Check on release
           1860  => 'D',
           1861  => 'C',
         
@@ -432,8 +463,11 @@ class Rating extends Alias
           1872  => 'B',
         
         // Weapon Hardpoint > Shard Cannon
+          1921  => 'C', //TODO: Check on release
           1922  => 'A',
           1923  => 'A',
+          
+          1929  => 'C', //TODO: Check on release
           1930  => 'A',
           1931  => 'A',
           

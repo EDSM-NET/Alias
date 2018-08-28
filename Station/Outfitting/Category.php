@@ -33,6 +33,7 @@ class Category extends Alias
             128049267   => [1, 2, 3, 4, 5],                // Adder
             128816588   => [331, 332, 333, 334, 335],      // Alliance Challenger
             128816574   => [321, 322, 323, 324, 325],      // Alliance Chieftain
+            128816581   => [351, 352, 353, 354, 355],      // Alliance Crusader
             128049363   => [11, 12, 13, 14, 15],           // Anaconda
             128049303   => [21, 22, 23, 24, 25],           // Asp Explorer
             128672276   => [31, 32, 33, 34, 35],           // Asp Scout
@@ -76,7 +77,7 @@ class Category extends Alias
                 
                 1021,
                 
-                1032,
+                1031, 1032,
             ],
             'Pulse Laser'                       => [
                 1051, 1052, 1053, 1054,
@@ -107,7 +108,7 @@ class Category extends Alias
             'Multi-Cannon'                      => [
                 1251, 1252, 1253, 1254,
                 1255, 1256, 1257, 1258,
-                1259, 1260,
+                1259, 1260, 1261,
                 
                 1271,
             ],
@@ -116,8 +117,8 @@ class Category extends Alias
                 
                 1313,
                 
-                1322, 1323,
-                1330, 1331,
+                1321, 1322, 1323,
+                1329, 1330, 1331,
             ],
             'Rail Gun'                          => [
                 1351, 1352,
@@ -125,8 +126,8 @@ class Category extends Alias
                 1362,
             ],
             'Missile Rack'                      => [
-                1401, 1402,
-                1405, 1406,
+                1401, 1402, 1403,
+                1405, 1406, 1407,
                 
                 1411,
             ],
@@ -140,7 +141,7 @@ class Category extends Alias
                 1521,
             ],
             'Torpedo Pylon'                     => [
-                1551, 1552,
+                1551, 1552, 1553,
             ],
             'Shock Mine Launcher'               => [
                 1601,
@@ -165,16 +166,16 @@ class Category extends Alias
                 1802,
             ],
             'Shock Cannon'                      => [
-                1852, 1853,
-                1856, 1857,
-                1860, 1861,
+                1851, 1852, 1853,
+                1855, 1856, 1857,
+                1859, 1860, 1861,
             ],
             'Enzyme Missile Rack'               => [
                 1872,
             ],
             'Shard Cannon'                      => [
-                1922, 1923,
-                1930, 1931,
+                1921, 1922, 1923,
+                1929, 1930, 1931,
             ],
          ],
         

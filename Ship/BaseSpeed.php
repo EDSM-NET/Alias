@@ -27,6 +27,9 @@ class BaseSpeed extends Alias
         // Alliance Chieftain
         128816574               => 150,
         
+        // Alliance Crusader
+        128816581               => 110,
+        
         // Anaconda
         128049363               => 80,
         

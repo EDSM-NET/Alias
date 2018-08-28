@@ -95,5 +95,29 @@ class Specialisation extends Alias
             'Limpets',
             'Scanners',
         ],
+        21                              => [
+            'Explosive weaponry',
+            'Armour',
+            'Counter measures',
+        ],
+        22                              => [
+            'Ballistics weaponry',
+            'Fuel scoops',
+            'Refineries',
+            'Limpets controllers',
+        ],
+        23                              => [
+            'Laser weaponry',
+            'Shields',
+            'Frame shift drives',
+            'Engines',
+        ],
+        24                              => [
+            'High energy weaponry',
+            'Sensors',
+            'Scanners',
+            'Ship power systems',
+            'Life support',
+        ],
     ];
 }

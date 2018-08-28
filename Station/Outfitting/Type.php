@@ -259,6 +259,13 @@ class Type extends Alias
            343  => 'Military Grade Composite',
            344  => 'Mirrored Surface Composite',
            345  => 'Reactive Surface Composite',
+             
+        // Bulkhead > Alliance Crusader
+           351  => 'Lightweight Alloy',
+           352  => 'Reinforced Alloy',
+           353  => 'Military Grade Composite',
+           354  => 'Mirrored Surface Composite',
+           355  => 'Reactive Surface Composite',
         
         // Weapon Hardpoint > Beam Laser
           1001  => 'Beam Laser (Fixed)',
@@ -277,6 +284,7 @@ class Type extends Alias
           
           1021  => 'Retributor Beam Laser (Fixed, Powerplay)',
           
+          1031  => 'Gauss Cannon (Fixed, Guardian)',
           1032  => 'Gauss Cannon (Fixed, Guardian)',
         
         // Weapon Hardpoint > Pulse Laser
@@ -367,9 +375,11 @@ class Type extends Alias
           
           1313  => 'Advanced Plasma Accelerator (Fixed, Powerplay)',
           
+          1321  => 'Plasma Charger (Fixed, Guardian)',
           1322  => 'Plasma Charger (Fixed, Guardian)',
           1323  => 'Plasma Charger (Fixed, Guardian)',
           
+          1329  => 'Plasma Charger (Turret, Guardian)',
           1330  => 'Plasma Charger (Turret, Guardian)',
           1331  => 'Plasma Charger (Turret, Guardian)',
         
@@ -382,8 +392,11 @@ class Type extends Alias
         // Weapon Hardpoint > Missile Rack
           1401  => 'Missile Rack (Seeker, Fixed)',
           1402  => 'Missile Rack (Seeker, Fixed)',
+          1403  => 'Missile Rack (Seeker, Fixed)',
+          
           1405  => 'Missile Rack (Dumbfire, Fixed)',
           1406  => 'Missile Rack (Dumpfire, Fixed)',
+          1407  => 'Missile Rack (Dumpfire, Fixed)',
           
           1411  => 'Rocket Propelled FSD Disruptor (Dumpfire, Fixed, Powerplay)',
         
@@ -402,6 +415,7 @@ class Type extends Alias
         // Weapon Hardpoint > Torpedo Pylon
           1551  => 'Torpedo Pylon (Seeker, Fixed)',
           1552  => 'Torpedo Pylon (Seeker, Fixed)',
+          1553  => 'Torpedo Pylon (Seeker, Fixed)',
         
         // Weapon Hardpoint > Shock Mine Launcher
           1601  => 'Shock Mine Launcher (Fixed)',
@@ -430,10 +444,15 @@ class Type extends Alias
           1802  => 'Pack-Hound Missile Rack (Swarm, Fixed)',
         
         // Weapon Hardpoint > Shock Cannon
+          1851  => 'Shock Cannon (Fixed)',
           1852  => 'Shock Cannon (Fixed)',
           1853  => 'Shock Cannon (Fixed)',
+          
+          1855  => 'Shock Cannon (Gimbal)',
           1856  => 'Shock Cannon (Gimbal)',
           1857  => 'Shock Cannon (Gimbal)',
+          
+          1859  => 'Shock Cannon (Turret)',
           1860  => 'Shock Cannon (Turret)',
           1861  => 'Shock Cannon (Turret)',
         
@@ -441,8 +460,11 @@ class Type extends Alias
           1872  => 'Enzyme Missile Rack (Fixed)',
         
         // Weapon Hardpoint > Shard Cannon
+          1921  => 'Shard Cannon (Fixed, Guardian)',
           1922  => 'Shard Cannon (Fixed, Guardian)',
           1923  => 'Shard Cannon (Fixed, Guardian)',
+          
+          1929  => 'Shard Cannon (Turret, Guardian)',
           1930  => 'Shard Cannon (Turret, Guardian)',
           1931  => 'Shard Cannon (Turret, Guardian)',
           
@@ -1655,6 +1677,13 @@ class Type extends Alias
         'krait_mkii_armour_mirrored'                    => 344,
         'krait_mkii_armour_reactive'                    => 345,
         
+        // Bulkhead > Alliance Crusader
+        'typex_2_armour_grade1'                         => 351,
+        'typex_2_armour_grade2'                         => 352,
+        'typex_2_armour_grade3'                         => 353,
+        'typex_2_armour_mirrored'                       => 354,
+        'typex_2_armour_reactive'                       => 355,
+        
         // Weapon Hardpoint > Beam Laser
         'hpt_beamlaser_fixed_small'                     => 1001,
         'hpt_beamlaser_fixed_medium'                    => 1002,
@@ -1672,6 +1701,7 @@ class Type extends Alias
         
         'hpt_beamlaser_fixed_small_heat'                => 1021,
         
+        'hpt_guardian_gausscannon_fixed_small'          => 1031,
         'hpt_guardian_gausscannon_fixed_medium'         => 1032,
         
         // Weapon Hardpoint > Pulse Laser
@@ -1752,6 +1782,7 @@ class Type extends Alias
         
         'hpt_multicannon_turret_small'                  => 1259,
         'hpt_multicannon_turret_medium'                 => 1260,
+        'hpt_multicannon_turret_large'                  => 1261,
         
         'hpt_multicannon_fixed_small_strong'            => 1271,
         
@@ -1762,9 +1793,11 @@ class Type extends Alias
         
         'hpt_plasmaaccelerator_fixed_large_advanced'    => 1313,
         
+        'hpt_guardian_plasmalauncher_fixed_small'       => 1321,
         'hpt_guardian_plasmalauncher_fixed_medium'      => 1322,
         'hpt_guardian_plasmalauncher_fixed_large'       => 1323,
         
+        'hpt_guardian_plasmalauncher_turret_small'      => 1329,
         'hpt_guardian_plasmalauncher_turret_medium'     => 1330,
         'hpt_guardian_plasmalauncher_turret_large'      => 1331,
         
@@ -1778,9 +1811,11 @@ class Type extends Alias
         // Weapon Hardpoint > Missile Rack
         'hpt_basicmissilerack_fixed_small'              => 1401,
         'hpt_basicmissilerack_fixed_medium'             => 1402,
+        'hpt_basicmissilerack_fixed_large'              => 1403,
         
         'hpt_dumbfiremissilerack_fixed_small'           => 1405,
         'hpt_dumbfiremissilerack_fixed_medium'          => 1406,
+        'hpt_dumbfiremissilerack_fixed_large'           => 1407,
         
         'hpt_dumbfiremissilerack_fixed_medium_lasso'    => 1411,
         
@@ -1800,6 +1835,7 @@ class Type extends Alias
         // Weapon Hardpoint > Torpedo Pylon
         'hpt_advancedtorppylon_fixed_small'             => 1551,
         'hpt_advancedtorppylon_fixed_medium'            => 1552,
+        'hpt_advancedtorppylon_fixed_large'             => 1553,
         
         // Weapon Hardpoint > Shock Mine Launcher
         'hpt_minelauncher_fixed_small_impulse'          => 1601,
@@ -1832,12 +1868,15 @@ class Type extends Alias
         'hpt_drunkmissilerack_fixed_medium'             => 1802,
         
         // Weapon Hardpoint > Shock Cannon
+        'hpt_plasmashockcannon_fixed_small'             => 1851,
         'hpt_plasmashockcannon_fixed_medium'            => 1852,
         'hpt_plasmashockcannon_fixed_large'             => 1853,
         
+        'hpt_plasmashockcannon_gimbal_small'            => 1855,
         'hpt_plasmashockcannon_gimbal_medium'           => 1856,
         'hpt_plasmashockcannon_gimbal_large'            => 1857,
         
+        'hpt_plasmashockcannon_turret_small'            => 1859,
         'hpt_plasmashockcannon_turret_medium'           => 1860,
         'hpt_plasmashockcannon_turret_large'            => 1861,
         
@@ -1845,8 +1884,11 @@ class Type extends Alias
         'hpt_causticmissile_fixed_medium'               => 1872,
         
         // Weapon Hardpoint > Shard Cannon
+        'hpt_guardian_shardcannon_fixed_small'          => 1921,
         'hpt_guardian_shardcannon_fixed_medium'         => 1922,
         'hpt_guardian_shardcannon_fixed_large'          => 1923,
+        
+        'hpt_guardian_shardcannon_turret_small'         => 1929,
         'hpt_guardian_shardcannon_turret_medium'        => 1930,
         'hpt_guardian_shardcannon_turret_large'         => 1931,
           

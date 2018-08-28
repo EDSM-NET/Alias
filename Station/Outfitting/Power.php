@@ -39,6 +39,7 @@ class Power extends Alias
         'Remote Release Flechette Launcher',
         'Pack-Hound Missile Rack',
         'Shock Cannon',
+        'Enzyme Missile Rack',
         'Shard Cannon',
         
         // Utility Mount
@@ -301,6 +302,9 @@ class Power extends Alias
           
           1860  => 0.5,
           1861  => 0.64,
+        
+        // Weapon Hardpoint > Enzyme Missile Rack
+          1872  => 1.2,
         
         // Weapon Hardpoint > Shard Cannon
           1922  => 1.21,

@@ -37,6 +37,10 @@ class Engineer extends Alias
         18                              => 'Ram Tah',
         19                              => 'Bill Turner',
         20                              => 'Tiana Fortune',
+        21                              => 'Petra Olmanova',
+        22                              => 'Marsha Hicks',
+        23                              => 'Mel Brandon',
+        24                              => 'Etienne Dorn',
     ];
     
     /**
@@ -106,5 +110,17 @@ class Engineer extends Alias
         
         'tiana fortune'                 => 20,
         300270                          => 20,
+        
+        'petra olmanova'                => 21,
+        300130                          => 21,
+        
+        'marsha hicks'                  => 22,
+        300150                          => 22,
+        
+        'Mel Brandon'                   => 23,
+        300280                          => 23,
+        
+        'Etienne Dorn'                  => 24,
+        300290                          => 24,
     ];
 }
