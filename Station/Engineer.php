@@ -117,10 +117,10 @@ class Engineer extends Alias
         'marsha hicks'                  => 22,
         300150                          => 22,
         
-        'Mel Brandon'                   => 23,
+        'mel brandon'                   => 23,
         300280                          => 23,
         
-        'Etienne Dorn'                  => 24,
+        'etienne dorn'                  => 24,
         300290                          => 24,
     ];
 }
