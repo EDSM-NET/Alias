@@ -687,5 +687,25 @@ class Available extends Alias
             30502   => [1, 2, 3, 4, 5],         // Long range
             30503   => [1, 2, 3, 4, 5],         // Wide angle
         ],
+        
+        // Petra Olmanova
+        21      => [
+        
+        ],
+        
+        // Marsha Hicks
+        22      => [
+        
+        ],
+        
+        // Mel Brandon
+        23      => [
+        
+        ],
+        
+        // Etienne Dorn
+        24      => [
+        
+        ],
     ];
 }
