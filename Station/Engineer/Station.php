@@ -35,9 +35,9 @@ class Station extends Alias
         18      => 508,             // Ram Tah
         19      => 650,             // Bill Turner
         20      => 43,              // Tiana Fortune
-        21      => null,            // Petra Olmanova (Sanctuary / Asura 1 d)
-        22      => null,            // Marsha Hicks (The Watchtower / Tir A 2)
-        23      => null,            // Mel Brandon (The Brig / Luchtaine A 1 c)
-        24      => null,            // Etienne Dorn (Kraken's Retreat / Los A 2 b)
+        21      => 63765,           // Petra Olmanova
+        22      => 63766,           // Marsha Hicks
+        23      => 63770,           // Mel Brandon
+        24      => 63767,           // Etienne Dorn
     ];
 }
