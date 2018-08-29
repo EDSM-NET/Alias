@@ -27,6 +27,9 @@ class BoostEnergy extends Alias
         // Alliance Chieftain
         128816574               => 19,
         
+        // Alliance Crusader
+        128816581               => 19,
+        
         // Anaconda
         128049363               => 27,
         
