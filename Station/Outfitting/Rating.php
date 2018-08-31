@@ -876,6 +876,9 @@ class Rating extends Alias
           4051  => 'E',
         
         // Optional Internal > Shield Generator
+          4101  => 'E',
+          4102  => 'D',
+          4103  => 'C',
           4104  => 'C',
           4106  => 'A',
           4107  => 'A',

@@ -883,6 +883,9 @@ class Type extends Alias
           4051  => 'Standard Docking Computer',
         
         // Optional Internal > Shield Generator
+          4101  => 'Shield Generator',
+          4102  => 'Shield Generator',
+          4103  => 'Shield Generator',
           4104  => 'Bi-Weave Shield Generator',
           4106  => 'Shield Generator',
           4107  => 'Prismatic Shield Generator (Powerplay)',
@@ -2310,6 +2313,9 @@ class Type extends Alias
         'int_dockingcomputer_standard'                  => 4051,
         
         // Optional Internal > Shield Generator
+        'int_shieldgenerator_size1_class1'              => 4101,
+        'int_shieldgenerator_size1_class2'              => 4102,
+        'int_shieldgenerator_size1_class3'              => 4103,
         'int_shieldgenerator_size1_class3_fast'         => 4104,
         'int_shieldgenerator_size1_class5'              => 4106,
         'int_shieldgenerator_size1_class5_strong'       => 4107,

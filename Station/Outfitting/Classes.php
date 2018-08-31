@@ -876,6 +876,9 @@ class Classes extends Alias
           4051  => 1,
         
         // Optional Internal > Shield Generator
+          4101  => 1,
+          4102  => 1,
+          4103  => 1,
           4104  => 1,
           4106  => 1,
           4107  => 1,
