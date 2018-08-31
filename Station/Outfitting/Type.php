@@ -365,6 +365,7 @@ class Type extends Alias
           
           1259  => 'Multi-Cannon (Turret)',
           1260  => 'Multi-Cannon (Turret)',
+          1261  => 'Multi-Cannon (Turret)',
           
           1271  => 'Enforcer Multi-Cannon (Fixed, Powerplay)',
         

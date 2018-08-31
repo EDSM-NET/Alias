@@ -184,6 +184,27 @@ class PaintJob extends Alias
         // Alliance Crusader
         128816581 => [
             'typex_2_default_defaultpaintjob'               => 'Default',
+            
+            'typex_2_military_militaire_dark_green'         => 'Military Dark Green',
+            'typex_2_military_militaire_desert_sand'        => 'Military Desert Sand',
+            'typex_2_military_militaire_earth_red'          => 'Military Earth Red',
+            'typex_2_military_militaire_earth_yellow'       => 'Military Earth Yellow',
+            'typex_2_military_militaire_forest_green'       => 'Military Marine Blue',
+            'typex_2_military_militaire_sand'               => 'Military Sand',
+            
+            'typex_2_military_tactical_blue'                => 'Tactical Cobalt',
+            'typex_2_military_tactical_brown'               => 'Tactical Khaki',
+            'typex_2_military_tactical_green'               => 'Tactical Olive',
+            'typex_2_military_tactical_grey'                => 'Tactical Graphite',
+            'typex_2_military_tactical_red'                 => 'Tactical Crimson',
+            'typex_2_military_tactical_white'               => 'Tactical Ice',
+            
+            'typex_2_military_vibrant_blue'                 => 'Vibrant Blue',
+            'typex_2_military_vibrant_green'                => 'Vibrant Green',
+            'typex_2_military_vibrant_orange'               => 'Vibrant Orange',
+            'typex_2_military_vibrant_purple'               => 'Vibrant Purple',
+            'typex_2_military_vibrant_red'                  => 'Vibrant Red',
+            'typex_2_military_vibrant_yellow'               => 'Vibrant Yellow',
         ],
 
         // Anaconda
