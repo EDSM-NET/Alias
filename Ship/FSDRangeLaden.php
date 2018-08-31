@@ -21,8 +21,14 @@ class FSDRangeLaden extends Alias
         // Adder
         128049267               => 8.47,
         
+        // Alliance Challenger
+        128816588               => null,
+        
         // Alliance Chieftain
         128816574               => null,
+        
+        // Alliance Crusader
+        128816581               => 7.64,
         
         // Anaconda
         128049363               => 8.52,

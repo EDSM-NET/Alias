@@ -20,8 +20,14 @@ class Armour extends Alias
         // Adder
         128049267               => 162,
         
+        // Alliance Challenger
+        128816588               => 540,
+        
         // Alliance Chieftain
-        128816574               => null,
+        128816574               => 504,
+        
+        // Alliance Crusader
+        128816581               => 540,
         
         // Anaconda
         128049363               => 945,

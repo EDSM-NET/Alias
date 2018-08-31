@@ -20,8 +20,14 @@ class Manoeuvrability extends Alias
         // Adder
         128049267               => 4,
         
+        // Alliance Challenger
+        128816588               => 4,
+        
         // Alliance Chieftain
         128816574               => 4,
+        
+        // Alliance Crusader
+        128816581               => 3,
         
         // Anaconda
         128049363               => 1,

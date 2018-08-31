@@ -21,8 +21,14 @@ class CargoCapacity extends Alias
         // Adder
         128049267               => 6,
         
+        // Alliance Challenger
+        128816588               => 40,
+        
         // Alliance Chieftain
         128816574               => 40,
+        
+        // Alliance Crusader
+        128816581               => 40,
         
         // Anaconda
         128049363               => 114,

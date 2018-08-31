@@ -21,8 +21,14 @@ class Shields extends Alias
         // Adder
         128049267               => 78,
         
+        // Alliance Challenger
+        128816588               => 208,
+        
         // Alliance Chieftain
-        128816574               => null,
+        128816574               => 162,
+        
+        // Alliance Crusader
+        128816581               => 126,
         
         // Anaconda
         128049363               => 362,

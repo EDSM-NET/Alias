@@ -21,8 +21,14 @@ class FSDRangeUnladen extends Alias
         // Adder
         128049267               => 9.12,
         
+        // Alliance Challenger
+        128816588               => 8.58,
+        
         // Alliance Chieftain
-        128816574               => null,
+        128816574               => 9.59,
+        
+        // Alliance Crusader
+        128816581               => 8.21,
         
         // Anaconda
         128049363               => 9.41,

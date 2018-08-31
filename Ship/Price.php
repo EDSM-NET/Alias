@@ -27,6 +27,9 @@ class Price extends Alias
         // Alliance Chieftain
         128816574               => 19382250,
         
+        // Alliance Crusader
+        128816581               => 25367279,
+        
         // Anaconda
         128049363               => 146969451,
         
