@@ -39,7 +39,7 @@ class HullMass extends Alias
         128672276               => 150,
         
         // Beluga Liner
-        128049345               => 1100,
+        128049345               => 950,
         
         // Cobra MkIII
         128049279               => 180,
