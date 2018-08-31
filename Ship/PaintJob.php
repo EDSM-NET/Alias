@@ -109,6 +109,11 @@ class PaintJob extends Alias
         128816588   => [
             'typex_3_default_defaultpaintjob'               => 'Default',
             
+            'typex_3_iridescenthighcolour_01'               => 'Iridescent Scorch',
+            'typex_3_iridescenthighcolour_04'               => 'Iridescent Dusk',
+            'typex_3_iridescenthighcolour_05'               => 'Iridescent Aurora',
+            'typex_3_iridescenthighcolour_06'               => 'Iridescent Twilight',
+            
             'typex_3_military_militaire_dark_green'         => 'Military Dark Green',
             'typex_3_military_militaire_desert_sand'        => 'Military Desert Sand',
             'typex_3_military_militaire_earth_red'          => 'Military Earth Red',
@@ -143,6 +148,11 @@ class PaintJob extends Alias
             'typex_default_defaultpaintjob'                 => 'Default',
             
             'typex_lavecon_lavecon'                         => 'Lavecon',
+            
+            'typex_iridescenthighcolour_01'                 => 'Iridescent Scorch',
+            'typex_iridescenthighcolour_04'                 => 'Iridescent Dusk',
+            'typex_iridescenthighcolour_05'                 => 'Iridescent Aurora',
+            'typex_iridescenthighcolour_06'                 => 'Iridescent Twilight',
             
             'typex_horus1_01'                               => 'Green Apollo',
             'typex_horus1_02'                               => 'Black Apollo',
@@ -184,6 +194,11 @@ class PaintJob extends Alias
         // Alliance Crusader
         128816581 => [
             'typex_2_default_defaultpaintjob'               => 'Default',
+            
+            'typex_2_iridescenthighcolour_01'               => 'Iridescent Scorch',
+            'typex_2_iridescenthighcolour_04'               => 'Iridescent Dusk',
+            'typex_2_iridescenthighcolour_05'               => 'Iridescent Aurora',
+            'typex_2_iridescenthighcolour_06'               => 'Iridescent Twilight',
             
             'typex_2_military_militaire_dark_green'         => 'Military Dark Green',
             'typex_2_military_militaire_desert_sand'        => 'Military Desert Sand',
@@ -240,6 +255,11 @@ class PaintJob extends Alias
             'anaconda_faction1_04'                          => 'Pirate Faction Rose',
             'anaconda_faction1_05'                          => 'Pirate Faction Blue',
             'anaconda_faction1_06'                          => 'Pirate Faction Purple',
+            
+            'anaconda_iridescenthighcolour_01'              => 'Iridescent Scorch',
+            'anaconda_iridescenthighcolour_04'              => 'Iridescent Dusk',
+            'anaconda_iridescenthighcolour_05'              => 'Iridescent Aurora',
+            'anaconda_iridescenthighcolour_06'              => 'Iridescent Twilight',
             
             'anaconda_gamescom_01'                          => 'Gamescon',
             'anaconda_lavecon_lavecon'                      => 'Lavecon',
@@ -339,6 +359,11 @@ class PaintJob extends Alias
             'asp_festive_red'                               => 'Festive Red',
             'asp_festive_silver'                            => 'Festive Black',
             'asp_festive_white'                             => 'Festive White',
+            
+            'asp_iridescenthighcolour_01'                   => 'Iridescent Scorch',
+            'asp_iridescenthighcolour_04'                   => 'Iridescent Dusk',
+            'asp_iridescenthighcolour_05'                   => 'Iridescent Aurora',
+            'asp_iridescenthighcolour_06'                   => 'Iridescent Twilight',
             
             'asp_gamescom_gamescom'                         => 'Gamescom',
             'asp_lavecon_lavecon'                           => 'Lavecon',
@@ -1219,6 +1244,11 @@ class PaintJob extends Alias
             'ferdelance_gradient2_crimson'                  => 'Predator Crimson',
             'ferdelance_gradient2_blue'                     => 'Predator Blue',
             
+            'ferdelance_iridescenthighcolour_01'            => 'Iridescent Scorch',
+            'ferdelance_iridescenthighcolour_04'            => 'Iridescent Dusk',
+            'ferdelance_iridescenthighcolour_05'            => 'Iridescent Aurora',
+            'ferdelance_iridescenthighcolour_06'            => 'Iridescent Twilight',
+            
             'ferdelance_lavecon_lavecon'                    => 'Lavecon',
             
             //'ferdelance_metallic_chrome'                    => 'Chrome',
@@ -1329,6 +1359,11 @@ class PaintJob extends Alias
             //'empiretrader_metallic_chrome'                  => 'Chrome',
             //'empiretrader_metallic_gold'                    => 'Gold',
             
+            'empiretrader_iridescenthighcolour_01'          => 'Iridescent Scorch',
+            'empiretrader_iridescenthighcolour_04'          => 'Iridescent Dusk',
+            'empiretrader_iridescenthighcolour_05'          => 'Iridescent Aurora',
+            'empiretrader_iridescenthighcolour_06'          => 'Iridescent Twilight',
+            
             'empiretrader_militaire_dark_green'             => 'Military Dark Green',
             'empiretrader_militaire_desert_sand'            => 'Military Desert Sand',
             'empiretrader_militaire_earth_red'              => 'Military Earth Red',
@@ -1374,6 +1409,11 @@ class PaintJob extends Alias
             */
             
             'empire_courier_furrycat_furrycat'              => 'FurryCat',
+            
+            'empire_courier_iridescenthighcolour_01'        => 'Iridescent Scorch',
+            'empire_courier_iridescenthighcolour_04'        => 'Iridescent Dusk',
+            'empire_courier_iridescenthighcolour_05'        => 'Iridescent Aurora',
+            'empire_courier_iridescenthighcolour_06'        => 'Iridescent Twilight',
             
             //'empire_courier_metallic_chrome'                => 'Chrome',
             //'empire_courier_metallic_gold'                  => 'Gold',
@@ -1446,6 +1486,11 @@ class PaintJob extends Alias
             'cutter_gradient2_red'                          => 'Predator Red',
             'cutter_gradient2_teal'                         => 'Predator Teal',
             
+            'cutter_iridescenthighcolour_01'                => 'Iridescent Scorch',
+            'cutter_iridescenthighcolour_04'                => 'Iridescent Dusk',
+            'cutter_iridescenthighcolour_05'                => 'Iridescent Aurora',
+            'cutter_iridescenthighcolour_06'                => 'Iridescent Twilight',
+            
             'cutter_lavecon_lavecon'                        => 'Lavecon',
             
             'cutter_luminous_stripe_ver2_01'                => 'Pulse White',
@@ -1487,6 +1532,11 @@ class PaintJob extends Alias
             'empire_eagle_blackfriday_01'                   => 'Midnight Black',
             
             'empire_eagle_default_defaultpaintjob'          => 'Default',
+            
+            'empire_eagle_iridescenthighcolour_01'          => 'Iridescent Scorch',
+            'empire_eagle_iridescenthighcolour_04'          => 'Iridescent Dusk',
+            'empire_eagle_iridescenthighcolour_05'          => 'Iridescent Aurora',
+            'empire_eagle_iridescenthighcolour_06'          => 'Iridescent Twilight',
             
             /*
             'empire_eagle_faction1_01'                      => 'Pirate Faction Red',
@@ -1580,6 +1630,11 @@ class PaintJob extends Alias
             'krait_mkii_gradient2_green'                    => 'Predator Green',
             'krait_mkii_gradient2_crimson'                  => 'Predator Crimson',
             'krait_mkii_gradient2_blue'                     => 'Predator Blue',
+            
+            'krait_mkii_iridescenthighcolour_01'            => 'Iridescent Scorch',
+            'krait_mkii_iridescenthighcolour_04'            => 'Iridescent Dusk',
+            'krait_mkii_iridescenthighcolour_05'            => 'Iridescent Aurora',
+            'krait_mkii_iridescenthighcolour_06'            => 'Iridescent Twilight',
             
             'krait_mkii_horus1_01'                          => 'Green Apollo',
             'krait_mkii_horus1_02'                          => 'Black Apollo',
@@ -1712,6 +1767,11 @@ class PaintJob extends Alias
             'python_gradient2_04'                           => 'Predator Crimson',
             'python_gradient2_05'                           => 'Predator Lime',
             'python_gradient2_06'                           => 'Predator Blue',
+            
+            'python_iridescenthighcolour_01'                => 'Iridescent Scorch',
+            'python_iridescenthighcolour_04'                => 'Iridescent Dusk',
+            'python_iridescenthighcolour_05'                => 'Iridescent Aurora',
+            'python_iridescenthighcolour_06'                => 'Iridescent Twilight',
             
             'python_luminous_stripe_01'                     => 'Pulse Green',
             'python_luminous_stripe_02'                     => 'Pulse Blue',
@@ -2226,6 +2286,11 @@ class PaintJob extends Alias
             'vulture_fullmetal_copper'                      => 'Galvanized Copper',
             'vulture_fullmetal_malachite'                   => 'Galvanized Malachite',
             'vulture_fullmetal_paladium'                    => 'Galvanized Paladium',
+            
+            'vulture_iridescenthighcolour_01'               => 'Iridescent Scorch',
+            'vulture_iridescenthighcolour_04'               => 'Iridescent Dusk',
+            'vulture_iridescenthighcolour_05'               => 'Iridescent Aurora',
+            'vulture_iridescenthighcolour_06'               => 'Iridescent Twilight',
             
             'vulture_gamescom_gamescom'                     => 'Gamescom',
             
