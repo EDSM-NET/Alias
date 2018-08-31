@@ -266,12 +266,10 @@ class Mass extends Alias
              
         // Bulkhead > Alliance Crusader
            351  => 0,
-           /*
-           352  => 36,
-           353  => 67,
-           354  => 67,
-           355  => 67,
-           */
+           352  => 40,
+           353  => 78,
+           354  => 78,
+           355  => 78,
         
         // Weapon Hardpoint > Beam Laser
           1001  => 2,
