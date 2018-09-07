@@ -33,8 +33,6 @@ class Data extends Alias
         24  => 150, // Pattern Delta Obelisk Data
         25  => 150, // Pattern Epsilon Obelisk Data
         26  => 150, // Pattern Gamma Obelisk Data
-        44  => 150, // Guardian Weapon Blueprint Segment
-        45  => 150, // Guardian Module Blueprint Segment
     ];
     
     /**
@@ -202,9 +200,9 @@ class Data extends Alias
         40  => 2,
         41  => 3,
         42  => 3,
-        43  => 4,
-        44  => 5,
-        45  => 5,
+        43  => 3,
+        44  => 4,
+        45  => 4,
         46  => 5,
     ];
 }

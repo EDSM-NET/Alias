@@ -394,11 +394,11 @@ class Rating extends Alias
         // Weapon Hardpoint > Missile Rack
           1401  => 'B',
           1402  => 'B',
-          1403  => 'B', //TODO: Check on release
+          1403  => 'A',
           
           1405  => 'B',
           1406  => 'B',
-          1407  => 'B', //TODO: Check on release
+          1407  => 'A',
           
           1411  => 'B',
         

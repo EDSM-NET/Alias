@@ -394,11 +394,11 @@ class Classes extends Alias
         // Weapon Hardpoint > Missile Rack
           1401  => 1,
           1402  => 2,
-          1403  => 3, //TODO: Check on release
+          1403  => 3,
           
           1405  => 1,
           1406  => 2,
-          1407  => 3, //TODO: Check on release
+          1407  => 3,
           
           1411  => 2,
         

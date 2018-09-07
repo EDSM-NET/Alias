@@ -365,6 +365,7 @@ class Mass extends Alias
           
           1259  => 2,
           1260  => 4,
+          1261  => 8,
           
           1271  => 2,
         
@@ -390,8 +391,11 @@ class Mass extends Alias
         // Weapon Hardpoint > Missile Rack
           1401  => 2,
           1402  => 4,
+          1403  => 8,
+          
           1405  => 2,
           1406  => 4,
+          1407  => 8,
           
           1411  => 4,
         
@@ -411,6 +415,7 @@ class Mass extends Alias
         // Weapon Hardpoint > Torpedo Pylon
           1551  => 2,
           1552  => 4,
+          1553  => 8,
         
         // Weapon Hardpoint > Shock Mine Launcher
           1601  => 2,
@@ -452,8 +457,11 @@ class Mass extends Alias
           1872  => 4,
         
         // Weapon Hardpoint > Shard Cannon
+          1921  => 2,   //TODO: Check on release
           1922  => 4,
           1923  => 8,
+          
+          1929  => 2,   //TODO: Check on release
           1930  => 4,
           1931  => 8,
           

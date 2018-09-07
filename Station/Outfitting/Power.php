@@ -246,8 +246,11 @@ class Power extends Alias
         // Weapon Hardpoint > Missile Rack
           1401  => 0.6,
           1402  => 1.2,
+          1403  => 1.62,
+          
           1405  => 0.4,
           1406  => 1.2,
+          1407  => 1.62,
           
           1411  => 1.2,
         
