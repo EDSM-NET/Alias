@@ -171,7 +171,7 @@ class Badge extends Alias
             'innerColor'        => [180, 0, 255],
             'outerColor'        => [28, 30, 34],
             
-            'layout'            => 2,
+            'layout'            => 3,
         ],
         110     => [
             'name'              => '200,000ly Club!',
@@ -179,7 +179,7 @@ class Badge extends Alias
             'active'            => true,
             
             'innerColor'        => [180, 0, 255],
-            'outerColor'        => [180, 0, 255],
+            'outerColor'        => [28, 30, 34],
             
             'layout'            => 2,
         ],
@@ -189,7 +189,9 @@ class Badge extends Alias
             'active'            => true,
             
             'innerColor'        => [180, 0, 255],
-            'outerColor'        => [28, 30, 34],
+            'outerColor'        => [180, 0, 255],
+            
+            'layout'            => 2,
         ],
         140     => [
             'name'              => '1,000,000ly Club!',
@@ -197,8 +199,18 @@ class Badge extends Alias
             'active'            => true,
             
             'innerColor'        => [180, 0, 255],
+            'outerColor'        => [28, 30, 34],
+        ],
+
+        145     => [
+            'name'              => 'Did I leave the oven on?',
+            'description'       => 'Travel at least 2,500,000 ly. The distance between the Milky Way & Andromeda galaxies.',
+            'active'            => true,
+            
+            'innerColor'        => [180, 0, 255],
             'outerColor'        => [180, 0, 255],
         ],
+        
         
         150     => [
             'name'              => 'Going, going...',
@@ -218,47 +230,34 @@ class Badge extends Alias
         ],
         
         
-        200     => [
+        200     => array(
             'name'              => 'Popping to the Corner Shop',
             'description'       => 'Travel 1,000 light years from the start.',
             'active'            => true,
 
-            'innerColor'        => [255, 0, 0],
-            'outerColor'        => [28, 30, 34],
+            'innerColor'        => array(255, 0, 0),
+            'outerColor'        => array(28, 30, 34),
             
-            'layout'            => 4,
-        ],
+            'layout'            => 2,
+        ),
         
-        210     => [
+        210     => array(
             'name'              => 'Where Have You Been?',
             'description'       => 'Travel 25,000 light years from the start.',
             'active'            => true,
 
-            'innerColor'        => [28, 30, 34],
-            'outerColor'        => [255, 0, 0],
-            
-            'layout'            => 3,
-        ],
+            'innerColor'        => array(28, 30, 34),
+            'outerColor'        => array(255, 0, 0),
+        ),
 
-        220     => [
+        220     => array(
             'name'              => '65,000ly Club!',
             'description'       => 'Travel at least 65,000ly from Sol.',
             'active'            => true,
             
-            'innerColor'        => [255, 255, 255],
-            'outerColor'        => [255, 0, 0],
-            
-            'layout'            => 2,
-        ],
-
-        230     => [
-            'name'              => 'Did I leave the oven on?',
-            'description'       => 'Travel at least 2,500,000 ly. The distance between the Milky Way & Andromeda galaxies.',
-            'active'            => true,
-            
-            'innerColor'        => [255, 0, 0],
-            'outerColor'        => [255, 0, 0],
-        ],
+            'innerColor'        => array(255, 255, 255),
+            'outerColor'        => array(255, 0, 0),
+        ),
         
         
         
