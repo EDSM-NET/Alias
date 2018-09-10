@@ -1,9 +1,7 @@
 <?php
 /**
- * Elite: Dangerous Star Map
- *
- * @link        https://www.edsm.net/
- * @copyright   Copyright (c) 2015-2017 EDSM.
+ * Elite Dangerous Star Map
+ * @link https://www.edsm.net/
  */
 
 namespace   Alias\System;

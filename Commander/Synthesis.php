@@ -1,13 +1,9 @@
 <?php
 /**
- * Elite: Dangerous Star Map
- *
- * @link        https://www.edsm.net/
- * @copyright   Copyright (c) 2015-2017 EDSM.
- * 
- * Materials ID for the recipes are from Alias\Commander\Material
+ * Elite Dangerous Star Map
+ * @link https://www.edsm.net/
  */
- 
+
 namespace   Alias\Commander;
 use         EDSM\Alias;
 

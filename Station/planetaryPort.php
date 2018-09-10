@@ -1,14 +1,12 @@
 <?php
 /**
- * Elite: Dangerous Star Map
- *
- * @link        https://www.edsm.net/
- * @copyright   Copyright (c) 2015-2017 EDSM.
+ * Elite Dangerous Star Map
+ * @link https://www.edsm.net/
  * 
  * Listing of marketID provided by Frontier to correlate planetary ports
  */
  
-return array(
+return [
     3532327680, // 1 Hydrae | Kepler's Inheritance
     3500056576, // 10 Arietis | Morgan Terminal
     3537460992, // 10 Canum Venaticorum | Alvares Bastion
@@ -2235,4 +2233,4 @@ return array(
     3505165312, // Zhuang | Kennan Depot
     3507252736, // Zi Yines | Noli Camp
     3536225792, // Zosi | Flinders Enterprise
-);
+];
