@@ -286,6 +286,7 @@ class Mass extends Alias
           
           1021  => 2,
           
+          1031  => 2,
           1032  => 4,
         
         // Weapon Hardpoint > Pulse Laser
