@@ -34,9 +34,9 @@ class TechnologyBroker extends Alias
         17  => 'Guardian FSD Booster',
         18  => 'Corrosion Resistant Cargo Rack',
         21  => 'Meta Alloy Hull Reinforcement',
-        22  => 'Guardian Hybrid Fighter',
-        23  => 'Guardian Hybrid Fighter',
-        24  => 'Guardian Hybrid Fighter',
+        22  => 'Guardian Hybrid Fighter (XG7 Trident)',
+        23  => 'Guardian Hybrid Fighter (XG8 Javelin)',
+        24  => 'Guardian Hybrid Fighter (XG9 Lance)',
         25  => 'Shock Cannon [Fixed, Large]',
         26  => 'Shock Cannon [Gimballed, Large]',
         27  => 'Shock Cannon [Turreted, Large]',
@@ -348,8 +348,8 @@ class TechnologyBroker extends Alias
             'c624'  => 12,              // Reinforced Mounting Plate                * 12
             
         ],
-        
-        // Guardian Hybrid Fighter
+
+        // Guardian Hybrid Fighter (XG7 Trident)
         22  => [
              'd46'  => 1,               // Guardian Module Blueprint Segment        * 1
                 90  => 25,              // Guardian Power Cell                      * 25
@@ -358,21 +358,21 @@ class TechnologyBroker extends Alias
                 88  => 25,              // Guardian Technology Component            * 25
         ],
         
-        // Guardian Hybrid Fighter
+        // Guardian Hybrid Fighter (XG8 Javelin)
         23  => [
              'd46'  => 1,               // Guardian Module Blueprint Segment        * 1
                 90  => 25,              // Guardian Power Cell                      * 25
              'd25'  => 26,              // Pattern Epsilon Obelisk Data             * 26
-             'd23'  => 18,              // Pattern Beta Obelisk Data                * 18
+                91  => 18,              // Guardian Sentinel Wreckage Components    * 18
                 88  => 25,              // Guardian Technology Component            * 25
         ],
         
-        // Guardian Hybrid Fighter
+        // Guardian Hybrid Fighter (XG9 Lance)
         24  => [
              'd46'  => 1,               // Guardian Module Blueprint Segment        * 1
                 90  => 25,              // Guardian Power Cell                      * 25
              'd25'  => 26,              // Pattern Epsilon Obelisk Data             * 26
-             'd23'  => 18,              // Pattern Beta Obelisk Data                * 18
+                92  => 18,              // Guardian Sentinel Weapon Parts           * 18
                 88  => 25,              // Guardian Technology Component            * 25
         ],
         
