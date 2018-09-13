@@ -14,8 +14,8 @@ class Name extends ProcGen
      * Based on https://docs.google.com/spreadsheets/d/1kDtQYMeduzWghj1yXEsMY8isRccNhAr2XxYmaPIsB2o/edit#gid=711269421
      */
     static protected $alias     = [
-         // 100 Herculis A #
-                     => [
+         // 100 Herculis A #36925
+         36925       => [
                 "100 Herculis A"                  => "100 Herculis A A",
                 "100 Herculis B"                  => "100 Herculis A B",
          ],
