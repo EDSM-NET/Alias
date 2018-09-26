@@ -364,7 +364,7 @@ class Rating extends Alias
           
           1259  => 'G',
           1260  => 'F',
-          1261  => 'E', //TODO: Check on release
+          1261  => 'E',
           
           1271  => 'F',
         

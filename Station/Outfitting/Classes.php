@@ -364,7 +364,7 @@ class Classes extends Alias
           
           1259  => 1,
           1260  => 2,
-          1261  => 3, //TODO: Check on release
+          1261  => 3,
           
           1271  => 1,
         
