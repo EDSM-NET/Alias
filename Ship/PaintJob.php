@@ -254,6 +254,14 @@ class PaintJob extends Alias
             'anaconda_faction1_05'                          => 'Pirate Faction Blue',
             'anaconda_faction1_06'                          => 'Pirate Faction Purple',
             
+            'anaconda_horus1_01'                            => 'Green Apollo',
+            'anaconda_horus1_02'                            => 'Black Apollo',
+            'anaconda_horus1_03'                            => 'White Apollo',
+            
+            'anaconda_horus2_01'                            => 'White Pharaoh',
+            'anaconda_horus2_02'                            => 'Red Pharaoh',
+            'anaconda_horus2_03'                            => 'Gold Pharaoh',
+            
             'anaconda_iridescenthighcolour_01'              => 'Iridescent Scorch',
             'anaconda_iridescenthighcolour_04'              => 'Iridescent Dusk',
             'anaconda_iridescenthighcolour_05'              => 'Iridescent Aurora',
@@ -290,6 +298,7 @@ class PaintJob extends Alias
             'anaconda_militaire_sand'                       => 'Military Sand',
             
             'anaconda_pax_east_pax_east'                    => 'PAX East',
+            'anaconda_pax_west_pax_west'                    => 'PAX West',
             
             'anaconda_searchrescue_searchrescue'            => null,
             
@@ -387,6 +396,7 @@ class PaintJob extends Alias
             'asp_militarystripe_yellow'                     => 'Military Stripe Yellow',
             
             'asp_pax_east_pax_east'                         => 'PAX East',
+            'asp_pax_west_pax_west'                         => 'PAX West',
             
             'asp_squadron_black'                            => 'Squadron Shadow',
             'asp_squadron_blue'                             => 'Squadron Blue',
@@ -1630,7 +1640,7 @@ class PaintJob extends Alias
             'krait_mkii_gradient2_blue'                     => 'Predator Blue',
             
             'krait_mkii_iridescenthighcolour_01'            => 'Iridescent Scorch',
-            'krait_mkii_iridescenthighcolour_04'            => 'Iridescent Dusk',
+            'krait_mkii_iridescenthighcolour_03'            => 'Iridescent Dawn',
             'krait_mkii_iridescenthighcolour_05'            => 'Iridescent Aurora',
             'krait_mkii_iridescenthighcolour_06'            => 'Iridescent Twilight',
             
@@ -1765,6 +1775,14 @@ class PaintJob extends Alias
             'python_gradient2_04'                           => 'Predator Crimson',
             'python_gradient2_05'                           => 'Predator Lime',
             'python_gradient2_06'                           => 'Predator Blue',
+            
+            'python_horus1_01'                              => 'Green Apollo',
+            'python_horus1_02'                              => 'Black Apollo',
+            'python_horus1_03'                              => 'White Apollo',
+            
+            'python_horus2_01'                              => 'White Pharaoh',
+            'python_horus2_02'                              => 'Red Pharaoh',
+            'python_horus2_03'                              => 'Gold Pharaoh',
             
             'python_iridescenthighcolour_01'                => 'Iridescent Scorch',
             'python_iridescenthighcolour_04'                => 'Iridescent Dusk',
@@ -2035,6 +2053,13 @@ class PaintJob extends Alias
         128785619 => [
             'type9_military_default_defaultpaintjob'        => 'Default',
             
+            'type9_military_camo2_01'                       => 'Sabotage Lime',
+            'type9_military_camo2_02'                       => 'Sabotage Orange',
+            'type9_military_camo2_03'                       => 'Sabotage Blue',
+            'type9_military_camo2_04'                       => 'Sabotage Red',
+            'type9_military_camo2_05'                       => 'Sabotage Purple',
+            'type9_military_camo2_06'                       => 'Sabotage Green',
+            
             'type9_military_fullmetal_brass'                => 'Galvanized Brass',
             'type9_military_fullmetal_bronze'               => 'Galvanized Bronze',
             'type9_military_fullmetal_cobalt'               => 'Galvanized Cobalt',
@@ -2053,6 +2078,13 @@ class PaintJob extends Alias
             'type9_military_militaire_earth_yellow'         => 'Military Earth Yellow',
             'type9_military_militaire_forest_green'         => 'Military Marine Blue',
             'type9_military_militaire_sand'                 => 'Military Sand',
+            
+            'type9_military_militarystripe_blue'            => 'Military Stripe Blue',
+            'type9_military_militarystripe_green'           => 'Military Stripe Green',
+            'type9_military_militarystripe_orange'          => 'Military Stripe Orange',
+            'type9_military_militarystripe_purple'          => 'Military Stripe Purple',
+            'type9_military_militarystripe_red'             => 'Military Stripe Red',
+            'type9_military_militarystripe_yellow'          => 'Military Stripe Yellow',
             
             'type9_military_squadron_black'                 => 'Squadron Black',
             'type9_military_squadron_blue'                  => 'Squadron Blue',
@@ -2266,6 +2298,13 @@ class PaintJob extends Alias
             'vulture_corrosive_04'                          => 'Corroded 4',
             'vulture_corrosive_05'                          => 'Corroded 5',
             'vulture_corrosive_06'                          => 'Corroded 6',
+            
+            'vulture_lowlighteffect_01_01'                  => 'Crypsis Blue',
+            'vulture_lowlighteffect_01_02'                  => 'Crypsis Pink',
+            'vulture_lowlighteffect_01_03'                  => 'Crypsis Green',
+            'vulture_lowlighteffect_01_04'                  => 'Crypsis Yellow',
+            'vulture_lowlighteffect_01_05'                  => 'Crypsis Purple',
+            'vulture_lowlighteffect_01_06'                  => 'Crypsis White',
             
             'vulture_default_defaultpaintjob'               => 'Default',
             
