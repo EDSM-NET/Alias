@@ -585,18 +585,27 @@ class Badge extends Alias
             'innerColor'        => [176, 208, 0],
             'outerColor'        => [28, 30, 34],
             
-            'layout'            => 2,
+            'layout'            => 3,
         ],
         7510    => [
             'name'              => 'Live like Bauer...',
             'description'       => 'Played 24 hours.',
             'active'            => true,
             
-            'layout'            => 2,
+            'layout'            => 3,
         ],
         7520    => [
             'name'              => 'Kilo Run',
             'description'       => 'Played 1,000 hours.',
+            
+            'active'            => true,
+            
+            'background'        => 7510,
+            'layout'            => 2,
+        ],
+        7530    => [
+            'name'              => 'Mission Farsight',
+            'description'       => 'Played 10,000 hours.',
             
             'active'            => true,
             
