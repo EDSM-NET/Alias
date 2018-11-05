@@ -726,7 +726,7 @@ class Badge extends Alias
          */
         64001   => [
             'name'              => 'Speed Bowl #1 (First place)',
-            'description'       => 'Participate to the Speed Bowl #1.',
+            'description'       => 'Participate in the Speed Bowl #1.',
             'active'            => true,
             'manual'            => true,
             'hidden'            => true,
@@ -739,7 +739,7 @@ class Badge extends Alias
         ],
         64002   => [
             'name'              => 'Speed Bowl #1 (Second place)',
-            'description'       => 'Participate to the Speed Bowl #1.',
+            'description'       => 'Participate in the Speed Bowl #1.',
             'active'            => true,
             'manual'            => true,
             'hidden'            => true,
@@ -753,7 +753,7 @@ class Badge extends Alias
         ],
         64003   => [
             'name'              => 'Speed Bowl #1 (Third place)',
-            'description'       => 'Participate to the Speed Bowl #1.',
+            'description'       => 'Participate in the Speed Bowl #1.',
             'active'            => true,
             'manual'            => true,
             'hidden'            => true,
@@ -767,7 +767,7 @@ class Badge extends Alias
         ],
         64004   => [
             'name'              => 'Speed Bowl #1',
-            'description'       => 'Participate to the Speed Bowl #1.',
+            'description'       => 'Participate in the Speed Bowl #1.',
             'active'            => true,
             'manual'            => true,
             'hidden'            => true,
@@ -804,7 +804,7 @@ class Badge extends Alias
          */
         64201   => [
             'name'              => 'Great Remlok Tournament',
-            'description'       => 'Participate to the Great Remlok Tournament',
+            'description'       => 'Participate in the Great Remlok Tournament',
             'active'            => true,
             'manual'            => true,
             'hidden'            => true,
