@@ -10,7 +10,7 @@ use         EDSM\Alias;
 class Material extends Alias
 {
     use \EDSM\Alias\Commander\Data;
-    
+
     /**
      * List of limits per grade
      */
@@ -21,14 +21,14 @@ class Material extends Alias
         4                               => 150,
         5                               => 100,
     ];
-    
+
     /**
      * List of limits override
      */
     static protected $maxOverride   = [
-        
+
     ];
-    
+
     /**
      * List of names used in game
      */
@@ -126,10 +126,10 @@ class Material extends Alias
         91  => 'Guardian Sentinel Wreckage Components',
         92  => 'Guardian Sentinel Weapon Parts',
     ];
-    
+
     /**
      * List of aliases received from Frontier
-     * 
+     *
      * Every aliases are sanitized before matching
      *     => trim
      *     => strtolower
@@ -228,7 +228,7 @@ class Material extends Alias
         'guardian_sentinel_wreckagecomponents'      => 91,
         'guardian_sentinel_weaponparts'             => 92,
     ];
-    
+
     /**
      * List of grades used in game
      */
@@ -239,7 +239,7 @@ class Material extends Alias
          4  => 'Rare',
          5  => 'Very rare',
     ];
-    
+
     /**
      * List of grades per data
      */
@@ -337,7 +337,7 @@ class Material extends Alias
         91  => 1,
         92  => 3,
     ];
-    
+
     /**
      * List of manufactured materials
      */
@@ -347,10 +347,10 @@ class Material extends Alias
         20, 21, 22, 23, 24, 25, 27, 28, 29,
         30, 31, 32, 33, 34, 35, 36, 39,
         40, 41, 43, 44, 48, 49,
-        52, 53, 54, 55, 56, 57, 58, 
+        52, 53, 54, 55, 56, 57, 58,
         60, 62, 63, 67, 68,
         71, 73, 77, 78, 79,
-        80,
+        80, 81, 82, 83, 84,
         88, 89, 90, 91, 92,
     ];
 }
