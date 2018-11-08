@@ -14,7 +14,7 @@ class State extends Alias
      */
     static protected $name  = [
          0                      => 'None',
-         
+
          1                      => 'Boom',
          2                      => 'Bust',
          3                      => 'Civil unrest',
@@ -27,18 +27,19 @@ class State extends Alias
         10                      => 'Outbreak',
         11                      => 'Retreat',
         12                      => 'War',
+        13                      => 'Civil liberty',
     ];
-    
+
     /**
      * List of aliases received from Frontier
-     * 
+     *
      * Every aliases are sanitized before matching
      *     => trim
      *     => strtolower
      */
     static protected $alias = [
         'none'                  => 0,
-    
+
         'boom'                  => 1,
         'bust'                  => 2,
         'civilunrest'           => 3,
@@ -51,5 +52,6 @@ class State extends Alias
         'outbreak'              => 10,
         'retreat'               => 11,
         'war'                   => 12,
+        'civilliberty'          => 13,
     ];
 }
