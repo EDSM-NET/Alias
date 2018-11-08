@@ -10,7 +10,7 @@ use         EDSM\Alias;
 class Synthesis extends Alias
 {
     use \EDSM\Alias\Commander\Synthesis;
-    
+
     /**
      * List of names used in game
      */
@@ -21,12 +21,14 @@ class Synthesis extends Alias
          18 => 'Guardian gauss cannon munitions',
          19 => 'Enzyme missile launcher munitions',
          20 => 'Plasma munitions',
+         25 => 'Seismic charge munitions',
          30 => 'Explosives munitions',
          35 => 'AX remote flask munitions',
          36 => 'Flechette launcher munitions',
          40 => 'Small calibre munitions',
          50 => 'High velocity munitions',
          52 => 'Guardian shard cannon munitions',
+         53 => 'Sub-surface displacement munitions',
          55 => 'Limpets',
          60 => 'Large calibre munitions',
          65 => 'Shock cannon munitions',
@@ -35,15 +37,15 @@ class Synthesis extends Alias
          74 => 'Chaff',
          75 => 'Heat Sinks',
          76 => 'Life Support',
-         
+
          80 => 'SRV ammo restock',
          90 => 'SRV repair',
         100 => 'SRV refuel',
     ];
-    
+
     /**
      * List of recipes used in game
-     * 
+     *
      * Material Id => Count
      */
     static private $recipes         = [
@@ -62,7 +64,7 @@ class Synthesis extends Alias
                 47  => 1,               // Niobium                  * 1
             ],
             'premium'   => [
-                 6  => 1,               // Carbon                   * 1 
+                 6  => 1,               // Carbon                   * 1
                  2  => 1,               // Arsenic                  * 1
                 26  => 1,               // Germanium                * 1
                 47  => 1,               // Niobium                  * 1
@@ -70,7 +72,7 @@ class Synthesis extends Alias
                 51  => 1,               // Polonium                 * 1
             ],
         ],
-        
+
         // AX small calibre munitions
         16  => [
             'basic'     => [
@@ -95,7 +97,7 @@ class Synthesis extends Alias
                 84  => 6,               // Weapon parts             * 6
             ],
         ],
-        
+
         // Guardian plasma charger munitions
         17  => [
             'basic'     => [
@@ -120,7 +122,7 @@ class Synthesis extends Alias
                 92  => 3,               // Guardian Sentinel Weapon Parts * 3
             ],
         ],
-        
+
         // Guardian gauss cannon munitions
         18  => [
             'basic'     => [
@@ -143,7 +145,7 @@ class Synthesis extends Alias
                 24  => 10,              // Focus Crystals           * 10
             ],
         ],
-        
+
         // Enzyme missile launcher munitions
         19  => [
             'basic'     => [
@@ -171,7 +173,7 @@ class Synthesis extends Alias
                 86  => 6,               // Lead                     * 6
             ],
         ],
-        
+
         // Plasma munitions
         20  => [
             'basic'     => [
@@ -192,7 +194,18 @@ class Synthesis extends Alias
                 65  => 2,               // Technetium               * 2
             ],
         ],
-        
+
+        // Seismic charge munitions
+        25  => [
+            'basic'     => [
+                37  => 2,               // Iron                     * 2
+                46  => 2,               // Nickel                   * 2
+                64  => 2,               // Sulphur                  * 2
+                50  => 3,               // Phosphorus               * 3
+                42  => 1,               // Mercury                  * 1
+            ],
+        ],
+
         // Explosives munitions
         30  => [
             'basic'     => [
@@ -215,7 +228,7 @@ class Synthesis extends Alias
                 51  => 5,               // Polonium                 * 5
             ],
         ],
-        
+
         // AX remote flask munitions
         35  => [
             'basic'     => [
@@ -239,7 +252,7 @@ class Synthesis extends Alias
                 84  => 1,               // Weapon Parts             * 1
             ],
         ],
-        
+
         // Flechette launcher munitions
         36  => [
             'basic'     => [
@@ -261,7 +274,7 @@ class Synthesis extends Alias
                 87  => 6,               // Boron                    * 6
             ],
         ],
-        
+
         // Small calibre munitions
         40  => [
             'basic'     => [
@@ -285,7 +298,7 @@ class Synthesis extends Alias
                  1  => 1,               // Antimony                 * 1
             ],
         ],
-        
+
         // High velocity munitions
         50  => [
             'basic'     => [
@@ -305,7 +318,7 @@ class Synthesis extends Alias
                 74  => 2,               // Yttrium                  * 2
             ],
         ],
-        
+
         // Guardian shard cannon munitions
         52  => [
             'basic'     => [
@@ -327,7 +340,17 @@ class Synthesis extends Alias
                 19  => 8,               // Crystal Shards           * 8
             ],
         ],
-        
+
+        // Sub-surface displacement munitions
+        53  => [
+            'basic'     => [
+                46  => 3,               // Nickel                   * 3
+                 6  => 3,               // Carbon                   * 3
+                64  => 3,               // Sulphur                  * 3
+                70  => 2,               // Tungsten                 * 2
+            ],
+        ],
+
         // Limpets
         55  => [
             'basic'     => [
@@ -335,7 +358,7 @@ class Synthesis extends Alias
                 46  => 10,              // Nickel                   * 10
             ],
         ],
-        
+
         // Large calibre munitions
         60  => [
             'basic'     => [
@@ -358,7 +381,7 @@ class Synthesis extends Alias
                  1  => 2,               // Antimony                 * 1
             ],
         ],
-        
+
         // Shock cannon munitions
         65  => [
             'basic'     => [
@@ -383,7 +406,7 @@ class Synthesis extends Alias
                 86  => 5,               // Lead                     * 5
             ],
         ],
-        
+
         // AX explosive munitions
         66  => [
             'basic'     => [
@@ -408,7 +431,7 @@ class Synthesis extends Alias
                 'd43' => 6,             // Ship Flight Data         * 6
             ],
         ],
-        
+
         // AFM refill
         70  => [
             'basic'     => [
@@ -433,7 +456,7 @@ class Synthesis extends Alias
                 59  => 1,               // Ruthenium                * 1
             ],
         ],
-        
+
         // Chaff
         74  => [
             'basic'     => [
@@ -452,7 +475,7 @@ class Synthesis extends Alias
                 57  => 1,               // Proto Radiolic Alloys    * 1
             ],
         ],
-        
+
         // Heat Sinks
         75  => [
             'basic'     => [
@@ -471,7 +494,7 @@ class Synthesis extends Alias
                 55  => 1,               // Proto Heat Radiators     * 1
             ],
         ],
-        
+
         // Life Support
         76  => [
             'basic'     => [
@@ -479,7 +502,7 @@ class Synthesis extends Alias
                 46  => 1,               // Nickel                   * 1
             ],
         ],
-        
+
         // SRV ammo restock
         80  => [
             'basic'     => [
@@ -499,7 +522,7 @@ class Synthesis extends Alias
                 65  => 1,               // Technetium               * 1
             ],
         ],
-        
+
         // SRV repair
         90  => [
             'basic'     => [
@@ -520,7 +543,7 @@ class Synthesis extends Alias
                 66  => 1,               // Tellurium                * 1
             ],
         ],
-        
+
         // SRV refuel
         100 => [
             'basic'     => [
@@ -541,53 +564,57 @@ class Synthesis extends Alias
             ],
         ],
     ];
-    
+
     static private $descriptions    = [
-        10  => 'Materials can be injected into the frame shift drive, to provide a single use, enhanced jump, exceeding normal range limits. 
+        10  => 'Materials can be injected into the frame shift drive, to provide a single use, enhanced jump, exceeding normal range limits.
                 Injecting higher quality materials increases the range benefit for the jump.',
         16  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
                 Standard and premium offers a full restock and increased damage until the weapon is reloaded. Anti-Xeno Small Calibre Munitions are used by ANTI-XENO MULTI-CANNONS.',
-        17  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity. 
+        17  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
                 Standard and premium offers a full restock and increased damage until the weapon is reloaded. Guardian Plasma Charger Munitions are used by GUARDIAN PLASMA CHARGERS.',
-        18  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity. 
+        18  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
                 Standard and premium offers a full restock and increased damage until the weapon is reloaded. Guardian Gauss Cannon Munitions are used by GUARDIAN GAUSS CANNONS.',
-        19  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity. 
+        19  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
                 Standard and premium offers a full restock and increased damage until the weapon is reloaded. Enzyme Missiles are used by ENZYME MISSILE LAUNCHERS.',
-        20  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity. 
+        20  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
                 Standard and premium offers a full restock and increased damage until the weapon is reloaded. Plasma munitions are used by PLASMA ACCELERATORS.',
-        30  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity. 
+        25  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
+                Seismic Charge Munitions munitions are used by SEISMIC CHARGE LAUNCHERS.',
+        30  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
                 Standard and premium offers a full restock and increased damage until the weapon is reloaded. Explosives are used by MISSILES and MINES.',
-        35  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity. 
+        35  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
                 Standard and premium offers a full restock and increased damage until the weapon is reloaded. Anti-Xeno Remote Flak Munitions are used by ANTI-XENO REMOTE FLAK LAUNCHERS.',
-        36  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity. 
+        36  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
                 Standard and premium offers a full restock and increased damage until the weapon is reloaded. Flechette Launcher Munitions are used by FLECHETTE LAUNCHERS.',
-        40  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity. 
+        40  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
                 Standard and premium offers a full restock and increased damage until the weapon is reloaded. Small calibre munitions are used by MULTI-CANNONS.',
-        50  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity. 
+        50  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
                 Standard and premium offers a full restock and increased damage until the weapon is reloaded. High velocity munitions are used by RAILGUNS.',
-        52  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity. 
+        52  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
                 Standard and premium offers a full restock and increased damage until the weapon is reloaded. Guardian Shard Cannon Munitions are used by GUARDIAN SHARD CANNONS.',
+        53  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
+                Sub-Surface Displacement Munitions munitions are used by SUB-SURFACE DISPLACEMENT MISSILES.',
         55  => 'Materials can be used by your ship to synthesise supplies. Basic synthesis will create up to four limpets in your ship\'s cargo hold, space permitting.',
-        60  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity. 
+        60  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
                 Standard and premium offers a full restock and increased damage until the weapon is reloaded. Large calibre munitions are used by CANNONS and FRAGMENTATION CANNONS.',
-        65  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity. 
+        65  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
                 Standard and premium offers a full restock and increased damage until the weapon is reloaded. Shock Cannon Munitions are used by SHOCK CANNONS.',
-        66  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity. 
+        66  => 'Materials can be used by your ship to synthesise ammunition. Basic synthesis provides half of a weapon\'s ammo capacity.
                 Standard and premium offers a full restock and increased damage until the weapon is reloaded. Anti-Xeno Explosive Munitions are used by ANTI-XENO DUMBFIRE MISSILES.',
         70  => 'The auto field-maintenance module can be restocked by processing materials. AFM repairs using higher quality materials will repair at an increased rate.',
-        74  => 'Materials can be used by your ship to synthesise supplies. Basic synthesis provides half of the chaff launcher\s supplies. 
+        74  => 'Materials can be used by your ship to synthesise supplies. Basic synthesis provides half of the chaff launcher\s supplies.
                 Standard synthesis provides a full resupply and premium synthesis provides a full resupply and increases chaff duration until the utility is next resuplied.',
-        75  => 'Materials can be used by your ship to synthesise supplies. Basic synthesis provides a full restock of the launcher\'s supplies. 
+        75  => 'Materials can be used by your ship to synthesise supplies. Basic synthesis provides a full restock of the launcher\'s supplies.
                 Standard  and premium synthesis provides a full resupply and increased heat dissipation until the utility is next resuplied.',
         76  => 'Materials can be used by your ship to synthesise supplies. Basic synthesis fully restocks the life support\'s emergency oxygen supply.',
-        
+
         80  => 'The SRV\'s weapon system can use materials to resupply its ammunition store. Using higher quality materials to resupply the SRV weapon confers a damage bonus.',
-        90  => 'The SRV\'s maintenance system can utilise materials to effect immediate structural repairs to the vehicule whilst deployer to a planet\'s surface. 
+        90  => 'The SRV\'s maintenance system can utilise materials to effect immediate structural repairs to the vehicule whilst deployer to a planet\'s surface.
                 Higher quality materials will additionally confer an amount of damage resistance until further repairs are initiated.',
-       100  => 'Materials can be injected into the SRV\'s power system to replenish its fuel supply. 
+       100  => 'Materials can be injected into the SRV\'s power system to replenish its fuel supply.
                 Injecting higher quality materials will improve the efficiency of the fuel, resulting in lower rates of fuel usage.',
     ];
-    
+
     static private $bonus       = [
         // FSD injection
         10  => [
@@ -595,142 +622,142 @@ class Synthesis extends Alias
             'standard'  => 'Bonus +50% distance',
             'premium'   => 'Bonus +100% distance',
         ],
-        
+
         // AX small calibre munitions
         16  => [
             'basic'     => null,
             'standard'  => 'Bonus +5% damage',
             'premium'   => 'Bonus +10% damage',
         ],
-        
+
         // Guardian plasma charger munitions
         17  => [
             'basic'     => null,
             'standard'  => 'Bonus +15% damage',
             'premium'   => 'Bonus +30% damage',
         ],
-        
+
         // Guardian gauss cannon munitions
         18  => [
             'basic'     => null,
             'standard'  => 'Bonus +15% damage',
             'premium'   => 'Bonus +30% damage',
         ],
-        
+
         // Enzyme missile launcher munitions
         19  => [
             'basic'     => null,
             'standard'  => 'Bonus +15% damage',
             'premium'   => 'Bonus +30% damage',
         ],
-        
+
         // Plasma munitions
         20  => [
             'basic'     => null,
             'standard'  => 'Bonus +15% damage',
             'premium'   => 'Bonus +30% damage',
         ],
-        
+
         // Explosives munitions
         30  => [
             'basic'     => null,
             'standard'  => 'Bonus +15% damage',
             'premium'   => 'Bonus +30% damage',
         ],
-        
+
         // AX remote flask munitions
         35  => [
             'basic'     => null,
             'standard'  => 'Bonus +5% damage',
             'premium'   => 'Bonus +10% damage',
         ],
-        
+
         // Flechette launcher munitions
         36  => [
             'basic'     => null,
             'standard'  => 'Bonus +5% damage',
             'premium'   => 'Bonus +10% damage',
         ],
-        
+
         // Small calibre munitions
         40  => [
             'basic'     => null,
             'standard'  => 'Bonus +15% damage',
             'premium'   => 'Bonus +30% damage',
         ],
-        
+
         // High velocity munitions
         50  => [
             'basic'     => null,
             'standard'  => 'Bonus +15% damage',
             'premium'   => 'Bonus +30% damage',
         ],
-        
+
         // Guardian shard cannon munitions
         52  => [
             'basic'     => null,
             'standard'  => 'Bonus +15% damage',
             'premium'   => 'Bonus +30% damage',
         ],
-        
+
         // Large calibre munitions
         60  => [
             'basic'     => null,
             'standard'  => 'Bonus +15% damage',
             'premium'   => 'Bonus +30% damage',
         ],
-        
-        
-        
+
+
+
         // Shock cannon munitions
         65  => [
             'basic'     => null,
             'standard'  => 'Bonus +5% damage',
             'premium'   => 'Bonus +10% damage',
         ],
-        
+
         // AX explosive munitions
         66 => [
             'basic'     => null,
             'standard'  => 'Bonus +5% damage',
             'premium'   => 'Bonus +10% damage',
         ],
-        
+
         // AFM refill
         70  => [
             'basic'     => null,
             'standard'  => 'Bonus +50% repair speed',
             'premium'   => 'Bonus +100% repair speed',
         ],
-        
+
         // Chaff
         74  => [
             'basic'     => null,
             'standard'  => null,
             'premium'   => 'Bonus +2 seconds duration',
         ],
-        
+
         // Heat Sinks
         75  => [
             'basic'     => null,
             'standard'  => 'Bonus +15% heat dissipation',
             'premium'   => 'Bonus +30% heat dissipation',
         ],
-        
+
         // SRV ammo restock
         80  => [
             'basic'     => null,
             'standard'  => 'Bonus +15% damage',
             'premium'   => 'Bonus +30% damage',
         ],
-        
+
         // SRV repair
         90  => [
             'basic'     => null,
             'standard'  => 'Bonus +50% hull strength',
             'premium'   => 'Bonus +100% hull strength',
         ],
-        
+
         // SRV refuel
        100  => [
             'basic'     => null,
