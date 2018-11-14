@@ -41,6 +41,8 @@ class PaintJob extends Alias
         128672138   => 'empire_eagle_default_defaultpaintjob',
         128672269   => 'independant_trader_default_defaultpaintjob',
         128816567   => 'krait_mkii_default_defaultpaintjob',
+        128839281   => 'krait_light_default_defaultpaintjob',
+        128915979   => 'mamba_default_defaultpaintjob',
         128049327   => 'orca_default_defaultpaintjob',
         128049339   => 'python_default_defaultpaintjob',
         128049249   => 'sidewinder_default_defaultpaintjob',
@@ -1696,6 +1698,16 @@ class PaintJob extends Alias
             'krait_mkii_vibrant_purple'                     => 'Vibrant Purple',
             'krait_mkii_vibrant_red'                        => 'Vibrant Red',
             'krait_mkii_vibrant_yellow'                     => 'Vibrant Yellow',
+        ],
+
+        // Krait Phantom
+        128839281   => [
+            'krait_light_default_defaultpaintjob'           => 'Default',
+        ],
+
+        // Mamba
+        128915979   => [
+            'mamba_default_defaultpaintjob'                 => 'Default',
         ],
 
         // Orca

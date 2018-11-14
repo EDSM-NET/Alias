@@ -26,7 +26,7 @@ class Material extends Alias
      * List of limits override
      */
     static protected $maxOverride   = [
-
+        88 => 200,
     ];
 
     /**
