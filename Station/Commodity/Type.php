@@ -823,8 +823,6 @@ class Type extends Alias
         'prohibitedresearchmaterials'           => 1666,
         'antimattercontainmentunit'             => 1667,
         'ancientkey'                            => 1668,
-        'politicalprisoner'                     => 1669,
-        'hostage'                               => 1670,
 
         'thargoidtissuesampletype1'             => 1800,
         'thargoidheart'                         => 1801,
