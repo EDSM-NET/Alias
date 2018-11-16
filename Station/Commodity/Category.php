@@ -10,7 +10,7 @@ use         EDSM\Alias;
 class Category extends Alias
 {
     use \EDSM\Alias\Station\Commodity\Category;
-    
+
     /**
      * List of names used in game, except for cargo
      */
@@ -30,12 +30,12 @@ class Category extends Alias
         13      => 'Waste',
         14      => 'Weapons',
         16      => 'Salvage',
-        
+
         // Only for cargo
         15      => 'Non marketable',
         99      => 'Powerplay',
     ];
-    
+
     /**
      * List of commodities id in each categories
      */
@@ -109,11 +109,11 @@ class Category extends Alias
                         1631, 1632, 1633, 1634, 1635, 1636, 1637, 1638, 1639, 1640,
                         1641, 1642, 1643, 1644, 1645, 1646, 1647, 1648, 1649, 1650,
                         1651, 1652, 1653, 1654, 1655, 1656, 1657, 1658, 1659, 1660,
-                        1661, 1662, 1663, 1664, 1665, 1666, 1667, 1668,
-                        
+                        1661, 1662, 1663, 1664, 1665, 1666, 1667, 1668, 1669, 1670,
+
                         1800, 1801, 1802, 1803, 1804, 1805,
                     ],
-        
+
         // Only for cargo
         15      =>  [
                         1501,

@@ -10,7 +10,7 @@ use         EDSM\Alias;
 class Type extends Alias
 {
     use \EDSM\Alias\Station\Commodity\Rare;
-    
+
     /**
      * List of names used in game
      */
@@ -31,7 +31,7 @@ class Type extends Alias
          113        => 'Water',
          114        => 'Hydrogen Peroxide',
          115        => 'Liquid Oxygen',
-         
+
         // Consumer Items (2)
          201        => 'Clothing',
          202        => 'Consumer Technology',
@@ -66,7 +66,7 @@ class Type extends Alias
          231        => "Shan's Charis Orchid",
          232        => 'Ophiuch Exino Artefacts',
          233        => 'Bucky Ball Beer Mats',
-         
+
         // Legal Drugs (3)
          301        => 'Beer',
          302        => 'Liquor',
@@ -103,7 +103,7 @@ class Type extends Alias
          333        => 'Onionhead Beta Strain',             /**/
          334        => 'Harma Silver Sea Rum',
          335        => 'Crom Silver Fesh',
-         
+
         // Foods (4)
          401        => 'Algae',
          402        => 'Animal Meat',
@@ -155,7 +155,7 @@ class Type extends Alias
          448        => 'Uszaian Tree Grub',                 /**/
          449        => 'Diso Ma Corn',                      /**/
          450        => 'Baked Greebles',
-         
+
         // Industrial Materials (5)
          501        => 'Polymers',
          502        => 'Semiconductors',
@@ -167,7 +167,7 @@ class Type extends Alias
          508        => 'CMM Composite',
          509        => 'Micro-Weave Cooling Hoses',
          510        => 'Neofabric Insulation',
-         
+
         // Machinery (6)
          601        => 'Atmospheric Processors',
          602        => 'Crop Harvesters',
@@ -196,7 +196,7 @@ class Type extends Alias
          625        => 'Heatsink Interlink',
          626        => 'Magnetic Emitter Coil',
          627        => 'Modular Terminals',
-         
+
         // Medicines (7)
          701        => 'Agri-Medicines',
          702        => 'Basic Medicines',
@@ -215,7 +215,7 @@ class Type extends Alias
          715        => 'Fujin Tea',                         /**/
          716        => 'Alya Body Soap',                    /**/
          717        => 'Advanced Medicines',
-         
+
         // Metals (8)
          801        => 'Aluminium',
          802        => 'Beryllium',
@@ -241,7 +241,7 @@ class Type extends Alias
          822        => 'Praseodymium',
          823        => 'Samarium',
          824        => 'Platinum Alloy',
-         
+
         // Minerals (9)
          901        => 'Bauxite',
          902        => 'Bertrandite',
@@ -265,12 +265,12 @@ class Type extends Alias
          920        => 'Methanol Monohydrate',
          921        => 'Lithium Hydroxide',
          922        => 'Methane Clathrate',
-         
+
         // Slavery (10)
         1001        => 'Imperial Slaves',
         1002        => 'Slaves',
         1003        => 'Master Chefs',                      /**/
-        
+
         // Technology (11)
         1101        => 'Advanced Catalysers',
         1102        => 'Animal Monitors',
@@ -292,7 +292,7 @@ class Type extends Alias
         1118        => 'Ion Distributor',
         1119        => 'Hardware Diagnostic Sensor',
         1120        => 'Medical Diagnostic Equipment',
-        
+
         // Textiles (12)
         1201        => 'Leather',
         1202        => 'Natural Fabrics',
@@ -306,13 +306,13 @@ class Type extends Alias
         1210        => 'Chameleon Cloth',                   /**/
         1211        => 'Conductive Fabrics',
         1212        => 'Military Grade Fabrics',
-        
+
         // Waste (13)
         1301        => 'Biowaste',
         1302        => 'Chemical Waste',
         1303        => 'Scrap',
         1304        => 'Toxic Waste',
-        
+
         // Weapons (14)
         1401        => 'Non-lethal Weapons',
         1402        => 'Personal Weapons',
@@ -324,10 +324,10 @@ class Type extends Alias
         1408        => 'HIP 118311 Swarm',
         1409        => 'Holva Duelling Blades',             /**/
         1410        => 'Gilya Signature Weapons',           /**/
-        
+
         // Unknown (15)
         1501        => 'Limpet',
-        
+
         // Salvage (16)
         1601        => 'Ai Relics',
         1602        => 'Antiquities',
@@ -397,7 +397,9 @@ class Type extends Alias
         1666        => 'Prohibited Research Materials',
         1667        => 'Antimatter Containment Unit',
         1668        => 'Ancient Key',
-        
+        1669        => 'Political Prisoners',
+        1670        => 'Hostages',
+
         1800        => 'Thargoid Cyclops Tissue Sample',
         1801        => 'Thargoid Heart',
         1802        => 'Thargoid Basilisk Tissue Sample',
@@ -405,7 +407,7 @@ class Type extends Alias
         1804        => 'Thargoid Scout Tissue Sample',
         1805        => 'Thargoid Hydra Tissue Sample',
 
-        
+
         // Powerplay (99)
         9901        => 'Aisling Media Materials',
         9902        => 'Aisling Sealed Contracts',
@@ -446,10 +448,10 @@ class Type extends Alias
         9937        => 'Grom Counter Intelligence',
         9938        => 'Yuri Grom\'s Military Supplies',
     ];
-    
+
     /**
      * List of aliases received from Frontier
-     * 
+     *
      * Every aliases are sanitized before matching
      *     => trim
      *     => strtolower
@@ -470,7 +472,7 @@ class Type extends Alias
         'water'                                 => 113,
         'hydrogen peroxide'                     => 114,     'hydrogenperoxide'              => 114,
         'liquid oxygen'                         => 115,     'liquidoxygen'                  => 115,
-        
+
         'clothing'                              => 201,
         'consumer technology'                   => 202,     'consumertechnology'            => 202,
         'domestic appliances'                   => 203,     'domesticappliances'            => 203,
@@ -504,7 +506,7 @@ class Type extends Alias
         'shans charis orchid'                   => 231,     'shanscharisorchid'             => 231,
         'ophiuchi exino artefacts'              => 232,     'ophiuchiexinoartefacts'        => 232,
         'buckyballbeermats'                     => 233,
-        
+
         'beer'                                  => 301,
         'liquor'                                => 302,
         'basic narcotics'                       => 303,     'basicnarcotics'                => 303,
@@ -540,7 +542,7 @@ class Type extends Alias
         'onionhead beta strain'                 => 333,     'onion head b'                  => 333,     'onionheadb'                    => 333,
         'harmasilversearum'                     => 334,
         'animaleffigies'                        => 335,
-        
+
         'algae'                                 => 401,
         'animalmeat'                            => 402,
         'coffee'                                => 403,
@@ -591,7 +593,7 @@ class Type extends Alias
         'uszaian tree grub'                     => 448,     'uszaiantreegrub'               => 448,
         'diso ma corn'                          => 449,     'disomacorn'                    => 449,
         'bakedgreebles'                         => 450,
-        
+
         'polymers'                              => 501,
         'semiconductors'                        => 502,
         'superconductors'                       => 503,
@@ -602,7 +604,7 @@ class Type extends Alias
         'c m m composite'                       => 508,     'cmmcomposite'                  => 508,
         'micro-weave cooling hoses'             => 509,     'cooling hoses'                 => 509,     'coolinghoses'                  => 509,
         'neofabric insulation'                  => 510,     'neofabricinsulation'           => 510,
-        
+
         'atmospheric extractors'                => 601,     'atmospheric processors'        => 601,     'atmosphericextractors'         => 601,     'atmosphericprocessors'         => 601,
         'crop harvesters'                       => 602,     'cropharvesters'                => 602,
         'marine supplies'                       => 603,     'marine equipment'              => 603,     'marinesupplies'                => 603,     'marineequipment'               => 603,
@@ -630,7 +632,7 @@ class Type extends Alias
         'heatsink interlink'                    => 625,     'heatsinkinterlink'             => 625,
         'magnetic emitter coil'                 => 626,     'magneticemittercoil'           => 626,
         'modular terminals'                     => 627,     'modularterminals'              => 627,
-        
+
         'agricultural medicines'                => 701,     'agriculturalmedicines'         => 701,
         'basic medicines'                       => 702,     'basicmedicines'                => 702,
         'combat stabilisers'                    => 703,     'combatstabilisers'             => 703,
@@ -648,7 +650,7 @@ class Type extends Alias
         'fujin tea'                             => 715,     'fujintea'                      => 715,
         'alya body soap'                        => 716,     'alya bodily soap'              => 716,     'alyabodilysoap'                => 716,
         'advanced medicines'                    => 717,     'advancedmedicines'             => 717,
-        
+
         'aluminium'                             => 801,
         'beryllium'                             => 802,
         'cobalt'                                => 803,
@@ -673,7 +675,7 @@ class Type extends Alias
         'praseodymium'                          => 822,
         'samarium'                              => 823,
         'platinumaloy'                          => 824,
-        
+
         'bauxite'                               => 901,
         'bertrandite'                           => 902,
         'coltan'                                => 903,
@@ -696,11 +698,11 @@ class Type extends Alias
         'methanol monohydrate crystals'         => 920,     'methanol monohydrate'          => 920,     'methanolmonohydratecrystals'   => 920,
         'lithium hydroxide'                     => 921,     'lithiumhydroxide'              => 921,
         'methane clathrate'                     => 922,     'methaneclathrate'              => 922,
-        
+
         'imperial slaves'                       => 1001,    'imperialslaves'                => 1001,
         'slaves'                                => 1002,
         'master chefs'                          => 1003,    'masterchefs'                   => 1003,
-        
+
         'advanced catalysers'                   => 1101,    'advancedcatalysers'            => 1101,
         'animal monitors'                       => 1102,    'animalmonitors'                => 1102,
         'aquaponic systems'                     => 1103,    'aquaponicsystems'              => 1103,
@@ -721,7 +723,7 @@ class Type extends Alias
         'ion distributor'                       => 1118,    'iondistributor'                => 1118,
         'hardware diagnostic sensor'            => 1119,    'diagnostic sensor'             => 1119,    'diagnosticsensor'              => 1119,
         'medical diagnostic equipment'          => 1120,    'medicaldiagnosticequipment'    => 1120,
-        
+
         'leather'                               => 1201,
         'natural fabrics'                       => 1202,    'naturalfabrics'                => 1202,
         'synthetic fabrics'                     => 1203,    'syntheticfabrics'              => 1203,
@@ -734,12 +736,12 @@ class Type extends Alias
         'chameleon cloth'                       => 1210,    'chameleoncloth'                => 1210,
         'conductive fabrics'                    => 1211,    'conductivefabrics'             => 1211,
         'military grade fabrics'                => 1212,    'militarygradefabrics'          => 1212,
-        
+
         'biowaste'                              => 1301,
         'chemical waste'                        => 1302,    'chemicalwaste'                 => 1302,
         'scrap'                                 => 1303,
         'toxic waste'                           => 1304,    'toxicwaste'                    => 1304,
-        
+
         'non lethal weapons'                    => 1401,    'nonlethalweapons'              => 1401,
         'personal weapons'                      => 1402,    'personalweapons'               => 1402,
         'reactive armour'                       => 1403,    'reactivearmour'                => 1403,
@@ -750,9 +752,9 @@ class Type extends Alias
         'hip 118311 swarm'                      => 1408,    'hip118311swarm'                => 1408,
         'holva duelling blades'                 => 1409,    'holvaduellingblades'           => 1409,
         'gilya signature weapons'               => 1410,    'gilyasignatureweapons'         => 1410,
-        
+
         'drones'                                => 1501,    'limpet'                        => 1501,
-        
+
         'ai relics'                             => 1601,    'airelics'                      => 1601,
         'antiquities'                           => 1602,
         'sap 8 core container'                  => 1603,    'sap8corecontainer'             => 1603,
@@ -821,14 +823,16 @@ class Type extends Alias
         'prohibitedresearchmaterials'           => 1666,
         'antimattercontainmentunit'             => 1667,
         'ancientkey'                            => 1668,
-        
+        'politicalprisoner'                     => 1669,
+        'hostage'                               => 1670,
+
         'thargoidtissuesampletype1'             => 1800,
         'thargoidheart'                         => 1801,
         'thargoidtissuesampletype2'             => 1802,
         'thargoidtissuesampletype3'             => 1803,
         'thargoidscouttissuesample'             => 1804,
         'thargoidtissuesampletype4'             => 1805,
-        
+
         'aislingmediamaterials'                 => 9901,
         'aislingmediaresources'                 => 9902,
         'aislingpromotionalmaterials'           => 9903,
@@ -868,7 +872,7 @@ class Type extends Alias
         'gromcounterintelligence'               => 9937,
         'gromwartrophies'                       => 9938,
     ];
-    
+
     /**
      * List of rare commodity
      */
