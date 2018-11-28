@@ -61,9 +61,9 @@ class PaintJob extends Alias
     static protected $alias  = [
         // Adder
         128049267 => [
-            'adder_blackfriday_01'                          => 'Black Friday',
-
             'adder_default_defaultpaintjob'                 => 'Default',
+
+            'adder_blackfriday_01'                          => 'Midnight Black',
 
             'adder_faction1_01'                             => 'Pirate Faction Red',
             'adder_faction1_02'                             => 'Pirate Faction Orange',
@@ -109,6 +109,8 @@ class PaintJob extends Alias
         128816588   => [
             'typex_3_default_defaultpaintjob'               => 'Default',
 
+            'typex_3_blackfriday_01'                        => 'Midnight Black',
+
             'typex_3_iridescenthighcolour_01'               => 'Iridescent Scorch',
             'typex_3_iridescenthighcolour_04'               => 'Iridescent Dusk',
             'typex_3_iridescenthighcolour_05'               => 'Iridescent Aurora',
@@ -146,6 +148,8 @@ class PaintJob extends Alias
         // Alliance Chieftain
         128816574 => [
             'typex_default_defaultpaintjob'                 => 'Default',
+
+            'typex_blackfriday_01'                          => 'Midnight Black',
 
             'typex_lavecon_lavecon'                         => 'Lavecon',
 
@@ -195,6 +199,8 @@ class PaintJob extends Alias
         128816581 => [
             'typex_2_default_defaultpaintjob'               => 'Default',
 
+            'typex_2_blackfriday_01'                        => 'Midnight Black',
+
             'typex_2_iridescenthighcolour_01'               => 'Iridescent Scorch',
             'typex_2_iridescenthighcolour_04'               => 'Iridescent Dusk',
             'typex_2_iridescenthighcolour_05'               => 'Iridescent Aurora',
@@ -224,7 +230,9 @@ class PaintJob extends Alias
 
         // Anaconda
         128049363 => [
-            'anaconda_blackfriday_01'                       => 'Black Friday',
+            'anaconda_default_defaultpaintjob'              => 'Default',
+
+            'anaconda_blackfriday_01'                       => 'Midnight Black',
 
             'anaconda_corrosive_01'                         => 'Corroded 1',
             'anaconda_corrosive_02'                         => 'Corroded 2',
@@ -246,8 +254,6 @@ class PaintJob extends Alias
             'anaconda_lowlighteffect_01_04'                 => 'Crypsis Yellow',
             'anaconda_lowlighteffect_01_05'                 => 'Crypsis Purple',
             'anaconda_lowlighteffect_01_06'                 => 'Crypsis White',
-
-            'anaconda_default_defaultpaintjob'              => 'Default',
 
             'anaconda_faction1_01'                          => 'Pirate Faction Red',
             'anaconda_faction1_02'                          => 'Pirate Faction Orange',
@@ -348,7 +354,9 @@ class PaintJob extends Alias
 
         // Asp Explorer
         128049303 => [
-            'asp_blackfriday_01'                            => 'Black Friday',
+            'asp_default_defaultpaintjob'                   => 'Default',
+
+            'asp_blackfriday_01'                            => 'Midnight Black',
 
             'asp_corrosive_01'                              => 'Corroded 1',
             'asp_corrosive_02'                              => 'Corroded 2',
@@ -360,8 +368,6 @@ class PaintJob extends Alias
             'asp_default_02'                                => 'Black Apollo',
             'asp_default_03'                                => 'White Apollo',
             'asp_default_04'                                => 'Green Apollo',
-
-            'asp_default_defaultpaintjob'                   => 'Default',
 
             'asp_faction1_01'                               => 'Pirate Faction Red',
             'asp_faction1_02'                               => 'Pirate Faction Orange',
@@ -448,9 +454,9 @@ class PaintJob extends Alias
 
         // Asp Scout
         128672276 => [
-            'asp_scout_blackfriday_01'                      => 'Black Friday',
-
             'asp_scout_default_defaultpaintjob'             => 'Default',
+
+            'asp_scout_blackfriday_01'                      => 'Midnight Black',
 
             'asp_scout_faction1_01'                         => 'Pirate Faction Red',
             'asp_scout_faction1_02'                         => 'Pirate Faction Orange',
@@ -497,6 +503,8 @@ class PaintJob extends Alias
 
         // Beluga Liner
         128049345 => [
+            'belugaliner_default_defaultpaintjob'           => 'Default',
+
             'belugaliner_blackfriday_01'                    => 'Midnight Black',
 
             'belugaliner_corporate1_corporate1'             => 'United Blue',
@@ -512,8 +520,6 @@ class PaintJob extends Alias
             'belugaliner_corporatefleet_fleetd'             => 'Expedition Red',
             'belugaliner_corporatefleet_fleete'             => 'Expedition Rust',
             'belugaliner_corporatefleet_fleetf'             => 'Expedition Grey',
-
-            'belugaliner_default_defaultpaintjob'           => 'Default',
 
             'belugaliner_ember_yellow'                      => 'Ember Yellow',
             'belugaliner_ember_white'                       => 'Ember White',
@@ -557,7 +563,9 @@ class PaintJob extends Alias
 
         // Cobra MkIII
         128049279 => [
-            'cobramkiii_blackfriday_01'                     => 'Black Friday',
+            'cobramkiii_default_defaultpaintjob'            => 'Default',
+
+            'cobramkiii_blackfriday_01'                     => 'Midnight Black',
 
             'cobramkiii_camo1_02'                           => 'Sabotage Purple',
 
@@ -572,8 +580,6 @@ class PaintJob extends Alias
             'cobramkiii_corrosive_04'                       => 'Corroded 4',
             'cobramkiii_corrosive_05'                       => 'Corroded 5',
             'cobramkiii_corrosive_06'                       => 'Corroded 6',
-
-            'cobramkiii_default_defaultpaintjob'            => 'Default',
 
             'cobramkiii_egx_egx'                            => 'EGX',
             'cobramkiii_yogscast_01'                        => 'Yogscast',
@@ -709,9 +715,9 @@ class PaintJob extends Alias
 
         // Cobra MkIV
         128672262 => [
-            'cobramkiv_blackfriday_01'                      => 'Black Friday',
-
             'cobramkiv_default_defaultpaintjob'             => 'Default',
+
+            'cobramkiv_blackfriday_01'                      => 'Midnight Black',
 
             /*
             'cobramkiv_faction1_01'                         => 'Pirate Faction Red',
@@ -802,9 +808,9 @@ class PaintJob extends Alias
 
         // Diamondback Explorer
         128671831 => [
-            'diamondbackxl_blackfriday_01'                  => 'Black Friday',
-
             'diamondbackxl_default_defaultpaintjob'         => 'Default',
+
+            'diamondbackxl_blackfriday_01'                  => 'Midnight Black',
 
             'diamondbackxl_metallic_chrome'                 => 'Chrome',
             'diamondbackxl_metallic2_chrome'                => 'Chromed',
@@ -835,9 +841,9 @@ class PaintJob extends Alias
 
         // Diamondback Scout
         128671217 => [
-            'diamondback_blackfriday_01'                    => 'Black Friday',
-
             'diamondback_default_defaultpaintjob'           => 'Default',
+
+            'diamondback_blackfriday_01'                    => 'Midnight Black',
 
             /*
             'diamondback_faction1_01'                       => 'Pirate Faction Red',
@@ -877,6 +883,8 @@ class PaintJob extends Alias
         128049291 => [
             'dolphin_default_defaultpaintjob'               => 'Default',
 
+            'dolphin_blackfriday_01'                        => 'Midnight Black',
+
             'dolphin_corporate1_corporate1'                 => 'Wayfarer Blue',
             'dolphin_corporate1_corporate2'                 => 'Wayfarer Red',
             'dolphin_corporate1_corporate3'                 => 'Wayfarer Orange',
@@ -888,8 +896,15 @@ class PaintJob extends Alias
             'dolphin_corporatefleet_fleetb'                 => 'Excursion Orange',
             'dolphin_corporatefleet_fleetc'                 => 'Excursion Green',
             'dolphin_corporatefleet_fleetd'                 => 'Excursion Red',
-            'dolphin_corporatefleet_fleete'                 => 'Excursion Rust  ',
+            'dolphin_corporatefleet_fleete'                 => 'Excursion Rust',
             'dolphin_corporatefleet_fleetf'                 => 'Excursion Yellow',
+
+            'dolphin_corporate2_corporate2a'                => 'Odyssey Green',
+            'dolphin_corporate2_corporate2b'                => 'Odyssey Orange',
+            'dolphin_corporate2_corporate2c'                => 'Odyssey Red',
+            'dolphin_corporate2_corporate2d'                => 'Odyssey Yellow',
+            'dolphin_corporate2_corporate2e'                => 'Odyssey Blue',
+            'dolphin_corporate2_corporate2f'                => 'Odyssey Graphite',
 
             'dolphin_ember_yellow'                          => 'Ember Yellow',
             'dolphin_ember_white'                           => 'Ember White',
@@ -933,15 +948,15 @@ class PaintJob extends Alias
 
         // Eagle
         128049255 => [
-            'eagle_blackfriday_01'                          => 'Black Friday',
+            'eagle_default_defaultpaintjob'                 => 'Default',
+
+            'eagle_blackfriday_01'                          => 'Midnight Black',
 
             'eagle_camo_01'                                 => 'Jungle Camo',
             'eagle_camo_02'                                 => 'Polar Camo',
             'eagle_camo_03'                                 => 'Urban Camo',
 
             'eagle_crimson'                                 => 'Crimson Eagle',
-
-            'eagle_default_defaultpaintjob'                 => 'Default',
 
             'eagle_doublestripe_01'                         => 'Red Rail',
             'eagle_doublestripe_02'                         => 'White Rail',
@@ -1016,9 +1031,9 @@ class PaintJob extends Alias
 
         // Federal Assault Ship
         128672145 => [
-            'feddropship_mkii_blackfriday_01'               => 'Black Friday',
-
             'feddropship_mkii_default_defaultpaintjob'      => 'Default',
+
+            'feddropship_mkii_blackfriday_01'               => 'Midnight Black',
 
             'feddropship_mkii_faction1_01'                  => 'Pirate Faction Red',
             'feddropship_mkii_faction1_02'                  => 'Pirate Faction Orange',
@@ -1070,7 +1085,9 @@ class PaintJob extends Alias
 
         // Federal Corvette
         128049369 => [
-            'federation_corvette_blackfriday_01'            => 'Black Friday',
+            'federation_corvette_default_defaultpaintjob'   => 'Default',
+
+            'federation_corvette_blackfriday_01'            => 'Midnight Black',
 
             'federation_corvette_colourgeo_blue'            => 'Icarus Blue',
             'federation_corvette_colourgeo_green'           => 'Icarus Green',
@@ -1092,8 +1109,6 @@ class PaintJob extends Alias
             'federation_corvette_corrosive_04'              => 'Corroded 4',
             'federation_corvette_corrosive_05'              => 'Corroded 5',
             'federation_corvette_corrosive_06'              => 'Corroded 6',
-
-            'federation_corvette_default_defaultpaintjob'   => 'Default',
 
             'federation_corvette_metallic_chrome'           => 'Chrome',
             'federation_corvette_metallic2_chrome'          => 'Chromed',
@@ -1152,9 +1167,9 @@ class PaintJob extends Alias
 
         // Federal Dropship
         128049321 => [
-            'feddropship_blackfriday_01'                    => 'Black Friday',
-
             'feddropship_default_defaultpaintjob'           => 'Default',
+
+            'feddropship_blackfriday_01'                    => 'Midnight Black',
 
             'feddropship_faction1_01'                       => 'Pirate Faction Red',
             'feddropship_faction1_02'                       => 'Pirate Faction Orange',
@@ -1197,9 +1212,9 @@ class PaintJob extends Alias
 
         // Federal Gunship
         128672152 => [
-            'federation_gunship_blackfriday_01'             => 'Black Friday',
-
             'federation_gunship_default_defaultpaintjob'    => 'Default',
+
+            'federation_gunship_blackfriday_01'             => 'Midnight Black',
 
             'federation_gunship_faction1_01'                => 'Pirate Faction Red',
             'federation_gunship_faction1_02'                => 'Pirate Faction Orange',
@@ -1251,9 +1266,9 @@ class PaintJob extends Alias
 
         // Fer-de-Lance
         128049351 => [
-            'ferdelance_blackfriday_01'                     => 'Black Friday',
-
             'ferdelance_default_defaultpaintjob'            => 'Default',
+
+            'ferdelance_blackfriday_01'                     => 'Midnight Black',
 
             'ferdelance_faction1_01'                        => 'Pirate Faction Red',
             'ferdelance_faction1_02'                        => 'Pirate Faction Orange',
@@ -1322,9 +1337,9 @@ class PaintJob extends Alias
 
         // Hauler
         128049261 => [
-            'hauler_blackfriday_01'                         => 'Black Friday',
-
             'hauler_default_defaultpaintjob'                => 'Default',
+
+            'hauler_blackfriday_01'                         => 'Midnight Black',
 
             'hauler_doublestripe_01'                        => 'Blue Terrain',
             'hauler_doublestripe_02'                        => 'Yellow Terrain',
@@ -1369,9 +1384,9 @@ class PaintJob extends Alias
 
         // Imperial Clipper
         128049315 => [
-            'empiretrader_blackfriday_01'                   => 'Black Friday',
-
             'empiretrader_default_defaultpaintjob'          => 'Default',
+
+            'empiretrader_blackfriday_01'                   => 'Midnight Black',
 
             /*
             'empiretrader_faction1_01'                      => 'Pirate Faction Red',
@@ -1421,9 +1436,9 @@ class PaintJob extends Alias
 
         // Imperial Courier
         128671223 => [
-            'empire_courier_blackfriday_01'                 => 'Black Friday',
-
             'empire_courier_default_defaultpaintjob'        => 'Default',
+
+            'empire_courier_blackfriday_01'                 => 'Midnight Black',
 
             /*
             'empire_courier_faction1_01'                    => 'Pirate Faction Red',
@@ -1476,7 +1491,9 @@ class PaintJob extends Alias
 
         // Imperial Cutter
         128049375 => [
-            'cutter_blackfriday_01'                         => 'Black Friday',
+            'cutter_default_defaultpaintjob'                => 'Default',
+
+            'cutter_blackfriday_01'                         => 'Midnight Black',
 
             'cutter_corrosive_01'                           => 'Corroded 1',
             'cutter_corrosive_02'                           => 'Corroded 2',
@@ -1486,8 +1503,6 @@ class PaintJob extends Alias
             'cutter_corrosive_06'                           => 'Corroded 6',
 
             'cutter_darwin_01'                              => 'Special Effect',
-
-            'cutter_default_defaultpaintjob'                => 'Default',
 
             /*
             'cutter_faction1_01'                            => 'Pirate Faction Red',
@@ -1555,9 +1570,9 @@ class PaintJob extends Alias
 
         // Imperial Eagle
         128672138 => [
-            'empire_eagle_blackfriday_01'                   => 'Midnight Black',
-
             'empire_eagle_default_defaultpaintjob'          => 'Default',
+
+            'empire_eagle_blackfriday_01'                   => 'Midnight Black',
 
             'empire_eagle_iridescenthighcolour_01'          => 'Iridescent Scorch',
             'empire_eagle_iridescenthighcolour_04'          => 'Iridescent Dusk',
@@ -1607,9 +1622,9 @@ class PaintJob extends Alias
 
         // Keelback
         128672269 => [
-            'independant_trader_blackfriday_01'             => 'Black Friday',
-
             'independant_trader_default_defaultpaintjob'    => 'Default',
+
+            'independant_trader_blackfriday_01'             => 'Midnight Black',
 
             //'independant_trader_metallic_chrome'            => 'Chrome',
             'independant_trader_metallic2_chrome'           => 'Chromed',
@@ -1640,6 +1655,8 @@ class PaintJob extends Alias
         // Krait MkII
         128816567   => [
             'krait_mkii_default_defaultpaintjob'            => 'Default',
+
+            'krait_mkii_blackfriday_01'                     => 'Midnight Black',
 
             'krait_mkii_corrosive_01'                       => 'Corroded 1',
             'krait_mkii_corrosive_02'                       => 'Corroded 2',
@@ -1712,7 +1729,9 @@ class PaintJob extends Alias
 
         // Orca
         128049327 => [
-            'orca_blackfriday_01'                           => 'Black Friday',
+            'orca_default_defaultpaintjob'                  => 'Default',
+
+            'orca_blackfriday_01'                           => 'Midnight Black',
 
             'orca_corporate1_corporate1'                    => 'Wayfarer Blue',
             'orca_corporate1_corporate2'                    => 'Wayfarer Red',
@@ -1727,8 +1746,6 @@ class PaintJob extends Alias
             'orca_corporate2_corporate2d'                   => 'Pathfinder Yellow',
             'orca_corporate2_corporate2e'                   => 'Pathfinder Blue',
             'orca_corporate2_corporate2f'                   => 'Pathfinder Graphite',
-
-            'orca_default_defaultpaintjob'                  => 'Default',
 
             'orca_ember_yellow'                             => 'Ember Yellow',
             'orca_ember_white'                              => 'Ember White',
@@ -1771,7 +1788,9 @@ class PaintJob extends Alias
 
         // Python
         128049339 => [
-            'python_blackfriday_01'                         => 'Black Friday',
+            'python_default_defaultpaintjob'                => 'Default',
+
+            'python_blackfriday_01'                         => 'Midnight Black',
 
             'python_corrosive_01'                           => 'Corroded 1',
             'python_corrosive_02'                           => 'Corroded 2',
@@ -1786,8 +1805,6 @@ class PaintJob extends Alias
             'python_lowlighteffect_01_04'                   => 'Crypsis Yellow',
             'python_lowlighteffect_01_05'                   => 'Crypsis Purple',
             'python_lowlighteffect_01_06'                   => 'Crypsis White',
-
-            'python_default_defaultpaintjob'                => 'Default',
 
             'python_faction1_01'                            => 'Pirate Faction Red',
             /*
@@ -1877,7 +1894,9 @@ class PaintJob extends Alias
 
         // Sidewinder
         128049249 => [
-            'sidewinder_blackfriday_01'                     => 'Black Friday',
+            'sidewinder_default_defaultpaintjob'            => 'Default',
+
+            'sidewinder_blackfriday_01'                     => 'Midnight Black',
 
             'sidewinder_camo_01'                            => 'Urban Camo',
             'sidewinder_camo_02'                            => 'Polar Camo',
@@ -1886,8 +1905,6 @@ class PaintJob extends Alias
             'sidewinder_default_02'                         => 'Blue Colorado',
             'sidewinder_default_03'                         => 'Green Colorado',
             'sidewinder_default_04'                         => 'Red Colorado',
-
-            'sidewinder_default_defaultpaintjob'            => 'Default',
 
             'sidewinder_doublestripe_05'                    => 'Red Sonoran',
             'sidewinder_doublestripe_07'                    => 'Green Sonoran',
@@ -1962,9 +1979,9 @@ class PaintJob extends Alias
 
         // Type-6 Transporter
         128049285 => [
-            'type6_blackfriday_01'                          => 'Black Friday',
-
             'type6_default_defaultpaintjob'                 => 'Default',
+
+            'type6_blackfriday_01'                          => 'Midnight Black',
 
             'type6_foss_bluegrey'                           => 'Turbulence Blue Grey',
             'type6_foss_blueyellow'                         => 'Turbulence Blue Yellow',
@@ -2001,9 +2018,9 @@ class PaintJob extends Alias
 
         // Type-7 Transporter
         128049297 => [
-            'type7_blackfriday_01'                          => 'Black Friday',
-
             'type7_default_defaultpaintjob'                 => 'Default',
+
+            'type7_blackfriday_01'                          => 'Midnight Black',
 
             //'type7_metallic_chrome'                         => 'Chrome',
             //'type7_metallic_gold'                           => 'Gold',
@@ -2032,11 +2049,11 @@ class PaintJob extends Alias
 
         // Type-9 Heavy
         128049333 => [
-            'type9_blackfriday_01'                          => 'Black Friday',
+            'type9_default_defaultpaintjob'                 => 'Default',
+
+            'type9_blackfriday_01'                          => 'Midnight Black',
 
             'type9_cow_01'                                  => 'Bovine',
-
-            'type9_default_defaultpaintjob'                 => 'Default',
 
             'type9_lavecon_lavecon'                         => 'Lavecon',
 
@@ -2082,6 +2099,8 @@ class PaintJob extends Alias
         // Type-10 Defender
         128785619 => [
             'type9_military_default_defaultpaintjob'        => 'Default',
+
+            'type9_military_blackfriday_01'                 => 'Midnight Black',
 
             'type9_military_camo2_01'                       => 'Sabotage Lime',
             'type9_military_camo2_02'                       => 'Sabotage Orange',
@@ -2140,7 +2159,9 @@ class PaintJob extends Alias
 
         // Viper MkIII
         128049273 => [
-            'viper_blackfriday_01'                          => 'Black Friday',
+            'viper_default_defaultpaintjob'                 => 'Default',
+
+            'viper_blackfriday_01'                          => 'Midnight Black',
 
             'viper_corrosive_01'                            => 'Corroded 1',
             'viper_corrosive_02'                            => 'Corroded 2',
@@ -2151,8 +2172,6 @@ class PaintJob extends Alias
 
             'viper_default_01'                              => 'Red Copperhead',
             'viper_default_03'                              => 'Orange Copperhead',
-
-            'viper_default_defaultpaintjob'                 => 'Default',
 
             'viper_faction1_01'                             => 'Pirate Faction Red',
             'viper_faction1_02'                             => 'Pirate Faction Orange',
@@ -2241,9 +2260,9 @@ class PaintJob extends Alias
 
         // Viper MkIV
         128672255 => [
-            'viper_mkiv_blackfriday_01'                     => 'Black Friday',
-
             'viper_mkiv_default_defaultpaintjob'            => 'Default',
+
+            'viper_mkiv_blackfriday_01'                     => 'Midnight Black',
 
             /*
             'viper_mkiv_faction1_01'                        => 'Pirate Faction Red',
@@ -2318,9 +2337,11 @@ class PaintJob extends Alias
 
         // Vulture
         128049309 => [
+            'vulture_default_defaultpaintjob'               => 'Default',
+
             'vulture_bartecki_bartecki'                     => 'Flash',
 
-            'vulture_blackfriday_01'                        => 'Black Friday',
+            'vulture_blackfriday_01'                        => 'Midnight Black',
 
             'vulture_corrosive_01'                          => 'Corroded 1',
             'vulture_corrosive_02'                          => 'Corroded 2',
@@ -2335,8 +2356,6 @@ class PaintJob extends Alias
             'vulture_lowlighteffect_01_04'                  => 'Crypsis Yellow',
             'vulture_lowlighteffect_01_05'                  => 'Crypsis Purple',
             'vulture_lowlighteffect_01_06'                  => 'Crypsis White',
-
-            'vulture_default_defaultpaintjob'               => 'Default',
 
             /*
             'vulture_faction1_01'                           => 'Pirate Faction Red',
