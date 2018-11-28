@@ -10,7 +10,7 @@ use         EDSM\Alias;
 class Data extends Alias
 {
     use \EDSM\Alias\Commander\Data;
-    
+
     /**
      * List of limits per grade
      */
@@ -21,18 +21,14 @@ class Data extends Alias
         4                           => 150,
         5                           => 100,
     ];
-    
+
     /**
      * List of limits override
      */
     static protected $maxOverride   = [
-        22  => 150, // Pattern Alpha Obelisk Data
-        23  => 150, // Pattern Beta Obelisk Data
-        24  => 150, // Pattern Delta Obelisk Data
-        25  => 150, // Pattern Epsilon Obelisk Data
-        26  => 150, // Pattern Gamma Obelisk Data
+
     ];
-    
+
     /**
      * List of names used in game
      */
@@ -84,10 +80,10 @@ class Data extends Alias
         45  => 'Guardian Module Blueprint Segment',
         46  => 'Guardian Vessel Blueprint Segment',
     ];
-    
+
     /**
      * List of aliases received from Frontier
-     * 
+     *
      * Every aliases are sanitized before matching
      *     => trim
      *     => strtolower
@@ -140,7 +136,7 @@ class Data extends Alias
         'guardian_moduleblueprint'          => 45,
         'guardian_vesselblueprint'          => 46,
     ];
-    
+
     /**
      * List of grades used in game
      */
@@ -151,7 +147,7 @@ class Data extends Alias
          4  => 'Rare',
          5  => 'Very rare',
     ];
-    
+
     /**
      * List of grades per data
      */
@@ -177,11 +173,11 @@ class Data extends Alias
         19  => 2,
         20  => 5,
         21  => 3,
-        22  => 3,
-        23  => 2,
+        22  => 4,
+        23  => 4,
         24  => 4,
         25  => 4,
-        26  => 1,
+        26  => 4,
         27  => 5,
         28  => 4,
         29  => 1,
@@ -198,7 +194,7 @@ class Data extends Alias
         40  => 2,
         41  => 3,
         42  => 3,
-        43  => 3,
+        43  => 4,
         44  => 4,
         45  => 4,
         46  => 5,
