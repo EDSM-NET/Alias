@@ -14,7 +14,7 @@ class Description extends Alias
      */
     static protected $name  = [
         // Chemicals (1)
-         101        => null,
+         101        => 'Produced by: High Tech (Surface) and Refinery \nConsumed by: Extraction\n\nChemical explosives are used extensively in extraction to gain access to valuable mineral deposits.',
          102        => null,
          103        => null,
          104        => null,
@@ -29,7 +29,7 @@ class Description extends Alias
          113        => null,
          114        => null,
          115        => null,
-         
+
         // Consumer Items (2)
          201        => null,
          202        => null,
@@ -64,7 +64,8 @@ class Description extends Alias
          231        => null,
          232        => null,
          233        => null,
-         
+         234        => 'These robust personal computing devices, manufactured by technology company Herculean Machines, are used throughout the galaxy.',
+
         // Legal Drugs (3)
          301        => null,
          302        => null,
@@ -101,7 +102,7 @@ class Description extends Alias
          333        => null,
          334        => null,
          335        => null,
-         
+
         // Foods (4)
          401        => null,
          402        => null,
@@ -153,7 +154,7 @@ class Description extends Alias
          448        => null,
          449        => null,
          450        => null,
-         
+
         // Industrial Materials (5)
          501        => null,
          502        => null,
@@ -165,7 +166,7 @@ class Description extends Alias
          508        => null,
          509        => null,
          510        => null,
-         
+
         // Machinery (6)
          601        => null,
          602        => null,
@@ -194,7 +195,7 @@ class Description extends Alias
          625        => null,
          626        => null,
          627        => null,
-         
+
         // Medicines (7)
          701        => null,
          702        => null,
@@ -213,7 +214,7 @@ class Description extends Alias
          715        => null,
          716        => null,
          717        => null,
-         
+
         // Metals (8)
          801        => null,
          802        => null,
@@ -239,7 +240,7 @@ class Description extends Alias
          822        => null,
          823        => null,
          824        => null,
-         
+
         // Minerals (9)
          901        => null,
          902        => null,
@@ -263,12 +264,12 @@ class Description extends Alias
          920        => null,
          921        => null,
          922        => null,
-         
+
         // Slavery (10)
         1001        => null,
         1002        => null,
         1003        => null,
-        
+
         // Technology (11)
         1101        => null,
         1102        => null,
@@ -290,7 +291,7 @@ class Description extends Alias
         1118        => null,
         1119        => null,
         1120        => null,
-        
+
         // Textiles (12)
         1201        => null,
         1202        => null,
@@ -304,13 +305,13 @@ class Description extends Alias
         1210        => null,
         1211        => null,
         1212        => null,
-        
+
         // Waste (13)
         1301        => null,
         1302        => null,
         1303        => null,
         1304        => null,
-        
+
         // Weapons (14)
         1401        => null,
         1402        => null,
@@ -322,10 +323,10 @@ class Description extends Alias
         1408        => null,
         1409        => null,
         1410        => null,
-        
+
         // Unknown (15)
         1501        => null,
-        
+
         // Salvage (16)
         1601        => null,
         1602        => null,
@@ -392,13 +393,13 @@ class Description extends Alias
         1663        => null,
         1664        => 'Chemically augmented waste that has agricultural applications. While not overly glamorous or profitable, its one redeeming feature is a virtually inexhaustible supply.',
         1665        => 'Insectoid livestock requires specialised cargo containers to safely transport. Insectoid livestock offer extremely efficient production of materials that can be harvested from them, having low overheads and farming requirements compared to larger species. The range of goods they can service is less extensive, however.',
-        
+
         1800        => null,
         1801        => null,
         1802        => null,
         1803        => null,
         1804        => null,
-        
+
         // Powerplay (99)
         9901        => null,
         9902        => null,

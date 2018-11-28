@@ -32,6 +32,7 @@ class Type extends Alias
          114        => 'Hydrogen Peroxide',
          115        => 'Liquid Oxygen',
 
+
         // Consumer Items (2)
          201        => 'Clothing',
          202        => 'Consumer Technology',
@@ -66,6 +67,8 @@ class Type extends Alias
          231        => "Shan's Charis Orchid",
          232        => 'Ophiuch Exino Artefacts',
          233        => 'Bucky Ball Beer Mats',
+         234        => 'Duradrives',
+
 
         // Legal Drugs (3)
          301        => 'Beer',
@@ -103,6 +106,7 @@ class Type extends Alias
          333        => 'Onionhead Beta Strain',             /**/
          334        => 'Harma Silver Sea Rum',
          335        => 'Crom Silver Fesh',
+
 
         // Foods (4)
          401        => 'Algae',
@@ -156,6 +160,7 @@ class Type extends Alias
          449        => 'Diso Ma Corn',                      /**/
          450        => 'Baked Greebles',
 
+
         // Industrial Materials (5)
          501        => 'Polymers',
          502        => 'Semiconductors',
@@ -167,6 +172,7 @@ class Type extends Alias
          508        => 'CMM Composite',
          509        => 'Micro-Weave Cooling Hoses',
          510        => 'Neofabric Insulation',
+
 
         // Machinery (6)
          601        => 'Atmospheric Processors',
@@ -197,6 +203,7 @@ class Type extends Alias
          626        => 'Magnetic Emitter Coil',
          627        => 'Modular Terminals',
 
+
         // Medicines (7)
          701        => 'Agri-Medicines',
          702        => 'Basic Medicines',
@@ -215,6 +222,8 @@ class Type extends Alias
          715        => 'Fujin Tea',                         /**/
          716        => 'Alya Body Soap',                    /**/
          717        => 'Advanced Medicines',
+         718        => 'Nanomedicines',
+
 
         // Metals (8)
          801        => 'Aluminium',
@@ -242,6 +251,7 @@ class Type extends Alias
          823        => 'Samarium',
          824        => 'Platinum Alloy',
 
+
         // Minerals (9)
          901        => 'Bauxite',
          902        => 'Bertrandite',
@@ -265,11 +275,21 @@ class Type extends Alias
          920        => 'Methanol Monohydrate',
          921        => 'Lithium Hydroxide',
          922        => 'Methane Clathrate',
+         923        => 'Rhodplumsite',
+         924        => 'Serendibite',
+         925        => 'Monazite',
+         926        => 'Musgravite',
+         927        => 'Benitoite',
+         928        => 'Grandidierite',
+         929        => 'Alexandrite',
+         930        => 'Opal',
+
 
         // Slavery (10)
         1001        => 'Imperial Slaves',
         1002        => 'Slaves',
         1003        => 'Master Chefs',                      /**/
+
 
         // Technology (11)
         1101        => 'Advanced Catalysers',
@@ -293,6 +313,7 @@ class Type extends Alias
         1119        => 'Hardware Diagnostic Sensor',
         1120        => 'Medical Diagnostic Equipment',
 
+
         // Textiles (12)
         1201        => 'Leather',
         1202        => 'Natural Fabrics',
@@ -313,6 +334,7 @@ class Type extends Alias
         1303        => 'Scrap',
         1304        => 'Toxic Waste',
 
+
         // Weapons (14)
         1401        => 'Non-lethal Weapons',
         1402        => 'Personal Weapons',
@@ -325,8 +347,10 @@ class Type extends Alias
         1409        => 'Holva Duelling Blades',             /**/
         1410        => 'Gilya Signature Weapons',           /**/
 
+
         // Unknown (15)
         1501        => 'Limpet',
+
 
         // Salvage (16)
         1601        => 'Ai Relics',
@@ -455,6 +479,7 @@ class Type extends Alias
      *     => strtolower
      */
     static protected $alias = [
+        // Chemicals (1)
         'explosives'                            => 101,
         'hydrogen fuel'                         => 102,     'hydrogenfuel'                  => 102,
         'mineral oil'                           => 103,     'mineraloil'                    => 103,
@@ -471,6 +496,8 @@ class Type extends Alias
         'hydrogen peroxide'                     => 114,     'hydrogenperoxide'              => 114,
         'liquid oxygen'                         => 115,     'liquidoxygen'                  => 115,
 
+
+        // Consumer Items (2)
         'clothing'                              => 201,
         'consumer technology'                   => 202,     'consumertechnology'            => 202,
         'domestic appliances'                   => 203,     'domesticappliances'            => 203,
@@ -504,7 +531,10 @@ class Type extends Alias
         'shans charis orchid'                   => 231,     'shanscharisorchid'             => 231,
         'ophiuchi exino artefacts'              => 232,     'ophiuchiexinoartefacts'        => 232,
         'buckyballbeermats'                     => 233,
+        'duradrives'                            => 234,
 
+
+        // Legal Drugs (3)
         'beer'                                  => 301,
         'liquor'                                => 302,
         'basic narcotics'                       => 303,     'basicnarcotics'                => 303,
@@ -541,6 +571,8 @@ class Type extends Alias
         'harmasilversearum'                     => 334,
         'animaleffigies'                        => 335,
 
+
+        // Foods (4)
         'algae'                                 => 401,
         'animalmeat'                            => 402,
         'coffee'                                => 403,
@@ -592,6 +624,8 @@ class Type extends Alias
         'diso ma corn'                          => 449,     'disomacorn'                    => 449,
         'bakedgreebles'                         => 450,
 
+
+        // Industrial Materials (5)
         'polymers'                              => 501,
         'semiconductors'                        => 502,
         'superconductors'                       => 503,
@@ -603,6 +637,8 @@ class Type extends Alias
         'micro-weave cooling hoses'             => 509,     'cooling hoses'                 => 509,     'coolinghoses'                  => 509,
         'neofabric insulation'                  => 510,     'neofabricinsulation'           => 510,
 
+
+        // Machinery (6)
         'atmospheric extractors'                => 601,     'atmospheric processors'        => 601,     'atmosphericextractors'         => 601,     'atmosphericprocessors'         => 601,
         'crop harvesters'                       => 602,     'cropharvesters'                => 602,
         'marine supplies'                       => 603,     'marine equipment'              => 603,     'marinesupplies'                => 603,     'marineequipment'               => 603,
@@ -631,6 +667,8 @@ class Type extends Alias
         'magnetic emitter coil'                 => 626,     'magneticemittercoil'           => 626,
         'modular terminals'                     => 627,     'modularterminals'              => 627,
 
+
+        // Medicines (7)
         'agricultural medicines'                => 701,     'agriculturalmedicines'         => 701,
         'basic medicines'                       => 702,     'basicmedicines'                => 702,
         'combat stabilisers'                    => 703,     'combatstabilisers'             => 703,
@@ -648,7 +686,10 @@ class Type extends Alias
         'fujin tea'                             => 715,     'fujintea'                      => 715,
         'alya body soap'                        => 716,     'alya bodily soap'              => 716,     'alyabodilysoap'                => 716,
         'advanced medicines'                    => 717,     'advancedmedicines'             => 717,
+        'nanomedicines'                         => 718,
 
+
+        // Metals (8)
         'aluminium'                             => 801,
         'beryllium'                             => 802,
         'cobalt'                                => 803,
@@ -674,6 +715,8 @@ class Type extends Alias
         'samarium'                              => 823,
         'platinumaloy'                          => 824,
 
+
+        // Minerals (9)
         'bauxite'                               => 901,
         'bertrandite'                           => 902,
         'coltan'                                => 903,
@@ -696,11 +739,23 @@ class Type extends Alias
         'methanol monohydrate crystals'         => 920,     'methanol monohydrate'          => 920,     'methanolmonohydratecrystals'   => 920,
         'lithium hydroxide'                     => 921,     'lithiumhydroxide'              => 921,
         'methane clathrate'                     => 922,     'methaneclathrate'              => 922,
+        'rhodplumsite'                          => 923,
+        'serendibite'                           => 924,
+        'monazite'                              => 925,
+        'musgravite'                            => 926,
+        'benitoite'                             => 927,
+        'grandidierite'                         => 928,
+        'alexandrite'                           => 929,
+        'opal'                                  => 930,
 
+
+        // Slavery (10)
         'imperial slaves'                       => 1001,    'imperialslaves'                => 1001,
         'slaves'                                => 1002,
         'master chefs'                          => 1003,    'masterchefs'                   => 1003,
 
+
+        // Technology (11)
         'advanced catalysers'                   => 1101,    'advancedcatalysers'            => 1101,
         'animal monitors'                       => 1102,    'animalmonitors'                => 1102,
         'aquaponic systems'                     => 1103,    'aquaponicsystems'              => 1103,
@@ -722,6 +777,8 @@ class Type extends Alias
         'hardware diagnostic sensor'            => 1119,    'diagnostic sensor'             => 1119,    'diagnosticsensor'              => 1119,
         'medical diagnostic equipment'          => 1120,    'medicaldiagnosticequipment'    => 1120,
 
+
+        // Textiles (12)
         'leather'                               => 1201,
         'natural fabrics'                       => 1202,    'naturalfabrics'                => 1202,
         'synthetic fabrics'                     => 1203,    'syntheticfabrics'              => 1203,
@@ -735,11 +792,15 @@ class Type extends Alias
         'conductive fabrics'                    => 1211,    'conductivefabrics'             => 1211,
         'military grade fabrics'                => 1212,    'militarygradefabrics'          => 1212,
 
+
+        // Waste (13)
         'biowaste'                              => 1301,
         'chemical waste'                        => 1302,    'chemicalwaste'                 => 1302,
         'scrap'                                 => 1303,
         'toxic waste'                           => 1304,    'toxicwaste'                    => 1304,
 
+
+        // Weapons (14)
         'non lethal weapons'                    => 1401,    'nonlethalweapons'              => 1401,
         'personal weapons'                      => 1402,    'personalweapons'               => 1402,
         'reactive armour'                       => 1403,    'reactivearmour'                => 1403,
@@ -751,8 +812,12 @@ class Type extends Alias
         'holva duelling blades'                 => 1409,    'holvaduellingblades'           => 1409,
         'gilya signature weapons'               => 1410,    'gilyasignatureweapons'         => 1410,
 
+
+        // Unknown (15)
         'drones'                                => 1501,    'limpet'                        => 1501,
 
+
+        // Salvage (16)
         'ai relics'                             => 1601,    'airelics'                      => 1601,
         'antiquities'                           => 1602,
         'sap 8 core container'                  => 1603,    'sap8corecontainer'             => 1603,
@@ -829,6 +894,8 @@ class Type extends Alias
         'thargoidscouttissuesample'             => 1804,
         'thargoidtissuesampletype4'             => 1805,
 
+
+        // Powerplay (99)
         'aislingmediamaterials'                 => 9901,
         'aislingmediaresources'                 => 9902,
         'aislingpromotionalmaterials'           => 9903,
