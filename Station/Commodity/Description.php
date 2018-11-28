@@ -14,7 +14,7 @@ class Description extends Alias
      */
     static protected $name  = [
         // Chemicals (1)
-         101        => 'Produced by: High Tech (Surface) and Refinery \nConsumed by: Extraction\n\nChemical explosives are used extensively in extraction to gain access to valuable mineral deposits.',
+         101        => 'Produced by: High Tech (Surface) and Refinery<br />Consumed by: Extraction<br /><br />Chemical explosives are used extensively in extraction to gain access to valuable mineral deposits.',
          102        => null,
          103        => null,
          104        => null,

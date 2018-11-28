@@ -14,21 +14,21 @@ class Allegiance extends Alias
      */
     static protected $name  = [
          0                      => 'None',
-         
+
          1                      => 'Alliance',
          2                      => 'Empire',
          3                      => 'Federation',
          4                      => 'Independent',
-         
-        // Should be hidden from search and showing, but that is how the game implement site that have be found
+
+        // Should be hidden from search and showing, but that is how the game implement site that have been found
          7                      => 'Thargoid',
          8                      => 'Guardian',
          9                      => 'Pilots Federation',
     ];
-    
+
     /**
      * List of aliases received from Frontier
-     * 
+     *
      * Every aliases are sanitized before matching
      *     => trim
      *     => strtolower
@@ -38,11 +38,11 @@ class Allegiance extends Alias
         'empire'                => 2,
         'federation'            => 3,
         'independent'           => 4,
-        
+
         'thargoid'              => 7,
         'guardian'              => 8,
         'pilotsfederation'      => 9,
-        
+
         // Bug on #19700/CM Draconis
         'playerpilots'          => 0,
     ];

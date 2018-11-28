@@ -466,7 +466,7 @@ class PaintJob extends Alias
             'asp_scout_faction1_06'                         => 'Pirate Faction Purple',
 
             //'asp_scout_gamescom_gamescom'                   => 'Gamescom',
-            //'asp_scout_lavecon_lavecon'                     => 'Lavecon',
+            'asp_scout_lavecon_lavecon'                     => 'Lavecon',
 
             'asp_scout_metallic_chrome'                     => 'Chrome',
             'asp_scout_metallic2_chrome'                    => 'Chromed',

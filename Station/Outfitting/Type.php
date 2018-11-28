@@ -1729,6 +1729,15 @@ class Type extends Alias
         'mamba_armour_mirrored'                         => 374,
         'mamba_armour_reactive'                         => 375,
 
+
+
+        // weapon hardpoint > sub-surface displacement missile
+        'hpt_mining_subsurfdispmisle_fixed_small'       => 951,
+        'hpt_mining_subsurfdispmisle_fixed_medium'      => 952,
+
+        'hpt_mining_subsurfdispmisle_turret_small'      => 959,
+        'hpt_mining_subsurfdispmisle_turret_medium'     => 960,
+
         // Weapon Hardpoint > Beam Laser
         'hpt_beamlaser_fixed_small'                     => 1001,
         'hpt_beamlaser_fixed_medium'                    => 1002,
@@ -1748,15 +1757,6 @@ class Type extends Alias
 
         'hpt_guardian_gausscannon_fixed_small'          => 1031,
         'hpt_guardian_gausscannon_fixed_medium'         => 1032,
-
-
-
-        // Weapon Hardpoint > Sub-Surface Displacement Missile
-        'Hpt_Mining_SubSurfDispMisle_Fixed_Small'       => 951,
-        'Hpt_Mining_SubSurfDispMisle_Fixed_Medium'      => 952,
-
-        'Hpt_Mining_SubSurfDispMisle_Turret_Small'      => 959,
-        'Hpt_Mining_SubSurfDispMisle_Turret_Medium'     => 960,
 
         // Weapon Hardpoint > Pulse Laser
         'hpt_pulselaser_fixed_smallfree'                => 1050, // Not in category
