@@ -267,6 +267,27 @@ class Classes extends Alias
            354  => 1,
            355  => 1,
 
+        // Bulkhead > Krait Phantom
+           361  => 1,
+           362  => 1,
+           363  => 1,
+           364  => 1,
+           365  => 1,
+
+        // Bulkhead > Mamba
+           371  => 1,
+           372  => 1,
+           373  => 1,
+           374  => 1,
+           375  => 1,
+
+        // Weapon Hardpoint > Sub-Surface Displacement Missile
+           951  => 1,
+           952  => 2,
+
+           959  => 1,
+           960  => 2,
+
         // Weapon Hardpoint > Beam Laser
           1001  => 1,
           1002  => 2,
@@ -444,6 +465,10 @@ class Classes extends Alias
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 2,
 
+        // Weapon Hardpoint > Abrasion Blaster
+          1821  => 1,
+          1829  => 1,
+
         // Weapon Hardpoint > Shock Cannon
           1851  => 1, //TODO: Check on release
           1852  => 2,
@@ -468,6 +493,10 @@ class Classes extends Alias
           1929  => 1,
           1930  => 2,
           1931  => 3,
+
+        // Weapon Hardpoint > Seismic Charge
+          1952  => 2,
+          1960  => 2,
 
         // Utility Mount > Shield Booster
           2001  => 0,

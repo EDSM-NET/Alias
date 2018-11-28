@@ -10,7 +10,7 @@ use         EDSM\Alias;
 class Category extends Alias
 {
     use \EDSM\Alias\Station\Outfitting\Category;
-    
+
     /**
      * List of names used in game
      */
@@ -21,7 +21,7 @@ class Category extends Alias
          4      => 'Core Internal',
          5      => 'Optional Internal',
     ];
-    
+
     /**
      * List of outfitting id in each categories
      */
@@ -54,6 +54,8 @@ class Category extends Alias
             128672138   => [201, 202, 203, 204, 205],      // Imperial Eagle
             128672269   => [211, 212, 213, 214, 215],      // Keelback
             128816567   => [341, 342, 343, 344, 345],      // Krait MkII
+            128839281   => [361, 362, 363, 364, 365],      // Krait Phantom
+            128915979   => [371, 372, 373, 374, 375],      // Mamba
             128049327   => [221, 222, 223, 224, 225],      // Orca
             128049339   => [231, 232, 233, 234, 235],      // Python
             128049249   => [241, 242, 243, 244, 245],      // Sidewinder
@@ -65,30 +67,30 @@ class Category extends Alias
             128672255   => [291, 292, 293, 294, 295],      // Viper MkIV
             128049309   => [301, 302, 303, 304, 305],      // Vulture
         ],
-        
+
         // Weapon Hardpoint
          2      =>  [
             'Beam Laser'                        => [
                 1001, 1002, 1003, 1004,
                 1005, 1006, 1007, 1008,
                 1009, 1010, 1011,
-                
+
                 1021,
-                
+
                 1031, 1032,
             ],
             'Pulse Laser'                       => [
                 1051, 1052, 1053, 1054,
                 1055, 1056, 1057, 1058,
                 1059, 1060, 1061,
-                
+
                 1072,
             ],
             'Burst Laser'                       => [
                 1101, 1102, 1103, 1104,
                 1105, 1106, 1107, 1108,
                 1109, 1110, 1111,
-                
+
                 1121,
             ],
             'Cannon'                            => [
@@ -100,43 +102,56 @@ class Category extends Alias
                 1201, 1202, 1203,
                 1205, 1206, 1207,
                 1209, 1210, 1211,
-                
+
                 1215,
             ],
             'Multi-Cannon'                      => [
                 1251, 1252, 1253, 1254,
                 1255, 1256, 1257, 1258,
                 1259, 1260, 1261,
-                
+
                 1271,
+            ],
+            'Mining Tools'                      => [
+                // Mining Laser
+                1501, 1502,
+                1509, 1510,
+
+                1521,
+
+                // Abrasion Blaster
+                1821,
+                1829,
+
+                // Seismic Charge
+                1952,
+                1960,
+
+                // Sub-Surface Displacement Missile
+                951, 952,
+                959, 960,
             ],
             'Plasma Accelerator'                => [
                 1302, 1303, 1304,
-                
+
                 1313,
-                
+
                 1321, 1322, 1323,
                 1329, 1330, 1331,
             ],
             'Rail Gun'                          => [
                 1351, 1352,
-                
+
                 1362,
             ],
             'Missile Rack'                      => [
                 1401, 1402, 1403,
                 1405, 1406, 1407,
-                
+
                 1411,
             ],
             'Mine Launcher'                     => [
                 1451, 1452,
-            ],
-            'Mining Laser'                      => [
-                1501, 1502,
-                1509, 1510,
-                
-                1521,
             ],
             'Torpedo Pylon'                     => [
                 1551, 1552, 1553,
@@ -176,7 +191,7 @@ class Category extends Alias
                 1929, 1930, 1931,
             ],
          ],
-        
+
         // Utility Mount
          3      => [
             'Shield Booster'                    => [
@@ -210,7 +225,7 @@ class Category extends Alias
                 2451,
             ],
         ],
-        
+
         // Core Internal
          4      => [
             'Fuel Tank'                         => [
@@ -284,7 +299,7 @@ class Category extends Alias
                 3841,
             ],
         ],
-        
+
         // Optional Internal
          5      => [
             'Discovery Scanner'                 => [
@@ -428,7 +443,7 @@ class Category extends Alias
                 5941,
                 5961,
             ],
-            
+
             'Meta Alloy Hull Reinforcement'     => [
                 6001, 6002,
                 6011, 6012,
@@ -436,7 +451,7 @@ class Category extends Alias
                 6031, 6032,
                 6041, 6042,
             ],
-            
+
             'Guardian Hull Reinforcement'       => [
                 6101, 6102,
                 6111, 6112,
@@ -444,7 +459,7 @@ class Category extends Alias
                 6131, 6132,
                 6141, 6142,
             ],
-            
+
             'Guardian Shield Reinforcement'     => [
                 6201, 6202,
                 6211, 6212,
@@ -452,7 +467,7 @@ class Category extends Alias
                 6231, 6232,
                 6241, 6242,
             ],
-            
+
             'Guardian Module Reinforcement'     => [
                 6301, 6302,
                 6311, 6312,

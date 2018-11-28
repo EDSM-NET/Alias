@@ -267,6 +267,27 @@ class Rating extends Alias
            354  => 'I',
            355  => 'I',
 
+        // Bulkhead > Krait Phantom
+           361  => 'I',
+           362  => 'I',
+           363  => 'I',
+           364  => 'I',
+           365  => 'I',
+
+        // Bulkhead > Mamba
+           371  => 'I',
+           372  => 'I',
+           373  => 'I',
+           374  => 'I',
+           375  => 'I',
+
+        // Weapon Hardpoint > Sub-Surface Displacement Missile
+           951  => 'B',
+           952  => 'B',
+
+           959  => 'B',
+           960  => 'B',
+
         // Weapon Hardpoint > Beam Laser
           1001  => 'E',
           1002  => 'D',
@@ -444,6 +465,10 @@ class Rating extends Alias
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 'B',
 
+        // Weapon Hardpoint > Abrasion Blaster
+          1821  => 'D',
+          1829  => 'D',
+
         // Weapon Hardpoint > Shock Cannon
           1851  => 'E', //TODO: Check on release
           1852  => 'D',
@@ -468,6 +493,10 @@ class Rating extends Alias
           1929  => 'F',
           1930  => 'A',
           1931  => 'D',
+
+        // Weapon Hardpoint > Seismic Charge
+          1952  => 'B',
+          1960  => 'B',
 
         // Utility Mount > Shield Booster
           2001  => 'E',

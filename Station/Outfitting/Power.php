@@ -28,7 +28,7 @@ class Power extends Alias
         'Rail Gun',
         'Missile Rack',
         'Mine Launcher',
-        'Mining Laser',
+        'Mining Tools',
         'Torpedo Pylon',
         'Shock Mine Launcher',
         'AX Missile Rack',
