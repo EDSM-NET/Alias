@@ -80,7 +80,7 @@ class Available extends Alias
             81,             // Thermal Shock
             85,             // Thermal Vent
         ],
-        
+
         // HARDPOINT - Burst Laser
         201     => [    // Efficient
             7,              // Concordant Sequence
@@ -178,7 +178,7 @@ class Available extends Alias
             73,             // Stripped Down
             81,             // Thermal Shock
         ],
-        
+
         // HARDPOINT - Cannon
         301     => [    // Efficient
             3,              // Auto Loader
@@ -284,7 +284,7 @@ class Available extends Alias
             73,             // Stripped Down
             79,             // Thermal Cascade
         ],
-        
+
         // HARDPOINT - Fragment Cannon
         401     => [    // Double shot
             8,              // Corrosive Shell
@@ -370,7 +370,7 @@ class Available extends Alias
             64,             // Screening Shell
             73,             // Stripped Down
         ],
-        
+
         // HARDPOINT - Mine Launcher
         501     => [    // High capacity
             20,             // Double Braced
@@ -420,7 +420,7 @@ class Available extends Alias
             65,             // Shift-lock Canister
             73,             // Stripped Down
         ],
-        
+
         // HARDPOINT - Missile Rack
         601     => [    // High capacity
             25,             // Emissive Munitions
@@ -450,7 +450,7 @@ class Available extends Alias
             52,             // Penetrator Munitions
             79,             // Thermal Cascade
         ],
-        
+
         // HARDPOINT - Multi-cannon
         701     => [    // Efficient
             3,              // Auto Loader
@@ -760,7 +760,7 @@ class Available extends Alias
             73,             // Stripped Down
             81,             // Thermal Shock
         ],
-        
+
         // HARDPOINT - Rail Gun
         1001    => [    // High capacity
             20,             // Double Braced
@@ -858,18 +858,18 @@ class Available extends Alias
             62,             // Reverberating Cascade
             73,             // Stripped Down
         ],
-        
+
         // UTILITY MOUNT - Chaff Launcher
         10101   => null, // Ammo capacity
         10102   => null, // Lightweight
         10103   => null, // Reinforced
         10104   => null, // Shielded
-        
+
         // UTILITY MOUNT - Electronic Countermeasure
         10201   => null, // Lightweight
         10202   => null, // Reinforced
         10203   => null, // Shielded
-        
+
         // UTILITY MOUNT - Frame Shift Wake Scanner
         10301   => null, // Fast scan
         10302   => null, // Lightweight
@@ -877,13 +877,13 @@ class Available extends Alias
         10304   => null, // Reinforced
         10305   => null, // Shielded
         10306   => null, // Wide angle
-        
+
         // UTILITY MOUNT - Heat Sink Launcher
         10401   => null, // Ammo capacity
         10402   => null, // Lightweight
         10403   => null, // Reinforced
         10404   => null, // Shielded
-        
+
         // UTILITY MOUNT - Kill Warrant Scanner
         10501   => null, // Fast scan
         10502   => null, // Lightweight
@@ -891,7 +891,7 @@ class Available extends Alias
         10504   => null, // Reinforced
         10505   => null, // Shielded
         10506   => null, // Wide angle
-        
+
         // UTILITY MOUNT - Manifest Scanner
         10601   => null, // Fast scan
         10602   => null, // Lightweight
@@ -899,13 +899,13 @@ class Available extends Alias
         10604   => null, // Reinforced
         10605   => null, // Shielded
         10606   => null, // Wide angle
-        
+
         // UTILITY MOUNT - Point Defence
         10701   => null, // Ammo capacity
         10702   => null, // Lightweight
         10703   => null, // Reinforced
         10704   => null, // Shielded
-        
+
         // UTILITY MOUNT - Shield Booster
         10801   => [    // Blast resistant
             4,              // Blast Block
@@ -947,37 +947,40 @@ class Available extends Alias
             74,             // Super Capacitors
             87,             // Thermo Block
         ],
-        
+
         // OPTIONAL INTERNAL - Auto Field-Maintenance Unit
         20101   => null, // Shielded
-        
+
         // OPTIONAL INTERNAL - Collector Limpet Controller
         20201   => null, // Lightweight
         20202   => null, // Reinforced
         20203   => null, // Shielded
-        
+
         // OPTIONAL INTERNAL - Detailed Surface Scanner
         20301   => null, // Fast scan
         20302   => null, // Long range
         20303   => null, // Wide angle
-        
+
+        // OPTIONAL INTERNAL - Surface Scanner
+        20351   => null, // Expanded Probe Scanning Radius
+
         // OPTIONAL INTERNAL - Frame Shift Drive Interdictor
         20401   => null, // Expanded capture arc
         20402   => null, // Long range
 
         // OPTIONAL INTERNAL - Fuel Scoop
         20501   => null, // Shielded
-                
+
         // OPTIONAL INTERNAL - Fuel Transfer Limpet Controller
         20601   => null, // Lightweight
         20602   => null, // Reinforced
         20603   => null, // Shielded
-        
+
         // OPTIONAL INTERNAL - Hatch Breaker Limpet Controller
         20701   => null, // Lightweight
         20702   => null, // Reinforced
         20703   => null, // Shielded
-        
+
         // OPTIONAL INTERNAL - Hull Reinforcement Package
         20801   => [    // Blast resistant
             2,              // Angled Plating
@@ -1009,15 +1012,15 @@ class Available extends Alias
             43,             // Layered Plating
             60,             // Reflective Plating
         ],
-        
+
         // OPTIONAL INTERNAL - Prospector Limpet Controller
         20901   => null, // Lightweight
         20902   => null, // Reinforced
         20903   => null, // Shielded
-        
+
         // OPTIONAL INTERNAL - Refinery
         21001   => null, // Shielded
-        
+
         // OPTIONAL INTERNAL - Shield Cell Bank
         21101   => [    // Rapid charge
             5,              // Boss Cells
@@ -1033,7 +1036,7 @@ class Available extends Alias
             58,             // Recycling Cell
             72,             // Stripped Down
         ],
-        
+
         // OPTIONAL INTERNAL - Shield Generator
         21201   => [    // Enhanced low power
             14,             // Double Braced
@@ -1075,7 +1078,7 @@ class Available extends Alias
             67,             // Stripped Down
             86,             // Thermo Block
         ],
-        
+
         // CORE INTERNAL - Frame Shift Drive
         30101   => [    // Faster boot sequence
             10,             // Deep Charge
@@ -1098,12 +1101,12 @@ class Available extends Alias
             69,             // Stripped Down
             83,             // Thermal Spread
         ],
-        
+
         // CORE INTERNAL - Life Support
         30201   => null, // Lightweight
         30202   => null, // Reinforced
         30203   => null, // Shielded
-        
+
         // CORE INTERNAL - Power Distributor
         30301   => [    // Charge enhanced
             6,              // Cluster Capacitors
@@ -1147,7 +1150,7 @@ class Available extends Alias
             71,             // Stripped Down
             75,             // Super Conduits
         ],
-        
+
         // CORE INTERNAL - Power Plant
         30401   => [    // Armoured
             17,             // Double Braced
@@ -1167,12 +1170,12 @@ class Available extends Alias
             70,             // Stripped Down
             84,             // Thermal Spread
         ],
-        
+
         // CORE INTERNAL - Sensors
         30501   => null, // Lightweight
         30502   => null, // Long range
         30503   => null, // Wide angle
-        
+
         // CORE INTERNAL - Thrusters
         30601   => [    // Clean
             15,             // Double Braced
@@ -1195,7 +1198,7 @@ class Available extends Alias
             68,             // Stripped Down
             82,             // Thermal Spread
         ],
-        
+
         // ARMOUR
         40101   => [    // Blast resistant
             1,              // Angled Plating

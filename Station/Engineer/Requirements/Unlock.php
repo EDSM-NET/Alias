@@ -56,7 +56,9 @@ class Unlock extends Alias
         12      => null,
 
         // Lori Jameson
-        13      => null,
+        13      => [
+             ['c317' => 25], // Kongga Ale * 25
+         ],
 
         // Juri Ishmaak
         14      => null,

@@ -887,6 +887,9 @@ class Type extends Alias
           4002  => 'Intermediate Discovery Scanner',
           4003  => 'Advanced Discovery Scanner',
 
+        // Optional Internal > Composition Scanner
+          4010  => 'Composition Scanner',
+
         // Optional Internal > Detailed Surface Scanner
           4011  => 'Detailed Surface Scanner',
 
@@ -2346,6 +2349,9 @@ class Type extends Alias
         'int_stellarbodydiscoveryscanner_standard'      => 4001,
         'int_stellarbodydiscoveryscanner_intermediate'  => 4002,
         'int_stellarbodydiscoveryscanner_advanced'      => 4003,
+
+        // Optional Internal > Composition Scanner
+        'int_codexscanner'                              => 4010,
 
         // Optional Internal > Detailed Surface Scanner
         'int_detailedsurfacescanner_tiny'               => 4011,

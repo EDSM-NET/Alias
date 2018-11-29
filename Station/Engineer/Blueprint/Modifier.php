@@ -191,7 +191,7 @@ class Modifier extends Alias
                 ['Mass', '+100%', 'text-danger'],
             ],
         ],
-        
+
         // HARDPOINT - Burst Laser
         201     => [    // Efficient Weapon
             1       => [
@@ -433,7 +433,7 @@ class Modifier extends Alias
                 ['Mass', '+100%', 'text-danger'],
             ],
         ],
-        
+
         // HARDPOINT - Cannon
         301     => [    // Efficient Weapon
             1       => [
@@ -690,7 +690,7 @@ class Modifier extends Alias
                 ['Mass', '+100%', 'text-danger'],
             ],
         ],
-        
+
         // HARDPOINT - Fragment Cannon
         401     => [    // Double Shot
             1       => [
@@ -921,7 +921,7 @@ class Modifier extends Alias
                 ['Mass', '+100%', 'text-danger'],
             ],
         ],
-        
+
         // HARDPOINT - Mine Launcher
         501     => [    // High Capacity Magazine
             1       => [
@@ -1058,7 +1058,7 @@ class Modifier extends Alias
                 ['Mass', '+100%', 'text-danger'],
             ],
         ],
-        
+
         // HARDPOINT - Missile Rack
         601     => [    // High Capacity Magazine
             1       => [
@@ -1195,7 +1195,7 @@ class Modifier extends Alias
                 ['Mass', '+100%', 'text-danger'],
             ],
         ],
-        
+
         // HARDPOINT - Multi-cannon
         701     => [    // Efficient Weapon
             1       => [
@@ -1941,7 +1941,7 @@ class Modifier extends Alias
                 ['Mass', '+100%', 'text-danger'],
             ],
         ],
-        
+
         // HARDPOINT - Rail Gun
         1001    => [    // High Capacity Magazine
             1       => [
@@ -2301,7 +2301,7 @@ class Modifier extends Alias
                 ['Mass', '+100%', 'text-danger'],
             ],
         ],
-        
+
         // UTILITY MOUNT - Chaff Launcher
         10101   => [    // Ammo capacity
             1       => [
@@ -2380,7 +2380,7 @@ class Modifier extends Alias
                 ['Integrity', '+300%', 'text-info'],
             ],
         ],
-        
+
         // UTILITY MOUNT - Electronic Countermeasure
         10201   => [    // Misc Lightweight
             1       => [
@@ -2448,7 +2448,7 @@ class Modifier extends Alias
                 ['Integrity', '+300%', 'text-info'],
             ],
         ],
-        
+
         // UTILITY MOUNT - Frame Shift Wake Scanner
         10301   => [    // Fast Scanner
             1       => [
@@ -2597,7 +2597,7 @@ class Modifier extends Alias
                 ['Mass', '+100%', 'text-danger'],
             ],
         ],
-        
+
         // UTILITY MOUNT - Heat Sink Launcher
         10401   => [    // Heatsink Ammo Capacity
             1       => [
@@ -2676,7 +2676,7 @@ class Modifier extends Alias
                 ['Integrity', '+300%', 'text-info'],
             ],
         ],
-        
+
         // UTILITY MOUNT - Kill Warrant Scanner
         10501   => [    // Fast Scanner
             1       => [
@@ -2825,7 +2825,7 @@ class Modifier extends Alias
                 ['Mass', '+100%', 'text-danger'],
             ],
         ],
-        
+
         // UTILITY MOUNT - Manifest Scanner
         10601   => [    // Fast Scanner
             1       => [
@@ -2974,7 +2974,7 @@ class Modifier extends Alias
                 ['Mass', '+100%', 'text-danger'],
             ],
         ],
-        
+
         // UTILITY MOUNT - Point Defence
         10701   => [    // Point Defence Ammo Capacity
             1       => [
@@ -3053,7 +3053,7 @@ class Modifier extends Alias
                 ['Integrity', '+300%', 'text-info'],
             ],
         ],
-        
+
         // UTILITY MOUNT - Shield Booster
         10801   => [    // Blast Resistant Shield Booster
             1       => [
@@ -3195,7 +3195,7 @@ class Modifier extends Alias
                 ['Explosive Resistance', '-4%', 'text-danger'],
             ],
         ],
-        
+
         // OPTIONAL INTERNAL - Auto Field-Maintenance Unit
         20101   => [    // Misc Shielded
             1       => [
@@ -3219,7 +3219,7 @@ class Modifier extends Alias
                 ['Integrity', '+300%', 'text-info'],
             ],
         ],
-        
+
         // OPTIONAL INTERNAL - Collector Limpet Controller
         20201   => [    // Misc Lightweight
             1       => [
@@ -3287,7 +3287,7 @@ class Modifier extends Alias
                 ['Integrity', '+300%', 'text-info'],
             ],
         ],
-        
+
         // OPTIONAL INTERNAL - Detailed Surface Scanner
         20301   => [    // Fast Scanner
             1       => [
@@ -3370,7 +3370,36 @@ class Modifier extends Alias
                 ['Mass', '+100%', 'text-danger'],
             ],
         ],
-        
+
+        // OPTIONAL INTERNAL - Surface Scanner
+        20351   => [    // Expanded Probe Scanning Radius
+            1       => [
+                ['Probe Radius', '+10%', 'text-info'],
+                ['Power Draw', '+10%', 'text-danger'],
+                ['Mass', '+20%', 'text-danger'],
+            ],
+            2       => [
+                ['Probe Radius', '+20%', 'text-info'],
+                ['Power Draw', '+20%', 'text-danger'],
+                ['Mass', '+40%', 'text-danger'],
+            ],
+            3       => [
+                ['Probe Radius', '+30%', 'text-info'],
+                ['Power Draw', '+30%', 'text-danger'],
+                ['Mass', '+60%', 'text-danger'],
+            ],
+            4       => [
+                ['Probe Radius', '+40%', 'text-info'],
+                ['Power Draw', '+40%', 'text-danger'],
+                ['Mass', '+80%', 'text-danger'],
+            ],
+            5       => [
+                ['Probe Radius', '+50%', 'text-info'],
+                ['Power Draw', '+50%', 'text-danger'],
+                ['Mass', '+100%', 'text-danger'],
+            ],
+        ],
+
         // OPTIONAL INTERNAL - Frame Shift Drive Interdictor
         20401   => [    // Expanded FSD Interdictor Capture Arc
             1       => [
@@ -3455,7 +3484,7 @@ class Modifier extends Alias
                 ['Integrity', '+300%', 'text-info'],
             ],
         ],
-                
+
         // OPTIONAL INTERNAL - Fuel Transfer Limpet Controller
         20601   => [    // Misc Lightweight
             1       => [
@@ -3523,7 +3552,7 @@ class Modifier extends Alias
                 ['Integrity', '+300%', 'text-info'],
             ],
         ],
-        
+
         // OPTIONAL INTERNAL - Hatch Breaker Limpet Controller
         20701   => [    // Misc Lightweight
             1       => [
@@ -3591,7 +3620,7 @@ class Modifier extends Alias
                 ['Integrity', '+300%', 'text-info'],
             ],
         ],
-        
+
         // OPTIONAL INTERNAL - Hull Reinforcement Package
         20801   => [    // Blast Resistant Hull Reinforcement
             1       => [
@@ -3743,7 +3772,7 @@ class Modifier extends Alias
                 ['Hull Reinforcement', '+15%', 'text-info'],
             ],
         ],
-        
+
         // OPTIONAL INTERNAL - Prospector Limpet Controller
         20901   => [    // Misc Lightweight
             1       => [
@@ -3811,7 +3840,7 @@ class Modifier extends Alias
                 ['Integrity', '+300%', 'text-info'],
             ],
         ],
-        
+
         // OPTIONAL INTERNAL - Refinery
         21001   => [    // Misc Shielded
             1       => [
@@ -3835,7 +3864,7 @@ class Modifier extends Alias
                 ['Integrity', '+300%', 'text-info'],
             ],
         ],
-        
+
         // OPTIONAL INTERNAL - Shield Cell Bank
         21101   => [    // Rapid Charge Shield Cell Bank
             1       => [
@@ -3893,7 +3922,7 @@ class Modifier extends Alias
                 ['Shield Reinforcement', '+10%', 'text-info'],
             ],
         ],
-        
+
         // OPTIONAL INTERNAL - Shield Generator
         21201   => [    // Enhanced, Low Power Shields
             1       => [
@@ -4018,7 +4047,7 @@ class Modifier extends Alias
                 ['Thermal Resistance', '+50%', 'text-info'],
             ],
         ],
-        
+
         // CORE INTERNAL - Frame Shift Drive
         30101   => [    // Faster FSD Boot Sequence
             1       => [
@@ -4116,7 +4145,7 @@ class Modifier extends Alias
                 ['Mass', '+20%', 'text-danger'],
             ],
         ],
-        
+
         // CORE INTERNAL - Life Support
         30201   => [    // Misc Lightweight
             1       => [
@@ -4184,7 +4213,7 @@ class Modifier extends Alias
                 ['Integrity', '+300%', 'text-info'],
             ],
         ],
-        
+
         // CORE INTERNAL - Power Distributor
         30301   => [    // Charge Enhanced Power Distributor
             1       => [
@@ -4388,7 +4417,7 @@ class Modifier extends Alias
                 ['Engines Recharge', '-15%', 'text-danger'],
             ],
         ],
-        
+
         // CORE INTERNAL - Power Plant
         30401   => [    // Armoured Power Plant
             1       => [
@@ -4476,7 +4505,7 @@ class Modifier extends Alias
                 ['Power Generation', '+40%', 'text-info'],
             ],
         ],
-        
+
         // CORE INTERNAL - Sensors
         30501   => [    // Light Weight Scanner
             1       => [
@@ -4559,7 +4588,7 @@ class Modifier extends Alias
                 ['Range', '-20%', 'text-danger'],
             ],
         ],
-        
+
         // CORE INTERNAL - Thrusters
         30601   => [    // Clean Drive Tuning
             1       => [
@@ -4660,7 +4689,7 @@ class Modifier extends Alias
                 ['Mass', '+25%', 'text-danger'],
             ],
         ],
-        
+
         // ARMOUR
         40101   => [    // Blast Resistant Armour
             1       => [

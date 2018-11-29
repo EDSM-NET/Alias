@@ -305,6 +305,9 @@ class Category extends Alias
             'Discovery Scanner'                 => [
                 4001, 4002, 4003,
             ],
+            'Composition Scanner'               => [
+                4010,
+            ],
             'Detailed Surface Scanner'          => [
                 4011,
             ],

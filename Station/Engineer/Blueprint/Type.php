@@ -20,7 +20,7 @@ class Type extends Alias
         104     => 'Overcharged Weapon',
         105     => 'Short-Range Blaster',
         106     => 'Sturdy Mount',
-        
+
         // HARDPOINT - Burst Laser
         201     => 'Efficient Weapon',
         202     => 'Focused Weapon',
@@ -30,7 +30,7 @@ class Type extends Alias
         206     => 'Rapid Fire Modification',
         207     => 'Short-Range Blaster',
         208     => 'Sturdy Mount',
-        
+
         // HARDPOINT - Cannon
         301     => 'Efficient Weapon',
         302     => 'High Capacity Magazine',
@@ -40,7 +40,7 @@ class Type extends Alias
         306     => 'Rapid Fire Modification',
         307     => 'Short-Range Blaster',
         308     => 'Sturdy Mount',
-        
+
         // HARDPOINT - Fragment Cannon
         401     => 'Double Shot',
         402     => 'Efficient Weapon',
@@ -49,19 +49,19 @@ class Type extends Alias
         405     => 'Overcharged Weapon',
         406     => 'Rapid Fire Modification',
         407     => 'Sturdy Mount',
-        
+
         // HARDPOINT - Mine Launcher
         501     => 'High Capacity Magazine',
         502     => 'Light Weight Mount',
         503     => 'Rapid Fire Modification',
         504     => 'Sturdy Mount',
-        
+
         // HARDPOINT - Missile Rack
         601     => 'High Capacity Magazine',
         602     => 'Light Weight Mount',
         603     => 'Rapid Fire Modification',
         604     => 'Sturdy Mount',
-        
+
         // HARDPOINT - Multi-cannon
         701     => 'Efficient Weapon',
         702     => 'High Capacity Magazine',
@@ -91,7 +91,7 @@ class Type extends Alias
         906     => 'Rapid Fire Modification',
         907     => 'Short-Range Blaster',
         908     => 'Sturdy Mount',
-        
+
         // HARDPOINT - Rail Gun
         1001    => 'High Capacity Magazine',
         1002    => 'Light Weight Mount',
@@ -108,18 +108,18 @@ class Type extends Alias
         // HARDPOINT - Torpedo Pylon
         1201    => 'Light Weight Mount',
         1202    => 'Sturdy Mount',
-        
+
         // UTILITY MOUNT - Chaff Launcher
         10101   => 'Ammo Capacity',
         10102   => 'Misc Lightweight',
         10103   => 'Misc Reinforced',
         10104   => 'Misc Shielded',
-        
+
         // UTILITY MOUNT - Electronic Countermeasure
         10201   => 'Misc Lightweight',
         10202   => 'Misc Reinforced',
         10203   => 'Misc Shielded',
-        
+
         // UTILITY MOUNT - Frame Shift Wake Scanner
         10301   => 'Fast Scanner',
         10302   => 'Misc Lightweight',
@@ -127,13 +127,13 @@ class Type extends Alias
         10304   => 'Misc Reinforced',
         10305   => 'Misc Shielded',
         10306   => 'Wide Angle Scanner',
-        
+
         // UTILITY MOUNT - Heat Sink Launcher
         10401   => 'Ammo Capacity',
         10402   => 'Misc Lightweight',
         10403   => 'Misc Reinforced',
         10404   => 'Misc Shielded',
-        
+
         // UTILITY MOUNT - Kill Warrant Scanner
         10501   => 'Fast Scanner',
         10502   => 'Misc Lightweight',
@@ -141,7 +141,7 @@ class Type extends Alias
         10504   => 'Misc Reinforced',
         10505   => 'Misc Shielded',
         10506   => 'Wide Angle Scanner',
-        
+
         // UTILITY MOUNT - Manifest Scanner
         10601   => 'Fast Scanner',
         10602   => 'Misc Lightweight',
@@ -149,85 +149,88 @@ class Type extends Alias
         10604   => 'Misc Reinforced',
         10605   => 'Misc Shielded',
         10606   => 'Wide Angle Scanner',
-        
+
         // UTILITY MOUNT - Point Defence
         10701   => 'Ammo Capacity',
         10702   => 'Misc Lightweight',
         10703   => 'Misc Reinforced',
         10704   => 'Misc Shielded',
-        
+
         // UTILITY MOUNT - Shield Booster
         10801   => 'Blast Resistant',
         10802   => 'Heavy Duty',
         10803   => 'Kinetic Resistant',
         10804   => 'Resistance Augmented',
         10805   => 'Thermal Resistant',
-        
+
         // OPTIONAL INTERNAL - Auto Field-Maintenance Unit
         20101   => 'Misc Shielded',
-        
+
         // OPTIONAL INTERNAL - Collector Limpet Controller
         20201   => 'Misc Lightweight',
         20202   => 'Misc Reinforced',
         20203   => 'Misc Shielded',
-        
+
         // OPTIONAL INTERNAL - Detailed Surface Scanner
         20301   => 'Fast Scanner',
         20302   => 'Long-Range Scanner',
         20303   => 'Wide Angle Scanner',
-        
+
+        // OPTIONAL INTERNAL - Surface Scanner
+        20351   => 'Expanded Probe Scanning Radius',
+
         // OPTIONAL INTERNAL - Frame Shift Drive Interdictor
         20401   => 'Expanded FSD Interdictor Capture Arc',
         20402   => 'Longer Range FSD Interdictor',
 
         // OPTIONAL INTERNAL - Fuel Scoop
         20501   => 'Misc Shielded',
-                
+
         // OPTIONAL INTERNAL - Fuel Transfer Limpet Controller
         20601   => 'Misc Lightweight',
         20602   => 'Misc Reinforced',
         20603   => 'Misc Shielded',
-        
+
         // OPTIONAL INTERNAL - Hatch Breaker Limpet Controller
         20701   => 'Misc Lightweight',
         20702   => 'Misc Reinforced',
         20703   => 'Misc Shielded',
-        
+
         // OPTIONAL INTERNAL - Hull Reinforcement Package
         20801   => 'Blast Resistant',
         20802   => 'Heavy Duty',
         20803   => 'Kinetic Resistant',
         20804   => 'Lightweight',
         20805   => 'Thermal Resistant',
-        
+
         // OPTIONAL INTERNAL - Prospector Limpet Controller
         20901   => 'Misc Lightweight',
         20902   => 'Misc Reinforced',
         20903   => 'Misc Shielded',
-        
+
         // OPTIONAL INTERNAL - Refinery
         21001   => 'Misc Shielded',
-        
+
         // OPTIONAL INTERNAL - Shield Cell Bank
         21101   => 'Rapid Charge',
         21102   => 'Specialised',
-        
+
         // OPTIONAL INTERNAL - Shield Generator
         21201   => 'Enhanced, Low Power',
         21202   => 'Kinetic Resistant',
         21203   => 'Reinforced',
         21204   => 'Thermal Resistant',
-        
+
         // CORE INTERNAL - Frame Shift Drive
         30101   => 'Faster FSD Boot Sequence',
         30102   => 'Increased FSD Range',
         30103   => 'Shielded FSD',
-        
+
         // CORE INTERNAL - Life Support
         30201   => 'Misc Lightweight',
         30202   => 'Misc Reinforced',
         30203   => 'Misc Shielded',
-        
+
         // CORE INTERNAL - Power Distributor
         30301   => 'Charge Enhanced',
         30302   => 'Engine Focused',
@@ -235,22 +238,22 @@ class Type extends Alias
         30304   => 'Shielded',
         30305   => 'System Focused',
         30306   => 'Weapon Focused',
-        
+
         // CORE INTERNAL - Power Plant
         30401   => 'Armoured',
         30402   => 'Low Emissions',
         30403   => 'Overcharged',
-        
+
         // CORE INTERNAL - Sensors
         30501   => 'Light Weight Scanner',
         30502   => 'Long-Range Scanner',
         30503   => 'Wide Angle Scanner',
-        
+
         // CORE INTERNAL - Thrusters
         30601   => 'Clean Drive Tuning',
         30602   => 'Dirty Drive Tuning',
         30603   => 'Drive Strengthening',
-        
+
         // ARMOUR
         40101   => 'Blast Resistant',
         40102   => 'Heavy Duty',
@@ -258,10 +261,10 @@ class Type extends Alias
         40104   => 'Lightweight',
         40105   => 'Thermal Resistant',
     ];
-    
+
     /**
      * List of aliases received from Frontier
-     * 
+     *
      * FDev ID are used here to link the LoadOut event,
      * as different blueprints have the exact same name
      */
@@ -273,7 +276,7 @@ class Type extends Alias
         128739082       => 104,         128739083       => 104,         128739084       => 104,         128739085       => 104,         128739086       => 104,
         128673345       => 105,         128673346       => 105,         128673347       => 105,         128673348       => 105,         128673349       => 105,
         128673350       => 106,         128673351       => 106,         128673352       => 106,         128673353       => 106,         128673354       => 106,
-        
+
         // HARDPOINT - Burst Laser
         128673355       => 201,         128673356       => 201,         128673357       => 201,         128673358       => 201,         128673359       => 201,
         128673360       => 202,         128673361       => 202,         128673362       => 202,         128673363       => 202,         128673364       => 202,
@@ -283,7 +286,7 @@ class Type extends Alias
         128673380       => 206,         128673381       => 206,         128673382       => 206,         128673383       => 206,         128673384       => 206,
         128673385       => 207,         128673386       => 207,         128673387       => 207,         128673388       => 207,         128673389       => 207,
         128673390       => 208,         128673391       => 208,         128673392       => 208,         128673393       => 208,         128673394       => 208,
-        
+
         // HARDPOINT - Cannon
         128673395       => 301,         128673396       => 301,         128673397       => 301,         128673398       => 301,         128673399       => 301,
         128673400       => 302,         128673401       => 302,         128673402       => 302,         128673403       => 302,         128673404       => 302,
@@ -293,7 +296,7 @@ class Type extends Alias
         128673420       => 306,         128673421       => 306,         128673422       => 306,         128673423       => 306,         128673424       => 306,
         128673425       => 307,         128673426       => 307,         128673427       => 307,         128673428       => 307,         128673429       => 307,
         128673430       => 308,         128673431       => 308,         128673432       => 308,         128673433       => 308,         128673434       => 308,
-        
+
         // HARDPOINT - Fragment Cannon
         128673435       => 401,         128673436       => 401,         128673437       => 401,         128673438       => 401,         128673439       => 401,
         128673440       => 402,         128673441       => 402,         128673442       => 402,         128673443       => 402,         128673444       => 402,
@@ -302,19 +305,19 @@ class Type extends Alias
         128673455       => 405,         128673456       => 405,         128673457       => 405,         128673458       => 405,         128673459       => 405,
         128673460       => 406,         128673461       => 406,         128673462       => 406,         128673463       => 406,         128673464       => 406,
         128673465       => 407,         128673466       => 407,         128673467       => 407,         128673468       => 407,         128673469       => 407,
-        
+
         // HARDPOINT - Mine Launcher
         128673470       => 501,         128673471       => 501,         128673472       => 501,         128673473       => 501,         128673474       => 501,
         128682076       => 502,         128682077       => 502,         128682078       => 502,         128682079       => 502,         128682080       => 502,
         128682061       => 503,         128682062       => 503,         128682063       => 503,         128682064       => 503,         128682065       => 503,
         128682091       => 504,         128682092       => 504,         128682093       => 504,         128682094       => 504,         128682095       => 504,
-        
+
         // HARDPOINT - Missile Rack
         128673475       => 601,         128673476       => 601,         128673477       => 601,         128673478       => 601,         128673479       => 601,
         128682066       => 602,         128682067       => 602,         128682068       => 602,         128682069       => 602,         128682070       => 602,
         128682056       => 603,         128682057       => 603,         128682058       => 603,         128682059       => 603,         128682060       => 603,
         128682081       => 604,         128682082       => 604,         128682083       => 604,         128682084       => 604,         128682085       => 604,
-        
+
         // HARDPOINT - Multi-cannon
         128673480       => 701,         128673481       => 701,         128673482       => 701,         128673483       => 701,         128673484       => 701,
         128673485       => 702,         128673486       => 702,         128673487       => 702,         128673488       => 702,         128673489       => 702,
@@ -344,7 +347,7 @@ class Type extends Alias
         128673585       => 906,         128673586       => 906,         128673587       => 906,         128673588       => 906,         128673589       => 906,
         128673590       => 907,         128673591       => 907,         128673592       => 907,         128673593       => 907,         128673594       => 907,
         128673595       => 908,         128673596       => 908,         128673597       => 908,         128673598       => 908,         128673599       => 908,
-        
+
         // HARDPOINT - Rail Gun
         128673600       => 1001,        128673601       => 1001,        128673602       => 1001,        128673603       => 1001,        128673604       => 1001,
         128673605       => 1002,        128673606       => 1002,        128673607       => 1002,        128673608       => 1002,        128673609       => 1002,
@@ -361,18 +364,18 @@ class Type extends Alias
         // HARDPOINT - Torpedo Pylon
         128682071       => 1201,        128682072       => 1201,        128682073       => 1201,        128682074       => 1201,        128682075       => 1201,
         128682086       => 1202,        128682087       => 1202,        128682088       => 1202,        128682089       => 1202,        128682090       => 1202,
-        
+
         // UTILITY MOUNT - Chaff Launcher
         128731667       => 10101,
         128731476       => 10102,       128731477       => 10102,       128731478       => 10102,       128731479       => 10102,       128731480       => 10102,
         128731536       => 10103,       128731537       => 10103,       128731538       => 10103,       128731539       => 10103,       128731540       => 10103,
         128731596       => 10104,       128731597       => 10104,       128731598       => 10104,       128731599       => 10104,       128731600       => 10104,
-        
+
         // UTILITY MOUNT - Electronic Countermeasure
         128731486       => 10201,       128731487       => 10201,       128731488       => 10201,       128731489       => 10201,       128731490       => 10201,
         128731546       => 10202,       128731547       => 10202,       128731548       => 10202,       128731549       => 10202,       128731550       => 10202,
         128731606       => 10203,       128731607       => 10203,       128731608       => 10203,       128731609       => 10203,       128731610       => 10203,
-        
+
         // UTILITY MOUNT - Frame Shift Wake Scanner
         128740122       => 10301,       128740123       => 10301,       128740124       => 10301,       128740125       => 10301,       128740126       => 10301,
         128731496       => 10302,       128731497       => 10302,       128731498       => 10302,       128731499       => 10302,       128731500       => 10302,
@@ -380,13 +383,13 @@ class Type extends Alias
         128731556       => 10304,       128731557       => 10304,       128731558       => 10304,       128731559       => 10304,       128731560       => 10304,
         128731616       => 10305,       128731617       => 10305,       128731618       => 10305,       128731619       => 10305,       128731620       => 10305,
         128740107       => 10306,       128740108       => 10306,       128740109       => 10306,       128740110       => 10306,       128740111       => 10306,
-        
+
         // UTILITY MOUNT - Heat Sink Launcher
         128731666       => 10401,
         128731471       => 10402,       128731472       => 10402,       128731473       => 10402,       128731474       => 10402,       128731475       => 10402,
         128731531       => 10403,       128731532       => 10403,       128731533       => 10403,       128731534       => 10403,       128731535       => 10403,
         128731591       => 10404,       128731592       => 10404,       128731593       => 10404,       128731594       => 10404,       128731595       => 10404,
-        
+
         // UTILITY MOUNT - Kill Warrant Scanner
         128740127       => 10501,       128740128       => 10501,       128740129       => 10501,       128740130       => 10501,       128740131       => 10501,
         128731506       => 10502,       128731507       => 10502,       128731508       => 10502,       128731509       => 10502,       128731510       => 10502,
@@ -394,7 +397,7 @@ class Type extends Alias
         128731566       => 10504,       128731567       => 10504,       128731568       => 10504,       128731569       => 10504,       128731570       => 10504,
         128731626       => 10505,       128731627       => 10505,       128731628       => 10505,       128731629       => 10505,       128731630       => 10505,
         128740112       => 10506,       128740113       => 10506,       128740114       => 10506,       128740115       => 10506,       128740116       => 10506,
-        
+
         // UTILITY MOUNT - Manifest Scanner
         128740117       => 10601,       128740118       => 10601,       128740119       => 10601,       128740120       => 10601,       128740121       => 10601,
         128731501       => 10602,       128731502       => 10602,       128731503       => 10602,       128731504       => 10602,       128731505       => 10602,
@@ -402,85 +405,88 @@ class Type extends Alias
         128731561       => 10604,       128731562       => 10604,       128731563       => 10604,       128731564       => 10604,       128731565       => 10604,
         128731621       => 10605,       128731622       => 10605,       128731623       => 10605,       128731624       => 10605,       128731625       => 10605,
         128740102       => 10606,       128740103       => 10606,       128740104       => 10606,       128740105       => 10606,       128740106       => 10606,
-        
+
         // UTILITY MOUNT - Point Defence
         128731668       => 10701,
         128731481       => 10702,       128731482       => 10702,       128731483       => 10702,       128731484       => 10702,       128731485       => 10702,
         128731541       => 10703,       128731542       => 10703,       128731543       => 10703,       128731544       => 10703,       128731545       => 10703,
         128731601       => 10704,       128731602       => 10704,       128731603       => 10704,       128731604       => 10704,       128731605       => 10704,
-        
+
         // UTILITY MOUNT - Shield Booster
         128673775       => 10801,       128673776       => 10801,       128673777       => 10801,       128673778       => 10801,       128673779       => 10801,
         128673780       => 10802,       128673781       => 10802,       128673782       => 10802,       128673783       => 10802,       128673784       => 10802,
         128673785       => 10803,       128673786       => 10803,       128673787       => 10803,       128673788       => 10803,       128673789       => 10803,
         128673790       => 10804,       128673791       => 10804,       128673792       => 10804,       128673793       => 10804,       128673794       => 10804,
         128673795       => 10805,       128673796       => 10805,       128673797       => 10805,       128673798       => 10805,       128673799       => 10805,
-        
+
         // OPTIONAL INTERNAL - Auto Field-Maintenance Unit
         128731656       => 20101,       128731657       => 20101,       128731658       => 20101,       128731659       => 20101,       128731660       => 20101,
-        
+
         // OPTIONAL INTERNAL - Collector Limpet Controller
         128731526       => 20201,       128731527       => 20201,       128731528       => 20201,       128731529       => 20201,       128731530       => 20201,
         128731586       => 20202,       128731587       => 20202,       128731588       => 20202,       128731589       => 20202,       128731590       => 20202,
         128731646       => 20203,       128731647       => 20203,       128731648       => 20203,       128731649       => 20203,       128731650       => 20203,
-        
+
         // OPTIONAL INTERNAL - Detailed Surface Scanner
         128740152       => 20301,       128740153       => 20301,       128740154       => 20301,       128740155       => 20301,       128740156       => 20301,
         128740142       => 20302,       128740143       => 20302,       128740144       => 20302,       128740145       => 20302,       128740146       => 20302,
         128740147       => 20303,       128740148       => 20303,       128740149       => 20303,       128740150       => 20303,       128740151       => 20303,
-        
+
+        // OPTIONAL INTERNAL - Surface Scanner
+        128740147       => 20351,       128740148       => 20351,       128740149       => 20351,       128740150       => 20351,       128740151       => 20351,
+
         // OPTIONAL INTERNAL - Frame Shift Drive Interdictor
         128673675       => 20401,       128673676       => 20401,       128673677       => 20401,       128673678       => 20401,       128673679       => 20401,
         128673680       => 20402,       128673681       => 20402,       128673682       => 20402,       128673683       => 20402,       128673684       => 20402,
 
         // OPTIONAL INTERNAL - Fuel Scoop
         128731651       => 20501,       128731652       => 20501,       128731653       => 20501,       128731654       => 20501,       128731655       => 20501,
-                
+
         // OPTIONAL INTERNAL - Fuel Transfer Limpet Controller
         128731521       => 20601,       128731522       => 20601,       128731523       => 20601,       128731524       => 20601,       128731525       => 20601,
         128731581       => 20602,       128731582       => 20602,       128731583       => 20602,       128731584       => 20602,       128731585       => 20602,
         128731641       => 20603,       128731642       => 20603,       128731643       => 20603,       128731644       => 20603,       128731645       => 20603,
-        
+
         // OPTIONAL INTERNAL - Hatch Breaker Limpet Controller
         128731511       => 20701,       128731512       => 20701,       128731513       => 20701,       128731514       => 20701,       128731515       => 20701,
         128731571       => 20702,       128731572       => 20702,       128731573       => 20702,       128731574       => 20702,       128731575       => 20702,
         128731631       => 20703,       128731632       => 20703,       128731633       => 20703,       128731634       => 20703,       128731635       => 20703,
-        
+
         // OPTIONAL INTERNAL - Hull Reinforcement Package
         128673710       => 20801,       128673711       => 20801,       128673712       => 20802,       128673713       => 20801,       128673714       => 20801,
         128673715       => 20802,       128673716       => 20802,       128673717       => 20802,       128673718       => 20802,       128673719       => 20802,
         128673720       => 20803,       128673721       => 20803,       128673722       => 20803,       128673723       => 20803,       128673724       => 20803,
         128673705       => 20804,       128673706       => 20804,       128673707       => 20804,       128673708       => 20804,       128673709       => 20804,
         128673725       => 20805,       128673726       => 20805,       128673727       => 20805,       128673728       => 20805,       128673729       => 20805,
-        
+
         // OPTIONAL INTERNAL - Prospector Limpet Controller
         128731516       => 20901,       128731517       => 20901,       128731518       => 20901,       128731519       => 20901,       128731520       => 20901,
         128731576       => 20902,       128731577       => 20902,       128731578       => 20902,       128731579       => 20902,       128731580       => 20902,
         128731636       => 20903,       128731637       => 20903,       128731638       => 20903,       128731639       => 20903,       128731640       => 20903,
-        
+
         // OPTIONAL INTERNAL - Refinery
         128731661       => 21001,       128731662       => 21001,       128731663       => 21001,       128731664       => 21001,       128731665       => 21001,
-        
+
         // OPTIONAL INTERNAL - Shield Cell Bank
         128673805       => 21101,       128673806       => 21101,       128673807       => 21101,       128673808       => 21101,
         128673810       => 21102,       128673811       => 21102,       128673812       => 21102,       128673813       => 21102,
-        
+
         // OPTIONAL INTERNAL - Shield Generator
         128673825       => 21201,       128673826       => 21201,       128673827       => 21201,       128673828       => 21201,       128673829       => 21201,
         128673820       => 21202,       128673821       => 21202,       128673822       => 21202,       128673823       => 21202,       128673824       => 21202,
         128673835       => 21203,       128673836       => 21203,       128673837       => 21203,       128673838       => 21203,       128673839       => 21203,
         128673840       => 21204,       128673841       => 21204,       128673842       => 21204,       128673843       => 21204,       128673844       => 21204,
-        
+
         // CORE INTERNAL - Frame Shift Drive
         128673685       => 30101,       128673686       => 30101,       128673687       => 30101,       128673688       => 30101,       128673689       => 30101,
         128673690       => 30102,       128673691       => 30102,       128673692       => 30102,       128673693       => 30102,       128673694       => 30102,
         128673700       => 30103,       128673701       => 30103,       128673702       => 30103,       128673703       => 30103,       128673704       => 30103,
-        
+
         // CORE INTERNAL - Life Support
         128731491       => 30201,       128731492       => 30201,       128731493       => 30201,       128731494       => 30201,       128731495       => 30201,
         128731551       => 30202,       128731552       => 30202,       128731553       => 30202,       128731554       => 30202,       128731555       => 30202,
         128731611       => 30203,       128731612       => 30203,       128731613       => 30203,       128731614       => 30203,       128731615       => 30203,
-        
+
         // CORE INTERNAL - Power Distributor
         128673735       => 30301,       128673736       => 30301,       128673737       => 30301,       128673738       => 30301,       128673739       => 30301,
         128673740       => 30302,       128673741       => 30302,       128673742       => 30302,       128673743       => 30302,       128673744       => 30302,
@@ -488,22 +494,22 @@ class Type extends Alias
         128673755       => 30304,       128673756       => 30304,       128673757       => 30304,       128673758       => 30304,       128673759       => 30304,
         128673745       => 30305,       128673746       => 30305,       128673747       => 30305,       128673748       => 30305,       128673749       => 30305,
         128673750       => 30306,       128673751       => 30306,       128673752       => 30306,       128673753       => 30306,       128673754       => 30306,
-        
+
         // CORE INTERNAL - Power Plant
         128673760       => 30401,       128673761       => 30401,       128673762       => 30401,       128673763       => 30401,       128673764       => 30401,
         128673770       => 30402,       128673771       => 30402,       128673772       => 30402,       128673773       => 30402,       128673774       => 30402,
         128673765       => 30403,       128673766       => 30403,       128673767       => 30403,       128673768       => 30403,       128673769       => 30403,
-        
+
         // CORE INTERNAL - Sensors
         128740669       => 30501,       128740670       => 30501,       128740671       => 30501,       128740672       => 30501,       128740673       => 30501,
         128740132       => 30502,       128740133       => 30502,       128740134       => 30502,       128740135       => 30502,       128740136       => 30502,
         128740137       => 30503,       128740138       => 30503,       128740139       => 30503,       128740140       => 30503,       128740141       => 30503,
-        
+
         // CORE INTERNAL - Thrusters
         128673665       => 30601,       128673666       => 30601,       128673667       => 30601,       128673668       => 30601,       128673669       => 30601,
         128673655       => 30602,       128673656       => 30602,       128673657       => 30602,       128673658       => 30602,       128673659       => 30602,
         128673660       => 30603,       128673661       => 30603,       128673662       => 30603,       128673663       => 30603,       128673664       => 30603,
-        
+
         // ARMOUR
         128673635       => 40101,       128673636       => 40101,       128673637       => 40101,       128673638       => 40101,       128673639       => 40101,
         128673640       => 40102,       128673641       => 40102,       128673642       => 40102,       128673643       => 40102,       128673644       => 40102,
@@ -511,7 +517,7 @@ class Type extends Alias
         128673630       => 40104,       128673631       => 40104,       128673632       => 40104,       128673633       => 40104,       128673634       => 40104,
         128673650       => 40105,       128673651       => 40105,       128673652       => 40105,       128673653       => 40105,       128673654       => 40105,
     ];
-    
+
     /**
      * List of blueprint names on the LoadOut event
      */
@@ -523,7 +529,7 @@ class Type extends Alias
         104     => 'weapon_overcharged',
         105     => 'weapon_shortrange',
         106     => 'weapon_sturdy',
-        
+
         // HARDPOINT - Burst Laser
         201     => 'weapon_efficient',
         202     => 'weapon_focused',
@@ -533,7 +539,7 @@ class Type extends Alias
         206     => 'weapon_rapidfire',
         207     => 'weapon_shortrange',
         208     => 'weapon_sturdy',
-        
+
         // HARDPOINT - Cannon
         301     => 'weapon_efficient',
         302     => 'weapon_highcapacity',
@@ -543,7 +549,7 @@ class Type extends Alias
         306     => 'weapon_rapidfire',
         307     => 'weapon_shortrange',
         308     => 'weapon_sturdy',
-        
+
         // HARDPOINT - Fragment Cannon
         401     => 'weapon_doubleshot',
         402     => 'weapon_efficient',
@@ -552,19 +558,19 @@ class Type extends Alias
         405     => 'weapon_overcharged',
         406     => 'weapon_rapidfire',
         407     => 'weapon_sturdy',
-        
+
         // HARDPOINT - Mine Launcher
         501     => 'weapon_highcapacity',
         502     => 'weapon_lightweight',
         503     => 'weapon_rapidfire',
         504     => 'weapon_sturdy',
-        
+
         // HARDPOINT - Missile Rack
         601     => 'weapon_highcapacity',
         602     => 'weapon_lightweight',
         603     => 'weapon_rapidfire',
         604     => 'weapon_sturdy',
-        
+
         // HARDPOINT - Multi-cannon
         701     => 'weapon_efficient',
         702     => 'weapon_highcapacity',
@@ -594,7 +600,7 @@ class Type extends Alias
         906     => 'weapon_rapidfire',
         907     => 'weapon_shortrange',
         908     => 'weapon_sturdy',
-        
+
         // HARDPOINT - Rail Gun
         1001    => 'weapon_highcapacity',
         1002    => 'weapon_lightweight',
@@ -611,18 +617,18 @@ class Type extends Alias
         // HARDPOINT - Torpedo Pylon
         1201    => 'weapon_lightweight',
         1202    => 'weapon_sturdy',
-        
+
         // UTILITY MOUNT - Chaff Launcher
         10101   => 'misc_chaffcapacity',
         10102   => 'misc_lightweight',
         10103   => 'misc_reinforced',
         10104   => 'misc_shielded',
-        
+
         // UTILITY MOUNT - Electronic Countermeasure
         10201   => 'misc_lightweight',
         10202   => 'misc_reinforced',
         10203   => 'misc_shielded',
-        
+
         // UTILITY MOUNT - Frame Shift Wake Scanner
         10301   => 'sensor_fastscan',
         10302   => 'misc_lightweight',
@@ -630,13 +636,13 @@ class Type extends Alias
         10304   => 'misc_reinforced',
         10305   => 'misc_shielded',
         10306   => 'sensor_wideangle',
-        
+
         // UTILITY MOUNT - Heat Sink Launcher
         10401   => 'misc_heatsinkcapacity',
         10402   => 'misc_lightweight',
         10403   => 'misc_reinforced',
         10404   => 'misc_shielded',
-        
+
         // UTILITY MOUNT - Kill Warrant Scanner
         10501   => 'sensor_fastscan',
         10502   => 'misc_lightweight',
@@ -644,7 +650,7 @@ class Type extends Alias
         10504   => 'misc_reinforced',
         10505   => 'misc_shielded',
         10506   => 'sensor_wideangle',
-        
+
         // UTILITY MOUNT - Manifest Scanner
         10601   => 'sensor_fastscan',
         10602   => 'misc_lightweight',
@@ -652,85 +658,88 @@ class Type extends Alias
         10604   => 'misc_reinforced',
         10605   => 'misc_shielded',
         10606   => 'sensor_wideangle',
-        
+
         // UTILITY MOUNT - Point Defence
         10701   => 'misc_pointdefensecapacity',
         10702   => 'misc_lightweight',
         10703   => 'misc_reinforced',
         10704   => 'misc_shielded',
-        
+
         // UTILITY MOUNT - Shield Booster
         10801   => 'shieldbooster_explosive',
         10802   => 'shieldbooster_heavyduty',
         10803   => 'shieldbooster_kinetic',
         10804   => 'shieldbooster_resistive',
         10805   => 'shieldbooster_thermic',
-        
+
         // OPTIONAL INTERNAL - Auto Field-Maintenance Unit
         20101   => 'misc_shielded',
-        
+
         // OPTIONAL INTERNAL - Collector Limpet Controller
         20201   => 'misc_lightweight',
         20202   => 'misc_reinforced',
         20203   => 'misc_shielded',
-        
+
         // OPTIONAL INTERNAL - Detailed Surface Scanner
         20301   => 'sensor_fastscan',
         20302   => 'sensor_longrange',
         20303   => 'sensor_wideangle',
-        
+
+        // OPTIONAL INTERNAL - Surface Scanner
+        20351   => 'sensor_expanded',
+
         // OPTIONAL INTERNAL - Frame Shift Drive Interdictor
         20401   => 'fsdinterdictor_expanded',
         20402   => 'fsdinterdictor_longrange',
 
         // OPTIONAL INTERNAL - Fuel Scoop
         20501   => 'misc_shielded',
-                
+
         // OPTIONAL INTERNAL - Fuel Transfer Limpet Controller
         20601   => 'misc_lightweight',
         20602   => 'misc_reinforced',
         20603   => 'misc_shielded',
-        
+
         // OPTIONAL INTERNAL - Hatch Breaker Limpet Controller
         20701   => 'misc_lightweight',
         20702   => 'misc_reinforced',
         20703   => 'misc_shielded',
-        
+
         // OPTIONAL INTERNAL - Hull Reinforcement Package
         20801   => 'hullreinforcement_explosive',
         20802   => 'hullreinforcement_heavyduty',
         20803   => 'hullreinforcement_kinetic',
         20804   => 'hullreinforcement_advanced',
         20805   => 'hullreinforcement_thermic',
-        
+
         // OPTIONAL INTERNAL - Prospector Limpet Controller
         20901   => 'misc_lightweight',
         20902   => 'misc_reinforced',
         20903   => 'misc_shielded',
-        
+
         // OPTIONAL INTERNAL - Refinery
         21001   => 'misc_shielded',
-        
+
         // OPTIONAL INTERNAL - Shield Cell Bank
         21101   => 'shieldcellbank_rapid',
         21102   => 'shieldcellbank_specialised',
-        
+
         // OPTIONAL INTERNAL - Shield Generator
         21201   => 'shieldgenerator_optimised',
         21202   => 'shieldgenerator_kinetic',
         21203   => 'shieldgenerator_reinforced',
         21204   => 'shieldgenerator_thermic',
-        
+
         // CORE INTERNAL - Frame Shift Drive
         30101   => 'fsd_fastboot',
         30102   => 'fsd_longrange',
         30103   => 'fsd_shielded',
-        
+
         // CORE INTERNAL - Life Support
         30201   => 'misc_lightweight',
         30202   => 'misc_reinforced',
         30203   => 'misc_shielded',
-        
+
         // CORE INTERNAL - Power Distributor
         30301   => 'powerdistributor_highfrequency',
         30302   => 'powerdistributor_priorityengines',
@@ -738,22 +747,22 @@ class Type extends Alias
         30304   => 'powerdistributor_shielded',
         30305   => 'powerdistributor_prioritysystems',
         30306   => 'powerdistributor_priorityweapons',
-        
+
         // CORE INTERNAL - Power Plant
         30401   => 'powerplant_armoured',
         30402   => 'powerplant_stealth',
         30403   => 'powerplant_boosted',
-        
+
         // CORE INTERNAL - Sensors
         30501   => 'sensor_lightweight',
         30502   => 'sensor_longrange',
         30503   => 'sensor_wideangle',
-        
+
         // CORE INTERNAL - Thrusters
         30601   => 'engine_tuned',
         30602   => 'engine_dirty',
         30603   => 'engine_reinforced',
-        
+
         // ARMOUR
         40101   => 'armour_explosive',
         40102   => 'armour_heavyduty',
