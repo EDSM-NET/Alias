@@ -66,7 +66,7 @@ class Type extends Alias
          230        => 'Personal Gifts',
          231        => "Shan's Charis Orchid",
          232        => 'Ophiuch Exino Artefacts',
-         233        => 'Bucky Ball Beer Mats',
+         233        => 'Buckyball Beer Mats',
          234        => 'Duradrives',
 
 
@@ -77,9 +77,9 @@ class Type extends Alias
          304        => 'Tobacco',
          305        => 'Wine',
          306        => 'Eranin Pearl Whisky',
-         307        => 'Lucan Onion Head',
+         307        => 'Lucan Onionhead',
          308        => 'Motrona Experience Jelly',
-         309        => 'Onion Head',
+         309        => 'Onionhead',
          310        => 'Rusani Old Smokey',
          311        => 'Tarach Spice',
          312        => 'Wolf Fesh',
@@ -119,12 +119,12 @@ class Type extends Alias
          408        => 'Synthetic Meat',
          409        => 'Tea',
          410        => 'HIP 10175 Bush Meat',
-         411        => 'Albino Quechua Mammoth',
+         411        => 'Albino Quechua Mammoth Meat',
          412        => 'Utgaroar Millennial Eggs',
          413        => 'Witchhaul Kobe Beef',
          414        => 'Karsuki Locusts',
          415        => 'Giant Irukama Snails',
-         416        => 'Baltah Sine Vacuum Krill',
+         416        => "Baltah'sine Vacuum Krill",
          417        => 'Ceti Rabbits',
          418        => 'Any Na Coffee',
          419        => 'CD-75 Kitten Brand Coffee',
@@ -146,12 +146,12 @@ class Type extends Alias
          435        => 'Ceremonial Heike Tea',              /**/
          436        => 'Tanmark Tranquil Tea',              /**/
          437        => 'Aepyornis Egg',                     /**/
-         438        => 'Haidne Black Brew',                 /**/
+         438        => 'Haiden Black Brew',                 /**/
          439        => 'Void Extract Coffee',               /**/
-         440        => 'LTT Hypersweet',                    /**/
+         440        => 'LTT Hyper Sweet',                   /**/
          441        => 'Mechucos High Tea',                 /**/
          442        => 'Mokojing Beast Feast',              /**/
-         443        => 'Mukusubii Chitin-Os',               /**/
+         443        => 'Mukusubii Chitin-os',               /**/
          444        => 'Mulachi Giant Fungus',              /**/
          445        => 'Wheemete Wheat Cakes',              /**/
          446        => 'Arouca Conventual Sweets',          /**/
@@ -170,7 +170,7 @@ class Type extends Alias
          506        => 'Medb Starlube',                     /**/
          507        => 'Insulating Membrane',
          508        => 'CMM Composite',
-         509        => 'Micro-Weave Cooling Hoses',
+         509        => 'Micro-weave Cooling Hoses',
          510        => 'Neofabric Insulation',
 
 
@@ -213,7 +213,7 @@ class Type extends Alias
          706        => 'Terra Mater Blood Bores',
          707        => 'Kachirigin Filter Leeches',
          708        => 'Aganippe Rush',                     /**/
-         709        => 'Waters Of Shintara',                /**/
+         709        => 'The Waters Of Shintara',            /**/
          710        => 'Honesty Pills',                     /**/
          711        => 'V Herculis Body Rub',               /**/
          712        => 'Vega Slimweed',                     /**/
@@ -272,7 +272,7 @@ class Type extends Alias
          917        => 'Jadeite',
          918        => 'Bromellite',
          919        => 'Low Temperature Diamonds',
-         920        => 'Methanol Monohydrate',
+         920        => 'Methanol Monohydrate Crystals',
          921        => 'Lithium Hydroxide',
          922        => 'Methane Clathrate',
          923        => 'Rhodplumsite',
@@ -305,7 +305,7 @@ class Type extends Alias
         1111        => 'Structural Regulators',
         1112        => 'Muon Imager',
         1113        => 'Xihe Biomorphic Companions',        /**/
-        1114        => 'Az Cancri Formula 42',              /**/
+        1114        => 'AZ Cancri Formula 42',              /**/
         1115        => 'Nanobreakers',
         1116        => 'Telemetry Suite',
         1117        => 'Micro Controllers',
@@ -336,7 +336,7 @@ class Type extends Alias
 
 
         // Weapons (14)
-        1401        => 'Non-lethal Weapons',
+        1401        => 'Non-Lethal Weapons',
         1402        => 'Personal Weapons',
         1403        => 'Reactive Armour',
         1404        => 'Battle Weapons',
@@ -353,12 +353,12 @@ class Type extends Alias
 
 
         // Salvage (16)
-        1601        => 'Ai Relics',
+        1601        => 'AI Relics',
         1602        => 'Antiquities',
-        1603        => 'Sap 8 Core Container',
-        1604        => 'Trinkets Of Hidden Fortune',
+        1603        => 'SAP 8 Core Container',
+        1604        => 'Trinkets of Hidden Fortune',
         1605        => 'Trade Data',
-        1606        => 'Occupied CryoPod',
+        1606        => 'Occupied Escape Pod',
         1607        => 'Black Box',
         1608        => 'Military Plans',
         1609        => 'Ancient Artefact',
@@ -379,8 +379,8 @@ class Type extends Alias
         1624        => 'Diplomatic Bag',
         1625        => 'Scientific Research',
         1626        => 'Scientific Samples',
-        1627        => 'Political Prisoners',
-        1628        => 'Hostages',
+        1627        => 'Political Prisoner',
+        1628        => 'Hostage',
         1629        => 'Geological Samples',
         1630        => 'Unstable Data Core',
         1631        => 'Occupied Escape Pod',
@@ -546,7 +546,7 @@ class Type extends Alias
         'onion head'                            => 309,     'onionhead'                     => 309,
         'rusani old smokey'                     => 310,     'rusanioldsmokey'               => 310,
         'tarach spice'                          => 311,     'tarachspice'                   => 311,     'tarachtorspice'                => 311,
-        'wolf fesh'                             => 312,     'wolffesh'                      => 312,
+        'wolf fesh'                             => 312,     'wolffesh'                      => 312,     'wolf1301fesh'                  => 312,
         'wuthielo ku froth'                     => 313,     'wuthielokufroth'               => 313,
         'bootleg liquor'                        => 314,     'bootlegliquor'                 => 314,
         'lavian brandy'                         => 315,     'lavianbrandy'                  => 315,
