@@ -544,6 +544,13 @@ class Classes extends Alias
         // Utility Mount > Shutdown Field Neutraliser
           2451  => 0,
 
+        // Utility Mount > Pulse Wave Analyser
+          2501  => 0,
+          2502  => 0,
+          2503  => 0,
+          2504  => 0,
+          2505  => 0,
+
         // Core Internal > Fuel Tank
           3001  => 1,
           3002  => 2,

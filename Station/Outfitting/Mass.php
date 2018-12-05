@@ -446,6 +446,7 @@ class Mass extends Alias
           1852  => 4,
           1853  => 8,
 
+          1855  => 2,
           1856  => 4,
           1857  => 8,
 
@@ -509,6 +510,13 @@ class Mass extends Alias
 
         // Utility Mount > Shutdown Field Neutraliser
           2451  => 1.3,
+
+        // Utility Mount > Pulse Wave Analyser
+          2501  => 1.3,
+          2502  => 1.3,
+          2503  => 1.3,
+          2504  => 1.3,
+          2505  => 1.3,
 
         // Core Internal > Fuel Tank
           3000  => 0,

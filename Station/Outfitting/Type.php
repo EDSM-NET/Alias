@@ -542,6 +542,13 @@ class Type extends Alias
         // Utility Mount > Shutdown Field Neutraliser
           2451  => 'Shutdown Field Neutraliser',
 
+        // Utility Mount > Pulse Wave Analyser
+          2501  => 'Pulse Wave Analyser',
+          2502  => 'Pulse Wave Analyser',
+          2503  => 'Pulse Wave Analyser',
+          2504  => 'Pulse Wave Analyser',
+          2505  => 'Pulse Wave Analyser',
+
         // Core Internal > Fuel Tank
           3000  => 'Fuel Tank (Free)', // Not in category
           3001  => 'Fuel Tank',
@@ -2004,6 +2011,13 @@ class Type extends Alias
 
         // Utility Mount > Shutdown Field Neutraliser
         'hpt_antiunknownshutdown_tiny'                  => 2451,
+
+        // Utility Mount > Pulse Wave Analyser
+        'hpt_mrascanner_size0_class1'                   => 2501,
+        'hpt_mrascanner_size0_class2'                   => 2502,
+        'hpt_mrascanner_size0_class3'                   => 2503,
+        'hpt_mrascanner_size0_class4'                   => 2504,
+        'hpt_mrascanner_size0_class5'                   => 2505,
 
         // Core Internal > Fuel Tank
         'int_fueltank_size1_class3_free'                => 3000, // Not in category

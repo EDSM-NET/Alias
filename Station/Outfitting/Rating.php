@@ -544,6 +544,13 @@ class Rating extends Alias
         // Utility Mount > Shutdown Field Neutraliser
           2451  => 'F',
 
+        // Utility Mount > Pulse Wave Analyser
+          2501  => 'E',
+          2502  => 'D',
+          2503  => 'C',
+          2504  => 'B',
+          2505  => 'A',
+
         // Core Internal > Fuel Tank
           3001  => 'C',
           3002  => 'C',

@@ -224,6 +224,9 @@ class Category extends Alias
             'Shutdown Field Neutraliser'        => [
                 2451,
             ],
+            'Pulse Wave Analyser'               => [
+                2501, 2502, 2503, 2504, 2505,
+            ],
         ],
 
         // Core Internal

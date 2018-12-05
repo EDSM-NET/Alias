@@ -51,6 +51,7 @@ class Power extends Alias
         'Kill Warrant Scanner',
         'Xeno Scanner',
         'Shutdown Field Neutraliser',
+        'Pulse Wave Analyser',
 
         // Core Internal
         'Thrusters',
@@ -143,6 +144,7 @@ class Power extends Alias
 
           1021  => 0.69,
 
+          1031  => 1.91,
           1032  => 2.61,
 
         // Weapon Hardpoint > Pulse Laser
@@ -301,6 +303,7 @@ class Power extends Alias
           1852  => 0.57,
           1853  => 0.89,
 
+          1855  => 0.47,
           1856  => 0.61,
           1857  => 0.89,
 
@@ -364,6 +367,13 @@ class Power extends Alias
 
         // Utility Mount > Shutdown Field Neutraliser
           2451  => 0.2,
+
+        // Utility Mount > Pulse Wave Analyser
+          2501  => 0.2,
+          2502  => 0.4,
+          2503  => 0.8,
+          2504  => 1.6,
+          2505  => 3.2,
 
         // Core Internal > Fuel Tank
           3001  => 0,   3002  => 0,     3003  => 0,     3004  => 0,     3005  => 0,     3006  => 0,     3007  => 0,     3008  => 0,
