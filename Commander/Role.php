@@ -24,9 +24,9 @@ class Role extends Alias
         90  => 'Geologist',
         100 => 'Scientist',
         110 => 'Miner',
-        120 => 'Medicorp',
+        120 => 'MediCorp',
         130 => 'Fleet Logistics',
-             
+
         999 => 'Media',
     ];
 }
