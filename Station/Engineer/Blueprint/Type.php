@@ -521,7 +521,7 @@ class Type extends Alias
     /**
      * List of blueprint names on the LoadOut event
      */
-    static protected $nameLoadout  = [
+    static public $nameLoadout  = [
         // HARDPOINT - Beam Laser
         101     => 'weapon_efficient',
         102     => 'weapon_lightweight',
