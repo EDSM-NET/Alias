@@ -7,7 +7,7 @@
 namespace   Alias\Station\Outfitting;
 use         EDSM\Alias;
 
-class Power extends Alias
+class PowerDraw extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Power';
@@ -129,12 +129,12 @@ class Power extends Alias
 
         // Weapon Hardpoint > Beam Laser
           1001  => 0.62,
-          1002  => 1.62,
+          1002  => 1.01,
           1003  => 1.62,
           1004  => 2.61,
 
           1005  => 0.6,
-          1006  => 0.99,
+          1006  => 1,
           1007  => 1.6,
           1008  => 2.57,
 
