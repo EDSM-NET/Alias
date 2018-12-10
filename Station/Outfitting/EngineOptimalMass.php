@@ -17,7 +17,7 @@ class EngineOptimalMass extends Alias
      * List of categories
      */
     static protected $have          = [
-        'Thrusters',
+        'Thruster Mounting',
     ];
 
     /**

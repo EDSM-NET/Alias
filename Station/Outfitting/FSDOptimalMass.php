@@ -17,7 +17,7 @@ class FSDOptimalMass extends Alias
      * List of categories
      */
     static protected $have          = [
-        'Frame Shift Drive',
+        'FSD Housing',
     ];
 
     /**

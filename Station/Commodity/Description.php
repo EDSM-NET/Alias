@@ -439,6 +439,7 @@ class Description extends Alias
                         Consumed by: All but High Tech<br />
                         <br />
                         These medicines are specially tailored to counteract the most virulent of diseases, whilst causing the minimum of damage to the host.',
+        718         => 'These sophisticated pharmaceuticals use nanoscale materials to target disease far more efficiently than conventional medicine. The product of an ambitious research-and-development programme, they are developed exclusively in the Antal system by the technologically advanced community Utopia.',
 
         // Metals (8)
          801        => 'Produced by: Refinery<br />
@@ -614,14 +615,14 @@ class Description extends Alias
                         Consumed by: Refinery<br />
                         <br />
                         Methane Clathrate, CH4·5.75H2O or 4CH4·23H2O, is a chemical where methane is bound within a crystal lattice of water.',
-         923        => null,
-         924        => null,
-         925        => null,
-         926        => null,
-         927        => null,
-         928        => null,
-         929        => null,
-         930        => null,
+         923        => 'Rhodplumsite is a rhodium-lead sulphide mineral distinguished by the fact that it exhibits different colours when viewed from different angles, appearing white, creamy pink or grayish blue.',
+         924        => 'Serendibite is a pale yellow, blue-green or greyish blue silicate mineral that takes its name from Serendib, the old Arabic name for Sri Lanka.',
+         925        => 'Monazite is a reddish-brown phosphate mineral containing thorium and sometimes uranium, making it radioactive.',
+         926        => 'Musgravite is an oxide mineral first discovered on Earth in the Musgrave mountain range in Australia, hence its name.',
+         927        => 'Benitoite is a blue barium titanium silicate mineral that appears fluorescent under shortwave ultraviolet light.',
+         928        => 'Grandidierite is bluish-green nesosilicate mineral distinguished by the fact that it exhibits different colours when viewed from different angles.',
+         929        => 'Alexandrite is a form of chrysoberyl characterised by the fact that it exhibits different colours when viewed from different angles and under different light conditions.',
+         930        => 'Void opals are a mineraloid prized by various cultures. Their lack of reflectivity means that they seem almost to absorb light, hence their name.',
 
         // Slavery (10)
         1001        => 'Produced by: Agricultural<br />

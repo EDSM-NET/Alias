@@ -16,7 +16,7 @@ class MaxAngle extends Alias
      * List of categories
      */
     static protected $have          = [
-
+        'Wake Scanners',
     ];
 
     /**
@@ -24,5 +24,8 @@ class MaxAngle extends Alias
      */
     static protected $name          = [
 
+
+        // Utility Mount > Frame Shift Wake Scanner
+          2305  => 15,
     ];
 }

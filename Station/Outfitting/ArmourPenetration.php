@@ -16,7 +16,7 @@ class ArmourPenetration extends Alias
      * List of categories
      */
     static protected $have          = [
-
+        'Multi-Cannons',
     ];
 
     /**
@@ -24,5 +24,8 @@ class ArmourPenetration extends Alias
      */
     static protected $name          = [
 
+
+        // Weapon Hardpoint > Multi-Cannon
+          1257  => 54,
     ];
 }

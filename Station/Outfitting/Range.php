@@ -22,18 +22,18 @@ class Range extends Alias
      * List of categories
      */
     static protected $have          = [
-        'Electronic Countermeasure',
-        'Cargo Scanner',
-        'Frame Shift Wake Scanner',
-        'Kill Warrant Scanner',
+        // Utility Mount
+        'ECMs',
 
-        'Sensors',
+        // Core Internal
+        'Sensor Suite',
 
-        'Discovery Scanner', // ls
-        'Hatch Breaker Limpet Controller',
-        'Collector Limpet Controller',
-        'Fuel Transfer Limpet Controller',
-        'Prospector Limpet Controller',
+        // Optional Internal
+        'Stellar Body Scanners', // ls
+        'Hatch Breaker Limpets',
+        'Collection Limpets',
+        'Fuel Transfer Limpets',
+        'Prospector Limpets',
     ];
 
     /**
@@ -42,27 +42,6 @@ class Range extends Alias
     static protected $name          = [
         // Utility Mount > Electronic Countermeasure
           2100  => 3000,
-
-        // Utility Mount > Cargo Scanner
-          2251  => 2000,
-          2252  => 2500,
-          2253  => 3000,
-          2254  => 3500,
-          2255  => 4000,
-
-        // Utility Mount > Frame Shift Wake Scanner
-          2301  => 2000,
-          2302  => 2500,
-          2303  => 3000,
-          2304  => 3500,
-          2305  => 4000,
-
-        // Utility Mount > Kill Warrant Scanner
-          2351  => 2000,
-          2352  => 2500,
-          2353  => 3000,
-          2354  => 3500,
-          2355  => 4000,
 
         // Core Internal > Sensors
           3601  => 4000,

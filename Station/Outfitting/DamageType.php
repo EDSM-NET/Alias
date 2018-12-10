@@ -7,16 +7,16 @@
 namespace   Alias\Station\Outfitting;
 use         EDSM\Alias;
 
-class DefenceModifierHealthAddition extends Alias
+class DamageType extends Alias
 {
     static protected $defaultName       = null;
-    static protected $representation    = 'Defence Modifier Health Addition';
+    static protected $representation    = 'Damage Type';
 
     /**
      * List of categories
      */
     static protected $have          = [
-        'Hull Reinforcements',
+
     ];
 
     /**
@@ -24,14 +24,5 @@ class DefenceModifierHealthAddition extends Alias
      */
     static protected $name          = [
 
-
-        // Optional Internal > Hull Reinforcement Package
-          4812  => 190,
-
-          4822  => 260,
-
-          4832  => 330,
-
-          4842  => 390,
     ];
 }

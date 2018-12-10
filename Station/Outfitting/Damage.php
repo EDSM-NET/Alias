@@ -17,19 +17,16 @@ class Damage extends Alias
      */
     static protected $have          = [
         // Weapon Hardpoint
-        'Beam Laser',
-        'Pulse Laser',
-        'Burst Laser',
-        'Cannon',
-        'Fragment Cannon',
-        'Multi-Cannon',
-        'Plasma Accelerator',
-        'Rail Gun',
-        'Missile Rack',
-        'Mine Launcher',
-        'Mining Laser',
-        'Torpedo Pylon',
-        'Shock Mine Launcher',
+        'Beam Lasers',
+        'Pulse Lasers',
+        'Burst Lasers',
+        'Cannons',
+        'Fragment Cannons',
+        'Multi-Cannons',
+        'Plasma Accelerators',
+        'Rail Guns',
+        'Missiles',
+        'Mines',
     ];
 
     /**
@@ -53,7 +50,7 @@ class Damage extends Alias
 
         // Weapon Hardpoint > Pulse Laser
           1051  => 2.05,
-          1052  => 3,
+          1052  => 3.5,
           1053  => 5.98,
           1054  => null,
 
@@ -67,8 +64,8 @@ class Damage extends Alias
           1061  => 3.5,
 
         // Weapon Hardpoint > Burst Laser
-          1101  => 2,
-          1102  => 3,
+          1101  => 1.72,
+          1102  => 3.53,
           1103  => 4,
           1104  => null,
 
@@ -83,26 +80,26 @@ class Damage extends Alias
 
         // Weapon Hardpoint > Cannon
           1151  => 22.5,
-          1152  => 6,
-          1153  => 7,
+          1152  => 36.875,
+          1153  => 55.625,
           1154  => 9,
 
           1155  => 15.92,
-          1156  => 6,
-          1157  => 7,
+          1156  => 25.530001,
+          1157  => 37.421001,
           1158  => 56.59,
 
           1159  => 12.77,
-          1160  => 5,
+          1160  => 19.790001,
           1161  => 30.34,
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 2,
-          1202  => 3,
-          1203  => 3,
+          1202  => 2.985,
+          1203  => 4.57,
 
-          1205  => 2,
-          1206  => 2,
+          1205  => 1.01,
+          1206  => 2.274,
           1207  => 3.77,
 
           1209  => 1,
@@ -110,36 +107,48 @@ class Damage extends Alias
           1211  => 2,
 
         // Weapon Hardpoint > Multi-Cannon
-          1251  => 2,
+          1251  => 1.12,
           1252  => 2.19,
-          1253  => null,
+          1253  => 3.925,
           1254  => null,
 
           1255  => 0.82,
           1256  => 1.64,
-          1257  => null,
-          1258  => null,
+          1257  => 2.84,
+          1258  => 3.46,
 
           1259  => null,
           1260  => 1.17,
 
         // Weapon Hardpoint > Plasma Accelerator
-          1302  => 7,
-          1303  => 9,
+          1302  => 54.299999,
+          1303  => 83.400002,
           1304  => 125.25,
+
+          1313  => 34.400002,
+
+          1321  => null,
+          1322  => null,
+          1323  => null,
+
+          1329  => null,
+          1330  => null,
+          1331  => null,
 
         // Weapon Hardpoint > Rail Gun
           1351  => 23.34,
-          1352  => 7,
+          1352  => 41.529999,
+
+          1362  => 15,
 
         // Weapon Hardpoint > Missile Rack
           1401  => 40,
           1402  => 40,
-          1405  => 7,
-          1406  => 7,
+          1405  => 50,
+          1406  => 50,
 
         // Weapon Hardpoint > Mine Launcher
-          1451  => null,
+          1451  => 44,
           1452  => null,
 
         // Weapon Hardpoint > Mining Laser

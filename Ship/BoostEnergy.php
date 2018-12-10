@@ -98,7 +98,7 @@ class BoostEnergy extends Alias
         128839281               => 13,
 
         // Mamba
-        128915979               => 17,
+        128915979               => 19,
 
         // Orca
         128049327               => 16,

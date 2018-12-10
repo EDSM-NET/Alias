@@ -98,7 +98,7 @@ class BoostSpeed extends Alias
         128839281               => 350,
 
         // Mamba
-        128915979               => 380,
+        128915979               => 370,
 
         // Orca
         128049327               => 380,

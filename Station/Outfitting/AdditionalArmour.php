@@ -11,14 +11,14 @@ class AdditionalArmour extends Alias
 {
     static protected $defaultName       = 0;
     static protected $representation    = 'Additional Armour';
-    
+
     /**
      * List of categories
      */
     static protected $have          = [
-        'Hull Reinforcement Package',
+        'Hull Reinforcements',
     ];
-    
+
     /**
      * Number by outfitting
      */
@@ -26,16 +26,16 @@ class AdditionalArmour extends Alias
         // Optional Internal > Hull Reinforcement Package
           4801  => 80,
           4802  => 110,
-        
+
           4811  => 150,
           4812  => 190,
-        
+
           4821  => 230,
           4822  => 260,
-        
+
           4831  => 300,
           4832  => 330,
-        
+
           4841  => 360,
           4842  => 390,
     ];

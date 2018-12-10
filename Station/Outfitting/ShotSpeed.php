@@ -16,7 +16,7 @@ class ShotSpeed extends Alias
      * List of categories
      */
     static protected $have          = [
-
+        'Multi-Cannons',
     ];
 
     /**
@@ -24,5 +24,8 @@ class ShotSpeed extends Alias
      */
     static protected $name          = [
 
+
+        // Weapon Hardpoint > Multi-Cannon
+          1257  => 1600,
     ];
 }

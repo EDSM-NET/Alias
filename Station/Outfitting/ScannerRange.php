@@ -7,10 +7,10 @@
 namespace   Alias\Station\Outfitting;
 use         EDSM\Alias;
 
-class ScannerTimeToScan extends Alias
+class ScannerRange extends Alias
 {
     static protected $defaultName       = null;
-    static protected $representation    = 'Scanner Time To Scan';
+    static protected $representation    = 'Scanner Range';
 
     /**
      * List of categories
@@ -26,24 +26,24 @@ class ScannerTimeToScan extends Alias
      */
     static protected $name          = [
         // Utility Mount > Cargo Scanner
-          2251  => 10,
-          2252  => 10,
-          2253  => 10,
-          2254  => 10,
-          2255  => 10,
+          2251  => 2000,
+          2252  => 2500,
+          2253  => 3000,
+          2254  => 3500,
+          2255  => 4000,
 
         // Utility Mount > Frame Shift Wake Scanner
-          2301  => 10,
-          2302  => 10,
-          2303  => 10,
-          2304  => 10,
-          2305  => 10,
+          2301  => 2000,
+          2302  => 2500,
+          2303  => 3000,
+          2304  => 3500,
+          2305  => 4000,
 
         // Utility Mount > Kill Warrant Scanner
-          2351  => 10,
-          2352  => 10,
-          2353  => 10,
-          2354  => 10,
-          2355  => 10,
+          2351  => 2000,
+          2352  => 2500,
+          2353  => 3000,
+          2354  => 3500,
+          2355  => 4000,
     ];
 }

@@ -11,23 +11,23 @@ class BayFighters extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Fighters/bay';
-    
+
     /**
      * List of categories
      */
     static protected $have          = [
-        'Fighter Hangar',
+        'Fighter Hangars',
     ];
-    
+
     /**
      * Number by outfitting
      */
     static protected $name          = [
         // Optional Internal > Fighter Hangar
           5541  => 6,
-        
+
           5551  => 8,
-        
+
           5561  => 15,
     ];
 }

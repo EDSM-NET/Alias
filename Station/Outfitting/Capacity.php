@@ -12,15 +12,15 @@ class Capacity extends Alias
     static protected $defaultName       = null;
     static protected $representation    = 'Capacity';
     static protected $unit              = '%1$s t';
-    
+
     /**
      * List of categories
      */
     static protected $have          = [
-        'Fuel Tank',
-        'Cargo Rack',
+        'Fuel Store',
+        'Cargo Racks',
     ];
-    
+
     /**
      * Number by outfitting
      */
@@ -34,7 +34,7 @@ class Capacity extends Alias
           3006  => 64,
           3007  => 128,
           3008  => 256,
-        
+
         // Optional Internal > Cargo Rack
           4021  => 2,
           4022  => 4,
@@ -44,7 +44,7 @@ class Capacity extends Alias
           4026  => 64,
           4027  => 128,
           4028  => 256,
-          
+
           4031  => 2,
           4032  => 1,
           4033  => 4,

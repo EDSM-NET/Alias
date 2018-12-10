@@ -16,117 +16,55 @@ class PowerDraw extends Alias
     /**
      * List of categories
      */
-    static protected $have          = [
-        // Weapon Hardpoint
-        'Beam Laser',
-        'Pulse Laser',
-        'Burst Laser',
-        'Cannon',
-        'Fragment Cannon',
-        'Multi-Cannon',
-        'Plasma Accelerator',
-        'Rail Gun',
-        'Missile Rack',
-        'Mine Launcher',
-        'Mining Tools',
-        'Torpedo Pylon',
-        'Shock Mine Launcher',
-        'AX Missile Rack',
-        'AX Multi-Cannon',
-        'Remote Release Flak Launcher',
-        'Remote Release Flechette Launcher',
-        'Pack-Hound Missile Rack',
-        'Shock Cannon',
-        'Enzyme Missile Rack',
-        'Shard Cannon',
-
-        // Utility Mount
-        'Shield Booster',
-        'Chaff Launcher',
-        'Electronic Countermeasure',
-        'Heat Sink Launcher',
-        'Point Defence',
-        'Cargo Scanner',
-        'Frame Shift Wake Scanner',
-        'Kill Warrant Scanner',
-        'Xeno Scanner',
-        'Shutdown Field Neutraliser',
-        'Pulse Wave Analyser',
+    static protected $exclude           = [
+        // Bulkheads
+        128049267,  // Adder
+        128816588,  // Alliance Challenger
+        128816574,  // Alliance Chieftain
+        128816581,  // Alliance Crusader
+        128049363,  // Anaconda
+        128049303,  // Asp Explorer
+        128672276,  // Asp Scout
+        128049345,  // Beluga Liner
+        128049279,  // Cobra MkIII
+        128672262,  // Cobra MkIV
+        128671831,  // Diamondback Explorer
+        128671217,  // Diamondback Scout
+        128049291,  // Dolphin
+        128049255,  // Eagle
+        128672145,  // Federal Assault Ship
+        128049369,  // Federal Corvette
+        128049321,  // Federal Dropship
+        128672152,  // Federal Gunship
+        128049351,  // Fer-de-Lance
+        128049261,  // Hauler
+        128049315,  // Imperial Clipper
+        128671223,  // Imperial Courrier
+        128049375,  // Imperial Cutter
+        128672138,  // Imperial Eagle
+        128672269,  // Keelback
+        128816567,  // Krait MkII
+        128839281,  // Krait Phantom
+        128915979,  // Mamba
+        128049327,  // Orca
+        128049339,  // Python
+        128049249,  // Sidewinder
+        128049285,  // Type-6 Transporter
+        128049297,  // Type-7 Transporter
+        128049333,  // Type-9 Heavy
+        128785619,  // Type-10 Defender
+        128049273,  // Viper MkIII
+        128672255,  // Viper MkIV
+        128049309,  // Vulture
 
         // Core Internal
-        'Thrusters',
-        'Frame Shift Drive',
-        'Life Support',
-        'Power Distributor',
-        'Sensors',
-        'Guardian FSD Booster',
-
-        // Optional Internal
-        'Detailed Surface Scanner',
-        'Standard Docking Computer',
-        'Shield Generator',
-        'Shield Cell Bank',
-        'Fuel Scoop',
-        'Refinery',
-        'Frame Shift Drive Interdictor',
-        'Hatch Breaker Limpet Controller',
-        'Auto Field-Maintenance Unit',
-        'Collector Limpet Controller',
-        'Fuel Transfer Limpet Controller',
-        'Prospector Limpet Controller',
-        'Planetary Vehicle Hangar',
-        'Fighter Hangar',
-        'Repair Limpet Controller',
-        'Research Limpet Controller',
-        'Decontamination Limpet Controller',
-        'Recon Limpet Controller',
-        'Guardian Hull Reinforcement',
-        'Guardian Shield Reinforcement',
-        'Guardian Module Reinforcement',
+        'Reactor Bay',
     ];
 
     /**
      * Number by outfitting
      */
     static protected $name          = [
-        // Bulkhead
-             1  => 0,     2  => 0,    3  => 0,    4  => 0,    5  => 0,
-            11  => 0,    12  => 0,   13  => 0,   14  => 0,   15  => 0,
-            21  => 0,    22  => 0,   23  => 0,   24  => 0,   25  => 0,
-            31  => 0,    32  => 0,   33  => 0,   34  => 0,   35  => 0,
-            41  => 0,    42  => 0,   43  => 0,   44  => 0,   45  => 0,
-            51  => 0,    52  => 0,   53  => 0,   54  => 0,   55  => 0,
-            61  => 0,    62  => 0,   63  => 0,   64  => 0,   65  => 0,
-            71  => 0,    72  => 0,   73  => 0,   74  => 0,   75  => 0,
-            81  => 0,    82  => 0,   83  => 0,   84  => 0,   85  => 0,
-            91  => 0,    92  => 0,   93  => 0,   94  => 0,   95  => 0,
-           101  => 0,   102  => 0,  103  => 0,  104  => 0,  105  => 0,
-           111  => 0,   112  => 0,  113  => 0,  114  => 0,  115  => 0,
-           121  => 0,   122  => 0,  123  => 0,  124  => 0,  125  => 0,
-           131  => 0,   132  => 0,  133  => 0,  134  => 0,  135  => 0,
-           141  => 0,   142  => 0,  143  => 0,  144  => 0,  145  => 0,
-           151  => 0,   152  => 0,  153  => 0,  154  => 0,  155  => 0,
-           161  => 0,   162  => 0,  163  => 0,  164  => 0,  165  => 0,
-           171  => 0,   172  => 0,  173  => 0,  174  => 0,  175  => 0,
-           181  => 0,   182  => 0,  183  => 0,  184  => 0,  185  => 0,
-           191  => 0,   192  => 0,  193  => 0,  194  => 0,  195  => 0,
-           201  => 0,   202  => 0,  203  => 0,  204  => 0,  205  => 0,
-           211  => 0,   212  => 0,  213  => 0,  214  => 0,  215  => 0,
-           221  => 0,   222  => 0,  223  => 0,  224  => 0,  225  => 0,
-           231  => 0,   232  => 0,  233  => 0,  234  => 0,  235  => 0,
-           241  => 0,   242  => 0,  243  => 0,  244  => 0,  245  => 0,
-           251  => 0,   252  => 0,  253  => 0,  254  => 0,  255  => 0,
-           261  => 0,   262  => 0,  263  => 0,  264  => 0,  265  => 0,
-           271  => 0,   272  => 0,  273  => 0,  274  => 0,  275  => 0,
-           281  => 0,   282  => 0,  283  => 0,  284  => 0,  285  => 0,
-           291  => 0,   292  => 0,  293  => 0,  294  => 0,  295  => 0,
-           301  => 0,   302  => 0,  303  => 0,  304  => 0,  305  => 0,
-           311  => 0,   312  => 0,  313  => 0,  314  => 0,  315  => 0,
-           321  => 0,   322  => 0,  323  => 0,  324  => 0,  325  => 0,
-           331  => 0,   332  => 0,  333  => 0,  334  => 0,  335  => 0,
-           341  => 0,   342  => 0,  343  => 0,  344  => 0,  345  => 0,
-           351  => 0,   352  => 0,  353  => 0,  354  => 0,  355  => 0,
-
         // Weapon Hardpoint > Beam Laser
           1001  => 0.62,
           1002  => 1.01,
@@ -667,7 +605,7 @@ class PowerDraw extends Alias
           4113  => 1.5,
           4114  => 1.5,
           4115  => 1.8,
-          4116  => 2.5,
+          4116  => 2.1,
           4117  => 3.15,
 
           4121  => 1.08,

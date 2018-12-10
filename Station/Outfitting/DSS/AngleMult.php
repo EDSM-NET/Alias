@@ -7,16 +7,16 @@
 namespace   Alias\Station\Outfitting;
 use         EDSM\Alias;
 
-class DefenceModifierHealthAddition extends Alias
+class DSS_AngleMult extends Alias
 {
     static protected $defaultName       = null;
-    static protected $representation    = 'Defence Modifier Health Addition';
+    static protected $representation    = 'DSS Angle Mult';
 
     /**
      * List of categories
      */
     static protected $have          = [
-        'Hull Reinforcements',
+        'Detailed Surface Scanner',
     ];
 
     /**
@@ -25,13 +25,7 @@ class DefenceModifierHealthAddition extends Alias
     static protected $name          = [
 
 
-        // Optional Internal > Hull Reinforcement Package
-          4812  => 190,
-
-          4822  => 260,
-
-          4832  => 330,
-
-          4842  => 390,
+        // Optional Internal > Detailed Surface Scanner
+          4011  => 0,
     ];
 }

@@ -11,14 +11,14 @@ class Bin extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Bin(s)';
-    
+
     /**
      * List of categories
      */
     static protected $have          = [
-        'Refinery',
+        'Refineries',
     ];
-    
+
     /**
      * Number by outfitting
      */
@@ -29,19 +29,19 @@ class Bin extends Alias
           4403  => 2,
           4404  => 3,
           4405  => 4,
-        
+
           4411  => 2,
           4412  => 3,
           4413  => 4,
           4414  => 5,
           4415  => 6,
-        
+
           4421  => 3,
           4422  => 4,
           4423  => 6,
           4424  => 7,
           4425  => 8,
-        
+
           4431  => 4,
           4432  => 5,
           4433  => 7,
