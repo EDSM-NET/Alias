@@ -12,6 +12,7 @@ class PowerDraw extends Alias
     static protected $defaultName       = null;
     static protected $representation    = 'Power';
     static protected $unit              = '%1$s MW';
+    static protected $lessIsGood        = true;
 
     /**
      * List of categories
@@ -177,7 +178,9 @@ class PowerDraw extends Alias
           1322  => 2.13,
           1323  => 3.1,
 
+          1329  => 1.60,
           1330  => 2.01,
+          1330  => 2.53,
 
         // Weapon Hardpoint > Rail Gun
           1351  => 1.15,

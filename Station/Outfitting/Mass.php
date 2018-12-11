@@ -12,6 +12,7 @@ class Mass extends Alias
     static protected $defaultName       = null;
     static protected $representation    = 'Mass';
     static protected $unit              = '%1$s t';
+    static protected $lessIsGood        = true;
 
     /**
      * List of price by outfitting
@@ -379,9 +380,10 @@ class Mass extends Alias
 
           1321  => 2,
           1322  => 4,
-          1323  => 4,
+          1323  => 8,
 
-          1330  => 8,
+          1329  => 2,
+          1330  => 4,
           1331  => 8,
 
         // Weapon Hardpoint > Rail Gun
