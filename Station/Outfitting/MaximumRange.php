@@ -18,6 +18,8 @@ class MaximumRange extends Alias
      */
     static protected $have          = [
         'Beam Lasers',
+        'Burst Lasers',
+        'Cannons',
         'Fragment Cannons',
         'Multi-Cannons',
         'Plasma Accelerators',
@@ -67,6 +69,38 @@ class MaximumRange extends Alias
 
           1072  => 3000,
 
+        // Weapon Hardpoint > Burst Laser
+          1101  => 3000,
+          1102  => 3000,
+          1103  => 3000,
+          1104  => 3000,
+
+          1105  => 3000,
+          1106  => 3000,
+          1107  => 3000,
+          1108  => 3000,
+
+          1109  => 3000,
+          1110  => 3000,
+          1111  => 3000,
+
+          1121  => 1000,
+
+        // Weapon Hardpoint > Cannon
+          1151  => 3000,
+          1152  => 3500,
+          1153  => 4000,
+          1154  => 4500,
+
+          1155  => 3000,
+          1156  => 3500,
+          1157  => 4000,
+          1158  => 4500,
+
+          1159  => 3000,
+          1160  => 3500,
+          1161  => 4000,
+
         // Weapon Hardpoint > Fragment Cannon
           1201  => 2000,
           1202  => 2000,
@@ -76,9 +110,9 @@ class MaximumRange extends Alias
           1206  => 2000,
           1207  => 2000,
 
-          1209  => null,
-          1210  => null,
-          1211  => null,
+          1209  => 2000,
+          1210  => 2000,
+          1211  => 2000,
 
           1215  => 3000,
 

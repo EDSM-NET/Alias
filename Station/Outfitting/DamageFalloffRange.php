@@ -17,6 +17,9 @@ class DamageFalloffRange extends Alias
      */
     static protected $have          = [
         'Beam Lasers',
+        'Burst Lasers',
+        'Cannons',
+        'Multi-Cannons',
         'Plasma Accelerators',
         'Pulse Lasers',
         'Rail Guns',
@@ -63,6 +66,55 @@ class DamageFalloffRange extends Alias
           1061  => 500,
 
           1072  => 500,
+
+        // Weapon Hardpoint > Burst Laser
+          1101  => 500,
+          1102  => 500,
+          1103  => 500,
+          1104  => 500,
+
+          1105  => 500,
+          1106  => 500,
+          1107  => 500,
+          1108  => 500,
+
+          1109  => 500,
+          1110  => 500,
+          1111  => 500,
+
+          1121  => 600,
+
+        // Weapon Hardpoint > Cannon
+          1151  => 3000,
+          1152  => 3500,
+          1153  => 4000,
+          1154  => 4500,
+
+          1155  => 3000,
+          1156  => 3500,
+          1157  => 4000,
+          1158  => 4500,
+
+          1159  => 3000,
+          1160  => 3500,
+          1161  => 4000,
+
+        // Weapon Hardpoint > Multi-Cannon
+          1251  => 2000,
+          1252  => 2000,
+          1253  => 2000,
+          1254  => 2000,
+
+          1255  => 2000,
+          1256  => 2000,
+          1257  => 2000,
+          1258  => 2000,
+
+          1259  => 2000,
+          1260  => 2000,
+          1261  => 2000,
+
+          1271  => 2000,
 
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 2000,

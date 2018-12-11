@@ -337,6 +337,7 @@ class ExplosiveResistance extends Alias
         // Utility Mount > Shield Boosters
           2001  => 0,
           2002  => 0,
+          2003  => 0,
           2004  => 0,
           2005  => 0,
 
@@ -406,12 +407,19 @@ class ExplosiveResistance extends Alias
           4177  => 50,
 
         // Optional Internal > Hull Reinforcement Package
+          4801  => 0.5,
+          4802  => 0.5,
+
+          4811  => 0.999999,
           4812  => 0.999999,
 
+          4821  => 1.499999,
           4822  => 1.499999,
 
+          4831  => 1.999998,
           4832  => 1.999998,
 
+          4841  => 2.499998,
           4842  => 2.499998,
     ];
 }

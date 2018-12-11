@@ -16,12 +16,16 @@ class RateOfFire extends Alias
      * List of categories
      */
     static protected $have          = [
+        'Burst Lasers',
+        'Cannons',
         'Pulse Lasers',
         'Fragment Cannons',
         'Missiles',
         'Mines',
         'Multi-Cannons',
         'Pack-Hound Missile Rack',
+        'Plasma Accelerators',
+        'Rail Guns',
     ];
 
     /**
@@ -45,6 +49,38 @@ class RateOfFire extends Alias
           1061  => 2.702703,
 
           1072  => 1.666667,
+
+        // Weapon Hardpoint > Burst Laser
+          1101  => 4.736842,
+          1102  => 3.695409,
+          1103  => 2.68886,
+          1104  => null,
+
+          1105  => 5.284974,
+          1106  => 4.202586,
+          1107  => 3.218117,
+          1108  => 2.142857,
+
+          1109  => 4.79798,
+          1110  => 3.930131,
+          1111  => 3.119093,
+
+          1121  => 7.619048,
+
+        // Weapon Hardpoint > Cannon
+          1151  => 0.5,
+          1152  => null,
+          1153  => 0.420168,
+          1154  => 0.380228,
+
+          1155  => 0.520833,
+          1156  => 0.480769,
+          1157  => 0.440529,
+          1158  => 0.4,
+
+          1159  => 0.4329,
+          1160  => 0.4,
+          1161  => 0.367647,
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 5.555555,
@@ -78,6 +114,27 @@ class RateOfFire extends Alias
 
           1271  => 4.347826,
 
+        // Weapon Hardpoint > Plasma Accelerator
+          1302  => 0.330033,
+          1303  => 0.289855,
+          1304  => 0.25,
+
+          1313  => 0.833333,
+
+          1321  => null,
+          1322  => null,
+          1323  => null,
+
+          1329  => null,
+          1330  => null,
+          1331  => null,
+
+        // Weapon Hardpoint > Rail Gun
+          1351  => 1.587302,
+          1352  => 1.204819,
+
+          1362  => 4.090909,
+
         // Weapon Hardpoint > Missile Rack
           1401  => 0.333333,
           1402  => 0.333333,
@@ -92,6 +149,9 @@ class RateOfFire extends Alias
         // Weapon Hardpoint > Mine Launcher
           1451  => 1,
           1452  => 1,
+
+        // Weapon Hardpoint > Shock Mine Launcher
+          1601  => 1,
 
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 2,

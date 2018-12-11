@@ -100,6 +100,8 @@ class PowerDraw extends Alias
           1060  => 0.58,
           1061  => 0.89,
 
+          1072  => 0.7,
+
         // Weapon Hardpoint > Burst Laser
           1101  => 0.65,
           1102  => 1.05,
@@ -171,6 +173,7 @@ class PowerDraw extends Alias
 
           1313  => 1.97,
 
+          1321  => 1.4,
           1322  => 2.13,
           1323  => 3.1,
 

@@ -42,6 +42,7 @@ class Victim extends Alias
          66     => 'Storage Container',
          67     => 'Storage Containers',
          68     => 'Maintenance Pipe',
+         69     => 'Power node - Radiator Panel',
 
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
@@ -115,6 +116,7 @@ class Victim extends Alias
         'mega_destructible_canistera'           => 66,
         'mega_destructible_quadcanisters'       => 67,
         'mega_destructible_canistermounted'     => 68,
+        'mega_destructible_radpanelb'           =>69,
 
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,

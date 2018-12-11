@@ -18,6 +18,10 @@ class ReloadTime extends Alias
      */
     static protected $have          = [
         // Weapon Hardpoint
+        'Cannons',
+        'Fragment Cannons',
+        'Multi-Cannons',
+        'Pack-Hound Missile Rack',
         'Plasma Accelerators',
         'Rail Guns',
         'Missiles',
@@ -33,11 +37,57 @@ class ReloadTime extends Alias
      * Number by outfitting
      */
     static protected $name          = [
+        // Weapon Hardpoint > Cannon
+          1151  => null,
+          1152  => null,
+          1153  => null,
+          1154  => null,
+
+          1155  => 4,
+          1156  => 4,
+          1157  => 4,
+          1158  => 4,
+
+          1159  => 4,
+          1160  => 4,
+          1161  => 4,
+
+        // Weapon Hardpoint > Fragment Cannon
+          1201  => 5,
+          1202  => 5,
+          1203  => 5,
+
+          1205  => 5,
+          1206  => 5,
+          1207  => 5,
+
+          1209  => 5,
+          1210  => 5,
+          1211  => 5,
+
+          1215  => 5,
+
+        // Weapon Hardpoint > Multi-Cannon
+          1251  => 4,
+          1252  => 4,
+          1253  => null,
+          1254  => 4,
+
+          1255  => 5,
+          1256  => 5,
+          1257  => 5,
+          1258  => 5,
+
+          1259  => 4,
+          1260  => 4,
+          1261  => 4,
+
+          1271  => 4,
 
         // Weapon Hardpoint > Plasma Accelerator
-          1302  => null,
+          1302  => 6,
           1303  => 6,
-          1304  => null,
+          1304  => 6,
 
           1313  => 6,
 
@@ -69,6 +119,9 @@ class ReloadTime extends Alias
         // Weapon Hardpoint > Mine Launcher
           1451  => 2,
           1452  => 6.6,
+
+        // Weapon Hardpoint > Pack-Hound Missile Rack
+          1802  => 5,
 
         // Utility Mount > Chaff Launcher
           2050  => 10,

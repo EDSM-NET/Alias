@@ -19,6 +19,7 @@ class AmmoMaximum extends Alias
         // Weapon Hardpoint
         'Cannons',
         'Fragment Cannons',
+        'Mines',
         'Missiles',
         'Multi-Cannons',
         'Pack-Hound Missile Rack',
@@ -42,14 +43,14 @@ class AmmoMaximum extends Alias
           1153  => null,
           1154  => null,
 
-          1155  => null,
+          1155  => 100,
           1156  => 100,
           1157  => 100,
           1158  => 100,
 
-          1159  => null,
+          1159  => 100,
           1160  => 100,
-          1161  => null,
+          1161  => 100,
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 180,
@@ -61,7 +62,7 @@ class AmmoMaximum extends Alias
           1207  => 180,
 
           1209  => 180,
-          1210  => null,
+          1210  => 180,
           1211  => 180,
 
           1215  => 180,
@@ -114,6 +115,13 @@ class AmmoMaximum extends Alias
           1407  => 96,
 
           1411  => 48,
+
+        // Weapon Hardpoint > Mine Launcher
+          1451  => 36,
+          1452  => 72,
+
+        // Weapon Hardpoint > Shock Mine Launcher
+          1601  => 36,
 
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 120,

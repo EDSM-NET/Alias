@@ -19,11 +19,15 @@ class ThermalLoad extends Alias
         'Beam Lasers',
         'Cannons',
         'Fragment Cannons',
+        'Mines',
+        'Missiles',
+        'Pack-Hound Missile Rack',
         'Pulse Lasers',
         'Burst Lasers',
         'Multi-Cannons',
         'Plasma Accelerators',
         'Rail Guns',
+        'Torpedoes',
     ];
 
     /**
@@ -144,5 +148,31 @@ class ThermalLoad extends Alias
           1352  => 20,
 
           1362  => 11,
+
+        // Weapon Hardpoint > Missile Rack
+          1401  => 3.6,
+          1402  => 3.6,
+          1403  => 3.6,
+
+          1405  => 3.6,
+          1406  => 3.6,
+          1407  => 3.6,
+
+          1411  => 3.6,
+
+        // Weapon Hardpoint > Mine Launcher
+          1451  => 5,
+          1452  => 7.5,
+
+        // Weapon Hardpoint > Torpedo Pylon
+          1551  => 45,
+          1552  => 50,
+          1553  => 55,
+
+        // Weapon Hardpoint > Shock Mine Launcher
+          1601  => 5,
+
+        // Weapon Hardpoint > Pack-Hound Missile Rack
+          1802  => 3.6,
     ];
 }

@@ -27,6 +27,7 @@ class DamagePerSecond extends Alias
         'Plasma Accelerators',
         'Rail Guns',
         'Pack-Hound Missile Rack',
+        'Torpedoes',
     ];
 
     /**
@@ -152,11 +153,19 @@ class DamagePerSecond extends Alias
           1406  => 25,
           1407  => 25,
 
-          1411  => null,
+          1411  => 13.333334,
 
         // Weapon Hardpoint > Mine Launcher
           1451  => 44,
           1452  => 44,
+
+        // Weapon Hardpoint > Torpedo Pylon
+          1551  => null,
+          1552  => 120,
+          1553  => null,
+
+        // Weapon Hardpoint > Shock Mine Launcher
+          1601  => 32,
 
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 60,

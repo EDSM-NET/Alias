@@ -21,8 +21,10 @@ class DistributorDraw extends Alias
         'Burst Lasers',
         'Cannons',
         'Fragment Cannons',
+        'Missiles',
         'Multi-Cannons',
         'Plasma Accelerators',
+        'Rail Guns',
     ];
 
     /**
@@ -134,5 +136,33 @@ class DistributorDraw extends Alias
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 8.65,
           1303  => 13.6,
+          1304  => 21.040001,
+
+          1313  => 5.5,
+
+          1321  => null,
+          1322  => null,
+          1323  => null,
+
+          1329  => null,
+          1330  => null,
+          1331  => null,
+
+        // Weapon Hardpoint > Rail Gun
+          1351  => 2.69,
+          1352  => 5.11,
+
+          1362  => 2,
+
+        // Weapon Hardpoint > Missile Rack
+          1401  => 0.24,
+          1402  => 0.24,
+          1403  => 0.24,
+
+          1405  => 0.24,
+          1406  => 0.24,
+          1407  => 0.24,
+
+          1411  => 0.24,
     ];
 }

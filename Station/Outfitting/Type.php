@@ -9,6 +9,8 @@ use         EDSM\Alias;
 
 class Type extends Alias
 {
+    use \EDSM\Alias\Station\Outfitting\Type;
+
     /**
      * List of names used in game
      */

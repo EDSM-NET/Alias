@@ -24,9 +24,10 @@ class EngineHeatRate extends Alias
      */
     static protected $name          = [
         // Core Internal > Thrusters
+          3201  => 1.3,
           3202  => 1.3,
           3205  => 1.3,
-          3206  => 1.3,
+          3206  => 2,
 
           3212  => 1.3,
           3212  => 1.3,

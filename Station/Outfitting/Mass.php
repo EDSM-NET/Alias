@@ -304,6 +304,8 @@ class Mass extends Alias
           1060  => 4,
           1061  => 8,
 
+          1072  => 4,
+
         // Weapon Hardpoint > Burst Laser
           1101  => 2,
           1102  => 4,
@@ -375,6 +377,7 @@ class Mass extends Alias
 
           1313  => 8,
 
+          1321  => 2,
           1322  => 4,
           1323  => 4,
 
