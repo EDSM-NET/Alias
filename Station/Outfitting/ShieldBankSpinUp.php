@@ -11,6 +11,7 @@ class ShieldBankSpinUp extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Shield Bank Spin Up';
+    static protected $lessIsGood        = true;
 
     /**
      * List of categories

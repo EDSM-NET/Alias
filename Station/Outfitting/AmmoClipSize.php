@@ -73,9 +73,9 @@ class AmmoClipSize extends Alias
 
           1259  => 90,
           1260  => 90,
-          1261  => 'Multi-Cannon (Turret)',
+          1261  => 90,
 
-          1271  => 70,
+          1271  => 60,
 
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 5,

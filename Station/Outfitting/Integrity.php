@@ -419,7 +419,7 @@ class Integrity extends Alias
 
           1405  => 40,
           1406  => 51,
-          1407  => null,
+          1407  => 64,
 
           1411  => 51,
 
@@ -672,7 +672,7 @@ class Integrity extends Alias
           3301  => 46,
           3302  => 41,
           3303  => null,
-          3304  => null,
+          3304  => 77,
           3305  => 64,
 
           3311  => null,
@@ -773,7 +773,7 @@ class Integrity extends Alias
 
           3511  => null,
           3512  => 41,
-          3513  => null,
+          3513  => 51,
           3514  => null,
           3515  => 56,
 
@@ -832,8 +832,8 @@ class Integrity extends Alias
           3601  => 36,
           3602  => 32,
           3603  => null,
-          3604  => null,
-          3605  => null,
+          3604  => 44,
+          3605  => 44,
 
           3611  => 46,
           3612  => 41,
@@ -901,7 +901,7 @@ class Integrity extends Alias
           4010  => null,
 
         // Optional Internal > Detailed Surface Scanner
-          4011  => null,
+          4011  => 20,
 
         // Optional Internal > Cargo Rack
           4020  => null, // Not in category
@@ -1064,12 +1064,12 @@ class Integrity extends Alias
           4341  => null,
           4342  => 58,
           4343  => null,
-          4344  => null,
+          4344  => 134,
           4345  => 115,
 
           4351  => null,
           4352  => 68,
-          4353  => null,
+          4353  => 113,
           4354  => 158,
           4355  => 136,
 
@@ -1081,7 +1081,7 @@ class Integrity extends Alias
 
           4371  => null,
           4372  => null,
-          4373  => null,
+          4373  => 150,
           4374  => 210,
           4375  => 180,
 
@@ -1102,12 +1102,12 @@ class Integrity extends Alias
           4422  => null,
           4423  => null,
           4424  => null,
-          4425  => null,
+          4425  => 77,
 
           4431  => null,
           4432  => null,
           4433  => null,
-          4434  => null,
+          4434  => 112,
           4435  => 96,
 
         // Optional Internal > Frame Shift Drive Interdictor
@@ -1165,9 +1165,9 @@ class Integrity extends Alias
           4702  => null,
           4703  => null,
           4704  => null,
-          4705  => null,
+          4705  => 46,
 
-          4711  => null,
+          4711  => 41,
           4712  => null,
           4713  => 51,
           4714  => 71,
@@ -1299,7 +1299,7 @@ class Integrity extends Alias
           5205  => 56,
 
           5221  => null,
-          5222  => 90,
+          5222  => 51,
           5223  => null,
           5224  => null,
           5225  => 90,

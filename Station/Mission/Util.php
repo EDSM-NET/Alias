@@ -18,13 +18,13 @@ class Util extends Alias
            3                                    => 'Emplacement',
            4                                    => 'Skimmer Control',
            5                                    => 'Comms Array',
-           
+
          500                                    => 'Thargoid Scout',
          501                                    => 'Thargoid Interceptor',
          502                                    => 'Thargoid Cyclops',
          503                                    => 'Thargoid Basilisk',
          504                                    => 'Thargoid Medusa',
-        
+
         1001                                    => 'Pirate Lord',
         1002                                    => 'Pirates',
         1003                                    => 'Sentry Skimmer',
@@ -46,11 +46,12 @@ class Util extends Alias
         1019                                    => 'Informant',
         1020                                    => 'Medical ships',
         1021                                    => 'Science Team',
+        1022                                    => 'Turret',
     ];
-    
+
     /**
      * List of aliases received from Frontier
-     * 
+     *
      * Every aliases are sanitized before matching
      *     => trim
      *     => strtolower
@@ -61,13 +62,13 @@ class Util extends Alias
         'settlement_target_turret'              => 3,
         'settlement_target_skimmerdisabler'     => 4,
         'settlement_target_radar'               => 5,
-        
+
         'factiontag_scout'                      => 500,
         'factiontag_interceptor'                => 501,
         'factiontag_cyclops'                    => 502,
         'factiontag_basilisk'                   => 503,
         'factiontag_medusa'                     => 504,
-        
+
         'factiontag_piratelord'                 => 1001,
         'factiontag_pirate'                     => 1002,
         'factiontag_skimmer'                    => 1003,
@@ -89,5 +90,6 @@ class Util extends Alias
         'factiontag_informant'                  => 1019,
         'factiontag_medical'                    => 1020,
         'factiontag_scienceteam'                => 1021,
+        'factiontag_turret'                     => 1022,
     ];
 }

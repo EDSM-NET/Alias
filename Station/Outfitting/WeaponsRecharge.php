@@ -81,7 +81,7 @@ class WeaponsRecharge extends Alias
 
           3569  => null,
 
-          3571  => null,
+          3571  => 4.8,
           3572  => 5.4,
           3573  => 6,
           3574  => 6.6,

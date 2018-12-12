@@ -11,6 +11,7 @@ class EnergyPerRegen extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Energy Per Regen';
+    static protected $lessIsGood        = true;
 
     /**
      * List of categories

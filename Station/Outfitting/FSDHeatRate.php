@@ -11,6 +11,7 @@ class FSDHeatRate extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'FSD Heat Rate';
+    static protected $lessIsGood        = true;
 
     /**
      * List of categories

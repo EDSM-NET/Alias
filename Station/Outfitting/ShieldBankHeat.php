@@ -11,6 +11,7 @@ class ShieldBankHeat extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Shield Bank Heat';
+    static protected $lessIsGood        = true;
 
     /**
      * List of categories

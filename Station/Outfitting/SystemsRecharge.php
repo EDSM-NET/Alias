@@ -81,7 +81,7 @@ class SystemsRecharge extends Alias
 
           3569  => null,
 
-          3571  => null,
+          3571  => 3.2,
           3572  => 3.6,
           3573  => 4,
           3574  => 4.4,

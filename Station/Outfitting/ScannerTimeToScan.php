@@ -11,6 +11,7 @@ class ScannerTimeToScan extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Scanner Time To Scan';
+    static protected $lessIsGood        = true;
 
     /**
      * List of categories

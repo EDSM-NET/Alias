@@ -11,6 +11,7 @@ class DistributorDraw extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Distributor Draw';
+    static protected $lessIsGood        = true;
 
     /**
      * List of categories
@@ -23,6 +24,7 @@ class DistributorDraw extends Alias
         'Fragment Cannons',
         'Missiles',
         'Multi-Cannons',
+        'Pack-Hound Missile Rack',
         'Plasma Accelerators',
         'Rail Guns',
     ];
@@ -164,5 +166,8 @@ class DistributorDraw extends Alias
           1407  => 0.24,
 
           1411  => 0.24,
+
+        // Weapon Hardpoint > Pack-Hound Missile Rack
+          1802  => 0.24,
     ];
 }

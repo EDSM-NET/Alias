@@ -69,7 +69,7 @@ class RateOfFire extends Alias
 
         // Weapon Hardpoint > Cannon
           1151  => 0.5,
-          1152  => null,
+          1152  => 0.460829,
           1153  => 0.420168,
           1154  => 0.380228,
 

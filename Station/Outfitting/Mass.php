@@ -270,6 +270,27 @@ class Mass extends Alias
            354  => 78,
            355  => 78,
 
+        // Bulkhead > Krait Phantom
+           361  => null,
+           362  => null,
+           363  => 53,
+           364  => 53,
+           365  => 53,
+
+        // Bulkhead > Mamba
+           371  => null,
+           372  => null,
+           373  => 38,
+           374  => 38,
+           375  => 38,
+
+        // Weapon Hardpoint > Sub-Surface Displacement Missile
+           951  => null,
+           952  => null,
+
+           959  => null,
+           960  => null,
+
         // Weapon Hardpoint > Beam Laser
           1001  => 2,
           1002  => 4,

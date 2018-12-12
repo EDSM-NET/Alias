@@ -11,6 +11,7 @@ class ThermalLoad extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Thermal Load';
+    static protected $lessIsGood        = true;
 
     /**
      * List of categories

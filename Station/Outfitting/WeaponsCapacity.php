@@ -81,7 +81,7 @@ class WeaponsCapacity extends Alias
 
           3569  => null,
 
-          3571  => null,
+          3571  => 48,
           3572  => 54,
           3573  => 60,
           3574  => 66,

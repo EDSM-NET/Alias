@@ -11,6 +11,7 @@ class BootTime extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Boot Time';
+    static protected $lessIsGood        = true;
 
     /**
      * List of categories

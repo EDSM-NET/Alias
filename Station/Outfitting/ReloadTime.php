@@ -12,6 +12,7 @@ class ReloadTime extends Alias
     static protected $defaultName       = null;
     static protected $representation    = 'Reload time';
     static protected $unit              = '%1$s s';
+    static protected $lessIsGood        = true;
 
     /**
      * List of categories
@@ -70,7 +71,7 @@ class ReloadTime extends Alias
         // Weapon Hardpoint > Multi-Cannon
           1251  => 4,
           1252  => 4,
-          1253  => null,
+          1253  => 4,
           1254  => 4,
 
           1255  => 5,
@@ -119,6 +120,9 @@ class ReloadTime extends Alias
         // Weapon Hardpoint > Mine Launcher
           1451  => 2,
           1452  => 6.6,
+
+        // Weapon Hardpoint > Shock Mine Launcher
+          1601  => 2,
 
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 5,

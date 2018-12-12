@@ -11,6 +11,7 @@ class EngineHeatRate extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Engine Heat Rate';
+    static protected $lessIsGood        = true;
 
     /**
      * List of categories

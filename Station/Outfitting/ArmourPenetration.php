@@ -20,6 +20,7 @@ class ArmourPenetration extends Alias
         'Burst Lasers',
         'Cannons',
         'Fragment Cannons',
+        'Pack-Hound Missile Rack',
         'Plasma Accelerators',
         'Pulse Lasers',
         'Mines',
@@ -72,10 +73,10 @@ class ArmourPenetration extends Alias
           1072  => 35,
 
         // Weapon Hardpoint > Burst Laser
-          1101  => null,
+          1101  => 20,
           1102  => 35,
-          1103  => null,
-          1104  => null,
+          1103  => 52,
+          1104  => 65,
 
           1105  => 20,
           1106  => 35,
@@ -89,9 +90,9 @@ class ArmourPenetration extends Alias
           1121  => 1,
 
         // Weapon Hardpoint > Cannon
-          1151  => null,
+          1151  => 35,
           1152  => 50,
-          1153  => null,
+          1153  => 70,
           1154  => null,
 
           1155  => 35,
@@ -183,5 +184,11 @@ class ArmourPenetration extends Alias
           1551  => 10000,
           1552  => 10000,
           1553  => 10000,
+
+        // Weapon Hardpoint > Shock Mine Launcher
+          1601  => 60,
+
+        // Weapon Hardpoint > Pack-Hound Missile Rack
+          1802  => 60,
     ];
 }

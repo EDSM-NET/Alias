@@ -11,6 +11,7 @@ class Jitter extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Jitter';
+    static protected $lessIsGood        = true;
 
     /**
      * List of categories
