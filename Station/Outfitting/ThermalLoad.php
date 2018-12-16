@@ -50,7 +50,7 @@ class ThermalLoad extends Alias
           1010  => 3.53,
           1011  => 5.11,
 
-          1021  => null,
+          1021  => 2.7,
 
           1031  => null,
           1032  => null,

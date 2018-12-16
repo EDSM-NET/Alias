@@ -445,12 +445,14 @@ class Type extends Alias
         // Weapon Hardpoint > AX Missile Rack
           1652  => 'AX Missile Rack (Dumpfire, Fixed)',
           1653  => 'AX Missile Rack (Dumpfire, Fixed)',
+
           1660  => 'AX Missile Rack (Dumpfire, Turret)',
           1661  => 'AX Missile Rack (Dumpfire, Turret)',
 
         // Weapon Hardpoint > AX Multi-Cannon
           1702  => 'AX Multi-Cannon (Fixed)',
           1703  => 'AX Multi-Cannon (Fixed)',
+
           1710  => 'AX Multi-Cannon (Turret)',
           1711  => 'AX Multi-Cannon (Turret)',
 

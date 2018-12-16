@@ -26,13 +26,13 @@ class ShieldBankReinforcement extends Alias
         // Optional Internal > Shield Cell Bank
           4201  => null,
           4202  => null,
-          4203  => null,
+          4203  => 20,
           4204  => 24,
           4205  => 28,
 
           4211  => null,
-          4212  => null,
-          4213  => null,
+          4212  => 18,
+          4213  => 23,
           4214  => 28,
           4215  => 32,
 
@@ -55,7 +55,7 @@ class ShieldBankReinforcement extends Alias
           4245  => 48,
 
           4251  => null,
-          4252  => null,
+          4252  => 26,
           4253  => 33,
           4254  => 39,
           4255  => 46,

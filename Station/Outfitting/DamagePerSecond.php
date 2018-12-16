@@ -49,6 +49,8 @@ class DamagePerSecond extends Alias
           1010  => 8.83,
           1011  => 14.36,
 
+          1021  => 4.91,
+
         // Weapon Hardpoint > Pulse Laser
           1050  => null, // Not in category
           1051  => 7.884615,
@@ -160,9 +162,9 @@ class DamagePerSecond extends Alias
           1452  => 44,
 
         // Weapon Hardpoint > Torpedo Pylon
-          1551  => null,
+          1551  => 120,
           1552  => 120,
-          1553  => null,
+          1553  => 120,
 
         // Weapon Hardpoint > Shock Mine Launcher
           1601  => 32,

@@ -44,7 +44,7 @@ class DamageFalloffRange extends Alias
           1010  => 600,
           1011  => 600,
 
-          1021  => 600,
+          1021  => 800,
 
           1031  => 600,
           1032  => 600,
@@ -114,7 +114,7 @@ class DamageFalloffRange extends Alias
           1260  => 2000,
           1261  => 2000,
 
-          1271  => 2000,
+          1271  => 3000,
 
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 2000,

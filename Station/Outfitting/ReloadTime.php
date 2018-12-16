@@ -39,10 +39,10 @@ class ReloadTime extends Alias
      */
     static protected $name          = [
         // Weapon Hardpoint > Cannon
-          1151  => null,
-          1152  => null,
-          1153  => null,
-          1154  => null,
+          1151  => 3,
+          1152  => 3,
+          1153  => 3,
+          1154  => 3,
 
           1155  => 4,
           1156  => 4,

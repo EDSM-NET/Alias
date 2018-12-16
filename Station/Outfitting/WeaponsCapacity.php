@@ -33,7 +33,7 @@ class WeaponsCapacity extends Alias
 
           3509  => null,
 
-          3511  => null,
+          3511  => 12,
           3512  => 14,
           3513  => null,
           3514  => null,
@@ -41,9 +41,9 @@ class WeaponsCapacity extends Alias
 
           3519  => null,
 
-          3521  => null,
+          3521  => 16,
           3522  => 18,
-          3523  => null,
+          3523  => 20,
           3524  => 22,
           3525  => 24,
 
@@ -57,7 +57,7 @@ class WeaponsCapacity extends Alias
 
           3539  => null,
 
-          3541  => null,
+          3541  => 27,
           3542  => 31,
           3543  => 34,
           3544  => 37,

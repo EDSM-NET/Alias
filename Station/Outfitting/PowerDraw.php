@@ -66,6 +66,13 @@ class PowerDraw extends Alias
      * Number by outfitting
      */
     static protected $name          = [
+        // Weapon Hardpoint > Sub-Surface Displacement Missile
+           951  => 0.42,
+           952  => 1.01,
+
+           959  => 0.53,
+           960  => 0.93,
+
         // Weapon Hardpoint > Beam Laser
           1001  => 0.62,
           1002  => 1.01,
@@ -81,7 +88,7 @@ class PowerDraw extends Alias
           1010  => 0.93,
           1011  => 1.51,
 
-          1021  => 0.69,
+          1021  => 0.62,
 
           1031  => 1.91,
           1032  => 2.61,
@@ -243,6 +250,10 @@ class PowerDraw extends Alias
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 1.2,
 
+        // Weapon Hardpoint > Abrasion Blaster
+          1821  => 0.34,
+          1829  => 0.47,
+
         // Weapon Hardpoint > Shock Cannon
           1852  => 0.57,
           1853  => 0.89,
@@ -265,6 +276,10 @@ class PowerDraw extends Alias
           1929  => 0.72,
           1930  => 1.16,
           1931  => 1.39,
+
+        // Weapon Hardpoint > Seismic Charge
+          1952  => 1.2,
+          1960  => 1.2,
 
         // Utility Mount > Shield Booster
           2001  => 0.2,

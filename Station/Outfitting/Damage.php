@@ -175,8 +175,9 @@ class Damage extends Alias
           1510  => null,
 
         // Weapon Hardpoint > Torpedo Pylon
-          1551  => null,
+          1551  => 120,
           1552  => 120,
+          1553  => 120,
 
         // Weapon Hardpoint > Shock Mine Launcher
           1601  => 32,

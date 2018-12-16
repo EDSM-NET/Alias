@@ -33,7 +33,7 @@ class SystemsRecharge extends Alias
 
           3509  => null,
 
-          3511  => null,
+          3511  => 0.6,
           3512  => 0.6,
           3513  => null,
           3514  => null,
@@ -41,9 +41,9 @@ class SystemsRecharge extends Alias
 
           3519  => null,
 
-          3521  => null,
+          3521  => 0.9,
           3522  => 1,
-          3523  => null,
+          3523  => 1.1,
           3524  => 1.2,
           3525  => 1.3,
 
@@ -57,7 +57,7 @@ class SystemsRecharge extends Alias
 
           3539  => null,
 
-          3541  => null,
+          3541  => 1.7,
           3542  => 1.9,
           3543  => 2.1,
           3544  => 2.3,

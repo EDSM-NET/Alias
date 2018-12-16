@@ -48,7 +48,7 @@ class DistributorDraw extends Alias
           1010  => 2.16,
           1011  => 3.51,
 
-          1021  => null,
+          1021  => 2.52,
 
           1031  => null,
           1032  => null,
@@ -75,7 +75,7 @@ class DistributorDraw extends Alias
           1101  => 0.25,
           1102  => 0.5,
           1103  => 1.11,
-          1104  => null,
+          1104  => 2.98,
 
           1105  => 0.24,
           1106  => 0.49,

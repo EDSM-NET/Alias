@@ -331,7 +331,7 @@ class Integrity extends Alias
           1101  => 40,
           1102  => 40,
           1103  => 64,
-          1104  => 64,
+          1104  => 80,
 
           1105  => 40,
           1106  => 40,
@@ -342,7 +342,7 @@ class Integrity extends Alias
           1110  => 40,
           1111  => 64,
 
-          1121  => null,
+          1121  => 40,
 
         // Weapon Hardpoint > Cannon
           1151  => 40,
@@ -446,12 +446,14 @@ class Integrity extends Alias
         // Weapon Hardpoint > AX Missile Rack
           1652  => null,
           1653  => null,
+
           1660  => null,
           1661  => null,
 
         // Weapon Hardpoint > AX Multi-Cannon
           1702  => null,
           1703  => null,
+
           1710  => null,
           1711  => null,
 
@@ -567,8 +569,8 @@ class Integrity extends Alias
           3100  => null, // Not in category
           3101  => 46,
           3102  => 41,
-          3103  => null,
-          3104  => null,
+          3103  => 51,
+          3104  => 61,
           3105  => 56,
 
           3109  => null,
@@ -597,7 +599,7 @@ class Integrity extends Alias
 
           3139  => null,
 
-          3141  => null,
+          3141  => 102,
           3142  => 90,
           3143  => 113,
           3144  => 136,
@@ -630,7 +632,7 @@ class Integrity extends Alias
           3205  => 56,
           3206  => 40,
 
-          3211  => null,
+          3211  => 58,
           3212  => 51,
           3213  => null,
           3214  => null,
@@ -671,7 +673,7 @@ class Integrity extends Alias
           3300  => null, // Not in category
           3301  => 46,
           3302  => 41,
-          3303  => null,
+          3303  => 51,
           3304  => 77,
           3305  => 64,
 
@@ -722,12 +724,12 @@ class Integrity extends Alias
           3411  => null,
           3412  => 46,
           3413  => null,
-          3414  => null,
+          3414  => 56,
           3415  => 61,
 
           3421  => 51,
           3422  => 58,
-          3423  => null,
+          3423  => 64,
           3424  => null,
           3425  => 77,
 
@@ -746,7 +748,7 @@ class Integrity extends Alias
           3451  => null,
           3452  => 102,
           3453  => null,
-          3454  => null,
+          3454  => 124,
           3455  => 136,
 
           3461  => 105,
@@ -755,7 +757,7 @@ class Integrity extends Alias
           3464  => 144,
           3465  => 157,
 
-          3471  => null,
+          3471  => 120,
           3472  => 135,
           3473  => null,
           3474  => 165,
@@ -779,7 +781,7 @@ class Integrity extends Alias
 
           3519  => null,
 
-          3521  => null,
+          3521  => 58,
           3522  => 51,
           3523  => null,
           3524  => null,
@@ -787,7 +789,7 @@ class Integrity extends Alias
 
           3529  => null,
 
-          3531  => null,
+          3531  => 72,
           3532  => 64,
           3533  => 80,
           3534  => 96,
@@ -805,7 +807,7 @@ class Integrity extends Alias
 
           3551  => null,
           3552  => 90,
-          3553  => null,
+          3553  => 113,
           3554  => 136,
           3555  => 124,
 
@@ -971,7 +973,7 @@ class Integrity extends Alias
           4156  => 136,
           4157  => 136,
 
-          4161  => null,
+          4161  => 105,
           4162  => 79,
           4163  => 131,
           4164  => 131,
@@ -1050,14 +1052,14 @@ class Integrity extends Alias
           4315  => 61,
 
           4321  => null,
-          4322  => null,
+          4322  => 38,
           4323  => null,
           4324  => null,
           4325  => 77,
 
           4331  => null,
           4332  => null,
-          4333  => null,
+          4333  => 80,
           4334  => 112,
           4335  => 96,
 
@@ -1096,7 +1098,7 @@ class Integrity extends Alias
           4412  => null,
           4413  => null,
           4414  => null,
-          4415  => null,
+          4415  => 61,
 
           4421  => null,
           4422  => null,
@@ -1119,7 +1121,7 @@ class Integrity extends Alias
 
           4511  => null,
           4512  => 31,
-          4513  => null,
+          4513  => 51,
           4514  => null,
           4515  => 61,
 
@@ -1130,7 +1132,7 @@ class Integrity extends Alias
           4525  => 77,
 
           4531  => null,
-          4532  => null,
+          4532  => 48,
           4533  => 80,
           4534  => 112,
           4535  => 96,
@@ -1139,7 +1141,7 @@ class Integrity extends Alias
           4601  => null,
           4602  => 24,
           4603  => null,
-          4604  => null,
+          4604  => 56,
           4605  => 48,
 
           4621  => null,
@@ -1164,11 +1166,11 @@ class Integrity extends Alias
           4701  => null,
           4702  => null,
           4703  => null,
-          4704  => null,
+          4704  => 56,
           4705  => 46,
 
           4711  => 41,
-          4712  => null,
+          4712  => 31,
           4713  => 51,
           4714  => 71,
           4715  => 59,
@@ -1179,7 +1181,7 @@ class Integrity extends Alias
           4724  => 90,
           4725  => 74,
 
-          4731  => null,
+          4731  => 64,
           4732  => 48,
           4733  => null,
           4734  => 112,
@@ -1198,9 +1200,9 @@ class Integrity extends Alias
           4755  => 130,
 
           4761  => null,
-          4762  => null,
+          4762  => 79,
           4763  => null,
-          4764  => null,
+          4764  => 183,
           4765  => 151,
 
           4771  => null,
@@ -1242,7 +1244,7 @@ class Integrity extends Alias
           4942  => null,
 
         // Optional Internal > Collector Limpet Controller
-          5001  => null,
+          5001  => 24,
           5002  => 32,
           5003  => null,
           5004  => 48,
@@ -1270,7 +1272,7 @@ class Integrity extends Alias
           5101  => null,
           5102  => 32,
           5103  => null,
-          5104  => null,
+          5104  => 48,
           5105  => 56,
 
           5121  => null,
@@ -1282,14 +1284,14 @@ class Integrity extends Alias
           5141  => null,
           5142  => 77,
           5143  => null,
-          5144  => null,
+          5144  => 115,
           5145  => 134,
 
           5161  => null,
           5162  => null,
           5163  => null,
           5164  => null,
-          5165  => null,
+          5165  => 183,
 
         // Optional Internal > Prospector Limpet Controller
           5201  => null,

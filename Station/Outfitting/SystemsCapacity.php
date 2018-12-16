@@ -33,7 +33,7 @@ class SystemsCapacity extends Alias
 
           3509  => null,
 
-          3511  => null,
+          3511  => 10,
           3512  => 11,
           3513  => null,
           3514  => 14,
@@ -41,7 +41,7 @@ class SystemsCapacity extends Alias
 
           3519  => null,
 
-          3521  => null,
+          3521  => 12,
           3522  => 14,
           3523  => null,
           3524  => 17,
@@ -57,7 +57,7 @@ class SystemsCapacity extends Alias
 
           3539  => null,
 
-          3541  => null,
+          3541  => 19,
           3542  => 22,
           3543  => 24,
           3544  => 26,

@@ -283,6 +283,8 @@ class PaintJob extends Alias
             'anaconda_iridescenthighcolour_05'              => 'Iridescent Aurora',
             'anaconda_iridescenthighcolour_06'              => 'Iridescent Twilight',
 
+            'anaconda_galnet_galnet'                        => 'Galnet',
+
             'anaconda_gamescom_01'                          => 'Gamescon',
             'anaconda_lavecon_lavecon'                      => 'Lavecon',
             'anaconda_eliteexpo_eliteexpo'                  => 'Frontier Expo',
@@ -1401,6 +1403,7 @@ class PaintJob extends Alias
             //'empiretrader_metallic_gold'                    => 'Gold',
 
             'empiretrader_iridescenthighcolour_01'          => 'Iridescent Scorch',
+            'empiretrader_iridescenthighcolour_03'          => 'Iridescent Dawn',
             'empiretrader_iridescenthighcolour_04'          => 'Iridescent Dusk',
             'empiretrader_iridescenthighcolour_05'          => 'Iridescent Aurora',
             'empiretrader_iridescenthighcolour_06'          => 'Iridescent Twilight',
@@ -1528,6 +1531,7 @@ class PaintJob extends Alias
             'cutter_gradient2_teal'                         => 'Predator Teal',
 
             'cutter_iridescenthighcolour_01'                => 'Iridescent Scorch',
+            'cutter_iridescenthighcolour_03'                => 'Iridescent Dawn',
             'cutter_iridescenthighcolour_04'                => 'Iridescent Dusk',
             'cutter_iridescenthighcolour_05'                => 'Iridescent Aurora',
             'cutter_iridescenthighcolour_06'                => 'Iridescent Twilight',
@@ -1677,6 +1681,7 @@ class PaintJob extends Alias
 
             'krait_mkii_iridescenthighcolour_01'            => 'Iridescent Scorch',
             'krait_mkii_iridescenthighcolour_03'            => 'Iridescent Dawn',
+            'krait_mkii_iridescenthighcolour_04'            => 'Iridescent Dusk',
             'krait_mkii_iridescenthighcolour_05'            => 'Iridescent Aurora',
             'krait_mkii_iridescenthighcolour_06'            => 'Iridescent Twilight',
 
@@ -1720,11 +1725,57 @@ class PaintJob extends Alias
         // Krait Phantom
         128839281   => [
             'krait_light_default_defaultpaintjob'           => 'Default',
+
+            'krait_light_blackfriday_01'                    => 'Midnight Black',
+
+            'krait_light_militaire_dark_green'              => 'Military Dark Green',
+            'krait_light_militaire_desert_sand'             => 'Military Desert Sand',
+            'krait_light_militaire_earth_red'               => 'Military Earth Red',
+            'krait_light_militaire_earth_yellow'            => 'Military Earth Yellow',
+            'krait_light_militaire_forest_green'            => 'Military Marine Blue',
+            'krait_light_militaire_sand'                    => 'Military Sand',
+
+            'krait_light_tactical_blue'                     => 'Tactical Cobalt',
+            'krait_light_tactical_brown'                    => 'Tactical Khaki',
+            'krait_light_tactical_green'                    => 'Tactical Olive',
+            'krait_light_tactical_grey'                     => 'Tactical Graphite',
+            'krait_light_tactical_red'                      => 'Tactical Crimson',
+            'krait_light_tactical_white'                    => 'Tactical Ice',
+
+            'krait_light_vibrant_blue'                      => 'Vibrant Blue',
+            'krait_light_vibrant_green'                     => 'Vibrant Green',
+            'krait_light_vibrant_orange'                    => 'Vibrant Orange',
+            'krait_light_vibrant_purple'                    => 'Vibrant Purple',
+            'krait_light_vibrant_red'                       => 'Vibrant Red',
+            'krait_light_vibrant_yellow'                    => 'Vibrant Yellow',
         ],
 
         // Mamba
         128915979   => [
             'mamba_default_defaultpaintjob'                 => 'Default',
+
+            'mamba_blackfriday_01'                          => 'Midnight Black',
+
+            'mamba_militaire_dark_green'                    => 'Military Dark Green',
+            'mamba_militaire_desert_sand'                   => 'Military Desert Sand',
+            'mamba_militaire_earth_red'                     => 'Military Earth Red',
+            'mamba_militaire_earth_yellow'                  => 'Military Earth Yellow',
+            'mamba_militaire_forest_green'                  => 'Military Marine Blue',
+            'mamba_militaire_sand'                          => 'Military Sand',
+
+            'mamba_tactical_blue'                           => 'Tactical Cobalt',
+            'mamba_tactical_brown'                          => 'Tactical Khaki',
+            'mamba_tactical_green'                          => 'Tactical Olive',
+            'mamba_tactical_grey'                           => 'Tactical Graphite',
+            'mamba_tactical_red'                            => 'Tactical Crimson',
+            'mamba_tactical_white'                          => 'Tactical Ice',
+
+            'mamba_vibrant_blue'                            => 'Vibrant Blue',
+            'mamba_vibrant_green'                           => 'Vibrant Green',
+            'mamba_vibrant_orange'                          => 'Vibrant Orange',
+            'mamba_vibrant_purple'                          => 'Vibrant Purple',
+            'mamba_vibrant_red'                             => 'Vibrant Red',
+            'mamba_vibrant_yellow'                          => 'Vibrant Yellow',
         ],
 
         // Orca

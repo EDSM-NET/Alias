@@ -101,6 +101,8 @@ class Type extends Alias
          307                                => 'Economic liberation of %commodityCount% %commodity%',
          308                                => 'Famine support by liberating %commodityCount% %commodity%',
          309                                => 'Cooperative liberation of %commodityCount% %commodity%',
+         310                                => 'Wartime Surface Recovery of %commodityCount% %commodity%',
+         311                                => 'Surface Recovery of %commodityCount% %commodity%',
 
          401                                => 'Donate %commodityCount% units of %commodity%',
          402                                => 'Find %commodityCount% units of %commodity%',
@@ -323,6 +325,7 @@ class Type extends Alias
         1354                                => 'Agitator data contract',
         1355                                => 'Expansion data retrieval',
         1356                                => 'Security data extraction',
+        1357                                => 'Poll Data Retrieval',
 
         1401                                => '%passengerName% wants to go to %expeditionDest% and collect data',
         1402                                => '%passengerName% wants to go to %expeditionDest% and collect data',
@@ -425,6 +428,7 @@ class Type extends Alias
         3015                                => 'Deliver %commodityCount% units of %commodity%',
         3016                                => 'Transport %passengerName%',
         3017                                => 'Assassinate %targetType%: %target%',
+        3018                                => 'Deliver %commodityCount% units of %commodity%',
 
         4001                                => 'Disable the Megaship Turrets',
     ];
@@ -524,6 +528,8 @@ class Type extends Alias
         'mission_rescue_bust'                               => 307,
         'mission_rescue_famine'                             => 308,
         'mission_rescue_cooperative'                        => 309,
+        'mission_rescue_planet_war'                         => 310,
+        'mission_rescue_planet_civilwar'                    => 311,
 
         'mission_altruism'                                  => 401,
         'mission_altruism_outbreak'                         => 402,
@@ -739,6 +745,7 @@ class Type extends Alias
         'mission_hack_blops_civilunrest'                    => 1354,
         'mission_hack_blops_expansion'                      => 1355,
         'mission_hack_blops_lockdown'                       => 1356,
+        'mission_hack_blops_elections'                      => 1357,
 
         'mission_longdistanceexpedition'                    => 1401,
         'mission_longdistanceexpedition_explorer_boom'      => 1402,
@@ -840,6 +847,7 @@ class Type extends Alias
         'chain_clearingthepath'                             => 3015,
         'chain_securingmyposition'                          => 3016,
         'chain_drawthegeneralout'                           => 3017,
+        'chain_piracyfraud'                                 => 3018,
 
         'mission_disablemegaship'                           => 4001,
     ];

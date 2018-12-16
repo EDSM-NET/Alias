@@ -44,6 +44,7 @@ class Victim extends Alias
          68     => 'Maintenance Pipe',
          69     => 'Power node - Radiator Panel',
          70     => 'Power capacitor',
+         //71     => '',
 
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
@@ -75,6 +76,19 @@ class Victim extends Alias
         302     => 'Cruise Ship',
 
         401     => 'Search And Rescue Patrol',
+
+        501     => 'Warzone Correspondent',
+        502     => 'Independent Captain',
+        503     => 'Alliance Captain',
+        504     => 'Federal Captain',
+        505     => 'Spec Ops Wing Alpha',
+        506     => 'Spec Ops Wing Beta',
+        //507     => 'Spec Ops Wing Alpha',
+        508     => 'Spec Ops Wing Delta',
+        //509     => 'Spec Ops Wing Alpha',
+        //510     => 'Spec Ops Wing Alpha',
+        511     => 'Spec Ops Wing Gamma',
+
     ];
 
     /**
@@ -119,6 +133,7 @@ class Victim extends Alias
         'mega_destructible_canistermounted'     => 68,
         'mega_destructible_radpanelb'           => 69,
         'mega_canisterb'                        => 70,
+        //'mega_destructible_radpanela'           => 71,
 
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,
@@ -150,5 +165,17 @@ class Victim extends Alias
         'passengerliner_cruise'                 => 302,
 
         'searchandrescue'                       => 401,
+
+        'luasc_scenario_warzone_npc_warzonecorrespondent'   => 501,
+        'luasc_scenario_warzone_npc_warzonegeneral_ind'     => 502,
+        'luasc_scenario_warzone_npc_warzonegeneral_all'     => 503,
+        'luasc_scenario_warzone_npc_warzonegeneral_fed'     => 504,
+        'luasc_scenario_warzone_npc_specops_a'              => 505,
+        'luasc_scenario_warzone_npc_specops_b'              => 506,
+        //'luasc_scenario_warzone_npc_specops_c'              => 507,
+        'luasc_scenario_warzone_npc_specops_d'              => 508,
+        //'luasc_scenario_warzone_npc_specops_e'              => 509,
+        //'luasc_scenario_warzone_npc_specops_f'              => 510,
+        'luasc_scenario_warzone_npc_specops_g'              => 511,
     ];
 }

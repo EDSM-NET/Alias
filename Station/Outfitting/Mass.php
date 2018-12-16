@@ -271,25 +271,25 @@ class Mass extends Alias
            355  => 78,
 
         // Bulkhead > Krait Phantom
-           361  => null,
-           362  => null,
+           361  => 0,
+           362  => 26,
            363  => 53,
            364  => 53,
            365  => 53,
 
         // Bulkhead > Mamba
-           371  => null,
-           372  => null,
+           371  => 0,
+           372  => 19,
            373  => 38,
            374  => 38,
            375  => 38,
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
-           951  => null,
-           952  => null,
+           951  => 2,
+           952  => 2,
 
-           959  => null,
-           960  => null,
+           959  => 4,
+           960  => 4,
 
         // Weapon Hardpoint > Beam Laser
           1001  => 2,
@@ -468,6 +468,10 @@ class Mass extends Alias
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 4,
 
+        // Weapon Hardpoint > Abrasion Blaster
+          1821  => 2,
+          1829  => 2,
+
         // Weapon Hardpoint > Shock Cannon
           1852  => 4,
           1853  => 8,
@@ -490,6 +494,10 @@ class Mass extends Alias
           1929  => 2,
           1930  => 4,
           1931  => 8,
+
+        // Weapon Hardpoint > Seismic Charge
+          1952  => 4,
+          1960  => 4,
 
         // Utility Mount > Shield Booster
           2001  => 0.5,
