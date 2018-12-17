@@ -28,6 +28,7 @@ class State extends Alias
         11                      => 'Retreat',
         12                      => 'War',
         13                      => 'Civil liberty',
+        14                      => 'Pirate attack',
     ];
 
     /**
@@ -53,5 +54,6 @@ class State extends Alias
         'retreat'               => 11,
         'war'                   => 12,
         'civilliberty'          => 13,
+        'pirateattack'          => 14,
     ];
 }

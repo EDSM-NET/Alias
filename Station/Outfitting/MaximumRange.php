@@ -131,7 +131,7 @@ class MaximumRange extends Alias
           1260  => 4000,
           1261  => 4000,
 
-          1271  => 4000,
+          1271  => 4500,
 
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 3500,
