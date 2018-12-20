@@ -88,6 +88,7 @@ class Victim extends Alias
         //509     => 'Spec Ops Wing Alpha',
         //510     => 'Spec Ops Wing Alpha',
         511     => 'Spec Ops Wing Gamma',
+        512     => 'Imperial Captain',
 
     ];
 
@@ -177,5 +178,6 @@ class Victim extends Alias
         //'luasc_scenario_warzone_npc_specops_e'              => 509,
         //'luasc_scenario_warzone_npc_specops_f'              => 510,
         'luasc_scenario_warzone_npc_specops_g'              => 511,
+        'luasc_scenario_warzone_npc_warzonegeneral_emp'     => 512,
     ];
 }

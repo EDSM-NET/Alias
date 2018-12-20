@@ -282,7 +282,7 @@ class Type extends Alias
          927        => 'Benitoite',
          928        => 'Grandidierite',
          929        => 'Alexandrite',
-         930        => 'Opal',
+         930        => 'Void Opals',
 
 
         // Slavery (10)
@@ -428,6 +428,10 @@ class Type extends Alias
         1803        => 'Thargoid Medusa Tissue Sample',
         1804        => 'Thargoid Scout Tissue Sample',
         1805        => 'Thargoid Hydra Tissue Sample',
+
+        1900        => 'Mollusc Spores',
+        1901        => 'Mollusc Membrane',
+        1902        => 'Mollusc Mycelium',
 
 
         // Powerplay (99)
@@ -893,6 +897,10 @@ class Type extends Alias
         'thargoidtissuesampletype3'             => 1803,
         'thargoidscouttissuesample'             => 1804,
         'thargoidtissuesampletype4'             => 1805,
+
+        'm3_tissuesample_spores'                => 1900,
+        'm3_tissuesample_membrane'              => 1901,
+        'm3_tissuesample_mycelium'              => 1902,
 
 
         // Powerplay (99)

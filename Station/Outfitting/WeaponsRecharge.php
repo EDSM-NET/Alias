@@ -43,7 +43,7 @@ class WeaponsRecharge extends Alias
 
           3521  => 1.8,
           3522  => 2.1,
-          3523  => null,
+          3523  => 2.3,
           3524  => 2.5,
           3525  => 2.8,
 

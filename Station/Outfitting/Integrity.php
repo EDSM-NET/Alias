@@ -635,7 +635,7 @@ class Integrity extends Alias
           3211  => 58,
           3212  => 51,
           3213  => null,
-          3214  => null,
+          3214  => 77,
           3215  => 70,
           3216  => 55,
 
@@ -715,13 +715,13 @@ class Integrity extends Alias
 
         // Core Internal > Life Support
           3400  => null, // Not in category
-          3401  => null,
+          3401  => 32,
           3402  => 36,
           3403  => null,
           3404  => null,
           3405  => 48,
 
-          3411  => null,
+          3411  => 41,
           3412  => 46,
           3413  => null,
           3414  => 56,
@@ -776,14 +776,14 @@ class Integrity extends Alias
           3511  => null,
           3512  => 41,
           3513  => 51,
-          3514  => null,
+          3514  => 61,
           3515  => 56,
 
           3519  => null,
 
           3521  => 58,
           3522  => 51,
-          3523  => null,
+          3523  => 64,
           3524  => null,
           3525  => 70,
 
@@ -839,7 +839,7 @@ class Integrity extends Alias
 
           3611  => 46,
           3612  => 41,
-          3613  => null,
+          3613  => 51,
           3614  => null,
           3615  => 56,
 
@@ -985,12 +985,12 @@ class Integrity extends Alias
           4172  => 90,
           4173  => 150,
           4174  => 150,
-          4175  => null,
+          4175  => 210,
           4176  => 180,
           4177  => 180,
 
         // Optional Internal > Shield Cell Bank
-          4201  => null,
+          4201  => 32,
           4202  => null,
           4203  => null,
           4204  => 56,
@@ -1065,7 +1065,7 @@ class Integrity extends Alias
 
           4341  => null,
           4342  => 58,
-          4343  => null,
+          4343  => 96,
           4344  => 134,
           4345  => 115,
 
@@ -1114,7 +1114,7 @@ class Integrity extends Alias
 
         // Optional Internal > Frame Shift Drive Interdictor
           4501  => null,
-          4502  => null,
+          4502  => 24,
           4503  => null,
           4504  => null,
           4505  => 48,
@@ -1122,7 +1122,7 @@ class Integrity extends Alias
           4511  => null,
           4512  => 31,
           4513  => 51,
-          4514  => null,
+          4514  => 71,
           4515  => 61,
 
           4521  => null,
@@ -1189,13 +1189,13 @@ class Integrity extends Alias
 
           4741  => 77,
           4742  => 58,
-          4743  => null,
+          4743  => 96,
           4744  => 134,
           4745  => 110,
 
           4751  => null,
           4752  => 68,
-          4753  => null,
+          4753  => 113,
           4754  => 158,
           4755  => 130,
 
@@ -1207,7 +1207,7 @@ class Integrity extends Alias
 
           4771  => null,
           4772  => null,
-          4773  => null,
+          4773  => 150,
           4774  => null,
           4775  => null,
 
@@ -1246,7 +1246,7 @@ class Integrity extends Alias
         // Optional Internal > Collector Limpet Controller
           5001  => 24,
           5002  => 32,
-          5003  => null,
+          5003  => 40,
           5004  => 48,
           5005  => 56,
 
@@ -1262,7 +1262,7 @@ class Integrity extends Alias
           5044  => 115,
           5045  => 134,
 
-          5061  => null,
+          5061  => 79,
           5062  => 105,
           5063  => null,
           5064  => 157,
@@ -1271,7 +1271,7 @@ class Integrity extends Alias
         // Optional Internal > Fuel Transfer Limpet Controller
           5101  => null,
           5102  => 32,
-          5103  => null,
+          5103  => 40,
           5104  => 48,
           5105  => 56,
 
@@ -1303,11 +1303,11 @@ class Integrity extends Alias
           5221  => null,
           5222  => 51,
           5223  => null,
-          5224  => null,
+          5224  => 77,
           5225  => 90,
 
           5241  => null,
-          5242  => null,
+          5242  => 77,
           5243  => null,
           5244  => null,
           5245  => 134,
