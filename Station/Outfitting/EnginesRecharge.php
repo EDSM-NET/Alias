@@ -35,8 +35,8 @@ class EnginesRecharge extends Alias
 
           3511  => 0.6,
           3512  => 0.6,
-          3513  => null,
-          3514  => null,
+          3513  => 0.7,
+          3514  => 0.8,
           3515  => 0.8,
 
           3519  => null,

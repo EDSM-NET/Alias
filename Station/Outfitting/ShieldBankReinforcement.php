@@ -25,7 +25,7 @@ class ShieldBankReinforcement extends Alias
     static protected $name          = [
         // Optional Internal > Shield Cell Bank
           4201  => 12,
-          4202  => null,
+          4202  => 16,
           4203  => 20,
           4204  => 24,
           4205  => 28,
@@ -48,13 +48,13 @@ class ShieldBankReinforcement extends Alias
           4234  => 39,
           4235  => 46,
 
-          4241  => null,
+          4241  => 21,
           4242  => 28,
           4243  => 35,
           4244  => 41,
           4245  => 48,
 
-          4251  => null,
+          4251  => 20,
           4252  => 26,
           4253  => 33,
           4254  => 39,

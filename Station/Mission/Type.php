@@ -104,6 +104,8 @@ class Type extends Alias
          310                                => 'Wartime Surface Recovery of %commodityCount% %commodity%',
          311                                => 'Surface Recovery of %commodityCount% %commodity%',
          312                                => 'Surface Retrieval of %commodityCount% %commodity% during Expansion',
+         313                                => 'Surface Recovery of %commodityCount% %commodity% during Retreat',
+         314                                => 'Surface Recovery of %commodityCount% %commodity% during Medical Emergency',
 
          401                                => 'Donate %commodityCount% units of %commodity%',
          402                                => 'Find %commodityCount% units of %commodity%',
@@ -134,6 +136,7 @@ class Type extends Alias
          513                                => 'Imperial navy supply run',
          514                                => 'Sensitive supply operation',
          515                                => 'Improve our financial status by delivering %commodityCount% units of %commodity%',
+         516                                => 'Help us prepare our escape by delivering %commodityCount% units of %commodity%',
 
        10501                                => 'Deliver %commodityCount% units of %commodity%',
        10502                                => 'Help the cooperative by delivering %commodityCount% units of %commodity%',
@@ -161,6 +164,7 @@ class Type extends Alias
          609                                => 'The Federal Navy requires %commodityCount% units of %commodity%',
          610                                => 'Investors need %commodityCount% units of %commodity%',
          611                                => 'Supplier needs %commodityCount% units of %commodity%',
+         612                                => 'Refugees needs %commodityCount% units of %commodity%',
 
        10601                                => 'Source and return %commodityCount% units of %commodity%',
        10602                                => 'Industry needs %commodityCount% units of %commodity%',
@@ -182,12 +186,14 @@ class Type extends Alias
          708                                => '%commodity% outbreak salvage contract',
          709                                => '%commodity% Imperial Navy salvage mission',
          710                                => '%commodity% Federal Navy retrieval mission',
+         711                                => '%commodity% Salvage to Aid Retreat',
 
          751                                => 'Illegal %commodity% salvage operation',
          752                                => 'Prohibited %commodity% salvage operation',
          753                                => 'Illegal %commodity% salvage contract',
          754                                => 'Illegal %commodity% expansion salvage operation',
          755                                => '%commodity% salvage for the court',
+         756                                => 'Illegal %commodity% Salvage Contract',
 
          781                                => 'Salvage %commodityCount% %commodity%',
 
@@ -205,6 +211,7 @@ class Type extends Alias
          855                                => 'Covert action against %target% at %targetStationName%',
          856                                => 'Disable %target% at %targetStationName%',
          857                                => 'Take down %target% at %targetStationName%',
+         858                                => 'Covert Action against %target% at %targetStationName%',
 
          901                                => 'Mine %commodityCount% units of %commodity%',
          902                                => 'Mining rush for %commodityCount% units of %commodity%',
@@ -318,6 +325,7 @@ class Type extends Alias
         1256                                => 'Wartime illegal transportation contract',
         1257                                => 'Locked down smuggling operation',
         1258                                => 'Outbreak covert transportation mission',
+        1259                                => 'Covert Transportation Mission',
 
         // Hack Missions
         1301                                => 'Interact with the %target% datalink',
@@ -325,6 +333,8 @@ class Type extends Alias
         1303                                => 'Infiltrate the %target% datalink',
         1304                                => 'Tap into the %target% datalink',
         1305                                => 'Plug into the %target% datalink',
+        1306                                => 'Establish Covert Link with the %target% Data Link',
+        1307                                => 'Establish Covert Link with the %target% Data Link',
 
         1351                                => 'Covert data retrieval assignment',
         1352                                => 'Tactical data acquisition',
@@ -334,6 +344,9 @@ class Type extends Alias
         1356                                => 'Security data extraction',
         1357                                => 'Poll Data Retrieval',
         1358                                => 'Financial Data Acquisition',
+        1359                                => 'Economic Data Acquisition',
+        1360                                => 'Offender Data Contract',
+        1361                                => 'Tactical Data Acquisition',
 
         1401                                => '%passengerName% wants to go to %expeditionDest% and collect data',
         1402                                => '%passengerName% wants to go to %expeditionDest% and collect data',
@@ -539,6 +552,8 @@ class Type extends Alias
         'mission_rescue_planet_war'                         => 310,
         'mission_rescue_planet_civilwar'                    => 311,
         'mission_rescue_planet_expansion'                   => 312,
+        'mission_rescue_planet_retreat'                     => 313,
+        'mission_rescue_planet_outbreak'                    => 314,
 
         'mission_altruism'                                  => 401,
         'mission_altruism_outbreak'                         => 402,
@@ -568,6 +583,7 @@ class Type extends Alias
         'mission_delivery_rankemp'                          => 513,
         'mission_delivery_founder'                          => 514,
         'mission_delivery_investment'                       => 515,
+        'mission_delivery_retreat'                          => 516,
 
         'mission_deliverywing'                              => 10501,
         'mission_deliverywing_cooperative'                  => 10502,
@@ -595,6 +611,7 @@ class Type extends Alias
         'mission_collect_rankfed'                           => 609,
         'mission_collect_investment'                        => 610,
         'mission_collect_civilliberty'                      => 611,
+        'mission_collect_retreat'                           => 612,
 
         'mission_collectwing'                               => 10601,
         'mission_collectwing_industrial'                    => 10602,
@@ -616,12 +633,14 @@ class Type extends Alias
         'mission_salvage_outbreak'                          => 708,
         'mission_salvage_rankemp'                           => 709,
         'mission_salvage_rankfed'                           => 710,
+        'mission_salvage_retreat'                           => 711,
 
         'mission_salvage_illegal'                           => 751,
         'mission_salvage_illegal_terraforming'              => 752,
         'mission_salvage_illegal_bust'                      => 753,
         'mission_salvage_illegal_expansion'                 => 754,
         'mission_salvage_illegal_feudal'                    => 755,
+        'mission_salvage_illegal_retreat'                   => 756,
 
         'mission_salvage_planet'                            => 781,
 
@@ -638,6 +657,7 @@ class Type extends Alias
         'mission_disable_blops_civilunrest'                 => 855,
         'mission_disable_blops_expansion'                   => 856,
         'mission_disable_blops_lockdown'                    => 857,
+        'mission_disable_blops_retreat'                     => 858,
 
         'mission_mining'                                    => 901,
         'mission_mining_boom'                               => 902,
@@ -747,12 +767,15 @@ class Type extends Alias
         'mission_smuggle_blops_war'                         => 1256,
         'mission_smuggle_blops_lockdown'                    => 1257,
         'mission_smuggle_blops_outbreak'                    => 1258,
+        'mission_smuggle_blops_civilliberty'                => 1259,
 
         'mission_hack'                                      => 1301,
         'mission_hack_civilwar'                             => 1302,
         'mission_hack_war'                                  => 1303,
         'mission_hack_civilunrest'                          => 1304,
         'mission_hack_expansion'                            => 1305,
+        'mission_hack_investment'                           => 1306,
+        'mission_hack_boom'                                 => 1307,
 
         'mission_hack_blops'                                => 1351,
         'mission_hack_blops_civilwar'                       => 1352,
@@ -762,6 +785,9 @@ class Type extends Alias
         'mission_hack_blops_lockdown'                       => 1356,
         'mission_hack_blops_elections'                      => 1357,
         'mission_hack_blops_investment'                     => 1358,
+        'mission_hack_blops_boom'                           => 1359,
+        'mission_hack_blops_prisoncol'                      => 1360,
+        'mission_hack_blops_retreat'                        => 1361,
 
         'mission_longdistanceexpedition'                    => 1401,
         'mission_longdistanceexpedition_explorer_boom'      => 1402,

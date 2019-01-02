@@ -304,7 +304,7 @@ class Integrity extends Alias
           1010  => 51,
           1011  => 64,
 
-          1021  => null,
+          1021  => 40,
 
           1031  => null,
           1032  => null,
@@ -634,7 +634,7 @@ class Integrity extends Alias
 
           3211  => 58,
           3212  => 51,
-          3213  => null,
+          3213  => 64,
           3214  => 77,
           3215  => 70,
           3216  => 55,
@@ -701,7 +701,7 @@ class Integrity extends Alias
           3344  => 170,
           3345  => 141,
 
-          3351  => null,
+          3351  => 118,
           3352  => 105,
           3353  => 131,
           3354  => 197,
@@ -717,20 +717,20 @@ class Integrity extends Alias
           3400  => null, // Not in category
           3401  => 32,
           3402  => 36,
-          3403  => null,
+          3403  => 40,
           3404  => null,
           3405  => 48,
 
           3411  => 41,
           3412  => 46,
-          3413  => null,
+          3413  => 51,
           3414  => 56,
           3415  => 61,
 
           3421  => 51,
           3422  => 58,
           3423  => 64,
-          3424  => null,
+          3424  => 70,
           3425  => 77,
 
           3431  => 64,
@@ -759,7 +759,7 @@ class Integrity extends Alias
 
           3471  => 120,
           3472  => 135,
-          3473  => null,
+          3473  => 150,
           3474  => 165,
           3475  => 180,
 
@@ -773,7 +773,7 @@ class Integrity extends Alias
 
           3509  => null,
 
-          3511  => null,
+          3511  => 46,
           3512  => 41,
           3513  => 51,
           3514  => 61,
@@ -800,7 +800,7 @@ class Integrity extends Alias
           3541  => null,
           3542  => 77,
           3543  => 96,
-          3544  => null,
+          3544  => 115,
           3545  => 106,
 
           3549  => null,
@@ -821,7 +821,7 @@ class Integrity extends Alias
 
           3569  => null,
 
-          3571  => null,
+          3571  => 135,
           3572  => 120,
           3573  => 150,
           3574  => 180,
@@ -833,14 +833,14 @@ class Integrity extends Alias
           3600  => null, // Not in category
           3601  => 36,
           3602  => 32,
-          3603  => null,
+          3603  => 40,
           3604  => 44,
           3605  => 44,
 
           3611  => 46,
           3612  => 41,
           3613  => 51,
-          3614  => null,
+          3614  => 61,
           3615  => 56,
 
           3621  => 58,
@@ -981,7 +981,7 @@ class Integrity extends Alias
           4166  => 157,
           4167  => 157,
 
-          4171  => null,
+          4171  => 120,
           4172  => 90,
           4173  => 150,
           4174  => 150,
@@ -991,7 +991,7 @@ class Integrity extends Alias
 
         // Optional Internal > Shield Cell Bank
           4201  => 32,
-          4202  => null,
+          4202  => 24,
           4203  => null,
           4204  => 56,
           4205  => 48,
@@ -1054,16 +1054,16 @@ class Integrity extends Alias
           4321  => null,
           4322  => 38,
           4323  => null,
-          4324  => null,
+          4324  => 90,
           4325  => 77,
 
           4331  => null,
-          4332  => null,
+          4332  => 48,
           4333  => 80,
           4334  => 112,
           4335  => 96,
 
-          4341  => null,
+          4341  => 77,
           4342  => 58,
           4343  => 96,
           4344  => 134,
@@ -1103,7 +1103,7 @@ class Integrity extends Alias
           4421  => null,
           4422  => null,
           4423  => null,
-          4424  => null,
+          4424  => 90,
           4425  => 77,
 
           4431  => null,
@@ -1113,9 +1113,9 @@ class Integrity extends Alias
           4435  => 96,
 
         // Optional Internal > Frame Shift Drive Interdictor
-          4501  => null,
+          4501  => 32,
           4502  => 24,
-          4503  => null,
+          4503  => 40,
           4504  => null,
           4505  => 48,
 
@@ -1127,7 +1127,7 @@ class Integrity extends Alias
 
           4521  => null,
           4522  => 38,
-          4523  => null,
+          4523  => 64,
           4524  => 90,
           4525  => 77,
 
@@ -1138,7 +1138,7 @@ class Integrity extends Alias
           4535  => 96,
 
         // Optional Internal > Hatch Breaker Limpet Controller
-          4601  => null,
+          4601  => 32,
           4602  => 24,
           4603  => null,
           4604  => 56,
@@ -1151,16 +1151,16 @@ class Integrity extends Alias
           4625  => 77,
 
           4641  => null,
-          4642  => null,
+          4642  => 58,
           4643  => null,
-          4644  => null,
+          4644  => 134,
           4645  => 115,
 
           4661  => null,
           4662  => null,
           4663  => null,
           4664  => null,
-          4665  => null,
+          4665  => 157,
 
         // Optional Internal > Auto Field-Maintenance Unit
           4701  => null,
@@ -1193,7 +1193,7 @@ class Integrity extends Alias
           4744  => 134,
           4745  => 110,
 
-          4751  => null,
+          4751  => 90,
           4752  => 68,
           4753  => 113,
           4754  => 158,
@@ -1264,7 +1264,7 @@ class Integrity extends Alias
 
           5061  => 79,
           5062  => 105,
-          5063  => null,
+          5063  => 131,
           5064  => 157,
           5065  => 183,
 
@@ -1278,7 +1278,7 @@ class Integrity extends Alias
           5121  => null,
           5122  => 51,
           5123  => null,
-          5124  => null,
+          5124  => 77,
           5125  => 90,
 
           5141  => null,
@@ -1296,27 +1296,27 @@ class Integrity extends Alias
         // Optional Internal > Prospector Limpet Controller
           5201  => null,
           5202  => 32,
-          5203  => null,
-          5204  => null,
+          5203  => 40,
+          5204  => 48,
           5205  => 56,
 
-          5221  => null,
+          5221  => 38,
           5222  => 51,
-          5223  => null,
+          5223  => 64,
           5224  => 77,
           5225  => 90,
 
           5241  => null,
           5242  => 77,
           5243  => null,
-          5244  => null,
+          5244  => 115,
           5245  => 134,
 
           5261  => null,
           5262  => null,
           5263  => null,
           5264  => null,
-          5265  => null,
+          5265  => 183,
 
         // Optional Internal > Passenger Cabin
           5311  => null,

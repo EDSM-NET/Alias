@@ -278,6 +278,7 @@ class PaintJob extends Alias
             'anaconda_horus2_03'                            => 'Gold Pharaoh',
 
             'anaconda_iridescenthighcolour_01'              => 'Iridescent Scorch',
+            'anaconda_iridescenthighcolour_02'              => 'Iridescent Gleam',
             'anaconda_iridescenthighcolour_03'              => 'Iridescent Dawn',
             'anaconda_iridescenthighcolour_04'              => 'Iridescent Dusk',
             'anaconda_iridescenthighcolour_05'              => 'Iridescent Aurora',
@@ -1531,6 +1532,7 @@ class PaintJob extends Alias
             'cutter_gradient2_teal'                         => 'Predator Teal',
 
             'cutter_iridescenthighcolour_01'                => 'Iridescent Scorch',
+            'cutter_iridescenthighcolour_02'                => 'Iridescent Gleam',
             'cutter_iridescenthighcolour_03'                => 'Iridescent Dawn',
             'cutter_iridescenthighcolour_04'                => 'Iridescent Dusk',
             'cutter_iridescenthighcolour_05'                => 'Iridescent Aurora',
@@ -1670,6 +1672,7 @@ class PaintJob extends Alias
             'krait_mkii_corrosive_06'                       => 'Corroded 6',
 
             'krait_mkii_frontierspecial_frontierspecial'    => 'Frontier Special',
+            'krait_mkii_specialeffectchristmas_01'          => 'Special Effect Christmas',
             'krait_mkii_pcgamer_pcgamer'                    => 'PC Gamer',
 
             'krait_mkii_gradient2_teal'                     => 'Predator Teal',

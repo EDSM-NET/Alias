@@ -72,6 +72,9 @@ class Victim extends Alias
         233     => 'Imperial ATR',
         234     => 'Allied ATR',
 
+        241     => 'Federal AX Ship',
+        242     => 'System AX Force',
+
         301     => 'Wedding Barge',
         302     => 'Cruise Ship',
 
@@ -89,6 +92,7 @@ class Victim extends Alias
         //510     => 'Spec Ops Wing Alpha',
         511     => 'Spec Ops Wing Gamma',
         512     => 'Imperial Captain',
+        513     => 'Onboard Data Beacon',
 
     ];
 
@@ -162,6 +166,9 @@ class Victim extends Alias
         'atr_empire'                            => 233,
         'atr_alliance'                          => 234,
 
+        'ax_military_federation'                => 241,
+        'ax_military_independent'               => 242,
+
         'passengerliner_wedding'                => 301,
         'passengerliner_cruise'                 => 302,
 
@@ -179,5 +186,6 @@ class Victim extends Alias
         //'luasc_scenario_warzone_npc_specops_f'              => 510,
         'luasc_scenario_warzone_npc_specops_g'              => 511,
         'luasc_scenario_warzone_npc_warzonegeneral_emp'     => 512,
+        'luasc_scenario_uss_debrisfield_shipname'           => 513,
     ];
 }

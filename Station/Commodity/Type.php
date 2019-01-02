@@ -433,6 +433,11 @@ class Type extends Alias
         1901        => 'Mollusc Membrane',
         1902        => 'Mollusc Mycelium',
 
+        1920        => 'Mollusc Soft Tissue',
+
+        1930        => 'Pod Core Tissue',
+        1931        => 'Pod Dead Tissue',
+
 
         // Powerplay (99)
         9901        => 'Aisling Media Materials',
@@ -901,6 +906,11 @@ class Type extends Alias
         'm3_tissuesample_spores'                => 1900,
         'm3_tissuesample_membrane'              => 1901,
         'm3_tissuesample_mycelium'              => 1902,
+
+        'm_tissuesample_soft'                   => 1920,
+
+        's_tissuesample_cells'                  => 1930,
+        's_tissuesample_surface'                => 1931,
 
 
         // Powerplay (99)

@@ -28,7 +28,7 @@ class RegenRate extends Alias
           4102  => null,
           4103  => null,
           4104  => 1.8,
-          4106  => null,
+          4106  => 1,
           4107  => 1,
 
           4110  => null, // Not in category
@@ -40,15 +40,15 @@ class RegenRate extends Alias
           4116  => 1,
           4117  => 1,
 
-          4121  => null,
+          4121  => 1,
           4122  => 1,
-          4123  => null,
+          4123  => 1,
           4124  => 1.8,
           4125  => 1,
           4126  => 1,
           4127  => 1,
 
-          4131  => null,
+          4131  => 1,
           4132  => 1,
           4133  => null,
           4134  => 1.8,

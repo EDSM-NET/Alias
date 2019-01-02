@@ -28,7 +28,7 @@ class BrokenRegenRate extends Alias
           4102  => null,
           4103  => null,
           4104  => 2.4,
-          4106  => null,
+          4106  => 1.6,
           4107  => 1.2,
 
           4110  => null, // Not in category
