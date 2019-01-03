@@ -28,7 +28,7 @@ class Armour extends Alias
         128816581               => 540,
 
         // Anaconda
-        128049363               => 945,
+        128049363               => 525,
 
         // Asp Explorer
         128049303               => 378,

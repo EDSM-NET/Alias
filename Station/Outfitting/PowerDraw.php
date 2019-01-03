@@ -255,6 +255,7 @@ class PowerDraw extends Alias
           1829  => 0.47,
 
         // Weapon Hardpoint > Shock Cannon
+          1851  => 0.41,
           1852  => 0.57,
           1853  => 0.89,
 

@@ -473,6 +473,7 @@ class Mass extends Alias
           1829  => 2,
 
         // Weapon Hardpoint > Shock Cannon
+          1851  => 2,
           1852  => 4,
           1853  => 8,
 

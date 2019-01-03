@@ -93,6 +93,7 @@ class Victim extends Alias
         511     => 'Spec Ops Wing Gamma',
         512     => 'Imperial Captain',
         513     => 'Onboard Data Beacon',
+        514     => 'Rescue Vessel',
 
     ];
 
@@ -187,5 +188,6 @@ class Victim extends Alias
         'luasc_scenario_warzone_npc_specops_g'              => 511,
         'luasc_scenario_warzone_npc_warzonegeneral_emp'     => 512,
         'luasc_scenario_uss_debrisfield_shipname'           => 513,
+        'luasc_scenario_megaship_tg_sender_rescuer'         => 514,
     ];
 }
