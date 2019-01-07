@@ -31,7 +31,7 @@ class Armour extends Alias
         128049363               => 525,
 
         // Asp Explorer
-        128049303               => 378,
+        128049303               => 210,
 
         // Asp Scout
         128672276               => 324,
@@ -61,7 +61,7 @@ class Armour extends Alias
         128672145               => 540,
 
         // Federal Corvette
-        128049369               => 666,
+        128049369               => 370,
 
         // Federal Dropship
         128049321               => 540,

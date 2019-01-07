@@ -14,11 +14,11 @@ class Multiplier extends Alias
      */
     static protected $name  = [
           1     => [    // Angled Plating
-                ['Hull Boost', '-3%', 'text-danger'],
+                'DefenceModifierHealthMultiplier'   => 0.97,
                 'KineticResistance'                 => 1.08,
             ],
           2     => [    // Angled Plating
-                ['Hull Boost', '-5%', 'text-danger'],
+                'DefenceModifierHealthAddition'     => 0.95,
                 'KineticResistance'                 => 1.02,
             ],
           3     => [],  // Auto Loader
@@ -31,12 +31,12 @@ class Multiplier extends Alias
                 ['Shield Reinforcement', '+5%', 'text-info'],
             ],
           6     => [    // Cluster Capacitors
-                ['Weapons Capacity', '+8%', 'text-info'],
-                ['Weapons Recharge', '-2%', 'text-danger'],
-                ['Engines Capacity', '+8%', 'text-info'],
-                ['Engines Recharge', '-2%', 'text-danger'],
-                ['Systems Capacity', '+8%', 'text-info'],
-                ['Systems Recharge', '-2%', 'text-danger'],
+                'WeaponsCapacity'                   => 1.08,
+                'WeaponsRecharge'                   => 0.98,
+                'EnginesCapacity'                   => 1.08,
+                'EnginesRecharge'                   => 0.98,
+                'SystemsCapacity'                   => 1.08,
+                'SystemsRecharge'                   => 0.98,
             ],
           7     => [    // Concordant Sequence
                 'ThermalLoad'                       => 1.5,
@@ -52,13 +52,13 @@ class Multiplier extends Alias
          11     => [    // Deep Plating
                 'DefenceModifierHealthMultiplier'   => 1.08,
                 'KineticResistance'                 => 0.97,
-                ['Thermal Resistance', '-3%', 'text-danger'],
+                'ThermicResistance'                 => 0.97,
                 'ExplosiveResistance'               => 0.97,
             ],
          12     => [    // Deep Plating
                 'DefenceModifierHealthAddition'     => 1.1,
                 'KineticResistance'                 => 0.98,
-                ['Thermal Resistance', '-2%', 'text-danger'],
+                'ThermicResistance'                 => 0.98,
                 'ExplosiveResistance'               => 0.98,
             ],
          13     => [],  // Dispersal Field
@@ -101,7 +101,7 @@ class Multiplier extends Alias
                 ['Regen Rate', '+15%', 'text-info'],
                 ['Broken Regen Rate', '+15%', 'text-info'],
                 'KineticResistance'                 => 0.99,
-                ['Thermal Resistance', '-1%', 'text-danger'],
+                'ThermicResistance'                 => 0.99,
                 'ExplosiveResistance'               => 0.99,
          ],
          27     => [    // Feedback Cascade
@@ -158,11 +158,11 @@ class Multiplier extends Alias
 
          ],
          42     => [    // Layered Plating
-                ['Hull Boost', '-3%', 'text-danger'],
+                'DefenceModifierHealthMultiplier'   => 0.97,
                 'ExplosiveResistance'               => 1.08,
          ],
          43     => [    // Layered Plating
-                ['Hull Boost', '-5%', 'text-danger'],
+                'DefenceModifierHealthAddition'     => 0.95,
                 'ExplosiveResistance'               => 1.02,
          ],
          44     => [    // Lo-draw
@@ -170,7 +170,7 @@ class Multiplier extends Alias
                 ['Optimal Multiplier', '-2%', 'text-danger'],
                 ['Distributor Draw', '-20%', 'text-info'],
                 'KineticResistance'                 => 0.99,
-                ['Thermal Resistance', '-1%', 'text-danger'],
+                'ThermicResistance'                 => 0.99,
                 'ExplosiveResistance'               => 0.99,
          ],
          45     => [    // Mass Lock Munition
@@ -193,7 +193,7 @@ class Multiplier extends Alias
                 'PowerDraw'                         => 1.1,
                 ['Distributor Draw', '+25%', 'text-danger'],
                 'KineticResistance'                 => 1.03,
-                ['Thermal Resistance', '+3%', 'text-info'],
+                'ThermicResistance'                 => 1.03,
                 'ExplosiveResistance'               => 1.03,
          ],
          50     => [    // Overload Munitions
@@ -229,12 +229,12 @@ class Multiplier extends Alias
                 ['Shield Reinforcement', '-5%', 'text-danger'],
          ],
          59     => [    // Reflective Plating
-                ['Hull Boost', '-3%', 'text-danger'],
-                ['Thermal Resistance', '+8%', 'text-info'],
+                'DefenceModifierHealthMultiplier'   => 0.97,
+                'ThermicResistance'                 => 1.08,
          ],
          60     => [    // Reflective Plating
-                ['Hull Reinforcement', '-5%', 'text-danger'],
-                ['Thermal Resistance', '+2%', 'text-info'],
+                'DefenceModifierHealthAddition'     => 0.95,
+                'ThermicResistance'                 => 1.02,
          ],
          61     => [    // Regeneration Sequence
                 ['Damage', '-10%', 'text-danger'],
@@ -252,42 +252,42 @@ class Multiplier extends Alias
          65     => [],  // Shift-lock Canister
          66     => [],  // Smart Rounds
          67     => [    // Stripped Down
-                'Mass'                          => 0.9,
+                'Mass'                              => 0.9,
          ],
          68     => [    // Stripped Down
-                'Mass'                          => 0.9,
+                'Mass'                              => 0.9,
          ],
          69     => [    // Stripped Down
-                'Mass'                          => 0.9,
+                'Mass'                              => 0.9,
          ],
          70     => [    // Stripped Down
-                'Mass'                          => 0.9,
+                'Mass'                              => 0.9,
          ],
          71     => [    // Stripped Down
-                'Mass'                          => 0.9,
+                'Mass'                              => 0.9,
          ],
          72     => [    // Stripped Down
-                'Mass'                          => 0.9,
+                'Mass'                              => 0.9,
          ],
          73     => [    // Stripped Down
-                'Mass'                          => 0.9,
+                'Mass'                              => 0.9,
             ],
          74     => [    // Super Capacitors
                 ['Optimal Strength', '+5%', 'text-info'],
-                'KineticResistance'             => 0.98,
-                ['Thermal Resistance', '-2%', 'text-danger'],
-                'ExplosiveResistance'           => 0.98,
+                'KineticResistance'                 => 0.98,
+                'ThermicResistance'                 => 0.98,
+                'ExplosiveResistance'               => 0.98,
          ],
          75     => [    // Super Conduits
-                ['Weapons Capacity', '-4%', 'text-danger'],
-                ['Weapons Recharge', '+5%', 'text-info'],
-                ['Engines Capacity', '-4%', 'text-danger'],
-                ['Engines Recharge', '+4%', 'text-info'],
-                ['Systems Capacity', '-4%', 'text-danger'],
-                ['Systems Recharge', '+4%', 'text-info'],
+                'WeaponsCapacity'                   => 0.96,
+                'WeaponsRecharge'                   => 1.05,
+                'EnginesCapacity'                   => 0.96,
+                'EnginesRecharge'                   => 1.04,
+                'SystemsCapacity'                   => 0.96,
+                'SystemsRecharge'                   => 1.04,
          ],
          76     => [    // Super Penetrator
-                'ThermalLoad'                   => 0.6,
+                'ThermalLoad'                       => 0.6,
                 ['Reload Time', '+50%', 'text-danger'],
          ],
          77     => [    // Super Penetrator
@@ -312,11 +312,11 @@ class Multiplier extends Alias
          85     => [],  // Thermal Vent
          86     => [    // Thermo Block
                 ['Optimal Multiplier', '-3%', 'text-danger'],
-                ['Thermal Resistance', '+8%', 'text-info'],
+                'ThermicResistance'             => 1.08,
          ],
          87     => [    // Thermo Block
                 ['Optimal Strength', '-1%', 'text-danger'],
-                ['Thermal Resistance', '+2%', 'text-info'],
+                'ThermicResistance'             => 1.02,
          ],
     ];
 }

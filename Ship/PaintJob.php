@@ -116,6 +116,8 @@ class PaintJob extends Alias
             'typex_3_iridescenthighcolour_05'               => 'Iridescent Aurora',
             'typex_3_iridescenthighcolour_06'               => 'Iridescent Twilight',
 
+            'typex_3_metallic2_gold'                        => 'Golden',
+
             'typex_3_military_militaire_dark_green'         => 'Military Dark Green',
             'typex_3_military_militaire_desert_sand'        => 'Military Desert Sand',
             'typex_3_military_militaire_earth_red'          => 'Military Earth Red',
@@ -172,6 +174,8 @@ class PaintJob extends Alias
             'typex_luminous_stripe_04'                      => 'Pulse Red',
             'typex_luminous_stripe_05'                      => 'Pulse Orange',
             'typex_luminous_stripe_06'                      => 'Pulse White',
+
+            'typex_metallic2_gold'                          => 'Golden',
 
             'typex_military_militaire_dark_green'           => 'Military Dark Green',
             'typex_military_militaire_desert_sand'          => 'Military Desert Sand',
@@ -387,6 +391,7 @@ class PaintJob extends Alias
             'asp_festive_white'                             => 'Festive White',
 
             'asp_iridescenthighcolour_01'                   => 'Iridescent Scorch',
+            'asp_iridescenthighcolour_02'                   => 'Iridescent Gleam',
             'asp_iridescenthighcolour_04'                   => 'Iridescent Dusk',
             'asp_iridescenthighcolour_05'                   => 'Iridescent Aurora',
             'asp_iridescenthighcolour_06'                   => 'Iridescent Twilight',
@@ -532,6 +537,7 @@ class PaintJob extends Alias
             'belugaliner_ember_blue'                        => 'Ember Blue',
 
             //'belugaliner_metallic_chrome'                   => 'Chrome',
+            'belugaliner_metallic2_chrome'                  => 'Chromed',
             //'belugaliner_metallic_gold'                     => 'Gold',
             'belugaliner_metallic2_gold'                    => 'Golden',
 
@@ -815,6 +821,8 @@ class PaintJob extends Alias
 
             'diamondbackxl_blackfriday_01'                  => 'Midnight Black',
 
+            'diamondbackxl_iridescenthighcolour_02'         => 'Iridescent Gleam',
+
             'diamondbackxl_metallic_chrome'                 => 'Chrome',
             'diamondbackxl_metallic2_chrome'                => 'Chromed',
             //'diamondbackxl_metallic_gold'                   => 'Gold',
@@ -917,6 +925,7 @@ class PaintJob extends Alias
             'dolphin_ember_blue'                            => 'Ember Blue',
 
             //'dolphin_metallic_chrome'                       => 'Chrome',
+            'dolphin_metallic2_chrome'                      => 'Chromed',
             //'dolphin_metallic_gold'                         => 'Gold',
             'dolphin_metallic2_gold'                        => 'Golden',
 
@@ -1053,6 +1062,7 @@ class PaintJob extends Alias
             'feddropship_mkii_gradient2_06'                 => 'Predator Blue',
 
             //'feddropship_mkii_metallic_chrome'              => 'Chrome',
+            'feddropship_mkii_metallic2_chrome'             => 'Chromed',
             //'feddropship_mkii_metallic_gold'                => 'Gold',
 
             'feddropship_mkii_militaire_dark_green'         => 'Military Dark Green',
@@ -1112,6 +1122,8 @@ class PaintJob extends Alias
             'federation_corvette_corrosive_04'              => 'Corroded 4',
             'federation_corvette_corrosive_05'              => 'Corroded 5',
             'federation_corvette_corrosive_06'              => 'Corroded 6',
+
+            'federation_corvette_iridescenthighcolour_02'   => 'Iridescent Gleam',
 
             'federation_corvette_metallic_chrome'           => 'Chrome',
             'federation_corvette_metallic2_chrome'          => 'Chromed',
@@ -1404,6 +1416,7 @@ class PaintJob extends Alias
             //'empiretrader_metallic_gold'                    => 'Gold',
 
             'empiretrader_iridescenthighcolour_01'          => 'Iridescent Scorch',
+            'empiretrader_iridescenthighcolour_02'          => 'Iridescent Gleam',
             'empiretrader_iridescenthighcolour_03'          => 'Iridescent Dawn',
             'empiretrader_iridescenthighcolour_04'          => 'Iridescent Dusk',
             'empiretrader_iridescenthighcolour_05'          => 'Iridescent Aurora',
@@ -1696,6 +1709,8 @@ class PaintJob extends Alias
             'krait_mkii_horus2_02'                          => 'Red Pharaoh',
             'krait_mkii_horus2_03'                          => 'Gold Pharaoh',
 
+            'krait_mkii_metallic2_chrome'                   => 'Chromed',
+
             'krait_mkii_militaire_dark_green'               => 'Military Dark Green',
             'krait_mkii_militaire_desert_sand'              => 'Military Desert Sand',
             'krait_mkii_militaire_earth_red'                => 'Military Earth Red',
@@ -1731,6 +1746,8 @@ class PaintJob extends Alias
 
             'krait_light_blackfriday_01'                    => 'Midnight Black',
 
+            'krait_light_metallic2_gold'                    => 'Golden',
+
             'krait_light_militaire_dark_green'              => 'Military Dark Green',
             'krait_light_militaire_desert_sand'             => 'Military Desert Sand',
             'krait_light_militaire_earth_red'               => 'Military Earth Red',
@@ -1758,6 +1775,8 @@ class PaintJob extends Alias
             'mamba_default_defaultpaintjob'                 => 'Default',
 
             'mamba_blackfriday_01'                          => 'Midnight Black',
+
+            'mamba_metallic2_gold'                          => 'Golden',
 
             'mamba_militaire_dark_green'                    => 'Military Dark Green',
             'mamba_militaire_desert_sand'                   => 'Military Desert Sand',
@@ -1809,6 +1828,7 @@ class PaintJob extends Alias
             'orca_ember_blue'                               => 'Ember Blue',
 
             //'orca_metallic_chrome'                          => 'Chrome',
+            'orca_metallic2_chrome'                         => 'Chromed',
             //'orca_metallic_gold'                            => 'Gold',
 
             'orca_militaire_dark_green'                     => 'Military Dark Green',
@@ -2113,6 +2133,7 @@ class PaintJob extends Alias
 
             //'type9_metallic_chrome'                         => 'Chrome',
             //'type9_metallic_gold'                           => 'Gold',
+            'type9_metallic2_gold'                          => 'Golden',
 
             'type9_militaire_dark_green'                    => 'Military Dark Green',
             'type9_militaire_desert_sand'                   => 'Military Desert Sand',
@@ -2428,6 +2449,7 @@ class PaintJob extends Alias
             'vulture_fullmetal_paladium'                    => 'Galvanized Paladium',
 
             'vulture_iridescenthighcolour_01'               => 'Iridescent Scorch',
+            'vulture_iridescenthighcolour_02'               => 'Iridescent Gleam',
             'vulture_iridescenthighcolour_04'               => 'Iridescent Dusk',
             'vulture_iridescenthighcolour_05'               => 'Iridescent Aurora',
             'vulture_iridescenthighcolour_06'               => 'Iridescent Twilight',

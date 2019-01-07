@@ -627,7 +627,7 @@ class Integrity extends Alias
           3200  => null, // Not in category
           3201  => 46,
           3202  => 41,
-          3203  => null,
+          3203  => 51,
           3204  => null,
           3205  => 56,
           3206  => 40,
@@ -677,7 +677,7 @@ class Integrity extends Alias
           3304  => 77,
           3305  => 64,
 
-          3311  => null,
+          3311  => 58,
           3312  => 51,
           3313  => 64,
           3314  => 96,
@@ -784,7 +784,7 @@ class Integrity extends Alias
           3521  => 58,
           3522  => 51,
           3523  => 64,
-          3524  => null,
+          3524  => 77,
           3525  => 70,
 
           3529  => null,
@@ -992,7 +992,7 @@ class Integrity extends Alias
         // Optional Internal > Shield Cell Bank
           4201  => 32,
           4202  => 24,
-          4203  => null,
+          4203  => 40,
           4204  => 56,
           4205  => 48,
 
@@ -1175,7 +1175,7 @@ class Integrity extends Alias
           4714  => 71,
           4715  => 59,
 
-          4721  => null,
+          4721  => 51,
           4722  => 38,
           4723  => 64,
           4724  => 90,
@@ -1269,7 +1269,7 @@ class Integrity extends Alias
           5065  => 183,
 
         // Optional Internal > Fuel Transfer Limpet Controller
-          5101  => null,
+          5101  => 24,
           5102  => 32,
           5103  => 40,
           5104  => 48,
@@ -1277,7 +1277,7 @@ class Integrity extends Alias
 
           5121  => null,
           5122  => 51,
-          5123  => null,
+          5123  => 64,
           5124  => 77,
           5125  => 90,
 

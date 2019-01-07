@@ -10,7 +10,8 @@ use         EDSM\Alias;
 class ShieldGenStrength extends Alias
 {
     static protected $defaultName       = null;
-    static protected $representation    = 'Shield Gen Strength';
+    static protected $representation    = 'Shield Generator Strength';
+    static protected $unit              = '%1$s MJ';
 
     /**
      * List of categories

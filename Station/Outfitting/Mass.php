@@ -885,7 +885,7 @@ class Mass extends Alias
           4003  => 2,
 
         // Optional Internal > Detailed Surface Scanner
-          4011  => 1.3,
+          4011  => 0,
 
         // Optional Internal > Cargo Rack
           4021  => 0,

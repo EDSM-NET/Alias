@@ -25,7 +25,6 @@ class DefenceModifierHealthAddition extends Alias
      * Number by outfitting
      */
     static protected $name          = [
-
         // Optional Internal > Hull Reinforcement Package
           4801  => 80,
           4802  => 110,
