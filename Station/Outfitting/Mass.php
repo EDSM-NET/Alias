@@ -1069,7 +1069,7 @@ class Mass extends Alias
           4662  => 32,
           4663  => 80,
           4664  => 128,
-          4665  => 90,
+          4665  => 80,
 
         // Optional Internal > Auto Field-Maintenance Unit
           4701  => 0,   4702  => 0,     4703  => 0,     4704  => 0,     4705  => 0,
