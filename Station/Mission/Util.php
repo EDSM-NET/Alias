@@ -47,6 +47,7 @@ class Util extends Alias
         1020                                    => 'Medical ships',
         1021                                    => 'Science Team',
         1022                                    => 'Turret',
+        1023                                    => 'Infected Vessels',
     ];
 
     /**
@@ -91,5 +92,6 @@ class Util extends Alias
         'factiontag_medical'                    => 1020,
         'factiontag_scienceteam'                => 1021,
         'factiontag_turret'                     => 1022,
+        'factiontag_infected'                   => 1023,
     ];
 }

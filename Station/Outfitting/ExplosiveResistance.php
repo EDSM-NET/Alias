@@ -11,6 +11,7 @@ class ExplosiveResistance extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Explosive Resistance';
+    static protected $unit              = '%1$s%%';
 
     /**
      * List of categories

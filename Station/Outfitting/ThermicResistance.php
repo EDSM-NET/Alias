@@ -11,6 +11,7 @@ class ThermicResistance extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Thermic Resistance';
+    static protected $unit              = '%1$s%%';
 
     /**
      * List of categories

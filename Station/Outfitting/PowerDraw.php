@@ -187,7 +187,7 @@ class PowerDraw extends Alias
 
           1329  => 1.60,
           1330  => 2.01,
-          1330  => 2.53,
+          1331  => 2.53,
 
         // Weapon Hardpoint > Rail Gun
           1351  => 1.15,

@@ -13,275 +13,54 @@ class Integrity extends Alias
     static protected $representation    = 'Integrity';
 
     /**
+     * List of categories
+     */
+    static protected $exclude           = [
+        // Bulkheads
+        128049267,  // Adder
+        128816588,  // Alliance Challenger
+        128816574,  // Alliance Chieftain
+        128816581,  // Alliance Crusader
+        128049363,  // Anaconda
+        128049303,  // Asp Explorer
+        128672276,  // Asp Scout
+        128049345,  // Beluga Liner
+        128049279,  // Cobra MkIII
+        128672262,  // Cobra MkIV
+        128671831,  // Diamondback Explorer
+        128671217,  // Diamondback Scout
+        128049291,  // Dolphin
+        128049255,  // Eagle
+        128672145,  // Federal Assault Ship
+        128049369,  // Federal Corvette
+        128049321,  // Federal Dropship
+        128672152,  // Federal Gunship
+        128049351,  // Fer-de-Lance
+        128049261,  // Hauler
+        128049315,  // Imperial Clipper
+        128671223,  // Imperial Courrier
+        128049375,  // Imperial Cutter
+        128672138,  // Imperial Eagle
+        128672269,  // Keelback
+        128816567,  // Krait MkII
+        128839281,  // Krait Phantom
+        128915979,  // Mamba
+        128049327,  // Orca
+        128049339,  // Python
+        128049249,  // Sidewinder
+        128049285,  // Type-6 Transporter
+        128049297,  // Type-7 Transporter
+        128049333,  // Type-9 Heavy
+        128785619,  // Type-10 Defender
+        128049273,  // Viper MkIII
+        128672255,  // Viper MkIV
+        128049309,  // Vulture
+    ];
+
+    /**
      * Number by outfitting
      */
     static protected $name          = [
-        // Bulkhead > Adder
-             1  => null,
-             2  => null,
-             3  => null,
-             4  => null,
-             5  => null,
-
-        // Bulkhead > Anaconda
-            11  => null,
-            12  => null,
-            13  => null,
-            14  => null,
-            15  => null,
-
-        // Bulkhead > Asp Explorer
-            21  => null,
-            22  => null,
-            23  => null,
-            24  => null,
-            25  => null,
-
-        // Bulkhead > Asp Scout
-            31  => null,
-            32  => null,
-            33  => null,
-            34  => null,
-            35  => null,
-
-        // Bulkhead > Beluga Liner
-            41  => null,
-            42  => null,
-            43  => null,
-            44  => null,
-            45  => null,
-
-        // Bulkhead > Cobra Mk. III
-            51  => null,
-            52  => null,
-            53  => null,
-            54  => null,
-            55  => null,
-
-        // Bulkhead > Cobra MkIV
-            61  => null,
-            62  => null,
-            63  => null,
-            64  => null,
-            65  => null,
-
-        // Bulkhead > Diamondback Explorer
-            71  => null,
-            72  => null,
-            73  => null,
-            74  => null,
-            75  => null,
-
-        // Bulkhead > Diamondback Scout
-            81  => null,
-            82  => null,
-            83  => null,
-            84  => null,
-            85  => null,
-
-        // Bulkhead > Dolphin
-            91  => null,
-            92  => null,
-            93  => null,
-            94  => null,
-            95  => null,
-
-        // Bulkhead > Eagle
-           101  => null,
-           102  => null,
-           103  => null,
-           104  => null,
-           105  => null,
-
-        // Bulkhead > Federal Assault Ship
-           111  => null,
-           112  => null,
-           113  => null,
-           114  => null,
-           115  => null,
-
-        // Bulkhead > Federal Corvette
-           121  => null,
-           122  => null,
-           123  => null,
-           124  => null,
-           125  => null,
-
-        // Bulkhead > Federal Dropship
-           131  => null,
-           132  => null,
-           133  => null,
-           134  => null,
-           135  => null,
-
-        // Bulkhead > Federal Gunship
-           141  => null,
-           142  => null,
-           143  => null,
-           144  => null,
-           145  => null,
-
-        // Bulkhead > Fer-de-Lance
-           151  => null,
-           152  => null,
-           153  => null,
-           154  => null,
-           155  => null,
-
-        // Bulkhead > Hauler
-           161  => null,
-           162  => null,
-           163  => null,
-           164  => null,
-           165  => null,
-
-        // Bulkhead > Imperial Clipper
-           171  => null,
-           172  => null,
-           173  => null,
-           174  => null,
-           175  => null,
-
-        // Bulkhead > Imperial Courrier
-           181  => null,
-           182  => null,
-           183  => null,
-           184  => null,
-           185  => null,
-
-        // Bulkhead > Imperial Cutter
-           191  => null,
-           192  => null,
-           193  => null,
-           194  => null,
-           195  => null,
-
-        // Bulkhead > Imperial Eagle
-           201  => null,
-           202  => null,
-           203  => null,
-           204  => null,
-           205  => null,
-
-        // Bulkhead > Keelback
-           211  => null,
-           212  => null,
-           213  => null,
-           214  => null,
-           215  => null,
-
-        // Bulkhead > Orca
-           221  => null,
-           222  => null,
-           223  => null,
-           224  => null,
-           225  => null,
-
-        // Bulkhead > Python
-           231  => null,
-           232  => null,
-           233  => null,
-           234  => null,
-           235  => null,
-
-        // Bulkhead > Sidewinder
-           241  => null,
-           242  => null,
-           243  => null,
-           244  => null,
-           245  => null,
-
-        // Bulkhead > Type-6 Transporter
-           251  => null,
-           252  => null,
-           253  => null,
-           254  => null,
-           255  => null,
-
-        // Bulkhead > Type-7 Transporter
-           261  => null,
-           262  => null,
-           263  => null,
-           264  => null,
-           265  => null,
-
-        // Bulkhead > Type-9 Heavy
-           271  => null,
-           272  => null,
-           273  => null,
-           274  => null,
-           275  => null,
-
-        // Bulkhead > Viper MkIII
-           281  => null,
-           282  => null,
-           283  => null,
-           284  => null,
-           285  => null,
-
-        // Bulkhead > Viper MkIV
-           291  => null,
-           292  => null,
-           293  => null,
-           294  => null,
-           295  => null,
-
-        // Bulkhead > Vulture
-           301  => null,
-           302  => null,
-           303  => null,
-           304  => null,
-           305  => null,
-
-        // Bulkhead > Type-10 Defender
-           311  => null,
-           312  => null,
-           313  => null,
-           314  => null,
-           315  => null,
-
-        // Bulkhead > Alliance Chieftain
-           321  => null,
-           322  => null,
-           323  => null,
-           324  => null,
-           325  => null,
-
-        // Bulkhead > Alliance Challenger
-           331  => null,
-           332  => null,
-           333  => null,
-           334  => null,
-           335  => null,
-
-        // Bulkhead > Krait MkII
-           341  => null,
-           342  => null,
-           343  => null,
-           344  => null,
-           345  => null,
-
-        // Bulkhead > Alliance Crusader
-           351  => null,
-           352  => null,
-           353  => null,
-           354  => null,
-           355  => null,
-
-        // Bulkhead > Krait Phantom
-           361  => null,
-           362  => null,
-           363  => null,
-           364  => null,
-           365  => null,
-
-        // Bulkhead > Mamba
-           371  => null,
-           372  => null,
-           373  => null,
-           374  => null,
-           375  => null,
-
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => null,
            952  => null,
@@ -628,7 +407,7 @@ class Integrity extends Alias
           3201  => 46,
           3202  => 41,
           3203  => 51,
-          3204  => null,
+          3204  => 61,
           3205  => 56,
           3206  => 40,
 
@@ -1102,7 +881,7 @@ class Integrity extends Alias
 
           4421  => null,
           4422  => 38,
-          4423  => null,
+          4423  => 64,
           4424  => 90,
           4425  => 77,
 

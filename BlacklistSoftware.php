@@ -60,7 +60,18 @@ return [
     ],
 
     // Journal Event (Scan) only ban
-    'Scan'      => [
+    'Scan'              => [
 
     ],
+
+    // Journal Event (FSSDiscoveryScan) only ban
+    'FSSDiscoveryScan'  => [
+        1172,       // EliteLogAgent 0.9.0.346
+        1198,       // EliteLogAgent 0.9.1.388
+        1199,       // EliteLogAgent 0.9.1.391
+        1208,       // EliteLogAgent 0.9.2.407
+        1221,       // EliteLogAgent 0.9.2.412
+        1245,       // EliteLogAgent 0.9.5.444
+        1247,       // EliteLogAgent 0.9.5.445
+    ]
 ];

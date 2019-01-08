@@ -11,6 +11,7 @@ class MaxMass extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Maximal mass';
+    static protected $unit              = '%1$s t';
 
     /**
      * List of categories

@@ -11,6 +11,7 @@ class KineticResistance extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Kinetic Resistance';
+    static protected $unit              = '%1$s%%';
 
     /**
      * List of categories
@@ -62,6 +63,7 @@ class KineticResistance extends Alias
         // Optional Internal
         'Shield Generators',
         'Hull Reinforcements',
+        'Guardian Hull Reinforcement',
     ];
 
     /**
@@ -421,5 +423,21 @@ class KineticResistance extends Alias
 
           4841  => 2.499998,
           4842  => 2.499998,
+
+        // Optional Internal > Guardian Hull Reinforcement
+          6101  => 0,
+          6102  => 0,
+
+          6111  => 0,
+          6112  => 0,
+
+          6121  => 0,
+          6122  => 0,
+
+          6131  => 0,
+          6132  => 0,
+
+          6141  => 0,
+          6142  => 0,
     ];
 }

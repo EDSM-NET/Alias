@@ -45,6 +45,7 @@ class Victim extends Alias
          69     => 'Power node - Radiator Panel',
          70     => 'Power capacitor',
          //71     => '',
+         72     => 'Hull Breach',
 
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
@@ -140,6 +141,7 @@ class Victim extends Alias
         'mega_destructible_radpanelb'           => 69,
         'mega_canisterb'                        => 70,
         //'mega_destructible_radpanela'           => 71,
+        'mega_damageoverlay01'                  => 72,
 
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,

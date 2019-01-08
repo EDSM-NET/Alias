@@ -11,6 +11,7 @@ class MinMass extends Alias
 {
     static protected $defaultName       = null;
     static protected $representation    = 'Minimal mass';
+    static protected $unit              = '%1$s t';
 
     /**
      * List of categories
