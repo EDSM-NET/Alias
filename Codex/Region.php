@@ -17,7 +17,7 @@ class Region extends Alias
          2                      => 'Empyrean Straits',
          3                      => 'Ryker\'s Hope',
          4                      => 'Odin\'s Hold',
-         5                      =>'Norma Arm',
+         5                      => 'Norma Arm',
          6                      => 'Arcadian Stream',
          7                      => 'Izanami',
          8                      => 'Inner Orion-Perseus Conflux',
