@@ -9,7 +9,7 @@ use         EDSM\Alias;
 
 class Category extends Alias
 {
-    //use \EDSM\Alias\Station\Commodity\Category;
+    use \EDSM\Alias\Codex\Category;
 
     /**
      * List of names used in game
