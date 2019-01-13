@@ -1755,6 +1755,13 @@ class PaintJob extends Alias
             'krait_light_militaire_forest_green'            => 'Military Marine Blue',
             'krait_light_militaire_sand'                    => 'Military Sand',
 
+            'krait_light_gradient2_red'                     => 'Predator Red',
+            'krait_light_gradient2_green'                   => 'Predator Green',
+            'krait_light_gradient2_teal'                    => 'Predator Teal',
+            'krait_light_gradient2_crimson'                 => 'Predator Rose',
+            'krait_light_gradient2_lime'                    => 'Predator Lime',
+            'krait_light_gradient2_blue'                    => 'Predator Blue',
+
             'krait_light_tactical_blue'                     => 'Tactical Cobalt',
             'krait_light_tactical_brown'                    => 'Tactical Khaki',
             'krait_light_tactical_green'                    => 'Tactical Olive',
