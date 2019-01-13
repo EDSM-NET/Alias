@@ -24,7 +24,9 @@ class Description extends Alias
             21012   => 'A surface opening that emits high-pressure gas and minerals, found on terrestrial planets with water geysers.',
             21013   => 'A surface opening that emits high-pressure gas and minerals, found on terrestrial planets with silicate vapour geysers.',
 
-        31011   => 'Powerful Thargoid ships that combine both mechanical and organic elements',
+        31010   => 'Powerful Thargoid ships that combine both mechanical and organic elements',
             31011   => 'These ships are able to navigate hyperspace in ways that are not fully understood, and are at least partly organic.',
+
+        31061   => 'These devices are able to generate holographic star maps.',
     ];
 }
