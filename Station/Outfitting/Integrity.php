@@ -212,7 +212,7 @@ class Integrity extends Alias
           1509  => null,
           1510  => null,
 
-          1521  => null,
+          1521  => 40,
 
         // Weapon Hardpoint > Torpedo Pylon
           1551  => 40,
@@ -584,7 +584,7 @@ class Integrity extends Alias
 
           3549  => null,
 
-          3551  => null,
+          3551  => 102,
           3552  => 90,
           3553  => 113,
           3554  => 136,
@@ -613,7 +613,7 @@ class Integrity extends Alias
           3601  => 36,
           3602  => 32,
           3603  => 40,
-          3604  => 44,
+          3604  => 48,
           3605  => 44,
 
           3611  => 46,
@@ -821,7 +821,7 @@ class Integrity extends Alias
           4301  => null,
           4302  => null,
           4303  => null,
-          4304  => null,
+          4304  => 56,
           4305  => 48,
 
           4311  => null,
@@ -848,7 +848,7 @@ class Integrity extends Alias
           4344  => 134,
           4345  => 115,
 
-          4351  => null,
+          4351  => 90,
           4352  => 68,
           4353  => 113,
           4354  => 158,
@@ -875,7 +875,7 @@ class Integrity extends Alias
 
           4411  => null,
           4412  => null,
-          4413  => null,
+          4413  => 51,
           4414  => null,
           4415  => 61,
 
@@ -886,7 +886,7 @@ class Integrity extends Alias
           4425  => 77,
 
           4431  => null,
-          4432  => null,
+          4432  => 48,
           4433  => null,
           4434  => 112,
           4435  => 96,
@@ -895,7 +895,7 @@ class Integrity extends Alias
           4501  => 32,
           4502  => 24,
           4503  => 40,
-          4504  => null,
+          4504  => 56,
           4505  => 48,
 
           4511  => null,
@@ -943,7 +943,7 @@ class Integrity extends Alias
 
         // Optional Internal > Auto Field-Maintenance Unit
           4701  => null,
-          4702  => null,
+          4702  => 24,
           4703  => null,
           4704  => 56,
           4705  => 46,
@@ -988,7 +988,7 @@ class Integrity extends Alias
           4772  => null,
           4773  => 150,
           4774  => null,
-          4775  => null,
+          4775  => 173,
 
         // Optional Internal > Hull Reinforcement Package
           4801  => null,
@@ -1054,7 +1054,7 @@ class Integrity extends Alias
           5104  => 48,
           5105  => 56,
 
-          5121  => null,
+          5121  => 38,
           5122  => 51,
           5123  => 64,
           5124  => 77,

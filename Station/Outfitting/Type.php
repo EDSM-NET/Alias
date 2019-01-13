@@ -432,7 +432,7 @@ class Type extends Alias
           1509  => 'Mining Laser (Turret)',
           1510  => 'Mining Laser (Turret)',
 
-          1521  => 'Mining Lance (Fixed, Powerplay)',
+          1521  => 'Mining Lance (Fixed)',
 
         // Weapon Hardpoint > Torpedo Pylon
           1551  => 'Torpedo Pylon (Seeker, Fixed)',
