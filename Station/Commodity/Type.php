@@ -437,6 +437,7 @@ class Type extends Alias
 
         1930        => 'Pod Core Tissue',
         1931        => 'Pod Dead Tissue',
+        1932        => 'Pod Surface Tissue',
 
 
         // Powerplay (99)
@@ -911,6 +912,7 @@ class Type extends Alias
 
         's_tissuesample_cells'                  => 1930,
         's_tissuesample_surface'                => 1931,
+        's_tissuesample_core'                   => 1932,
 
 
         // Powerplay (99)

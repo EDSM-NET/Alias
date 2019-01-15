@@ -546,7 +546,7 @@ class Integrity extends Alias
           3500  => null, // Not in category
           3501  => null,
           3502  => 32,
-          3503  => null,
+          3503  => 40,
           3504  => null,
           3505  => 44,
 
@@ -876,7 +876,7 @@ class Integrity extends Alias
           4411  => null,
           4412  => null,
           4413  => 51,
-          4414  => null,
+          4414  => 71,
           4415  => 61,
 
           4421  => null,

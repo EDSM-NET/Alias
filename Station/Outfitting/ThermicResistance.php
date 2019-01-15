@@ -63,7 +63,7 @@ class ThermicResistance extends Alias
         // Optional Internal
         'Shield Generators',
         'Hull Reinforcements',
-        'Guardian Hull Reinforcement',
+        'Guardian Hull Reinforcements',
     ];
 
     /**

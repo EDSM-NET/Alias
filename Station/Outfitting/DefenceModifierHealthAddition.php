@@ -17,8 +17,8 @@ class DefenceModifierHealthAddition extends Alias
      */
     static protected $have          = [
         'Hull Reinforcements',
-        'Meta Alloy Hull Reinforcement',
-        'Guardian Hull Reinforcement',
+        'Meta Alloy Hull Reinforcements',
+        'Guardian Hull Reinforcements',
     ];
 
     /**
@@ -41,7 +41,7 @@ class DefenceModifierHealthAddition extends Alias
           4841  => 360,
           4842  => 390,
 
-        // Optional Internal > Meta Alloy Hull Reinforcement
+        // Optional Internal > Meta Alloy Hull Reinforcements
           6001  => 72,
           6002  => 99,
 
@@ -57,7 +57,7 @@ class DefenceModifierHealthAddition extends Alias
           6041  => 324,
           6042  => 351,
 
-        // Optional Internal > Guardian Hull Reinforcement
+        // Optional Internal > Guardian Hull Reinforcements
           6101  => 100,
           6102  => 138,
 
