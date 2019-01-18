@@ -48,6 +48,7 @@ class Type extends Alias
 
         'bernal'                => 2,
         'ocellus starport'      => 2,
+        'ocellus'               => 2,
 
 
         'orbis'                 => 3,
