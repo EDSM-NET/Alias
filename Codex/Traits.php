@@ -48,6 +48,10 @@ class Traits extends Alias
         601                                 => 'Approaches any nearby objects.',
 
         651                                 => 'Approaches and damages nearby objects.',
+
+        701                                 => 'Retreats if approached.',
+
+        751                                 => 'Moves towards other seeds.',
     ];
 
     /**
@@ -93,5 +97,9 @@ class Traits extends Alias
         'o_l_atck01_appro'                  => 601,
 
         'o_l_atck01_atck'                   => 651,
+
+        's_s_cluster_flee'                  => 701,
+
+        's_s_cluster'                       => 751,
     ];
 }

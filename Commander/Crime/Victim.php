@@ -46,6 +46,7 @@ class Victim extends Alias
          70     => 'Power capacitor',
          //71     => '',
          72     => 'Hull Breach',
+         73     => 'Escape Hatch',
 
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
@@ -142,6 +143,7 @@ class Victim extends Alias
         'mega_canisterb'                        => 70,
         //'mega_destructible_radpanela'           => 71,
         'mega_damageoverlay01'                  => 72,
+        'mega_escapehatches'                    => 73,
 
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,
