@@ -7,12 +7,14 @@
 namespace   Alias\Commander\Avatar;
 use         EDSM\Alias;
 
-class Gender extends Alias
+class HeadType extends Alias
 {
     static protected $defaultName   = 10;
 
     static protected $name  = [
-        10  => 'Male',
-        20  => 'Female',
+        10  => 'Smooth',
+        20  => 'Heavy',
+        30  => 'Veteran',
+        40  => 'Rough',
     ];
 }
