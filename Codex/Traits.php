@@ -52,6 +52,8 @@ class Traits extends Alias
         701                                 => 'Retreats if approached.',
 
         751                                 => 'Moves towards other seeds.',
+
+        801                                 => 'Turns towards nearest star.',
     ];
 
     /**
@@ -101,5 +103,7 @@ class Traits extends Alias
         's_s_cluster_flee'                  => 701,
 
         's_s_cluster'                       => 751,
+
+        's_s_turn01_idle'                   => 801,
     ];
 }
