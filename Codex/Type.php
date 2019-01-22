@@ -216,6 +216,7 @@ class Type extends Alias
             21215                       => 'K05-Type Anomaly',
             21216                       => 'K06-Type Anomaly',
             21217                       => 'K07-Type Anomaly',
+            21218                       => 'K08-Type Anomaly',
         21230                       => 'T-Type Anomalies',
             21231                       => 'T01-Type Anomaly',
             21234                       => 'T04-Type Anomaly',
@@ -601,6 +602,7 @@ class Type extends Alias
         'codex_ent_l_phn_part_cld_005'                      => 21215,
         'codex_ent_l_phn_part_cld_006'                      => 21216,
         'codex_ent_l_phn_part_cld_007'                      => 21217,
+        'codex_ent_l_phn_part_cld_009'                      => 21218,
 
         'codex_ent_l_phn_part_clus_001'                     => 21231,
         'codex_ent_l_phn_part_clus_005'                     => 21234,
