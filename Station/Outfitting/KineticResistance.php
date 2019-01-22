@@ -63,6 +63,7 @@ class KineticResistance extends Alias
         // Optional Internal
         'Shield Generators',
         'Hull Reinforcements',
+        'Meta Alloy Hull Reinforcements',
         'Guardian Hull Reinforcement',
     ];
 
@@ -423,6 +424,22 @@ class KineticResistance extends Alias
 
           4841  => 2.499998,
           4842  => 2.499998,
+
+        // Optional Internal > Meta Alloy Hull Reinforcements
+          6001  => 0,
+          6002  => 0,
+
+          6011  => 0,
+          6012  => 0,
+
+          6021  => 0,
+          6022  => 0,
+
+          6031  => 0,
+          6032  => 0,
+
+          6041  => 0,
+          6042  => 0,
 
         // Optional Internal > Guardian Hull Reinforcement
           6101  => 0,

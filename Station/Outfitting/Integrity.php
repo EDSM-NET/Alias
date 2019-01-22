@@ -787,7 +787,7 @@ class Integrity extends Alias
           4224  => 90,
           4225  => 77,
 
-          4231  => null,
+          4231  => 64,
           4232  => 48,
           4233  => 80,
           4234  => 112,
@@ -1094,7 +1094,7 @@ class Integrity extends Alias
           5261  => null,
           5262  => null,
           5263  => null,
-          5264  => null,
+          5264  => 157,
           5265  => 183,
 
         // Optional Internal > Passenger Cabin
