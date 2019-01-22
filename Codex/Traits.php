@@ -38,12 +38,14 @@ class Traits extends Alias
         351                                 => 'Retreats rapidly if approached.',
 
         401                                 => 'Moves if approached with lights on.',
+        402                                 => 'Temporarily follows ship if approached.',
+        551                                 => 'Moves if approached with lights on.',
 
         451                                 => 'Releases spores if approached.',
 
         501                                 => 'Turns towards nearest star.',
 
-        551                                 => 'Moves if approached with lights on.',
+
 
         601                                 => 'Approaches any nearby objects.',
 
@@ -54,6 +56,10 @@ class Traits extends Alias
         751                                 => 'Moves towards other seeds.',
 
         801                                 => 'Turns towards nearest star.',
+
+        851                                 => 'Moves without apparent purpose.',
+
+        903                                 => 'Retreats if scanned.',
     ];
 
     /**
@@ -89,12 +95,14 @@ class Traits extends Alias
         's_s_move_jet'                      => 351,
 
         'p_l_movearnd03'                    => 401,
+        'p_l_movearnd02'                    => 402,
+        'p_l_movearnd01'                    => 551,
 
         's_s_cldatck01_cld'                 => 451,
 
         'o_l_turn01_idle'                   => 501,
 
-        'p_l_movearnd01'                    => 551,
+
 
         'o_l_atck01_appro'                  => 601,
 
@@ -105,5 +113,9 @@ class Traits extends Alias
         's_s_cluster'                       => 751,
 
         's_s_turn01_idle'                   => 801,
+
+        'o_s_move01_idle'                   => 851,
+
+        'o_s_flee03_appro'                  => 903,
     ];
 }

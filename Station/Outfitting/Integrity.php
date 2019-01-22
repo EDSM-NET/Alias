@@ -544,7 +544,7 @@ class Integrity extends Alias
 
         // Core Internal > Power Distributor
           3500  => null, // Not in category
-          3501  => null,
+          3501  => 36,
           3502  => 32,
           3503  => 40,
           3504  => null,
@@ -776,7 +776,7 @@ class Integrity extends Alias
           4205  => 48,
 
           4211  => null,
-          4212  => null,
+          4212  => 31,
           4213  => null,
           4214  => 71,
           4215  => 61,
@@ -824,7 +824,7 @@ class Integrity extends Alias
           4304  => 56,
           4305  => 48,
 
-          4311  => null,
+          4311  => 41,
           4312  => null,
           4313  => null,
           4314  => null,
@@ -836,7 +836,7 @@ class Integrity extends Alias
           4324  => 90,
           4325  => 77,
 
-          4331  => null,
+          4331  => 64,
           4332  => 48,
           4333  => 80,
           4334  => 112,
@@ -925,7 +925,7 @@ class Integrity extends Alias
 
           4621  => null,
           4622  => 38,
-          4623  => null,
+          4623  => 64,
           4624  => 90,
           4625  => 77,
 

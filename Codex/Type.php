@@ -98,10 +98,12 @@ class Type extends Alias
             12051                       => 'Standard Gas Giant',
         12070                       => 'Class I gas giant planet',
             12071                       => 'Standard Gas Giant',
+            12072                       => 'Green gas giant',
         12090                       => 'Class II gas giant planet',
             12091                       => 'Standard Gas Giant',
         12110                       => 'Class III gas giant planet',
             12111                       => 'Standard Gas Giant',
+            12112                       => 'Green gas giant',
         12130                       => 'Class IV gas giant planet',
             12131                       => 'Standard Gas Giant',
         12150                       => 'Class V gas giant planet',
@@ -184,15 +186,20 @@ class Type extends Alias
             21136                       => 'Croceum Lagrange Cloud',
             21137                       => 'Proto-Lagrange Cloud',
             21139                       => 'Viride Lagrange Storm Cloud',
+            21140                       => 'Luteolum Lagrange Storm Cloud',
             21141                       => 'Roseum Lagrange Storm Cloud',
             21142                       => 'Rubicundum Lagrange Storm Cloud',
             21143                       => 'Croceum Lagrange Storm Cloud',
         21150                       => 'P-Type Anomalies',
             21151                       => 'P01-Type Anomaly',
+            21153                       => 'P03-Type Anomaly',
             21154                       => 'P04-Type Anomaly',
+            21165                       => 'P15-Type Anomaly',
         21170                       => 'Q-Type Anomalies',
+            21171                       => 'Q01-Type Anomaly',
             21172                       => 'Q02-Type Anomaly',
             21174                       => 'Q04-Type Anomaly',
+            21176                       => 'Q06-Type Anomaly',
             21178                       => 'Q08-Type Anomaly',
             21179                       => 'Q09-Type Anomaly',
         21190                       => 'L-Type Anomalies',
@@ -210,7 +217,10 @@ class Type extends Alias
             21216                       => 'K06-Type Anomaly',
             21217                       => 'K07-Type Anomaly',
         21230                       => 'T-Type Anomalies',
+            21231                       => 'T01-Type Anomaly',
             21234                       => 'T04-Type Anomaly',
+        21250                       => 'E-Type Anomalies',
+            21252                       => 'E02-Type Anomaly',
 
 
 
@@ -273,6 +283,8 @@ class Type extends Alias
             22233                       => 'Purpureum Silicate Crystals',
             22234                       => 'Albidium Silicate Crystals',
             22235                       => 'Flavum Silicate Crystals',
+            22236                       => 'Rubeum Silicate Crystals',
+            22237                       => 'Roseum Silicate Crystals',
         22251                       => 'Crystalline Shards',
         22270                       => 'Peduncle Pods',
             22271                       => 'Candidum peduncle Pod',
@@ -313,7 +325,7 @@ class Type extends Alias
         22470                       => 'Bulb Molluscs',
             22472                       => 'Lindigoticum Bulb Mollusc',
             22473                       => 'Viride Bulb Mollusc',
-        22490                       => 'Stolon Pods', // Odd?
+        22490                       => 'Gyre Trees', // Flagged as Stolon Pods in game...
             22491                       => 'Viridis Gyre Tree',
             22492                       => 'Aurarius Gyre Tree',
         22510                       => 'Rhizome Pods',
@@ -331,6 +343,14 @@ class Type extends Alias
             22552                       => 'Lividum Bullet Mollusc',
             22553                       => 'Viride Bullet Mollusc',
             22554                       => 'Rubeum Bullet Mollusc',
+        22570                       => 'Calcite Plates',
+            22571                       => 'Luteolum Calcite Plates',
+            22572                       => 'Lindigoticum Calcite Plates',
+            22573                       => 'Viride Calcite Plates',
+        22590                       => 'Gyre Pods',
+            22592                       => 'Aurarium Gyre Pod',
+        22610                       => 'Squid Molluscs',
+            22615                       => 'Roseum Squid Mollusc',
 
 
 
@@ -465,10 +485,12 @@ class Type extends Alias
         'codex_ent_standard_giant_with_ammonia_life'        => 12051,
 
         'codex_ent_standard_sudarsky_class_i'               => 12071,
+        'codex_ent_green_sudarsky_class_i'                  => 12072,
 
         'codex_ent_standard_sudarsky_class_ii'              => 12091,
 
         'codex_ent_standard_sudarsky_class_iii'             => 12111,
+        'codex_ent_green_sudarsky_class_iii'                => 12112,
 
         'codex_ent_standard_sudarsky_class_iv'              => 12131,
 
@@ -549,15 +571,20 @@ class Type extends Alias
         'codex_ent_gas_clds_yellow'                         => 21136,
         'codex_ent_gas_clds_light'                          => 21137,
         'codex_ent_gas_clds_green_storm'                    => 21139,
+        'codex_ent_gas_clds_orange_storm'                   => 21140,
         'codex_ent_gas_clds_pink_storm'                     => 21141,
         'codex_ent_gas_clds_red_storm'                      => 21142,
         'codex_ent_gas_clds_yellow_storm'                   => 21143,
 
         'codex_ent_l_phn_part_eng_002'                      => 21151,
+        'codex_ent_l_phn_part_eng_004'                      => 21153,
         'codex_ent_l_phn_part_eng_005'                      => 21154,
+        'codex_ent_l_phn_part_eng_016'                      => 21165,
 
+        'codex_ent_l_phn_part_orb_001'                      => 21171,
         'codex_ent_l_phn_part_orb_002'                      => 21172,
         'codex_ent_l_phn_part_orb_004'                      => 21174,
+        'codex_ent_l_phn_part_orb_006'                      => 21176,
         'codex_ent_l_phn_part_orb_008'                      => 21178,
         'codex_ent_l_phn_part_orb_009'                      => 21179,
 
@@ -575,7 +602,10 @@ class Type extends Alias
         'codex_ent_l_phn_part_cld_006'                      => 21216,
         'codex_ent_l_phn_part_cld_007'                      => 21217,
 
+        'codex_ent_l_phn_part_clus_001'                     => 21231,
         'codex_ent_l_phn_part_clus_005'                     => 21234,
+
+        'codex_ent_l_phn_part_cld_014'                      => 21252,
 
 
 
@@ -640,6 +670,8 @@ class Type extends Alias
         'codex_ent_l_cry_qtzcry_pur'                        => 22233,
         'codex_ent_l_cry_qtzcry_wte'                        => 22234,
         'codex_ent_l_cry_qtzcry_yw'                         => 22235,
+        'codex_ent_l_cry_qtzcry_red'                        => 22236,
+        'codex_ent_l_cry_qtzcry_pk'                         => 22237,
 
         'codex_ent_ground_struct_ice'                       => 22251,
 
@@ -700,6 +732,14 @@ class Type extends Alias
         'codex_ent_small_org_moll01_v4_bl'                  => 22552,
         'codex_ent_small_org_moll01_v4_gr'                  => 22553,
         'codex_ent_small_org_moll01_v4_red'                 => 22554,
+
+        'codex_ent_l_org_pltfun_v1_def'                     => 22571,
+        'codex_ent_l_org_pltfun_v1_bl'                      => 22572,
+        'codex_ent_l_org_pltfun_v1_gr'                      => 22573,
+
+        'codex_ent_s_seed_sdtp06_gd'                        => 22592,
+
+        'codex_ent_small_org_moll01_v3_pnk'                 => 22615,
 
 
 
