@@ -434,6 +434,8 @@ class Type extends Alias
         1902        => 'Mollusc Mycelium',
 
         1920        => 'Mollusc Soft Tissue',
+        1921        => 'Mollusc Fluid',
+        1922        => 'Mollusc Brain Tissue',
 
         1930        => 'Pod Core Tissue',
         1931        => 'Pod Dead Tissue',
@@ -909,6 +911,8 @@ class Type extends Alias
         'm3_tissuesample_mycelium'              => 1902,
 
         'm_tissuesample_soft'                   => 1920,
+        'm_tissuesample_fluid'                  => 1921,
+        'm_tissuesample_nerves'                 => 1922,
 
         's_tissuesample_cells'                  => 1930,
         's_tissuesample_surface'                => 1931,
