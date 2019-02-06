@@ -781,7 +781,7 @@ class Integrity extends Alias
           4214  => 71,
           4215  => 61,
 
-          4221  => null,
+          4221  => 51,
           4222  => 38,
           4223  => 64,
           4224  => 90,
@@ -879,7 +879,7 @@ class Integrity extends Alias
           4414  => 71,
           4415  => 61,
 
-          4421  => null,
+          4421  => 51,
           4422  => 38,
           4423  => 64,
           4424  => 90,
@@ -887,7 +887,7 @@ class Integrity extends Alias
 
           4431  => null,
           4432  => 48,
-          4433  => null,
+          4433  => 80,
           4434  => 112,
           4435  => 96,
 
@@ -931,7 +931,7 @@ class Integrity extends Alias
 
           4641  => null,
           4642  => 58,
-          4643  => null,
+          4643  => 96,
           4644  => 134,
           4645  => 115,
 
@@ -942,7 +942,7 @@ class Integrity extends Alias
           4665  => 157,
 
         // Optional Internal > Auto Field-Maintenance Unit
-          4701  => null,
+          4701  => 32,
           4702  => 24,
           4703  => null,
           4704  => 56,
@@ -987,7 +987,7 @@ class Integrity extends Alias
           4771  => null,
           4772  => null,
           4773  => 150,
-          4774  => null,
+          4774  => 210,
           4775  => 173,
 
         // Optional Internal > Hull Reinforcement Package
