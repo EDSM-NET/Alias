@@ -47,6 +47,7 @@ class Victim extends Alias
          //71     => '',
          72     => 'Hull Breach',
          73     => 'Escape Hatch',
+         74     => 'Hull Breach',
 
         101     => 'Sentry Skimmer',
         102     => 'Guardian',
@@ -144,6 +145,7 @@ class Victim extends Alias
         //'mega_destructible_radpanela'           => 71,
         'mega_damageoverlay01'                  => 72,
         'mega_escapehatches'                    => 73,
+        'mega_damageoverlay02'                  => 74,
 
         'skimmerdrone'                          => 101,
         'missileskimmer'                        => 102,

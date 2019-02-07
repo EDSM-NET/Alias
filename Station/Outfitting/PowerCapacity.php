@@ -24,6 +24,7 @@ class PowerCapacity extends Alias
      */
     static protected $name          = [
         // Core Internal > Power Plant
+          3100  => 6.4,
           3101  => 6.4,
           3102  => 7.2,
           3103  => 8,

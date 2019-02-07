@@ -312,6 +312,7 @@ class Mass extends Alias
           1032  => 4,
 
         // Weapon Hardpoint > Pulse Laser
+          1050  => 2,
           1051  => 2,
           1052  => 4,
           1053  => 8,
@@ -558,6 +559,7 @@ class Mass extends Alias
           3001  => 0,   3002  => 0,     3003  => 0,     3004  => 0,     3005  => 0,     3006  => 0,     3007  => 0,     3008  => 0,
 
         // Core Internal > Power Plant
+          3100  => 2.5,
           3101  => 2.5,
           3102  => 1,
           3103  => 1.3,
@@ -615,6 +617,7 @@ class Mass extends Alias
           3169  => 93.6,
 
         // Core Internal > Thrusters
+          3200  => 2.5,
           3201  => 2.5,
           3202  => 1,
           3203  => 2.5,
@@ -703,6 +706,7 @@ class Mass extends Alias
           3365  => 160,
 
         // Core Internal > Life Support
+          3400  => 1.3,
           3401  => 1.3,
           3402  => 0.5,
           3403  => 1.3,
@@ -817,6 +821,7 @@ class Mass extends Alias
           3579  => 168,
 
         // Core Internal > Sensors
+          3600  => 1.3,
           3601  => 1.3,
           3602  => 0.5,
           3603  => 1.3,
@@ -880,6 +885,7 @@ class Mass extends Alias
           3841  => 1.3,
 
         // Optional Internal > Discovery Scanner
+          4000  => 2,
           4001  => 2,
           4002  => 2,
           4003  => 2,
@@ -888,6 +894,7 @@ class Mass extends Alias
           4011  => 0,
 
         // Optional Internal > Cargo Rack
+          4020  => 0,
           4021  => 0,
           4022  => 0,   4023  => 0,     4024  => 0,     4025  => 0,     4026  => 0,     4027  => 0,     4028  => 0,
           4031  => 0,   4032  => 0,     4033  => 0,     4034  => 0,
@@ -900,6 +907,7 @@ class Mass extends Alias
           4106  => 1.3,
           4107  => 2.6,
 
+          4110  => 2.5,
           4111  => 2.5,
           4112  => 1,
           4113  => 2.5,
