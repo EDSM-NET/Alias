@@ -101,6 +101,7 @@ class Type extends Alias
             12072                       => 'Green gas giant',
         12090                       => 'Class II gas giant planet',
             12091                       => 'Standard Gas Giant',
+            12092                       => 'Green gas giant',
         12110                       => 'Class III gas giant planet',
             12111                       => 'Standard Gas Giant',
             12112                       => 'Green gas giant',
@@ -153,6 +154,7 @@ class Type extends Alias
             21011                       => 'Sulphur Dioxide Fumarole',
             21012                       => 'Water Fumarole',
             21013                       => 'Silicate Vapour Fumarole',
+            21014                       => 'Carbon Dioxide Fumarole',
         21030                       => 'Ice Fumarole',
             21031                       => 'Sulphur Dioxide Ice Fumarole',
             21032                       => 'Water Ice Fumarole',
@@ -194,6 +196,7 @@ class Type extends Alias
             21151                       => 'P01-Type Anomaly',
             21153                       => 'P03-Type Anomaly',
             21154                       => 'P04-Type Anomaly',
+            21155                       => 'P05-Type Anomaly',
             21165                       => 'P15-Type Anomaly',
         21170                       => 'Q-Type Anomalies',
             21171                       => 'Q01-Type Anomaly',
@@ -222,6 +225,7 @@ class Type extends Alias
             21234                       => 'T04-Type Anomaly',
         21250                       => 'E-Type Anomalies',
             21252                       => 'E02-Type Anomaly',
+            21254                       => 'E04-Type Anomaly',
 
 
 
@@ -312,11 +316,13 @@ class Type extends Alias
             22353                       => 'Viride Umbrella Mollusc',
         22370                       => 'Capsule Molluscs',
             22371                       => 'Luteolum Capsule Mollusc',
+            22372                       => 'Lindigoticum Capsule Mollusc',
         22390                       => 'Reel Molluscs',
             22391                       => 'Luteolum Reel Mollusc',
             22392                       => 'Lindigoticum Reel Mollusc',
         22410                       => 'Octahedral Pods',
             22411                       => 'Niveus Octahedral Pod',
+            22413                       => 'Viride Octahedral Pod',
         22430                       => 'Void Hearts',
             22431                       => 'Chryseum Void Heart',
         22450                       => 'Parasol Molluscs',
@@ -344,6 +350,7 @@ class Type extends Alias
             22552                       => 'Lividum Bullet Mollusc',
             22553                       => 'Viride Bullet Mollusc',
             22554                       => 'Rubeum Bullet Mollusc',
+            22555                       => 'Flavum Bullet Mollusc',
         22570                       => 'Calcite Plates',
             22571                       => 'Luteolum Calcite Plates',
             22572                       => 'Lindigoticum Calcite Plates',
@@ -352,6 +359,8 @@ class Type extends Alias
             22592                       => 'Aurarium Gyre Pod',
         22610                       => 'Squid Molluscs',
             22615                       => 'Roseum Squid Mollusc',
+        22630                       => 'Chalice Pods',
+            22631                       => 'Albidum Chalice Pod',
 
 
 
@@ -489,6 +498,7 @@ class Type extends Alias
         'codex_ent_green_sudarsky_class_i'                  => 12072,
 
         'codex_ent_standard_sudarsky_class_ii'              => 12091,
+        'codex_ent_green_sudarsky_class_ii'                 => 12092,
 
         'codex_ent_standard_sudarsky_class_iii'             => 12111,
         'codex_ent_green_sudarsky_class_iii'                => 12112,
@@ -539,6 +549,7 @@ class Type extends Alias
         'codex_ent_fumarole_sulphurdioxidemagma'            => 21011,
         'codex_ent_fumarole_watergeysers'                   => 21012,
         'codex_ent_fumarole_silicatevapourgeysers'          => 21013,
+        'codex_ent_fumarole_carbondioxidegeysers'           => 21014,
 
         'codex_ent_icefumarole_sulphurdioxidemagma'         => 21031,
         'codex_ent_icefumarole_watergeysers'                => 21032,
@@ -580,6 +591,7 @@ class Type extends Alias
         'codex_ent_l_phn_part_eng_002'                      => 21151,
         'codex_ent_l_phn_part_eng_004'                      => 21153,
         'codex_ent_l_phn_part_eng_005'                      => 21154,
+        'codex_ent_l_phn_part_eng_006'                      => 21155,
         'codex_ent_l_phn_part_eng_016'                      => 21165,
 
         'codex_ent_l_phn_part_orb_001'                      => 21171,
@@ -601,13 +613,14 @@ class Type extends Alias
         'codex_ent_l_phn_part_cld_004'                      => 21214,
         'codex_ent_l_phn_part_cld_005'                      => 21215,
         'codex_ent_l_phn_part_cld_006'                      => 21216,
-        'codex_ent_l_phn_part_cld_007'                      => 21217,
+        'codex_ent_l_phn_part_cld_008'                      => 21217,
         'codex_ent_l_phn_part_cld_009'                      => 21218,
 
         'codex_ent_l_phn_part_clus_001'                     => 21231,
         'codex_ent_l_phn_part_clus_005'                     => 21234,
 
         'codex_ent_l_phn_part_cld_014'                      => 21252,
+        'codex_ent_l_phn_part_cld_007'                      => 21254,
 
 
 
@@ -702,11 +715,13 @@ class Type extends Alias
         'codex_ent_l_org_moll03_v3_earth'                   => 22353,
 
         'codex_ent_l_org_moll03_v4_def'                     => 22371,
+        'codex_ent_l_org_moll03_v4_dark'                    => 22372,
 
         'codex_ent_l_org_moll03_v6_def'                     => 22391,
         'codex_ent_l_org_moll03_v6_dark'                    => 22392,
 
         'codex_ent_s_seed_sdtp03_def'                       => 22411,
+        'codex_ent_s_seed_sdtp03_gr'                        => 22413,
 
         'codex_ent_spoi_seedweed01_v1'                      => 22431,
 
@@ -734,6 +749,7 @@ class Type extends Alias
         'codex_ent_small_org_moll01_v4_bl'                  => 22552,
         'codex_ent_small_org_moll01_v4_gr'                  => 22553,
         'codex_ent_small_org_moll01_v4_red'                 => 22554,
+        'codex_ent_small_org_moll01_v4_y'                   => 22555,
 
         'codex_ent_l_org_pltfun_v1_def'                     => 22571,
         'codex_ent_l_org_pltfun_v1_bl'                      => 22572,
@@ -742,6 +758,8 @@ class Type extends Alias
         'codex_ent_s_seed_sdtp06_gd'                        => 22592,
 
         'codex_ent_small_org_moll01_v3_pnk'                 => 22615,
+
+        'codex_ent_s_seed_sdtp05_def'                       => 22631,
 
 
 

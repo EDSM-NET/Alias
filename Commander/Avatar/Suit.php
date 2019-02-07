@@ -13,6 +13,6 @@ class Suit extends Alias
 
     static protected $name  = [
         10  => 'Flat Colour - Black',
-        11  => 'Flat Colour - Red',
+        //11  => 'Flat Colour - Red',
     ];
 }

@@ -13,10 +13,10 @@ class SkinDetail extends Alias
 
     static protected $name  = [
         10  => 'None',
-        20  => 'Freckles 01',
-        30  => 'Freckles 02',
-        40  => 'Pock Marks',
-        50  => 'Moles 01',
-        60  => 'Moles 02',
+        //20  => 'Freckles 01',
+        //30  => 'Freckles 02',
+        //40  => 'Pock Marks',
+        //50  => 'Moles 01',
+        //60  => 'Moles 02',
     ];
 }

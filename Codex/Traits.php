@@ -14,6 +14,7 @@ class Traits extends Alias
      */
     static protected $name  = [
          11                                 => 'Releases spores if approached without lights.',
+         12                                 => 'Releases spores when a light source is in proximity.',
          14                                 => 'Releases spores if scanned.',
 
          51                                 => 'Moves towards ship if approached.',
@@ -30,6 +31,7 @@ class Traits extends Alias
         201                                 => 'Rapidly heats the surrounding space if approached.',
         202                                 => 'Interferes with ship systems and drains shields if approached.',
         203                                 => 'Releases destructive shockwaves if approached.',
+        205                                 => 'Approaches, interferes with ship systems and drains shields.',
 
         250                                 => 'Retreats if attacked.',
 
@@ -45,8 +47,6 @@ class Traits extends Alias
 
         501                                 => 'Turns towards nearest star.',
 
-
-
         601                                 => 'Approaches any nearby objects.',
 
         651                                 => 'Approaches and damages nearby objects.',
@@ -59,7 +59,10 @@ class Traits extends Alias
 
         851                                 => 'Moves without apparent purpose.',
 
+        902                                 => 'Retreats if approached with lights on.',
         903                                 => 'Retreats if scanned.',
+
+        951                                 => 'Drains heat from nearby objects.',
     ];
 
     /**
@@ -71,6 +74,7 @@ class Traits extends Alias
      */
     static protected $alias = [
         'o_l_emit01_appro'                  => 11,
+        'o_l_emit02_appro'                  => 12,
         'o_l_emit04_appro'                  => 14,
 
         'o_s_appro01_appro'                 => 51,
@@ -87,7 +91,9 @@ class Traits extends Alias
         'p_l_aefect01'                      => 201,
         'p_l_aefect02'                      => 202,
         'p_l_aefect03'                      => 203,
+        'p_l_aefect05'                      => 205,
 
+        'o_l_flee_attack'                   => 250, // Supposition?
         'o_s_flee_attack'                   => 250,
 
         'p_l_attack01'                      => 301,
@@ -102,8 +108,6 @@ class Traits extends Alias
 
         'o_l_turn01_idle'                   => 501,
 
-
-
         'o_l_atck01_appro'                  => 601,
 
         'o_l_atck01_atck'                   => 651,
@@ -116,6 +120,10 @@ class Traits extends Alias
 
         'o_s_move01_idle'                   => 851,
 
+        'o_s_flee02_appro'                  => 902,
         'o_s_flee03_appro'                  => 903,
+
+        'codex_trait_c_l_freze'             => 951, // Supposition?
+        'o_l_freze'                         => 951,
     ];
 }

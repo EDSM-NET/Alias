@@ -81,7 +81,7 @@ class SubCategory extends Alias
             12030    => [12031, 12032],
             12050    => [12051],
             12070    => [12071, 12072],                                                     // Class I gas giant planet
-            12090    => [12091],
+            12090    => [12091, 12092],                                                     // Class II gas giant planet
             12110    => [12111, 12112],                                                     // Class III gas giant planet
             12130    => [12131],
             12150    => [12151],
@@ -108,7 +108,7 @@ class SubCategory extends Alias
 
 
         21000   =>  [
-            21010   => [21011, 21012, 21013],
+            21010   => [21011, 21012, 21013, 21014],                                        // Fumarole
             21030   => [21031, 21032, 21033, 21034, 21035, 21036, 21037],
             21050   => [21051],
             21070   => [21071, 21072, 21073, 21074, 21075],
@@ -119,7 +119,7 @@ class SubCategory extends Alias
             21250   => [21252],                                                             // E-Type Anomalies
             21210   => [21211, 21212, 21213, 21214, 21215, 21216, 2121721218],              // K-Type Anomalies
             21190   => [21191, 21194, 21195, 21196, 21199],                                 // L-Type Anomalies
-            21150   => [21151, 21153, 21154, 21165],                                        // P-Type Anomalies
+            21150   => [21151, 21153, 21154, 21155, 21165],                                 // P-Type Anomalies
             21170   => [21171, 21172, 21174, 21176, 21178, 21179],                          // Q-Type Anomalies
             21230   => [21231, 21234],                                                      // T-Type Anomalies
         ],
@@ -144,9 +144,10 @@ class SubCategory extends Alias
 
             22251,                                                                          // Crystalline Shards
 
+            22630   => [22631],                                                             // Chalice Pods
             22170   => [22171, 22172, 22173, 22174],                                        // Collared Pods
             22590   => [22592],                                                             // Gyre Pods
-            22410   => [22411],                                                             // Octahedral Pods
+            22410   => [22411, 22413],                                                      // Octahedral Pods
             22270   => [22271, 22272, 22273, 22274, 22275],                                 // Peduncle Pods
             22530   => [22531, 22532, 22533],                                               // Quadripartite Pods
             22510   => [22511, 22512, 22513, 22514, 22515],                                 // Rhizome Pods
@@ -154,8 +155,8 @@ class SubCategory extends Alias
 
             22330   => [22331, 22332, 22333, 22334, 22335],                                 // Bell Molluscs
             22470   => [22472, 22473],                                                      // Bulb Molluscs
-            22550   => [22551, 22552,22553, 22554],                                         // Bullet Molluscs
-            22370   => [22371],                                                             // Capsule Molluscs
+            22550   => [22551, 22552,22553, 22554, 22555],                                  // Bullet Molluscs
+            22370   => [22371, 22372],                                                      // Capsule Molluscs
             22190   => [22191, 22192, 22193, 22194, 22195, 22196, 22197],                   // Gourd Mollusc
             22450   => [22451, 22452, 22453],                                               // Parasol Molluscs
             22390   => [22391, 22392],                                                      // Reel Molluscs

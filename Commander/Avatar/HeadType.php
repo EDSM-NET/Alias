@@ -13,8 +13,8 @@ class HeadType extends Alias
 
     static protected $name  = [
         10  => 'Smooth',
-        20  => 'Heavy',
-        30  => 'Veteran',
-        40  => 'Rough',
+        //20  => 'Heavy',
+        //30  => 'Veteran',
+        //40  => 'Rough',
     ];
 }

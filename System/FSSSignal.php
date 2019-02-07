@@ -16,6 +16,7 @@ class FSSSignal extends Alias
         42                      => 'Nav Beacon',
         80                      => 'Compromised Navigation Beacon',
 
+        14                      => 'Resource Extraction Site',
         77                      => 'Resource Extraction Site [Low]',
         78                      => 'Resource Extraction Site [High]',
         79                      => 'Resource Extraction Site [Hazardous]',
@@ -40,6 +41,7 @@ class FSSSignal extends Alias
         'multiplayer_scenario42_title'      => 42,
         'multiplayer_scenario80_title'      => 80,
 
+        'multiplayer_scenario14_title'      => 14,
         'multiplayer_scenario77_title'      => 77,
         'multiplayer_scenario78_title'      => 78,
         'multiplayer_scenario79_title'      => 79,

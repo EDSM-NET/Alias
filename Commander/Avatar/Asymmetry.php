@@ -13,8 +13,8 @@ class Asymmetry extends Alias
 
     static protected $name  = [
         10  => 'None',
-        20  => 'Asymmetry 01',
-        30  => 'Asymmetry 02',
-        40  => 'Asymmetry 03',
+        //20  => 'Asymmetry 01',
+        //30  => 'Asymmetry 02',
+        //40  => 'Asymmetry 03',
     ];
 }

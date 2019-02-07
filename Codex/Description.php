@@ -101,6 +101,7 @@ class Description extends Alias
          //   12071                       => 'Standard Gas Giant',
         //12090                       => 'Class II gas giant planet',
         //    12091                       => 'Standard Gas Giant',
+            12092                       => 'A gas giant with a primarily hydrogen and helium atmosphere. Water vapour in the upper cloud layers gives a much higher albedo. Surface temperatures are typically around 250 K. Vivid cloud layer colouration suggests bioluminescent organisms. There are vast quantities of free-floating radioplankton – tiny carbon-based algae.',
         //12110                       => 'Class III gas giant planet',
         //    12111                       => 'Standard Gas Giant',
         //12130                       => 'Class IV gas giant planet',

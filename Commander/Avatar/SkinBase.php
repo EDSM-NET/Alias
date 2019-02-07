@@ -12,13 +12,13 @@ class SkinBase extends Alias
     static protected $defaultName   = 20;
 
     static protected $name  = [
-        10  => 'Very Pale',
+        //10  => 'Very Pale',
         20  => 'Pale',
-        30  => 'Fair',
-        40  => 'Medium-Fair',
-        50  => 'Medium',
-        60  => 'Medium-Dark',
-        70  => 'Dark',
-        80  => 'Very Dark'
+        //30  => 'Fair',
+        //40  => 'Medium-Fair',
+        //50  => 'Medium',
+        //60  => 'Medium-Dark',
+        //70  => 'Dark',
+        //80  => 'Very Dark'
     ];
 }
