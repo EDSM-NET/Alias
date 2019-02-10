@@ -106,6 +106,7 @@ class Type extends Alias
          312                                => 'Surface Retrieval of %commodityCount% %commodity% during Expansion',
          313                                => 'Surface Recovery of %commodityCount% %commodity% during Retreat',
          314                                => 'Surface Recovery of %commodityCount% %commodity% during Medical Emergency',
+         315                                => 'Surface Retrieval of %commodityCount% %commodity% during Civil Unrest',
 
          401                                => 'Donate %commodityCount% units of %commodity%',
          402                                => 'Find %commodityCount% units of %commodity%',
@@ -554,6 +555,7 @@ class Type extends Alias
         'mission_rescue_planet_expansion'                   => 312,
         'mission_rescue_planet_retreat'                     => 313,
         'mission_rescue_planet_outbreak'                    => 314,
+        'mission_rescue_planet_civilunrest'                 => 315,
 
         'mission_altruism'                                  => 401,
         'mission_altruism_outbreak'                         => 402,
