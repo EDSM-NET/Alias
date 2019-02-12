@@ -94,6 +94,7 @@ class PowerDraw extends Alias
           1032  => 2.61,
 
         // Weapon Hardpoint > Pulse Laser
+          1050  => 0.39,
           1051  => 0.39,
           1052  => 0.6,
           1053  => 0.9,
@@ -336,9 +337,11 @@ class PowerDraw extends Alias
           2505  => 3.2,
 
         // Core Internal > Fuel Tank
+          3000  => 0,
           3001  => 0,   3002  => 0,     3003  => 0,     3004  => 0,     3005  => 0,     3006  => 0,     3007  => 0,     3008  => 0,
 
         // Core Internal > Thrusters
+          3200  => 2,
           3201  => 2,
           3202  => 2.25,
           3203  => 2.5,
@@ -384,6 +387,7 @@ class PowerDraw extends Alias
           3265  => 10.8,
 
         // Core Internal > Frame Shift Drive
+          3300  => 0.16,
           3301  => 0.16,
           3302  => 0.18,
           3303  => 0.2,
@@ -427,6 +431,7 @@ class PowerDraw extends Alias
           3365  => null,
 
         // Core Internal > Life Support
+          3400  => 0.32,
           3401  => 0.32,
           3402  => 0.36,
           3403  => 0.4,
@@ -476,6 +481,7 @@ class PowerDraw extends Alias
           3475  => 1.2,
 
         // Core Internal > Power Distributor
+          3500  => 0.32,
           3501  => 0.32,
           3502  => 0.36,
           3503  => 0.4,
@@ -541,6 +547,7 @@ class PowerDraw extends Alias
           3579  => 1.25,
 
         // Core Internal > Sensors
+          3600  => 0.16,
           3601  => 0.16,
           3602  => 0.18,
           3603  => 0.2,
@@ -604,12 +611,13 @@ class PowerDraw extends Alias
           3841  => 2.14,
 
         // Optional Internal > Discovery Scanner
-          4001  => 0,   4002  => 0,     4003  => 0,
+          4000  => 0,   4001  => 0,   4002  => 0,     4003  => 0,
 
         // Optional Internal > Detailed Surface Scanner
           4011  => 0,
 
         // Optional Internal > Cargo Rack
+          4020  => 0,
           4021  => 0,
           4022  => 0,   4023  => 0,     4024  => 0,     4025  => 0,     4026  => 0,     4027  => 0,     4028  => 0,
           4031  => 0,   4032  => 0,     4033  => 0,     4034  => 0,
@@ -622,6 +630,7 @@ class PowerDraw extends Alias
           4106  => 1.68,
           4107  => 2.52,
 
+          4110  => 0.9,
           4111  => 0.9,
           4112  => 1.2,
           4113  => 1.5,

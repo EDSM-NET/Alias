@@ -674,7 +674,7 @@ class Integrity extends Alias
 
         // Optional Internal > Discovery Scanner
           4000  => null,
-          4001  => null,
+          4001  => 32,
           4002  => null,
           4003  => null,
 
@@ -818,7 +818,7 @@ class Integrity extends Alias
           4275  => 180,
 
         // Optional Internal > Fuel Scoop
-          4301  => null,
+          4301  => 32,
           4302  => null,
           4303  => null,
           4304  => 56,
@@ -1062,7 +1062,7 @@ class Integrity extends Alias
 
           5141  => null,
           5142  => 77,
-          5143  => null,
+          5143  => 96,
           5144  => 115,
           5145  => 134,
 

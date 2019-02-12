@@ -24,6 +24,7 @@ class EnginesCapacity extends Alias
      */
     static protected $name          = [
         // Core Internal > Power Distributor
+          3500  => 8,
           3501  => 8,
           3502  => 9,
           3503  => 10,

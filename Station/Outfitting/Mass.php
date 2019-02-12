@@ -663,6 +663,7 @@ class Mass extends Alias
           3265  => 160,
 
         // Core Internal > Frame Shift Drive
+          3300  => 2.5,
           3301  => 2.5,
           3302  => 1,
           3303  => 2.5,
@@ -756,6 +757,7 @@ class Mass extends Alias
           3475  => 160,
 
         // Core Internal > Power Distributor
+          3500  => 1.3,
           3501  => 1.3,
           3502  => 0.5,
           3503  => 1.3,
