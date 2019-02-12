@@ -197,6 +197,7 @@ class Type extends Alias
             21153                       => 'P03-Type Anomaly',
             21154                       => 'P04-Type Anomaly',
             21155                       => 'P05-Type Anomaly',
+            21162                       => 'P12-Type Anomaly',
             21165                       => 'P15-Type Anomaly',
         21170                       => 'Q-Type Anomalies',
             21171                       => 'Q01-Type Anomaly',
@@ -220,6 +221,7 @@ class Type extends Alias
             21216                       => 'K06-Type Anomaly',
             21217                       => 'K07-Type Anomaly',
             21218                       => 'K08-Type Anomaly',
+            21222                       => 'K12-Type Anomaly',
         21230                       => 'T-Type Anomalies',
             21231                       => 'T01-Type Anomaly',
             21234                       => 'T04-Type Anomaly',
@@ -345,6 +347,7 @@ class Type extends Alias
             22531                       => 'Albidum Quadripartite Pod',
             22532                       => 'Caeruleum Quadripartite Pod',
             22533                       => 'Viride Quadripartite Pod',
+            22534                       => 'Blatteum Quadripartite Pod',
         22550                       => 'Bullet Molluscs',
             22551                       => 'Cereum Bullet Mollusc',
             22552                       => 'Lividum Bullet Mollusc',
@@ -592,6 +595,7 @@ class Type extends Alias
         'codex_ent_l_phn_part_eng_004'                      => 21153,
         'codex_ent_l_phn_part_eng_005'                      => 21154,
         'codex_ent_l_phn_part_eng_006'                      => 21155,
+        'codex_ent_l_phn_part_eng_013'                      => 21162,
         'codex_ent_l_phn_part_eng_016'                      => 21165,
 
         'codex_ent_l_phn_part_orb_001'                      => 21171,
@@ -615,6 +619,7 @@ class Type extends Alias
         'codex_ent_l_phn_part_cld_006'                      => 21216,
         'codex_ent_l_phn_part_cld_008'                      => 21217,
         'codex_ent_l_phn_part_cld_009'                      => 21218,
+        'codex_ent_l_phn_part_cld_016'                      => 21222,
 
         'codex_ent_l_phn_part_clus_001'                     => 21231,
         'codex_ent_l_phn_part_clus_005'                     => 21234,
@@ -744,6 +749,7 @@ class Type extends Alias
         'codex_ent_s_seed_sdtp08_def'                       => 22531,
         'codex_ent_s_seed_sdtp08_bl'                        => 22532,
         'codex_ent_s_seed_sdtp08_gr'                        => 22533,
+        'codex_ent_s_seed_sdtp08_pur'                       => 22534,
 
         'codex_ent_small_org_moll01_v4_def'                 => 22551,
         'codex_ent_small_org_moll01_v4_bl'                  => 22552,
