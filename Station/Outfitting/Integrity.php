@@ -830,7 +830,7 @@ class Integrity extends Alias
           4314  => null,
           4315  => 61,
 
-          4321  => null,
+          4321  => 51,
           4322  => 38,
           4323  => 64,
           4324  => 90,
@@ -980,7 +980,7 @@ class Integrity extends Alias
 
           4761  => null,
           4762  => 79,
-          4763  => null,
+          4763  => 131,
           4764  => 183,
           4765  => 151,
 
