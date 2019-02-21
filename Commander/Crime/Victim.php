@@ -78,6 +78,7 @@ class Victim extends Alias
         241     => 'Federal AX Ship',
         242     => 'System AX Force',
         243     => 'Alliance AX Force',
+        244     => 'Imperial AX Vessel',
 
         301     => 'Wedding Barge',
         302     => 'Cruise Ship',
@@ -177,6 +178,7 @@ class Victim extends Alias
         'ax_military_federation'                => 241,
         'ax_military_independent'               => 242,
         'ax_military_alliance'                  => 243,
+        'ax_military_empire'                    => 244,
 
         'passengerliner_wedding'                => 301,
         'passengerliner_cruise'                 => 302,

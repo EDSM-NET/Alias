@@ -120,7 +120,7 @@ class SubCategory extends Alias
             21210   => [21211, 21212, 21213, 21214, 21215, 21216, 21217, 21218,             // K-Type Anomalies
                         21222],
             21190   => [21191, 21194, 21195, 21196, 21199],                                 // L-Type Anomalies
-            21150   => [21151, 21153, 21154, 21155, 21162, 21165],                          // P-Type Anomalies
+            21150   => [21151, 21153, 21154, 21155, 21161, 21162, 21165],                   // P-Type Anomalies
             21170   => [21171, 21172, 21174, 21176, 21178, 21179],                          // Q-Type Anomalies
             21230   => [21231, 21234],                                                      // T-Type Anomalies
         ],
@@ -133,6 +133,7 @@ class SubCategory extends Alias
             22070   => [22071, 22072, 22073, 22074, 22075, 22076, 22078, 22077],            // Brain Trees
             22490   => [22491, 22492],                                                      // Gyre Trees (Wrongly flagged in game)
             22290   => [22291, 22292, 22293, 22294, 22295],                                 // Peduncle Trees
+            22651,                                                                          // Stolon Tree
 
             22091,                                                                          // Bark Mounds
             22110   => [22111, 22112, 22113, 22114, 22115, 22116, 22117, 22118],            // Anemones
@@ -152,15 +153,16 @@ class SubCategory extends Alias
             22270   => [22271, 22272, 22273, 22274, 22275],                                 // Peduncle Pods
             22530   => [22531, 22532, 22533, 22534],                                        // Quadripartite Pods
             22510   => [22511, 22512, 22513, 22514, 22515],                                 // Rhizome Pods
+            22671,                                                                          // Stolon Pod
 
 
             22330   => [22331, 22332, 22333, 22334, 22335],                                 // Bell Molluscs
-            22470   => [22472, 22473],                                                      // Bulb Molluscs
+            22470   => [22471, 22472, 22473],                                               // Bulb Molluscs
             22550   => [22551, 22552,22553, 22554, 22555],                                  // Bullet Molluscs
             22370   => [22371, 22372],                                                      // Capsule Molluscs
             22190   => [22191, 22192, 22193, 22194, 22195, 22196, 22197],                   // Gourd Mollusc
             22450   => [22451, 22452, 22453],                                               // Parasol Molluscs
-            22390   => [22391, 22392],                                                      // Reel Molluscs
+            22390   => [22391, 22392, 22393],                                               // Reel Molluscs
             22610   => [22615],                                                             // Squid Molluscs
             22350   => [22351, 22352, 22353],                                               // Umbrella Molluscs
 

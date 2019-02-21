@@ -197,6 +197,7 @@ class Type extends Alias
             21153                       => 'P03-Type Anomaly',
             21154                       => 'P04-Type Anomaly',
             21155                       => 'P05-Type Anomaly',
+            21161                       => 'P11-Type Anomaly',
             21162                       => 'P12-Type Anomaly',
             21165                       => 'P15-Type Anomaly',
         21170                       => 'Q-Type Anomalies',
@@ -322,6 +323,7 @@ class Type extends Alias
         22390                       => 'Reel Molluscs',
             22391                       => 'Luteolum Reel Mollusc',
             22392                       => 'Lindigoticum Reel Mollusc',
+            22393                       => 'Viride Reel Mollusc',
         22410                       => 'Octahedral Pods',
             22411                       => 'Niveus Octahedral Pod',
             22413                       => 'Viride Octahedral Pod',
@@ -332,6 +334,7 @@ class Type extends Alias
             22452                       => 'Lindigoticum Parasol Mollusc',
             22453                       => 'Viride Parasol Mollusc',
         22470                       => 'Bulb Molluscs',
+            22471                       => 'Luteolum Bulb Mollusc',
             22472                       => 'Lindigoticum Bulb Mollusc',
             22473                       => 'Viride Bulb Mollusc',
         22490                       => 'Gyre Trees', // Flagged as Stolon Pods in game...
@@ -364,6 +367,8 @@ class Type extends Alias
             22615                       => 'Roseum Squid Mollusc',
         22630                       => 'Chalice Pods',
             22631                       => 'Albidum Chalice Pod',
+        22651                       => 'Stolon Tree',
+        22671                       => 'Stolon Pod',
 
 
 
@@ -595,6 +600,7 @@ class Type extends Alias
         'codex_ent_l_phn_part_eng_004'                      => 21153,
         'codex_ent_l_phn_part_eng_005'                      => 21154,
         'codex_ent_l_phn_part_eng_006'                      => 21155,
+        'codex_ent_l_phn_part_eng_012'                      => 21161,
         'codex_ent_l_phn_part_eng_013'                      => 21162,
         'codex_ent_l_phn_part_eng_016'                      => 21165,
 
@@ -724,6 +730,7 @@ class Type extends Alias
 
         'codex_ent_l_org_moll03_v6_def'                     => 22391,
         'codex_ent_l_org_moll03_v6_dark'                    => 22392,
+        'codex_ent_l_org_moll03_v6_earth'                   => 22393,
 
         'codex_ent_s_seed_sdtp03_def'                       => 22411,
         'codex_ent_s_seed_sdtp03_gr'                        => 22413,
@@ -734,6 +741,7 @@ class Type extends Alias
         'codex_ent_l_org_moll03_v1_dark'                    => 22452,
         'codex_ent_l_org_moll03_v1_earth'                   => 22453,
 
+        'codex_ent_l_org_moll03_v2_def'                     => 22471,
         'codex_ent_l_org_moll03_v2_dark'                    => 22472,
         'codex_ent_l_org_moll03_v2_earth'                   => 22473,
 
@@ -766,6 +774,10 @@ class Type extends Alias
         'codex_ent_small_org_moll01_v3_pnk'                 => 22615,
 
         'codex_ent_s_seed_sdtp05_def'                       => 22631,
+
+        'codex_ent_l_seed_sdrt02_v3'                        => 22651,
+
+        'codex_ent_spoi_root_seeds'                         => 22671,
 
 
 
