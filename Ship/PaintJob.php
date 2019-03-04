@@ -293,6 +293,7 @@ class PaintJob extends Alias
             'anaconda_gamescom_01'                          => 'Gamescon',
             'anaconda_lavecon_lavecon'                      => 'Lavecon',
             'anaconda_eliteexpo_eliteexpo'                  => 'Frontier Expo',
+            'anaconda_specialeditionpirate_01'              => 'Special Edition Pirate',
 
             'anaconda_luminous_stripe_01'                   => 'Pulse Green',
             'anaconda_luminous_stripe_02'                   => 'Pulse Blue',
@@ -659,6 +660,8 @@ class PaintJob extends Alias
             'cobramkiii_merc'                               => 'Mercenary',
 
             'cobramkiii_pcgn_01'                            => 'PCGN',
+            'cobramkiii_25thanniversary_01'                 => 'Frontier 25',
+            'cobramkiii_opm_opm'                            => 'Official Blue',
 
             'cobramkiii_default_52'                         => 'cobramkiii_metallic_chrome', // REDIRECT
             'cobramkiii_metallic_chrome'                    => 'Chrome',
@@ -1762,6 +1765,13 @@ class PaintJob extends Alias
             'krait_light_gradient2_lime'                    => 'Predator Lime',
             'krait_light_gradient2_blue'                    => 'Predator Blue',
 
+            'krait_light_trims_blueorange'                  => 'Precision Blue',
+            'krait_light_trims_greygreen'                   => 'Precision Grey',
+            'krait_light_trims_blackmagenta'                => 'Precision Black',
+            'krait_light_trims_greengrey'                   => 'Precision Green',
+            'krait_light_trims_yellowblack'                 => 'Precision Yellow',
+            'krait_light_trims_greyorange'                  => 'Precision Graphite',
+
             'krait_light_tactical_blue'                     => 'Tactical Cobalt',
             'krait_light_tactical_brown'                    => 'Tactical Khaki',
             'krait_light_tactical_green'                    => 'Tactical Olive',
@@ -1791,6 +1801,20 @@ class PaintJob extends Alias
             'mamba_militaire_earth_yellow'                  => 'Military Earth Yellow',
             'mamba_militaire_forest_green'                  => 'Military Marine Blue',
             'mamba_militaire_sand'                          => 'Military Sand',
+
+            'mamba_gradient2_red'                           => 'Predator Red',
+            'mamba_gradient2_green'                         => 'Predator Green',
+            'mamba_gradient2_teal'                          => 'Predator Teal',
+            'mamba_gradient2_crimson'                       => 'Predator Rose',
+            'mamba_gradient2_lime'                          => 'Predator Lime',
+            'mamba_gradient2_blue'                          => 'Predator Blue',
+
+            'mamba_luminous_stripe_01'                      => 'Pulse Green',
+            'mamba_luminous_stripe_02'                      => 'Pulse Blue',
+            'mamba_luminous_stripe_03'                      => 'Pulse Purple',
+            'mamba_luminous_stripe_04'                      => 'Pulse Red',
+            'mamba_luminous_stripe_05'                      => 'Pulse Orange',
+            'mamba_luminous_stripe_06'                      => 'Pulse White',
 
             'mamba_tactical_blue'                           => 'Tactical Cobalt',
             'mamba_tactical_brown'                          => 'Tactical Khaki',
@@ -1895,6 +1919,13 @@ class PaintJob extends Alias
             'python_faction1_05'                            => 'Pirate Faction Blue',
             'python_faction1_06'                            => 'Pirate Faction Purple',
             */
+
+            'python_fullmetal_brass'                        => 'Galvanized Brass',
+            'python_fullmetal_bronze'                       => 'Galvanized Bronze',
+            'python_fullmetal_cobalt'                       => 'Galvanized Cobalt',
+            'python_fullmetal_copper'                       => 'Galvanized Copper',
+            'python_fullmetal_malachite'                    => 'Galvanized Malachite',
+            'python_fullmetal_paladium'                     => 'Galvanized Paladium',
 
             'python_gradient2_01'                           => 'Predator Red',
             'python_gradient2_02'                           => 'Predator Green',
@@ -2282,6 +2313,13 @@ class PaintJob extends Alias
             'viper_flag_switzerland_01'                     => 'Switzerland Flag',
             'viper_flag_uk_01'                              => 'Union Jack Flag',
             'viper_flag_usa_01'                             => 'Stars & Stripes Flag',
+
+            'viper_fullmetal_brass'                         => 'Galvanized Brass',
+            'viper_fullmetal_bronze'                        => 'Galvanized Bronze',
+            'viper_fullmetal_cobalt'                        => 'Galvanized Cobalt',
+            'viper_fullmetal_copper'                        => 'Galvanized Copper',
+            'viper_fullmetal_malachite'                     => 'Galvanized Malachite',
+            'viper_fullmetal_paladium'                      => 'Galvanized Paladium',
 
             'viper_merc'                                    => 'Mercenary',
 
