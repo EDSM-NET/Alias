@@ -124,6 +124,7 @@ class Type extends Alias
             13032                       => 'Terraformable',
         13040                       => 'Metal-Rich planet with no atmosphere',
             13041                       => 'Non Terraformable',
+            13042                       => 'Terraformable',
         13050                       => 'High Metal Content planet with no atmosphere',
             13051                       => 'Non Terraformable',
             13052                       => 'Terraformable',
@@ -222,9 +223,11 @@ class Type extends Alias
             21216                       => 'K06-Type Anomaly',
             21217                       => 'K07-Type Anomaly',
             21218                       => 'K08-Type Anomaly',
+            21220                       => 'K10-Type Anomaly',
             21222                       => 'K12-Type Anomaly',
         21230                       => 'T-Type Anomalies',
             21231                       => 'T01-Type Anomaly',
+            21232                       => 'T02-Type Anomaly',
             21234                       => 'T04-Type Anomaly',
         21250                       => 'E-Type Anomalies',
             21252                       => 'E02-Type Anomaly',
@@ -369,6 +372,14 @@ class Type extends Alias
             22631                       => 'Albidum Chalice Pod',
         22651                       => 'Stolon Tree',
         22671                       => 'Stolon Pod',
+        22690                       => 'Aster Pods',
+            22691                       => 'Cereum Aster Pod',
+            22692                       => 'Lindigoticum Aster Pod',
+            22693                       => 'Prasinum Aster Pod',
+            22695                       => 'Rubellum Aster Pod',
+        22710                       => 'Aster Trees',
+            22713                       => 'Prasinum Aster Tree',
+            22715                       => 'Rubellum Aster Tree',
 
 
 
@@ -528,6 +539,7 @@ class Type extends Alias
         'codex_ent_trf_water_worlds'                        => 13032,
 
         'codex_ent_standard_metal_rich_no_atmos'            => 13041,
+        'codex_ent_trf_metal_rich_no_atmos'                 => 13042,
 
         'codex_ent_standard_high_metal_content_no_atmos'    => 13051,
         'codex_ent_trf_high_metal_content_no_atmos'         => 13052,
@@ -625,9 +637,11 @@ class Type extends Alias
         'codex_ent_l_phn_part_cld_006'                      => 21216,
         'codex_ent_l_phn_part_cld_008'                      => 21217,
         'codex_ent_l_phn_part_cld_009'                      => 21218,
+        'codex_ent_l_phn_part_cld_011'                      => 21220,
         'codex_ent_l_phn_part_cld_016'                      => 21222,
 
         'codex_ent_l_phn_part_clus_001'                     => 21231,
+        'codex_ent_l_phn_part_clus_002'                     => 21232,
         'codex_ent_l_phn_part_clus_005'                     => 21234,
 
         'codex_ent_l_phn_part_cld_014'                      => 21252,
@@ -778,6 +792,14 @@ class Type extends Alias
         'codex_ent_l_seed_sdrt02_v3'                        => 22651,
 
         'codex_ent_spoi_root_seeds'                         => 22671,
+
+        'codex_ent_s_seed_sdtp02_def'                       => 22691,
+        'codex_ent_s_seed_sdtp02_bl'                        => 22692,
+        'codex_ent_s_seed_sdtp02_gr'                        => 22693,
+        'codex_ent_s_seed_sdtp02_red'                       => 22695,
+
+        'codex_ent_l_seed_pln02_v3_gr'                      => 22713,
+        'codex_ent_l_seed_pln02_v3_red'                     => 22715,
 
 
 

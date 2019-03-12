@@ -44,6 +44,7 @@ class Traits extends Alias
         551                                 => 'Moves if approached with lights on.',
 
         451                                 => 'Releases spores if approached.',
+        453                                 => 'Releases spores if approached.',
 
         501                                 => 'Turns towards nearest star.',
 
@@ -105,6 +106,7 @@ class Traits extends Alias
         'p_l_movearnd01'                    => 551,
 
         's_s_cldatck01_cld'                 => 451,
+        's_s_cldatck03_cld'                 => 453,
 
         'o_l_turn01_idle'                   => 501,
 

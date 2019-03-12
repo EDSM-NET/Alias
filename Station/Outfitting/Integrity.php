@@ -497,7 +497,7 @@ class Integrity extends Alias
           3401  => 32,
           3402  => 36,
           3403  => 40,
-          3404  => null,
+          3404  => 44,
           3405  => 48,
 
           3411  => 41,
@@ -705,7 +705,7 @@ class Integrity extends Alias
 
         // Optional Internal > Shield Generator
           4101  => null,
-          4102  => null,
+          4102  => 24,
           4103  => 40,
           4104  => 40,
           4106  => 48,
@@ -811,7 +811,7 @@ class Integrity extends Alias
           4264  => 183,
           4265  => 157,
 
-          4271  => null,
+          4271  => 120,
           4272  => null,
           4273  => null,
           4274  => 210,

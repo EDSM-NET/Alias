@@ -905,6 +905,7 @@ class Mass extends Alias
           4051  => 0,
 
         // Optional Internal > Shield Generator
+          4102  => 0.5,
           4104  => 1.3,
           4106  => 1.3,
           4107  => 2.6,

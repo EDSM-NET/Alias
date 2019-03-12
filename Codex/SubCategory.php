@@ -93,7 +93,7 @@ class SubCategory extends Alias
             13011,
             13020    => [13021],
             13030    => [13031, 13032],
-            13040    => [13041],
+            13040    => [13041, 13042],                                                     // Metal-Rich planet with no atmosphere
             13050    => [13051, 13052],
             13060    => [13061, 13062],
             13070    => [13071],
@@ -118,11 +118,11 @@ class SubCategory extends Alias
                         21135, 21142, 21136, 21143, 21137],
             21250   => [21252],                                                             // E-Type Anomalies
             21210   => [21211, 21212, 21213, 21214, 21215, 21216, 21217, 21218,             // K-Type Anomalies
-                        21222],
+                        21220, 21222],
             21190   => [21191, 21194, 21195, 21196, 21199],                                 // L-Type Anomalies
             21150   => [21151, 21153, 21154, 21155, 21161, 21162, 21165],                   // P-Type Anomalies
             21170   => [21171, 21172, 21174, 21176, 21178, 21179],                          // Q-Type Anomalies
-            21230   => [21231, 21234],                                                      // T-Type Anomalies
+            21230   => [21231, 21232, 21234],                                               // T-Type Anomalies
         ],
 
         22000   =>  [                                                                   // Organic Structures
@@ -130,6 +130,7 @@ class SubCategory extends Alias
             22031,                                                                          // Lattice Mineral Spheres
             22050   => [22051, 22052, 22053],                                               // Thargoid Barnacles
 
+            22710   => [22713, 22715],                                                      // Aster Trees
             22070   => [22071, 22072, 22073, 22074, 22075, 22076, 22078, 22077],            // Brain Trees
             22490   => [22491, 22492],                                                      // Gyre Trees (Wrongly flagged in game)
             22290   => [22291, 22292, 22293, 22294, 22295],                                 // Peduncle Trees
@@ -146,6 +147,7 @@ class SubCategory extends Alias
 
             22251,                                                                          // Crystalline Shards
 
+            22690   => [22691, 22692, 22693, 22695],                                        // Aster Pods
             22630   => [22631],                                                             // Chalice Pods
             22170   => [22171, 22172, 22173, 22174],                                        // Collared Pods
             22590   => [22592],                                                             // Gyre Pods

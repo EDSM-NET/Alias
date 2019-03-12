@@ -66,7 +66,7 @@ class ShieldBankReinforcement extends Alias
           4264  => 49,
           4265  => 57,
 
-          4271  => null,
+          4271  => 28,
           4272  => null,
           4273  => null,
           4274  => 56,

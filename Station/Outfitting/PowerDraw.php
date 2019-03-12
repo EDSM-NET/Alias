@@ -626,6 +626,7 @@ class PowerDraw extends Alias
           4051  => 0.39,
 
         // Optional Internal > Shield Generator
+          4102  => 0.96,
           4104  => 1.2,
           4106  => 1.68,
           4107  => 2.52,
