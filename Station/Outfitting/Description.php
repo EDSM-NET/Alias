@@ -388,6 +388,7 @@ class Description extends Alias
           1259  => 'Rapid fire, small-calibre projectile weapon on turret mount, with automatic signature tracking.',
           1260  => 'Rapid fire, small-calibre projectile weapon on turret mount, with automatic signature tracking.',
           1261  => 'Rapid fire, small-calibre projectile weapon on turret mount, with automatic signature tracking.',
+          1262  => 'Rapid fire, small-calibre projectile weapon on turret mount, with automatic signature tracking.',
 
           1271  => 'A modified multi-cannon tuned to fire larger calibre rounds that deal more damage over a greater range at the cost of fire rate.',
 
@@ -507,54 +508,54 @@ class Description extends Alias
           2001  => 'Strengthens the active shield if powered. Multiple boosters stack in effectiveness.',
           2002  => 'Strengthens the active shield if powered. Multiple boosters stack in effectiveness.',
           2003  => 'Strengthens the active shield if powered. Multiple boosters stack in effectiveness.',
-          2004  => null,
-          2005  => null,
+          2004  => 'Strengthens the active shield if powered. Multiple boosters stack in effectiveness.',
+          2005  => 'Strengthens the active shield if powered. Multiple boosters stack in effectiveness.',
 
         // Utility Mount > Chaff Launcher
-          2050  => null,
+          2050  => 'Signature tracking defence. When deployed, causes gimbal and turret-mounted devices to lose lock. Requires ammunition.',
 
         // Utility Mount > Electronic Countermeasure
-          2100  => null,
+          2100  => 'Missile and torpedo defence. When deployed, causes affected ordnance to lose lock.',
 
         // Utility Mount > Heat Sink Launcher
-          2150  => null,
+          2150  => 'Purges ship\'s heat into a disposable sink block, which is then ejected. Requires ammunition.',
 
         // Utility Mount > Point Defence
           2200  => 'Missile defence. Automatically tracks and fires upon missiles and torpedoes in range when powered.',
 
         // Utility Mount > Cargo Scanner
-          2251  => null,
-          2252  => null,
-          2253  => null,
-          2254  => null,
-          2255  => null,
+          2251  => 'Scanner that can detect and analyse the contents of a targeted vessel\'s cargo hold and passenger cabins.',
+          2252  => 'Scanner that can detect and analyse the contents of a targeted vessel\'s cargo hold and passenger cabins.',
+          2253  => 'Scanner that can detect and analyse the contents of a targeted vessel\'s cargo hold and passenger cabins.',
+          2254  => 'Scanner that can detect and analyse the contents of a targeted vessel\'s cargo hold and passenger cabins.',
+          2255  => 'Scanner that can detect and analyse the contents of a targeted vessel\'s cargo hold and passenger cabins.',
 
         // Utility Mount > Frame Shift Wake Scanner
-          2301  => null,
-          2302  => null,
-          2303  => null,
-          2304  => null,
-          2305  => null,
+          2301  => 'Scanner that can calculate the destination of a hyperspace jump by analysis of frame shift energy wake.',
+          2302  => 'Scanner that can calculate the destination of a hyperspace jump by analysis of frame shift energy wake.',
+          2303  => 'Scanner that can calculate the destination of a hyperspace jump by analysis of frame shift energy wake.',
+          2304  => 'Scanner that can calculate the destination of a hyperspace jump by analysis of frame shift energy wake.',
+          2305  => 'Scanner that can calculate the destination of a hyperspace jump by analysis of frame shift energy wake.',
 
         // Utility Mount > Kill Warrant Scanner
-          2351  => null,
-          2352  => null,
-          2353  => null,
-          2354  => null,
-          2355  => null,
+          2351  => 'Scanner that incorporates real-time communication with multiple law enforcement networks to obtain all issued bounties.',
+          2352  => 'Scanner that incorporates real-time communication with multiple law enforcement networks to obtain all issued bounties.',
+          2353  => 'Scanner that incorporates real-time communication with multiple law enforcement networks to obtain all issued bounties.',
+          2354  => 'Scanner that incorporates real-time communication with multiple law enforcement networks to obtain all issued bounties.',
+          2355  => 'Scanner that incorporates real-time communication with multiple law enforcement networks to obtain all issued bounties.',
 
         // Utility Mount > Xeno Scanner
-          2401  => null,
+          2401  => 'Scanner that can passively understand non-Human vessels, and analyse their structural make-up and internal modules.',
 
         // Utility Mount > Shutdown Field Neutraliser
-          2451  => null,
+          2451  => 'Counters current xeno shutdown technology when used within proximity.',
 
         // Utility Mount > Pulse Wave Analyser
-          2501  => null,
-          2502  => null,
-          2503  => null,
-          2504  => null,
-          2505  => null,
+          2501  => 'Pulse wave analysers are used to detect anomalous readings within solid objects, more specifically within asteroid fields.',
+          2502  => 'Pulse wave analysers are used to detect anomalous readings within solid objects, more specifically within asteroid fields.',
+          2503  => 'Pulse wave analysers are used to detect anomalous readings within solid objects, more specifically within asteroid fields.',
+          2504  => 'Pulse wave analysers are used to detect anomalous readings within solid objects, more specifically within asteroid fields.',
+          2505  => 'Pulse wave analysers are used to detect anomalous readings within solid objects, more specifically within asteroid fields.',
 
         // Core Internal > Fuel Tank
           3000  => 'Storage container for fuel used by ship\'s power plant.',
@@ -568,7 +569,7 @@ class Description extends Alias
           3008  => 'Storage container for fuel used by ship\'s power plant.',
 
         // Core Internal > Power Plant
-          3100  => null, // Not in category
+          3100  => 'Consumes fuel to power all ship modules.', // Not in category
           3101  => 'Consumes fuel to power all ship modules.',
           3102  => 'Consumes fuel to power all ship modules.',
           3103  => 'Consumes fuel to power all ship modules.',
@@ -896,10 +897,10 @@ class Description extends Alias
           3841  => 'Used to boost the output of Frame Shift Drives, but at the cost of overall fuel efficiency.',
 
         // Optional Internal > Discovery Scanner
-          4000  => 'Used to boost the output of Frame Shift Drives, but at the cost of overall fuel efficiency.',
-          4001  => null,
-          4002  => null,
-          4003  => null,
+          4000  => 'Scanner used to discover astronomical bodies and signal sources. The system sensor interface is used to locate and identify these points of interest. Can only be used in supercruise and only functions in analysis mode.',
+          4001  => 'Scanner used to discover astronomical bodies and signal sources. The system sensor interface is used to locate and identify these points of interest. Can only be used in supercruise and only functions in analysis mode.',
+          4002  => 'Scanner used during exploration.',
+          4003  => 'Scanner used during exploration.',
 
         // Optional Internal > Composition Scanner
           4010  => 'Scanner capable of undertaking a complete composition analysis of most simple biological and non-biological entities. This data is then uploaded to the ship\'s internal codex and catalogued appropriately. Simply complete a full scan of the object to catalogue and, if it has not been scanned before, it will automatically create a new entry in the codex. Only functions in analysis mode.',
@@ -908,7 +909,7 @@ class Description extends Alias
           4011  => 'Advanced stellar body scanner used during exploration.',
 
         // Optional Internal > Cargo Rack
-          4020  => null, // Not in category
+          4020  => 'Standardised storage rack for use in automated cargo transfer system.', // Not in category
           4021  => 'Standardised storage rack for use in automated cargo transfer system.',
           4022  => 'Standardised storage rack for use in automated cargo transfer system.',
           4023  => 'Standardised storage rack for use in automated cargo transfer system.',
@@ -934,7 +935,7 @@ class Description extends Alias
           4106  => 'Forms a continually regenerating protective energy shield around the vessel.',
           4107  => 'An alternative shield generator that has higher than normal strength but requires a higher power draw and weight allowance.',
 
-          4110  => null, // Not in category
+          4110  => 'Forms a continually regenerating protective energy shield around the vessel.', // Not in category
           4111  => 'Forms a continually regenerating protective energy shield around the vessel.',
           4112  => 'Forms a continually regenerating protective energy shield around the vessel.',
           4113  => 'Forms a continually regenerating protective energy shield around the vessel.',
@@ -1383,7 +1384,7 @@ class Description extends Alias
           5665  => 'Controls a limpet that repairs an amount of damage to the hull of a targeted ship.',
 
         // Optional Internal > Research Limpet Controller
-          5701  => null,
+          5701  => 'Controls a limpet that scrapes samples and bio-matter from the surface of an alien vessel.',
 
         // Optional Internal > Decontamination Limpet Controller
           5801  => 'Controls a limpet that removes caustic chemicals affecting a ship\'s hull, as well as applying a small amount of hull repair.',
@@ -1464,8 +1465,8 @@ class Description extends Alias
           6342  => 'Powered module that protects a ships modules from any weapons fire penetrating the hull. It utilises it\'s own damage capacity to absorb a proportion of the damage applied to modules, eventually burning out when it\'s capacity reaches zero. This version is based on Guardian research and has resistances to Thargoid specific disruption technology.',
 
         // Cargo bay door (No category, not sellable, only for ship module list)
-          9990  => null,
-          9991  => null,
+          9990  => 'Modular bay door allowing access to the ship\'s cargo racks.',
+          9991  => 'Modular bay door allowing access to the ship\'s cargo racks.',
     ];
 }
 

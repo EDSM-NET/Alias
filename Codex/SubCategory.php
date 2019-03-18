@@ -116,7 +116,7 @@ class SubCategory extends Alias
             21110   => [21111, 21112, 21113, 21114],
             21130   => [21131, 21132, 21139, 21133, 21140, 21134, 21141,                    // Lagrange Clouds
                         21135, 21142, 21136, 21143, 21137],
-            21250   => [21252],                                                             // E-Type Anomalies
+            21250   => [21252, 21254],                                                      // E-Type Anomalies
             21210   => [21211, 21212, 21213, 21214, 21215, 21216, 21217, 21218,             // K-Type Anomalies
                         21220, 21222],
             21190   => [21191, 21194, 21195, 21196, 21199],                                 // L-Type Anomalies
@@ -130,7 +130,7 @@ class SubCategory extends Alias
             22031,                                                                          // Lattice Mineral Spheres
             22050   => [22051, 22052, 22053],                                               // Thargoid Barnacles
 
-            22710   => [22713, 22715],                                                      // Aster Trees
+            22710   => [22711, 22713, 22715],                                               // Aster Trees
             22070   => [22071, 22072, 22073, 22074, 22075, 22076, 22078, 22077],            // Brain Trees
             22490   => [22491, 22492],                                                      // Gyre Trees (Wrongly flagged in game)
             22290   => [22291, 22292, 22293, 22294, 22295],                                 // Peduncle Trees
@@ -147,7 +147,7 @@ class SubCategory extends Alias
 
             22251,                                                                          // Crystalline Shards
 
-            22690   => [22691, 22692, 22693, 22695],                                        // Aster Pods
+            22690   => [22691, 22692, 22693, 22694, 22695],                                 // Aster Pods
             22630   => [22631],                                                             // Chalice Pods
             22170   => [22171, 22172, 22173, 22174],                                        // Collared Pods
             22590   => [22592],                                                             // Gyre Pods
@@ -166,6 +166,7 @@ class SubCategory extends Alias
             22450   => [22451, 22452, 22453],                                               // Parasol Molluscs
             22390   => [22391, 22392, 22393],                                               // Reel Molluscs
             22610   => [22615],                                                             // Squid Molluscs
+            22730   => [22732, 22735],                                                      // Torus Molluscs
             22350   => [22351, 22352, 22353],                                               // Umbrella Molluscs
 
             22430   => [22431],                                                             // Void Hearts

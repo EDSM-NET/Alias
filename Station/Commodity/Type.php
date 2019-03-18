@@ -441,6 +441,9 @@ class Type extends Alias
         1931        => 'Pod Dead Tissue',
         1932        => 'Pod Surface Tissue',
 
+        1940        => 'Pod Outer Tissue',
+        1941        => 'Pod Shell Tissue',
+
 
         // Powerplay (99)
         9901        => 'Aisling Media Materials',
@@ -917,6 +920,9 @@ class Type extends Alias
         's_tissuesample_cells'                  => 1930,
         's_tissuesample_surface'                => 1931,
         's_tissuesample_core'                   => 1932,
+
+        's6_tissuesample_cells'                 => 1940,
+        's6_tissuesample_coenosarc'             => 1941,
 
 
         // Powerplay (99)

@@ -116,6 +116,7 @@ class Category extends Alias
                         1900, 1901, 1902,
                         1920, 1921, 1922,
                         1930, 1931, 1932,
+                        1940, 1941,
                     ],
 
         // Only for cargo

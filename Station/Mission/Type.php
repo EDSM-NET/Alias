@@ -205,6 +205,7 @@ class Type extends Alias
          804                                => 'Take out the %target% power grid',
          805                                => 'Take out the %target% power grid',
          806                                => 'Obliterate the %target% main flux power grid',
+         807                                => 'Take out the %target% power grid',
 
          851                                => 'Discreet Power Failure Required',
          853                                => 'Covert assault contract',
@@ -258,6 +259,7 @@ class Type extends Alias
         1080                                => 'Covert outbreak combat operation',
         1081                                => 'Covert famine combat operation',
         1082                                => 'Quell %targetFaction%',
+        1083                                => 'Decimate %targetFaction% %targetType%',
 
         // Assassinate Missions
         1101                                => 'Assassinate %targetType%: %target%',
@@ -336,6 +338,7 @@ class Type extends Alias
         1305                                => 'Plug into the %target% datalink',
         1306                                => 'Establish Covert Link with the %target% Data Link',
         1307                                => 'Establish Covert Link with the %target% Data Link',
+        1308                                => 'Establish Covert Link with the %target% Data Link',
 
         1351                                => 'Covert data retrieval assignment',
         1352                                => 'Tactical data acquisition',
@@ -652,6 +655,7 @@ class Type extends Alias
         'mission_disable_civilwar'                          => 804,
         'mission_disable_civilunrest'                       => 805,
         'mission_disable_expansion'                         => 806,
+        'mission_disable_retreat'                           => 807,
 
         'mission_disable_blops'                             => 851,
         'mission_disable_blops_war'                         => 853,
@@ -703,6 +707,7 @@ class Type extends Alias
         'mission_massacre_illegal_blops_outbreak'           => 1080,
         'mission_massacre_illegal_blops_famine'             => 1081,
         'mission_massacre_illegal_civilunrest'              => 1082,
+        'mission_massacre_illegal_retreat'                  => 1083,
 
         'mission_assassinate'                               => 1101,
         'mission_assassinate_rankfed'                       => 1102,
@@ -778,6 +783,7 @@ class Type extends Alias
         'mission_hack_expansion'                            => 1305,
         'mission_hack_investment'                           => 1306,
         'mission_hack_boom'                                 => 1307,
+        'mission_hack_retreat'                              => 1308,
 
         'mission_hack_blops'                                => 1351,
         'mission_hack_blops_civilwar'                       => 1352,

@@ -376,10 +376,15 @@ class Type extends Alias
             22691                       => 'Cereum Aster Pod',
             22692                       => 'Lindigoticum Aster Pod',
             22693                       => 'Prasinum Aster Pod',
+            22694                       => 'Puniceum Aster Pod',
             22695                       => 'Rubellum Aster Pod',
         22710                       => 'Aster Trees',
+            22711                       => 'Cereum Aster Tree',
             22713                       => 'Prasinum Aster Tree',
             22715                       => 'Rubellum Aster Tree',
+        22730                       => 'Torus Molluscs',
+            22732                       => 'Caeruleum Torus Mollusc',
+            22735                       => 'Rubellum Torus Mollusc',
 
 
 
@@ -796,10 +801,15 @@ class Type extends Alias
         'codex_ent_s_seed_sdtp02_def'                       => 22691,
         'codex_ent_s_seed_sdtp02_bl'                        => 22692,
         'codex_ent_s_seed_sdtp02_gr'                        => 22693,
+        'codex_ent_s_seed_sdtp02_pur'                       => 22694,
         'codex_ent_s_seed_sdtp02_red'                       => 22695,
 
+        'codex_ent_l_seed_pln02_v3_def'                     => 22711,
         'codex_ent_l_seed_pln02_v3_gr'                      => 22713,
         'codex_ent_l_seed_pln02_v3_red'                     => 22715,
+
+        'codex_ent_small_org_moll01_v2_bl'                  => 22732,
+        'codex_ent_small_org_moll01_v2_red'                 => 22735,
 
 
 

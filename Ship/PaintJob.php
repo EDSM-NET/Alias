@@ -537,6 +537,11 @@ class PaintJob extends Alias
             'belugaliner_ember_orange'                      => 'Ember Orange',
             'belugaliner_ember_blue'                        => 'Ember Blue',
 
+            'belugaliner_iridescenthighcolour_01'           => 'Iridescent Scorch',
+            'belugaliner_iridescenthighcolour_04'           => 'Iridescent Dusk',
+            'belugaliner_iridescenthighcolour_05'           => 'Iridescent Aurora',
+            'belugaliner_iridescenthighcolour_06'           => 'Iridescent Twilight',
+
             //'belugaliner_metallic_chrome'                   => 'Chrome',
             'belugaliner_metallic2_chrome'                  => 'Chromed',
             //'belugaliner_metallic_gold'                     => 'Gold',
@@ -653,6 +658,11 @@ class PaintJob extends Alias
 
             'cobramkiii_hotrod_01'                          => 'Red Ignition',
             'cobramkiii_hotrod_03'                          => 'Orange Ignition',
+
+            'cobramkiii_iridescenthighcolour_01'            => 'Iridescent Scorch',
+            'cobramkiii_iridescenthighcolour_04'            => 'Iridescent Dusk',
+            'cobramkiii_iridescenthighcolour_05'            => 'Iridescent Aurora',
+            'cobramkiii_iridescenthighcolour_06'            => 'Iridescent Twilight',
 
             'cobramkiii_lavecon_lavecon'                    => 'Lavecon',
 
@@ -927,6 +937,11 @@ class PaintJob extends Alias
             'dolphin_ember_orange'                          => 'Ember Orange',
             'dolphin_ember_blue'                            => 'Ember Blue',
 
+            'dolphin_iridescenthighcolour_01'               => 'Iridescent Scorch',
+            'dolphin_iridescenthighcolour_04'               => 'Iridescent Dusk',
+            'dolphin_iridescenthighcolour_05'               => 'Iridescent Aurora',
+            'dolphin_iridescenthighcolour_06'               => 'Iridescent Twilight',
+
             //'dolphin_metallic_chrome'                       => 'Chrome',
             'dolphin_metallic2_chrome'                      => 'Chromed',
             //'dolphin_metallic_gold'                         => 'Gold',
@@ -1064,6 +1079,11 @@ class PaintJob extends Alias
             'feddropship_mkii_gradient2_05'                 => 'Predator Lime',
             'feddropship_mkii_gradient2_06'                 => 'Predator Blue',
 
+            'feddropship_mkii_iridescenthighcolour_01'      => 'Iridescent Scorch',
+            'feddropship_mkii_iridescenthighcolour_04'      => 'Iridescent Dusk',
+            'feddropship_mkii_iridescenthighcolour_05'      => 'Iridescent Aurora',
+            'feddropship_mkii_iridescenthighcolour_06'      => 'Iridescent Twilight',
+
             //'feddropship_mkii_metallic_chrome'              => 'Chrome',
             'feddropship_mkii_metallic2_chrome'             => 'Chromed',
             //'feddropship_mkii_metallic_gold'                => 'Gold',
@@ -1126,7 +1146,11 @@ class PaintJob extends Alias
             'federation_corvette_corrosive_05'              => 'Corroded 5',
             'federation_corvette_corrosive_06'              => 'Corroded 6',
 
+            'federation_corvette_iridescenthighcolour_01'   => 'Iridescent Scorch',
             'federation_corvette_iridescenthighcolour_02'   => 'Iridescent Gleam',
+            'federation_corvette_iridescenthighcolour_04'   => 'Iridescent Dusk',
+            'federation_corvette_iridescenthighcolour_05'   => 'Iridescent Aurora',
+            'federation_corvette_iridescenthighcolour_06'   => 'Iridescent Twilight',
 
             'federation_corvette_metallic_chrome'           => 'Chrome',
             'federation_corvette_metallic2_chrome'          => 'Chromed',
@@ -1751,6 +1775,11 @@ class PaintJob extends Alias
 
             'krait_light_metallic2_gold'                    => 'Golden',
 
+            'krait_light_iridescenthighcolour_01'           => 'Iridescent Scorch',
+            'krait_light_iridescenthighcolour_04'           => 'Iridescent Dusk',
+            'krait_light_iridescenthighcolour_05'           => 'Iridescent Aurora',
+            'krait_light_iridescenthighcolour_06'           => 'Iridescent Twilight',
+
             'krait_light_militaire_dark_green'              => 'Military Dark Green',
             'krait_light_militaire_desert_sand'             => 'Military Desert Sand',
             'krait_light_militaire_earth_red'               => 'Military Earth Red',
@@ -1794,6 +1823,11 @@ class PaintJob extends Alias
             'mamba_blackfriday_01'                          => 'Midnight Black',
 
             'mamba_metallic2_gold'                          => 'Golden',
+
+            'mamba_iridescenthighcolour_01'                 => 'Iridescent Scorch',
+            'mamba_iridescenthighcolour_04'                 => 'Iridescent Dusk',
+            'mamba_iridescenthighcolour_05'                 => 'Iridescent Aurora',
+            'mamba_iridescenthighcolour_06'                 => 'Iridescent Twilight',
 
             'mamba_militaire_dark_green'                    => 'Military Dark Green',
             'mamba_militaire_desert_sand'                   => 'Military Desert Sand',
@@ -1861,6 +1895,11 @@ class PaintJob extends Alias
             //'orca_metallic_chrome'                          => 'Chrome',
             'orca_metallic2_chrome'                         => 'Chromed',
             //'orca_metallic_gold'                            => 'Gold',
+
+            'orca_iridescenthighcolour_01'                  => 'Iridescent Scorch',
+            'orca_iridescenthighcolour_04'                  => 'Iridescent Dusk',
+            'orca_iridescenthighcolour_05'                  => 'Iridescent Aurora',
+            'orca_iridescenthighcolour_06'                  => 'Iridescent Twilight',
 
             'orca_militaire_dark_green'                     => 'Military Dark Green',
             'orca_militaire_desert_sand'                    => 'Military Desert Sand',
@@ -2228,6 +2267,11 @@ class PaintJob extends Alias
             'type9_military_fullmetal_copper'               => 'Galvanized Copper',
             'type9_military_fullmetal_malachite'            => 'Galvanized Malachite',
             'type9_military_fullmetal_paladium'             => 'Galvanized Paladium',
+
+            'type9_military_iridescenthighcolour_01'        => 'Iridescent Scorch',
+            'type9_military_iridescenthighcolour_04'        => 'Iridescent Dusk',
+            'type9_military_iridescenthighcolour_05'        => 'Iridescent Aurora',
+            'type9_military_iridescenthighcolour_06'        => 'Iridescent Twilight',
 
             'type9_military_lavecon_lavecon'                => 'Lavecon',
 
