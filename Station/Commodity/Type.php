@@ -443,6 +443,9 @@ class Type extends Alias
 
         1940        => 'Pod Outer Tissue',
         1941        => 'Pod Shell Tissue',
+        1942        => 'Pod Mesoglea',
+
+        1950        => 'Pod Tissue',
 
 
         // Powerplay (99)
@@ -923,6 +926,9 @@ class Type extends Alias
 
         's6_tissuesample_cells'                 => 1940,
         's6_tissuesample_coenosarc'             => 1941,
+        's6_tissuesample_mesoglea'              => 1942,
+
+        's9_tissuesample_shell'                 => 1950,
 
 
         // Powerplay (99)

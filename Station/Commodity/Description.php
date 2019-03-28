@@ -889,6 +889,9 @@ class Description extends Alias
 
         1940        => 'A sample of tissue from the outer layers of a space-based seed pod.',
         1941        => 'A sample of tissue from the shell of a space-based seed pod.',
+        1942        => 'A sample of jelly-like tissue from a space-based seed pod.',
+
+        1950        => 'A sample of tissue from a space-based seed pod.',
 
         // Powerplay (99)
         9901        => 'Used by Aisling\'s supporters to prepare systems by delivering to the desired system. They are of no value to anyone but her followers. This Item will be out of date at the end of the powerplay week.',

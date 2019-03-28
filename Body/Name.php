@@ -7957,5 +7957,9 @@ class Name extends ProcGen
                 "V4197 Sagittarii B"              => "V4197 Sagittarii B",
          ],
 
+        // Athaip QP-E d12-9178 #1045982
+        1045982     => [
+            'Jasmine\'s Playground'             => 'Athaip QP-E d12-9178 6',
+        ]
     ];
 }

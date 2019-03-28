@@ -547,7 +547,7 @@ class Integrity extends Alias
           3501  => 36,
           3502  => 32,
           3503  => 40,
-          3504  => null,
+          3504  => 48,
           3505  => 44,
 
           3509  => null,
@@ -826,7 +826,7 @@ class Integrity extends Alias
 
           4311  => 41,
           4312  => null,
-          4313  => null,
+          4313  => 51,
           4314  => null,
           4315  => 61,
 
@@ -861,7 +861,7 @@ class Integrity extends Alias
           4365  => 157,
 
           4371  => null,
-          4372  => null,
+          4372  => 90,
           4373  => 150,
           4374  => 210,
           4375  => 180,
@@ -1087,7 +1087,7 @@ class Integrity extends Alias
 
           5241  => null,
           5242  => 77,
-          5243  => null,
+          5243  => 96,
           5244  => 115,
           5245  => 134,
 

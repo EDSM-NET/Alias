@@ -60,6 +60,7 @@ class Traits extends Alias
 
         851                                 => 'Moves without apparent purpose.',
 
+        901                                 => 'Retreats if approached.',
         902                                 => 'Retreats if approached with lights on.',
         903                                 => 'Retreats if scanned.',
 
@@ -122,6 +123,7 @@ class Traits extends Alias
 
         'o_s_move01_idle'                   => 851,
 
+        'o_s_flee01_appro'                  => 901,
         'o_s_flee02_appro'                  => 902,
         'o_s_flee03_appro'                  => 903,
 
