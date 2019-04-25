@@ -25,6 +25,25 @@ class ShotSpeed extends Alias
      * Number by outfitting
      */
     static protected $name          = [
+
+        // Weapon Hardpoint > Pulse Laser
+          1050  => null, // Not in category
+          1051  => null,
+          1052  => null,
+          1053  => null,
+          1054  => null,
+
+          1055  => null,
+          1056  => null,
+          1057  => null,
+          1058  => null,
+
+          1059  => null,
+          1060  => 875,
+          1061  => null,
+
+          1072  => null,
+
         // Weapon Hardpoint > Cannon
           1151  => 1200,
           1152  => 1051.051025,

@@ -99,6 +99,21 @@ class DamageFalloffRange extends Alias
           1160  => 3500,
           1161  => 4000,
 
+        // Weapon Hardpoint > Fragment Cannon
+          1201  => null,
+          1202  => null,
+          1203  => null,
+
+          1205  => null,
+          1206  => null,
+          1207  => null,
+
+          1209  => null,
+          1210  => null,
+          1211  => null,
+
+          1215  => 600,
+
         // Weapon Hardpoint > Multi-Cannon
           1251  => 2000,
           1252  => 2000,
@@ -136,5 +151,23 @@ class DamageFalloffRange extends Alias
           1352  => 1000,
 
           1362  => 1000,
+
+        // Weapon Hardpoint > Missile Rack
+          1401  => 600,
+          1402  => 600,
+          1403  => 600,
+
+          1405  => null,
+          1406  => null,
+          1407  => null,
+
+          1411  => null,
+
+        // Weapon Hardpoint > Mine Launcher
+          1451  => null,
+          1452  => 1000,
+
+        // Weapon Hardpoint > Pack-Hound Missile Rack
+          1802  => 1000,
     ];
 }

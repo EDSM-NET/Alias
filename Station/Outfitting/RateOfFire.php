@@ -32,6 +32,26 @@ class RateOfFire extends Alias
      * Number by outfitting
      */
     static protected $name          = [
+        // Weapon Hardpoint > Beam Laser
+          1001  => null,
+          1002  => null,
+          1003  => null,
+          1004  => null,
+
+          1005  => null,
+          1006  => 4.202586,
+          1007  => null,
+          1008  => null,
+
+          1009  => null,
+          1010  => null,
+          1011  => null,
+
+          1021  => null,
+
+          1031  => null,
+          1032  => null,
+
         // Weapon Hardpoint > Pulse Laser
           1050  => null, // Not in category
           1051  => 3.846154,

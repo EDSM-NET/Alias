@@ -909,6 +909,8 @@ class Classes extends Alias
 
         // Optional Internal > Standard Docking Computer
           4051  => 1,
+          4052  => 1,
+          4053  => 1,
 
         // Optional Internal > Shield Generator
           4101  => 1,

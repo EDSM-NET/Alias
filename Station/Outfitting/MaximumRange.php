@@ -154,7 +154,7 @@ class MaximumRange extends Alias
 
           1362  => 3000,
 
-        // Weapon Hardpoint > Rail Gun
-
+        // Weapon Hardpoint > Mine Launcher
+          1452  => 3000,
     ];
 }

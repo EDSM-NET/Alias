@@ -909,6 +909,8 @@ class Rating extends Alias
 
         // Optional Internal > Standard Docking Computer
           4051  => 'E',
+          4052  => 'E', //TODO: Check ingame
+          4053  => 'E',
 
         // Optional Internal > Shield Generator
           4101  => 'E',

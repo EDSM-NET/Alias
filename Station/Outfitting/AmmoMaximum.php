@@ -120,6 +120,9 @@ class AmmoMaximum extends Alias
           1451  => 36,
           1452  => 72,
 
+        // Weapon Hardpoint > Torpedo Pylon
+          1553  => 36,
+
         // Weapon Hardpoint > Shock Mine Launcher
           1601  => 36,
 

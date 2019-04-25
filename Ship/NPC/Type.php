@@ -39,6 +39,7 @@ class Type extends Alias
 
         61                          => 'System AX Force',
         62                          => 'Imperial AX Vessel',
+        63                          => 'Federal AX Ship',
     ];
 
     /**
@@ -77,5 +78,6 @@ class Type extends Alias
 
         'ax_military_independent'       => 61,
         'ax_military_empire'            => 62,
+        'ax_military_federation'        => 63,
     ];
 }

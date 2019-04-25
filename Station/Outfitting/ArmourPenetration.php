@@ -49,7 +49,7 @@ class ArmourPenetration extends Alias
           1010  => 35,
           1011  => 50,
 
-          1021  => null,
+          1021  => 18,
 
           1031  => null,
           1032  => null,

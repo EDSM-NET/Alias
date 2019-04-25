@@ -922,7 +922,9 @@ class Type extends Alias
           4034  => 'Corrosion Resistant Cargo Rack',
 
         // Optional Internal > Standard Docking Computer
-          4051  => 'Standard Docking Computer',
+          4051  => 'Standard Docking Computer', //TODO: Check ingame
+          4052  => 'Docking Computer',
+          4053  => 'Supercruise Assist',
 
         // Optional Internal > Shield Generator
           4101  => 'Shield Generator',
@@ -2395,6 +2397,8 @@ class Type extends Alias
 
         // Optional Internal > Standard Docking Computer
         'int_dockingcomputer_standard'                  => 4051,
+        'int_dockingcomputer_advanced'                  => 4052,
+        'int_supercruiseassist'                         => 4053,
 
         // Optional Internal > Shield Generator
         'int_shieldgenerator_size1_class1'              => 4101,

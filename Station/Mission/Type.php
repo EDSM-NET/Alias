@@ -456,6 +456,9 @@ class Type extends Alias
         3018                                => 'Deliver %commodityCount% units of %commodity%',
 
         4001                                => 'Disable the Megaship Turrets',
+
+        4501                                => 'Exploring The Galaxy',
+        4502                                => 'Conflict Training Area',
     ];
 
     /**
@@ -900,5 +903,8 @@ class Type extends Alias
         'chain_piracyfraud'                                 => 3018,
 
         'mission_disablemegaship'                           => 4001,
+
+        'mission_startzone_exit'                            => 4501,
+        'mission_startzone_gotoconflictsystem'              => 4502,
     ];
 }
