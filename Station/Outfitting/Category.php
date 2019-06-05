@@ -340,7 +340,7 @@ class Category extends Alias
                 5861,
             ],
             'Docking Computers'                 => [
-                4051,
+                4051, 4052, 4053,
             ],
             'Fuel Scoops'                       => [
                 4301, 4302, 4303, 4304, 4305,

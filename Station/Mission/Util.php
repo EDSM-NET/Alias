@@ -18,6 +18,7 @@ class Util extends Alias
            3                                    => 'Emplacement',
            4                                    => 'Skimmer Control',
            5                                    => 'Comms Array',
+           6                                    => 'Hub Access Terminal',
 
          500                                    => 'Thargoid Scout',
          501                                    => 'Thargoid Interceptor',
@@ -63,6 +64,7 @@ class Util extends Alias
         'settlement_target_turret'              => 3,
         'settlement_target_skimmerdisabler'     => 4,
         'settlement_target_radar'               => 5,
+        'settlement_target_postbox'             => 6,
 
         'factiontag_scout'                      => 500,
         'factiontag_interceptor'                => 501,

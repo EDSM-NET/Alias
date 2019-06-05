@@ -391,6 +391,9 @@ class Type extends Alias
 
           1271  => 'Enforcer Multi-Cannon (Fixed, Powerplay)',
 
+          1281  => 'Advanced Multi-cannon (Fixed)',
+          1282  => 'Advanced Multi-cannon (Fixed)',
+
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 'Plasma Accelerator (Fixed)',
           1303  => 'Plasma Accelerator (Fixed)',
@@ -922,8 +925,8 @@ class Type extends Alias
           4034  => 'Corrosion Resistant Cargo Rack',
 
         // Optional Internal > Standard Docking Computer
-          4051  => 'Standard Docking Computer', //TODO: Check ingame
-          4052  => 'Docking Computer',
+          4051  => 'Standard Docking Computer',
+          4052  => 'Advanced Docking Computer',
           4053  => 'Supercruise Assist',
 
         // Optional Internal > Shield Generator
@@ -1857,6 +1860,9 @@ class Type extends Alias
         'hpt_multicannon_turret_huge'                   => 1262,
 
         'hpt_multicannon_fixed_small_strong'            => 1271,
+
+        'hpt_multicannon_fixed_small_advanced'          => 1281,
+        'hpt_multicannon_fixed_medium_advanced'         => 1282,
 
         // Weapon Hardpoint > Plasma Accelerator
         'hpt_plasmaaccelerator_fixed_medium'            => 1302,

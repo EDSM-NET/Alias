@@ -702,6 +702,7 @@ class Integrity extends Alias
 
         // Optional Internal > Standard Docking Computer
           4051  => null,
+          4053  => 10,
 
         // Optional Internal > Shield Generator
           4101  => null,

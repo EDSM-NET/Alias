@@ -817,6 +817,22 @@ class Badge extends Alias
             'fontSize'          => 21,
         ],
 
+        64301   => [
+            'name'              => 'HOT-Vacation',
+            'customText'        => 'HOT-Vacation' . PHP_EOL . PHP_EOL . PHP_EOL . PHP_EOL . PHP_EOL . 'We\'ve gone on Holiday by Accident',
+            'description'       => 'I helped evacute the population of Exigus',
+            'active'            => true,
+            'manual'            => true,
+            'hidden'            => true,
+
+            'layout'            => 4,
+            'innerColor'        => [64, 208, 208],
+            'outerColor'        => [30, 30, 30],
+
+            'verticalOffset'    => 325,
+            'fontSize'          => 20,
+        ],
+
 
         /**
          *  Posthum badge (LAST))

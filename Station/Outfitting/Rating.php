@@ -390,6 +390,9 @@ class Rating extends Alias
 
           1271  => 'F',
 
+          1281  => 'F',
+          1282  => 'E',
+
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 'C',
           1303  => 'B',
@@ -909,7 +912,7 @@ class Rating extends Alias
 
         // Optional Internal > Standard Docking Computer
           4051  => 'E',
-          4052  => 'E', //TODO: Check ingame
+          4052  => 'E',
           4053  => 'E',
 
         // Optional Internal > Shield Generator

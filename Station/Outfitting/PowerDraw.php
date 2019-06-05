@@ -209,7 +209,7 @@ class PowerDraw extends Alias
 
         // Weapon Hardpoint > Mine Launcher
           1451  => 0.4,
-          1452  => 1.63,
+          1452  => 0.4,
 
         // Weapon Hardpoint > Mining Laser
           1501  => 0.5,
@@ -624,6 +624,8 @@ class PowerDraw extends Alias
 
         // Optional Internal > Standard Docking Computer
           4051  => 0.39,
+          4052  => 0.45,
+          4053  => 0.3,
 
         // Optional Internal > Shield Generator
           4102  => 0.96,

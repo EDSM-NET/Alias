@@ -903,6 +903,8 @@ class Mass extends Alias
 
         // Optional Internal > Standard Docking Computer
           4051  => 0,
+          4052  => 0,
+          4053  => 0,
 
         // Optional Internal > Shield Generator
           4102  => 0.5,
