@@ -134,6 +134,9 @@ class RateOfFire extends Alias
 
           1271  => 4.347826,
 
+          1281  => 7.692308,
+          1282  => 7.142857,
+
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 0.330033,
           1303  => 0.289855,

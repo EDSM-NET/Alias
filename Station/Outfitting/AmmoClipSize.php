@@ -77,6 +77,8 @@ class AmmoClipSize extends Alias
 
           1271  => 60,
 
+          1282  => 100,
+
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 5,
           1303  => 5,

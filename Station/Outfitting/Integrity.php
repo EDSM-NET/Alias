@@ -170,6 +170,9 @@ class Integrity extends Alias
 
           1271  => 40,
 
+          1281  => 40,
+          1282  => 51,
+
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 51,
           1303  => 64,
@@ -576,7 +579,7 @@ class Integrity extends Alias
 
           3539  => null,
 
-          3541  => null,
+          3541  => 86,
           3542  => 77,
           3543  => 96,
           3544  => 115,
@@ -778,7 +781,7 @@ class Integrity extends Alias
 
           4211  => 41,
           4212  => 31,
-          4213  => null,
+          4213  => 51,
           4214  => 71,
           4215  => 61,
 
@@ -820,13 +823,13 @@ class Integrity extends Alias
 
         // Optional Internal > Fuel Scoop
           4301  => 32,
-          4302  => null,
+          4302  => 24,
           4303  => null,
           4304  => 56,
           4305  => 48,
 
           4311  => 41,
-          4312  => null,
+          4312  => 31,
           4313  => 51,
           4314  => null,
           4315  => 61,
@@ -868,14 +871,14 @@ class Integrity extends Alias
           4375  => 180,
 
         // Optional Internal > Refinery
-          4401  => null,
+          4401  => 32,
           4402  => null,
           4403  => null,
           4404  => null,
-          4405  => null,
+          4405  => 48,
 
           4411  => null,
-          4412  => null,
+          4412  => 31,
           4413  => 51,
           4414  => 71,
           4415  => 61,
@@ -945,7 +948,7 @@ class Integrity extends Alias
         // Optional Internal > Auto Field-Maintenance Unit
           4701  => 32,
           4702  => 24,
-          4703  => null,
+          4703  => 40,
           4704  => 56,
           4705  => 46,
 

@@ -175,6 +175,9 @@ class PowerDraw extends Alias
 
           1271  => 0.28,
 
+          1281  => 0.28,
+          1282  => 0.46,
+
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 1.43,
           1303  => 1.97,
@@ -967,7 +970,7 @@ class PowerDraw extends Alias
           5141  => 0.4,
           5142  => 0.3,
           5143  => 0.5,
-          5144  => 0.97,
+          5144  => 0.72,
           5145  => 0.6,
 
           5161  => 0.55,

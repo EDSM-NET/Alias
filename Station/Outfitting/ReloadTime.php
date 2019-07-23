@@ -85,6 +85,9 @@ class ReloadTime extends Alias
 
           1271  => 4,
 
+          1281  => 4,
+          1282  => 4,
+
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 6,
           1303  => 6,

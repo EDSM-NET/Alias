@@ -91,6 +91,9 @@ class ShotSpeed extends Alias
 
           1271  => 1800,
 
+          1281  => 1600,
+          1282  => 1600,
+
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 875,
           1303  => 875,

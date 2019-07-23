@@ -136,6 +136,9 @@ class ArmourPenetration extends Alias
 
           1271  => 30,
 
+          1281  => 22,
+          1282  => 37,
+
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 100,
           1303  => 100,

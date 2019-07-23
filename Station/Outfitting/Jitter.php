@@ -127,6 +127,9 @@ class Jitter extends Alias
 
           1271  => 0,
 
+          1281  => 0,
+          1282  => 0,
+
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 0,
           1303  => 0,

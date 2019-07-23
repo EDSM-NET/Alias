@@ -84,6 +84,9 @@ class AmmoMaximum extends Alias
 
           1271  => 1000,
 
+          1281  => 2100,
+          1282  => 2100,
+
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 100,
           1303  => 100,

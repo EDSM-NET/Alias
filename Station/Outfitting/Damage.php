@@ -131,6 +131,9 @@ class Damage extends Alias
 
           1271  => 2.85,
 
+          1281  => 1.12,
+          1282  => 2.19,
+
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 54.299999,
           1303  => 83.400002,

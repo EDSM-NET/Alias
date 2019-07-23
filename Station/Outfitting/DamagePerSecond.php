@@ -133,6 +133,9 @@ class DamagePerSecond extends Alias
 
           1271  => 12.391304,
 
+          1281  => 8.615385,
+          1282  => 15.642858,
+
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 17.920792,
           1303  => 24.173912,

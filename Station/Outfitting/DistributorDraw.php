@@ -135,6 +135,9 @@ class DistributorDraw extends Alias
 
           1271  => 0.12,
 
+          1281  => 0.06,
+          1282  => 0.11,
+
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 8.65,
           1303  => 13.6,

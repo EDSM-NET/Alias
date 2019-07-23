@@ -137,6 +137,9 @@ class ThermalLoad extends Alias
 
           1271  => 0.18,
 
+          1281  => 0.09,
+          1282  => 0.18,
+
         // Weapon Hardpoint > Plasma Accelerator
           1302  => 15.58,
           1303  => 21.75,
@@ -163,7 +166,7 @@ class ThermalLoad extends Alias
 
         // Weapon Hardpoint > Mine Launcher
           1451  => 5,
-          1452  => 11,
+          1452  => 7.5,
 
         // Weapon Hardpoint > Torpedo Pylon
           1551  => 45,
