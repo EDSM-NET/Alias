@@ -184,6 +184,13 @@ class PaintJob extends Alias
             'typex_military_militaire_forest_green'         => 'Military Marine Blue',
             'typex_military_militaire_sand'                 => 'Military Sand',
 
+            'typex_operator_blue'                           => 'Operator Blue ',
+            'typex_operator_green'                          => 'Operator Green',
+            'typex_operator_gold'                           => 'Operator Gold',
+            'typex_operator_teal'                           => 'Operator Teal',
+            'typex_operator_red'                            => 'Operator Red',
+            'typex_operator_pink'                           => 'Operator Pink',
+
             'typex_military_tactical_blue'                  => 'Tactical Cobalt',
             'typex_military_tactical_brown'                 => 'Tactical Khaki',
             'typex_military_tactical_green'                 => 'Tactical Olive',
@@ -321,6 +328,13 @@ class PaintJob extends Alias
             'anaconda_militaire_forest_green'               => 'Military Marine Blue',
             'anaconda_militaire_sand'                       => 'Military Sand',
 
+            'anaconda_operator_blue'                        => 'Operator Blue ',
+            'anaconda_operator_green'                       => 'Operator Green',
+            'anaconda_operator_gold'                        => 'Operator Gold',
+            'anaconda_operator_teal'                        => 'Operator Teal',
+            'anaconda_operator_red'                         => 'Operator Red',
+            'anaconda_operator_pink'                        => 'Operator Pink',
+
             'anaconda_pax_east_pax_east'                    => 'PAX East',
             'anaconda_pax_west_pax_west'                    => 'PAX West',
 
@@ -422,6 +436,13 @@ class PaintJob extends Alias
 
             'asp_pax_east_pax_east'                         => 'PAX East',
             'asp_pax_west_pax_west'                         => 'PAX West',
+
+            'asp_salvage_01'                                => 'Salvage Red',
+            'asp_salvage_02'                                => 'Salvage Green',
+            'asp_salvage_03'                                => 'Salvage White',
+            'asp_salvage_04'                                => 'Salvage Blue',
+            'asp_salvage_05'                                => 'Salvage Orange',
+            'asp_salvage_06'                                => 'Salvage Black',
 
             'asp_squadron_black'                            => 'Squadron Shadow',
             'asp_squadron_blue'                             => 'Squadron Blue',
@@ -1164,6 +1185,13 @@ class PaintJob extends Alias
             'federation_corvette_militaire_forest_green'    => 'Military Marine Blue',
             'federation_corvette_militaire_sand'            => 'Military Sand',
 
+            'federation_corvette_operator_blue'             => 'Operator Blue',
+            'federation_corvette_operator_green'            => 'Operator Green',
+            'federation_corvette_operator_red'              => 'Operator Red',
+            'federation_corvette_operator_pink'             => 'Operator Pink',
+            'federation_corvette_operator_gold'             => 'Operator Gold',
+            'federation_corvette_operator_teal'             => 'Operator Teal',
+
             'federation_corvette_predator_red'              => 'Predator Red',
             'federation_corvette_predator_green'            => 'Predator Green',
             'federation_corvette_predator_teal'             => 'Predator Teal',
@@ -1290,6 +1318,13 @@ class PaintJob extends Alias
             'federation_gunship_militarystripe_purple'      => 'Military Stripe Purple',
             'federation_gunship_militarystripe_red'         => 'Military Stripe Red',
             'federation_gunship_militarystripe_yellow'      => 'Military Stripe Yellow',
+
+            'federation_gunship_operator_blue'              => 'Operator Blue',
+            'federation_gunship_operator_green'             => 'Operator Green',
+            'federation_gunship_operator_red'               => 'Operator Red',
+            'federation_gunship_operator_pink'              => 'Operator Pink',
+            'federation_gunship_operator_gold'              => 'Operator Gold',
+            'federation_gunship_operator_teal'              => 'Operator Teal',
 
             'federation_gunship_tactical_blue'              => 'Tactical Cobalt',
             'federation_gunship_tactical_brown'             => 'Tactical Khaki',
@@ -1676,6 +1711,13 @@ class PaintJob extends Alias
             'independant_trader_metallic2_chrome'           => 'Chromed',
             //'independant_trader_metallic_gold'              => 'Gold',
 
+            'independant_trader_mechanist_01'               => 'Mechanist Blue',
+            'independant_trader_mechanist_02'               => 'Mechanist Pink',
+            'independant_trader_mechanist_03'               => 'Mechanist Ash',
+            'independant_trader_mechanist_04'               => 'Mechanist Charcoal',
+            'independant_trader_mechanist_05'               => 'Mechanist Red',
+            'independant_trader_mechanist_06'               => 'Mechanist Yellow',
+
             'independant_trader_militaire_dark_green'       => 'Military Dark Green',
             'independant_trader_militaire_desert_sand'      => 'Military Desert Sand',
             'independant_trader_militaire_earth_red'        => 'Military Earth Red',
@@ -1745,6 +1787,13 @@ class PaintJob extends Alias
             'krait_mkii_militaire_forest_green'             => 'Military Marine Blue',
             'krait_mkii_militaire_sand'                     => 'Military Sand',
 
+            'krait_mkii_salvage_01'                         => 'Salvage Red',
+            'krait_mkii_salvage_02'                         => 'Salvage Green',
+            'krait_mkii_salvage_03'                         => 'Salvage White',
+            'krait_mkii_salvage_04'                         => 'Salvage Blue',
+            'krait_mkii_salvage_05'                         => 'Salvage Orange',
+            'krait_mkii_salvage_06'                         => 'Salvage Black',
+
             'krait_mkii_tactical_blue'                      => 'Tactical Cobalt',
             'krait_mkii_tactical_brown'                     => 'Tactical Khaki',
             'krait_mkii_tactical_green'                     => 'Tactical Olive',
@@ -1794,6 +1843,13 @@ class PaintJob extends Alias
             'krait_light_gradient2_lime'                    => 'Predator Lime',
             'krait_light_gradient2_blue'                    => 'Predator Blue',
 
+            'krait_light_salvage_01'                        => 'Salvage Red',
+            'krait_light_salvage_02'                        => 'Salvage Green',
+            'krait_light_salvage_03'                        => 'Salvage White',
+            'krait_light_salvage_04'                        => 'Salvage Blue',
+            'krait_light_salvage_05'                        => 'Salvage Orange',
+            'krait_light_salvage_06'                        => 'Salvage Black',
+
             'krait_light_trims_blueorange'                  => 'Precision Blue',
             'krait_light_trims_greygreen'                   => 'Precision Grey',
             'krait_light_trims_blackmagenta'                => 'Precision Black',
@@ -1835,6 +1891,13 @@ class PaintJob extends Alias
             'mamba_militaire_earth_yellow'                  => 'Military Earth Yellow',
             'mamba_militaire_forest_green'                  => 'Military Marine Blue',
             'mamba_militaire_sand'                          => 'Military Sand',
+
+            'mamba_operator_blue'                           => 'Operator Blue',
+            'mamba_operator_green'                          => 'Operator Green',
+            'mamba_operator_red'                            => 'Operator Red',
+            'mamba_operator_pink'                           => 'Operator Pink',
+            'mamba_operator_gold'                           => 'Operator Gold',
+            'mamba_operator_teal'                           => 'Operator Teal',
 
             'mamba_gradient2_red'                           => 'Predator Red',
             'mamba_gradient2_green'                         => 'Predator Green',
@@ -2018,6 +2081,13 @@ class PaintJob extends Alias
 
             'python_pax_east_pax_east'                      => 'PAX East',
 
+            'python_salvage_01'                             => 'Salvage Red',
+            'python_salvage_02'                             => 'Salvage Green',
+            'python_salvage_03'                             => 'Salvage White',
+            'python_salvage_04'                             => 'Salvage Blue',
+            'python_salvage_05'                             => 'Salvage Orange',
+            'python_salvage_06'                             => 'Salvage Black',
+
             'python_squadron_black'                         => 'Squadron Shadow',
             'python_squadron_blue'                          => 'Squadron Blue',
             'python_squadron_gold'                          => 'Squadron Black',
@@ -2145,6 +2215,13 @@ class PaintJob extends Alias
             //'type6_metallic_gold'                           => 'Gold',
             'type6_metallic2_gold'                          => 'Golden',
 
+            'type6_mechanist_01'                            => 'Mechanist Blue',
+            'type6_mechanist_02'                            => 'Mechanist Pink',
+            'type6_mechanist_03'                            => 'Mechanist Ash',
+            'type6_mechanist_04'                            => 'Mechanist Charcoal',
+            'type6_mechanist_05'                            => 'Mechanist Red',
+            'type6_mechanist_06'                            => 'Mechanist Yellow',
+
             'type6_militaire_dark_green'                    => 'Military Dark Green',
             'type6_militaire_desert_sand'                   => 'Military Desert Sand',
             'type6_militaire_earth_red'                     => 'Military Earth Red',
@@ -2211,6 +2288,13 @@ class PaintJob extends Alias
             //'type9_metallic_chrome'                         => 'Chrome',
             //'type9_metallic_gold'                           => 'Gold',
             'type9_metallic2_gold'                          => 'Golden',
+
+            'type9_mechanist_01'                            => 'Mechanist Blue',
+            'type9_mechanist_02'                            => 'Mechanist Pink',
+            'type9_mechanist_03'                            => 'Mechanist Ash',
+            'type9_mechanist_04'                            => 'Mechanist Charcoal',
+            'type9_mechanist_05'                            => 'Mechanist Red',
+            'type9_mechanist_06'                            => 'Mechanist Yellow',
 
             'type9_militaire_dark_green'                    => 'Military Dark Green',
             'type9_militaire_desert_sand'                   => 'Military Desert Sand',
@@ -2291,6 +2375,13 @@ class PaintJob extends Alias
             'type9_military_militarystripe_purple'          => 'Military Stripe Purple',
             'type9_military_militarystripe_red'             => 'Military Stripe Red',
             'type9_military_militarystripe_yellow'          => 'Military Stripe Yellow',
+
+            'type9_military_operator_blue'                  => 'Operator Blue',
+            'type9_military_operator_green'                 => 'Operator Green',
+            'type9_military_operator_red'                   => 'Operator Red',
+            'type9_military_operator_pink'                  => 'Operator Pink',
+            'type9_military_operator_gold'                  => 'Operator Gold',
+            'type9_military_operator_teal'                  => 'Operator Teal',
 
             'type9_military_squadron_black'                 => 'Squadron Black',
             'type9_military_squadron_blue'                  => 'Squadron Blue',
