@@ -7960,6 +7960,11 @@ class Name extends ProcGen
         // Athaip QP-E d12-9178 #1045982
         1045982     => [
             'Jasmine\'s Playground'             => 'Athaip QP-E d12-9178 6',
+        ],
+
+        // Toluku #9590
+        8284946     => [
+            'LILITH'             => 'Toluku AB 4 a',
         ]
     ];
 }
