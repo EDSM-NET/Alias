@@ -925,5 +925,18 @@ class Available extends Alias
             30502   => [1, 2, 3,     ],         // Long range
             30503   => [1, 2, 3,     ],         // Wide angle
         ],
+
+        // Chloe Sedesi
+        26      => [
+            // CORE INTERNAL - Frame Shift Drive
+            30101   => [1, 2, 3,     ],         // Faster boot sequence
+            30102   => [1, 2, 3,     ],         // Increased range
+            30103   => [1, 2, 3,     ],         // Shielded
+
+            // CORE INTERNAL - Thrusters
+            30601   => [1, 2, 3, 4, 5],         // Clean
+            30602   => [1, 2, 3, 4, 5],         // Dirty
+            30603   => [1, 2, 3, 4, 5],         // Reinforced
+        ],
     ];
 }

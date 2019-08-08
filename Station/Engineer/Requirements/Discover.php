@@ -69,7 +69,7 @@ class Discover extends Alias
 
         // Bill Turner
         19      => [
-            
+
         ],
 
         // Tiana Fortune
@@ -86,5 +86,8 @@ class Discover extends Alias
 
         // Etienne Dorn
         24      => null,
+
+        // Chloe Sedesi
+        26      => null,
     ];
 }

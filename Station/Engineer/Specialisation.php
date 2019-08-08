@@ -47,7 +47,7 @@ class Specialisation extends Alias
         ],
          9                              => [
             'Shield boosters',
-            'Shield generators', 
+            'Shield generators',
         ],
         10                              => [
             'Power distributors',
@@ -116,6 +116,10 @@ class Specialisation extends Alias
             'Scanners',
             'Ship power systems',
             'Life support',
+        ],
+        26                              => [
+            'Engines and thrusters',
+            'Frame shift drives',
         ],
     ];
 }

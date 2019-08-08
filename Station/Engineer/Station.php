@@ -20,7 +20,7 @@ class Station extends Alias
          5      => 26,              // Selene Jean
          6      => 10,              // Felicity Farseer
          7      => 213,             // Marco Qwent
-         8      => 175,             // Professor Palin
+         8      => 10484,             // Professor Palin
          9      => 152,             // Didi Vatermann
         10      => 794,             // The Dweller
         11      => 266,             // Colonel Bris Dekker
@@ -37,5 +37,7 @@ class Station extends Alias
         22      => 63766,           // Marsha Hicks
         23      => 63770,           // Mel Brandon
         24      => 63767,           // Etienne Dorn
+        //25      => 63767,           // Trin Falcour
+        26      => 64069,           // Chloe Sedesi
     ];
 }

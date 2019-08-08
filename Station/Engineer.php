@@ -40,6 +40,7 @@ class Engineer extends Alias
         23                              => 'Mel Brandon',
         24                              => 'Etienne Dorn',
         25                              => 'Trin Falcour',
+        26                              => 'Chloe Sedesi',
     ];
 
     /**
@@ -124,5 +125,8 @@ class Engineer extends Alias
 
         'trin falcour'                  => 25,
         300070                          => 25,
+
+        'chloe sedesi'                  => 26,
+        300300                          => 26,
     ];
 }

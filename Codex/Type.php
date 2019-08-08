@@ -83,6 +83,8 @@ class Type extends Alias
             11204                       => 'DO Type Star',
             11205                       => 'DOV Type Star',
             11206                       => 'DQ Type Star',
+            11207                       => 'DC Type Star',
+            11208                       => 'DCV Type Star',
         11221                       => 'Neutron Star',
         11231                       => 'Black Hole',
         11241                       => 'Supermassive Black Hole',
@@ -91,20 +93,21 @@ class Type extends Alias
 
         12010                       => 'Water Giant planet',
             12011                       => 'Standard Gas Giant',
+            12012                       => 'Green Gas Giant',
         12030                       => 'Gas giant planet with water-based life',
             12031                       => 'Standard Gas Giant',
-            12032                       => 'Green gas giant',
+            12032                       => 'Green Gas Giant',
         12050                       => 'Gas giant planet with ammonia-based life',
             12051                       => 'Standard Gas Giant',
         12070                       => 'Class I gas giant planet',
             12071                       => 'Standard Gas Giant',
-            12072                       => 'Green gas giant',
+            12072                       => 'Green Gas Giant',
         12090                       => 'Class II gas giant planet',
             12091                       => 'Standard Gas Giant',
-            12092                       => 'Green gas giant',
+            12092                       => 'Green Gas Giant',
         12110                       => 'Class III gas giant planet',
             12111                       => 'Standard Gas Giant',
-            12112                       => 'Green gas giant',
+            12112                       => 'Green Gas Giant',
         12130                       => 'Class IV gas giant planet',
             12131                       => 'Standard Gas Giant',
         12150                       => 'Class V gas giant planet',
@@ -195,10 +198,12 @@ class Type extends Alias
             21143                       => 'Croceum Lagrange Storm Cloud',
         21150                       => 'P-Type Anomalies',
             21151                       => 'P01-Type Anomaly',
+            21152                       => 'P02-Type Anomaly',
             21153                       => 'P03-Type Anomaly',
             21154                       => 'P04-Type Anomaly',
             21155                       => 'P05-Type Anomaly',
             21157                       => 'P07-Type Anomaly',
+            21159                       => 'P09-Type Anomaly',
             21161                       => 'P11-Type Anomaly',
             21162                       => 'P12-Type Anomaly',
             21163                       => 'P13-Type Anomaly',
@@ -228,6 +233,7 @@ class Type extends Alias
             21218                       => 'K08-Type Anomaly',
             21220                       => 'K10-Type Anomaly',
             21222                       => 'K12-Type Anomaly',
+            21223                       => 'K13-Type Anomaly',
         21230                       => 'T-Type Anomalies',
             21231                       => 'T01-Type Anomaly',
             21232                       => 'T02-Type Anomaly',
@@ -377,6 +383,7 @@ class Type extends Alias
             22615                       => 'Roseum Squid Mollusc',
         22630                       => 'Chalice Pods',
             22631                       => 'Albidum Chalice Pod',
+            22634                       => 'Ostrinum Chalice Pod',
         22651                       => 'Stolon Tree',
         22671                       => 'Stolon Pod',
         22690                       => 'Aster Pods',
@@ -509,6 +516,8 @@ class Type extends Alias
         'codex_ent_do_type'                                 => 11204,
         'codex_ent_dov_type'                                => 11205,
         'codex_ent_dq_type'                                 => 11206,
+        'codex_ent_dc_type'                                 => 11207,
+        'codex_ent_dcv_type'                                => 11208,
 
         'codex_ent_neutron_stars'                           => 11221,
 
@@ -519,6 +528,7 @@ class Type extends Alias
 
 
         'codex_ent_standard_water_giant'                    => 12011,
+        'codex_ent_green_water_giant'                       => 12012,
 
         'codex_ent_standard_giant_with_water_life'          => 12031,
         'codex_ent_green_giant_with_water_life'             => 12032,
@@ -546,6 +556,7 @@ class Type extends Alias
         'codex_ent_earth_likes'                             => 13011,
 
         'codex_ent_standard_ammonia_worlds'                 => 13021,
+        'codex_ent_trf_ammonia_worlds'                      => 13022,
 
         'codex_ent_standard_water_worlds'                   => 13031,
         'codex_ent_trf_water_worlds'                        => 13032,
@@ -621,10 +632,12 @@ class Type extends Alias
         'codex_ent_gas_clds_yellow_storm'                   => 21143,
 
         'codex_ent_l_phn_part_eng_002'                      => 21151,
+        'codex_ent_l_phn_part_eng_003'                      => 21152,
         'codex_ent_l_phn_part_eng_004'                      => 21153,
         'codex_ent_l_phn_part_eng_005'                      => 21154,
         'codex_ent_l_phn_part_eng_006'                      => 21155,
         'codex_ent_l_phn_part_eng_008'                      => 21157,
+        'codex_ent_l_phn_part_eng_010'                      => 21159,
         'codex_ent_l_phn_part_eng_012'                      => 21161,
         'codex_ent_l_phn_part_eng_013'                      => 21162,
         'codex_ent_l_phn_part_eng_014'                      => 21163,
@@ -654,6 +667,7 @@ class Type extends Alias
         'codex_ent_l_phn_part_cld_009'                      => 21218,
         'codex_ent_l_phn_part_cld_011'                      => 21220,
         'codex_ent_l_phn_part_cld_016'                      => 21222,
+        'codex_ent_l_phn_part_cld_017'                      => 21223,
 
         'codex_ent_l_phn_part_clus_001'                     => 21231,
         'codex_ent_l_phn_part_clus_002'                     => 21232,
@@ -807,6 +821,7 @@ class Type extends Alias
         'codex_ent_small_org_moll01_v3_pnk'                 => 22615,
 
         'codex_ent_s_seed_sdtp05_def'                       => 22631,
+        'codex_ent_s_seed_sdtp05_pur'                       => 22634,
 
         'codex_ent_l_seed_sdrt02_v3'                        => 22651,
 

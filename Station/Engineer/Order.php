@@ -30,7 +30,7 @@ class Order extends Alias
                 ],
             ],
         ],
-        
+
         [
             'parent'    => 12,  // Elvira Martuuk
             'children'  => [
@@ -44,6 +44,9 @@ class Order extends Alias
                         [
                             'parent'    => 13,  // Lori Jameson
                         ],
+                        [
+                            'parent'    => 26,  // Chloe Sedesi
+                        ],
                     ],
                 ],
                 [
@@ -54,7 +57,7 @@ class Order extends Alias
                 ],
             ],
         ],
-        
+
         [
             'parent'    => 10,  // The Dweller
             'children'  => [
@@ -71,7 +74,7 @@ class Order extends Alias
                 ],
             ],
         ],
-        
+
         [
             'parent'    => 4,   // Tod 'The Blaster' McQuinn
             'children'  => [
@@ -92,7 +95,7 @@ class Order extends Alias
                 ],
             ],
         ],
-        
+
         [
             'parent'    => 2,   // Liz Ryder
             'children'  => [
