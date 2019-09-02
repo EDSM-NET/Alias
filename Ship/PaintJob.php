@@ -1752,7 +1752,7 @@ class PaintJob extends Alias
             'krait_mkii_corrosive_04'                       => 'Corroded 4',
             'krait_mkii_corrosive_05'                       => 'Corroded 5',
             'krait_mkii_corrosive_06'                       => 'Corroded 6',
-
+            'krait_mkii_lavecon_lavecon'                    => 'Lavecon',
             'krait_mkii_frontierspecial_frontierspecial'    => 'Frontier Special',
             'krait_mkii_specialeffectchristmas_01'          => 'Special Effect Christmas',
             'krait_mkii_pcgamer_pcgamer'                    => 'PC Gamer',
@@ -1823,7 +1823,7 @@ class PaintJob extends Alias
             'krait_light_blackfriday_01'                    => 'Midnight Black',
 
             'krait_light_metallic2_gold'                    => 'Golden',
-
+            'krait_light_lavecon_lavecon'                   => 'Lavecon',
             'krait_light_iridescenthighcolour_01'           => 'Iridescent Scorch',
             'krait_light_iridescenthighcolour_04'           => 'Iridescent Dusk',
             'krait_light_iridescenthighcolour_05'           => 'Iridescent Aurora',
@@ -1879,7 +1879,7 @@ class PaintJob extends Alias
             'mamba_blackfriday_01'                          => 'Midnight Black',
 
             'mamba_metallic2_gold'                          => 'Golden',
-
+            'mamba_lavecon_lavecon'                         => 'Lavecon',
             'mamba_iridescenthighcolour_01'                 => 'Iridescent Scorch',
             'mamba_iridescenthighcolour_04'                 => 'Iridescent Dusk',
             'mamba_iridescenthighcolour_05'                 => 'Iridescent Aurora',
