@@ -426,6 +426,9 @@ class Type extends Alias
 
           1411  => 'Rocket Propelled FSD Disruptor (Dumpfire, Fixed, Powerplay)',
 
+          1412  => 'ADV Missile Rack',
+          1413  => 'ADV Missile Rack',
+
         // Weapon Hardpoint > Mine Launcher
           1451  => 'Mine Launcher (Fixed)',
           1452  => 'Mine Launcher (Fixed)',
@@ -1896,6 +1899,9 @@ class Type extends Alias
         'hpt_dumbfiremissilerack_fixed_large'           => 1407,
 
         'hpt_dumbfiremissilerack_fixed_medium_lasso'    => 1411,
+
+        'hpt_dumbfiremissilerack_fixed_small_advanced'  => 1413,
+        'hpt_dumbfiremissilerack_fixed_medium_advanced' => 1412,
 
         // Weapon Hardpoint > Mine Launcher
         'hpt_minelauncher_fixed_small'                  => 1451,

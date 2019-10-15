@@ -425,6 +425,9 @@ class Classes extends Alias
 
           1411  => 2,
 
+          1412  => 2,
+          1413  => 1,
+
         // Weapon Hardpoint > Mine Launcher
           1451  => 1,
           1452  => 2,

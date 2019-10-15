@@ -73,6 +73,7 @@ class Service extends Alias
         'searchandrescue'       => 45,
 
         'stationmenu'           => 51,
+        'shop'                  => 52,
 
         'techbroker'            => 70,
         'materialtrader'        => 71,
