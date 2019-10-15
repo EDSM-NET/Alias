@@ -333,7 +333,7 @@ class Type extends Alias
         1302        => 'Chemical Waste',
         1303        => 'Scrap',
         1304        => 'Toxic Waste',
-        1305        => 'Rockforth Fertiliser',
+        1305        => 'Rockforth Fertiliser', // Chemicals, oops!
 
 
         // Weapons (14)
