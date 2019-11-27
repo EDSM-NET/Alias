@@ -29,7 +29,18 @@ class State extends Alias
         12                      => 'War',
         13                      => 'Civil liberty',
         14                      => 'Pirate attack',
-        15                      => 'Blight',
+        15                      => 'Drought',
+        16                      => 'Colonisation',
+        17                      => 'Revolution',
+        18                      => 'Cold War',
+        19                      => 'Technological Leap',
+        20                      => 'Trade War',
+        21                      => 'Terrorist Attack',
+        22                      => 'Historic Event',
+        23                      => 'Infrastructure Failure',
+        24                      => 'Public Holiday',
+        25                      => 'Natural Disaster',
+        26                      => 'Blight',
     ];
 
     /**
@@ -57,5 +68,16 @@ class State extends Alias
         'civilliberty'          => 13,
         'pirateattack'          => 14,
         'drought'               => 15,
+        'colonisation'          => 16,
+        'revolution'            => 17,
+        'coldwar'               => 18,
+        'technologicalleap'     => 19,
+        'tradewar'              => 20,
+        'terrorism'             => 21,
+        'historicevent'         => 22,
+        'infrastructurefailure' => 23,
+        'publicholiday'         => 24,
+        'naturaldisaster'       => 25,
+        'blight'                => 26,
     ];
 }
