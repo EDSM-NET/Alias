@@ -271,6 +271,13 @@ class Type extends Alias
             22118                       => 'Roseum Bioluminescent Anemone',
         22130                       => 'Sinuous Tubers',
             22131                       => 'Roseum Sinuous Tubers',
+            22132                       => 'Prasinum Sinuous Tubers',
+            22133                       => 'Albidum Sinuous Tubers',
+            22134                       => 'Caeruleum Sinuous Tubers',
+            22135                       => 'Blatteum Sinuous Tubers',
+            22136                       => 'Lindigoticum Sinuous Tubers',
+            22137                       => 'Violaceum Sinuous Tubers',
+            22138                       => 'Viride Sinuous Tubers',
         22150                       => 'Metallic Crystals',
             22151                       => 'Prasinum Metallic Crystals',
             22152                       => 'Purpureum Metallic Crystals',
@@ -338,7 +345,9 @@ class Type extends Alias
             22393                       => 'Viride Reel Mollusc',
         22410                       => 'Octahedral Pods',
             22411                       => 'Niveus Octahedral Pod',
+            22412                       => 'Caeruleum Octahedral Pod',
             22413                       => 'Viride Octahedral Pod',
+            22415                       => 'Rubeum Octahedral Pod',
         22430                       => 'Void Hearts',
             22431                       => 'Chryseum Void Heart',
         22450                       => 'Parasol Molluscs',
@@ -399,7 +408,6 @@ class Type extends Alias
         22730                       => 'Torus Molluscs',
             22732                       => 'Caeruleum Torus Mollusc',
             22735                       => 'Rubellum Torus Mollusc',
-
 
 
         31010                       => 'Thargoid Interceptor',
@@ -707,6 +715,13 @@ class Type extends Alias
         'codex_ent_sphereefgh_03'                           => 22118,
 
         'codex_ent_tube'                                    => 22131,
+        'codex_ent_tubeabcd_01'                             => 22132,
+        'codex_ent_tubeabcd_02'                             => 22133,
+        'codex_ent_tubeabcd_03'                             => 22134,
+        'codex_ent_tubeefgh'                                => 22135,
+        'codex_ent_tubeefgh_01'                             => 22136,
+        'codex_ent_tubeefgh_02'                             => 22137,
+        'codex_ent_tubeefgh_03'                             => 22138,
 
         'codex_ent_l_cry_metcry_gr'                         => 22151,
         'codex_ent_l_cry_metcry_pur'                        => 22152,
@@ -776,7 +791,9 @@ class Type extends Alias
         'codex_ent_l_org_moll03_v6_earth'                   => 22393,
 
         'codex_ent_s_seed_sdtp03_def'                       => 22411,
+        'codex_ent_s_seed_sdtp03_bl'                        => 22412,
         'codex_ent_s_seed_sdtp03_gr'                        => 22413,
+        'codex_ent_s_seed_sdtp03_red'                       => 22415,
 
         'codex_ent_spoi_seedweed01_v1'                      => 22431,
 

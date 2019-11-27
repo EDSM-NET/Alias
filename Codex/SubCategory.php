@@ -139,7 +139,7 @@ class SubCategory extends Alias
 
             22091,                                                                          // Bark Mounds
             22110   => [22111, 22112, 22113, 22114, 22115, 22116, 22117, 22118],            // Anemones
-            22130   => [22131],                                                             // Sinuous Tubers
+            22130   => [22131, 22132, 22133, 22134, 22135, 22136, 22137, 22138],            // Sinuous Tubers
             22311,                                                                          // Amphora Plants
 
             22210   => [22211, 22212, 22213, 22214, 22215, 22216, 22217],                   // Ice Crystals
@@ -152,7 +152,7 @@ class SubCategory extends Alias
             22630   => [22631, 22634],                                                      // Chalice Pods
             22170   => [22171, 22172, 22173, 22174],                                        // Collared Pods
             22590   => [22592],                                                             // Gyre Pods
-            22410   => [22411, 22413],                                                      // Octahedral Pods
+            22410   => [22411, 22412, 22413, 22415],                                        // Octahedral Pods
             22270   => [22271, 22272, 22273, 22274, 22275],                                 // Peduncle Pods
             22530   => [22531, 22532, 22533, 22534],                                        // Quadripartite Pods
             22510   => [22511, 22512, 22513, 22514, 22515],                                 // Rhizome Pods

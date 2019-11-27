@@ -31,6 +31,7 @@ class Traits extends Alias
         201                                 => 'Rapidly heats the surrounding space if approached.',
         202                                 => 'Interferes with ship systems and drains shields if approached.',
         203                                 => 'Releases destructive shockwaves if approached.',
+        204                                 => 'Releases destructive shockwaves if approached.',
         205                                 => 'Approaches, interferes with ship systems and drains shields.',
 
         250                                 => 'Retreats if attacked.',
@@ -93,6 +94,7 @@ class Traits extends Alias
         'p_l_aefect01'                      => 201,
         'p_l_aefect02'                      => 202,
         'p_l_aefect03'                      => 203,
+        'p_l_aefect04'                      => 204,
         'p_l_aefect05'                      => 205,
 
         'o_l_flee_attack'                   => 250, // Supposition?
