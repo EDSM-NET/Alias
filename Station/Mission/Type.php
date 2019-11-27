@@ -107,6 +107,7 @@ class Type extends Alias
          313                                => 'Surface Recovery of %commodityCount% %commodity% during Retreat',
          314                                => 'Surface Recovery of %commodityCount% %commodity% during Medical Emergency',
          315                                => 'Surface Retrieval of %commodityCount% %commodity% during Civil Unrest',
+         316                                => 'Surface Recovery of %commodityCount% %commodity% during Famine',
 
          401                                => 'Donate %commodityCount% units of %commodity%',
          402                                => 'Find %commodityCount% units of %commodity%',
@@ -195,6 +196,7 @@ class Type extends Alias
          754                                => 'Illegal %commodity% expansion salvage operation',
          755                                => '%commodity% salvage for the court',
          756                                => 'Illegal %commodity% Salvage Contract',
+         757                                => 'Illegal Rebel Transmissions Salvage Contract',
 
          781                                => 'Salvage %commodityCount% %commodity%',
 
@@ -234,6 +236,7 @@ class Type extends Alias
         1008                                => 'Put down the %targetFaction% %targetType%',
         1009                                => 'Engage and destroy the %targetFaction% %targetType%',
         1010                                => 'Destroy the %targetType% threat',
+        1011                                => 'Execute %targetFaction% %targetType%',
 
       101001                                => 'Massacre the %targetFaction% %targetType%',
       101002                                => 'Massacre the %targetFaction% ships',
@@ -374,6 +377,7 @@ class Type extends Alias
         1555                                => 'Famine acquisition contract',
         1556                                => 'War acquisition contract',
         1557                                => 'Outbreak acquisition contract',
+        1558                                => 'Withdrawal Acquisition Contract',
 
         1601                                => 'Alien items needed %commodityCount% units of %commodity%',
 
@@ -459,6 +463,7 @@ class Type extends Alias
 
         4501                                => 'Exploring The Galaxy',
         4502                                => 'Conflict Training Area',
+        4503                                => 'Liberate %commodityCount% %commodity%',
     ];
 
     /**
@@ -562,6 +567,7 @@ class Type extends Alias
         'mission_rescue_planet_retreat'                     => 313,
         'mission_rescue_planet_outbreak'                    => 314,
         'mission_rescue_planet_civilunrest'                 => 315,
+        'mission_rescue_planet_famine'                      => 316,
 
         'mission_altruism'                                  => 401,
         'mission_altruism_outbreak'                         => 402,
@@ -649,6 +655,7 @@ class Type extends Alias
         'mission_salvage_illegal_expansion'                 => 754,
         'mission_salvage_illegal_feudal'                    => 755,
         'mission_salvage_illegal_retreat'                   => 756,
+        'mission_salvage_illegal_famine'                    => 757,
 
         'mission_salvage_planet'                            => 781,
 
@@ -686,6 +693,7 @@ class Type extends Alias
         'mission_massacre_legal_civilunrest'                => 1008,
         'mission_massacre_legal_military'                   => 1009,
         'mission_massacrethargoid'                          => 1010,
+        'mission_massacre_legal_famine'                     => 1011,
 
         'mission_massacrewing'                              => 101001,
         'mission_massacrewing_conflict_war'                 => 101002,
@@ -821,6 +829,7 @@ class Type extends Alias
         'mission_piracy_blops_famine'                       => 1555,
         'mission_piracy_blops_war'                          => 1556,
         'mission_piracy_blops_outbreak'                     => 1557,
+        'mission_piracy_blops_retreat'                      => 1558,
 
         'mission_collect_palin'                             => 1601,
 
@@ -906,5 +915,6 @@ class Type extends Alias
 
         'mission_startzone_exit'                            => 4501,
         'mission_startzone_gotoconflictsystem'              => 4502,
+        'mission_startzone_rescue'                          => 4503,
     ];
 }
