@@ -111,6 +111,8 @@ class AmmoClipSize extends Alias
           1407  => 12,
 
           1411  => 12,
+          1412  => 12,
+          1413  => 8,
 
         // Weapon Hardpoint > Mine Launcher
           1451  => 1,

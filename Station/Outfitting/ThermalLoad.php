@@ -163,6 +163,8 @@ class ThermalLoad extends Alias
           1407  => 3.6,
 
           1411  => 3.6,
+          1412  => 3.6,
+          1413  => 3.6,
 
         // Weapon Hardpoint > Mine Launcher
           1451  => 5,

@@ -170,6 +170,8 @@ class ArmourPenetration extends Alias
           1407  => 60,
 
           1411  => 60,
+          1412  => 60,
+          1413  => 60,
 
         // Weapon Hardpoint > Mine Launcher
           1451  => 60,

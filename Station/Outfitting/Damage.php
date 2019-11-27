@@ -165,6 +165,8 @@ class Damage extends Alias
           1407  => 50,
 
           1411  => 40,
+          1412  => 50,
+          1413  => 50,
 
         // Weapon Hardpoint > Mine Launcher
           1451  => 44,

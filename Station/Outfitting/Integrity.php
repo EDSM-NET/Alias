@@ -204,6 +204,8 @@ class Integrity extends Alias
           1407  => 64,
 
           1411  => 51,
+          1412  => 51,
+          1413  => 40,
 
         // Weapon Hardpoint > Mine Launcher
           1451  => 40,
@@ -797,7 +799,7 @@ class Integrity extends Alias
           4234  => 112,
           4235  => 96,
 
-          4241  => null,
+          4241  => 77,
           4242  => 58,
           4243  => 96,
           4244  => 134,
@@ -824,7 +826,7 @@ class Integrity extends Alias
         // Optional Internal > Fuel Scoop
           4301  => 32,
           4302  => 24,
-          4303  => null,
+          4303  => 40,
           4304  => 56,
           4305  => 48,
 
@@ -873,8 +875,8 @@ class Integrity extends Alias
         // Optional Internal > Refinery
           4401  => 32,
           4402  => null,
-          4403  => null,
-          4404  => null,
+          4403  => 40,
+          4404  => 56,
           4405  => 48,
 
           4411  => null,
@@ -923,7 +925,7 @@ class Integrity extends Alias
         // Optional Internal > Hatch Breaker Limpet Controller
           4601  => 32,
           4602  => 24,
-          4603  => null,
+          4603  => 40,
           4604  => 56,
           4605  => 48,
 
@@ -966,7 +968,7 @@ class Integrity extends Alias
 
           4731  => 64,
           4732  => 48,
-          4733  => null,
+          4733  => 80,
           4734  => 112,
           4735  => 92,
 
@@ -988,7 +990,7 @@ class Integrity extends Alias
           4764  => 183,
           4765  => 151,
 
-          4771  => null,
+          4771  => 120,
           4772  => null,
           4773  => 150,
           4774  => 210,
@@ -1077,7 +1079,7 @@ class Integrity extends Alias
           5165  => 183,
 
         // Optional Internal > Prospector Limpet Controller
-          5201  => null,
+          5201  => 24,
           5202  => 32,
           5203  => 40,
           5204  => 48,

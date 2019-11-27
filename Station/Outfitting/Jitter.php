@@ -155,6 +155,8 @@ class Jitter extends Alias
           1407  => 0,
 
           1411  => 0,
+          1412  => 0,
+          1413  => 0,
 
         // Weapon Hardpoint > Mine Launcher
           1451  => 0,

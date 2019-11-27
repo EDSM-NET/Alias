@@ -119,6 +119,8 @@ class ReloadTime extends Alias
           1407  => 5,
 
           1411  => 5,
+          1412  => 5,
+          1413  => 5,
 
         // Weapon Hardpoint > Mine Launcher
           1451  => 2,

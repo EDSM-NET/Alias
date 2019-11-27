@@ -118,6 +118,8 @@ class AmmoMaximum extends Alias
           1407  => 96,
 
           1411  => 48,
+          1412  => 64,
+          1413  => 64,
 
         // Weapon Hardpoint > Mine Launcher
           1451  => 36,

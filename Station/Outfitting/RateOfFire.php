@@ -168,6 +168,8 @@ class RateOfFire extends Alias
           1407  => 0.5,
 
           1411  => 0.333333,
+          1412  => 0.5,
+          1413  => 0.5,
 
         // Weapon Hardpoint > Mine Launcher
           1451  => 1,

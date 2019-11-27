@@ -159,6 +159,8 @@ class DamagePerSecond extends Alias
           1407  => 25,
 
           1411  => 13.333334,
+          1412  => 25,
+          1413  => 25,
 
         // Weapon Hardpoint > Mine Launcher
           1451  => 44,

@@ -427,6 +427,8 @@ class Mass extends Alias
           1407  => 8,
 
           1411  => 4,
+          1412  => 4,
+          1413  => 2,
 
         // Weapon Hardpoint > Mine Launcher
           1451  => 2,

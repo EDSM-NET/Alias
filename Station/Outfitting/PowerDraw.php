@@ -209,6 +209,8 @@ class PowerDraw extends Alias
           1407  => 1.62,
 
           1411  => 1.2,
+          1412  => 1.2,
+          1413  => 0.4,
 
         // Weapon Hardpoint > Mine Launcher
           1451  => 0.4,
