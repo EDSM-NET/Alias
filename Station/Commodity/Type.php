@@ -107,6 +107,7 @@ class Type extends Alias
          333        => 'Onionhead Beta Strain',             /**/
          334        => 'Harma Silver Sea Rum',
          335        => 'Crom Silver Fesh',
+         336        => 'Apa Vietii',                        /**/
 
 
         // Foods (4)
@@ -591,6 +592,7 @@ class Type extends Alias
         'onionhead beta strain'                 => 333,     'onion head b'                  => 333,     'onionheadb'                    => 333,
         'harmasilversearum'                     => 334,
         'animaleffigies'                        => 335,
+        'apavietii'                             => 336,
 
 
         // Foods (4)
