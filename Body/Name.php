@@ -6559,7 +6559,7 @@ class Name extends ProcGen
          // WW Aurigae #871175
          871175      => [
                 "WW Aurigae"                      => "WW Aurigae A",
-            ""                                => "",
+                "WW Aurigae B"                    => "WW Aurigae B",
          ],
 
          // 53 Camelopardalis #914330
@@ -7133,7 +7133,7 @@ class Name extends ProcGen
          // HR 2285 #3685154
          3685154     => [
                 "HR 2285"                         => "HR 2285 A",
-            ""                                => "",
+                "BD+70 401B"                      => "HR 2285 B",
          ],
 
          // HT Virginis #3812800
@@ -7214,10 +7214,28 @@ class Name extends ProcGen
                 "Gl 32 B"                         => "Kamba B",
          ],
 
+         // HD 215227 #5168360
+         5168360     => [
+                "HD 215227"                       => "HD 215227 A",
+                "MWC 656"                         => "HD 215227 B",
+         ],
+
+         // V0701 Scorpii #5222938
+         5222938     => [
+                "V0701 Scorpii"                   => "V0701 Scorpii A",
+                "V0701 Scorpii B"                 => "V0701 Scorpii B",
+         ],
+
          // PSR J1905+0154B #5421463
          5421463     => [
                 "PSR J1905+0154B"                 => "PSR J1905+0154B A",
             ""                                => "",
+         ],
+
+         // HR 3231 #5460903
+         5460903     => [
+                "HR 3231"                         => "HR 3231 A",
+                "BD+13 1868B"                     => "HR 3231 B",
          ],
 
          // PSR J1904+0412 #5475134
@@ -7230,6 +7248,12 @@ class Name extends ProcGen
          5518196     => [
                 "RZ Tauri"                        => "RZ Tauri A",
                 "RZ Tauri B"                      => "RZ Tauri B",
+         ],
+
+         // DX Tucanae #5622012
+         5622012     => [
+                "DX Tucanae"                      => "DX Tucanae A",
+                "DX Tucanae B"                    => "DX Tucanae B",
          ],
 
          // BD-12 1805 #5643858
@@ -7281,6 +7305,12 @@ class Name extends ProcGen
          6037923     => [
                 "HN Eridani"                      => "HN Eridani A",
                 "HN Eridani B"                    => "HN Eridani B",
+         ],
+
+         // V2377 Ophiuchii #6052356
+         6052356     => [
+                "V2377 Ophiuchii"                 => "V2377 Ophiuchii A",
+                "V2377 Ophiuchii B"               => "V2377 Ophiuchii B",
          ],
 
          // AH Cancri #6098676
@@ -7367,6 +7397,12 @@ class Name extends ProcGen
                 "HR 5186"                         => "HR 4783 B",
          ],
 
+         // BB Pegasi #6838834
+         6838834     => [
+                "BB Pegasi"                       => "BB Pegasi A",
+            ""                                => "",
+         ],
+
          // 5 Aquilae #6946425
          6946425     => [
                 "5 Aquilae"                       => "5 Aquilae A",
@@ -7404,6 +7440,12 @@ class Name extends ProcGen
                 "BD+65 338B"                      => "HIP 15309 B",
          ],
 
+         // DK Cygni #7186608
+         7186608     => [
+                "DK Cygni"                        => "DK Cygni A",
+                "DK Cygni B"                      => "DK Cygni B",
+         ],
+
          // 23 Aquilae #7196745
          7196745     => [
                 "23 Aquilae"                      => "23 Aquilae A",
@@ -7423,6 +7465,12 @@ class Name extends ProcGen
          7375733     => [
                 "HR 5433"                         => "HR 5433 A",
                 "BD+27 2388B"                     => "HR 5433 B",
+         ],
+
+         // OO Aquilae #7436458
+         7436458     => [
+                "OO Aquilae"                      => "OO Aquilae A",
+                "OO Aquilae B"                    => "OO Aquilae B",
          ],
 
          // V415 Canis Majoris #7474632
@@ -7837,7 +7885,7 @@ class Name extends ProcGen
          // PMSC 02437+1702 #14345174
          14345174    => [
                 "PMSC 02437+1702"                 => "PMSC 02437+1702 A",
-            ""                                => "",
+                "BD+16 355C"                      => "PMSC 02437+1702 B",
          ],
 
          // AP Doradus #14348200
@@ -8028,6 +8076,13 @@ class Name extends ProcGen
                 "VZ Librae B"                     => "VZ Librae B",
          ],
 
+         // Upsilon Arae #23182697
+         23182697    => [
+                "Upsilon Arae"                    => "Upsilon Arae A",
+                "Upsilon Arae B"                  => "Upsilon Arae B",
+                "Upsilon Arae C"                  => "Upsilon Arae C",
+         ],
+
          // AQ Tucanae #24971736
          24971736    => [
                 "AQ Tucanae"                      => "AQ Tucanae A",
@@ -8046,10 +8101,28 @@ class Name extends ProcGen
                 "FF Aquilae B"                    => "FF Aquilae B",
          ],
 
+         // V0610 Arae #25635445
+         25635445    => [
+                "V0610 Arae"                      => "V0610 Arae A",
+                "V0610 Arae B"                    => "V0610 Arae B",
+         ],
+
+         // V0867 Arae #27561592
+         27561592    => [
+                "V0867 Arae"                      => "V0867 Arae A",
+                "V0867 Arae B"                    => "V0867 Arae B",
+         ],
+
          // TZ Pyxidis #28556519
          28556519    => [
                 "TZ Pyxidis"                      => "TZ Pyxidis A",
-            ""                                => "",
+                "TZ Pyxidis B"                    => "TZ Pyxidis B",
+         ],
+
+         // DL Camelopardalis #29831882
+         29831882    => [
+                "DL Camelopardalis"               => "DL Camelopardalis A",
+                "DL Camelopardalis B"             => "DL Camelopardalis B",
          ],
 
          // 17 G. Ara #30196923
