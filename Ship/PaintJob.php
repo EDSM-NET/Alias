@@ -869,6 +869,8 @@ class PaintJob extends Alias
             'diamondbackxl_militaire_forest_green'          => 'Military Marine Blue',
             'diamondbackxl_militaire_sand'                  => 'Military Sand',
 
+            'diamondbackxl_salvage_blue'                    => 'Salvage Blue',
+
             'diamondbackxl_tactical_blue'                   => 'Tactical Cobalt',
             'diamondbackxl_tactical_brown'                  => 'Tactical Khaki',
             'diamondbackxl_tactical_green'                  => 'Tactical Olive',
