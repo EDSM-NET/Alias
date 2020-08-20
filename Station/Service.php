@@ -62,7 +62,7 @@ class Service extends Alias
         'missions'              => 34,
         'crewlounge'            => 35,
         'tuning'                => 36,
-        'workshop'              => 37,
+        'workshop'              => 37,      'engineer'          => 37,
         'missionsgenerated'     => 38,
         'facilitator'           => 39,
         'research'              => 40,
@@ -70,10 +70,18 @@ class Service extends Alias
         'stationoperations'     => 42,
         'ondockmission'         => 43,
         'powerplay'             => 44,
-        'searchandrescue'       => 45,
+        'searchandrescue'       => 45,      'searchrescue'      => 45,
 
         'stationmenu'           => 51,
         'shop'                  => 52,
+
+        'shop'                  => 60,
+        'carriermanagement'     => 61,
+        'carrierfuel'           => 62,
+        'carriervendor'         => 63,
+        'livery'                => 64,
+        'modulepacks'           => 65,
+        'voucherredemption'     => 66,
 
         'techbroker'            => 70,
         'materialtrader'        => 71,

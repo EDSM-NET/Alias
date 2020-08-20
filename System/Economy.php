@@ -14,7 +14,7 @@ class Economy extends Alias
      */
     static protected $name  = [
          0                      => 'None',
-    
+
          1                      => 'Agriculture',
          2                      => 'Colony',
          3                      => 'Extraction',
@@ -26,15 +26,17 @@ class Economy extends Alias
          9                      => 'Terraforming',
         10                      => 'Tourism',
         11                      => 'Prison',
-        
+
+        90                      => 'Fleet Carrier',
+
         97                      => 'Repair',
         98                      => 'Rescue',
         99                      => 'Damaged',
     ];
-    
+
     /**
      * List of aliases received from Frontier
-     * 
+     *
      * Every aliases are sanitized before matching
      *     => trim
      *     => strtolower
@@ -43,16 +45,16 @@ class Economy extends Alias
      */
     static protected $alias = [
         'none'                  => 0,
-        
+
         'agri'                  => 1,
         'agriculture'           => 1,
-        
+
         'colony'                => 2,
         'extraction'            => 3,
-        
+
         'hightech'              => 4,
         'high tech'             => 4,
-        
+
         'industrial'            => 5,
         'military'              => 6,
         'refinery'              => 7,
@@ -60,7 +62,9 @@ class Economy extends Alias
         'terraforming'          => 9,
         'tourism'               => 10,
         'prison'                => 11,
-        
+
+        'carrier'               => 90,
+
         'repair'                => 97,
         'rescue'                => 98,
         'damaged'               => 99,

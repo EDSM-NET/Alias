@@ -32,6 +32,7 @@ class Type extends Alias
          114        => 'Hydrogen Peroxide',
          115        => 'Liquid Oxygen',
          116        => 'Agronomic Treatment',
+         117        => 'Tritium',
 
 
         // Consumer Items (2)
@@ -517,6 +518,7 @@ class Type extends Alias
         'hydrogen peroxide'                     => 114,     'hydrogenperoxide'              => 114,
         'liquid oxygen'                         => 115,     'liquidoxygen'                  => 115,
         'agronomictreatment'                    => 116,
+        'tritium'                               => 117,
 
 
         // Consumer Items (2)

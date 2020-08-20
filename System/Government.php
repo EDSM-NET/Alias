@@ -14,7 +14,7 @@ class Government extends Alias
      */
     static protected $name  = [
          0                      => 'None',
-         
+
          1                      => 'Anarchy',
          2                      => 'Communism',
          3                      => 'Confederacy',
@@ -28,13 +28,14 @@ class Government extends Alias
         11                      => 'Prison colony',
         12                      => 'Theocracy',
         13                      => 'Prison',
-        
+
+        90                      => 'Fleet Carrier',
         99                      => 'Workshop (Engineer)',
     ];
-    
+
     /**
      * List of aliases received from Frontier
-     * 
+     *
      * Every aliases are sanitized before matching
      *     => trim
      *     => strtolower
@@ -43,7 +44,7 @@ class Government extends Alias
      */
     static protected $alias = [
         'none'                  => 0,
-        
+
         'anarchy'               => 1,
         'communism'             => 2,
         'confederacy'           => 3,
@@ -54,13 +55,14 @@ class Government extends Alias
         'feudal'                => 8,
         'imperial'              => 9,
         'patronage'             => 10,
-        
+
         'prisoncolony'          => 11,
         'prison colony'         => 11,
-        
+
         'theocracy'             => 12,
         'prison'                => 13,
-        
+
+        'carrier'               => 90,
         'engineer'              => 99,
     ];
 }

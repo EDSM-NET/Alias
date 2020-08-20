@@ -4037,6 +4037,12 @@ class Name extends ProcGen
                 "LP 542-32"                       => "LP 542-33 B",
          ],
 
+         // Rhea #17719
+         17719       => [
+            "Rhea"                            => "Rhea",
+                "Foursyth"                        => "Rhea 4",
+         ],
+
          // LHS 2263 #17720
          17720       => [
                 "LHS 2263"                        => "LHS 2263 A",
@@ -4083,6 +4089,13 @@ class Name extends ProcGen
          17892       => [
             "Zaonce"                          => "Zaonce",
                 "Industry"                        => "Zaonce 3",
+         ],
+
+         // 59 Virginis #17897
+         17897       => [
+            "59 Virginis"                     => "59 Virginis",
+                "Alchemia Virginis"               => "59 Virginis 4",
+                    "Lapis Philosophorum"             => "59 Virginis 8 a",
          ],
 
          // Ursitoare #17977
@@ -6715,7 +6728,7 @@ class Name extends ProcGen
          // HIP 73261 #1455977
          1455977     => [
                 "HIP 73261"                       => "HIP 73261 A",
-            ""                                => "",
+                "BD+44 2408B"                     => "HIP 73261 B",
          ],
 
          // 64 Sigma-3 Cancri #1480752
@@ -6772,6 +6785,12 @@ class Name extends ProcGen
                 "V0566 Ophiuchii B"               => "V0566 Ophiuchii B",
          ],
 
+         // UX Reticuli #1806597
+         1806597     => [
+                "UX Reticuli"                     => "UX Reticuli A",
+                "UX Reticuli B"                   => "UX Reticuli B",
+         ],
+
          // Y Sextantis #1816833
          1816833     => [
                 "Y Sextantis"                     => "Y Sextantis A",
@@ -6823,7 +6842,7 @@ class Name extends ProcGen
          // EW Canis Majoris #1961569
          1961569     => [
                 "EW Canis Majoris"                => "EW Canis Majoris A",
-            ""                                => "",
+                "27 Canis Majoris B"              => "EW Canis Majoris B",
          ],
 
          // CC Lyncis #1978781
@@ -6960,6 +6979,11 @@ class Name extends ProcGen
                 "FX Eridani B"                    => "FX Eridani B",
          ],
 
+         // GCRV 7815 #2715429
+         2715429     => [
+                "Gracie's Light"                  => "GCRV 7815 2",
+         ],
+
          // Dabih Major #2719375
          2719375     => [
                 "Dabih Major"                     => "Dabih Major A",
@@ -7082,6 +7106,12 @@ class Name extends ProcGen
                 "Iota Apodis B"                   => "Iota Apodis B",
          ],
 
+         // AA Ursae Majoris #3275179
+         3275179     => [
+                "AA Ursae Majoris"                => "AA Ursae Majoris A",
+                "AA Ursae Majoris B"              => "AA Ursae Majoris B",
+         ],
+
          // AM Leonis #3352937
          3352937     => [
                 "AM Leonis"                       => "AM Leonis A",
@@ -7172,6 +7202,12 @@ class Name extends ProcGen
                 "56 Andromedae B"                 => "56 Andromedae B",
          ],
 
+         // Psi Andromedae #4107789
+         4107789     => [
+                "Psi Andromedae"                  => "Psi Andromedae A",
+                "Psi Andromedae B"                => "Psi Andromedae B",
+         ],
+
          // AO Camelopardalis #4509550
          4509550     => [
                 "AO Camelopardalis"               => "AO Camelopardalis A",
@@ -7220,10 +7256,22 @@ class Name extends ProcGen
                 "MWC 656"                         => "HD 215227 B",
          ],
 
+         // AB Andromedae #5216191
+         5216191     => [
+                "AB Andromedae"                   => "AB Andromedae A",
+                "AB Andromedae B"                 => "AB Andromedae B",
+         ],
+
          // V0701 Scorpii #5222938
          5222938     => [
                 "V0701 Scorpii"                   => "V0701 Scorpii A",
                 "V0701 Scorpii B"                 => "V0701 Scorpii B",
+         ],
+
+         // HR 6477 #5306146
+         5306146     => [
+                "HR 6477"                         => "HR 6477 A",
+                "CD-45 11531B"                    => "HR 6477 B",
          ],
 
          // PSR J1905+0154B #5421463
@@ -7400,7 +7448,7 @@ class Name extends ProcGen
          // BB Pegasi #6838834
          6838834     => [
                 "BB Pegasi"                       => "BB Pegasi A",
-            ""                                => "",
+                "BB Pegasi B"                     => "BB Pegasi B",
          ],
 
          // 5 Aquilae #6946425
@@ -7620,6 +7668,12 @@ class Name extends ProcGen
          9764801     => [
                 "V0454 Carinae"                   => "V0454 Carinae A",
                 "V0454 Carinae B"                 => "V0454 Carinae B",
+         ],
+
+         // V523 Cassiopeiae #9776465
+         9776465     => [
+                "V523 Cassiopeiae"                => "V523 Cassiopeiae A",
+                "V523 Cassiopeiae B"              => "V523 Cassiopeiae B",
          ],
 
          // HIP 3574 #9866976
@@ -7882,6 +7936,11 @@ class Name extends ProcGen
                 "TV Muscae B"                     => "TV Muscae B",
          ],
 
+         // DZ Piscium #14288703
+         14288703    => [
+                "DZ Piscium"                      => "DZ Piscium A",
+         ],
+
          // PMSC 02437+1702 #14345174
          14345174    => [
                 "PMSC 02437+1702"                 => "PMSC 02437+1702 A",
@@ -7903,7 +7962,7 @@ class Name extends ProcGen
          // HD 5927 #14406475
          14406475    => [
                 "HD 5927"                         => "HD 5927 A",
-            ""                                => "",
+                "BD+48 320B"                      => "HD 5927 B",
          ],
 
          // AP Leonis #14474257
@@ -8105,6 +8164,12 @@ class Name extends ProcGen
          25635445    => [
                 "V0610 Arae"                      => "V0610 Arae A",
                 "V0610 Arae B"                    => "V0610 Arae B",
+         ],
+
+         // HD 182290 #27063263
+         27063263    => [
+                "HD 182290"                       => "HD 182290 A",
+                "HD 182290 B"                     => "HD 182290 B",
          ],
 
          // V0867 Arae #27561592

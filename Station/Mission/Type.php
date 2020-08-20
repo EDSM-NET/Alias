@@ -464,6 +464,9 @@ class Type extends Alias
         4501                                => 'Exploring The Galaxy',
         4502                                => 'Conflict Training Area',
         4503                                => 'Liberate %commodityCount% %commodity%',
+
+        4601                                => 'Decoding the Ancient Ruins',
+        4602                                => 'Decrypting the Guardian Logs',
     ];
 
     /**
@@ -916,5 +919,8 @@ class Type extends Alias
         'mission_startzone_exit'                            => 4501,
         'mission_startzone_gotoconflictsystem'              => 4502,
         'mission_startzone_rescue'                          => 4503,
+
+        'mission_thedead'                                   => 4601,
+        'mission_thedead_002'                               => 4602,
     ];
 }

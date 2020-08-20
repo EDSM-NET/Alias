@@ -32,6 +32,8 @@ class Type extends Alias
         12                      => 'Mega ship',
 
         21                      => 'Civilian Mega Ship',
+
+        31                      => 'Fleet Carrier',
     ];
 
     /**
@@ -84,5 +86,7 @@ class Type extends Alias
         'megaship'              => 12,
 
         'megashipcivilian'      => 21,
+
+        'fleetcarrier'          => 31,
     ];
 }
