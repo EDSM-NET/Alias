@@ -114,5 +114,8 @@ class ShotSpeed extends Alias
           1352  => null,
 
           1362  => null,
+
+        // Utility Mount > Point Defence
+          2200  => 1000,
     ];
 }

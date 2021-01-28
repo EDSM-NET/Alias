@@ -180,5 +180,8 @@ class ThermalLoad extends Alias
 
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 3.6,
+
+        // Utility Mount > Point Defence
+          2200  => 0.07,
     ];
 }
