@@ -13,7 +13,7 @@ class Name extends ProcGen
      * Link custom bodies name to their procgen counter part
      * Based on https://docs.google.com/spreadsheets/d/1kDtQYMeduzWghj1yXEsMY8isRccNhAr2XxYmaPIsB2o/edit#gid=711269421
      */
-    static protected $alias     = [
+        static protected $alias     = [
          // Chi Herculis #3
          3           => [
             "Chi Herculis"                    => "Chi Herculis",
@@ -6345,6 +6345,12 @@ class Name extends ProcGen
                 "QW Telescopii B"                 => "QW Telescopii B",
          ],
 
+         // HR 5633 #261873
+         261873      => [
+                "HR 5633"                         => "HR 5633 A",
+                "BD+19 2924B"                     => "HR 5633 B",
+         ],
+
          // V1363 Orionis #272737
          272737      => [
                 "V1363 Orionis"                   => "V1363 Orionis A",
@@ -6995,6 +7001,7 @@ class Name extends ProcGen
          // SX Corvi #2706757
          2706757     => [
                 "SX Corvi"                        => "SX Corvi A",
+                "SX Corvi B"                      => "SX Corvi B",
          ],
 
          // GCRV 7815 #2715429
@@ -7275,6 +7282,12 @@ class Name extends ProcGen
                 "Gl 32 B"                         => "Kamba B",
          ],
 
+         // Gliese 420 #5065019
+         5065019     => [
+                "Gliese 420"                      => "Gliese 420 A",
+                "Gliese 420 B"                    => "Gliese 420 B",
+         ],
+
          // HD 215227 #5168360
          5168360     => [
                 "HD 215227"                       => "HD 215227 A",
@@ -7419,7 +7432,7 @@ class Name extends ProcGen
          // HR 5472 #6318054
          6318054     => [
                 "HR 5472"                         => "HR 5472 A",
-            ""                                => "",
+                "CCDM J14404+2159B"               => "HR 5472 B",
          ],
 
          // AH Cancri #6334989
@@ -7530,6 +7543,12 @@ class Name extends ProcGen
          7375564     => [
                 "DX Aquarii"                      => "DX Aquarii A",
                 "DX Aquarii B"                    => "DX Aquarii B",
+         ],
+
+         // 7 Aquarii #7375579
+         7375579     => [
+                "7 Aquarii"                       => "7 Aquarii A",
+                "7 Aquarii B"                     => "7 Aquarii B",
          ],
 
          // HR 5433 #7375733
@@ -8031,6 +8050,12 @@ class Name extends ProcGen
                 "AC Bootis B"                     => "AC Bootis B",
          ],
 
+         // FU Draconis #14482764
+         14482764    => [
+                "FU Draconis"                     => "FU Draconis A",
+                "FU Draconis B"                   => "FU Draconis B",
+         ],
+
          // EF Draconis #14482875
          14482875    => [
                 "EF Draconis"                     => "EF Draconis A",
@@ -8106,6 +8131,7 @@ class Name extends ProcGen
          // BV Eridani #16753556
          16753556    => [
                 "BV Eridani"                      => "BV Eridani A",
+                "BV Eridani B"                    => "BV Eridani B",
          ],
 
          // Aucownst TU-D b58-0 #16913386
