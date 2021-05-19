@@ -134,6 +134,9 @@ class AmmoMaximum extends Alias
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 120,
 
+        // Weapon Hardpoint > Enzyme Missile Rack
+          1872  => 64,
+
         // Utility Mount > Chaff Launcher
           2050  => 10,
 

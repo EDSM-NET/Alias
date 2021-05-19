@@ -177,5 +177,7 @@ class DamagePerSecond extends Alias
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 60,
 
+        // Weapon Hardpoint > Enzyme Missile Rack
+          1872  => 2.5,
     ];
 }
