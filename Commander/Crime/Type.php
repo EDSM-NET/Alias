@@ -31,15 +31,31 @@ class Type extends Alias
         16  => 'dockingmajor_trespass',
         17  => 'collidedatspeedinnofirezone',
         18  => 'collidedatspeedinnofirezone_hulldamage',
-        
+
         30  => 'recklessWeaponsDischarge',
-        
+
         50  => 'Passenger wanted',
+
+        60  => 'onfoot_carryingillegalgoods',
+        61  => 'onfoot_identitytheft',
+        62  => 'onfoot_recklessendangerment',
+        63  => 'onfoot_arccutteruse',
+        64  => 'onfoot_detectionofweapon',
+        65  => 'onfoot_murder',
+        66  => 'onfoot_overchargeintent',
+        67  => 'onfoot_damagingdefences',
+        68  => 'onfoot_overchargedport',
+        69  => 'onfoot_trespass',
+        70  => 'onfoot_carryingillegaldata',
+        71  => 'onfoot_propertytheft',
+        72  => 'onfoot_theft',
+        73  => 'onfoot_profilecloningintent',
+        74  => 'onfoot_failuretosubmittopolice',
     ];
-    
+
     /**
      * List of aliases received from Frontier
-     * 
+     *
      * Every aliases are sanitized before matching
      *     => trim
      *     => strtolower
@@ -63,9 +79,25 @@ class Type extends Alias
         'dockingmajor_trespass'                     => 16,      'dockingmajortresspass'                     => 16,
         'collidedatspeedinnofirezone'               => 17,
         'collidedatspeedinnofirezone_hulldamage'    => 18,
-        
+
         'recklessweaponsdischarge'                  => 30,
-        
+
         'passengerwanted'                           => 50,
+
+        'onfoot_carryingillegalgoods'               => 60,
+        'onfoot_identitytheft'                      => 61,
+        'onfoot_recklessendangerment'               => 62,
+        'onfoot_arccutteruse'                       => 63,
+        'onfoot_detectionofweapon'                  => 64,
+        'onfoot_murder'                             => 65,
+        'onfoot_overchargeintent'                   => 66,
+        'onfoot_damagingdefences'                   => 67,
+        'onfoot_overchargedport'                    => 68,
+        'onfoot_trespass'                           => 69,
+        'onfoot_carryingillegaldata'                => 70,
+        'onfoot_propertytheft'                      => 71,
+        'onfoot_theft'                              => 72,
+        'onfoot_profilecloningintent'               => 73,
+        'onfoot_failuretosubmittopolice'            => 74,
     ];
 }
