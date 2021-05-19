@@ -684,6 +684,7 @@ class Badge extends Alias
             'name'              => 'Triangulator',
             'description'       => 'Submit 1,000 distances to EDSM.',
             'active'            => true,
+            'hidden'            => true,
 
             'layout'            => 3,
         ],
@@ -691,6 +692,7 @@ class Badge extends Alias
             'name'              => 'Trigonomator',
             'description'       => 'Submit 2,000 distances to EDSM.',
             'active'            => true,
+            'hidden'            => true,
 
             'layout'            => 2,
 
@@ -702,6 +704,7 @@ class Badge extends Alias
             'name'              => 'Trilaterator',
             'description'       => 'Submit 10,000 distances to EDSM.',
             'active'            => true,
+            'hidden'            => true,
         ],
 
         9500    => [
