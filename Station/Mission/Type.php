@@ -178,6 +178,14 @@ class Type extends Alias
        10608                                => 'Source and return %commodityCount% units of %commodity%',
        10609                                => 'The Federal Navy requires %commodityCount% units of %commodity%',
 
+       11601                                => 'Collection: Fetch the %commodity% from a settlement',
+       11602                                => 'Collection: Fetch the %commodity% from a settlement',
+       11606                                => 'Collection: Fetch the %commodity% from a settlement',
+       11608                                => 'Collection: Fetch the %commodity% from a settlement',
+       11609                                => 'Collection: Fetch the %commodity% from a settlement',
+       11611                                => 'Collection: Fetch the %commodity% from a settlement',
+       11612                                => 'Collection: Fetch the %commodity% from a settlement',
+
          701                                => '%commodity% salvage operation',
          702                                => 'Wartime %commodity% salvage operation',
          703                                => 'Civil war %commodity% salvage operation',
@@ -199,6 +207,17 @@ class Type extends Alias
          757                                => 'Illegal Rebel Transmissions Salvage Contract',
 
          781                                => 'Salvage %commodityCount% %commodity%',
+
+       11702                                => 'Retrieval: Grab the %commodity% from a crash site',
+       11709                                => 'Retrieval: Grab the %commodity% from a crash site',
+       11718                                => 'Retrieval: Grab the %commodity% from a crash site',
+       11719                                => 'Retrieval: Grab the %commodity% from a crash site',
+       11720                                => 'Retrieval: Grab the %commodity% from a crash site',
+       11721                                => 'Retrieval: Grab the %commodity% from a crash site',
+
+       11752                                => 'Salvage: Pull the %commodity% from wreckage',
+       11753                                => 'Scavenge: Get the %commodity% from an evacuated site',
+       11754                                => 'Salvage: Pull the %commodity% from wreckage',
 
         // Disable Missions
          801                                => 'Disable the %target% power grid',
@@ -249,6 +268,10 @@ class Type extends Alias
       101008                                => 'Put down the %targetFaction% %targetType%',
       101009                                => 'Engage and destroy the %targetFaction% %targetType%',
 
+      111002                                => 'Raid: Exterminate %targetFaction% %targetType%',
+      111004                                => 'Raid: Exterminate %targetFaction% %targetType%',
+      111007                                => 'Raid: Exterminate %targetFaction% %targetType%',
+
         1051                                => 'Corporate strike against the %targetFaction% %targetType%',
         1052                                => 'Clean out the %targetFaction% %targetType%',
         1053                                => 'Support expansion by destroying the %targetFaction% %targetType%',
@@ -292,6 +315,20 @@ class Type extends Alias
       101111                                => 'Obliterate %targetType%: %target%',
       101112                                => 'Execute %targetType%: %target%',
       101113                                => 'Remove %targetType%: %target%',
+
+      111102                                => 'Takedown: Kill %target%',
+      111105                                => 'Takedown: Kill %target%',
+      111108                                => 'Takedown: Kill %target%',
+      111111                                => 'Takedown: Kill %target%',
+
+      121102                                => 'Covert Takedown: Kill %target%',
+      121105                                => 'Covert Takedown: Kill %target%',
+
+      131102                                => 'Assassination: Eliminate %target%',
+      131117                                => 'Assassination: Eliminate %target%',
+
+      141102                                => 'Covert Assassination: Eliminate %target%',
+      141104                                => 'Covert Assassination: Eliminate %target%',
 
         1151                                => 'Wetwork contract',
         1152                                => 'Wetwork Job',
@@ -342,6 +379,14 @@ class Type extends Alias
         1306                                => 'Establish Covert Link with the %target% Data Link',
         1307                                => 'Establish Covert Link with the %target% Data Link',
         1308                                => 'Establish Covert Link with the %target% Data Link',
+
+        101302                              => 'Digital Espionage: Download %commodity% from a data port',
+
+        111302                              => 'Covert Espionage: Download %commodity% from a data port',
+
+        121302                              => 'Digital Infiltration: Breach the network', // the XXX network
+
+        131302                              => 'Covert Infiltration: Breach the network', // the XXX network
 
         1351                                => 'Covert data retrieval assignment',
         1352                                => 'Tactical data acquisition',
@@ -467,6 +512,31 @@ class Type extends Alias
 
         4601                                => 'Decoding the Ancient Ruins',
         4602                                => 'Decrypting the Guardian Logs',
+
+        4702                                => 'Reactivation: Turn on power', // ... at %stationName%
+
+        4801                                => 'Restore: Prepare for operation', // Prepare ??? for
+        4802                                => 'Restore: Prepare for operation', // Prepare ??? for
+
+        4902                                => 'Shutdown: Disable power', // ... at %stationName%
+        4904                                => 'Shutdown: Disable power', // ... at %stationName%
+        4907                                => 'Shutdown: Disable power', // ... at %stationName%
+        4910                                => 'Shutdown: Disable power', // ... at %stationName%
+
+        5002                                => 'Sabotage: Disrupt production', // ... at %stationName%
+
+      105004                                => 'Covert Sabotage: Halt production', // ... at %stationName%
+
+        5102                                => 'Settlement Raid: Exterminate %targetFaction% members',
+        5104                                => 'Settlement Raid: Exterminate %targetFaction% members',
+        5105                                => 'Settlement Raid: Exterminate %targetFaction% members',
+        5107                                => 'Settlement Raid: Exterminate %targetFaction% members',
+        5110                                => 'Settlement Raid: Exterminate %targetFaction% members',
+
+        5202                                => 'Settlement Raid: Exterminate scavengers', // ... at %stationName%
+        5204                                => 'Settlement Raid: Exterminate scavengers', // ... at %stationName%
+        5205                                => 'Settlement Raid: Exterminate scavengers', // ... at %stationName%
+        5207                                => 'Settlement Raid: Exterminate scavengers', // ... at %stationName%
     ];
 
     /**
@@ -640,6 +710,14 @@ class Type extends Alias
         'mission_collectwing_rankemp'                       => 10608,
         'mission_collectwing_rankfed'                       => 10609,
 
+        'mission_onfoot_collect'                            => 11601,
+        'mission_onfoot_collect_mb'                         => 11602,
+        'mission_onfoot_collect_003'                        => 11606,
+        'mission_onfoot_collect_005'                        => 11608,
+        'mission_onfoot_collect_006'                        => 11609,
+        'mission_onfoot_collect_008'                        => 11611,
+        'mission_onfoot_collect_009'                        => 11612,
+
         'mission_salvage'                                   => 701,
         'mission_salvage_war'                               => 702,
         'mission_salvage_civilwar'                          => 703,
@@ -661,6 +739,17 @@ class Type extends Alias
         'mission_salvage_illegal_famine'                    => 757,
 
         'mission_salvage_planet'                            => 781,
+
+        'mission_onfoot_salvage'                            => 11701,
+        'mission_onfoot_salvage_mb'                         => 11702,
+        'mission_onfoot_salvage_006'                        => 11709,
+        'mission_onfoot_salvage_015'                        => 11718,
+        'mission_onfoot_salvage_016'                        => 11719,
+        'mission_onfoot_salvage_017'                        => 11720,
+
+        'mission_onfoot_salvageillegal_mb'                  => 11752,
+        'mission_onfoot_salvageillegal_bs'                  => 11753,
+        'mission_onfoot_salvageillegal_001'                 => 11754,
 
         'mission_disable'                                   => 801,
         'mission_disable_hightech'                          => 802,
@@ -708,6 +797,10 @@ class Type extends Alias
         'mission_massacrewing_legal_civilunrest'            => 101008,
         'mission_massacrewing_legal_military'               => 101009,
 
+        'mission_onfoot_massacre_mb'                        => 111002,
+        'mission_onfoot_massacre_001'                       => 111004,
+        'mission_onfoot_massacre_004'                       => 111007,
+
         'mission_massacre_skimmer_corporation'              => 1051,
         'mission_massacre_skimmer_refinery'                 => 1052,
         'mission_massacre_skimmer_expansion'                => 1053,
@@ -750,6 +843,20 @@ class Type extends Alias
         'mission_assassinatewing_legal_civilunrest'         => 101111,
         'mission_assassinatewing_legal_penal'               => 101112,
         'mission_assassinatewing_legal_communism'           => 101113,
+
+        'mission_onfoot_assassination_mb'                   => 111102,
+        'mission_onfoot_assassination_002'                  => 111105,
+        'mission_onfoot_assassination_005'                  => 111108,
+        'mission_onfoot_assassination_008'                  => 111111,
+
+        'mission_onfoot_assassination_covert_mb'            => 121102,
+        'mission_onfoot_assassination_covert_002'           => 121105,
+
+        'mission_onfoot_assassinationillegal_mb'            => 131102,
+        'mission_onfoot_assassinationillegal_013'           => 131117,
+
+        'mission_onfoot_assassinationillegal_covert_mb'     => 141102,
+        'mission_onfoot_assassinationillegal_covert_001'    => 141104,
 
         'mission_assassinate_illegal_blops'                 => 1151,
         'mission_assassinate_illegal_blops_industrial'      => 1152,
@@ -798,6 +905,14 @@ class Type extends Alias
         'mission_hack_investment'                           => 1306,
         'mission_hack_boom'                                 => 1307,
         'mission_hack_retreat'                              => 1308,
+
+        'mission_onfoot_hack_download_mb'                   => 101302,
+
+        'mission_onfoot_hack_download_covert_mb'            => 111302,
+
+        'mission_onfoot_hack_upload_mb'                     => 121302,
+
+        'mission_onfoot_hack_upload_covert_mb'              => 131302,
 
         'mission_hack_blops'                                => 1351,
         'mission_hack_blops_civilwar'                       => 1352,
@@ -922,5 +1037,30 @@ class Type extends Alias
 
         'mission_thedead'                                   => 4601,
         'mission_thedead_002'                               => 4602,
+
+        'mission_onfoot_reboot_mb'                          => 4702,
+
+        'mission_onfoot_rebootrestore'                      => 4801,
+        'mission_onfoot_rebootrestore_mb'                   => 4802,
+
+        'mission_onfoot_sabotage_power_mb'                  => 4902,
+        'mission_onfoot_sabotage_power_001'                 => 4904,
+        'mission_onfoot_sabotage_power_004'                 => 4907,
+        'mission_onfoot_sabotage_power_007'                 => 4910,
+
+        'mission_onfoot_sabotage_production_mb'             => 5002,
+
+        'mission_onfoot_sabotage_production_covert_001'     => 105004,
+
+        'mission_onfoot_onslaught_mb'                       => 5102,
+        'mission_onfoot_onslaught_001'                      => 5104,
+        'mission_onfoot_onslaught_002'                      => 5105,
+        'mission_onfoot_onslaught_004'                      => 5107,
+        'mission_onfoot_onslaught_007'                      => 5110,
+
+        'mission_onfoot_onslaught_offline_mb'               => 5202,
+        'mission_onfoot_onslaught_offline_001'              => 5204,
+        'mission_onfoot_onslaught_offline_002'              => 5205,
+        'mission_onfoot_onslaught_offline_004'              => 5207,
     ];
 }
