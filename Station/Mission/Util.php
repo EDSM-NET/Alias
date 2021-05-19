@@ -25,6 +25,7 @@ class Util extends Alias
          502                                    => 'Thargoid Cyclops',
          503                                    => 'Thargoid Basilisk',
          504                                    => 'Thargoid Medusa',
+         505                                    => 'Thargoid Hydra',
 
         1001                                    => 'Pirate Lord',
         1002                                    => 'Pirates',
@@ -71,6 +72,7 @@ class Util extends Alias
         'factiontag_cyclops'                    => 502,
         'factiontag_basilisk'                   => 503,
         'factiontag_medusa'                     => 504,
+        'factiontag_hydra'                      => 505,
 
         'factiontag_piratelord'                 => 1001,
         'factiontag_pirate'                     => 1002,
