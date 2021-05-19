@@ -879,6 +879,7 @@ class Mass extends Alias
 
         // Core Internal > Planetary Approach Suite
           3701  => 0,
+          3702  => 0,
 
         // Core Internal > Guardian FSD Booster
           3801  => 1.3,

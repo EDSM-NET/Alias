@@ -887,6 +887,7 @@ class Type extends Alias
 
         // Core Internal > Planetary Approach Suite
           3701  => 'Planetary Approach Suite',
+          3702  => 'Advanced Planetary Approach Suite',
 
         // Core Internal > Guardian FSD Booster
           3801  => 'Guardian FSD Booster',
@@ -2366,6 +2367,7 @@ class Type extends Alias
 
         // Core Internal > Planetary Approach Suite
         'int_planetapproachsuite'                       => 3701,
+        'int_planetapproachsuite_advanced'              => 3702,
 
         // Core Internal > Guardian FSD Booster
         'int_guardianfsdbooster_size1'                  => 3801,

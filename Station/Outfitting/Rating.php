@@ -878,6 +878,7 @@ class Rating extends Alias
 
         // Core Internal > Planetary Approach Suite
           3701  => 'I',
+          3702  => 'I',
 
         // Core Internal > Guardian FSD Booster
           3801  => 'H',
