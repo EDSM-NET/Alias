@@ -10,7 +10,7 @@ use         EDSM\Alias;
 class TechnologyBroker extends Alias
 {
     use \EDSM\Alias\Commander\Synthesis;
-    
+
     /**
      * List of names used in game
      */
@@ -52,11 +52,12 @@ class TechnologyBroker extends Alias
         39  => 'Guardian Shard Cannon [Fixed, Small]',
         40  => 'Guardian Shard Cannon [Turreted, Small]',
         41  => 'Guardian Gauss Cannon [Fixed, Small]',
+        42  => 'Engineered FSD V1',
     ];
-    
+
     /**
      * List of aliases received from Frontier
-     * 
+     *
      * Every aliases are sanitized before matching
      *     => trim
      *     => strtolower
@@ -67,16 +68,16 @@ class TechnologyBroker extends Alias
         'hpt_guardian_plasmalauncher_turret_medium'         => 3,
         'hpt_guardian_shardcannon_fixed_medium'             => 4,
         'hpt_guardian_shardcannon_turret_medium'            => 5,
-        
+
         'hpt_causticmissile_fixed_medium'                   => 6,
-        
+
         'hpt_flechettelauncher_fixed_medium'                => 7,
         'hpt_flechettelauncher_turret_medium'               => 8,
-        
+
         'hpt_plasmashockcannon_fixed_medium'                => 9,
         'hpt_plasmashockcannon_gimbal_medium'               => 10,
         'hpt_plasmashockcannon_turret_medium'               => 11,
-        
+
         'int_guardianpowerplant_size2'                      => 12,
         'int_guardianpowerplant_size3'                      => 12,
         'int_guardianpowerplant_size4'                      => 12,
@@ -84,7 +85,7 @@ class TechnologyBroker extends Alias
         'int_guardianpowerplant_size6'                      => 12,
         'int_guardianpowerplant_size7'                      => 12,
         'int_guardianpowerplant_size8'                      => 12,
-        
+
         'int_guardianpowerdistributor_size1'                => 13,
         'int_guardianpowerdistributor_size2'                => 13,
         'int_guardianpowerdistributor_size3'                => 13,
@@ -93,7 +94,7 @@ class TechnologyBroker extends Alias
         'int_guardianpowerdistributor_size6'                => 13,
         'int_guardianpowerdistributor_size7'                => 13,
         'int_guardianpowerdistributor_size8'                => 13,
-        
+
         'int_guardianshieldreinforcement_size1_class1'      => 14,
         'int_guardianshieldreinforcement_size1_class2'      => 14,
         'int_guardianshieldreinforcement_size2_class1'      => 14,
@@ -104,7 +105,7 @@ class TechnologyBroker extends Alias
         'int_guardianshieldreinforcement_size4_class2'      => 14,
         'int_guardianshieldreinforcement_size5_class1'      => 14,
         'int_guardianshieldreinforcement_size5_class2'      => 14,
-        
+
         'int_guardianhullreinforcement_size1_class1'        => 15,
         'int_guardianhullreinforcement_size1_class2'        => 15,
         'int_guardianhullreinforcement_size2_class1'        => 15,
@@ -115,7 +116,7 @@ class TechnologyBroker extends Alias
         'int_guardianhullreinforcement_size4_class2'        => 15,
         'int_guardianhullreinforcement_size5_class1'        => 15,
         'int_guardianhullreinforcement_size5_class2'        => 15,
-        
+
         'int_guardianmodulereinforcement_size1_class1'      => 16,
         'int_guardianmodulereinforcement_size1_class2'      => 16,
         'int_guardianmodulereinforcement_size2_class1'      => 16,
@@ -126,18 +127,18 @@ class TechnologyBroker extends Alias
         'int_guardianmodulereinforcement_size4_class2'      => 16,
         'int_guardianmodulereinforcement_size5_class1'      => 16,
         'int_guardianmodulereinforcement_size5_class2'      => 16,
-        
+
         'int_guardianfsdbooster_size1'                      => 17,
         'int_guardianfsdbooster_size2'                      => 17,
         'int_guardianfsdbooster_size3'                      => 17,
         'int_guardianfsdbooster_size4'                      => 17,
         'int_guardianfsdbooster_size5'                      => 17,
-        
+
         'int_corrosionproofcargorack_size1_class1'          => 18,
         'int_corrosionproofcargorack_size1_class2'          => 18,
         'int_corrosionproofcargorack_size2_class1'          => 18,
         'int_corrosionproofcargorack_size4_class1'          => 18,
-        
+
         'int_metaalloyhullreinforcement_size1_class1'       => 21,
         'int_metaalloyhullreinforcement_size1_class2'       => 21,
         'int_metaalloyhullreinforcement_size2_class1'       => 21,
@@ -148,11 +149,11 @@ class TechnologyBroker extends Alias
         'int_metaalloyhullreinforcement_size4_class2'       => 21,
         'int_metaalloyhullreinforcement_size5_class1'       => 21,
         'int_metaalloyhullreinforcement_size5_class2'       => 21,
-        
+
         'gdn_hybrid_fighter_v1'                             => 22,
         'gdn_hybrid_fighter_v2'                             => 23,
         'gdn_hybrid_fighter_v3'                             => 24,
-        
+
         'hpt_plasmashockcannon_fixed_large'                 => 25,
         'hpt_plasmashockcannon_gimbal_large'                => 26,
         'hpt_plasmashockcannon_turret_large'                => 27,
@@ -168,11 +169,13 @@ class TechnologyBroker extends Alias
         'hpt_guardian_shardcannon_fixed_small'              => 39,
         'hpt_guardian_shardcannon_turret_small'             => 40,
         'hpt_guardian_gausscannon_fixed_small'              => 41,
+
+        'int_hyperdrive_size5_class5'                       => 42,
     ];
-    
+
     /**
      * List of recipes used in game
-     * 
+     *
      * Material Id => Count
      */
     static private $recipes         = [
@@ -184,7 +187,7 @@ class TechnologyBroker extends Alias
                 38  => 15,              // Manganese                                * 15
             'c626'  => 6,               // Magnetic Emitter Coil                    * 6
         ],
-        
+
         // Guardian Plasma Charger [Fixed, Medium]
          2  => [
              'd44'  => 1,               // Guardian Weapon Blueprint Segment        * 1
@@ -193,7 +196,7 @@ class TechnologyBroker extends Alias
                 11  => 14,              // Chromium                                 * 14
             'c509'  => 8,               // Micro-Weave Cooling Hoses                * 8
         ],
-        
+
         // Guardian Plasma Charger [Turreted, Medium]
          3  => [
              'd44'  => 2,               // Guardian Weapon Blueprint Segment        * 2
@@ -202,7 +205,7 @@ class TechnologyBroker extends Alias
                 11  => 16,              // Chromium                                 * 16
             'c616'  => 8,               // Articulation Motors                      * 8
         ],
-        
+
         // Guardian Shard Cannon [Fixed, Medium]
          4  => [
              'd44'  => 1,               // Guardian Weapon Blueprint Segment        * 1
@@ -211,7 +214,7 @@ class TechnologyBroker extends Alias
                  6  => 14,              // Carbon                                   * 14
             'c621'  => 12,              // Power Transfer Bus                       * 12
         ],
-        
+
         // Guardian Shard Cannon [Turreted, Medium]
          5  => [
              'd44'  => 2,               // Guardian Weapon Blueprint Segment        * 2
@@ -220,7 +223,7 @@ class TechnologyBroker extends Alias
                  6  => 15,              // Carbon                                   * 15
             'c1117' => 12,              // Micro Controllers                        * 12
         ],
-        
+
         // Enzyme Missile Rack [Fixed]
          6  => [
                 78  => 16,              // Thargoid Energy Cell                     * 16
@@ -229,7 +232,7 @@ class TechnologyBroker extends Alias
                 70  => 15,              // Tungsten                                 * 15
             'c622'  => 6,               // Radiation Baffle                         * 6
         ],
-        
+
         // Remote Release Flechette Launcher [Fixed]
          7  => [
                 37  => 30,              // Iron                                     * 30
@@ -238,7 +241,7 @@ class TechnologyBroker extends Alias
                 26  => 26,              // Germanium                                * 26
             'c508'  => 8,               // CMM Composite                            * 8
         ],
-        
+
         // Remote Release Flechette Launcher [Turret]
          8  => [
                 37  => 28,              // Iron                                     * 28
@@ -247,7 +250,7 @@ class TechnologyBroker extends Alias
                 26  => 24,              // Germanium                                * 24
             'c616'  => 10,              // Articulation Motors                      * 10
         ],
-        
+
         // Shock Cannon [Fixed, Medium]
          9  => [
                 72  => 24,              // Vanadium                                 * 24
@@ -256,7 +259,7 @@ class TechnologyBroker extends Alias
                 65  => 28,              // Technetium                               * 28
             'c1118' => 6,               // Ion Distributor                          * 6
         ],
-        
+
         // Shock Cannon [Gimballed, Medium]
         10  => [
                 72  => 24,              // Vanadium                                 * 24
@@ -265,7 +268,7 @@ class TechnologyBroker extends Alias
                 65  => 28,              // Technetium                               * 28
             'c619'  => 10,              // Power Converter                          * 10
         ],
-        
+
         // Shock Cannon [Turreted, Medium]
         11  => [
                 72  => 24,              // Vanadium                                 * 24
@@ -274,7 +277,7 @@ class TechnologyBroker extends Alias
                 65  => 28,              // Technetium                               * 28
             'c621'  => 8,               // Power Transfer Bus                       * 8
         ],
-        
+
         // Guardian Power Plant
         12  => [
              'd45'  => 1,               // Guardian Module Blueprint Segment        * 1
@@ -283,7 +286,7 @@ class TechnologyBroker extends Alias
                 31  => 15,              // Heat Resistant Ceramics                  * 15
             'c620'  => 10,              // Energy Grid Assembly                     * 10
         ],
-        
+
         // Guardian Power Distributor
         13  => [
              'd45'  => 1,               // Guardian Module Blueprint Segment        * 1
@@ -292,7 +295,7 @@ class TechnologyBroker extends Alias
                 49  => 18,              // Phase Alloys                             * 18
             'c625'  => 6,               // Heatsink Interlink                       * 6
         ],
-        
+
         // Guardian Shield Reinforcement
         14  => [
              'd45'  => 1,               // Guardian Module Blueprint Segment        * 1
@@ -301,7 +304,7 @@ class TechnologyBroker extends Alias
              'd24'  => 24,              // Pattern Delta Obelisk Data               * 24
            'c1119'  => 8,               // Hardware Diagnostic Sensor               * 8
         ],
-        
+
         // Guardian Hull Reinforcement
         15  => [
              'd45'  => 1,               // Guardian Module Blueprint Segment        * 1
@@ -310,7 +313,7 @@ class TechnologyBroker extends Alias
              'd26'  => 16,              // Pattern Gamma Obelisk Data               * 16
             'c624'  => 12,              // Reinforced Mounting Plate                * 12
         ],
-        
+
         // Guardian Module Reinforcement
         16  => [
              'd45'  => 1,               // Guardian Module Blueprint Segment        * 1
@@ -319,7 +322,7 @@ class TechnologyBroker extends Alias
                 89  => 20,              // Guardian Power Conduit                   * 20
             'c624'  => 9,               // Reinforced Mounting Plate                * 9
         ],
-        
+
         // Guardian FSD Booster
         17  => [
              'd45'  => 1,               // Guardian Module Blueprint Segment        * 1
@@ -328,7 +331,7 @@ class TechnologyBroker extends Alias
                 24  => 24,              // Focus Crystals                           * 24
             'c617'  => 8,               // HN Shock Mount                           * 8
         ],
-        
+
         // Corrosion Resistant Cargo Rack
         18  => [
             'c504'  => 16,              // Meta-Alloys                              * 16
@@ -336,9 +339,9 @@ class TechnologyBroker extends Alias
                  8  => 18,              // Chemical Manipulators                    * 18
             'c622'  => 22,              // Radiation Baffle                         * 22
             'c510'  => 12,              // Neofabric Insulation                     * 12
-            
+
         ],
-        
+
         // Meta Alloy Hull Reinforcement
         21  => [
             'c504'  => 16,              // Meta-Alloys                              * 16
@@ -346,7 +349,7 @@ class TechnologyBroker extends Alias
               'd1'  => 22,              // Aberrant Shield Pattern Analysis         * 22
                 17  => 20,              // Configurable Components                  * 20
             'c624'  => 12,              // Reinforced Mounting Plate                * 12
-            
+
         ],
 
         // Guardian Hybrid Fighter (XG7 Trident)
@@ -357,7 +360,7 @@ class TechnologyBroker extends Alias
              'd23'  => 18,              // Pattern Beta Obelisk Data                * 18
                 88  => 25,              // Guardian Technology Component            * 25
         ],
-        
+
         // Guardian Hybrid Fighter (XG8 Javelin)
         23  => [
              'd46'  => 1,               // Guardian Module Blueprint Segment        * 1
@@ -366,7 +369,7 @@ class TechnologyBroker extends Alias
                 91  => 18,              // Guardian Sentinel Wreckage Components    * 18
                 88  => 25,              // Guardian Technology Component            * 25
         ],
-        
+
         // Guardian Hybrid Fighter (XG9 Lance)
         24  => [
              'd46'  => 1,               // Guardian Module Blueprint Segment        * 1
@@ -375,7 +378,7 @@ class TechnologyBroker extends Alias
                 92  => 18,              // Guardian Sentinel Weapon Parts           * 18
                 88  => 25,              // Guardian Technology Component            * 25
         ],
-        
+
         // Shock Cannon [Fixed, Large]
         25  => [
                 72  => 28,              // Vanadium                                 * 28
@@ -384,7 +387,7 @@ class TechnologyBroker extends Alias
                 65  => 26,              // Technetium                               * 26
              'c619' => 8,               // Power Converter                          * 8
         ],
-        
+
         // Shock Cannon [Gimballed, Large]
         26  => [
                 72  => 28,              // Vanadium                                 * 28
@@ -393,7 +396,7 @@ class TechnologyBroker extends Alias
                 65  => 22,              // Technetium                               * 22
              'c621' => 12,              // Power Transfer Bus                       * 12
         ],
-        
+
         // Shock Cannon [Turreted, Large]
         27  => [
                 72  => 26,              // Vanadium                                 * 26
@@ -402,7 +405,7 @@ class TechnologyBroker extends Alias
                 65  => 24,              // Technetium                               * 24
             'c1118' => 10,              // Ion Distributor                          * 10
         ],
-        
+
         // Guardian Shard Cannon [Fixed, Large]
         28  => [
              'd44'  => 1,               // Guardian Weapon Blueprint Segment        * 1
@@ -411,7 +414,7 @@ class TechnologyBroker extends Alias
                  6  => 20,              // Carbon                                   * 20
            'c1117'  => 18,              // Micro Controllers                        * 18
         ],
-        
+
         // Guardian Shard Cannon [Turreted, Large]
         29  => [
              'd44'  => 2,               // Guardian Weapon Blueprint Segment        * 2
@@ -420,7 +423,7 @@ class TechnologyBroker extends Alias
                  6  => 28,              // Carbon                                   * 28
            'c1117'  => 12,              // Micro Controllers                        * 12
         ],
-        
+
         // Guardian Plasma Charger [Fixed, Large]
         30  => [
              'd44'  => 1,               // Guardian Weapon Blueprint Segment        * 1
@@ -429,7 +432,7 @@ class TechnologyBroker extends Alias
                 11  => 28,              // Chromium                                 * 28
             'c509'  => 10,              // Micro-Weave Cooling Hoses                * 10
         ],
-        
+
         // Guardian Plasma Charger [Turreted, Large]
         31  => [
              'd44'  => 2,               // Guardian Weapon Blueprint Segment        * 2
@@ -438,7 +441,7 @@ class TechnologyBroker extends Alias
                 11  => 26,              // Chromium                                 * 26
             'c616'  => 10,              // Articulation Motors                      * 10
         ],
-        
+
         // Shock Cannon [Fixed, Small]
         34  => [
                 72  => 8,               // Vanadium                                 * 8
@@ -447,7 +450,7 @@ class TechnologyBroker extends Alias
                 65  => 12,              // Technetium                               * 12
              'c619' => 4,               // Power Converter                          * 4
         ],
-        
+
         // Shock Cannon [Gimballed, Small]
         35  => [
                 72  => 10,              // Vanadium                                 * 10
@@ -456,7 +459,7 @@ class TechnologyBroker extends Alias
                 65  => 10,              // Technetium                               * 10
              'c621' => 4,               // Power Transfer Bus                       * 4
         ],
-        
+
         // Shock Cannon [Turreted, Small]
         36  => [
                 72  => 8,               // Vanadium                                 * 8
@@ -465,7 +468,7 @@ class TechnologyBroker extends Alias
                 65  => 10,              // Technetium                               * 10
             'c1118' => 4,               // Ion Distributor                          * 4
         ],
-        
+
         // Guardian Plasma Charger [Fixed, Small]
         37  => [
              'd44'  => 1,               // Guardian Weapon Blueprint Segment        * 1
@@ -473,7 +476,7 @@ class TechnologyBroker extends Alias
                 92  => 12,              // Guardian Sentinel Weapon Parts           * 12
                 88  => 15,              // Guardian Technology Component            * 15
         ],
-        
+
         // Guardian Plasma Charger [Turreted, Small]
         38  => [
              'd44'  => 1,               // Guardian Weapon Blueprint Segment        * 1
@@ -481,7 +484,7 @@ class TechnologyBroker extends Alias
                 88  => 12,              // Guardian Technology Component            * 12
                 92  => 15,              // Guardian Sentinel Weapon Parts           * 15
         ],
-        
+
         // Guardian Shard Cannon [Fixed, Small]
         39  => [
              'd44'  => 1,               // Guardian Weapon Blueprint Segment        * 1
@@ -489,7 +492,7 @@ class TechnologyBroker extends Alias
                 88  => 12,              // Guardian Technology Component            * 12
                 92  => 15,              // Guardian Sentinel Weapon Parts           * 15
         ],
-        
+
         // Guardian Shard Cannon [Turreted, Small]
         40  => [
              'd44'  => 1,               // Guardian Weapon Blueprint Segment        * 1
@@ -497,13 +500,21 @@ class TechnologyBroker extends Alias
                 88  => 15,              // Guardian Technology Component            * 15
                 92  => 12,              // Guardian Sentinel Weapon Parts           * 12
         ],
-        
+
         // Guardian Gauss Cannon [Fixed, Small]
         41  => [
              'd44'  => 1,               // Guardian Weapon Blueprint Segment        * 1
                 89  => 12,              // Guardian Power Conduit                   * 12
                 91  => 12,              // Guardian Sentinel Wreckage Components    * 12
                 92  => 12,              // Guardian Sentinel Weapon Parts           * 12
+        ],
+
+        // Engineered FSD V1
+        42  => [
+             'd11'  => 18,              // Datamined Wake Exceptions                * 18
+               66   => 26,              // Tellurium                                * 26
+               20   => 26,              // Electrochemical Arrays                   * 26
+                9   => 28,              // Chemical Processors                      * 28
         ],
     ];
 }
