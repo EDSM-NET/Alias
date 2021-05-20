@@ -100,5 +100,8 @@ class Unlock extends Alias
 
         // Hero Ferrari
         27      => null,
+
+        // Jude Navarro
+        28      => null,
     ];
 }

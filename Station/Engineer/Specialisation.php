@@ -125,5 +125,9 @@ class Specialisation extends Alias
             'Suits',
             'Handheld weaponry',
         ],
+        28                              => [
+            'Suits',
+            'Handheld weaponry',
+        ],
     ];
 }

@@ -94,5 +94,10 @@ class Meeting extends Alias
         27      => [
             'Complete 10 Conflict Zones',
         ],
+
+        // Jude Navarro
+        28      => [
+            'Complete 10 Restore or Reactivation On Foot missions.',
+        ],
     ];
 }
