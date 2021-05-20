@@ -39,5 +39,6 @@ class Station extends Alias
         24      => 63767,           // Etienne Dorn
         //25      => 63767,           // Trin Falcour
         26      => 64069,           // Chloe Sedesi
+        27      => null,           // Hero Ferrari
     ];
 }

@@ -41,6 +41,7 @@ class Engineer extends Alias
         24                              => 'Etienne Dorn',
         25                              => 'Trin Falcour',
         26                              => 'Chloe Sedesi',
+        27                              => 'Hero Ferrari',
     ];
 
     /**
@@ -128,5 +129,8 @@ class Engineer extends Alias
 
         'chloe sedesi'                  => 26,
         300300                          => 26,
+
+        'hero ferrari'                  => 27,
+        400003                          => 27,
     ];
 }

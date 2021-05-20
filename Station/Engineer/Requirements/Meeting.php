@@ -89,5 +89,10 @@ class Meeting extends Alias
 
         // Chloe Sedesi
         26      => null,
+
+        // Hero Ferrari
+        27      => [
+            'Complete 10 Conflict Zones',
+        ],
     ];
 }

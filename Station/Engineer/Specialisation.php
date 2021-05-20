@@ -121,5 +121,9 @@ class Specialisation extends Alias
             'Engines and thrusters',
             'Frame shift drives',
         ],
+        27                              => [
+            'Suits',
+            'Handheld weaponry',
+        ],
     ];
 }

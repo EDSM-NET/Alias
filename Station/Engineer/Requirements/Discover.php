@@ -89,5 +89,8 @@ class Discover extends Alias
 
         // Chloe Sedesi
         26      => null,
+
+        // Hero Ferrari
+        27      => null,
     ];
 }
