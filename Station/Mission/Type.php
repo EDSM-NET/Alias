@@ -515,7 +515,13 @@ class Type extends Alias
         4601                                => 'Decoding the Ancient Ruins',
         4602                                => 'Decrypting the Guardian Logs',
 
+        4701                                => 'Reactivation: Turn on power', // ... at %stationName%
         4702                                => 'Reactivation: Turn on power', // ... at %stationName%
+        4703                                => 'Reactivation: Find a regulator', // ... for %stationName%
+        4704                                => 'Reactivation: Turn on power', // ... at %stationName%
+        4705                                => 'Reactivation: Turn on power', // ... at %stationName%
+        4709                                => 'Reactivation: Turn on power', // ... at %stationName%
+        4712                                => 'Reactivation: Turn on power', // ... at %stationName%
 
         4801                                => 'Restore: Prepare for operation', // Prepare ??? for
         4802                                => 'Restore: Prepare for operation', // Prepare ??? for
@@ -539,6 +545,8 @@ class Type extends Alias
         5204                                => 'Settlement Raid: Exterminate scavengers', // ... at %stationName%
         5205                                => 'Settlement Raid: Exterminate scavengers', // ... at %stationName%
         5207                                => 'Settlement Raid: Exterminate scavengers', // ... at %stationName%
+
+        5302                                => 'Theft: Obtain the %commodity% from a settlement',
     ];
 
     /**
@@ -1042,7 +1050,13 @@ class Type extends Alias
         'mission_thedead'                                   => 4601,
         'mission_thedead_002'                               => 4602,
 
+        'mission_onfoot_reboot'                             => 4701,
         'mission_onfoot_reboot_mb'                          => 4702,
+        'mission_onfoot_reboot_nr'                          => 4703,
+        'mission_onfoot_reboot_001'                         => 4704,
+        'mission_onfoot_reboot_002'                         => 4705,
+        'mission_onfoot_reboot_006'                         => 4709,
+        'mission_onfoot_reboot_009'                         => 4712,
 
         'mission_onfoot_rebootrestore'                      => 4801,
         'mission_onfoot_rebootrestore_mb'                   => 4802,
@@ -1066,5 +1080,7 @@ class Type extends Alias
         'mission_onfoot_onslaught_offline_001'              => 5204,
         'mission_onfoot_onslaught_offline_002'              => 5205,
         'mission_onfoot_onslaught_offline_004'              => 5207,
+
+        'mission_onfoot_heist_mb'                           => 5302,
     ];
 }

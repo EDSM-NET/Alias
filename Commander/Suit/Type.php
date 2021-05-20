@@ -26,6 +26,7 @@ class Type extends Alias
         302     => 'assaultsuitai_class3',
 
         400     => 'closesuitai_class1',
+        401     => 'closesuitai_class2',
         402     => 'closesuitai_class3',
 
         500     => 'Dominator Suit (Class 1)',
@@ -40,6 +41,7 @@ class Type extends Alias
         602     => 'Maverick Suit (Class 4)',
         604     => 'Maverick Suit (Class 5)',
 
+        700     => 'rangedsuitai_class1',
         701     => 'rangedsuitai_class2',
         702     => 'rangedsuitai_class3',
 
@@ -71,6 +73,7 @@ class Type extends Alias
         'assaultsuitai_class3'          => 302,
 
         'closesuitai_class1'            => 400,
+        'closesuitai_class2'            => 401,
         'closesuitai_class3'            => 402,
 
         'tacticalsuit_class1'           => 500,
@@ -85,6 +88,7 @@ class Type extends Alias
         'utilitysuit_class4'            => 603,
         'utilitysuit_class5'            => 604,
 
+        'rangedsuitai_class1'           => 700,
         'rangedsuitai_class2'           => 701,
         'rangedsuitai_class3'           => 702,
 
