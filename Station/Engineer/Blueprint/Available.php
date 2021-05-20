@@ -938,5 +938,20 @@ class Available extends Alias
             30602   => [1, 2, 3, 4, 5],         // Dirty
             30603   => [1, 2, 3, 4, 5],         // Reinforced
         ],
+
+        // Hero Ferrari
+        27      => [
+
+        ],
+
+        // Jude Navarro
+        28      => [
+
+        ],
+
+        // Domino Green
+        29      => [
+
+        ],
     ];
 }

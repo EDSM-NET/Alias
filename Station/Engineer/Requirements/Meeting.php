@@ -92,12 +92,17 @@ class Meeting extends Alias
 
         // Hero Ferrari
         27      => [
-            'Complete 10 Conflict Zones',
+            'Complete 10 Conflict Zones.',
         ],
 
         // Jude Navarro
         28      => [
             'Complete 10 Restore or Reactivation On Foot missions.',
+        ],
+
+        // Domino Green
+        29      => [
+            'Travel 100 light-years in Apex Interstellar Transport shuttles.',
         ],
     ];
 }
