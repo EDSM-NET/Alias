@@ -380,6 +380,8 @@ class Type extends Alias
         1307                                => 'Establish Covert Link with the %target% Data Link',
         1308                                => 'Establish Covert Link with the %target% Data Link',
 
+        1350                                => 'Infiltrate the %target% Data Link',
+
         101302                              => 'Digital Espionage: Download %commodity% from a data port',
 
         111302                              => 'Covert Espionage: Download %commodity% from a data port',
@@ -905,6 +907,8 @@ class Type extends Alias
         'mission_hack_investment'                           => 1306,
         'mission_hack_boom'                                 => 1307,
         'mission_hack_retreat'                              => 1308,
+
+        'mission_hackmegaship'                              => 1350,
 
         'mission_onfoot_hack_download_mb'                   => 101302,
 
