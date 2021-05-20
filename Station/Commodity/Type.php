@@ -1090,32 +1090,6 @@ class Type extends Alias
         'undergroundsupport'                    => 9936,
         'gromcounterintelligence'               => 9937,
         'gromwartrophies'                       => 9938,
-
-        // Odyssey - Items (40)
-        'biochemicalagent'                      => 4001,
-        'geneticsample'                         => 4002,
-        'chemicalsample'                        => 4004,
-        'deepmantlesample'                      => 4007,
-        'insightdatabank'                       => 4013,
-        'insightentertainmentsuite'             => 4014,
-        'personalcomputer'                      => 4018,
-        'personaldocuments'                     => 4019,
-        'largecapacitypowerregulator'           => 4020,
-        'pyrolyticcatalyst'                     => 4021,
-        'shipschematic'                         => 4022,
-        'suitschematic'                         => 4023,
-        'surveillanceequipment'                 => 4024,
-        'syntheticgenome'                       => 4025,
-        'syntheticpathogen'                     => 4026,
-        'vehicleschematic'                      => 4029,
-        'weaponschematic'                       => 4030,
-
-        // Odyssey - Data (41)
-        'employeedirectory'                     => 4119,
-        'employmenthistory'                     => 4121,
-        'factiondonatorlist'                    => 4125,
-        'surveilleancelogs'                     => 4165,
-        'tacticalplans'                         => 4166,
     ];
 
     /**
