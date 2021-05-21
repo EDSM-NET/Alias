@@ -180,9 +180,12 @@ class Type extends Alias
 
        11601                                => 'Collection: Fetch the %commodity% from a settlement',
        11602                                => 'Collection: Fetch the %commodity% from a settlement',
+       11603                                => 'Collection: Fetch the %commodity% from a settlement',
        11606                                => 'Collection: Fetch the %commodity% from a settlement',
+       11607                                => 'Collection: Fetch the %commodity% from a settlement',
        11608                                => 'Collection: Fetch the %commodity% from a settlement',
        11609                                => 'Collection: Fetch the %commodity% from a settlement',
+       11610                                => 'Collection: Fetch the %commodity% from a settlement',
        11611                                => 'Collection: Fetch the %commodity% from a settlement',
        11612                                => 'Collection: Fetch the %commodity% from a settlement',
 
@@ -208,16 +211,47 @@ class Type extends Alias
 
          781                                => 'Salvage %commodityCount% %commodity%',
 
+       11701                                => 'Retrieval: Grab the %commodity% from a crash site',
        11702                                => 'Retrieval: Grab the %commodity% from a crash site',
+       11703                                => 'Recovery: Find the %commodity% in an empty settlement',
+       11707                                => 'Retrieval: Grab the %commodity% from a crash site',
        11709                                => 'Retrieval: Grab the %commodity% from a crash site',
+       11710                                => 'Retrieval: Grab the %commodity% from a crash site',
+       11711                                => 'Retrieval: Grab the %commodity% from a crash site',
+       11712                                => 'Retrieval: Grab the %commodity% from a crash site',
+       11714                                => 'Retrieval: Grab the %commodity% from a crash site',
+       11715                                => 'Retrieval: Grab the %commodity% from a crash site',
+       11716                                => 'Retrieval: Grab the %commodity% from a crash site',
+       11717                                => 'Retrieval: Grab the %commodity% from a crash site',
        11718                                => 'Retrieval: Grab the %commodity% from a crash site',
        11719                                => 'Retrieval: Grab the %commodity% from a crash site',
        11720                                => 'Retrieval: Grab the %commodity% from a crash site',
        11721                                => 'Retrieval: Grab the %commodity% from a crash site',
+       11723                                => 'Retrieval: Grab the %commodity% from a crash site',
 
+       11751                                => 'Salvage: Pull the %commodity% from wreckage',
        11752                                => 'Salvage: Pull the %commodity% from wreckage',
        11753                                => 'Scavenge: Get the %commodity% from an evacuated site',
        11754                                => 'Salvage: Pull the %commodity% from wreckage',
+       11755                                => 'Salvage: Pull the %commodity% from wreckage',
+       11756                                => 'Salvage: Pull the %commodity% from wreckage',
+       11757                                => 'Salvage: Pull the %commodity% from wreckage',
+       11758                                => 'Salvage: Pull the %commodity% from wreckage',
+
+       12702                                => 'Recovery: Find the %commodity% in an empty settlement',
+       12704                                => 'Recovery: Find the %commodity% in an empty settlement',
+       12705                                => 'Recovery: Find the %commodity% in an empty settlement',
+       12706                                => 'Recovery: Find the %commodity% in an empty settlement',
+
+       12752                                => 'Scavenge: Get the %commodity% from an evacuated site',
+       12754                                => 'Scavenge: Get the %commodity% from an evacuated site',
+       12755                                => 'Scavenge: Get the %commodity% from an evacuated site',
+       12756                                => 'Scavenge: Get the %commodity% from an evacuated site',
+       12757                                => 'Scavenge: Get the %commodity% from an evacuated site',
+       12758                                => 'Scavenge: Get the %commodity% from an evacuated site',
+       12759                                => 'Scavenge: Get the %commodity% from an evacuated site',
+       12761                                => 'Scavenge: Get the %commodity% from an evacuated site',
+       12762                                => 'Scavenge: Get the %commodity% from an evacuated site',
 
         // Disable Missions
          801                                => 'Disable the %target% power grid',
@@ -272,6 +306,16 @@ class Type extends Alias
       111004                                => 'Raid: Exterminate %targetFaction% %targetType%',
       111007                                => 'Raid: Exterminate %targetFaction% %targetType%',
 
+      121001                                => 'Massacre: Take out %targetFaction% personnel',
+      121002                                => 'Massacre: Take out %targetFaction% personnel',
+      121004                                => 'Massacre: Take out %targetFaction% personnel',
+      121005                                => 'Massacre: Take out %targetFaction% personnel',
+      121006                                => 'Massacre: Take out %targetFaction% personnel',
+      121007                                => 'Massacre: Take out %targetFaction% personnel',
+      121008                                => 'Massacre: Take out %targetFaction% personnel',
+      121009                                => 'Massacre: Take out %targetFaction% personnel',
+
+
         1051                                => 'Corporate strike against the %targetFaction% %targetType%',
         1052                                => 'Clean out the %targetFaction% %targetType%',
         1053                                => 'Support expansion by destroying the %targetFaction% %targetType%',
@@ -317,9 +361,13 @@ class Type extends Alias
       101113                                => 'Remove %targetType%: %target%',
 
       111102                                => 'Takedown: Kill %target%',
+      111104                                => 'Takedown: Kill %target%',
       111105                                => 'Takedown: Kill %target%',
+      111106                                => 'Takedown: Kill %target%',
       111108                                => 'Takedown: Kill %target%',
       111111                                => 'Takedown: Kill %target%',
+      111113                                => 'Takedown: Kill %target%',
+      111115                                => 'Takedown: Kill %target%',
 
       121102                                => 'Covert Takedown: Kill %target%',
       121105                                => 'Covert Takedown: Kill %target%',
@@ -383,12 +431,25 @@ class Type extends Alias
         1350                                => 'Infiltrate the %target% Data Link',
 
         101302                              => 'Digital Espionage: Download %commodity% from a data port',
+        101304                              => 'Digital Espionage: Download %commodity% from a data port',
+        101306                              => 'Digital Espionage: Download %commodity% from a data port',
+        101307                              => 'Digital Espionage: Download %commodity% from a data port',
+        101308                              => 'Digital Espionage: Download %commodity% from a data port',
+        101309                              => 'Digital Espionage: Download %commodity% from a data port',
+        101310                              => 'Digital Espionage: Download %commodity% from a data port',
+        101311                              => 'Digital Espionage: Download %commodity% from a data port',
 
         111302                              => 'Covert Espionage: Download %commodity% from a data port',
 
         121302                              => 'Digital Infiltration: Breach the network', // the XXX network
+        121304                              => 'Digital Infiltration: Breach the network', // the XXX network
+        121306                              => 'Digital Infiltration: Breach the network', // the XXX network
+        121307                              => 'Digital Infiltration: Breach the network', // the XXX network
+        121308                              => 'Digital Infiltration: Breach the network', // the XXX network
 
         131302                              => 'Covert Infiltration: Breach the network', // the XXX network
+        131304                              => 'Covert Infiltration: Breach the network', // the XXX network
+        131307                              => 'Covert Infiltration: Breach the network', // the XXX network
 
         1351                                => 'Covert data retrieval assignment',
         1352                                => 'Tactical data acquisition',
@@ -525,6 +586,8 @@ class Type extends Alias
 
         4801                                => 'Restore: Prepare for operation', // Prepare ??? for
         4802                                => 'Restore: Prepare for operation', // Prepare ??? for
+        4803                                => 'Restore: Find a regulator and prepare', // Prepare ??? for
+        4804                                => 'Restore: Prepare for operation', // Prepare ??? for
 
         4902                                => 'Shutdown: Disable power', // ... at %stationName%
         4904                                => 'Shutdown: Disable power', // ... at %stationName%
@@ -722,9 +785,12 @@ class Type extends Alias
 
         'mission_onfoot_collect'                            => 11601,
         'mission_onfoot_collect_mb'                         => 11602,
+        'mission_onfoot_collect_001'                        => 11603,
         'mission_onfoot_collect_003'                        => 11606,
+        'mission_onfoot_collect_004'                        => 11607,
         'mission_onfoot_collect_005'                        => 11608,
         'mission_onfoot_collect_006'                        => 11609,
+        'mission_onfoot_collect_007'                        => 11610,
         'mission_onfoot_collect_008'                        => 11611,
         'mission_onfoot_collect_009'                        => 11612,
 
@@ -752,14 +818,45 @@ class Type extends Alias
 
         'mission_onfoot_salvage'                            => 11701,
         'mission_onfoot_salvage_mb'                         => 11702,
+        'mission_onfoot_salvage_bs'                         => 11703,
+        'mission_onfoot_salvage_004'                        => 11707,
         'mission_onfoot_salvage_006'                        => 11709,
+        'mission_onfoot_salvage_007'                        => 11710,
+        'mission_onfoot_salvage_008'                        => 11711,
+        'mission_onfoot_salvage_009'                        => 11712,
+        'mission_onfoot_salvage_011'                        => 11714,
+        'mission_onfoot_salvage_012'                        => 11715,
+        'mission_onfoot_salvage_013'                        => 11716,
+        'mission_onfoot_salvage_014'                        => 11717,
         'mission_onfoot_salvage_015'                        => 11718,
         'mission_onfoot_salvage_016'                        => 11719,
         'mission_onfoot_salvage_017'                        => 11720,
+        'mission_onfoot_salvage_018'                        => 11721,
+        'mission_onfoot_salvage_020'                        => 11723,
 
+        'mission_onfoot_salvageillegal'                     => 11751,
         'mission_onfoot_salvageillegal_mb'                  => 11752,
         'mission_onfoot_salvageillegal_bs'                  => 11753,
         'mission_onfoot_salvageillegal_001'                 => 11754,
+        'mission_onfoot_salvageillegal_002'                 => 11755,
+        'mission_onfoot_salvageillegal_003'                 => 11756,
+        'mission_onfoot_salvageillegal_004'                 => 11757,
+        'mission_onfoot_salvageillegal_005'                 => 11758,
+
+        'mission_onfoot_salvage_bs_mb'                      => 12702,
+        'mission_onfoot_salvage_bs_001'                     => 12704,
+        'mission_onfoot_salvage_bs_002'                     => 12705,
+        'mission_onfoot_salvage_bs_003'                     => 12706,
+
+        'mission_onfoot_salvageillegal_bs_mb'               => 12752,
+        'mission_onfoot_salvageillegal_bs_001'              => 12754,
+        'mission_onfoot_salvageillegal_bs_002'              => 12755,
+        'mission_onfoot_salvageillegal_bs_003'              => 12756,
+        'mission_onfoot_salvageillegal_bs_004'              => 12757,
+        'mission_onfoot_salvageillegal_bs_005'              => 12758,
+        'mission_onfoot_salvageillegal_bs_006'              => 12759,
+        'mission_onfoot_salvageillegal_bs_008'              => 12761,
+        'mission_onfoot_salvageillegal_bs_009'              => 12762,
 
         'mission_disable'                                   => 801,
         'mission_disable_hightech'                          => 802,
@@ -811,6 +908,15 @@ class Type extends Alias
         'mission_onfoot_massacre_001'                       => 111004,
         'mission_onfoot_massacre_004'                       => 111007,
 
+        'mission_onfoot_massacreillegal'                    => 121001,
+        'mission_onfoot_massacreillegal_mb'                 => 121002,
+        'mission_onfoot_massacreillegal_001'                => 121004,
+        'mission_onfoot_massacreillegal_002'                => 121005,
+        'mission_onfoot_massacreillegal_003'                => 121006,
+        'mission_onfoot_massacreillegal_004'                => 121007,
+        'mission_onfoot_massacreillegal_005'                => 121008,
+        'mission_onfoot_massacreillegal_006'                => 121009,
+
         'mission_massacre_skimmer_corporation'              => 1051,
         'mission_massacre_skimmer_refinery'                 => 1052,
         'mission_massacre_skimmer_expansion'                => 1053,
@@ -855,9 +961,13 @@ class Type extends Alias
         'mission_assassinatewing_legal_communism'           => 101113,
 
         'mission_onfoot_assassination_mb'                   => 111102,
+        'mission_onfoot_assassination_001'                  => 111104,
         'mission_onfoot_assassination_002'                  => 111105,
+        'mission_onfoot_assassination_003'                  => 111106,
         'mission_onfoot_assassination_005'                  => 111108,
         'mission_onfoot_assassination_008'                  => 111111,
+        'mission_onfoot_assassination_010'                  => 111113,
+        'mission_onfoot_assassination_012'                  => 111115,
 
         'mission_onfoot_assassination_covert_mb'            => 121102,
         'mission_onfoot_assassination_covert_002'           => 121105,
@@ -919,12 +1029,25 @@ class Type extends Alias
         'mission_hackmegaship'                              => 1350,
 
         'mission_onfoot_hack_download_mb'                   => 101302,
+        'mission_onfoot_hack_download_001'                  => 101304,
+        'mission_onfoot_hack_download_003'                  => 101306,
+        'mission_onfoot_hack_download_004'                  => 101307,
+        'mission_onfoot_hack_download_005'                  => 101308,
+        'mission_onfoot_hack_download_006'                  => 101309,
+        'mission_onfoot_hack_download_007'                  => 101310,
+        'mission_onfoot_hack_download_008'                  => 101311,
 
         'mission_onfoot_hack_download_covert_mb'            => 111302,
 
         'mission_onfoot_hack_upload_mb'                     => 121302,
+        'mission_onfoot_hack_upload_001'                    => 121304,
+        'mission_onfoot_hack_upload_003'                    => 121306,
+        'mission_onfoot_hack_upload_004'                    => 121307,
+        'mission_onfoot_hack_upload_005'                    => 121308,
 
         'mission_onfoot_hack_upload_covert_mb'              => 131302,
+        'mission_onfoot_hack_upload_covert_001'             => 131304,
+        'mission_onfoot_hack_upload_covert_004'             => 131307,
 
         'mission_hack_blops'                                => 1351,
         'mission_hack_blops_civilwar'                       => 1352,
@@ -1060,6 +1183,8 @@ class Type extends Alias
 
         'mission_onfoot_rebootrestore'                      => 4801,
         'mission_onfoot_rebootrestore_mb'                   => 4802,
+        'mission_onfoot_rebootrestore_nr'                   => 4803,
+        'mission_onfoot_rebootrestore_001'                  => 4804,
 
         'mission_onfoot_sabotage_power_mb'                  => 4902,
         'mission_onfoot_sabotage_power_001'                 => 4904,

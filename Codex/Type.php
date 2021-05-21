@@ -122,6 +122,7 @@ class Type extends Alias
         13011                       => 'Earth-Like Planet',
         13020                       => 'Ammonia Planet',
             13021                       => 'Non Terraformable',
+            13022                       => 'Terraformable',
         13030                       => 'Water planet',
             13031                       => 'Non Terraformable',
             13032                       => 'Terraformable',
@@ -408,6 +409,52 @@ class Type extends Alias
         22730                       => 'Torus Molluscs',
             22732                       => 'Caeruleum Torus Mollusc',
             22735                       => 'Rubellum Torus Mollusc',
+        22750                       => 'Fonticulua Campestris',
+            22751                       => 'Fonticulua Campestris - Amethyst',
+            22752                       => 'Fonticulua Campestris - Emerald',
+            22753                       => 'Fonticulua Campestris - Mauve',
+            22754                       => 'Fonticulua Campestris - Teal',
+            22755                       => 'Fonticulua Campestris - Orange',
+            22756                       => 'Fonticulua Campestris - Ocher',
+            22757                       => 'Fonticulua Campestris - Green',
+            22758                       => 'Fonticulua Campestris - Yellow',
+            22759                       => 'Fonticulua Campestris - Red',
+            22760                       => 'Fonticulua Campestris - Sage',
+
+        22770                       => 'Osseus Spiralis',
+            22772                       => 'Osseus Spiralis - Indigo',
+            22774                       => 'Osseus Spiralis - Grey',
+            22775                       => 'Osseus Spiralis - Emerald',
+            22777                       => 'Osseus Spiralis - Lime',
+            22778                       => 'Osseus Spiralis - Turquoise',
+
+        22790                       => 'Osseus Fractus',
+            22792                       => 'Osseus Fractus - Indigo',
+            22794                       => 'Osseus Fractus - Grey',
+            22797                       => 'Osseus Fractus - Lime',
+            22798                       => 'Osseus Fractus - Turquoise',
+
+        22810                       => 'Stratum Tectonicas',
+            22811                       => 'Stratum Tectonicas - Green',
+            22812                       => 'Stratum Tectonicas - Lime',
+            22815                       => 'Stratum Tectonicas - Grey',
+            22818                       => 'Stratum Tectonicas - Emerald',
+            22819                       => 'Stratum Tectonicas - Amethyst',
+
+        22830                       => 'Tussock Cultro',
+            22831                       => 'Tussock Cultro - Emerald',
+            22832                       => 'Tussock Cultro - Green',
+            22833                       => 'Tussock Cultro - Sage',
+            22834                       => 'Tussock Cultro - Lime',
+            22835                       => 'Tussock Cultro - Teal',
+            22838                       => 'Tussock Cultro - Yellow',
+
+        22851                       => 'Stratum Paleas',
+            22851                       => 'Stratum Paleas - Green',
+            22852                       => 'Stratum Paleas - Lime',
+            22855                       => 'Stratum Paleas - Grey',
+            22858                       => 'Stratum Paleas - Emerald',
+
 
 
         31010                       => 'Thargoid Interceptor',
@@ -856,6 +903,46 @@ class Type extends Alias
 
         'codex_ent_small_org_moll01_v2_bl'                  => 22732,
         'codex_ent_small_org_moll01_v2_red'                 => 22735,
+
+        'codex_ent_fonticulus_02_m'                         => 22751,
+        'codex_ent_fonticulus_02_k'                         => 22752,
+        'codex_ent_fonticulus_02_l'                         => 22753,
+        'codex_ent_fonticulus_02_g'                         => 22754,
+        'codex_ent_fonticulus_02_t'                         => 22755,
+        'codex_ent_fonticulus_02_y'                         => 22756,
+        'codex_ent_fonticulus_02_a'                         => 22757,
+        'codex_ent_fonticulus_02_f'                         => 22758,
+        'codex_ent_fonticulus_02_tts'                       => 22759,
+        'codex_ent_fonticulus_02_n'                         => 22760,
+
+        'codex_ent_osseus_03_k'                             => 22772,
+        'codex_ent_osseus_03_g'                             => 22774,
+        'codex_ent_osseus_03_t'                             => 22775,
+        'codex_ent_osseus_03_a'                             => 22777,
+        'codex_ent_osseus_03_f'                             => 22778,
+
+        'codex_ent_osseus_01_k'                             => 22792,
+        'codex_ent_osseus_01_g'                             => 22794,
+        'codex_ent_osseus_01_a'                             => 22797,
+        'codex_ent_osseus_01_f'                             => 22798,
+
+        'codex_ent_stratum_07_m'                            => 22811,
+        'codex_ent_stratum_07_k'                            => 22812,
+        'codex_ent_stratum_07_t'                            => 22815,
+        'codex_ent_stratum_07_f'                            => 22818,
+        'codex_ent_stratum_07_tts'                          => 22819,
+
+        'codex_ent_tussocks_04_m'                           => 22831,
+        'codex_ent_tussocks_04_k'                           => 22832,
+        'codex_ent_tussocks_04_l'                           => 22833,
+        'codex_ent_tussocks_04_g'                           => 22834,
+        'codex_ent_tussocks_04_t'                           => 22835,
+        'codex_ent_tussocks_04_f'                           => 22838,
+
+        'codex_ent_stratum_02_m'                            => 22851,
+        'codex_ent_stratum_02_k'                            => 22852,
+        'codex_ent_stratum_02_t'                            => 22855,
+        'codex_ent_stratum_02_f'                            => 22858,
 
 
 

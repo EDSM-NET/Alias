@@ -29,6 +29,8 @@ class Util extends Alias
          504                                    => 'Thargoid Medusa',
          505                                    => 'Thargoid Hydra',
 
+         900                                    => 'Data Link',
+
         1001                                    => 'Pirate Lord',
         1002                                    => 'Pirates',
         1003                                    => 'Sentry Skimmer',
@@ -77,6 +79,8 @@ class Util extends Alias
         'factiontag_basilisk'                   => 503,
         'factiontag_medusa'                     => 504,
         'factiontag_hydra'                      => 505,
+
+        'factiontag_datalink'                   => 900,
 
         'factiontag_piratelord'                 => 1001,
         'factiontag_pirate'                     => 1002,

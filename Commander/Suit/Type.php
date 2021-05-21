@@ -20,6 +20,7 @@ class Type extends Alias
 
         200     => 'lightassaultsuitai_class1',
         201     => 'lightassaultsuitai_class2',
+        202     => 'lightassaultsuitai_class3',
 
         300     => 'assaultsuitai_class1',
         301     => 'assaultsuitai_class2',
@@ -67,6 +68,7 @@ class Type extends Alias
 
         'lightassaultsuitai_class1'     => 200,
         'lightassaultsuitai_class2'     => 201,
+        'lightassaultsuitai_class3'     => 202,
 
         'assaultsuitai_class1'          => 300,
         'assaultsuitai_class2'          => 301,
