@@ -57,6 +57,13 @@ class Type extends Alias
         1041 => 'Universal Translator',
         1042 => 'Vehicle Schematic',
         1043 => 'Weapon Schematic',
+        // Consumbales
+        1501 => 'Energy Cell',
+        1502 => 'Medkit',
+        1503 => 'E-Breach',
+        1504 => 'Frag Grenade',
+        1505 => 'Shield Disruptor',
+        1506 => 'Shield Projector',
         // Data
         2001 => 'Accident Logs',
         2002 => 'Air Quality Reports',
@@ -219,7 +226,7 @@ class Type extends Alias
      */
     static protected $alias = [
         // Items
-        'Agriculturalprocesssample'       => 1001,
+        'agriculturalprocesssample'       => 1001,
         'biochemicalagent'                => 1002,
         'geneticsample'                   => 1003,
         'buildingschematic'               => 1004,
@@ -262,6 +269,13 @@ class Type extends Alias
         'universaltranslator'             => 1041,
         'vehicleschematic'                => 1042,
         'weaponschematic'                 => 1043,
+        // Consumables
+        'energycell'                      => 1501,
+        'healthpack'                      => 1502,
+        'bypass'                          => 1503,
+        'amm_grenade_frag'                => 1504,
+        'amm_grenade_emp'                 => 1505,
+        'amm_grenade_shield'              => 1506,
         // Data
         'accidentlogs'                    => 2001,
         'airqualityreports'               => 2002,
