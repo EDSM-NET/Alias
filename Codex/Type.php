@@ -420,27 +420,23 @@ class Type extends Alias
             22758                       => 'Fonticulua Campestris - Yellow',
             22759                       => 'Fonticulua Campestris - Red',
             22760                       => 'Fonticulua Campestris - Sage',
-
         22770                       => 'Osseus Spiralis',
             22772                       => 'Osseus Spiralis - Indigo',
             22774                       => 'Osseus Spiralis - Grey',
             22775                       => 'Osseus Spiralis - Emerald',
             22777                       => 'Osseus Spiralis - Lime',
             22778                       => 'Osseus Spiralis - Turquoise',
-
         22790                       => 'Osseus Fractus',
             22792                       => 'Osseus Fractus - Indigo',
             22794                       => 'Osseus Fractus - Grey',
             22797                       => 'Osseus Fractus - Lime',
             22798                       => 'Osseus Fractus - Turquoise',
-
         22810                       => 'Stratum Tectonicas',
             22811                       => 'Stratum Tectonicas - Green',
             22812                       => 'Stratum Tectonicas - Lime',
             22815                       => 'Stratum Tectonicas - Grey',
             22818                       => 'Stratum Tectonicas - Emerald',
             22819                       => 'Stratum Tectonicas - Amethyst',
-
         22830                       => 'Tussock Cultro',
             22831                       => 'Tussock Cultro - Emerald',
             22832                       => 'Tussock Cultro - Green',
@@ -448,12 +444,24 @@ class Type extends Alias
             22834                       => 'Tussock Cultro - Lime',
             22835                       => 'Tussock Cultro - Teal',
             22838                       => 'Tussock Cultro - Yellow',
-
         22851                       => 'Stratum Paleas',
             22851                       => 'Stratum Paleas - Green',
             22852                       => 'Stratum Paleas - Lime',
             22855                       => 'Stratum Paleas - Grey',
             22858                       => 'Stratum Paleas - Emerald',
+        22870                       => 'Frutexa Acus',
+            22871                       => 'Frutexa Acus - Grey',
+            22874                       => 'Frutexa Acus - Emerald',
+            22878                       => 'Frutexa Acus - Green',
+        22890                       => 'Bacterium Aurasus',
+            22891                       => 'Bacterium Aurasus - Teal',
+            22892                       => 'Bacterium Aurasus - Green',
+            22893                       => 'Bacterium Aurasus - Sage',
+            22894                       => 'Bacterium Aurasus - Emerald',
+            22895                       => 'Bacterium Aurasus - Red',
+            22897                       => 'Bacterium Aurasus - Yellow',
+            22898                       => 'Bacterium Aurasus - Lime',
+            22900                       => 'Bacterium Aurasus - Indigo',
 
 
 
@@ -943,6 +951,19 @@ class Type extends Alias
         'codex_ent_stratum_02_k'                            => 22852,
         'codex_ent_stratum_02_t'                            => 22855,
         'codex_ent_stratum_02_f'                            => 22858,
+
+        'codex_ent_shrubs_02_m'                             => 22871,
+        'codex_ent_shrubs_02_g'                             => 22874,
+        'codex_ent_shrubs_02_f'                             => 22878,
+
+        'codex_ent_bacterial_01_m'                          => 22891,
+        'codex_ent_bacterial_01_k'                          => 22892,
+        'codex_ent_bacterial_01_l'                          => 22893,
+        'codex_ent_bacterial_01_g'                          => 22894,
+        'codex_ent_bacterial_01_t'                          => 22895,
+        'codex_ent_bacterial_01_a'                          => 22897,
+        'codex_ent_bacterial_01_f'                          => 22898,
+        'codex_ent_bacterial_01_n'                          => 22900,
 
 
 

@@ -46,6 +46,12 @@ class Engineer extends Alias
         27                              => 'Hero Ferrari',
         28                              => 'Jude Navarro',
         29                              => 'Domino Green',
+        30                              => 'Kit Fowler',
+        31                              => 'Terra Velasquez',
+        32                              => 'Uma Laszlo',
+        33                              => 'Yarden Bond',
+        34                              => 'Wellington Beck',
+        35                              => 'Oden Geiger',
     ];
 
     /**
@@ -142,5 +148,23 @@ class Engineer extends Alias
 
         'domino green'                  => 29,
         400002                          => 29,
+
+        'kit fowler'                    => 30,
+        400004                          => 30,
+
+        'terra velasquez'               => 31,
+        400006                          => 31,
+
+        'uma laszlo'                    => 32,
+        400007                          => 32,
+
+        'yarden bond'                   => 33,
+        400009                          => 33,
+
+        'wellington beck'               => 34,
+        400005                          => 34,
+
+        'oden geiger'                   => 35,
+        400008                          => 35,
     ];
 }

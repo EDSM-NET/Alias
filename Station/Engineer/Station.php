@@ -39,8 +39,14 @@ class Station extends Alias
         24      => 63767,           // Etienne Dorn
         //25      => 63767,           // Trin Falcour
         26      => 64069,           // Chloe Sedesi
-        27      => null,            // Hero Ferrari
-        28      => null,            // Jude Navarro
-        29      => null,            // Domino Green
+        27      => 86892,           // Hero Ferrari
+        28      => 86538,           // Jude Navarro
+        29      => 84691,           // Domino Green
+        30      => 100144,          // Kit Fowler
+        31      => 111597,          // Terra Velasquez
+        32      => 99041,           // Uma Laszlo
+        33      => null,            // Yarden Bond
+        34      => 98993,           // Wellington Beck
+        35      => 112537,          // Oden Geiger
     ];
 }

@@ -101,6 +101,10 @@ class Victim extends Alias
         513     => 'Onboard Data Beacon',
         514     => 'Rescue Vessel',
 
+        601     => 'Ground Turret',
+
+        611     => 'Settlement Defences',
+        612     => 'Settlement Defences',
     ];
 
     /**
@@ -201,5 +205,10 @@ class Victim extends Alias
         'luasc_scenario_warzone_npc_warzonegeneral_emp'     => 512,
         'luasc_scenario_uss_debrisfield_shipname'           => 513,
         'luasc_scenario_megaship_tg_sender_rescuer'         => 514,
+
+        'ps_turretbasesmall_3m'                 => 601,
+
+        'ps_turretbasemedium_6m'                => 611,
+        'ps_turretbasemedium02_6m'              => 612,
     ];
 }

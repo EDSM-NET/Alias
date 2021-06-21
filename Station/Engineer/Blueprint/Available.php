@@ -953,5 +953,35 @@ class Available extends Alias
         29      => [
 
         ],
+
+        // Kit Fowler
+        30      => [
+
+        ],
+
+        // Terra Velasquez
+        31      => [
+
+        ],
+
+        // Uma Laszlo
+        32      => [
+
+        ],
+
+        // Yarden Bond
+        33      => [
+
+        ],
+
+        // Wellington Beck
+        34      => [
+
+        ],
+
+        // Oden Geiger
+        35      => [
+
+        ],
     ];
 }

@@ -106,5 +106,31 @@ class Unlock extends Alias
 
         // Domino Green
         29      => null,
+
+        // Kit Fowler
+        30      => [
+            'Sell 40 Opinion polls to bartenders.',
+        ],
+
+        // Terra Velasquez
+        31      => [
+            'Complete 6 Covert theft and Covert heist missions.',
+        ],
+
+        // Uma Laszlo
+        32      => [
+            'Reach Unfriendly reputation or lower with Sirius Corporation.',
+        ],
+
+        // Yarden Bond
+        33      => [
+            'Sell 8 Smear campaign plans to bartenders.',
+        ],
+
+        // Wellington Beck
+        34      => null,
+
+        // Oden Geiger
+        35      => null,
     ];
 }

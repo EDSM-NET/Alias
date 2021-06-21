@@ -98,5 +98,23 @@ class Repuation extends Alias
 
         // Domino Green
         29      => null,
+
+        // Kit Fowler
+        30      => null,
+
+        // Terra Velasquez
+        31      => null,
+
+        // Uma Laszlo
+        32      => null,
+
+        // Yarden Bond
+        33      => null,
+
+        // Wellington Beck
+        34      => null,
+
+        // Oden Geiger
+        35      => null,
     ];
 }

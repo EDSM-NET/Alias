@@ -82,6 +82,7 @@ class Service extends Alias
         'livery'                => 64,
         'modulepacks'           => 65,
         'voucherredemption'     => 66,
+        'socialspace'           => 67,
 
         'techbroker'            => 70,
         'materialtrader'        => 71,

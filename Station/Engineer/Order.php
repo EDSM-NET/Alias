@@ -120,14 +120,28 @@ class Order extends Alias
         [
             'parent'    => 27,   // Hero Ferrari
             'children'  => [
-
+                [
+                    'parent'    => 34,   // Wellington Beck
+                    'children'  => [
+                        [
+                            'parent'    => 32,   // Uma Laszlo
+                        ],
+                    ],
+                ],
             ],
         ],
 
         [
             'parent'    => 28,   // Jude Navarro
             'children'  => [
-
+                [
+                    'parent'    => 31,   // Terra Velasquez
+                    'children'  => [
+                        [
+                            'parent'    => 35,      // Oden Geiger
+                        ],
+                    ],
+                ],
             ],
         ],
 
@@ -135,6 +149,15 @@ class Order extends Alias
             'parent'    => 29,   // Domino Green
             'children'  => [
 
+            ],
+        ],
+
+        [
+            'parent'    => 30,   // Kit Fowler
+            'children'  => [
+                [
+                    'parent'    => 33,   // Yarden Bond
+                ],
             ],
         ],
     ];
