@@ -723,6 +723,23 @@ class Badge extends Alias
             'background'        => 9500,
         ],
 
+        /**
+         * PINK Badge
+         */
+        7465    => [ // PINK Keypad code
+            'name'              => 'Twatted by Sally!',
+            'description'       => 'Be killed by the Pink Lady.',
+
+            'active'            => true,
+            'manual'            => false,
+            'hidden'            => false,
+
+            'outerColor'        => [251, 72, 196],
+            'innerColor'        => [199, 58, 157],
+
+            'verticalOffset'    => 300,
+
+        ],
 
         /**
          * SPEED BOWL #1 BADGES

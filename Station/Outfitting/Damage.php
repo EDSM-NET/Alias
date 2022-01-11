@@ -141,8 +141,8 @@ class Damage extends Alias
 
           1313  => 34.400002,
 
-          1321  => null,
-          1322  => null,
+          1321  => 1.65,
+          1322  => 2.75,
           1323  => null,
 
           1329  => null,

@@ -52,6 +52,10 @@ class Engineer extends Alias
         33                              => 'Yarden Bond',
         34                              => 'Wellington Beck',
         35                              => 'Oden Geiger',
+        36                              => 'Eleanor Bresa',
+        37                              => 'Rosa Dayette',
+        38                              => 'Baltanos',
+        39                              => 'Yi Shen',
     ];
 
     /**
@@ -166,5 +170,17 @@ class Engineer extends Alias
 
         'oden geiger'                   => 35,
         400008                          => 35,
+
+        'eleanor bresa'                 => 36,
+        400011                          => 36,
+
+        'rosa dayette'                  => 37,
+        400012                          => 37,
+
+        'baltanos'                      => 38,
+        400010                          => 38,
+
+        'yi shen'                       => 39,
+        400013                          => 39,
     ];
 }

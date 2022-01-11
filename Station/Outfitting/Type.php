@@ -1474,6 +1474,22 @@ class Type extends Alias
           6341  => 'Guardian Module Reinforcement',
           6342  => 'Guardian Module Reinforcement',
 
+        // Optional Internal > Multi Limpet Controller Modules
+          6403  => 'Universal Multi Limpet Controller',
+          6405  => 'Universal Multi Limpet Controller',
+        
+          6411  => 'Mining Multi Limpet Controller',
+          6413  => 'Mining Multi Limpet Controller',
+        
+          6423  => 'Operations Multi Limpet Controller',
+          6424  => 'Operations Multi Limpet Controller',
+        
+          6432  => 'Rescue Multi Limpet Controller',
+          6433  => 'Rescue Multi Limpet Controller',
+        
+          6443  => 'Xeno Multi Limpet Controller',
+          6444  => 'Xeno Multi Limpet Controller',
+
         // Cargo bay door (No category, not sellable, only for ship module list)
           9990  => 'Cargo hatch',
           9991  => 'Cargo hatch',
@@ -2954,6 +2970,22 @@ class Type extends Alias
 
         'int_guardianmodulereinforcement_size5_class1'  => 6341,
         'int_guardianmodulereinforcement_size5_class2'  => 6342,
+
+        // Optional Internal > Multi Limpet Controller Modules
+        'int_multidronecontrol_universal_size7_class3'  => 6403,
+        'int_multidronecontrol_universal_size7_class5'  => 6405,
+        
+        'int_multidronecontrol_mining_size3_class1'     => 6411,
+        'int_multidronecontrol_mining_size3_class3'     => 6413,
+        
+        'int_multidronecontrol_operations_size3_class3' => 6423,
+        'int_multidronecontrol_operations_size3_class4' => 6424,
+        
+        'int_multidronecontrol_rescue_size3_class2'     => 6432,
+        'int_multidronecontrol_rescue_size3_class3'     => 6433,
+        
+        'int_multidronecontrol_xeno_size3_class3'       => 6443,
+        'int_multidronecontrol_xeno_size3_class4'       => 6444,
 
 
 

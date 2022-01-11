@@ -170,6 +170,9 @@ class DamageFalloffRange extends Alias
           1451  => null,
           1452  => 1000,
 
+        // Weapon Hardpoint > Mining Laser
+          1501  => 300,
+
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 1000,
     ];

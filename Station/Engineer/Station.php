@@ -20,7 +20,7 @@ class Station extends Alias
          5      => 26,              // Selene Jean
          6      => 10,              // Felicity Farseer
          7      => 213,             // Marco Qwent
-         8      => 10484,             // Professor Palin
+         8      => 175,             // Professor Palin
          9      => 152,             // Didi Vatermann
         10      => 794,             // The Dweller
         11      => 266,             // Colonel Bris Dekker
@@ -48,5 +48,9 @@ class Station extends Alias
         33      => null,            // Yarden Bond
         34      => 98993,           // Wellington Beck
         35      => 112537,          // Oden Geiger
+        36      => 169752,          // Eleanor Bresa
+        37      => null,            // Rosa Dayette
+        38      => null,            // Baltanos
+        39      => null,            // Yi Shen
     ];
 }

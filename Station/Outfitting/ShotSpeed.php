@@ -101,8 +101,8 @@ class ShotSpeed extends Alias
 
           1313  => 875,
 
-          1321  => null,
-          1322  => null,
+          1321  => 1200,
+          1322  => 1200,
           1323  => null,
 
           1329  => null,

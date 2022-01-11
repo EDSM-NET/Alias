@@ -59,6 +59,8 @@ class Category extends Alias
         306     => 'CORE INTERNAL - Thrusters',
 
         401     => 'ARMOUR - Armour',
+        
+        501     => 'DECORATIVE',
     ];
 
     /**
@@ -100,7 +102,10 @@ class Category extends Alias
 
         // HARDPOINT - Torpedo Pylon
          12     => [1201, 1202, ],
-
+        
+        // HARDPOINT > Shard Cannon
+         13     => [1301, ],
+        
         // UTILITY MOUNT - Chaff Launcher
         101     => [10101, 10102, 10103, 10104, ],
 
@@ -184,5 +189,8 @@ class Category extends Alias
 
         // ARMOUR
         401     => [40101, 40102, 40103, 40104, 40105, ],
+        
+        // DECORATIVE
+        501     => [50101, 50102, 50103, ],
     ];
 }

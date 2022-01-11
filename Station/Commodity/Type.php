@@ -109,6 +109,7 @@ class Type extends Alias
          334        => 'Harma Silver Sea Rum',
          335        => 'Crom Silver Fesh',
          336        => 'Apa Vietii',                        /**/
+         337        => 'Onionhead Gamma Strain',
 
 
         // Foods (4)
@@ -315,6 +316,7 @@ class Type extends Alias
         1118        => 'Ion Distributor',
         1119        => 'Hardware Diagnostic Sensor',
         1120        => 'Medical Diagnostic Equipment',
+        1121        => 'Classified Experimental Equipment', /**/
 
 
         // Textiles (12)
@@ -707,6 +709,7 @@ class Type extends Alias
         'harmasilversearum'                     => 334,
         'animaleffigies'                        => 335,
         'apavietii'                             => 336,
+        'onionheadc'                            => 337,
 
 
         // Foods (4)
@@ -913,6 +916,7 @@ class Type extends Alias
         'ion distributor'                       => 1118,    'iondistributor'                => 1118,
         'hardware diagnostic sensor'            => 1119,    'diagnostic sensor'             => 1119,    'diagnosticsensor'              => 1119,
         'medical diagnostic equipment'          => 1120,    'medicaldiagnosticequipment'    => 1120,
+        'classifiedexperimentalequipment'       => 1121,
 
 
         // Textiles (12)

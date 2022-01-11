@@ -212,7 +212,7 @@ class Integrity extends Alias
           1452  => 51,
 
         // Weapon Hardpoint > Mining Laser
-          1501  => null,
+          1501  => 40,
           1502  => null,
           1509  => null,
           1510  => null,
@@ -1249,6 +1249,22 @@ class Integrity extends Alias
 
           6341  => null,
           6342  => null,
+
+        // Optional Internal > Multi Limpet Controller Modules
+          6403  => 150,
+          6405  => 200,
+        
+          6411  => 45,
+          6413  => 68,
+        
+          6423  => 68,
+          6424  => 80,
+        
+          6432  => 58,
+          6433  => 68,
+        
+          6443  => 68,
+          6444  => 80,
 
         // Cargo bay door (No category, not sellable, only for ship module list)
           9990  => null,

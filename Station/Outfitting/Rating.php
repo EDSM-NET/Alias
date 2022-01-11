@@ -1458,5 +1458,21 @@ class Rating extends Alias
 
           6341  => 'E',
           6342  => 'D',
+
+        // Optional Internal > Multi Limpet Controller Modules
+          6403  => 'C',
+          6405  => 'A',
+        
+          6411  => 'E',
+          6413  => 'C',
+        
+          6423  => 'C',
+          6424  => 'B',
+        
+          6432  => 'D',
+          6433  => 'C',
+        
+          6443  => 'C',
+          6444  => 'B',
     ];
 }

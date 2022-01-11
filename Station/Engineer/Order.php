@@ -160,5 +160,33 @@ class Order extends Alias
                 ],
             ],
         ],
+
+        [
+            'parent'    => 36,   // Eleanor Bresa
+            'children'  => [
+
+            ],
+        ],
+
+        [
+            'parent'    => 37,   // Rosa Dayette
+            'children'  => [
+
+            ],
+        ],
+
+        [
+            'parent'    => 38,   // Baltanos
+            'children'  => [
+
+            ],
+        ],
+
+        [
+            'parent'    => 39,   // Yi Shen
+            'children'  => [
+
+            ],
+        ],
     ];
 }

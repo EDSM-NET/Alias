@@ -160,6 +160,9 @@ class MaximumRange extends Alias
         // Weapon Hardpoint > Mine Launcher
           1452  => 3000,
 
+        // Weapon Hardpoint > Mining Laser
+          1501  => 500,
+
         // Utility Mount > Point Defence
           2200  => 2500,
     ];

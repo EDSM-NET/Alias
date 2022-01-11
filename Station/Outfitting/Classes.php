@@ -1458,5 +1458,21 @@ class Classes extends Alias
 
           6341  => 5,
           6342  => 5,
+
+        // Optional Internal > Multi Limpet Controller Modules
+          6403  => 7,
+          6405  => 7,
+        
+          6411  => 3,
+          6413  => 3,
+        
+          6423  => 3,
+          6424  => 3,
+        
+          6432  => 3,
+          6433  => 3,
+        
+          6443  => 3,
+          6444  => 3,
     ];
 }

@@ -172,6 +172,9 @@ class DistributorDraw extends Alias
           1412  => 0.24,
           1413  => 0.24,
 
+        // Weapon Hardpoint > Mining Laser
+          1501  => 1.5,
+
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 0.24,
     ];

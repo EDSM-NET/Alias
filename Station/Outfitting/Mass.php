@@ -1354,6 +1354,21 @@ class Mass extends Alias
           6341  => 32,
           6342  => 16,
 
+        // Optional Internal > Multi Limpet Controller Modules
+          6403  => 125,
+          6405  => 140,
+        
+          6411  => 12,
+          6413  => 10,
+        
+          6423  => 10,
+          6424  => 15,
+        
+          6432  => 8,
+          6433  => 10,
+        
+          6443  => 10,
+          6444  => 15,
 
         // Cargo bay door (No category, not sellable, only for ship module list)
           9990  => 0,

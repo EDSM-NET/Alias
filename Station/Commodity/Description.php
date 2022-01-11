@@ -719,6 +719,7 @@ class Description extends Alias
                         Consumed by: Service<br />
                         <br />
                         Equipment which allows for rapid diagnosis of a large number of ailments and diseases. This equipment also screens for and identifies prohibited substances.',
+        1121        => 'Secretive technology required by Salvation for mass anti-Xeno initiatives.',
 
         // Textiles (12)
         1201        => 'Produced by: Agricultural<br />

@@ -166,6 +166,9 @@ class DamagePerSecond extends Alias
           1451  => 44,
           1452  => 44,
 
+        // Weapon Hardpoint > Mining Laser
+          1501  => 2,
+
         // Weapon Hardpoint > Torpedo Pylon
           1551  => 120,
           1552  => 120,

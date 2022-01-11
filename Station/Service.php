@@ -86,5 +86,11 @@ class Service extends Alias
 
         'techbroker'            => 70,
         'materialtrader'        => 71,
+
+        'bartender'             => 80,
+        'apexinterstellar'      => 81,
+        'frontlinesolutions'    => 82,
+        'pioneersupplies'       => 83,
+        'vistagenomics'         => 84,
     ];
 }

@@ -146,6 +146,9 @@ class ThermalLoad extends Alias
           1304  => 29.459999,
 
           1313  => 11,
+        
+          1321  => 4.21,
+          1322  => 5.21,
 
         // Weapon Hardpoint > Rail Gun
           1351  => 12,
@@ -169,6 +172,9 @@ class ThermalLoad extends Alias
         // Weapon Hardpoint > Mine Launcher
           1451  => 5,
           1452  => 7.5,
+
+        // Weapon Hardpoint > Mining Laser
+          1501  => 2,
 
         // Weapon Hardpoint > Torpedo Pylon
           1551  => 45,

@@ -218,5 +218,17 @@ class Specialisation extends Alias
 
         // Oden Geiger
         35      => null,
+
+        // Eleanor Bresa
+        36      => null,
+
+        // Rosa Dayette
+        37      => null,
+
+        // Baltanos
+        38      => null,
+
+        // Yi Shen
+        39      => null,
     ];
 }

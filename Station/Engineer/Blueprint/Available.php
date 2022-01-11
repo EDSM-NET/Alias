@@ -983,5 +983,25 @@ class Available extends Alias
         35      => [
 
         ],
+
+        // Eleanor Bresa
+        36      => [
+
+        ],
+
+        // Rosa Dayette
+        37      => [
+
+        ],
+
+        // Baltanos
+        38      => [
+
+        ],
+
+        // Yi Shen
+        39      => [
+
+        ],
     ];
 }

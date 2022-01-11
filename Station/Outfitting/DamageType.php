@@ -107,6 +107,9 @@ class DamageType extends Alias
           1451  => '$Thermic;',
           1452  => '$Thermic;',
 
+        // Weapon Hardpoint > Mining Laser
+          1501  => '$Thermic;',
+
         // Weapon Hardpoint > Shock Mine Launcher
           1601  => '$Thermic;',
 

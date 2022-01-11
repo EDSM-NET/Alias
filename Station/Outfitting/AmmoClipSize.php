@@ -87,8 +87,8 @@ class AmmoClipSize extends Alias
 
           1313  => 20,
 
-          1321  => null,
-          1322  => null,
+          1321  => 15,
+          1322  => 15,
           1323  => null,
 
           1329  => null,

@@ -1132,6 +1132,22 @@ class PowerDraw extends Alias
           6341  => 0.81,
           6342  => 0.88,
 
+        // Optional Internal > Multi Limpet Controller Modules
+          6403  => 0.8,
+          6405  => 1.1,
+        
+          6411  => 0.5,
+          6413  => 0.35,
+        
+          6423  => 0.35,
+          6424  => 0.3,
+        
+          6432  => 0.4,
+          6433  => 0.35,
+        
+          6443  => 0.35,
+          6444  => 0.3,
+
         // Cargo bay door (No category, not sellable, only for ship module list)
           9990  => 0.6,
           9991  => 0.6,
