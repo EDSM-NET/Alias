@@ -141,7 +141,7 @@ class Category extends Alias
                 1401, 1402, 1403,
                 1405, 1406, 1407,
 
-                1411,
+                1411, 1412,
             ],
             'Multi-Cannons'                     => [
                 1251, 1252, 1253, 1254,
@@ -149,6 +149,8 @@ class Category extends Alias
                 1259, 1260, 1261, 1262,
 
                 1271,
+                
+                1281, 1282,
             ],
             'Plasma Accelerators'               => [
                 1302, 1303, 1304,

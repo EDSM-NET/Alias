@@ -177,5 +177,8 @@ class DistributorDraw extends Alias
 
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 0.24,
+
+        // Weapon Hardpoint > Shard Cannon
+          1922  => 0.65,
     ];
 }

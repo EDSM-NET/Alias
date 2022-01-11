@@ -177,6 +177,9 @@ class DamagePerSecond extends Alias
         // Weapon Hardpoint > Shock Mine Launcher
           1601  => 32,
 
+        // Weapon Hardpoint > Remote Release Flak Launcher
+          1760  => 17,
+
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 60,
 

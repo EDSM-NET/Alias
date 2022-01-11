@@ -195,5 +195,8 @@ class ArmourPenetration extends Alias
 
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 60,
+
+        // Weapon Hardpoint > Shard Cannon
+          1922  => 45,
     ];
 }

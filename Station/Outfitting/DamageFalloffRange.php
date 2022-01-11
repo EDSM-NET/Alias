@@ -175,5 +175,8 @@ class DamageFalloffRange extends Alias
 
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 1000,
+
+        // Weapon Hardpoint > Shard Cannon
+          1922  => 1700,
     ];
 }
