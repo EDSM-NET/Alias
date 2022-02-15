@@ -47,7 +47,7 @@ class DamageFalloffRange extends Alias
           1021  => 800,
 
           1031  => 600,
-          1032  => 600,
+          1032  => 1500,
 
         // Weapon Hardpoint > Pulse Laser
           1050  => 500, // Not in category
@@ -176,7 +176,11 @@ class DamageFalloffRange extends Alias
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 1000,
 
+        // Weapon Hardpoint > Abrasion Blaster
+          1821  => 1000,
+
         // Weapon Hardpoint > Shard Cannon
+          1921  => 1700,
           1922  => 1700,
     ];
 }

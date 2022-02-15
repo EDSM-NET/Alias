@@ -17,6 +17,7 @@ class AmmoMaximum extends Alias
      */
     static protected $have          = [
         // Weapon Hardpoint
+        'Beam Lasers',
         'Cannons',
         'Fragment Cannons',
         'Mines',
@@ -36,6 +37,8 @@ class AmmoMaximum extends Alias
      * Number by outfitting
      */
     static protected $name          = [
+        // Weapon Hardpoint > Beam Laser
+          1032  => 80,
 
         // Weapon Hardpoint > Cannon
           1151  => 120,

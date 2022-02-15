@@ -16,6 +16,7 @@ class AmmoClipSize extends Alias
      * List of categories
      */
     static protected $have          = [
+        'Beam Lasers',
         'Cannons',
         'Fragment Cannons',
         'Multi-Cannons',
@@ -30,6 +31,9 @@ class AmmoClipSize extends Alias
      * Number by outfitting
      */
     static protected $name          = [
+        // Weapon Hardpoint > Beam Laser
+          1032  => 1,
+
         // Weapon Hardpoint > Cannon
           1151  => 6,
           1152  => 6,

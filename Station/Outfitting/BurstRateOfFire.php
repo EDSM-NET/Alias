@@ -16,13 +16,18 @@ class BurstRateOfFire extends Alias
      * List of categories
      */
     static protected $have          = [
-
+        'Beam Laser',
+        'Fragment Cannons',
     ];
 
     /**
      * Number by outfitting
      */
     static protected $name          = [
+        // Weapon Hardpoint > Beam Laser
+          1031  => -1,
+          1032  => -1,
+
         // Weapon Hardpoint > Fragment Cannon
           1201  => -1,
           1202  => -1,

@@ -115,7 +115,11 @@ class ShotSpeed extends Alias
 
           1362  => null,
 
+        // Weapon Hardpoint > Abrasion Blaster
+          1821  => 666.666687,
+
         // Weapon Hardpoint > Shard Cannon
+          1921  => 1133.333374,
           1922  => 1133.333374,
 
         // Utility Mount > Point Defence

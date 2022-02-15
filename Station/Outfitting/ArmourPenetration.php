@@ -197,6 +197,7 @@ class ArmourPenetration extends Alias
           1802  => 60,
 
         // Weapon Hardpoint > Shard Cannon
+          1921  => 30,
           1922  => 45,
     ];
 }

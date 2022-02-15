@@ -163,7 +163,11 @@ class MaximumRange extends Alias
         // Weapon Hardpoint > Mining Laser
           1501  => 500,
 
+        // Weapon Hardpoint > Abrasion Blaster
+          1821  => 1000,
+
         // Weapon Hardpoint > Shard Cannon
+          1921  => 1700,
           1922  => 1700,
 
         // Utility Mount > Point Defence

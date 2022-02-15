@@ -169,6 +169,7 @@ class Jitter extends Alias
           1802  => 0,
 
         // Weapon Hardpoint > Shard Cannon
+          1921  => 5,
           1922  => 5,
     ];
 }

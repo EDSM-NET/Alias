@@ -51,7 +51,7 @@ class DistributorDraw extends Alias
           1021  => 2.52,
 
           1031  => null,
-          1032  => null,
+          1032  => 7.2,
 
         // Weapon Hardpoint > Pulse Laser
           1050  => null, // Not in category
@@ -178,7 +178,11 @@ class DistributorDraw extends Alias
         // Weapon Hardpoint > Pack-Hound Missile Rack
           1802  => 0.24,
 
+        // Weapon Hardpoint > Abrasion Blaster
+          1821  => 2,
+
         // Weapon Hardpoint > Shard Cannon
+          1921  => 0.42,
           1922  => 0.65,
     ];
 }

@@ -50,7 +50,7 @@ class RateOfFire extends Alias
           1021  => null,
 
           1031  => null,
-          1032  => null,
+          1032  => 1.204819,
 
         // Weapon Hardpoint > Pulse Laser
           1050  => null, // Not in category

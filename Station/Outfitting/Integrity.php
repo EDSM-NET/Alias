@@ -253,7 +253,7 @@ class Integrity extends Alias
           1802  => 51,
 
         // Weapon Hardpoint > Abrasion Blaster
-          1821  => null,
+          1821  => 40,
           1829  => null,
 
         // Weapon Hardpoint > Shock Cannon

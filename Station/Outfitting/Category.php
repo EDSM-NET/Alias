@@ -141,7 +141,7 @@ class Category extends Alias
                 1401, 1402, 1403,
                 1405, 1406, 1407,
 
-                1411, 1412,
+                1411, 1412, 1413,
             ],
             'Multi-Cannons'                     => [
                 1251, 1252, 1253, 1254,
@@ -418,6 +418,13 @@ class Category extends Alias
                 4921, 4922,
                 4931, 4932,
                 4941, 4942,
+            ],
+            'Multi Limpet Controller'           => [
+                6403, 6405,
+                6411, 6413,
+                6423, 6424,
+                6432, 6433,
+                6443, 6444,
             ],
             'Passenger Cabins'                  => [
                 5311,
