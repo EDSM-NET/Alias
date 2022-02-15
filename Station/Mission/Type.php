@@ -139,6 +139,8 @@ class Type extends Alias
          514                                => 'Sensitive supply operation',
          515                                => 'Improve our financial status by delivering %commodityCount% units of %commodity%',
          516                                => 'Help us prepare our escape by delivering %commodityCount% units of %commodity%',
+        
+       11502                                => 'Take a package to %target%',
 
        10501                                => 'Deliver %commodityCount% units of %commodity%',
        10502                                => 'Help the cooperative by delivering %commodityCount% units of %commodity%',
@@ -744,6 +746,8 @@ class Type extends Alias
         'mission_delivery_founder'                          => 514,
         'mission_delivery_investment'                       => 515,
         'mission_delivery_retreat'                          => 516,
+        
+        'mission_onfoot_delivery_contact_mb'                => 11502,
 
         'mission_deliverywing'                              => 10501,
         'mission_deliverywing_cooperative'                  => 10502,

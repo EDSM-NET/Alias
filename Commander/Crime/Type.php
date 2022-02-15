@@ -51,6 +51,7 @@ class Type extends Alias
         72  => 'onfoot_theft',
         73  => 'onfoot_profilecloningintent',
         74  => 'onfoot_failuretosubmittopolice',
+        75  => 'onfoot_datatransfer',
     ];
 
     /**
@@ -99,5 +100,6 @@ class Type extends Alias
         'onfoot_theft'                              => 72,
         'onfoot_profilecloningintent'               => 73,
         'onfoot_failuretosubmittopolice'            => 74,
+        'onfoot_datatransfer'                       => 75,
     ];
 }

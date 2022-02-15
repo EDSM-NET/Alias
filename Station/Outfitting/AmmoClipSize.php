@@ -32,6 +32,7 @@ class AmmoClipSize extends Alias
      */
     static protected $name          = [
         // Weapon Hardpoint > Beam Laser
+          1031  => 1,
           1032  => 1,
 
         // Weapon Hardpoint > Cannon

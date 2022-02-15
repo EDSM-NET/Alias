@@ -52,7 +52,7 @@ class ThermalLoad extends Alias
 
           1021  => 2.7,
 
-          1031  => null,
+          1031  => 15,
           1032  => 25,
 
         // Weapon Hardpoint > Pulse Laser

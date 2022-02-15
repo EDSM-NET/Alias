@@ -50,6 +50,7 @@ class Damage extends Alias
           1010  => 4,
           1011  => 5,
         
+          1031  => 22,
           1032  => 38.5,
 
         // Weapon Hardpoint > Pulse Laser

@@ -16,7 +16,7 @@ class BurstSize extends Alias
      * List of categories
      */
     static protected $have          = [
-        'Beam Laser',
+        'Beam Lasers',
         'Fragment Cannons',
     ];
 
@@ -25,6 +25,7 @@ class BurstSize extends Alias
      */
     static protected $name          = [
         // Weapon Hardpoint > Beam Laser
+          1031  => 1,
           1032  => 1,
 
         // Weapon Hardpoint > Fragment Cannon

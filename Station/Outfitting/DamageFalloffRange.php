@@ -46,7 +46,7 @@ class DamageFalloffRange extends Alias
 
           1021  => 800,
 
-          1031  => 600,
+          1031  => 1500,
           1032  => 1500,
 
         // Weapon Hardpoint > Pulse Laser

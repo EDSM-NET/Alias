@@ -51,6 +51,7 @@ class DamagePerSecond extends Alias
 
           1021  => 4.91,
         
+          1031  => 26.506025,
           1032  => 46.385544,
 
         // Weapon Hardpoint > Pulse Laser

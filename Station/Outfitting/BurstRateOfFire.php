@@ -16,7 +16,7 @@ class BurstRateOfFire extends Alias
      * List of categories
      */
     static protected $have          = [
-        'Beam Laser',
+        'Beam Lasers',
         'Fragment Cannons',
     ];
 

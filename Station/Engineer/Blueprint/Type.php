@@ -20,6 +20,7 @@ class Type extends Alias
         104     => 'Overcharged Weapon',
         105     => 'Short-Range Blaster',
         106     => 'Sturdy Mount',
+        107     => 'Rapid Fire Modification',
 
         // HARDPOINT - Burst Laser
         201     => 'Efficient Weapon',
@@ -279,6 +280,7 @@ class Type extends Alias
         128739082       => 104,         128739083       => 104,         128739084       => 104,         128739085       => 104,         128739086       => 104,
         128673345       => 105,         128673346       => 105,         128673347       => 105,         128673348       => 105,         128673349       => 105,
         128673350       => 106,         128673351       => 106,         128673352       => 106,         128673353       => 106,         128673354       => 106,
+        128988383       => 107,
 
         // HARDPOINT - Burst Laser
         128673355       => 201,         128673356       => 201,         128673357       => 201,         128673358       => 201,         128673359       => 201,
@@ -543,6 +545,7 @@ class Type extends Alias
         104     => 'weapon_overcharged',
         105     => 'weapon_shortrange',
         106     => 'weapon_sturdy',
+        107     => 'weapon_rapidfire',
 
         // HARDPOINT - Burst Laser
         201     => 'weapon_efficient',

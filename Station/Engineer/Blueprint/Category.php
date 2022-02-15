@@ -68,7 +68,7 @@ class Category extends Alias
      */
     static protected $in    = [
         // HARDPOINT - Beam Laser
-          1     => [101, 102, 103, 104, 105, 106, ],
+          1     => [101, 102, 103, 104, 105, 106, 107, ],
 
         // HARDPOINT - Burst Laser
           2     => [201, 202, 203, 204, 205, 206, 207, 208, ],

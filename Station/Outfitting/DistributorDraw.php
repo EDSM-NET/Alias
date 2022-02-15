@@ -50,7 +50,7 @@ class DistributorDraw extends Alias
 
           1021  => 2.52,
 
-          1031  => null,
+          1031  => 3.8,
           1032  => 7.2,
 
         // Weapon Hardpoint > Pulse Laser

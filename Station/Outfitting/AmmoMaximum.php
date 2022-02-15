@@ -38,6 +38,7 @@ class AmmoMaximum extends Alias
      */
     static protected $name          = [
         // Weapon Hardpoint > Beam Laser
+          1031  => 80,
           1032  => 80,
 
         // Weapon Hardpoint > Cannon
