@@ -21,6 +21,7 @@ class Util extends Alias
            6                                    => 'Hub Access Terminal',
 
          200                                    => 'Faction Members',
+         201                                    => 'Citizens',
 
          500                                    => 'Thargoid Scout',
          501                                    => 'Thargoid Interceptor',
@@ -72,6 +73,7 @@ class Util extends Alias
         'settlement_target_postbox'             => 6,
 
         'factiontag_aihumanoid'                 => 200,
+        'factiontag_citizenhumanoid'            => 201,
 
         'factiontag_scout'                      => 500,
         'factiontag_interceptor'                => 501,

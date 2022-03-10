@@ -190,6 +190,8 @@ class Type extends Alias
        11610                                => 'Collection: Fetch the %commodity% from a settlement',
        11611                                => 'Collection: Fetch the %commodity% from a settlement',
        11612                                => 'Collection: Fetch the %commodity% from a settlement',
+        
+      111602                                => 'Secure a package from %target%',
 
          701                                => '%commodity% salvage operation',
          702                                => 'Wartime %commodity% salvage operation',
@@ -612,6 +614,11 @@ class Type extends Alias
         5207                                => 'Settlement Raid: Exterminate scavengers', // ... at %stationName%
 
         5302                                => 'Theft: Obtain the %commodity% from a settlement',
+        
+       15302                                => 'Seize the %commodity% from a hidden cache',
+       15303                                => 'Steal the %commodity% from a settlement',
+        
+      115303                                => 'Take a sample', // ... from %stationName%
     ];
 
     /**
@@ -797,6 +804,8 @@ class Type extends Alias
         'mission_onfoot_collect_007'                        => 11610,
         'mission_onfoot_collect_008'                        => 11611,
         'mission_onfoot_collect_009'                        => 11612,
+        
+        'mission_onfoot_collect_contact_mb'                 => 111602,
 
         'mission_salvage'                                   => 701,
         'mission_salvage_war'                               => 702,
@@ -1211,5 +1220,10 @@ class Type extends Alias
         'mission_onfoot_onslaught_offline_004'              => 5207,
 
         'mission_onfoot_heist_mb'                           => 5302,
+        
+        'mission_onfoot_heist_poi_mb'                       => 15302,
+        'mission_onfoot_heist_covert_mb'                    => 15303,
+        
+        'mission_onfoot_productionheist_covert_mb'          => 115303,
     ];
 }
