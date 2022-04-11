@@ -16,9 +16,7 @@ class Available extends Alias
         // Hera Tani
          1      => [
             // OPTIONAL INTERNAL - Detailed Surface Scanner
-            20301   => [1, 2, 3, 4, 5],         // Fast scan
-            20302   => [1, 2, 3, 4, 5],         // Long range
-            20303   => [1, 2, 3, 4, 5],         // Wide angle
+            20351   => [1, 2, 3, 4, 5],         // Expanded Probe Scanning Radius
 
             // CORE INTERNAL - Power Distributor
             30301   => [1, 2, 3,     ],         // Charge enhanced
@@ -397,9 +395,7 @@ class Available extends Alias
             10606   => [1, 2, 3,     ],         // Wide angle
 
             // OPTIONAL INTERNAL - Detailed Surface Scanner
-            20301   => [1, 2, 3, 4, 5],         // Fast scan
-            20302   => [1, 2, 3, 4, 5],         // Long range
-            20303   => [1, 2, 3, 4, 5],         // Wide angle
+            20351   => [1, 2, 3, 4, 5],         // Expanded Probe Scanning Radius
 
             // CORE INTERNAL - Sensors
             30501   => [1, 2, 3, 4, 5],         // Lightweight
@@ -498,9 +494,7 @@ class Available extends Alias
         // Lei Cheung
         17      => [
             // OPTIONAL INTERNAL - Detailed Surface Scanner
-            20301   => [1, 2, 3, 4, 5],         // Fast scan
-            20302   => [1, 2, 3, 4, 5],         // Long range
-            20303   => [1, 2, 3, 4, 5],         // Wide angle
+            20351   => [1, 2, 3, 4, 5],         // Expanded Probe Scanning Radius
 
             // CORE INTERNAL - Sensors
             30501   => [1, 2, 3, 4, 5],         // Lightweight
@@ -607,9 +601,7 @@ class Available extends Alias
             20101   => [1, 2, 3,     ],         // Shielded
 
             // OPTIONAL INTERNAL - Detailed Surface Scanner
-            20301   => [1, 2, 3, 4, 5],         // Fast scan
-            20302   => [1, 2, 3, 4, 5],         // Long range
-            20303   => [1, 2, 3, 4, 5],         // Wide angle
+            20351   => [1, 2, 3, 4, 5],         // Expanded Probe Scanning Radius
 
             // OPTIONAL INTERNAL - Fuel Scoop
             20501   => [1, 2, 3,     ],         // Shielded
@@ -660,9 +652,7 @@ class Available extends Alias
             20203   => [1, 2, 3, 4, 5],         // Shielded
 
             // OPTIONAL INTERNAL - Detailed Surface Scanner
-            20301   => [1, 2, 3,     ],         // Fast scan
-            20302   => [1, 2, 3,     ],         // Long range
-            20303   => [1, 2, 3,     ],         // Wide angle
+            20351   => [1, 2, 3,     ],         // Expanded Probe Scanning Radius
 
             // OPTIONAL INTERNAL - Frame Shift Drive Interdictor
             20401   => [1, 2, 3,     ],         // Expanded capture arc
@@ -898,9 +888,7 @@ class Available extends Alias
             10606   => [1, 2, 3,     ],         // Wide angle
 
             // OPTIONAL INTERNAL - Detailed Surface Scanner
-            20301   => [1, 2, 3,     ],         // Fast scan
-            20302   => [1, 2, 3,     ],         // Long range
-            20303   => [1, 2, 3,     ],         // Wide angle
+            20351   => [1, 2, 3, 4, 5],         // Expanded Probe Scanning Radius
 
             // CORE INTERNAL - Life Support
             30201   => [1, 2, 3,     ],         // Lightweight

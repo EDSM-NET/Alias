@@ -45,12 +45,12 @@ class Station extends Alias
         30      => 100144,          // Kit Fowler
         31      => 111597,          // Terra Velasquez
         32      => 99041,           // Uma Laszlo
-        33      => null,            // Yarden Bond
+        33      => 133465,          // Yarden Bond
         34      => 98993,           // Wellington Beck
         35      => 112537,          // Oden Geiger
         36      => 169752,          // Eleanor Bresa
-        37      => null,            // Rosa Dayette
-        38      => null,            // Baltanos
-        39      => null,            // Yi Shen
+        37      => 169512,          // Rosa Dayette
+        38      => 169468,          // Baltanos
+        39      => 169820,          // Yi Shen
     ];
 }

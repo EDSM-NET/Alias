@@ -164,7 +164,9 @@ class Order extends Alias
         [
             'parent'    => 36,   // Eleanor Bresa
             'children'  => [
-
+                [
+                    'parent'    => 39,   // Yi Shen
+                ],
             ],
         ],
 
@@ -177,13 +179,6 @@ class Order extends Alias
 
         [
             'parent'    => 38,   // Baltanos
-            'children'  => [
-
-            ],
-        ],
-
-        [
-            'parent'    => 39,   // Yi Shen
             'children'  => [
 
             ],

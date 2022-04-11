@@ -214,21 +214,39 @@ class Specialisation extends Alias
         ],
 
         // Wellington Beck
-        34      => null,
+        34      => [
+            'Suits',
+            'Handheld weaponry',
+        ],
 
         // Oden Geiger
-        35      => null,
+        35      => [
+            'Suits',
+            'Handheld weaponry',
+        ],
 
         // Eleanor Bresa
-        36      => null,
+        36      => [
+            'Suits',
+            'Handheld weaponry',
+        ],
 
         // Rosa Dayette
-        37      => null,
+        37      => [
+            'Suits',
+            'Handheld weaponry',
+        ],
 
         // Baltanos
-        38      => null,
+        38      => [
+            'Suits',
+            'Handheld weaponry',
+        ],
 
         // Yi Shen
-        39      => null,
+        39      => [
+            'Suits',
+            'Handheld weaponry',
+        ],
     ];
 }

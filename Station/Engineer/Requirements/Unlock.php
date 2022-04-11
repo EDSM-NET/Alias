@@ -99,7 +99,7 @@ class Unlock extends Alias
         26      => null,
 
         // Hero Ferrari
-        27      => null,
+        27      => 'Complete 10 surface conflict zones.',
 
         // Jude Navarro
         28      => null,

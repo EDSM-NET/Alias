@@ -124,15 +124,15 @@ class Meeting extends Alias
         35      => null,
 
         // Eleanor Bresa
-        36      => null,
+        36      => 'Visit 5 Settlements in the Colonia system.',
 
         // Rosa Dayette
-        37      => null,
+        37      => 'Sell 10 Culinary Recipes and/or Cocktail Recipes to Bartenders in Colonia.',
 
         // Baltanos
-        38      => null,
+        38      => 'Attain a Friendly or higher relationship with the Colonia Council minor faction to receive an invitation mission.',
 
         // Yi Shen
-        39      => null,
+        39      => 'Fulfill the referral requirements of Baltanos, Eleanor Bresa, and Rosa Dayette.',
     ];
 }
