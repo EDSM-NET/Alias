@@ -427,6 +427,7 @@ class Type extends Alias
         1666        => 'Prohibited Research Materials',
         1667        => 'Antimatter Containment Unit',
         1668        => 'Ancient Key',
+        1669        => 'Unclassified Relic',
 
         1800        => 'Thargoid Cyclops Tissue Sample',
         1801        => 'Thargoid Heart',
@@ -1028,6 +1029,7 @@ class Type extends Alias
         'prohibitedresearchmaterials'           => 1666,
         'antimattercontainmentunit'             => 1667,
         'ancientkey'                            => 1668,
+        'ancientrelictg'                        => 1669,
 
         'thargoidtissuesampletype1'             => 1800,
         'thargoidheart'                         => 1801,
