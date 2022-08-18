@@ -261,7 +261,7 @@ class Type extends Alias
      */
     static protected $scoopable = [
         1,
-        2,
+        2, 201,
         3, 301,
         4,
         5,
