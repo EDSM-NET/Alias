@@ -882,6 +882,8 @@ class PaintJob extends Alias
             'diamondbackxl_vibrant_purple'                  => 'Vibrant Purple',
             'diamondbackxl_vibrant_red'                     => 'Vibrant Red',
             'diamondbackxl_vibrant_yellow'                  => 'Vibrant Yellow',
+
+            'diamondbackxl_christmas_01'                    => 'Snowfall Mistletoe',
         ],
 
         // Diamondback Scout
