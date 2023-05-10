@@ -458,8 +458,18 @@ class Classes extends Alias
         // Weapon Hardpoint > AX Multi-Cannon
           1702  => 2,
           1703  => 3,
+        
           1710  => 2,
           1711  => 3,
+        
+          1720  => 2,
+          1721  => 3,
+        
+          1722  => 2,
+          1723  => 3,
+        
+          1730  => 2,
+          1731  => 3,
 
         // Weapon Hardpoint > Remote Release Flak Launcher
           1752  => 2,
@@ -547,6 +557,7 @@ class Classes extends Alias
 
         // Utility Mount > Xeno Scanner
           2401  => 0,
+          2402  => 0,
 
         // Utility Mount > Shutdown Field Neutraliser
           2451  => 0,
@@ -557,6 +568,16 @@ class Classes extends Alias
           2503  => 0,
           2504  => 0,
           2505  => 0,
+
+        // Utility Mount > Experimental Weapon Stabiliser
+          2551  => 3,
+          2552  => 5,
+        
+        // Utility Mount > Caustic Sink Launcher
+          2601  => 0,
+        
+        // Utility Mount > Thargoid Pulse Neutraliser
+          2651  => 0,
 
         // Core Internal > Fuel Tank
           3001  => 1,

@@ -233,6 +233,18 @@ class Category extends Alias
             'Pulse Wave Analyser'               => [
                 2501, 2502, 2503, 2504, 2505,
             ],
+
+            'Experimental Weapon Stabiliser'    => [
+                2551, 2552,
+            ],
+        
+            'Caustic Sink Launcher'             => [
+                2601,
+            ],
+             
+            'Thargoid Pulse Neutraliser'        => [
+                2651,
+            ],
         ],
 
         // Core Internal

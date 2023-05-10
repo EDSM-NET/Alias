@@ -460,8 +460,15 @@ class Mass extends Alias
         // Weapon Hardpoint > AX Multi-Cannon
           1702  => 4,
           1703  => 8,
+        
           1710  => 4,
           1711  => 8,
+        
+          1720  => 4,
+          1721  => 8,
+          
+          1722  => 4,
+          1723  => 8,
 
         // Weapon Hardpoint > Remote Release Flak Launcher
           1752  => 4,

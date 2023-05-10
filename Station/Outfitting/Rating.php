@@ -458,8 +458,18 @@ class Rating extends Alias
         // Weapon Hardpoint > AX Multi-Cannon
           1702  => 'E',
           1703  => 'C',
+        
           1710  => 'F',
           1711  => 'E',
+        
+          1720  => 'E',
+          1721  => 'D',
+        
+          1722  => 'D',
+          1723  => 'B',
+        
+          1730  => 'E',
+          1731  => 'C',
 
         // Weapon Hardpoint > Remote Release Flak Launcher
           1752  => 'B',
@@ -547,6 +557,7 @@ class Rating extends Alias
 
         // Utility Mount > Xeno Scanner
           2401  => 'E',
+          2402  => 'C',
 
         // Utility Mount > Shutdown Field Neutraliser
           2451  => 'F',
@@ -557,6 +568,16 @@ class Rating extends Alias
           2503  => 'C',
           2504  => 'B',
           2505  => 'A',
+
+        // Utility Mount > Experimental Weapon Stabiliser
+          2551  => 'F',
+          2552  => 'F',
+        
+        // Utility Mount > Caustic Sink Launcher
+          2601  => 'I',
+        
+        // Utility Mount > Thargoid Pulse Neutraliser
+          2651  => 'E',
 
         // Core Internal > Fuel Tank
           3001  => 'C',

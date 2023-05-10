@@ -462,6 +462,15 @@ class Type extends Alias
 
           1710  => 'AX Multi-Cannon (Turret)',
           1711  => 'AX Multi-Cannon (Turret)',
+        
+          1720  => 'Enhanced AX Multi-Cannon (Turret)',
+          1721  => 'Enhanced AX Multi-Cannon (Turret)',
+        
+          1722  => 'Enhanced AX Multi-Cannon (Fixed)',
+          1723  => 'Enhanced AX Multi-Cannon (Fixed)',
+        
+          1730  => 'Enhanced AX Multi-Cannon (Gimbal)',
+          1731  => 'Enhanced AX Multi-Cannon (Gimbal)',
 
         // Weapon Hardpoint > Remote Release Flak Launcher
           1752  => 'Remote Release Flak Launcher (Fixed)',
@@ -549,6 +558,7 @@ class Type extends Alias
 
         // Utility Mount > Xeno Scanner
           2401  => 'Xeno Scanner',
+          2402  => 'Enhanced Xeno Scanner',
 
         // Utility Mount > Shutdown Field Neutraliser
           2451  => 'Shutdown Field Neutraliser',
@@ -559,6 +569,16 @@ class Type extends Alias
           2503  => 'Pulse Wave Analyser',
           2504  => 'Pulse Wave Analyser',
           2505  => 'Pulse Wave Analyser',
+
+        // Utility Mount > Experimental Weapon Stabiliser
+          2551  => 'Experimental Weapon Stabiliser',
+          2552  => 'Experimental Weapon Stabiliser',
+        
+        // Utility Mount > Caustic Sink Launcher
+          2601  => 'Caustic Sink Launcher',
+        
+        // Utility Mount > Thargoid Pulse Neutraliser
+          2651  => 'Thargoid Pulse Neutraliser',
 
         // Core Internal > Fuel Tank
           3000  => 'Fuel Tank (Free)', // Not in category
@@ -1954,6 +1974,15 @@ class Type extends Alias
 
         'hpt_atmulticannon_turret_medium'               => 1710,
         'hpt_atmulticannon_turret_large'                => 1711,
+        
+        'hpt_atmulticannon_turret_medium_v2'            => 1720,
+        'hpt_atmulticannon_turret_large_v2'             => 1721,
+        
+        'hpt_atmulticannon_fixed_medium_v2'             => 1722,
+        'hpt_atmulticannon_fixed_large_v2'              => 1723,
+        
+        'hpt_atmulticannon_gimbal_medium'               => 1730,
+        'hpt_atmulticannon_gimbal_large'                => 1731,
 
         // Weapon Hardpoint > Remote Release Flak Launcher
         'hpt_flakmortar_fixed_medium'                   => 1752,
@@ -2045,6 +2074,7 @@ class Type extends Alias
 
         // Utility Mount > Xeno Scanner
         'hpt_xenoscanner_basic_tiny'                    => 2401,
+        'hpt_xenoscannermk2_basic_tiny'                 => 2402,
 
         // Utility Mount > Shutdown Field Neutraliser
         'hpt_antiunknownshutdown_tiny'                  => 2451,
@@ -2055,6 +2085,16 @@ class Type extends Alias
         'hpt_mrascanner_size0_class3'                   => 2503,
         'hpt_mrascanner_size0_class4'                   => 2504,
         'hpt_mrascanner_size0_class5'                   => 2505,
+
+        // Utility Mount > Experimental Weapon Stabiliser
+        'int_expmodulestabiliser_size3_class3'          => 2551,
+        'int_expmodulestabiliser_size5_class3'          => 2552,
+        
+        // Utility Mount > Caustic Sink Launcher
+        'hpt_causticsinklauncher_turret_tiny'           => 2601,
+        
+        // Utility Mount > Thargoid Pulse Neutraliser
+        'hpt_antiunknownshutdown_tiny_v2'               => 2651,
 
         // Core Internal > Fuel Tank
         'int_fueltank_size1_class3_free'                => 3000, // Not in category
