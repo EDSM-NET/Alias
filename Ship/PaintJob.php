@@ -754,6 +754,8 @@ class PaintJob extends Alias
 
             'cobramkiii_wireframe_01'                       => 'Wireframe',
             'cobramkiii_gold_wireframe_01'                  => 'Wireframe Gold',
+            
+            'cobramkiii_lrpo_azure'                         => 'Azure',
         ],
 
         // Cobra MkIV
@@ -1078,6 +1080,8 @@ class PaintJob extends Alias
             'eagle_vibrant_yellow'                          => 'Vibrant Yellow',
 
             //'eagle_wireframe_01'                            => 'Wireframe',
+            
+            'eagle_salvation_09'                            => 'Azimut Ruthless',
         ],
 
         // Federal Assault Ship
@@ -1814,6 +1818,8 @@ class PaintJob extends Alias
             'krait_mkii_vibrant_purple'                     => 'Vibrant Purple',
             'krait_mkii_vibrant_red'                        => 'Vibrant Red',
             'krait_mkii_vibrant_yellow'                     => 'Vibrant Yellow',
+            
+            'krait_mkii_salvation_09'                       => 'Azimuth Ruthless',
         ],
 
         // Krait Phantom
@@ -2111,6 +2117,8 @@ class PaintJob extends Alias
 
             'python_wireframe_01'                           => 'Wireframe',
             'python_gold_wireframe_01'                      => 'Wireframe Gold',
+            
+            'python_naval_04'                               => 'Sheer Line 04',
         ],
 
         // Sidewinder
@@ -2196,6 +2204,8 @@ class PaintJob extends Alias
             'sidewinder_vibrant_yellow'                     => 'Vibrant Yellow',
 
             'sidewinder_gold_wireframe_01'                  => 'Wireframe Gold',
+            
+            'sidewinder_pilotreward_01'                     => 'Emergance',
         ],
 
         // Type-6 Transporter
@@ -2330,6 +2340,8 @@ class PaintJob extends Alias
             'type9_vibrant_purple'                          => 'Vibrant Purple',
             'type9_vibrant_red'                             => 'Vibrant Red',
             'type9_vibrant_yellow'                          => 'Vibrant Yellow',
+            
+            'type9_largelogometallic_06'                    => 'Lakon Metallic Silver',
         ],
 
         // Type-10 Defender
