@@ -514,6 +514,10 @@ class Rating extends Alias
         // Weapon Hardpoint > Seismic Charge
           1952  => 'B',
           1960  => 'B',
+        
+        // Weapon Hardpoint > Guardian Nanite Torpedo Pylon
+          1972  => 'I',
+          1973  => 'I',
 
         // Utility Mount > Shield Booster
           2001  => 'E',
@@ -558,6 +562,7 @@ class Rating extends Alias
         // Utility Mount > Xeno Scanner
           2401  => 'E',
           2402  => 'C',
+          2403  => 'C',
 
         // Utility Mount > Shutdown Field Neutraliser
           2451  => 'F',

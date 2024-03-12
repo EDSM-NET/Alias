@@ -34,6 +34,11 @@ class Service extends Alias
 
         70                      => 'Technology Broker',
         71                      => 'Material Trader',
+        
+        81                      => 'Apex Interstellar Transport',
+        82                      => 'Frontline Solutions',
+        83                      => 'Pioneer Supplies',
+        84                      => 'Vista Genomics',
     ];
 
     /**
@@ -73,7 +78,6 @@ class Service extends Alias
         'searchandrescue'       => 45,      'searchrescue'      => 45,
 
         'stationmenu'           => 51,
-        'shop'                  => 52,
 
         'shop'                  => 60,
         'carriermanagement'     => 61,

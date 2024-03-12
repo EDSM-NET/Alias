@@ -149,5 +149,8 @@ class AmmoMaximum extends Alias
 
         // Utility Mount > Point Defence
           2200  => 10000,
+        
+        // Utility Mount > Caustic Sink Launcher
+          2601  => 5,
     ];
 }

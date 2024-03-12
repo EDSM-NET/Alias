@@ -57,6 +57,10 @@ class Type extends Alias
         1041 => 'Universal Translator',
         1042 => 'Vehicle Schematic',
         1043 => 'Weapon Schematic',
+        1044 => 'Spire Refinery Compound',
+        1045 => 'Spire Refinery Compound',
+        1046 => 'Contaminated Spire Refinery Compound',
+        
         // Consumbales
         1501 => 'Energy Cell',
         1502 => 'Medkit',
@@ -64,6 +68,7 @@ class Type extends Alias
         1504 => 'Frag Grenade',
         1505 => 'Shield Disruptor',
         1506 => 'Shield Projector',
+        
         // Data
         2001 => 'Accident Logs',
         2002 => 'Air Quality Reports',
@@ -179,6 +184,7 @@ class Type extends Alias
         2112 => 'Weapon Inventory',
         2113 => 'Weapon Test Data',
         2114 => 'Xeno-Defence Protocols',
+        
         // Assets - Chemicals
         3001 => 'Aerogel',
         3002 => 'Chemical Catalyst',
@@ -190,6 +196,7 @@ class Type extends Alias
         3008 => 'pH Neutraliser',
         3009 => 'RDX',
         3010 => 'Viscoelastic Polymer',
+        
         // Assets - Circuits
         4001 => 'Circuit Board',
         4002 => 'Circuit Switch',
@@ -203,6 +210,7 @@ class Type extends Alias
         4010 => 'Microelectrode',
         4011 => 'Motor',
         4012 => 'Optical Fibre',
+        
         // Assets - Tech
         5001 => 'Carbon Fibre Plating',
         5002 => 'Encrypted Memory Chip',
@@ -269,6 +277,10 @@ class Type extends Alias
         'universaltranslator'             => 1041,
         'vehicleschematic'                => 1042,
         'weaponschematic'                 => 1043,
+        'biomechanicalcomponent'          => 1044,
+        'biomechanicalcomponent'          => 1045,
+        'sabotagedcomponent'              => 1046,
+        
         // Consumables
         'energycell'                      => 1501,
         'healthpack'                      => 1502,
@@ -276,6 +288,7 @@ class Type extends Alias
         'amm_grenade_frag'                => 1504,
         'amm_grenade_emp'                 => 1505,
         'amm_grenade_shield'              => 1506,
+        
         // Data
         'accidentlogs'                    => 2001,
         'airqualityreports'               => 2002,
@@ -391,6 +404,7 @@ class Type extends Alias
         'weaponinventory'                 => 2112,
         'weapontestdata'                  => 2113,
         'xenodefenceprotocols'            => 2114,
+        
         // Assets - Chemicals
         'aerogel'                         => 3001,
         'chemicalcatalyst'                => 3002,
@@ -402,6 +416,7 @@ class Type extends Alias
         'phneutraliser'                   => 3008,
         'rdx'                             => 3009,
         'viscoelasticpolymer'             => 3010,
+        
         // Assets - Circuits
         'circuitboard'                    => 4001,
         'circuitswitch'                   => 4002,
@@ -415,6 +430,7 @@ class Type extends Alias
         'microelectrode'                  => 4010,
         'motor'                           => 4011,
         'opticalfibre'                    => 4012,
+        
         // Assets - Tech
         'carbonfibreplating'              => 5001,
         'encryptedmemorychip'             => 5002,

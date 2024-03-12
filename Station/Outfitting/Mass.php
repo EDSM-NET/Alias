@@ -469,6 +469,9 @@ class Mass extends Alias
           
           1722  => 4,
           1723  => 8,
+        
+          1730  => 4,
+          1731  => 8,
 
         // Weapon Hardpoint > Remote Release Flak Launcher
           1752  => 4,
@@ -555,6 +558,8 @@ class Mass extends Alias
 
         // Utility Mount > Xeno Scanner
           2401  => 1.3,
+          2402  => 1.3,
+          2403  => 1.3,
 
         // Utility Mount > Shutdown Field Neutraliser
           2451  => 1.3,
@@ -565,6 +570,12 @@ class Mass extends Alias
           2503  => 1.3,
           2504  => 1.3,
           2505  => 1.3,
+        
+        // Utility Mount > Caustic Sink Launcher
+          2601  => 1.7,
+        
+        // Utility Mount > Thargoid Pulse Neutraliser
+          2651  => 3,
 
         // Core Internal > Fuel Tank
           3000  => 0,

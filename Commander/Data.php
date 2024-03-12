@@ -79,6 +79,8 @@ class Data extends Alias
         44  => 'Guardian Weapon Blueprint Segment',
         45  => 'Guardian Module Blueprint Segment',
         46  => 'Guardian Vessel Blueprint Segment',
+        47  => 'Thargoid Interdiction Telemetry',
+        48  => 'Massive Energy Surge Analytics',
     ];
 
     /**
@@ -135,6 +137,8 @@ class Data extends Alias
         'guardian_weaponblueprint'          => 44,
         'guardian_moduleblueprint'          => 45,
         'guardian_vesselblueprint'          => 46,
+        'tg_interdictiondata'               => 47,
+        'tg_shutdowndata'                   => 48,
     ];
 
     /**
@@ -198,5 +202,7 @@ class Data extends Alias
         44  => 4,
         45  => 4,
         46  => 5,
+        47  => 3,
+        48  => 3,
     ];
 }

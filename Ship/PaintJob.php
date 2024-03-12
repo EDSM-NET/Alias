@@ -1391,6 +1391,13 @@ class PaintJob extends Alias
             'ferdelance_razormetal_copper'                  => 'Razor Copper',
             'ferdelance_razormetal_gold'                    => 'Razor Gold',
             'ferdelance_razormetal_silver'                  => 'Razor Silver',
+            
+            'ferdelance_slipstream_blue'                    => 'Slipstream Blue',
+            'ferdelance_slipstream_green'                   => 'Slipstream Green',
+            'ferdelance_slipstream_orange'                  => 'Slipstream Orange',
+            'ferdelance_slipstream_pink'                    => 'Slipstream Pink',
+            'ferdelance_slipstream_red'                     => 'Slipstream Red',
+            'ferdelance_slipstream_yellow'                  => 'Slipstream Yellow',
 
             'ferdelance_synth_blue'                         => 'Synth Blue',
             'ferdelance_synth_lime'                         => 'Synth Lime',

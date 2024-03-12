@@ -242,8 +242,18 @@ class PowerDraw extends Alias
         // Weapon Hardpoint > AX Multi-Cannon
           1702  => 0.46,
           1703  => 0.64,
+        
           1710  => 0.46,
           1711  => 0.64,
+        
+          1720  => 0.52,
+          1721  => 0.69,
+          
+          1722  => 0.48,
+          1723  => 0.69,
+        
+          1730  => 0.46,
+          1731  => 0.64,
 
         // Weapon Hardpoint > Remote Release Flak Launcher
           1752  => 1.2,
@@ -330,6 +340,7 @@ class PowerDraw extends Alias
 
         // Utility Mount > Xeno Scanner
           2401  => 0.2,
+          2403  => 0.8,
 
         // Utility Mount > Shutdown Field Neutraliser
           2451  => 0.2,
@@ -340,6 +351,9 @@ class PowerDraw extends Alias
           2503  => 0.8,
           2504  => 1.6,
           2505  => 3.2,
+        
+        // Utility Mount > Thargoid Pulse Neutraliser
+          2651  => 0.4,
 
         // Core Internal > Fuel Tank
           3000  => 0,

@@ -515,6 +515,10 @@ class Type extends Alias
         // Weapon Hardpoint > Seismic Charge
           1952  => 'Seismic Charge (Fixed)',
           1960  => 'Seismic Charge (Turret)',
+        
+        // Weapon Hardpoint > Guardian Nanite Torpedo Pylon
+          1972  => 'Guardian Nanite Torpedo Pylon',
+          1973  => 'Guardian Nanite Torpedo Pylon',
 
         // Utility Mount > Shield Booster
           2001  => 'Shield Booster',
@@ -559,6 +563,7 @@ class Type extends Alias
         // Utility Mount > Xeno Scanner
           2401  => 'Xeno Scanner',
           2402  => 'Enhanced Xeno Scanner',
+          2403  => 'Pulse Wave Xeno Scanner',
 
         // Utility Mount > Shutdown Field Neutraliser
           2451  => 'Shutdown Field Neutraliser',
@@ -2029,6 +2034,10 @@ class Type extends Alias
         // Weapon Hardpoint > Seismic Charge
         'hpt_mining_seismchrgwarhd_fixed_medium'        => 1952,
         'hpt_mining_seismchrgwarhd_turret_medium'       => 1960,
+        
+        // Weapon Hardpoint > Guardian Nanite Torpedo Pylon
+        'hpt_atventdisruptorpylon_fixed_medium'         => 1972,
+        'hpt_atventdisruptorpylon_fixed_large'          => 1973,
 
 
 
@@ -2075,6 +2084,7 @@ class Type extends Alias
         // Utility Mount > Xeno Scanner
         'hpt_xenoscanner_basic_tiny'                    => 2401,
         'hpt_xenoscannermk2_basic_tiny'                 => 2402,
+        'hpt_xenoscanner_advanced_tiny'                 => 2403,
 
         // Utility Mount > Shutdown Field Neutraliser
         'hpt_antiunknownshutdown_tiny'                  => 2451,

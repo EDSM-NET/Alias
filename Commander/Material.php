@@ -126,6 +126,13 @@ class Material extends Alias
         90  => 'Guardian Power Cell',
         91  => 'Guardian Sentinel Wreckage Components',
         92  => 'Guardian Sentinel Weapon Parts',
+        93  => 'Caustic Shard',
+        94  => 'Corrosive Mechanisms',
+        95  => 'Caustic Crystal',
+        96  => 'Heat Exposure Specimen',
+        97  => 'Phasing Membrane Residue',
+        98  => 'Hardened Surface Fragments',
+        99  => 'Tactical Core Chip',
     ];
 
     /**
@@ -228,6 +235,13 @@ class Material extends Alias
         'guardian_powercell'                        => 90,
         'guardian_sentinel_wreckagecomponents'      => 91,
         'guardian_sentinel_weaponparts'             => 92,
+        'tg_causticshard'                           => 93,
+        'tg_causticgeneratorparts'                  => 94,
+        'tg_causticcrystal'                         => 95,
+        'tg_abrasion01'                             => 96,
+        'tg_abrasion02'                             => 97,
+        'tg_abrasion03'                             => 98,
+        'unknowncorechip'                           => 99,
     ];
 
     /**
@@ -337,21 +351,28 @@ class Material extends Alias
         90  => 1,
         91  => 1,
         92  => 3,
+        93  => 2,
+        94  => 3,
+        95  => 4,
+        96  => 5,
+        97  => 3,
+        98  => 1,
+        99  => 2,
     ];
 
     /**
      * List of manufactured materials
      */
     static protected $isManufactured    = [
-        3, 4, 7, 8, 9, 10,
-        12, 13, 14, 15, 16, 17, 18, 19,
-        20, 21, 22, 23, 24, 25, 27, 28, 29,
-        30, 31, 32, 33, 34, 35, 36, 39,
-        40, 41, 43, 44, 48, 49,
-        52, 53, 54, 55, 56, 57, 58,
-        60, 62, 63, 67, 68,
-        71, 73, 77, 78, 79,
-        80, 81, 82, 83, 84,
-        88, 89, 90, 91, 92,
+                     3,  4,          7,  8,  9, 10,
+                12, 13, 14, 15, 16, 17, 18, 19,
+        20, 21, 22, 23, 24, 25,     27, 28, 29,
+        30, 31, 32, 33, 34, 35, 36,         39,
+        40, 41,     43, 44,             48, 49,
+                52, 53, 54, 55, 56, 57, 58,
+        60,     62, 63,             67, 68,
+            71,     73,             77, 78, 79,
+        80, 81, 82, 83, 84,             88, 89,
+        90, 91, 92, 93, 94, 95, 96, 97, 98, 99,
     ];
 }

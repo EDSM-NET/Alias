@@ -619,6 +619,31 @@ class Type extends Alias
        15303                                => 'Steal the %commodity% from a settlement',
         
       115303                                => 'Take a sample', // ... from %stationName%
+        
+        
+      200001                                => '%passengerCount% %passengerType% requesting evacuation',
+      200002                                => 'Evacuate %commodityCount% injured personnel',
+      200003                                => 'Destroy %killCount% Thargoid Scouts',
+      200004                                => 'Emergency Supply Contract: %commodityCount% units of %commodity%',
+      200005                                => 'Eliminate %killCount% Thargoid Cyclops',
+      200006                                => '%passengerCount% %passengerType% need evacuation',
+      200007                                => 'Hunt and destroy a Cyclops Interceptor',
+      200008                                => 'Evacuate %commodityCount% critically wounded civilians',
+      200009                                => 'Emergency Supply Contract: %commodityCount% units of %commodity%',
+      200010                                => 'Destroy a Hydra Interceptor',
+      200011                                => 'Eliminate %killCount% Medusa Interceptors',
+      200012                                => 'Eliminate %killCount% Basilisk Interceptors',
+      200013                                => 'Evacuate %commodityCount% wounded',
+      200014                                => '%passengerCount% %passengerType% need evacuation',
+      200015                                => 'Hunt down and exterminate a Thargoid Basilisk',
+      200016                                => 'Destroy a Medusa Interceptor',
+      200017                                => 'Emergency Bulk Supply Contract: %commodityCount% units of %commodity%',
+      200018                                => 'Emergency Bulk Supply Contract: %commodityCount% units of %commodity%',
+      200019                                => 'Eliminate %killCount% Hydras',
+      200020                                => 'Station Repair Contract: %commodityCount% units of %commodity%',
+      200021                                => 'Station Repair Bulk Supply Contract: %commodityCount% units of %commodity%',
+      200022                                => 'Evacuate group of refugees',
+      200023                                => 'Evacuate party',
     ];
 
     /**
@@ -1225,5 +1250,31 @@ class Type extends Alias
         'mission_onfoot_heist_covert_mb'                    => 15303,
         
         'mission_onfoot_productionheist_covert_mb'          => 115303,
+        
+        
+        
+        'mission_tw_passengerevacuation_alert'              => 200001,
+        'mission_tw_rescue_alert'                           => 200002,
+        'mission_tw_massacre_scout_plural'                  => 200003,
+        'mission_tw_collect_alert'                          => 200004,
+        'mission_tw_massacre_cyclops_plural'                => 200005,
+        'mission_tw_passengerevacuation_burning'            => 200006,
+        'mission_tw_massacre_cyclops_singular'              => 200007,
+        'mission_tw_rescue_burning'                         => 200008,
+        'mission_tw_collect_underattack'                    => 200009,
+        'mission_tw_massacre_hydra_singular'                => 200010,
+        'mission_tw_massacre_medusa_plural'                 => 200011,
+        'mission_tw_massacre_basilisk_plural'               => 200012,
+        'mission_tw_rescue_underattack'                     => 200013,
+        'mission_tw_passengerevacuation_underattack'        => 200014,
+        'mission_tw_massacre_basilisk_singular'             => 200015,
+        'mission_tw_massacre_medusa_singular'               => 200016,
+        'mission_tw_collectwing_underattack'                => 200017,
+        'mission_tw_collectwing_alert'                      => 200018,
+        'mission_tw_massacre_hydra_plural'                  => 200019,
+        'mission_tw_collect_recovery'                       => 200020,
+        'mission_tw_collectwing_repairing'                  => 200021,
+        'mission_tw_refugeebulk'                            => 200022,
+        'mission_tw_refugeevip'                             => 200023,
     ];
 }

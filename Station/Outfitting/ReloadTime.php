@@ -140,5 +140,8 @@ class ReloadTime extends Alias
 
         // Utility Mount > Point Defence
           2200  => 0.4,
+        
+        // Utility Mount > Caustic Sink Launcher
+          2601  => 10,
     ];
 }

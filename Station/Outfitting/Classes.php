@@ -514,6 +514,10 @@ class Classes extends Alias
         // Weapon Hardpoint > Seismic Charge
           1952  => 2,
           1960  => 2,
+        
+        // Weapon Hardpoint > Guardian Nanite Torpedo Pylon
+          1972  => 2,
+          1973  => 3,
 
         // Utility Mount > Shield Booster
           2001  => 0,
@@ -558,6 +562,7 @@ class Classes extends Alias
         // Utility Mount > Xeno Scanner
           2401  => 0,
           2402  => 0,
+          2403  => 0,
 
         // Utility Mount > Shutdown Field Neutraliser
           2451  => 0,

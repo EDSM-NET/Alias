@@ -429,6 +429,9 @@ class Type extends Alias
         1668        => 'Ancient Key',
         1669        => 'Unclassified Relic',
         1670        => 'Unoccupied Escape Pod',
+        1671        => 'Protective Membrane Scrap',
+        1672        => 'Xenobiological Prison Pod',
+        1673        => 'Coral Sap',
 
         1800        => 'Thargoid Cyclops Tissue Sample',
         1801        => 'Thargoid Heart',
@@ -445,6 +448,7 @@ class Type extends Alias
         1812        => 'Titan Maw Deep Tissue Sample',
         1813        => 'Titan Maw Tissue Sample',
         1814        => 'Titan Maw Partial Tissue Sample',
+        1815        => 'Thargoid Scythe Tissue Sample',
 
         1900        => 'Mollusc Spores',
         1901        => 'Mollusc Membrane',
@@ -1041,6 +1045,9 @@ class Type extends Alias
         'ancientkey'                            => 1668,
         'ancientrelictg'                        => 1669,
         'unocuppiedescapepod'                   => 1670,
+        'unknownsack'                           => 1671,
+        'thargoidpod'                           => 1672,
+        'coralsap'                              => 1673,
 
         'thargoidtissuesampletype1'             => 1800,
         'thargoidheart'                         => 1801,
@@ -1057,6 +1064,7 @@ class Type extends Alias
         'thargoidtissuesampletype10a'           => 1812,
         'thargoidtissuesampletype10b'           => 1813,
         'thargoidtissuesampletype10c'           => 1814,
+        'thargoidtissuesampletype7'             => 1815,
 
         'm3_tissuesample_spores'                => 1900,
         'm3_tissuesample_membrane'              => 1901,

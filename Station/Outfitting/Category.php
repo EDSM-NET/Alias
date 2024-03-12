@@ -99,6 +99,9 @@ class Category extends Alias
                 // AX Multi-Cannon
                 1702, 1703,
                 1710, 1711,
+                1720, 1721,
+                1722, 1723,
+                1730, 1731,
 
                 //Remote Release Flak Launcher
                 1752,
