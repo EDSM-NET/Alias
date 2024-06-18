@@ -104,6 +104,9 @@ class HullMass extends Alias
 
         // Python
         128049339               => 350,
+        
+        // Python Mk II
+        129030464               => 450,
 
         // Sidewinder
         128049249               => 25,

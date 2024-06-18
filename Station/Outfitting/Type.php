@@ -280,6 +280,13 @@ class Type extends Alias
            373  => 'Military Grade Composite',
            374  => 'Mirrored Surface Composite',
            375  => 'Reactive Surface Composite',
+        
+        // Bulkhead > Python Mk II
+           381  => 'Lightweight Alloy',
+           382  => 'Reinforced Alloy',
+           383  => 'Military Grade Composite',
+           384  => 'Mirrored Surface Composite',
+           385  => 'Reactive Surface Composite',
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 'Sub-Surface Displacement Missile (Fixed)',
@@ -924,6 +931,31 @@ class Type extends Alias
           3831  => 'Guardian FSD Booster',
 
           3841  => 'Guardian FSD Booster',
+
+        // Core Internal > Frame Shift Drive (SCO)
+          3923  => 'Frame Shift Drive (SCO)',
+        
+          3932  => 'Frame Shift Drive (SCO)',
+          3933  => 'Frame Shift Drive (SCO)',
+          3935  => 'Frame Shift Drive (SCO)',
+        
+          3942  => 'Frame Shift Drive (SCO)',
+          3943  => 'Frame Shift Drive (SCO)',
+          3945  => 'Frame Shift Drive (SCO)',
+        
+          3952  => 'Frame Shift Drive (SCO)',
+          3953  => 'Frame Shift Drive (SCO)',
+          3954  => 'Frame Shift Drive (SCO)',
+          3945  => 'Frame Shift Drive (SCO)',
+        
+          3962  => 'Frame Shift Drive (SCO)',
+          3963  => 'Frame Shift Drive (SCO)',
+          3964  => 'Frame Shift Drive (SCO)',
+          3965  => 'Frame Shift Drive (SCO)',
+        
+          3972  => 'Frame Shift Drive (SCO)',
+          3973  => 'Frame Shift Drive (SCO)',
+          3975  => 'Frame Shift Drive (SCO)',
 
         // Optional Internal > Discovery Scanner
           4000  => 'Basic Discovery Scanner (Free)',
@@ -1793,6 +1825,13 @@ class Type extends Alias
         'mamba_armour_grade3'                           => 373,
         'mamba_armour_mirrored'                         => 374,
         'mamba_armour_reactive'                         => 375,
+        
+        // Bulkhead > Python Mk II
+        'python_nx_armour_grade1'                       => 381,
+        'python_nx_armour_grade2'                       => 382,
+        'python_nx_armour_grade3'                       => 383,
+        'python_nx_armour_mirrored'                     => 384,
+        'python_nx_armour_reactive'                     => 385,
 
 
 
@@ -2445,6 +2484,33 @@ class Type extends Alias
         'int_guardianfsdbooster_size4'                  => 3831,
 
         'int_guardianfsdbooster_size5'                  => 3841,
+
+        // Core Internal > Frame Shift Drive (SCO)
+        'int_hyperdrive_overcharge_size2_class3'        => 3923,
+        'int_hyperdrive_overcharge_size2_class5'        => 3925,
+        
+        'int_hyperdrive_overcharge_size3_class2'        => 3932,
+        'int_hyperdrive_overcharge_size3_class3'        => 3933,
+        'int_hyperdrive_overcharge_size3_class5'        => 3935,
+        
+        'int_hyperdrive_overcharge_size4_class2'        => 3942,
+        'int_hyperdrive_overcharge_size4_class3'        => 3943,
+        'int_hyperdrive_overcharge_size4_class5'        => 3945,
+        
+        'int_hyperdrive_overcharge_size5_class2'        => 3952,
+        'int_hyperdrive_overcharge_size5_class3'        => 3953,
+        'int_hyperdrive_overcharge_size5_class4'        => 3954,
+        'int_hyperdrive_overcharge_size5_class5'        => 3955,
+        
+        'int_hyperdrive_overcharge_size6_class2'        => 3962,
+        'int_hyperdrive_overcharge_size6_class3'        => 3963,
+        'int_hyperdrive_overcharge_size6_class4'        => 3964,
+        'int_hyperdrive_overcharge_size6_class5'        => 3965,
+        
+        'int_hyperdrive_overcharge_size7_class2'        => 3972,
+        'int_hyperdrive_overcharge_size7_class3'        => 3973,
+        'int_hyperdrive_overcharge_size7_class5'        => 3975,
+        
 
         // Optional Internal > Discovery Scanner
         'int_stellarbodydiscoveryscanner_standard_free' => 4000, // Not in category

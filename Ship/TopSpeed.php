@@ -105,6 +105,9 @@ class TopSpeed extends Alias
 
         // Python
         128049339               => 230,
+        
+        // Python Mk II
+        129030464               => 256,
 
         // Sidewinder
         128049249               => 220,

@@ -104,6 +104,9 @@ class Armour extends Alias
 
         // Python
         128049339               => 260,
+        
+        // Python Mk II
+        129030464               => 280,
 
         // Sidewinder
         128049249               => 108,

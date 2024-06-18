@@ -17,8 +17,13 @@ class ShotSpeed extends Alias
      */
     static protected $have          = [
         'Cannons',
-        'Multi-Cannons',
+        'Mining Tools',
+        'Multi-Cannons',        
         'Plasma Accelerators',
+        'Pulse Lasers',
+        'Shard Cannons',
+        
+        'Point Defence',
     ];
 
     /**

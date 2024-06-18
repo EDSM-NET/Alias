@@ -21,10 +21,15 @@ class MaximumRange extends Alias
         'Burst Lasers',
         'Cannons',
         'Fragment Cannons',
+        'Mines',
+        'Mining Tools',
         'Multi-Cannons',
         'Plasma Accelerators',
         'Pulse Lasers',
         'Rail Guns',
+        'Shard Cannons',
+        
+        'Point Defence',
     ];
 
     /**

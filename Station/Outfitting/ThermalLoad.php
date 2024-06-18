@@ -18,17 +18,21 @@ class ThermalLoad extends Alias
      */
     static protected $have          = [
         'Beam Lasers',
+        'Burst Lasers',
         'Cannons',
         'Fragment Cannons',
         'Mines',
         'Missiles',
-        'Pack-Hound Missile Rack',
-        'Pulse Lasers',
-        'Burst Lasers',
+        'Mining Tools',
         'Multi-Cannons',
+        'Pack-Hound Missile Rack',
         'Plasma Accelerators',
+        'Pulse Lasers',
         'Rail Guns',
+        'Shard Cannons',
         'Torpedoes',
+        
+        'Point Defence',
     ];
 
     /**

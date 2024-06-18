@@ -284,6 +284,12 @@ class Mass extends Alias
            374  => 38,
            375  => 38,
 
+        // Bulkhead > Python Mk II
+           381  => 0,
+           383  => 53,
+           384  => 53,
+           385  => 53,
+
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 2,
            952  => 2,
@@ -515,6 +521,10 @@ class Mass extends Alias
         // Weapon Hardpoint > Seismic Charge
           1952  => 4,
           1960  => 4,
+        
+        // Weapon Hardpoint > Guardian Nanite Torpedo Pylon
+          1972  => 4,
+          1973  => 8,
 
         // Utility Mount > Shield Booster
           2001  => 0.5,
@@ -570,6 +580,10 @@ class Mass extends Alias
           2503  => 1.3,
           2504  => 1.3,
           2505  => 1.3,
+
+        // Utility Mount > Experimental Weapon Stabiliser
+          2551  => 8,
+          2552  => 20,
         
         // Utility Mount > Caustic Sink Launcher
           2601  => 1.7,
@@ -909,6 +923,31 @@ class Mass extends Alias
           3831  => 1.3,
 
           3841  => 1.3,
+
+        // Core Internal > Frame Shift Drive (SCO)
+          3923  => 2.5,
+        
+          3932  => 2,
+          3933  => 5,
+          3935  => 5,
+        
+          3942  => 4,
+          3943  => 10,
+          3945  => 10,
+        
+          3952  => 20,
+          3953  => 20,
+          3954  => 20,
+          3955  => 20,
+        
+          3962  => 16,
+          3963  => 40,
+          3964  => 40,
+          3965  => 40,
+        
+          3972  => 32,
+          3973  => 80,
+          3975  => 80,
 
         // Optional Internal > Discovery Scanner
           4000  => 2,

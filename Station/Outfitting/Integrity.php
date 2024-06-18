@@ -337,6 +337,9 @@ class Integrity extends Alias
           2503  => null,
           2504  => null,
           2505  => null,
+        
+        // Utility Mount > Caustic Sink Launcher
+          2601  => 45,
 
         // Core Internal > Fuel Tank
           3000  => null, // Not in category
@@ -676,6 +679,31 @@ class Integrity extends Alias
           3831  => null,
 
           3841  => null,
+
+        // Core Internal > Frame Shift Drive (SCO)
+          3923  => 57,
+        
+          3932  => 70,
+          3933  => 70,
+          3935  => 80,
+        
+          3942  => 90,
+          3943  => 90,
+          3945  => 100,
+        
+          3952  => 110,
+          3953  => 110,
+          3954  => 110,
+          3955  => 120,
+        
+          3962  => 130,
+          3963  => 130,
+          3964  => 130,
+          3965  => 141,
+        
+          3972  => 150,
+          3973  => 150,
+          3975  => 164,
 
         // Optional Internal > Discovery Scanner
           4000  => null,

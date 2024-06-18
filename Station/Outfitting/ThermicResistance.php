@@ -48,6 +48,7 @@ class ThermicResistance extends Alias
         128915979,  // Mamba
         128049327,  // Orca
         128049339,  // Python
+        129030464,  // Python Mk II
         128049249,  // Sidewinder
         128049285,  // Type-6 Transporter
         128049297,  // Type-7 Transporter
@@ -336,6 +337,13 @@ class ThermicResistance extends Alias
            373  => 0,
            374  => 50,
            375  => -39.999996,
+
+        // Bulkhead > Python Mk II
+           381  => 0,
+           382  => 0,
+           383  => 0,
+           384  => 50,
+           385  => -39.999996,
 
         // Utility Mount > Shield Booster
           2001  => 0,

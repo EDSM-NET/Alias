@@ -105,6 +105,9 @@ class BoostSpeed extends Alias
 
         // Python
         128049339               => 280,
+        
+        // Python Mk II
+        129030464               => 345,
 
         // Sidewinder
         128049249               => 320,

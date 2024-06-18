@@ -19,6 +19,7 @@ class Jitter extends Alias
     static protected $have          = [
         'Burst Lasers',
         'Fragment Cannons',
+        'Shard Cannons',
     ];
 
     /**

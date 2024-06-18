@@ -105,6 +105,9 @@ class BaseSpeed extends Alias
 
         // Python
         128049339               => 140,
+        
+        // Python Mk II
+        129030464               => 256,
 
         // Sidewinder
         128049249               => 100,

@@ -21,8 +21,8 @@ class Type extends Alias
         128049303   => 'Asp Explorer',
         128672276   => 'Asp Scout',
         128049345   => 'Beluga Liner',
-        128049279   => 'Cobra MkIII',
-        128672262   => 'Cobra MkIV',
+        128049279   => 'Cobra Mk III',
+        128672262   => 'Cobra Mk IV',
         128671831   => 'Diamondback Explorer',
         128671217   => 'Diamondback Scout',
         128049291   => 'Dolphin',
@@ -38,18 +38,19 @@ class Type extends Alias
         128049375   => 'Imperial Cutter',
         128672138   => 'Imperial Eagle',
         128672269   => 'Keelback',
-        128816567   => 'Krait MkII',
+        128816567   => 'Krait Mk II',
         128839281   => 'Krait Phantom',
         128915979   => 'Mamba',
         128049327   => 'Orca',
         128049339   => 'Python',
+        129030464   => 'Python Mk II',
         128049249   => 'Sidewinder',
         128049285   => 'Type-6 Transporter',
         128049297   => 'Type-7 Transporter',
         128049333   => 'Type-9 Heavy',
         128785619   => 'Type-10 Defender',
-        128049273   => 'Viper MkIII',
-        128672255   => 'Viper MkIV',
+        128049273   => 'Viper Mk III',
+        128672255   => 'Viper Mk IV',
         128049309   => 'Vulture',
     ];
 
@@ -167,6 +168,9 @@ class Type extends Alias
 
         // Python
         'python'                            => 128049339,
+        
+        // Python Mk II
+        'python_nx'                         => 129030464,
 
         // Sidewinder
         'sidewinder'                        => 128049249,

@@ -48,6 +48,7 @@ class ExplosiveResistance extends Alias
         128915979,  // Mamba
         128049327,  // Orca
         128049339,  // Python
+        129030464,  // Python Mk II
         128049249,  // Sidewinder
         128049285,  // Type-6 Transporter
         128049297,  // Type-7 Transporter
@@ -336,6 +337,13 @@ class ExplosiveResistance extends Alias
            373  => -39.999996,
            374  => -50,
            375  => 19.999998,
+
+        // Bulkhead > Python Mk II
+           381  => -39.999996,
+           382  => -39.999996,
+           383  => -39.999996,
+           384  => -50,
+           385  => 19.999998,
 
         // Utility Mount > Shield Boosters
           2001  => 0,

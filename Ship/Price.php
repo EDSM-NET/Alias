@@ -100,6 +100,9 @@ class Price extends Alias
         // Python
         128049339               => 56978179,
         
+        // Python Mk II
+        129030464               => 67527360,
+        
         // Sidewinder
         128049249               => 32000,
         

@@ -26,6 +26,7 @@ class AmmoMaximum extends Alias
         'Pack-Hound Missile Rack',
         'Plasma Accelerators',
         'Rail Guns',
+        'Torpedoes',
 
         // Utility Mount
         'Chaff Launchers',

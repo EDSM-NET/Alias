@@ -432,6 +432,8 @@ class Type extends Alias
         1671        => 'Protective Membrane Scrap',
         1672        => 'Xenobiological Prison Pod',
         1673        => 'Coral Sap',
+        1674        => 'Impure Spire Mineral',
+        1675        => 'Semi-Refined Spire Mineral',
 
         1800        => 'Thargoid Cyclops Tissue Sample',
         1801        => 'Thargoid Heart',
@@ -449,6 +451,7 @@ class Type extends Alias
         1813        => 'Titan Maw Tissue Sample',
         1814        => 'Titan Maw Partial Tissue Sample',
         1815        => 'Thargoid Scythe Tissue Sample',
+        1816        => 'Titan drive component',
 
         1900        => 'Mollusc Spores',
         1901        => 'Mollusc Membrane',
@@ -1048,6 +1051,8 @@ class Type extends Alias
         'unknownsack'                           => 1671,
         'thargoidpod'                           => 1672,
         'coralsap'                              => 1673,
+        'unknownmineral'                        => 1674,
+        'unknownrefinedmineral'                 => 1675,
 
         'thargoidtissuesampletype1'             => 1800,
         'thargoidheart'                         => 1801,
@@ -1065,6 +1070,7 @@ class Type extends Alias
         'thargoidtissuesampletype10b'           => 1813,
         'thargoidtissuesampletype10c'           => 1814,
         'thargoidtissuesampletype7'             => 1815,
+        'thargoidtitandrivecomponent'           => 1816,
 
         'm3_tissuesample_spores'                => 1900,
         'm3_tissuesample_membrane'              => 1901,
@@ -1143,5 +1149,7 @@ class Type extends Alias
         1113, 1114,
         1204, 1205, 1206, 1207, 1208, 1209, 1210,
         1409, 1410,
+        
+        1816,
     ];
 }

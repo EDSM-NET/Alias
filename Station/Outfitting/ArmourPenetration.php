@@ -27,6 +27,7 @@ class ArmourPenetration extends Alias
         'Missiles',
         'Multi-Cannons',
         'Rail Guns',
+        'Shard Cannons',
         'Torpedoes',
     ];
 

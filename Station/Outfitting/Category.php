@@ -58,6 +58,7 @@ class Category extends Alias
             128915979   => [371, 372, 373, 374, 375],      // Mamba
             128049327   => [221, 222, 223, 224, 225],      // Orca
             128049339   => [231, 232, 233, 234, 235],      // Python
+            129030464   => [381, 382, 383, 384, 385],      // Python Mk II
             128049249   => [241, 242, 243, 244, 245],      // Sidewinder
             128049285   => [251, 252, 253, 254, 255],      // Type-6 Transporter
             128049297   => [261, 262, 263, 264, 265],      // Type-7 Transporter
@@ -195,10 +196,13 @@ class Category extends Alias
             'Enzyme Missile Rack'               => [
                 1872,
             ],
-            'Shard Cannon'                      => [
+            'Shard Cannons'                      => [
                 1921, 1922, 1923,
                 1929, 1930, 1931,
             ],
+            'Guardian Nanite Torpedo Pylon'     => [
+                1972, 1973,
+            ]
          ],
 
         // Utility Mount
@@ -209,8 +213,12 @@ class Category extends Alias
             'ECMs'                              => [
                 2100,
             ],
-            'Experimental'                      => [
-                2401,
+
+            'Xeno Scanner'                      => [
+                2401, 2402, 2403,
+            ],
+             
+             'Experimental'                      => [
                 2451,
             ],
             'Heatsink Launchers'                => [
@@ -278,6 +286,13 @@ class Category extends Alias
                 3341, 3342, 3343, 3344, 3345,
                 3351, 3352, 3353, 3354, 3355,
                 3361, 3362, 3363, 3364, 3365,
+                
+                            3923,       3925,
+                      3932, 3933,       3935,
+                      3942, 3943,       3945,
+                      3952, 3953, 3954, 3955, 
+                      3962, 3963, 3964, 3965, 
+                      3972, 3973,       3975,
             ],
             'Environment Control'               => [
                 3401, 3402, 3403, 3404, 3405,
@@ -449,7 +464,7 @@ class Category extends Alias
                 5351, 5352, 5353, 5354,
             ],
             'Planetary Approach Suite'          => [
-                3701,
+                3701, 3702,
             ],
             'Planetary Vehicle Hangars'         => [
                 5411, 5412,

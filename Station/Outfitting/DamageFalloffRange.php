@@ -19,10 +19,15 @@ class DamageFalloffRange extends Alias
         'Beam Lasers',
         'Burst Lasers',
         'Cannons',
+        'Fragment Cannons',
+        'Mines',
+        'Mining Tools',
+        'Missiles',
         'Multi-Cannons',
         'Plasma Accelerators',
         'Pulse Lasers',
         'Rail Guns',
+        'Shard Cannons',
     ];
 
     /**

@@ -281,6 +281,13 @@ class Classes extends Alias
            374  => 1,
            375  => 1,
 
+        // Bulkhead > Python Mk II
+           381  => 1,
+           382  => 1,
+           383  => 1,
+           384  => 1,
+           385  => 1,
+
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 1,
            952  => 2,
@@ -916,6 +923,32 @@ class Classes extends Alias
           3831  => 4,
 
           3841  => 5,
+
+        // Core Internal > Frame Shift Drive (SCO)
+          3923  => 2,
+          3925  => 2,
+        
+          3932  => 3,
+          3933  => 3,
+          3935  => 3,
+        
+          3942  => 4,
+          3943  => 4,
+          3945  => 4,
+        
+          3952  => 5,
+          3953  => 5,
+          3954  => 5,
+          3955  => 5,
+        
+          3962  => 6,
+          3963  => 6,
+          3964  => 6,
+          3965  => 6,
+        
+          3972  => 7,
+          3973  => 7,
+          3975  => 7,
 
         // Optional Internal > Discovery Scanner
           4001  => 1,

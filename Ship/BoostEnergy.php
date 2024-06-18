@@ -105,6 +105,9 @@ class BoostEnergy extends Alias
 
         // Python
         128049339               => 23,
+        
+        // Python Mk II
+        129030464               => 19,
 
         // Sidewinder
         128049249               => 7,

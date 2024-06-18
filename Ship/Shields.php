@@ -105,6 +105,9 @@ class Shields extends Alias
 
         // Python
         128049339               => 294,
+        
+        // Python Mk II
+        129030464               => 335,
 
         // Sidewinder
         128049249               => 52,

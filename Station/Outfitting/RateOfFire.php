@@ -16,6 +16,7 @@ class RateOfFire extends Alias
      * List of categories
      */
     static protected $have          = [
+        'Beam Lasers',
         'Burst Lasers',
         'Cannons',
         'Pulse Lasers',

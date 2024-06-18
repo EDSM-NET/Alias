@@ -22,11 +22,13 @@ class DistributorDraw extends Alias
         'Burst Lasers',
         'Cannons',
         'Fragment Cannons',
+        'Mining Tools',
         'Missiles',
         'Multi-Cannons',
         'Pack-Hound Missile Rack',
         'Plasma Accelerators',
         'Rail Guns',
+        'Shard Cannons',
     ];
 
     /**

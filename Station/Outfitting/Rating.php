@@ -281,6 +281,13 @@ class Rating extends Alias
            374  => 'I',
            375  => 'I',
 
+        // Bulkhead > Python Mk II
+           381  => 'I',
+           382  => 'I',
+           383  => 'I',
+           384  => 'I',
+           385  => 'I',
+
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 'B',
            952  => 'B',
@@ -916,6 +923,32 @@ class Rating extends Alias
           3831  => 'H',
 
           3841  => 'H',
+
+        // Core Internal > Frame Shift Drive (SCO)
+          3923  => 'C',
+          3925  => 'A',
+        
+          3932  => 'D',
+          3933  => 'C',
+          3935  => 'A',
+        
+          3942  => 'D',
+          3943  => 'C',
+          3945  => 'A',
+        
+          3952  => 'D',
+          3953  => 'C',
+          3954  => 'B',
+          3955  => 'A',
+        
+          3962  => 'D',
+          3963  => 'C',
+          3964  => 'B',
+          3965  => 'A',
+        
+          3972  => 'D',
+          3973  => 'C',
+          3975  => 'A',
 
         // Optional Internal > Discovery Scanner
           4001  => 'E',

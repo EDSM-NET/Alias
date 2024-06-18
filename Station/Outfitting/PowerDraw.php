@@ -352,6 +352,13 @@ class PowerDraw extends Alias
           2504  => 1.6,
           2505  => 3.2,
         
+        // Utility Mount > Caustic Sink Launcher
+          2601  => 0.6,
+
+        // Utility Mount > Experimental Weapon Stabiliser
+          2551  => 1.5,
+          2552  => 3,
+        
         // Utility Mount > Thargoid Pulse Neutraliser
           2651  => 0.4,
 
@@ -629,6 +636,31 @@ class PowerDraw extends Alias
           3831  => 1.65,
 
           3841  => 2.14,
+
+        // Core Internal > Frame Shift Drive (SCO)
+          3923  => 0.25,
+        
+          3932  => 0.38,
+          3933  => 0.38,
+          3935  => 0.45,
+        
+          3942  => 0.38,
+          3943  => 0.38,
+          3945  => 0.45,
+        
+          3952  => 0.5,
+          3953  => 0.5,
+          3954  => 0.5,
+          3955  => 0.6,
+        
+          3962  => 0.63,
+          3963  => 0.63,
+          3964  => 0.63,
+          3965  => 0.75,
+        
+          3972  => 0.75,
+          3973  => 0.75,
+          3975  => 0.9,
 
         // Optional Internal > Discovery Scanner
           4000  => 0,   4001  => 0,   4002  => 0,     4003  => 0,

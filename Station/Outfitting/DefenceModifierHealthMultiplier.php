@@ -46,6 +46,7 @@ class DefenceModifierHealthMultiplier extends Alias
         128915979,  // Mamba
         128049327,  // Orca
         128049339,  // Python
+        129030464,  // Python Mk II
         128049249,  // Sidewinder
         128049285,  // Type-6 Transporter
         128049297,  // Type-7 Transporter
@@ -327,6 +328,13 @@ class DefenceModifierHealthMultiplier extends Alias
            373  => 250,
            374  => 250,
            375  => 250,
+
+        // Bulkhead > Python Mk II
+           381  => 79.999992,
+           382  => 152,
+           383  => 250,
+           384  => 250,
+           385  => 250,
 
         // Optional Internal > Hull Reinforcement Package
           4801  => 0,

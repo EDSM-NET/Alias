@@ -48,6 +48,7 @@ class KineticResistance extends Alias
         128915979,  // Mamba
         128049327,  // Orca
         128049339,  // Python
+        129030464,  // Python Mk II
         128049249,  // Sidewinder
         128049285,  // Type-6 Transporter
         128049297,  // Type-7 Transporter
@@ -336,6 +337,13 @@ class KineticResistance extends Alias
            373  => -20.000004,
            374  => -75,
            375  => 25,
+
+        // Bulkhead > Python Mk II
+           381  => -20.000004,
+           382  => -20.000004,
+           383  => -20.000004,
+           384  => -75,
+           385  => 25,
 
         // Utility Mount > Shield Booster
           2001  => 0,
