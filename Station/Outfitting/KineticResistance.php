@@ -26,8 +26,9 @@ class KineticResistance extends Alias
         128049303,  // Asp Explorer
         128672276,  // Asp Scout
         128049345,  // Beluga Liner
-        128049279,  // Cobra MkIII
-        128672262,  // Cobra MkIV
+        128049279,  // Cobra Mk III
+        128672262,  // Cobra Mk IV
+        129031230,  // Cobra Mk V
         128671831,  // Diamondback Explorer
         128671217,  // Diamondback Scout
         128049291,  // Dolphin
@@ -46,12 +47,14 @@ class KineticResistance extends Alias
         128816567,  // Krait MkII
         128839281,  // Krait Phantom
         128915979,  // Mamba
+        129030680,  // Mandalay
         128049327,  // Orca
         128049339,  // Python
         129030464,  // Python Mk II
         128049249,  // Sidewinder
         128049285,  // Type-6 Transporter
         128049297,  // Type-7 Transporter
+        129030534,  // Type-8 Transporter
         128049333,  // Type-9 Heavy
         128785619,  // Type-10 Defender
         128049273,  // Viper MkIII
@@ -344,6 +347,27 @@ class KineticResistance extends Alias
            383  => -20.000004,
            384  => -75,
            385  => 25,
+        
+        // Bulkhead > Mandalay
+           391  => -20.000004,
+           392  => -20.000004,
+           393  => -20.000004,
+           394  => -75,
+           395  => 25,
+        
+        // Bulkhead > Cobra Mk V
+           401  => -20.000004,
+           402  => -20.000004,
+           403  => -20.000004,
+           404  => -75,
+           405  => 25,
+        
+        // Bulkhead > Type-8 Transporter
+           411  => -20.000004,
+           412  => -20.000004,
+           413  => -20.000004,
+           414  => -75,
+           415  => 25,
 
         // Utility Mount > Shield Booster
           2001  => 0,

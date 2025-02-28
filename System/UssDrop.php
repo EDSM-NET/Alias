@@ -28,6 +28,9 @@ class UssDrop extends Alias
         90                      => 'Weapons fire detected',
         
        100                      => 'Trading Beacon',
+        
+       110                      => 'Power Wreckage Signature',
+       111                      => 'Power Weapons Fire Signature',
     ];
     
     /**
@@ -55,5 +58,8 @@ class UssDrop extends Alias
         'weaponsfire'           => 90,
         
         'tradingbeacon'         => 100,
+        
+        'poweremissions'        => 110,
+        'powerweaponsfire'      => 111,
     ];
 }

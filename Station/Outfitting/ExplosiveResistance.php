@@ -26,8 +26,9 @@ class ExplosiveResistance extends Alias
         128049303,  // Asp Explorer
         128672276,  // Asp Scout
         128049345,  // Beluga Liner
-        128049279,  // Cobra MkIII
-        128672262,  // Cobra MkIV
+        128049279,  // Cobra Mk III
+        128672262,  // Cobra Mk IV
+        129031230,  // Cobra Mk V
         128671831,  // Diamondback Explorer
         128671217,  // Diamondback Scout
         128049291,  // Dolphin
@@ -46,12 +47,14 @@ class ExplosiveResistance extends Alias
         128816567,  // Krait MkII
         128839281,  // Krait Phantom
         128915979,  // Mamba
+        129030680,  // Mandalay
         128049327,  // Orca
         128049339,  // Python
         129030464,  // Python Mk II
         128049249,  // Sidewinder
         128049285,  // Type-6 Transporter
         128049297,  // Type-7 Transporter
+        129030534,  // Type-8 Transporter
         128049333,  // Type-9 Heavy
         128785619,  // Type-10 Defender
         128049273,  // Viper MkIII
@@ -344,6 +347,27 @@ class ExplosiveResistance extends Alias
            383  => -39.999996,
            384  => -50,
            385  => 19.999998,
+        
+        // Bulkhead > Mandalay
+           391  => -39.999996,
+           392  => -39.999996,
+           393  => -39.999996,
+           394  => -50,
+           395  => 19.999998,
+        
+        // Bulkhead > Cobra Mk V
+           401  => -39.999996,
+           402  => -39.999996,
+           403  => -39.999996,
+           404  => -50,
+           405  => 19.999998,
+        
+        // Bulkhead > Type-8 Transporter
+           411  => -39.999996,
+           412  => -39.999996,
+           413  => -39.999996,
+           414  => -50,
+           415  => 19.999998,
 
         // Utility Mount > Shield Boosters
           2001  => 0,

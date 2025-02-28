@@ -254,6 +254,7 @@ class Type extends Alias
          822        => 'Praseodymium',
          823        => 'Samarium',
          824        => 'Platinum Alloy',
+         825        => 'Steel',
 
 
         // Minerals (9)
@@ -452,6 +453,7 @@ class Type extends Alias
         1814        => 'Titan Maw Partial Tissue Sample',
         1815        => 'Thargoid Scythe Tissue Sample',
         1816        => 'Titan drive component',
+        1817        => 'Cyst Specimen',
 
         1900        => 'Mollusc Spores',
         1901        => 'Mollusc Membrane',
@@ -511,6 +513,7 @@ class Type extends Alias
         9936        => 'Grom Underground Support',
         9937        => 'Grom Counter Intelligence',
         9938        => 'Yuri Grom\'s Military Supplies',
+        9939        => 'Kaine Misinformation',
 
         // Odyssey - Items (40)
         4001        => 'Biochemical Agent',
@@ -872,6 +875,7 @@ class Type extends Alias
         'praseodymium'                          => 822,
         'samarium'                              => 823,
         'platinumaloy'                          => 824,
+        'steel'                                 => 825,
 
 
         // Minerals (9)
@@ -1071,6 +1075,7 @@ class Type extends Alias
         'thargoidtissuesampletype10c'           => 1814,
         'thargoidtissuesampletype7'             => 1815,
         'thargoidtitandrivecomponent'           => 1816,
+        'thargoidcystspecimen'                  => 1817,
 
         'm3_tissuesample_spores'                => 1900,
         'm3_tissuesample_membrane'              => 1901,
@@ -1130,6 +1135,7 @@ class Type extends Alias
         'undergroundsupport'                    => 9936,
         'gromcounterintelligence'               => 9937,
         'gromwartrophies'                       => 9938,
+        'kainemisinformation'                   => 9939,
     ];
 
     /**

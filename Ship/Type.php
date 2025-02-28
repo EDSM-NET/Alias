@@ -23,6 +23,7 @@ class Type extends Alias
         128049345   => 'Beluga Liner',
         128049279   => 'Cobra Mk III',
         128672262   => 'Cobra Mk IV',
+        129031230   => 'Cobra Mk V',
         128671831   => 'Diamondback Explorer',
         128671217   => 'Diamondback Scout',
         128049291   => 'Dolphin',
@@ -41,12 +42,14 @@ class Type extends Alias
         128816567   => 'Krait Mk II',
         128839281   => 'Krait Phantom',
         128915979   => 'Mamba',
+        129030680   => 'Mandalay',
         128049327   => 'Orca',
         128049339   => 'Python',
         129030464   => 'Python Mk II',
         128049249   => 'Sidewinder',
         128049285   => 'Type-6 Transporter',
         128049297   => 'Type-7 Transporter',
+        129030534   => 'Type-8 Transporter',
         128049333   => 'Type-9 Heavy',
         128785619   => 'Type-10 Defender',
         128049273   => 'Viper Mk III',
@@ -96,6 +99,9 @@ class Type extends Alias
         // Cobra MkIV
         'cobra mk. iv'                      => 128672262,
         'cobramkiv'                         => 128672262,
+
+        // Cobra MkV
+        'cobramkv'                          => 129031230,
 
         // Diamondback Explorer
         'diamondback explorer'              => 128671831,
@@ -162,6 +168,9 @@ class Type extends Alias
 
         // Mamba
         'mamba'                             => 128915979,
+        
+        // Mandalay
+        'mandalay'                          => 129030680,
 
         // Orca
         'orca'                              => 128049327,
@@ -182,6 +191,9 @@ class Type extends Alias
         // Type-7 Transporter
         'type 7 transporter'                => 128049297,
         'type7'                             => 128049297,
+        
+        // Type-8 Transporter
+        'type8'                             => 129030534,
 
         // Type-9 Heavy
         'type 9 heavy'                      => 128049333,

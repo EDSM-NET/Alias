@@ -639,6 +639,7 @@ class PowerDraw extends Alias
 
         // Core Internal > Frame Shift Drive (SCO)
           3923  => 0.25,
+          3925  => 0.3,
         
           3932  => 0.38,
           3933  => 0.38,

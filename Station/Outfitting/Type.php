@@ -287,6 +287,20 @@ class Type extends Alias
            383  => 'Military Grade Composite',
            384  => 'Mirrored Surface Composite',
            385  => 'Reactive Surface Composite',
+        
+        // Bulkhead > Mandalay
+           391  => 'Lightweight Alloy',
+           392  => 'Reinforced Alloy',
+           393  => 'Military Grade Composite',
+           394  => 'Mirrored Surface Composite',
+           395  => 'Reactive Surface Composite',
+        
+        // Bulkhead > Cobra Mk V
+           401  => 'Lightweight Alloy',
+           402  => 'Reinforced Alloy',
+           403  => 'Military Grade Composite',
+           404  => 'Mirrored Surface Composite',
+           405  => 'Reactive Surface Composite',
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 'Sub-Surface Displacement Missile (Fixed)',
@@ -1832,6 +1846,27 @@ class Type extends Alias
         'python_nx_armour_grade3'                       => 383,
         'python_nx_armour_mirrored'                     => 384,
         'python_nx_armour_reactive'                     => 385,
+        
+        // Bulkhead > Mandalay
+        'mandalay_armour_grade1'                        => 391,
+        'mandalay_armour_grade2'                        => 392,
+        'mandalay_armour_grade3'                        => 393,
+        'mandalay_armour_mirrored'                      => 394,
+        'mandalay_armour_reactive'                      => 395,
+        
+        // Bulkhead > Cobra Mk V
+        'cobramkv_armour_grade1'                        => 401,
+        'cobramkv_armour_grade2'                        => 402,
+        'cobramkv_armour_grade3'                        => 403,
+        'cobramkv_armour_mirrored'                      => 404,
+        'cobramkv_armour_reactive'                      => 405,
+        
+        // Bulkhead > Type-8 Transporter
+        'type8_armour_grade1'                           => 411,
+        'type8_armour_grade2'                           => 412,
+        'type8_armour_grade3'                           => 413,
+        'type8_armour_mirrored'                         => 414,
+        'type8_armour_reactive'                         => 415,
 
 
 

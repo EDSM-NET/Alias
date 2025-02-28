@@ -289,6 +289,17 @@ class Mass extends Alias
            383  => 53,
            384  => 53,
            385  => 53,
+        
+        // Bulkhead > Mandalay
+           393  => 38,
+           395  => 38,
+        
+        // Bulkhead > Cobra Mk V
+           403 => 27,
+        
+        // Bulkhead > Type-8 Transporter
+           412 => 32,
+           413 => 63,
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 2,
@@ -926,6 +937,7 @@ class Mass extends Alias
 
         // Core Internal > Frame Shift Drive (SCO)
           3923  => 2.5,
+          3925  => 2.5,
         
           3932  => 2,
           3933  => 5,

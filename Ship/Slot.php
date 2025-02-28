@@ -28,6 +28,8 @@ class Slot extends Alias
          152    => 'Small hardpoint',
          153    => 'Small hardpoint',
          154    => 'Small hardpoint',
+         155    => 'Small hardpoint',
+         156    => 'Small hardpoint',
 
          201    => 'Tiny hardpoint',
          202    => 'Tiny hardpoint',
@@ -166,6 +168,8 @@ class Slot extends Alias
         'smallhardpoint2'           => 152,
         'smallhardpoint3'           => 153,
         'smallhardpoint4'           => 154,
+        'smallhardpoint5'           => 155,
+        'smallhardpoint6'           => 156,
 
         'tinyhardpoint1'            => 201,
         'tinyhardpoint2'            => 202,

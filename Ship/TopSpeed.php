@@ -99,6 +99,9 @@ class TopSpeed extends Alias
 
         // Mamba
         128915979               => 310,
+        
+        // Mandalay
+        129030680               => 286,
 
         // Orca
         128049327               => 300,

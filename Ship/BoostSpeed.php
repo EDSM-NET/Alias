@@ -99,6 +99,9 @@ class BoostSpeed extends Alias
 
         // Mamba
         128915979               => 380,
+        
+        // Mandalay
+        129030680               => 358,
 
         // Orca
         128049327               => 380,
@@ -117,6 +120,9 @@ class BoostSpeed extends Alias
 
         // Type-7 Transporter
         128049297               => 300,
+
+        // Type-8 Transporter
+        129030534               => 320,
 
         // Type-9 Heavy
         128049333               => 200,

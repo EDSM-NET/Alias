@@ -682,6 +682,7 @@ class Integrity extends Alias
 
         // Core Internal > Frame Shift Drive (SCO)
           3923  => 57,
+          3925  => 64,
         
           3932  => 70,
           3933  => 70,

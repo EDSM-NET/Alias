@@ -70,6 +70,7 @@ class FSDOptimalMass extends Alias
 
         // Core Internal > Frame Shift Drive (SCO)
           3923  => 90,
+          3925  => 100,
         
           3932  => 150,
           3933  => 150,

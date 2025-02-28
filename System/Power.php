@@ -26,6 +26,8 @@ class Power extends Alias
          9                      => 'Pranav Antal',
         10                      => 'Archon Delaine',
         11                      => 'Zemina Torval',
+        12                      => 'Jerome Archer',
+        13                      => 'Nakato Kaine',
     ];
     
     /**
@@ -47,6 +49,8 @@ class Power extends Alias
         'pranav antal'          => 9,
         'archon delaine'        => 10,
         'zemina torval'         => 11,
+        'jerome archer'         => 12,
+        'nakato kaine'          => 13,
     ];
     
     /**

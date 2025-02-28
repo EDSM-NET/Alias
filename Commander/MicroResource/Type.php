@@ -223,6 +223,32 @@ class Type extends Alias
         5009 => 'Transmitter',
         5010 => 'Tungsten Carbide',
         5011 => 'Weapon Component',
+        
+        // Assets - Powerplay
+        9901 => 'Power Injection Malware',
+        9902 => 'Power Association Data',
+        9903 => 'Power Classified Data',
+        9904 => 'Power Industrial Data',
+        9905 => 'Power Megaship Data',
+        9906 => 'Power Political Data',
+        9907 => 'Power Research Data',
+        9908 => 'Power Tracker Malware',
+        
+        9951 => 'Research Notes',
+        9952 => 'Medical Sample',
+        9953 => 'Industrial Component',
+        9954 => 'Agricultural Sample',
+        9955 => 'Energy Regulator',
+        9956 => 'Industrial Machinery',
+        9957 => 'Inventory Record',
+        9958 => 'Data Storage Device',
+        9959 => 'Extraction Sample',
+        9960 => 'Security Logs',
+        9961 => 'Electronics Package',
+        9962 => 'Personal Protective Equipment',
+        9963 => 'Experiment Prototype',
+        9964 => 'Computer Parts',
+        9965 => 'Military Schematic',
     ];
 
     /**
@@ -443,6 +469,32 @@ class Type extends Alias
         'transmitter'                     => 5009,
         'tungstencarbide'                 => 5010,
         'weaponcomponent'                 => 5011,
+        
+        // Assets - Powerplay
+        'powerpreparationspyware'           => 9901,
+        'poweremployeedata'                 => 9902,
+        'powerclassifieddata'               => 9903,
+        'powerfinancialrecords'             => 9904,
+        //''  => 9905, => 'Power Megaship Data',
+        'powerpropagandadata'               => 9906,
+        'powerresearchdata'                 => 9907,
+        'powerspyware'                      => 9908,
+        
+        'powerresearch'                     => 9951,
+        'powermedical'                      => 9952,
+        'powerindustrial'                   => 9953,
+        'poweragriculture'                  => 9954,
+        'powerpower'                        => 9955,
+        'powermiscindust'                   => 9956,
+        'powerinventory'                    => 9957,
+        'powermisccomputer'                 => 9958,
+        'powerextraction'                   => 9959,
+        'powersecurity'                     => 9960,
+        'powerelectronics'                  => 9961,
+        'powerequipment'                    => 9962,
+        'powerexperiment'                   => 9963,
+        'powercomputer'                     => 9964,
+        'powerplaymilitary'                 => 9965,
     ];
 
 }

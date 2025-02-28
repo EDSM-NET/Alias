@@ -43,6 +43,7 @@ class PaintJob extends Alias
         128816567   => 'krait_mkii_default_defaultpaintjob',
         128839281   => 'krait_light_default_defaultpaintjob',
         128915979   => 'mamba_default_defaultpaintjob',
+        129030680   => 'mandalay_default_defaultpaintjob',
         128049327   => 'orca_default_defaultpaintjob',
         128049339   => 'python_default_defaultpaintjob',
         128049249   => 'sidewinder_default_defaultpaintjob',
@@ -1625,6 +1626,8 @@ class PaintJob extends Alias
             'cutter_iridescenthighcolour_06'                => 'Iridescent Twilight',
 
             'cutter_lavecon_lavecon'                        => 'Lavecon',
+            
+            'cutter_lrpo_azure'                             => 'Azure',
 
             'cutter_luminous_stripe_ver2_01'                => 'Pulse White',
             'cutter_luminous_stripe_ver2_02'                => 'Pulse Blue',
@@ -1939,6 +1942,13 @@ class PaintJob extends Alias
             'mamba_vibrant_purple'                          => 'Vibrant Purple',
             'mamba_vibrant_red'                             => 'Vibrant Red',
             'mamba_vibrant_yellow'                          => 'Vibrant Yellow',
+        ],
+        
+        // Mandalay
+        129030680 => [
+            'mandalay_default_defaultpaintjob'              => 'Default',
+            
+            'mandalay_02_02'                                => 'Seeker Red',
         ],
 
         // Orca
