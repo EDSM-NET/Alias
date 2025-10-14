@@ -21,6 +21,8 @@ class Damage extends Alias
         'Burst Lasers',
         'Pulse Lasers',
         'Cannons',
+        'Enzyme Missile Rack',
+        'Experimental',
         'Fragment Cannons',
         'Multi-Cannons',
         'Pack-Hound Missile Rack',

@@ -19,6 +19,7 @@ class AmmoMaximum extends Alias
         // Weapon Hardpoint
         'Beam Lasers',
         'Cannons',
+        'Enzyme Missile Rack',
         'Fragment Cannons',
         'Mines',
         'Missiles',
@@ -29,6 +30,7 @@ class AmmoMaximum extends Alias
         'Torpedoes',
 
         // Utility Mount
+        'Caustic Sink Launcher',
         'Chaff Launchers',
         'Heatsink Launchers',
         'Point Defence',

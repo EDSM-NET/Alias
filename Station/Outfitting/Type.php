@@ -301,6 +301,34 @@ class Type extends Alias
            403  => 'Military Grade Composite',
            404  => 'Mirrored Surface Composite',
            405  => 'Reactive Surface Composite',
+        
+        // Bulkhead > Type-8 Transporter
+           411  => 'Lightweight Alloy',
+           412  => 'Reinforced Alloy',
+           413  => 'Military Grade Composite',
+           414  => 'Mirrored Surface Composite',
+           415  => 'Reactive Surface Composite',
+        
+        // Bulkhead > Corsair
+           421  => 'Lightweight Alloy',
+           422  => 'Reinforced Alloy',
+           423  => 'Military Grade Composite',
+           424  => 'Mirrored Surface Composite',
+           425  => 'Reactive Surface Composite',
+        
+        // Bulkhead > Panther Clipper Mk II
+           431  => 'Lightweight Alloy',
+           432  => 'Reinforced Alloy',
+           433  => 'Military Grade Composite',
+           434  => 'Mirrored Surface Composite',
+           435  => 'Reactive Surface Composite',
+        
+        // Bulkhead > Type-11 Prospector
+           441  => 'Lightweight Alloy',
+           442  => 'Reinforced Alloy',
+           443  => 'Military Grade Composite',
+           444  => 'Mirrored Surface Composite',
+           445  => 'Reactive Surface Composite',
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 'Sub-Surface Displacement Missile (Fixed)',
@@ -960,7 +988,7 @@ class Type extends Alias
           3952  => 'Frame Shift Drive (SCO)',
           3953  => 'Frame Shift Drive (SCO)',
           3954  => 'Frame Shift Drive (SCO)',
-          3945  => 'Frame Shift Drive (SCO)',
+          3955  => 'Frame Shift Drive (SCO)',
         
           3962  => 'Frame Shift Drive (SCO)',
           3963  => 'Frame Shift Drive (SCO)',
@@ -998,6 +1026,10 @@ class Type extends Alias
           4032  => 'Corrosion Resistant Cargo Rack',
           4033  => 'Corrosion Resistant Cargo Rack',
           4034  => 'Corrosion Resistant Cargo Rack',
+          4036  => 'Corrosion Resistant Cargo Rack',
+        
+          4047  => 'Mk II Cargo Rack',
+          4048  => 'Mk II Cargo Rack',
 
         // Optional Internal > Standard Docking Computer
           4051  => 'Standard Docking Computer',
@@ -1867,10 +1899,31 @@ class Type extends Alias
         'type8_armour_grade3'                           => 413,
         'type8_armour_mirrored'                         => 414,
         'type8_armour_reactive'                         => 415,
+        
+        // Bulkhead > Corsair
+        'corsair_armour_grade1'                         => 421,
+        'corsair_armour_grade2'                         => 422,
+        'corsair_armour_grade3'                         => 423,
+        'corsair_armour_mirrored'                       => 424,
+        'corsair_armour_reactive'                       => 425,
+        
+        // Bulkhead > Panther Clipper Mk II
+        'panthermkii_armour_grade1'                     => 431,
+        'panthermkii_armour_grade2'                     => 432,
+        'panthermkii_armour_grade3'                     => 433,
+        'panthermkii_armour_mirrored'                   => 434,
+        'panthermkii_armour_reactive'                   => 435,
+        
+        // Bulkhead > Type-11 Prospector
+        'lakonminer_armour_grade1'                      => 441,
+        'lakonminer_armour_grade2'                      => 442,
+        'lakonminer_armour_grade3'                      => 443,
+        'lakonminer_armour_mirrored'                    => 444,
+        'lakonminer_armour_reactive'                    => 445,
 
 
 
-        // weapon hardpoint > sub-surface displacement missile
+        // weapon hardpoint > Sub-Surface Displacement Missile
         'hpt_mining_subsurfdispmisle_fixed_small'       => 951,
         'hpt_mining_subsurfdispmisle_fixed_medium'      => 952,
 
@@ -2575,6 +2628,11 @@ class Type extends Alias
         'int_corrosionproofcargorack_size1_class1'      => 4032,
         'int_corrosionproofcargorack_size2_class1'      => 4033,
         'int_corrosionproofcargorack_size4_class1'      => 4034,
+        'int_corrosionproofcargorack_size6_class1'      => 4036,
+        
+        'int_largecargorack_size7_class1'               => 4047,
+        'int_largecargorack_size8_class1'               => 4048,
+        
 
         // Optional Internal > Standard Docking Computer
         'int_dockingcomputer_standard'                  => 4051,

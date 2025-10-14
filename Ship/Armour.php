@@ -45,6 +45,12 @@ class Armour extends Alias
         // Cobra MkIV
         128672262               => 216,
 
+        // Cobra Mk V
+        129031230               => 324,
+        
+        // Corsair
+        129031320               => 486,
+
         // Diamondback Explorer
         128671831               => 162,
 
@@ -98,9 +104,15 @@ class Armour extends Alias
 
         // Mamba
         128915979               => 230,
+        
+        // Mandalay
+        129030680               => 414,
 
         // Orca
         128049327               => 396,
+        
+        // Panther Clipper Mk II
+        129034269               => 620,
 
         // Python
         128049339               => 260,
@@ -116,6 +128,9 @@ class Armour extends Alias
 
         // Type-7 Transporter
         128049297               => 306,
+
+        // Type-8 Transporter
+        129030534               => 792,
 
         // Type-9 Heavy
         128049333               => 432,

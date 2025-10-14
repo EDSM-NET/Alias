@@ -340,6 +340,7 @@ class PowerDraw extends Alias
 
         // Utility Mount > Xeno Scanner
           2401  => 0.2,
+          2402  => 0.8,
           2403  => 0.8,
 
         // Utility Mount > Shutdown Field Neutraliser

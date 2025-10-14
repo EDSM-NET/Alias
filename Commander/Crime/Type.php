@@ -31,6 +31,7 @@ class Type extends Alias
         16  => 'dockingmajor_trespass',
         17  => 'collidedatspeedinnofirezone',
         18  => 'collidedatspeedinnofirezone_hulldamage',
+        19  => 'stationTamperingMinor',
 
         30  => 'recklessWeaponsDischarge',
 
@@ -80,6 +81,7 @@ class Type extends Alias
         'dockingmajor_trespass'                     => 16,      'dockingmajortresspass'                     => 16,
         'collidedatspeedinnofirezone'               => 17,
         'collidedatspeedinnofirezone_hulldamage'    => 18,
+        'stationtamperingminor'                     => 19,
 
         'recklessweaponsdischarge'                  => 30,
 

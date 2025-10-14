@@ -20,6 +20,8 @@ class DamagePerSecond extends Alias
         'Pulse Lasers',
         'Burst Lasers',
         'Cannons',
+        'Enzyme Missile Rack',
+        'Experimental',
         'Fragment Cannons',
         'Mines',
         'Mining Tools',

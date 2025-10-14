@@ -221,6 +221,9 @@ class Description extends Alias
         21203   => 'This modification trades broken shield recovery time and energy requirements for stronger shields.',                                                // Reinforced
         21204   => 'Applying this blueprint will reduce kinetic resistance and increase both thermal resistance and module integrity.',                                 // Thermal resistant
 
+        // OPTIONAL INTERNAL - Guardian Shield Reinforcement
+        21301   => 'This blueprint applies full resistance to Anti-Guardian field used by Thargoids.',                                                                  // Anti-Guardian Zone Resistance
+        
         // CORE INTERNAL - Frame Shift Drive
         30101   => 'This blueprint speeds up boot up times and gives a small range increase, at the cost of module integrity and power draw.',                          // Faster boot sequence
         30102   => 'Longer range jumps are allowed with this modification, but at the cost of module integrity, power draw and higher mass.',                           // Increased range

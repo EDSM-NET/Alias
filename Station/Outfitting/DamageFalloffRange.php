@@ -24,6 +24,7 @@ class DamageFalloffRange extends Alias
         'Mining Tools',
         'Missiles',
         'Multi-Cannons',
+        'Pack-Hound Missile Rack',
         'Plasma Accelerators',
         'Pulse Lasers',
         'Rail Guns',

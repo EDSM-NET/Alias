@@ -287,6 +287,48 @@ class Classes extends Alias
            383  => 1,
            384  => 1,
            385  => 1,
+        
+        // Bulkhead > Mandalay
+           391  => 1,
+           392  => 1,
+           393  => 1,
+           394  => 1,
+           395  => 1,
+        
+        // Bulkhead > Cobra Mk V
+           401  => 1,
+           402  => 1,
+           403  => 1,
+           404  => 1,
+           405  => 1,
+        
+        // Bulkhead > Type-8 Transporter
+           411  => 1,
+           412  => 1,
+           413  => 1,
+           414  => 1,
+           415  => 1,
+        
+        // Bulkhead > Corsair
+           421  => 1,
+           422  => 1,
+           423  => 1,
+           424  => 1,
+           425  => 1,
+        
+        // Bulkhead > Panther Clipper Mk II
+           431  => 1,
+           432  => 1,
+           433  => 1,
+           434  => 1,
+           435  => 1,
+        
+        // Bulkhead > Type-11 Prospector
+           441  => 1,
+           442  => 1,
+           443  => 1,
+           444  => 1,
+           445  => 1,
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 1,
@@ -972,6 +1014,10 @@ class Classes extends Alias
           4032  => 1,
           4033  => 2,
           4034  => 4,
+          4034  => 6,
+        
+          4047  => 7,
+          4048  => 8,
 
         // Optional Internal > Standard Docking Computer
           4051  => 1,

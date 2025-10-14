@@ -45,6 +45,9 @@ class BaseSpeed extends Alias
 
         // Cobra MkIV
         128672262               => 100,
+        
+        // Cobra Mk V
+        129031230               => 200,
 
         // Diamondback Explorer
         128671831               => 170,
@@ -99,6 +102,9 @@ class BaseSpeed extends Alias
 
         // Mamba
         128915979               => 240,
+        
+        // Mandalay
+        129030680               => 285,
 
         // Orca
         128049327               => 200,

@@ -286,20 +286,44 @@ class Mass extends Alias
 
         // Bulkhead > Python Mk II
            381  => 0,
+           382  => 26,
            383  => 53,
            384  => 53,
            385  => 53,
         
         // Bulkhead > Mandalay
+           391  => 0,
+           392  => 19,
            393  => 38,
+           394  => 38,
            395  => 38,
         
         // Bulkhead > Cobra Mk V
+           401 => 0,
+           402 => 14,
            403 => 27,
+           404 => 27,
+           405 => 27,
         
         // Bulkhead > Type-8 Transporter
+           411 => 0,
            412 => 32,
            413 => 63,
+           414 => 63,
+           415 => 63,
+        
+        // Bulkhead > Corsair
+           421 => 0,
+           422 => 32,
+           423 => 63,
+           424 => 63,
+           425 => 63,
+        
+        // Bulkhead > Corsair
+           431 => 0,
+           432 => 150,
+           433 => 150,
+           435 => 150,
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 2,

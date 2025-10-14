@@ -287,6 +287,48 @@ class Rating extends Alias
            383  => 'I',
            384  => 'I',
            385  => 'I',
+        
+        // Bulkhead > Mandalay
+           391  => 'I',
+           392  => 'I',
+           393  => 'I',
+           394  => 'I',
+           395  => 'I',
+        
+        // Bulkhead > Cobra Mk V
+           401  => 'I',
+           402  => 'I',
+           403  => 'I',
+           404  => 'I',
+           405  => 'I',
+        
+        // Bulkhead > Type-8 Transporter
+           411  => 'I',
+           412  => 'I',
+           413  => 'I',
+           414  => 'I',
+           415  => 'I',
+        
+        // Bulkhead > Corsair
+           421  => 'I',
+           422  => 'I',
+           423  => 'I',
+           424  => 'I',
+           425  => 'I',
+        
+        // Bulkhead > Panther Clipper Mk II
+           431  => 'I',
+           432  => 'I',
+           433  => 'I',
+           434  => 'I',
+           435  => 'I',
+        
+        // Bulkhead > Type-11 Prospector
+           441  => 'I',
+           442  => 'I',
+           443  => 'I',
+           444  => 'I',
+           445  => 'I',
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 'B',
@@ -972,6 +1014,10 @@ class Rating extends Alias
           4032  => 'E',
           4033  => 'E',
           4034  => 'E',
+          4036  => 'E',
+        
+          4047  => 'D',
+          4048  => 'D',
 
         // Optional Internal > Standard Docking Computer
           4051  => 'E',

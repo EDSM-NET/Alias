@@ -29,6 +29,7 @@ class ExplosiveResistance extends Alias
         128049279,  // Cobra Mk III
         128672262,  // Cobra Mk IV
         129031230,  // Cobra Mk V
+        129031320,  // Corsair
         128671831,  // Diamondback Explorer
         128671217,  // Diamondback Scout
         128049291,  // Dolphin
@@ -49,6 +50,7 @@ class ExplosiveResistance extends Alias
         128915979,  // Mamba
         129030680,  // Mandalay
         128049327,  // Orca
+        129034269,  // Panther Clipper Mk II
         128049339,  // Python
         129030464,  // Python Mk II
         128049249,  // Sidewinder
@@ -368,6 +370,20 @@ class ExplosiveResistance extends Alias
            413  => -39.999996,
            414  => -50,
            415  => 19.999998,
+        
+        // Bulkhead > Corsair
+           421  => -39.999996,
+           422  => -39.999996,
+           423  => -39.999996,
+           424  => -50,
+           425  => 19.999998,
+        
+        // Bulkhead > Panther Clipper Mk II
+           431  => -39.999996,
+           432  => -39.999996,
+           433  => -39.999996,
+           434  => -50,
+           435  => 19.999998,
 
         // Utility Mount > Shield Boosters
           2001  => 0,

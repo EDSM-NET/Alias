@@ -27,6 +27,7 @@ class DefenceModifierHealthMultiplier extends Alias
         128049279,  // Cobra Mk III
         128672262,  // Cobra Mk IV
         129031230,  // Cobra Mk V
+        129031320,  // Corsair
         128671831,  // Diamondback Explorer
         128671217,  // Diamondback Scout
         128049291,  // Dolphin
@@ -47,6 +48,7 @@ class DefenceModifierHealthMultiplier extends Alias
         128915979,  // Mamba
         129030680,  // Mandalay
         128049327,  // Orca
+        129034269,  // Panther Clipper Mk II
         128049339,  // Python
         129030464,  // Python Mk II
         128049249,  // Sidewinder
@@ -359,6 +361,20 @@ class DefenceModifierHealthMultiplier extends Alias
            413  => 250,
            414  => 250,
            415  => 250,
+        
+        // Bulkhead > Corsair
+           421  => 79.999992,
+           422  => 152,
+           423  => 250,
+           424  => 250,
+           425  => 250,
+        
+        // Bulkhead > Panther Clipper Mk II
+           431  => 79.999992,
+           432  => 152,
+           433  => 250,
+           434  => 250,
+           435  => 250,
 
         // Optional Internal > Hull Reinforcement Package
           4801  => 0,
@@ -375,5 +391,13 @@ class DefenceModifierHealthMultiplier extends Alias
 
           4841  => 0,
           4842  => 0,
+
+        // Optional Internal > Meta Alloy Hull Reinforcements
+          6042  => 0,
+
+        // Optional Internal > Guardian Hull Reinforcements
+          6102  => 0,
+          6112  => 0,
+          6142  => 0,
     ];
 }

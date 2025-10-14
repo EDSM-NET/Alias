@@ -288,6 +288,7 @@ class Type extends Alias
          928        => 'Grandidierite',
          929        => 'Alexandrite',
          930        => 'Void Opals',
+         931        => 'Haematite',
 
 
         // Slavery (10)
@@ -514,6 +515,12 @@ class Type extends Alias
         9937        => 'Grom Counter Intelligence',
         9938        => 'Yuri Grom\'s Military Supplies',
         9939        => 'Kaine Misinformation',
+        
+        9951        => 'Inventory Record',
+        9952        => 'Data Storage Device',
+        9953        => 'Industrial Machinery',
+        9954        => 'Security Logs',
+        9955        => 'Personal Protective Equipment',
 
         // Odyssey - Items (40)
         4001        => 'Biochemical Agent',
@@ -909,6 +916,7 @@ class Type extends Alias
         'grandidierite'                         => 928,
         'alexandrite'                           => 929,
         'opal'                                  => 930,
+        'haematite'                             => 931,
 
 
         // Slavery (10)
@@ -1136,6 +1144,13 @@ class Type extends Alias
         'gromcounterintelligence'               => 9937,
         'gromwartrophies'                       => 9938,
         'kainemisinformation'                   => 9939,
+        
+        'powerinventory'                        => 9951,
+        'powermisccomputer'                     => 9952,
+        'powermiscindust'                       => 9953,
+        'powersecurity'                         => 9954,
+        'powerequipment'                        => 9955,
+        
     ];
 
     /**

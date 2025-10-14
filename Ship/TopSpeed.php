@@ -40,11 +40,17 @@ class TopSpeed extends Alias
         // Beluga Liner
         128049345               => 200,
 
-        // Cobra MkIII
+        // Cobra Mk III
         128049279               => 280,
 
-        // Cobra MkIV
+        // Cobra Mk IV
         128672262               => 200,
+
+        // Cobra Mk V
+        129031230               => 291,
+        
+        // Corsair
+        129031320               => 288,
 
         // Diamondback Explorer
         128671831               => 280,
@@ -102,6 +108,9 @@ class TopSpeed extends Alias
         
         // Mandalay
         129030680               => 286,
+        
+        // Panther Clipper Mk II
+        129034269               => 181,
 
         // Orca
         128049327               => 300,
@@ -120,6 +129,9 @@ class TopSpeed extends Alias
 
         // Type-7 Transporter
         128049297               => 180,
+        
+        // Type-8 Transporter
+        129030534               => 200,
 
         // Type-9 Heavy
         128049333               => 130,

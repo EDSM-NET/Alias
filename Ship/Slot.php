@@ -17,12 +17,17 @@ class Slot extends Alias
           52    => 'Large hardpoint',
           53    => 'Large hardpoint',
           54    => 'Large hardpoint',
+        
+          81    => 'Large mining hardpoint',
 
          101    => 'Medium hardpoint',
          102    => 'Medium hardpoint',
          103    => 'Medium hardpoint',
          104    => 'Medium hardpoint',
          105    => 'Medium hardpoint',
+        
+         131    => 'Medium mining hardpoint',
+         132    => 'Medium mining hardpoint',
 
          151    => 'Small hardpoint',
          152    => 'Small hardpoint',
@@ -30,6 +35,8 @@ class Slot extends Alias
          154    => 'Small hardpoint',
          155    => 'Small hardpoint',
          156    => 'Small hardpoint',
+        
+         181    => 'Small mining hardpoint',
 
          201    => 'Tiny hardpoint',
          202    => 'Tiny hardpoint',
@@ -61,6 +68,8 @@ class Slot extends Alias
          651    => 'Fuel store',
 
          701    => 'planetaryapproachsuite',
+        
+         751    => 'Hologram',
 
         1008    => 'Internal compartment',
 
@@ -138,6 +147,9 @@ class Slot extends Alias
         2302    => 'Internal slot (Max class 2)',
 
         2401    => 'Internal slot (Max class 1)',
+        
+        2501    => 'Cargo 01',
+        2502    => 'Cargo 02',
 
         9990    => 'Cargo hatch',
     ];
@@ -157,12 +169,17 @@ class Slot extends Alias
         'largehardpoint2'           => 52,
         'largehardpoint3'           => 53,
         'largehardpoint4'           => 54,
+        
+        'largemininghardpoint1'     => 81,
 
         'mediumhardpoint1'          => 101,
         'mediumhardpoint2'          => 102,
         'mediumhardpoint3'          => 103,
         'mediumhardpoint4'          => 104,
         'mediumhardpoint5'          => 105,
+        
+        'mediummininghardpoint1'    => 131,
+        'mediummininghardpoint2'    => 132,
 
         'smallhardpoint1'           => 151,
         'smallhardpoint2'           => 152,
@@ -170,6 +187,8 @@ class Slot extends Alias
         'smallhardpoint4'           => 154,
         'smallhardpoint5'           => 155,
         'smallhardpoint6'           => 156,
+        
+        'smallmininghardpoint1'     => 181,
 
         'tinyhardpoint1'            => 201,
         'tinyhardpoint2'            => 202,
@@ -201,6 +220,8 @@ class Slot extends Alias
         'fueltank'                  => 651,
 
         'planetaryapproachsuite'    => 701,
+
+        'hologram'                  => 751,
 
         'slot00_size8'              => 1008,
 
@@ -278,6 +299,9 @@ class Slot extends Alias
         'slot13_size2'              => 2302,
 
         'slot14_size1'              => 2401,
+        
+        'cargo01'                   => 2501,
+        'cargo02'                   => 2502,
 
         'cargohatch'                => 9990,
     ];

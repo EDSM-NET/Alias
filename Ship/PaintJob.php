@@ -25,6 +25,8 @@ class PaintJob extends Alias
         128049345   => 'belugaliner_default_defaultpaintjob',
         128049279   => 'cobramkiii_default_defaultpaintjob',
         128672262   => 'cobramkiv_default_defaultpaintjob',
+        129031230   => 'cobramkv_default_defaultpaintjob',
+        129031320   => 'corsair_default_defaultpaintjob',
         128671831   => 'diamondbackxl_default_defaultpaintjob',
         128671217   => 'diamondback_default_defaultpaintjob',
         128049291   => 'dolphin_default_defaultpaintjob',
@@ -850,6 +852,16 @@ class PaintJob extends Alias
             */
 
             //'cobramkiv_wireframe_01'                        => 'Wireframe',
+        ],
+        
+        // Cobra MkV
+        129031230 => [
+            'cobramkv_default_defaultpaintjob'              => 'Default',
+        ],
+        
+        // Corsair
+        129031320 => [
+            'corsair_default_defaultpaintjob'               => 'Default',
         ],
 
         // Diamondback Explorer

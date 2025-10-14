@@ -18,6 +18,7 @@ class AmmoClipSize extends Alias
     static protected $have          = [
         'Beam Lasers',
         'Cannons',
+        'Enzyme Missile Rack',
         'Fragment Cannons',
         'Multi-Cannons',
         'Plasma Accelerators',

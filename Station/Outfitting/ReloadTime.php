@@ -29,6 +29,7 @@ class ReloadTime extends Alias
         'Mines',
 
         // Utility Mount
+        'Caustic Sink Launcher',
         'Chaff Launchers',
         'Heatsink Launchers',
         'Point Defence',

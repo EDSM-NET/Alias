@@ -50,6 +50,7 @@ class Category extends Alias
         211     => 'OPTIONAL INTERNAL - Shield Cell Bank',
         212     => 'OPTIONAL INTERNAL - Shield Generator',
         213     => 'OPTIONAL INTERNAL - Surface Scanner',
+        214     => 'OPTIONAL INTERNAL - Guardian Shield Reinforcement',
 
         301     => 'CORE INTERNAL - Frame Shift Drive',
         302     => 'CORE INTERNAL - Life Support',
@@ -61,6 +62,7 @@ class Category extends Alias
         401     => 'ARMOUR - Armour',
         
         501     => 'DECORATIVE',
+        502     => 'COMMUNITY GOAL',
     ];
 
     /**
@@ -168,6 +170,9 @@ class Category extends Alias
 
         // OPTIONAL INTERNAL - Surface Scanner
         213     => [20351, ],
+        
+        // OPTIONAL INTERNAL - Guardian Shield Reinforcement
+        214     => [21301, ],
 
         // CORE INTERNAL - Frame Shift Drive
         301     => [30101, 30102, 30103, ],
@@ -192,5 +197,8 @@ class Category extends Alias
         
         // DECORATIVE
         501     => [50101, 50102, 50103, ],
+        
+        // COMMUNITY GOALS
+        502     => [50201, ],
     ];
 }

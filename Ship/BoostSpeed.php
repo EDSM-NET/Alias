@@ -45,6 +45,12 @@ class BoostSpeed extends Alias
 
         // Cobra MkIV
         128672262               => 300,
+        
+        // Cobra Mk V
+        129031230               => 300,
+        
+        // Corsair
+        129031320               => 366,
 
         // Diamondback Explorer
         128671831               => 260,

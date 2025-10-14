@@ -46,6 +46,12 @@ class BoostEnergy extends Alias
         // Cobra MkIV
         128672262               => 10,
 
+        // Cobra Mk V
+        129031230               => 10,
+        
+        // Corsair
+        129031320               => 19,
+
         // Diamondback Explorer
         128671831               => 13,
 
@@ -99,6 +105,12 @@ class BoostEnergy extends Alias
 
         // Mamba
         128915979               => 17,
+        
+        // Mandalay
+        129030680               => 14,
+        
+        // Panther Clipper Mk II
+        129034269               => 14,
 
         // Orca
         128049327               => 16,
@@ -117,6 +129,9 @@ class BoostEnergy extends Alias
 
         // Type-7 Transporter
         128049297               => 10,
+
+        // Type-8 Transporter
+        129030534               => 10,
 
         // Type-9 Heavy
         128049333               => 19,

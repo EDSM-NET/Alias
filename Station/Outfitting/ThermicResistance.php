@@ -29,6 +29,7 @@ class ThermicResistance extends Alias
         128049279,  // Cobra Mk III
         128672262,  // Cobra Mk IV
         129031230,  // Cobra Mk V
+        129031320,  // Corsair
         128671831,  // Diamondback Explorer
         128671217,  // Diamondback Scout
         128049291,  // Dolphin
@@ -49,6 +50,7 @@ class ThermicResistance extends Alias
         128915979,  // Mamba
         129030680,  // Mandalay
         128049327,  // Orca
+        129034269,  // Panther Clipper Mk II
         128049339,  // Python
         129030464,  // Python Mk II
         128049249,  // Sidewinder
@@ -368,6 +370,20 @@ class ThermicResistance extends Alias
            413  => 0,
            414  => 50,
            415  => -39.999996,
+        
+        // Bulkhead > Corsair
+           421  => 0,
+           422  => 0,
+           423  => 0,
+           424  => 50,
+           425  => -39.999996,
+        
+        // Bulkhead > Panther Clipper Mk II
+           431  => 0,
+           432  => 0,
+           433  => 0,
+           434  => 50,
+           435  => -39.999996,
 
         // Utility Mount > Shield Booster
           2001  => 0,

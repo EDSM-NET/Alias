@@ -77,6 +77,7 @@ class MaxFuelPerJump extends Alias
           3954  => 5,
           3955  => 5.2,
         
+          3962  => 8,
           3965  => 8.3,
         
           3972  => 12.8,
