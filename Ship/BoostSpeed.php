@@ -111,6 +111,9 @@ class BoostSpeed extends Alias
 
         // Orca
         128049327               => 380,
+        
+        // Panther Clipper Mk II
+        129034269               => 250,
 
         // Python
         128049339               => 280,
@@ -135,6 +138,9 @@ class BoostSpeed extends Alias
 
         // Type-10 Defender
         128785619               => 220,
+        
+        // Type-11 Prospector
+        129036130               => 366,
 
         // Viper MkIII
         128049273               => 400,

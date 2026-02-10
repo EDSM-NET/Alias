@@ -138,6 +138,9 @@ class BoostEnergy extends Alias
 
         // Type-10 Defender
         128785619               => 19,
+        
+        // Type-11 Prospector
+        129036130               => 25,
 
         // Viper MkIII
         128049273               => 10,

@@ -329,6 +329,14 @@ class Classes extends Alias
            443  => 1,
            444  => 1,
            445  => 1,
+        
+        // Bulkhead > Caspian Explorer
+           450  => 1,
+           451  => 1,
+           452  => 1,
+           453  => 1,
+           454  => 1,
+           455  => 1,
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 1,
@@ -405,6 +413,8 @@ class Classes extends Alias
           1159  => 1,
           1160  => 2,
           1161  => 3,
+        
+          1176  => 2,
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 1,
@@ -738,6 +748,8 @@ class Classes extends Alias
           3253  => 7,
           3254  => 7,
           3255  => 7,
+        
+          3256  => 7,
 
           3261  => 8,
           3262  => 8,
@@ -978,6 +990,7 @@ class Classes extends Alias
           3943  => 4,
           3945  => 4,
         
+          3951  => 5,
           3952  => 5,
           3953  => 5,
           3954  => 5,
@@ -988,9 +1001,12 @@ class Classes extends Alias
           3964  => 6,
           3965  => 6,
         
+          3971  => 7,
           3972  => 7,
           3973  => 7,
           3975  => 7,
+        
+          3995  => 8,
 
         // Optional Internal > Discovery Scanner
           4001  => 1,

@@ -59,6 +59,7 @@ class ExplosiveResistance extends Alias
         129030534,  // Type-8 Transporter
         128049333,  // Type-9 Heavy
         128785619,  // Type-10 Defender
+        129036130,  // Type-11 Prospector
         128049273,  // Viper MkIII
         128672255,  // Viper MkIV
         128049309,  // Vulture
@@ -384,6 +385,21 @@ class ExplosiveResistance extends Alias
            433  => -39.999996,
            434  => -50,
            435  => 19.999998,
+        
+        // Bulkhead > Type-11 Prospector
+           441  => -39.999996,
+           442  => -39.999996,
+           443  => -39.999996,
+           444  => -50,
+           445  => 19.999998,
+        
+        // Bulkhead > Caspian Explorer
+           450  => -39.999996,
+           451  => -39.999996,
+           452  => -39.999996,
+           453  => -39.999996,
+           454  => -50,
+           455  => 19.999998,
 
         // Utility Mount > Shield Boosters
           2001  => 0,

@@ -25,6 +25,7 @@ class Slot extends Alias
          103    => 'Medium hardpoint',
          104    => 'Medium hardpoint',
          105    => 'Medium hardpoint',
+         106    => 'Medium hardpoint',
         
          131    => 'Medium mining hardpoint',
          132    => 'Medium mining hardpoint',
@@ -150,6 +151,12 @@ class Slot extends Alias
         
         2501    => 'Cargo 01',
         2502    => 'Cargo 02',
+        
+        
+        
+        9900    => 'Limpet Controller 01',
+        
+        9950    => 'Fighter Bay 01',
 
         9990    => 'Cargo hatch',
     ];
@@ -177,6 +184,7 @@ class Slot extends Alias
         'mediumhardpoint3'          => 103,
         'mediumhardpoint4'          => 104,
         'mediumhardpoint5'          => 105,
+        'mediumhardpoint6'          => 106,
         
         'mediummininghardpoint1'    => 131,
         'mediummininghardpoint2'    => 132,
@@ -302,6 +310,10 @@ class Slot extends Alias
         
         'cargo01'                   => 2501,
         'cargo02'                   => 2502,
+        
+        'limpetcontroller01'        => 9900,
+        
+        'fighterbay01'              => 9950,
 
         'cargohatch'                => 9990,
     ];

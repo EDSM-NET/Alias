@@ -45,6 +45,7 @@ class Service extends Alias
         84                      => 'Vista Genomics',
         
         90                      => 'System colonisation',
+        91                      => 'colonisationcontribution',
     ];
 
     /**
@@ -104,5 +105,6 @@ class Service extends Alias
         'vistagenomics'             => 84,
         
         'registeringcolonisation'   => 90,
+        'colonisationcontribution'  => 91,
     ];
 }

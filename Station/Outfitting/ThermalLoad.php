@@ -108,6 +108,8 @@ class ThermalLoad extends Alias
           1159  => 0.67,
           1160  => 1.03,
           1161  => 1.58,
+        
+          1176  => 1.92,
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 0.41,

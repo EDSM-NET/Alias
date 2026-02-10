@@ -319,11 +319,23 @@ class Mass extends Alias
            424 => 63,
            425 => 63,
         
-        // Bulkhead > Corsair
+        // Bulkhead > Panther Clipper Mk II
            431 => 0,
-           432 => 150,
+           432 => 75,
            433 => 150,
+           434 => 150,
            435 => 150,
+        
+        // Bulkhead > Type-11 Prospector
+           441 => 0,
+           442 => 32,
+           443 => 63,
+           444 => 63,
+           445 => 63,
+        
+        // Bulkhead > Caspian Explorer
+           451 => 15,
+           452 => 30,
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 2,
@@ -727,6 +739,8 @@ class Mass extends Alias
           3253  => 80,
           3254  => 128,
           3255  => 80,
+        
+          3256  => 80,
 
           3261  => 160,
           3262  => 64,
@@ -984,6 +998,8 @@ class Mass extends Alias
           3972  => 32,
           3973  => 80,
           3975  => 80,
+        
+          3995  => 160,
 
         // Optional Internal > Discovery Scanner
           4000  => 2,
@@ -999,6 +1015,8 @@ class Mass extends Alias
           4021  => 0,
           4022  => 0,   4023  => 0,     4024  => 0,     4025  => 0,     4026  => 0,     4027  => 0,     4028  => 0,
           4031  => 0,   4032  => 0,     4033  => 0,     4034  => 0,
+        
+                                                                                        4047  => 0,     4048  => 0,
 
         // Optional Internal > Standard Docking Computer
           4051  => 0,

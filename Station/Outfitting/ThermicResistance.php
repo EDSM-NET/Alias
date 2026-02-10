@@ -59,6 +59,7 @@ class ThermicResistance extends Alias
         129030534,  // Type-8 Transporter
         128049333,  // Type-9 Heavy
         128785619,  // Type-10 Defender
+        129036130,  // Type-11 Prospector
         128049273,  // Viper MkIII
         128672255,  // Viper MkIV
         128049309,  // Vulture
@@ -384,6 +385,21 @@ class ThermicResistance extends Alias
            433  => 0,
            434  => 50,
            435  => -39.999996,
+        
+        // Bulkhead > Type-11 Prospector
+           441  => 0,
+           442  => 0,
+           443  => 0,
+           444  => 50,
+           445  => -39.999996,
+        
+        // Bulkhead > Caspian Explorer
+           450  => 0,
+           451  => 0,
+           452  => 0,
+           453  => 0,
+           454  => 50,
+           455  => -39.999996,
 
         // Utility Mount > Shield Booster
           2001  => 0,

@@ -25,5 +25,7 @@ class GuardianModuleResistance extends Alias
     static protected $name          = [
         // Core Internal > Guardian FSD Booster
           3831  => 0,
+        
+          3841  => 0,
     ];
 }

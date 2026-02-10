@@ -449,6 +449,8 @@ class Integrity extends Alias
           3253  => 131,
           3254  => 157,
           3255  => 144,
+        
+          3256  => 144,
 
           3261  => 135,
           3262  => 120,
@@ -705,6 +707,8 @@ class Integrity extends Alias
           3972  => 150,
           3973  => 150,
           3975  => 164,
+        
+          3995  => 188,
 
         // Optional Internal > Discovery Scanner
           4000  => null,

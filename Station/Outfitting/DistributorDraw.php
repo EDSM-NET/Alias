@@ -104,6 +104,8 @@ class DistributorDraw extends Alias
           1159  => 0.22,
           1160  => 0.34,
           1161  => 0.53,
+        
+          1176  => 0.75,
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 0.21,

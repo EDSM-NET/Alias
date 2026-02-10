@@ -59,6 +59,7 @@ class KineticResistance extends Alias
         129030534,  // Type-8 Transporter
         128049333,  // Type-9 Heavy
         128785619,  // Type-10 Defender
+        129036130,  // Type-11 Prospector
         128049273,  // Viper MkIII
         128672255,  // Viper MkIV
         128049309,  // Vulture
@@ -384,6 +385,21 @@ class KineticResistance extends Alias
            433  => -20.000004,
            434  => -75,
            435  => 25,
+        
+        // Bulkhead > Type-11 Prospector
+           441  => -20.000004,
+           442  => -20.000004,
+           443  => -20.000004,
+           444  => -75,
+           445  => 25,
+        
+        // Bulkhead > Caspian Explorer
+           450  => -20.000004,
+           451  => -20.000004,
+           452  => -20.000004,
+           453  => -20.000004,
+           454  => -75,
+           455  => 25,
 
         // Utility Mount > Shield Booster
           2001  => 0,

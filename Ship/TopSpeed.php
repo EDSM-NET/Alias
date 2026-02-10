@@ -108,12 +108,12 @@ class TopSpeed extends Alias
         
         // Mandalay
         129030680               => 286,
-        
-        // Panther Clipper Mk II
-        129034269               => 181,
 
         // Orca
         128049327               => 300,
+        
+        // Panther Clipper Mk II
+        129034269               => 181,
 
         // Python
         128049339               => 230,
@@ -138,6 +138,9 @@ class TopSpeed extends Alias
 
         // Type-10 Defender
         128785619               => 180,
+        
+        // Type-11 Prospector
+        129036130               => 271,
 
         // Viper MkIII
         128049273               => 320,

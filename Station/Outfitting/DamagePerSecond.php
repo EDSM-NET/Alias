@@ -106,6 +106,8 @@ class DamagePerSecond extends Alias
           1159  => 5.528139,
           1160  => 7.916,
           1161  => 11.154411,
+        
+          1176  => 15.902174,
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 95.333328,

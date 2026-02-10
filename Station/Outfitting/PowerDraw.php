@@ -406,6 +406,8 @@ class PowerDraw extends Alias
           3253  => 7.6,
           3254  => 8.36,
           3255  => 9.12,
+        
+          3256  => 9.12,
 
           3261  => 7.2,
           3262  => 8.1,
@@ -663,6 +665,8 @@ class PowerDraw extends Alias
           3972  => 0.75,
           3973  => 0.75,
           3975  => 0.9,
+        
+          3995  => 1.05,
 
         // Optional Internal > Discovery Scanner
           4000  => 0,   4001  => 0,   4002  => 0,     4003  => 0,
@@ -675,6 +679,7 @@ class PowerDraw extends Alias
           4021  => 0,
           4022  => 0,   4023  => 0,     4024  => 0,     4025  => 0,     4026  => 0,     4027  => 0,     4028  => 0,
           4031  => 0,   4032  => 0,     4033  => 0,     4034  => 0,
+                                                                                        4047  => 0,     4048  => 0,
 
         // Optional Internal > Standard Docking Computer
           4051  => 0.39,

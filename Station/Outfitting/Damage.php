@@ -103,6 +103,8 @@ class Damage extends Alias
           1159  => 12.77,
           1160  => 19.790001,
           1161  => 30.34,
+        
+          1176  => 14.63,
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 1.43,

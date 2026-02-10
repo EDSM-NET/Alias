@@ -329,6 +329,14 @@ class Type extends Alias
            443  => 'Military Grade Composite',
            444  => 'Mirrored Surface Composite',
            445  => 'Reactive Surface Composite',
+        
+        // Bulkhead > Caspian Explorer
+           450  => 'Lightweight Alloy',
+           451  => 'Mk II Ablative Lightweight Alloys',
+           452  => 'Mk II Ablative Reinforced Alloys',
+           453  => 'Mk II Ablative Military Grade Composite',
+           454  => 'Mk II Ablative Mirrored Surface Composite',
+           455  => 'Mk II Ablative Reactive Surface Composite',
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 'Sub-Surface Displacement Missile (Fixed)',
@@ -406,6 +414,8 @@ class Type extends Alias
           1159  => 'Cannon (Turret)',
           1160  => 'Cannon (Turret)',
           1161  => 'Cannon (Turret)',
+        
+          1176  => 'Concord Cannon',
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 'Fragment Cannon (Fixed)',
@@ -742,6 +752,8 @@ class Type extends Alias
           3253  => 'Thrusters',
           3254  => 'Thrusters',
           3255  => 'Thrusters',
+        
+          3256  => 'Mk II Gravity Optimised Thrusters',
 
           3261  => 'Thrusters',
           3262  => 'Thrusters',
@@ -985,6 +997,7 @@ class Type extends Alias
           3943  => 'Frame Shift Drive (SCO)',
           3945  => 'Frame Shift Drive (SCO)',
         
+          3951  => 'Frame Shift Drive (SCO)',
           3952  => 'Frame Shift Drive (SCO)',
           3953  => 'Frame Shift Drive (SCO)',
           3954  => 'Frame Shift Drive (SCO)',
@@ -995,9 +1008,12 @@ class Type extends Alias
           3964  => 'Frame Shift Drive (SCO)',
           3965  => 'Frame Shift Drive (SCO)',
         
+          3971  => 'Frame Shift Drive (SCO)',
           3972  => 'Frame Shift Drive (SCO)',
           3973  => 'Frame Shift Drive (SCO)',
           3975  => 'Frame Shift Drive (SCO)',
+        
+          3995  => 'Mk II Supercharge Optimised Frame Shift Drive (SCO)',
 
         // Optional Internal > Discovery Scanner
           4000  => 'Basic Discovery Scanner (Free)',
@@ -1920,6 +1936,14 @@ class Type extends Alias
         'lakonminer_armour_grade3'                      => 443,
         'lakonminer_armour_mirrored'                    => 444,
         'lakonminer_armour_reactive'                    => 445,
+        
+        // Bulkhead > Caspian Explorer
+        'explorer_nx_armour_grade1_default'             => 450,
+        'explorer_nx_armour_grade1'                     => 451,
+        'explorer_nx_armour_grade2'                     => 452,
+        'explorer_nx_armour_grade3'                     => 453,
+        'explorer_nx_armour_mirrored'                   => 454,
+        'explorer_nx_armour_reactive'                   => 455,
 
 
 
@@ -1999,6 +2023,8 @@ class Type extends Alias
         'hpt_cannon_turret_small'                       => 1159,
         'hpt_cannon_turret_medium'                      => 1160,
         'hpt_cannon_turret_large'                       => 1161,
+        
+        'hpt_cannon_gimbal_medium_burst'                => 1176,
 
         // Weapon Hardpoint > Fragment Cannon
         'hpt_slugshot_fixed_small'                      => 1201,
@@ -2341,6 +2367,8 @@ class Type extends Alias
         'int_engine_size7_class3'                       => 3253,
         'int_engine_size7_class4'                       => 3254,
         'int_engine_size7_class5'                       => 3255,
+        
+        'int_engine_size7_class5_gravityoptimised_mkii' => 3256,
 
         'int_engine_size8_class1'                       => 3261,
         'int_engine_size8_class2'                       => 3262,
@@ -2585,6 +2613,7 @@ class Type extends Alias
         'int_hyperdrive_overcharge_size4_class3'        => 3943,
         'int_hyperdrive_overcharge_size4_class5'        => 3945,
         
+        'int_hyperdrive_overcharge_size5_class1'        => 3951,
         'int_hyperdrive_overcharge_size5_class2'        => 3952,
         'int_hyperdrive_overcharge_size5_class3'        => 3953,
         'int_hyperdrive_overcharge_size5_class4'        => 3954,
@@ -2595,9 +2624,12 @@ class Type extends Alias
         'int_hyperdrive_overcharge_size6_class4'        => 3964,
         'int_hyperdrive_overcharge_size6_class5'        => 3965,
         
+        'int_hyperdrive_overcharge_size7_class1'        => 3971,
         'int_hyperdrive_overcharge_size7_class2'        => 3972,
         'int_hyperdrive_overcharge_size7_class3'        => 3973,
         'int_hyperdrive_overcharge_size7_class5'        => 3975,
+        
+        'int_hyperdrive_overcharge_size8_class5_overchargebooster_mkii' => 3995,
         
 
         // Optional Internal > Discovery Scanner

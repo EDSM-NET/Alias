@@ -329,6 +329,14 @@ class Rating extends Alias
            443  => 'I',
            444  => 'I',
            445  => 'I',
+        
+        // Bulkhead > Caspian Explorer
+           450  => 'C',
+           451  => 'C',
+           452  => 'B',
+           453  => 'A',
+           454  => 'A',
+           455  => 'A',
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 'B',
@@ -405,6 +413,8 @@ class Rating extends Alias
           1159  => 'F',
           1160  => 'E',
           1161  => 'D',
+        
+          1176  => 'D',
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 'E',
@@ -738,6 +748,8 @@ class Rating extends Alias
           3253  => 'C',
           3254  => 'B',
           3255  => 'A',
+        
+          3256  => 'A',
 
           3261  => 'E',
           3262  => 'D',
@@ -978,6 +990,7 @@ class Rating extends Alias
           3943  => 'C',
           3945  => 'A',
         
+          3951  => 'E',
           3952  => 'D',
           3953  => 'C',
           3954  => 'B',
@@ -988,9 +1001,12 @@ class Rating extends Alias
           3964  => 'B',
           3965  => 'A',
         
+          3971  => 'E',
           3972  => 'D',
           3973  => 'C',
           3975  => 'A',
+        
+          3995  => 'A',
 
         // Optional Internal > Discovery Scanner
           4001  => 'E',

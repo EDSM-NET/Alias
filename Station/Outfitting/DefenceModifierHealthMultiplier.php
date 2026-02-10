@@ -57,6 +57,7 @@ class DefenceModifierHealthMultiplier extends Alias
         129030534,  // Type-8 Transporter
         128049333,  // Type-9 Heavy
         128785619,  // Type-10 Defender
+        129036130,  // Type-11 Prospector
         128049273,  // Viper MkIII
         128672255,  // Viper MkIV
         128049309,  // Vulture
@@ -375,6 +376,21 @@ class DefenceModifierHealthMultiplier extends Alias
            433  => 250,
            434  => 250,
            435  => 250,
+        
+        // Bulkhead > Type-11 Prospector
+           441  => 79.999992,
+           442  => 152,
+           443  => 250,
+           444  => 250,
+           445  => 250,
+        
+        // Bulkhead > Caspian Explorer
+           450  => 79.999992,
+           451  => 79.999992,
+           452  => 152,
+           453  => 250,
+           454  => 250,
+           455  => 250,
 
         // Optional Internal > Hull Reinforcement Package
           4801  => 0,
@@ -397,7 +413,10 @@ class DefenceModifierHealthMultiplier extends Alias
 
         // Optional Internal > Guardian Hull Reinforcements
           6102  => 0,
+        
           6112  => 0,
+        
+          6141  => 0,
           6142  => 0,
     ];
 }

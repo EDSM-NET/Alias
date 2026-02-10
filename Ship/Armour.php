@@ -137,6 +137,9 @@ class Armour extends Alias
 
         // Type-10 Defender
         128785619               => 1044,
+        
+        // Type-11 Prospector
+        129036130               => 630,
 
         // Viper MkIII
         128049273               => 126,

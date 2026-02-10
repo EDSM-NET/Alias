@@ -93,5 +93,7 @@ class FSDOptimalMass extends Alias
           3972  => 2700,
           3973  => 2700,
           3975  => 3000,
+        
+          3995  => 4670,
     ];
 }

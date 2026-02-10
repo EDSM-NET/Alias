@@ -62,6 +62,8 @@ class EngineOptPerformance extends Alias
           3253  => 100,
           3254  => 100,
           3255  => 100,
+        
+          3256  => 100,
 
           3261  => 100,
           3262  => 100,
