@@ -50,6 +50,8 @@ class AmmoClipSize extends Alias
           1159  => 5,
           1160  => 5,
           1161  => 5,
+        
+          1176  => 9,
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 3,

@@ -63,6 +63,8 @@ class ShotSpeed extends Alias
           1159  => 1000,
           1160  => 875,
           1161  => 800,
+        
+          1176  => 1299.665771,
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => null,

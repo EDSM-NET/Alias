@@ -102,6 +102,8 @@ class RateOfFire extends Alias
           1159  => 0.4329,
           1160  => 0.4,
           1161  => 0.367647,
+        
+          1176  => 1.086957,
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 5.555555,

@@ -409,12 +409,17 @@ class DefenceModifierHealthMultiplier extends Alias
           4842  => 0,
 
         // Optional Internal > Meta Alloy Hull Reinforcements
+          6022  => 0,
+          
           6042  => 0,
 
         // Optional Internal > Guardian Hull Reinforcements
+          6101  => 0,
           6102  => 0,
         
           6112  => 0,
+        
+          6132  => 0,
         
           6141  => 0,
           6142  => 0,

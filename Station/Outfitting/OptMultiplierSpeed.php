@@ -62,6 +62,8 @@ class OptMultiplierSpeed extends Alias
           3253  => 1,
           3254  => 1,
           3255  => 1,
+        
+          3256  => 1,
 
           3261  => 1,
           3262  => 1,

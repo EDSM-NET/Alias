@@ -337,6 +337,13 @@ class Classes extends Alias
            453  => 1,
            454  => 1,
            455  => 1,
+        
+        // Bulkhead > Kestrel Mk II
+           461  => 1,
+           462  => 1,
+           463  => 1,
+           464  => 1,
+           465  => 1,
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 1,
@@ -458,14 +465,15 @@ class Classes extends Alias
           1304  => 4,
 
           1313  => 3,
+          1314  => 3,
 
-          1321  => 2, //TODO: Check on release
+          1321  => 2,
           1322  => 2,
-          1323  => 2, //TODO: Update on release
+          1323  => 2,
 
-          1329  => 2, //TODO: Check on release
+          1329  => 2,
           1330  => 2,
-          1331  => 2, //TODO: Update on release
+          1331  => 2,
 
         // Weapon Hardpoint > Rail Gun
           1351  => 1,
@@ -577,6 +585,9 @@ class Classes extends Alias
         // Weapon Hardpoint > Guardian Nanite Torpedo Pylon
           1972  => 2,
           1973  => 3,
+        
+        // Weapon Hardpoint > Volley Repeater
+          1983  => 3,
 
         // Utility Mount > Shield Booster
           2001  => 0,
@@ -736,6 +747,8 @@ class Classes extends Alias
           3233  => 5,
           3234  => 5,
           3235  => 5,
+        
+          3236  => 5,
 
           3241  => 6,
           3242  => 6,
@@ -986,6 +999,7 @@ class Classes extends Alias
           3933  => 3,
           3935  => 3,
         
+          3941  => 4,
           3942  => 4,
           3943  => 4,
           3945  => 4,
@@ -1586,6 +1600,7 @@ class Classes extends Alias
         
           6411  => 3,
           6413  => 3,
+          6415  => 5,
         
           6423  => 3,
           6424  => 3,

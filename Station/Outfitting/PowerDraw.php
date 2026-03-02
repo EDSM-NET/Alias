@@ -142,6 +142,8 @@ class PowerDraw extends Alias
           1159  => 0.32,
           1160  => 0.45,
           1161  => 0.64,
+        
+          1176  => 0.64,
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 0.45,
@@ -297,6 +299,9 @@ class PowerDraw extends Alias
         // Weapon Hardpoint > Seismic Charge
           1952  => 1.2,
           1960  => 1.2,
+        
+        // Weapon Hardpoint > Guardian Nanite Torpedo Pylon
+          1972  => 0.4,
 
         // Utility Mount > Shield Booster
           2001  => 0.2,
@@ -394,6 +399,8 @@ class PowerDraw extends Alias
           3233  => 5.1,
           3234  => 5.61,
           3235  => 6.12,
+        
+          3236  => 6.29,
 
           3241  => 5.04,
           3242  => 5.67,

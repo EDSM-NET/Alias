@@ -40,6 +40,9 @@ class TopSpeed extends Alias
         // Beluga Liner
         128049345               => 200,
 
+        // Caspian Explorer
+        129036569               => 210,
+
         // Cobra Mk III
         128049279               => 280,
 

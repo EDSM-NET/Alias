@@ -36,6 +36,7 @@ class Category extends Alias
             128049303   => [21, 22, 23, 24, 25],            // Asp Explorer
             128672276   => [31, 32, 33, 34, 35],            // Asp Scout
             128049345   => [41, 42, 43, 44, 45],            // Beluga Liner
+            129036569   => [451, 452, 453, 454, 455],       // Caspian Explorer
             128049279   => [51, 52, 53, 54, 55],            // Cobra Mk III
             128672262   => [61, 62, 63, 64, 65],            // Cobra Mk IV
             129031230   => [401, 402, 403, 404, 405],       // Cobra Mk IV
@@ -55,6 +56,7 @@ class Category extends Alias
             128049375   => [191, 192, 193, 194, 195],       // Imperial Cutter
             128672138   => [201, 202, 203, 204, 205],       // Imperial Eagle
             128672269   => [211, 212, 213, 214, 215],       // Keelback
+            129039241   => [461, 462, 463, 464, 465],       // Kestrel Mk II
             128816567   => [341, 342, 343, 344, 345],       // Krait MkII
             128839281   => [361, 362, 363, 364, 365],       // Krait Phantom
             128915979   => [371, 372, 373, 374, 375],       // Mamba
@@ -148,6 +150,9 @@ class Category extends Alias
                 // Sub-Surface Displacement Missile
                 951, 952,
                 959, 960,
+                
+                // Volley Repeater
+                1983,
             ],
             'Missiles'                          => [
                 1401, 1402, 1403,
@@ -167,7 +172,7 @@ class Category extends Alias
             'Plasma Accelerators'               => [
                 1302, 1303, 1304,
 
-                1313,
+                1313, 1314,
 
                 1321, 1322, 1323,
                 1329, 1330, 1331,
@@ -210,7 +215,7 @@ class Category extends Alias
             ],
             'Guardian Nanite Torpedo Pylon'     => [
                 1972, 1973,
-            ]
+            ],
          ],
 
         // Utility Mount
@@ -297,7 +302,7 @@ class Category extends Alias
                 
                             3923,       3925,
                       3932, 3933,       3935,
-                      3942, 3943,       3945,
+                3941, 3942, 3943,       3945,
                 3951, 3952, 3953, 3954, 3955, 
                       3962, 3963, 3964, 3965, 
                 3971, 3972, 3973,       3975,

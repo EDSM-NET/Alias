@@ -40,6 +40,9 @@ class BoostEnergy extends Alias
         // Beluga Liner
         128049345               => 19,
 
+        // Caspian Explorer
+        129036569               => 25,
+
         // Cobra MkIII
         128049279               => 10,
 

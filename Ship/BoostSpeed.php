@@ -40,6 +40,9 @@ class BoostSpeed extends Alias
         // Beluga Liner
         128049345               => 280,
 
+        // Caspian Explorer
+        129036569               => 290,
+
         // Cobra MkIII
         128049279               => 400,
 

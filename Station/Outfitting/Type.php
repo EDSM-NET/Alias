@@ -337,6 +337,13 @@ class Type extends Alias
            453  => 'Mk II Ablative Military Grade Composite',
            454  => 'Mk II Ablative Mirrored Surface Composite',
            455  => 'Mk II Ablative Reactive Surface Composite',
+        
+        // Bulkhead > Kestrel Mk II
+           461  => 'Lightweight Alloy',
+           462  => 'Reinforced Alloy',
+           463  => 'Military Grade Composite',
+           464  => 'Mirrored Surface Composite',
+           465  => 'Reactive Surface Composite',
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 'Sub-Surface Displacement Missile (Fixed)',
@@ -459,6 +466,7 @@ class Type extends Alias
           1304  => 'Plasma Accelerator (Fixed)',
 
           1313  => 'Advanced Plasma Accelerator (Fixed, Powerplay)',
+          1314  => 'Mk II Plasma Shock Accelerator',
 
           1321  => 'Plasma Charger (Fixed, Guardian)',
           1322  => 'Plasma Charger (Fixed, Guardian)',
@@ -578,6 +586,9 @@ class Type extends Alias
         // Weapon Hardpoint > Guardian Nanite Torpedo Pylon
           1972  => 'Guardian Nanite Torpedo Pylon',
           1973  => 'Guardian Nanite Torpedo Pylon',
+        
+        // Weapon Hardpoint > Volley Repeater
+          1983  => 'Mining Volley Repeater',
 
         // Utility Mount > Shield Booster
           2001  => 'Shield Booster',
@@ -740,6 +751,8 @@ class Type extends Alias
           3233  => 'Thrusters',
           3234  => 'Thrusters',
           3235  => 'Thrusters',
+        
+          3236  => 'MkII Agile Boost Thrusters',
 
           3241  => 'Thrusters',
           3242  => 'Thrusters',
@@ -993,6 +1006,7 @@ class Type extends Alias
           3933  => 'Frame Shift Drive (SCO)',
           3935  => 'Frame Shift Drive (SCO)',
         
+          3941  => 'Frame Shift Drive (SCO)',
           3942  => 'Frame Shift Drive (SCO)',
           3943  => 'Frame Shift Drive (SCO)',
           3945  => 'Frame Shift Drive (SCO)',
@@ -1600,6 +1614,8 @@ class Type extends Alias
           6411  => 'Mining Multi Limpet Controller',
           6413  => 'Mining Multi Limpet Controller',
         
+          6415  => 'Mk II Mining Multi-Limpet',
+        
           6423  => 'Operations Multi Limpet Controller',
           6424  => 'Operations Multi Limpet Controller',
         
@@ -1944,6 +1960,13 @@ class Type extends Alias
         'explorer_nx_armour_grade3'                     => 453,
         'explorer_nx_armour_mirrored'                   => 454,
         'explorer_nx_armour_reactive'                   => 455,
+        
+        // Bulkhead > Kestrel Mk II
+        'smallcombat01_nx_armour_grade1'                => 461,
+        'smallcombat01_nx_armour_grade2'                => 462,
+        'smallcombat01_nx_armour_grade3'                => 463,
+        'smallcombat01_nx_armour_mirrored'              => 464,
+        'smallcombat01_nx_armour_reactive'              => 465,
 
 
 
@@ -2068,6 +2091,7 @@ class Type extends Alias
         'hpt_plasmaaccelerator_fixed_huge'              => 1304,
 
         'hpt_plasmaaccelerator_fixed_large_advanced'    => 1313,
+        'hpt_mkiiplasmashockautocannon_fixed_large'     => 1314,
 
         'hpt_guardian_plasmalauncher_fixed_small'       => 1321,
         'hpt_guardian_plasmalauncher_fixed_medium'      => 1322,
@@ -2191,6 +2215,9 @@ class Type extends Alias
         // Weapon Hardpoint > Guardian Nanite Torpedo Pylon
         'hpt_atventdisruptorpylon_fixed_medium'         => 1972,
         'hpt_atventdisruptorpylon_fixed_large'          => 1973,
+        
+        // Weapon Hardpoint > Volley Repeater
+        'hpt_miningtoolv2_fixed_large'                  => 1983,
 
 
 
@@ -2355,6 +2382,8 @@ class Type extends Alias
         'int_engine_size5_class3'                       => 3233,
         'int_engine_size5_class4'                       => 3234,
         'int_engine_size5_class5'                       => 3235,
+        
+        'int_mkiiagileboost_engine_size5_class5'        => 3236,
 
         'int_engine_size6_class1'                       => 3241,
         'int_engine_size6_class2'                       => 3242,
@@ -2609,6 +2638,7 @@ class Type extends Alias
         'int_hyperdrive_overcharge_size3_class3'        => 3933,
         'int_hyperdrive_overcharge_size3_class5'        => 3935,
         
+        'int_hyperdrive_overcharge_size4_class1'        => 3941,
         'int_hyperdrive_overcharge_size4_class2'        => 3942,
         'int_hyperdrive_overcharge_size4_class3'        => 3943,
         'int_hyperdrive_overcharge_size4_class5'        => 3945,
@@ -3218,6 +3248,8 @@ class Type extends Alias
         
         'int_multidronecontrol_mining_size3_class1'     => 6411,
         'int_multidronecontrol_mining_size3_class3'     => 6413,
+        
+        'int_multidronecontrol_miningv2_size5_class5'   => 6415,
         
         'int_multidronecontrol_operations_size3_class3' => 6423,
         'int_multidronecontrol_operations_size3_class4' => 6424,

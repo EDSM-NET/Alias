@@ -334,8 +334,13 @@ class Mass extends Alias
            445 => 63,
         
         // Bulkhead > Caspian Explorer
+           
            451 => 15,
            452 => 30,
+           453 => 60,
+        
+        // Bulkhead > Kestrel Mk II
+           463 => 35,
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 2,
@@ -413,6 +418,8 @@ class Mass extends Alias
           1159  => 2,
           1160  => 4,
           1161  => 8,
+        
+          1176  => 4,
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 2,
@@ -549,6 +556,8 @@ class Mass extends Alias
           1855  => 2,
           1856  => 4,
           1857  => 8,
+        
+          1859  => 2,
 
           1860  => 4,
           1861  => 8,
@@ -995,6 +1004,7 @@ class Mass extends Alias
           3964  => 40,
           3965  => 40,
         
+          3971  => 80,
           3972  => 32,
           3973  => 80,
           3975  => 80,
@@ -1013,10 +1023,10 @@ class Mass extends Alias
         // Optional Internal > Cargo Rack
           4020  => 0,
           4021  => 0,
-          4022  => 0,   4023  => 0,     4024  => 0,     4025  => 0,     4026  => 0,     4027  => 0,     4028  => 0,
-          4031  => 0,   4032  => 0,     4033  => 0,     4034  => 0,
+                        4022  => 0,     4023  => 0,     4024  => 0,     4025  => 0,     4026  => 0,     4027  => 0,     4028  => 0,
+          4031  => 0,   4032  => 0,     4033  => 0,     4034  => 0,                     4036  => 0,  
         
-                                                                                        4047  => 0,     4048  => 0,
+                                                                                                        4047  => 0,     4048  => 0,
 
         // Optional Internal > Standard Docking Computer
           4051  => 0,

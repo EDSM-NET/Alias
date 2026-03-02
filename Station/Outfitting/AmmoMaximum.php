@@ -58,6 +58,8 @@ class AmmoMaximum extends Alias
           1159  => 100,
           1160  => 100,
           1161  => 100,
+        
+          1176  => 300,
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 180,

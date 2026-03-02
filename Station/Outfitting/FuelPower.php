@@ -69,6 +69,7 @@ class FuelPower extends Alias
         
           3925  => 2,
         
+          3932  => 2.15,
           3935  => 2.15,
         
           3945  => 2.3,
@@ -83,5 +84,7 @@ class FuelPower extends Alias
         
           3972  => 2.75,
           3975  => 2.75,
+        
+          3995  => 2.5025,
     ];
 }

@@ -51,6 +51,8 @@ class EngineOptimalMass extends Alias
           3233  => 700,
           3234  => 770,
           3235  => 840,
+        
+          3236  => 840,
 
           3241  => 960,
           3242  => 1080,

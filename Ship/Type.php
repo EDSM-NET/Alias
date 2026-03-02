@@ -41,6 +41,7 @@ class Type extends Alias
         128049375   => 'Imperial Cutter',
         128672138   => 'Imperial Eagle',
         128672269   => 'Keelback',
+        129039241   => 'Kestrel Mk II',
         128816567   => 'Krait Mk II',
         128839281   => 'Krait Phantom',
         128915979   => 'Mamba',
@@ -169,6 +170,9 @@ class Type extends Alias
         // Keelback
         'keelback'                          => 128672269,
         'independant_trader'                => 128672269,
+        
+        // Kestrel Mk II
+        'smallcombat01_nx'                  => 129039241,
 
         // Krait MkII
         'krait_mkii'                        => 128816567,

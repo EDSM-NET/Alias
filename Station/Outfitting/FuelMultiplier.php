@@ -98,5 +98,7 @@ class FuelMultiplier extends Alias
           3973  => 8,
           3974  => 10,
           3975  => 12,
+
+          3995  => 12,
     ];
 }

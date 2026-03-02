@@ -105,6 +105,8 @@ class MaximumRange extends Alias
           1159  => 3000,
           1160  => 3500,
           1161  => 4000,
+        
+          1176  => 3500,
 
         // Weapon Hardpoint > Fragment Cannon
           1201  => 2000,

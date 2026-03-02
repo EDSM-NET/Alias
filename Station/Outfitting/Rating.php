@@ -337,6 +337,13 @@ class Rating extends Alias
            453  => 'A',
            454  => 'A',
            455  => 'A',
+        
+        // Bulkhead > Kestrel Mk II
+           461  => 'C',
+           462  => 'B',
+           463  => 'A',
+           464  => 'A',
+           465  => 'A',
 
         // Weapon Hardpoint > Sub-Surface Displacement Missile
            951  => 'B',
@@ -458,6 +465,7 @@ class Rating extends Alias
           1304  => 'A',
 
           1313  => 'B',
+          1314  => 'B',
 
           1321  => 'E', //TODO: Check on release
           1322  => 'B',
@@ -577,6 +585,9 @@ class Rating extends Alias
         // Weapon Hardpoint > Guardian Nanite Torpedo Pylon
           1972  => 'I',
           1973  => 'I',
+        
+        // Weapon Hardpoint > Volley Repeater
+          1983  => 'C',
 
         // Utility Mount > Shield Booster
           2001  => 'E',
@@ -736,6 +747,8 @@ class Rating extends Alias
           3233  => 'C',
           3234  => 'B',
           3235  => 'A',
+        
+          3236  => 'A',
 
           3241  => 'E',
           3242  => 'D',
@@ -986,6 +999,7 @@ class Rating extends Alias
           3933  => 'C',
           3935  => 'A',
         
+          3941  => 'E',
           3942  => 'D',
           3943  => 'C',
           3945  => 'A',
@@ -1586,6 +1600,7 @@ class Rating extends Alias
         
           6411  => 'E',
           6413  => 'C',
+          6415  => 'A',
         
           6423  => 'C',
           6424  => 'B',

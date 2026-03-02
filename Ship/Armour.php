@@ -39,6 +39,9 @@ class Armour extends Alias
         // Beluga Liner
         128049345               => 504,
 
+        // Caspian Explorer
+        129036569               => 345,
+
         // Cobra MkIII
         128049279               => 162,
 
